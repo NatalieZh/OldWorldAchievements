@@ -3864,10 +3864,10 @@
     "civs": "Египет",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Основать египетское язычество",
-    "tactic": "Планируй религию заранее: основание, распространение, теологии и святые города часто требуют нескольких ходов.",
+    "guide": "Играть за Египет и завершить первое святилище. Первое святилище нации основывает её языческую религию — египетское язычество.",
+    "tactic": "Это удобно сделать в начале партии: открой доступ к одному из египетских святилищ и построй его как можно раньше. Языческие религии привязаны к нации и не используют последователей или теологии.",
     "editor": "Частично — редактор умеет добавлять религии в города",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "source": "https://wiki.hoodedhorse.com/Old_World/Religion",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [
@@ -3880,7 +3880,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "strict",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Religion",
+    "guideVerified": true
   },
   {
     "id": "a132",
@@ -3891,10 +3893,10 @@
     "civs": "Карфаген",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Основать карфагенское язычество",
-    "tactic": "Планируй религию заранее: основание, распространение, теологии и святые города часто требуют нескольких ходов.",
+    "guide": "Играть за Карфаген и завершить первое святилище. Первое святилище нации основывает её языческую религию — карфагенское язычество.",
+    "tactic": "Это удобно сделать в начале партии: открой доступ к одному из карфагенских святилищ и построй его как можно раньше. Языческие религии привязаны к нации и не используют последователей или теологии.",
     "editor": "Частично — редактор умеет добавлять религии в города",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "source": "https://wiki.hoodedhorse.com/Old_World/Religion",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [
@@ -3907,7 +3909,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "strict",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Religion",
+    "guideVerified": true
   },
   {
     "id": "a133",
@@ -4122,8 +4126,8 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Изучить технологию «Экономическая реформа»",
-    "tactic": "Исследуй указанную технологию. Дерево работает как колода: иногда карту нужно дождаться после перемешивания.",
+    "guide": "Изучить технологию VIII уровня «Экономическая реформа». Она становится доступна после «Налоговой политики», стоит 2000 науки и не может быть получена как бесплатная технология. Первое завершение открывает достижение; каждое исследование также даёт 1 победное очко и придворного-торговца.",
+    "tactic": "Продвигайся по экономической ветке до «Налоговой политики» и поддерживай высокий доход науки. После открытия «Экономической реформы» карта попадёт в колоду технологий: если она не появилась сразу, исследуй другие карты, чтобы приблизить перемешивание колоды. Лидер-учёный может раз в год заменить предложенные карты.",
     "editor": "Да — редактор умеет исследовать технологии",
     "source": "https://wiki.hoodedhorse.com/Old_World/Technology",
     "isScenario": false,
@@ -4136,7 +4140,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Technology",
+    "guideVerified": true
   },
   {
     "id": "a140",
@@ -4215,8 +4221,8 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Изучить технологию «Престиж военной службы»",
-    "tactic": "Исследуй указанную технологию. Дерево работает как колода: иногда карту нужно дождаться после перемешивания.",
+    "guide": "Изучить технологию VIII уровня «Престиж военной службы». Для её открытия нужно изучить «Конский доспех», «Бронебойную стрелу» и «Когорты». Технология стоит 2000 науки и не может быть получена бесплатно. Первое завершение открывает достижение; каждое исследование также даёт 1 победное очко и придворного-воина.",
+    "tactic": "Заранее развивай все три военные ветки, поскольку одной линии недостаточно. После изучения трёх требуемых технологий продолжай перебирать колоду, пока не появится «Престиж военной службы». Высокий доход науки и лидер-учёный с ежегодной заменой карт заметно ускоряют поиск.",
     "editor": "Да — редактор умеет исследовать технологии",
     "source": "https://wiki.hoodedhorse.com/Old_World/Technology",
     "isScenario": false,
@@ -4229,7 +4235,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Technology",
+    "guideVerified": true
   },
   {
     "id": "a143",
@@ -4240,8 +4248,8 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Изучить технологию «Промышленный прогресс»",
-    "tactic": "Исследуй указанную технологию. Дерево работает как колода: иногда карту нужно дождаться после перемешивания.",
+    "guide": "Изучить технологию VIII уровня «Промышленный прогресс». Для её открытия нужны «Цепной привод» и «Баллистика». Технология стоит 2000 науки и не может быть получена бесплатно. Первое завершение открывает достижение; каждое исследование также даёт 1 победное очко и придворного-министра.",
+    "tactic": "Продвигайся параллельно к «Цепному приводу» и «Баллистике», затем продолжай исследовать доступные карты до появления «Промышленного прогресса». Накопи сильный доход науки к концу партии; лидер-учёный полезен благодаря ежегодной возможности заменить предложенные карты.",
     "editor": "Да — редактор умеет исследовать технологии",
     "source": "https://wiki.hoodedhorse.com/Old_World/Technology",
     "isScenario": false,
@@ -4254,7 +4262,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Technology",
+    "guideVerified": true
   },
   {
     "id": "a144",
@@ -4333,10 +4343,10 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Основать почитание",
-    "tactic": "Планируй религию заранее: основание, распространение, теологии и святые города часто требуют нескольких ходов.",
+    "guide": "Сделать мировую религию государственной, обучить её последователя и этим последователем основать теологию «Почитание». Технология не требуется; стоимость основания — 200 цивики.",
+    "tactic": "Прими нужную мировую религию как государственную, накопи не менее 200 цивики и заранее обучи последователя. Один последователь основывает одну теологию; «Почитание» относится к первому уровню и доступно без дополнительной технологии.",
     "editor": "Частично — редактор умеет добавлять религии в города",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "source": "https://wiki.hoodedhorse.com/Old_World/Religion",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [],
@@ -4347,7 +4357,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Religion",
+    "guideVerified": true
   },
   {
     "id": "a147",
@@ -4358,10 +4370,10 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Основать прозрение",
-    "tactic": "Планируй религию заранее: основание, распространение, теологии и святые города часто требуют нескольких ходов.",
+    "guide": "Сделать мировую религию государственной, обучить её последователя и этим последователем основать теологию «Прозрение», предварительно изучив технологию «Рабочая сила». Стоимость основания — 400 цивики.",
+    "tactic": "Сначала прими нужную мировую религию как государственную и изучи «Рабочую силу». Затем накопи не менее 400 цивики и держи последователя готовым: один последователь основывает одну теологию.",
     "editor": "Частично — редактор умеет добавлять религии в города",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "source": "https://wiki.hoodedhorse.com/Old_World/Religion",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [],
@@ -4372,7 +4384,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Religion",
+    "guideVerified": true
   },
   {
     "id": "a148",
@@ -4507,10 +4521,10 @@
     "civs": "Ассирия",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Основать ассирийское язычество",
-    "tactic": "Планируй религию заранее: основание, распространение, теологии и святые города часто требуют нескольких ходов.",
+    "guide": "Играть за Ассирию и завершить первое святилище. Первое святилище нации основывает её языческую религию — ассирийское язычество.",
+    "tactic": "Это удобно сделать в начале партии: открой доступ к одному из ассирийских святилищ и построй его как можно раньше. Языческие религии привязаны к нации и не используют последователей или теологии.",
     "editor": "Частично — редактор умеет добавлять религии в города",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "source": "https://wiki.hoodedhorse.com/Old_World/Religion",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [
@@ -4523,7 +4537,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "strict",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Religion",
+    "guideVerified": true
   },
   {
     "id": "a153",
@@ -5036,25 +5052,27 @@
     "condition": "Основать кушитское язычество",
     "category": "Религия / теология",
     "civs": "Куш",
-    "dlc": "Основная игра / другое",
+    "dlc": "Pharaohs of the Nile",
     "rarity": null,
-    "guide": "Основать кушитское язычество",
-    "tactic": "Планируй религию заранее: основание, распространение, теологии и святые города часто требуют нескольких ходов.",
+    "guide": "Играть за Куш и завершить первое святилище. Первое святилище нации основывает её языческую религию — кушитское язычество.",
+    "tactic": "Это удобно сделать в начале партии: открой доступ к одному из кушитских святилищ и построй его как можно раньше. Языческие религии привязаны к нации и не используют последователей или теологии.",
     "editor": "Частично — редактор умеет добавлять религии в города",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "source": "https://wiki.hoodedhorse.com/Old_World/Religion",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [
       "Куш"
     ],
     "targetCivs": [],
-    "dlcName": "Основная игра",
+    "dlcName": "Pharaohs of the Nile",
     "scenarioName": "",
     "settingTags": [],
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "strict",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Religion",
+    "guideVerified": true
   },
   {
     "id": "a172",
@@ -5571,25 +5589,27 @@
     "condition": "Основать аксумское язычество",
     "category": "Религия / теология",
     "civs": "Аксум",
-    "dlc": "Основная игра / другое",
+    "dlc": "Wrath of Gods",
     "rarity": null,
-    "guide": "Основать аксумское язычество",
-    "tactic": "Планируй религию заранее: основание, распространение, теологии и святые города часто требуют нескольких ходов.",
+    "guide": "Играть за Аксум и завершить первое святилище. Первое святилище нации основывает её языческую религию — аксумское язычество.",
+    "tactic": "Это удобно сделать в начале партии: открой доступ к одному из аксумских святилищ и построй его как можно раньше. Языческие религии привязаны к нации и не используют последователей или теологии.",
     "editor": "Частично — редактор умеет добавлять религии в города",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "source": "https://wiki.hoodedhorse.com/Old_World/Religion",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [
       "Аксум"
     ],
     "targetCivs": [],
-    "dlcName": "Основная игра",
+    "dlcName": "Wrath of Gods",
     "scenarioName": "",
     "settingTags": [],
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "strict",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Religion",
+    "guideVerified": true
   },
   {
     "id": "a192",
@@ -5687,10 +5707,10 @@
     "civs": "",
     "dlc": "The Sacred and The Profane",
     "rarity": null,
-    "guide": "Найти великого волхва (Божественное и мирское)",
-    "tactic": "Планируй религию заранее: основание, распространение, теологии и святые города часто требуют нескольких ходов.",
+    "guide": "Пройти цепочку событий об Остане из дополнения The Sacred and The Profane. В событии со слухами об Остане выбери отправку агентов на поиски; после завершения поисков прими найденную учёную ко двору. Следующее событие раскроет её как легендарного волхва и выдаст достижение.",
+    "tactic": "Цепочка может начаться после 30-го хода, если в другой державе есть зороастризм с теологией «Мифология», а при твоём дворе не больше трёх придворных. Не запрещай труды Остана: выбери поиск и дождись продолжений цепочки.",
     "editor": "Частично — редактор умеет добавлять религии в города",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "source": "https://wiki.hoodedhorse.com/Old_World/Downloadable_Content",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [],
@@ -5701,7 +5721,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Downloadable_Content",
+    "guideVerified": true
   },
   {
     "id": "a196",
@@ -5767,10 +5789,10 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Сделать так, чтобы одновременно действовали законы «Единобожие», «Догматизм», «Иконопись» и «Паломничество»",
-    "tactic": "Планируй религию заранее: основание, распространение, теологии и святые города часто требуют нескольких ходов.",
+    "guide": "Одновременно принять четыре закона: «Единобожие», «Догматизм», «Иконопись» и «Паломничество». Они находятся в разных парах законов, поэтому не исключают друг друга; достижение проверяется в начале следующего хода.",
+    "tactic": "Последовательно изучи «Монашество», «Доктрину», «Систему сводов» и «Боевой кодекс» — эти технологии открывают нужные пары законов. Накопи цивику на принятие законов и учти, что у всех четырёх есть постоянные расходы.",
     "editor": "Частично — редактор умеет добавлять религии в города",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "source": "https://wiki.hoodedhorse.com/Old_World/Laws",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [],
@@ -5781,7 +5803,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Laws",
+    "guideVerified": true
   },
   {
     "id": "a199",
@@ -6641,17 +6665,17 @@
     "condition": "Основать индуизм",
     "category": "Религия / теология",
     "civs": "",
-    "dlc": "Основная игра / другое",
+    "dlc": "Empires of the Indus",
     "rarity": null,
-    "guide": "Основать индуизм",
-    "tactic": "Планируй религию заранее: основание, распространение, теологии и святые города часто требуют нескольких ходов.",
+    "guide": "Играть за Маурьев, Юэчжи или Тамилакам и завершить первое святилище. Для этих трёх наций индуизм занимает место национальной языческой религии и основывается первым построенным святилищем.",
+    "tactic": "Построй доступное национальное святилище в начале партии, раньше чем откладывать рабочих на дальние улучшения. В отличие от обычного язычества индуизм использует последователей, религиозные сооружения и теологии.",
     "editor": "Частично — редактор умеет добавлять религии в города",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "source": "https://wiki.hoodedhorse.com/Old_World/Religion",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [],
     "targetCivs": [],
-    "dlcName": "Основная игра",
+    "dlcName": "Empires of the Indus",
     "scenarioName": "",
     "settingTags": [],
     "affinityCivs": [
@@ -6661,7 +6685,9 @@
     ],
     "nationalUnique": false,
     "nationalLinkType": "affinity",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Religion",
+    "guideVerified": true
   },
   {
     "id": "a231",
@@ -7432,10 +7458,10 @@
     "civs": "",
     "dlc": "The Sacred and The Profane",
     "rarity": null,
-    "guide": "Один из ваших персонажей должен совершить паломничество (Божественное и мирское)",
-    "tactic": "Планируй религию заранее: основание, распространение, теологии и святые города часто требуют нескольких ходов.",
+    "guide": "Принять закон «Паломничество» и дождаться события, в котором придворный той же веры просит разрешения посетить священный город. Разреши поездку и дождись события о её завершении — тогда открывается достижение.",
+    "tactic": "Закон «Паломничество» открывается технологией «Боевой кодекс». Для начального события нужен не лидер, исповедующий религию со священным городом; этот священный город должен принадлежать другой державе, с которой заключён мир или перемирие. Не отзывай персонажа из поездки в промежуточных событиях.",
     "editor": "Частично — редактор умеет добавлять религии в города",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "source": "https://wiki.hoodedhorse.com/Old_World/Downloadable_Content",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [],
@@ -7446,7 +7472,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Downloadable_Content",
+    "guideVerified": true
   },
   {
     "id": "a261",
@@ -8149,10 +8177,10 @@
     "civs": "",
     "dlc": "The Sacred and The Profane",
     "rarity": null,
-    "guide": "Сделать святого Павла патриархом христианства (Божественное и мирское)",
-    "tactic": "Планируй религию заранее: основание, распространение, теологии и святые города часто требуют нескольких ходов.",
+    "guide": "Получить Савла через событие «Полководец Савл», затем дождаться его обращения в христианство: после обращения он становится Павлом и входит в христианское духовенство. Достижение выдаётся, когда Павел становится главой христианства.",
+    "tactic": "Для начала цепочки христианство должно присутствовать в одном из твоих городов, но не быть государственной религией. Пригласи Савла ко двору, сохрани его в живых и поддержи обращение. После этого повышай его шансы возглавить религию: благочестивые персонажи получают преимущество, а смена главы происходит после освобождения этой должности.",
     "editor": "Частично — редактор умеет добавлять религии в города",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "source": "https://wiki.hoodedhorse.com/Old_World/Downloadable_Content",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [],
@@ -8163,7 +8191,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Downloadable_Content",
+    "guideVerified": true
   },
   {
     "id": "a288",
@@ -11204,10 +11234,10 @@
     "civs": "",
     "dlc": "The Sacred and The Profane",
     "rarity": null,
-    "guide": "Получить раскол во всех четырех мировых религиях одновременно (Божественное и мирское)",
-    "tactic": "Планируй религию заранее: основание, распространение, теологии и святые города часто требуют нескольких ходов.",
+    "guide": "Добиться, чтобы в одном твоём городе одновременно действовали четыре проекта раскола: зороастрийский, иудейский, христианский и манихейский. Одного раскола каждой религии в разных городах недостаточно.",
+    "tactic": "Сначала распространи все четыре мировые религии в один город. Затем опусти мнение каждой из них до уровня «Расстроенное» или ниже: в таком городе раскол может возникнуть случайно. Не выполняй миссию «Смягчить раскол» и проект «Подавить раскол», пока не появятся все четыре.",
     "editor": "Частично — редактор умеет добавлять религии в города",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "source": "https://wiki.hoodedhorse.com/Old_World/Religion",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [],
@@ -11218,7 +11248,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Religion",
+    "guideVerified": true
   },
   {
     "id": "a402",
@@ -11229,10 +11261,10 @@
     "civs": "",
     "dlc": "The Sacred and The Profane",
     "rarity": null,
-    "guide": "Иметь пять культов (Божественное и мирское)",
-    "tactic": "Планируй религию заранее: основание, распространение, теологии и святые города часто требуют нескольких ходов.",
+    "guide": "Иметь одновременно пять культов — особых улучшений, которые появляются благодаря событиям дополнения The Sacred and The Profane. Счётчик достижения увеличивается, когда выбранный вариант события создаёт культ.",
+    "tactic": "Чаще выбирай варианты событий, которые строят культовое улучшение в городе, и сохраняй уже созданные культы. После трёх культов могут начаться неблагоприятные события; не выбирай решения, удаляющие культ, пока счётчик не достигнет пяти.",
     "editor": "Частично — редактор умеет добавлять религии в города",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "source": "https://wiki.hoodedhorse.com/Old_World/Downloadable_Content",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [],
@@ -11243,7 +11275,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Downloadable_Content",
+    "guideVerified": true
   },
   {
     "id": "a403",
