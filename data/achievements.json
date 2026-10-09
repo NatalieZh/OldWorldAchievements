@@ -5143,10 +5143,10 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Захватить десять городов в одной игре",
-    "tactic": "Сохранись до ключевой войны и проследи, чтобы именно ты выполнила уничтожение/захват/цепочку действий.",
-    "editor": "Частично — редактор может менять владение городами и юнитами",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "guide": "В одной партии захватить 10 городов. Счётчик увеличивается при каждом успешном захвате; владеть всеми десятью одновременно не требуется.",
+    "tactic": "Выбери карту с несколькими соперниками и достаточным числом городов. Ослабляй городскую оборону основной армией, а захватывающий юнит держи рядом; не заканчивай партию, пока счётчик не достигнет десяти.",
+    "editor": "",
+    "source": "https://steamcommunity.com/stats/597180/achievements?l=russian",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [],
@@ -5157,7 +5157,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a175",
@@ -5487,10 +5489,10 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Выполнить пять штурмов подряд одним юнитом за один ход",
-    "tactic": "Сохранись до ключевой войны и проследи, чтобы именно ты выполнила уничтожение/захват/цепочку действий.",
-    "editor": "Частично — редактор может менять владение городами и юнитами",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "guide": "В Steam это достижение называется «Пять штурмов», но в текущей русской локализации самой игры механика называется «Разгром». Одним юнитом с эффектом «Разгром» нужно уничтожить пять юнитов подряд за один ход. После каждого уничтожения этот эффект позволяет тому же юниту атаковать снова.",
+    "tactic": "Заранее ослабь пять вражеских юнитов другими войсками и оставь их в пределах досягаемости колесницы, всадника, катафракта или слона с «Разгромом». Запаси приказы и добивай все пять целей только выбранным юнитом, не завершая ход.",
+    "editor": "",
+    "source": "https://steamcommunity.com/stats/597180/achievements?l=russian",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [],
@@ -5501,7 +5503,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Units",
+    "guideVerified": true
   },
   {
     "id": "a188",
@@ -5973,10 +5977,10 @@
     "civs": "Греция, Рим",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Уничтожить Грецию, играя за Рим",
-    "tactic": "Сохранись до ключевой войны и проследи, чтобы именно ты выполнила уничтожение/захват/цепочку действий.",
-    "editor": "Частично — редактор может менять владение городами и юнитами",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "guide": "Играть за Рим и дождаться полного уничтожения Греции в этой же партии. Достижение проверяет устранение греческой державы; лично захватывать её последний город не обязательно.",
+    "tactic": "При создании партии обязательно добавь Грецию соперником. Для контролируемого прохождения выбери небольшую карту, найди её пораньше и не позволяй другой державе поглотить основные греческие города раньше твоего наступления.",
+    "editor": "",
+    "source": "https://steamcommunity.com/stats/597180/achievements?l=russian",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [
@@ -5991,7 +5995,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "strict",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a206",
@@ -6031,10 +6037,10 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Убить своего наследника",
-    "tactic": "Сохранись до ключевой войны и проследи, чтобы именно ты выполнила уничтожение/захват/цепочку действий.",
-    "editor": "Частично — редактор может менять владение городами и юнитами",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "guide": "Успешно завершить миссию «Убить», выбрав целью собственного действующего наследника. Наследник должен погибнуть именно в результате покушения.",
+    "tactic": "Дождись совершеннолетия наследника и назначь сильного тайного советника. Запусти миссию против наследника и учитывай, что у неё есть неудачные исходы; удобно сохраниться перед началом попытки.",
+    "editor": "",
+    "source": "https://steamcommunity.com/stats/597180/achievements?l=russian",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [],
@@ -6045,7 +6051,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Characters",
+    "guideVerified": true
   },
   {
     "id": "a208",
@@ -6291,10 +6299,10 @@
     "civs": "Ассирия, Вавилония",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Уничтожить Ассирию, играя за Вавилонию",
-    "tactic": "Сохранись до ключевой войны и проследи, чтобы именно ты выполнила уничтожение/захват/цепочку действий.",
-    "editor": "Частично — редактор может менять владение городами и юнитами",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "guide": "Играть за Вавилонию и дождаться полного уничтожения Ассирии в этой же партии. Достижение проверяет устранение ассирийской державы; лично захватывать её последний город не обязательно.",
+    "tactic": "При создании партии обязательно добавь Ассирию соперником. На небольшой карте заранее разведай её границы, подготовь осадные и прикрывающие юниты и последовательно лишай Ассирию всех городов.",
+    "editor": "",
+    "source": "https://steamcommunity.com/stats/597180/achievements?l=russian",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [
@@ -6309,7 +6317,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "strict",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a217",
@@ -6374,10 +6384,10 @@
     "civs": "Карфаген, Рим",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Уничтожить Карфаген, играя за Рим",
-    "tactic": "Сохранись до ключевой войны и проследи, чтобы именно ты выполнила уничтожение/захват/цепочку действий.",
-    "editor": "Частично — редактор может менять владение городами и юнитами",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "guide": "Играть за Рим и дождаться полного уничтожения Карфагена в этой же партии. Достижение проверяет устранение карфагенской державы; лично захватывать её последний город не обязательно.",
+    "tactic": "При создании партии обязательно добавь Карфаген соперником. Учитывай возможное море между вами: заранее подготовь переправу или выбери карту, где столицы связаны сушей, чтобы война не затянулась.",
+    "editor": "",
+    "source": "https://steamcommunity.com/stats/597180/achievements?l=russian",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [
@@ -6392,7 +6402,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "strict",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a220",
@@ -6502,30 +6514,30 @@
     "id": "a224",
     "n": 224,
     "name": "И ты, Брут?",
-    "condition": "При игре за Рим убить лидера другой римской семьей",
+    "condition": "При игре за Рим лидер должен быть убит представителем другой римской семьи",
     "category": "Военное / историческое",
     "civs": "Рим",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "При игре за Рим убить лидера другой римской семьей",
-    "tactic": "Сохранись до ключевой войны и проследи, чтобы именно ты выполнила уничтожение/захват/цепочку действий.",
-    "editor": "Частично — редактор может менять владение городами и юнитами",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "guide": "Играть за Рим и получить редкое событие, в котором глава другой римской семьи убивает вашего лидера. Подходящий глава семьи должен быть мстительно настроен или замышлять заговор против лидера.",
+    "tactic": "Это событийное достижение, а не обычная миссия убийства. Поддерживай в игре враждебного главу другой семьи и не устраняй его; после появления нужного события выбери вариант, приводящий к смерти лидера.",
+    "editor": "",
+    "source": "https://steamcommunity.com/stats/597180/achievements?l=russian",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [
       "Рим"
     ],
-    "targetCivs": [
-      "Рим"
-    ],
+    "targetCivs": [],
     "dlcName": "Основная игра",
     "scenarioName": "",
     "settingTags": [],
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "strict",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Characters",
+    "guideVerified": true
   },
   {
     "id": "a225",
@@ -6752,10 +6764,10 @@
     "civs": "Вавилония, Персия",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Уничтожить Вавилонию, играя за Персию",
-    "tactic": "Сохранись до ключевой войны и проследи, чтобы именно ты выполнила уничтожение/захват/цепочку действий.",
-    "editor": "Частично — редактор может менять владение городами и юнитами",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "guide": "Играть за Персию и дождаться полного уничтожения Вавилонии в этой же партии. Достижение проверяет устранение вавилонской державы; лично захватывать её последний город не обязательно.",
+    "tactic": "При создании партии обязательно добавь Вавилонию соперником. На небольшой карте не откладывай разведку и войну: развитые вавилонские города быстро усиливают экономику и усложняют позднее завоевание.",
+    "editor": "",
+    "source": "https://steamcommunity.com/stats/597180/achievements?l=russian",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [
@@ -6770,7 +6782,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "strict",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a234",
@@ -7192,21 +7206,23 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Пережить нападение орды варваров",
-    "tactic": "Сохранись до ключевой войны и проследи, чтобы именно ты выполнила уничтожение/захват/цепочку действий.",
-    "editor": "Частично — редактор может менять владение городами и юнитами",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
-    "isScenario": false,
-    "scenario": "",
+    "guide": "Запустить отдельный сценарий «Орда варваров», пережить начало восстания и уничтожить всех появившихся налётчиков орды. Победа сценария и достижение срабатывают, когда счётчик оставшихся налётчиков опускается до нуля.",
+    "tactic": "Для первого прохождения выбери долгую подготовку — 120 ходов — и организацию племени «Разбросанные». До восстания развивай производство войск, укрепляй пограничные направления и держи мобильный резерв для поиска последних отрядов.",
+    "editor": "",
+    "source": "https://steamcommunity.com/stats/597180/achievements?l=russian",
+    "isScenario": true,
+    "scenario": "Орда варваров",
     "playerCivs": [],
     "targetCivs": [],
     "dlcName": "Основная игра",
-    "scenarioName": "",
+    "scenarioName": "Орда варваров",
     "settingTags": [],
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a251",
@@ -7322,10 +7338,10 @@
     "civs": "Ассирия, Вавилония, Персия",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Уничтожить две другие нации из трех, играя за Ассирию, Вавилонию или Персию",
-    "tactic": "Сохранись до ключевой войны и проследи, чтобы именно ты выполнила уничтожение/захват/цепочку действий.",
-    "editor": "Частично — редактор может менять владение городами и юнитами",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "guide": "Играть за Ассирию, Вавилонию или Персию и в одной партии дождаться уничтожения двух остальных держав из этой тройки. Обе цели должны присутствовать в партии; наносить каждой последний удар лично не обязательно.",
+    "tactic": "Создай небольшую партию, вручную добавив все три нужные нации, и выбери одну из них для себя. Позволь двум соперникам ослаблять друг друга, а затем уничтожь оставшуюся сильнейшую державу. Лично наносить последний удар обеим нациям не требуется.",
+    "editor": "",
+    "source": "https://steamcommunity.com/stats/597180/achievements?l=russian",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [
@@ -7340,7 +7356,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "strict",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a256",
@@ -8881,10 +8899,10 @@
     "civs": "Греция, Персия",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Уничтожить Персию, играя за Александра Македонского из Греции",
-    "tactic": "Сохранись до ключевой войны и проследи, чтобы именно ты выполнила уничтожение/захват/цепочку действий.",
-    "editor": "Частично — редактор может менять владение городами и юнитами",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "guide": "Играть за Грецию под властью Александра Македонского и дождаться полного уничтожения Персии. Нужен именно Александр, а не любой другой греческий правитель.",
+    "tactic": "Начни за Грецию с доступным стартом за Александра либо с династией Филиппа и доведи Александра до престола. Обязательно добавь Персию соперником и только после воцарения Александра заверши её уничтожение.",
+    "editor": "",
+    "source": "https://steamcommunity.com/stats/597180/achievements?l=russian",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [
@@ -8899,7 +8917,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "strict",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a314",
@@ -8910,13 +8930,15 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Убить Апександра еще до того, как он достигнет совершеннолетия",
-    "tactic": "Сохранись до ключевой войны и проследи, чтобы именно ты выполнила уничтожение/захват/цепочку действий.",
-    "editor": "Частично — редактор может менять владение городами и юнитами",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "guide": "Описание в Steam устарело: в текущих файлах игры условие сформулировано как убийство Александра до того, как он станет лидером. В партии за Грецию с династией Филиппа дождись совершеннолетия наследника Александра и успешно выполни против него миссию «Убить», пока Филипп ещё находится у власти.",
+    "tactic": "Александр начинает ребёнком, а целью миссии может стать только взрослый персонаж. Дождись его совершеннолетия, но сохрани Филиппа у власти; затем назначь сильного тайного советника и проведи успешное покушение на Александра.",
+    "editor": "",
+    "source": "https://steamcommunity.com/stats/597180/achievements?l=russian",
     "isScenario": false,
     "scenario": "",
-    "playerCivs": [],
+    "playerCivs": [
+      "Греция"
+    ],
     "targetCivs": [],
     "dlcName": "Основная игра",
     "scenarioName": "",
@@ -8924,7 +8946,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Characters",
+    "guideVerified": true
   },
   {
     "id": "a315",
@@ -8962,21 +8986,25 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Пережить нападение орды варваров с друзьями",
-    "tactic": "Сохранись до ключевой войны и проследи, чтобы именно ты выполнила уничтожение/захват/цепочку действий.",
-    "editor": "Частично — редактор может менять владение городами и юнитами",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
-    "isScenario": false,
-    "scenario": "",
+    "guide": "Победить в сценарии «Орда варваров» в многопользовательской партии: пережить восстание и совместно уничтожить всех налётчиков орды. Все участвующие люди должны играть в одной команде.",
+    "tactic": "Выбери долгую подготовку и заранее раздели обязанности: один игрок укрепляет фронт, второй развивает мобильные войска и помогает добивать разрозненные отряды. Победа наступает только после уничтожения последнего налётчика.",
+    "editor": "",
+    "source": "https://steamcommunity.com/stats/597180/achievements?l=russian",
+    "isScenario": true,
+    "scenario": "Орда варваров",
     "playerCivs": [],
     "targetCivs": [],
     "dlcName": "Основная игра",
-    "scenarioName": "",
-    "settingTags": [],
+    "scenarioName": "Орда варваров",
+    "settingTags": [
+      "multiplayer"
+    ],
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a317",
@@ -9936,23 +9964,26 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Пережить нападение орды варваров на уровне сложности «Великий» с уровнем племен «Яростные»",
-    "tactic": "Сохранись до ключевой войны и проследи, чтобы именно ты выполнила уничтожение/захват/цепочку действий.",
-    "editor": "Частично — редактор может менять владение городами и юнитами",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
-    "isScenario": false,
-    "scenario": "",
+    "guide": "Победить в сценарии «Орда варваров» при сложности не ниже «Великий» и уровне племён не ниже «Яростные»: пережить восстание и уничтожить всех налётчиков орды.",
+    "tactic": "При настройке дважды проверь «Великий» и «Яростные». Остальные параметры можно облегчить: выбери долгую подготовку и «Разбросанную» организацию; заранее создай несколько укреплённых рубежей и большой резерв приказов.",
+    "editor": "",
+    "source": "https://steamcommunity.com/stats/597180/achievements?l=russian",
+    "isScenario": true,
+    "scenario": "Орда варваров",
     "playerCivs": [],
     "targetCivs": [],
     "dlcName": "Основная игра",
-    "scenarioName": "",
+    "scenarioName": "Орда варваров",
     "settingTags": [
+      "difficulty",
       "tribe_level"
     ],
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a354",
@@ -11038,10 +11069,10 @@
     "civs": "",
     "dlc": "Empires of the Indus",
     "rarity": null,
-    "guide": "Вы управляете 10 степными всадниками (Империи Инда)",
-    "tactic": "Сохранись до ключевой войны и проследи, чтобы именно ты выполнила уничтожение/захват/цепочку действий.",
-    "editor": "Частично — редактор может менять владение городами и юнитами",
-    "source": "https://wiki.hoodedhorse.com/Old_World/Game_Editor",
+    "guide": "В дополнении Empires of the Indus, играя за Юэчжи, одновременно иметь под своим управлением 10 юнитов «Степной всадник». Победа в партии и участие этих юнитов в бою не требуются.",
+    "tactic": "Юэчжи начинают с двумя степными всадниками. Изучи технологию «Полис», накопи дерево и муштру и обучи ещё восемь, лучше параллельно в нескольких городах. Не улучшай и не теряй готовых всадников, пока общий счётчик не достигнет десяти.",
+    "editor": "",
+    "source": "https://steamcommunity.com/stats/597180/achievements?l=russian",
     "isScenario": false,
     "scenario": "",
     "playerCivs": [
@@ -11054,7 +11085,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "strict",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Units",
+    "guideVerified": true
   },
   {
     "id": "a395",
