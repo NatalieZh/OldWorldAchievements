@@ -4465,8 +4465,8 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Сыграть в многопользовательскую игру",
-    "tactic": "Выставь указанный режим до старта. Для победной версии нужно именно выиграть партию в этом режиме.",
+    "guide": "Запустить синхронную многопользовательскую партию по сети. Достижение засчитывается при старте партии: завершать или выигрывать её не требуется. Подходят обычная сетевая игра, выделенный сервер и игра по локальной сети; Hotseat и «Игра через облако» считаются отдельными режимами.",
+    "tactic": "Создай сетевое лобби или присоединись к нему и дождись загрузки карты. Если планируешь собирать остальные сетевые достижения, сразу выбери режим «Каждый за себя», командную игру или дуэль — одна партия может выполнить несколько условий.",
     "editor": "Нет",
     "source": "https://wiki.hoodedhorse.com/Old_World/Achievements",
     "isScenario": false,
@@ -4481,7 +4481,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a151",
@@ -4658,8 +4660,8 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Сыграть в режиме «Каждый за себя» (>2 игрока)",
-    "tactic": "Выставь указанный режим до старта. Для победной версии нужно именно выиграть партию в этом режиме.",
+    "guide": "Запустить многопользовательскую партию в режиме «Каждый за себя» с тремя или более сторонами. Все стороны должны находиться в отдельных командах. Подходит и Hotseat. Достижение засчитывается при старте партии, поэтому завершать её не нужно.",
+    "tactic": "Проще всего создать Hotseat-партию минимум на три стороны и назначить каждой отдельную команду. В сетевой партии свободные места можно отдать ИИ: игра считает все стороны, а не только людей.",
     "editor": "Нет",
     "source": "https://wiki.hoodedhorse.com/Old_World/Achievements",
     "isScenario": false,
@@ -4674,7 +4676,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a158",
@@ -4992,8 +4996,8 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Сыграть в командную сетевую игру",
-    "tactic": "Выставь указанный режим до старта. Для победной версии нужно именно выиграть партию в этом режиме.",
+    "guide": "Запустить многопользовательскую партию, в которой стороны объединены в команды. Несмотря на слово «сетевая» в названии достижения, подходит и Hotseat. Достижение засчитывается при старте партии: побеждать или доигрывать её не требуется.",
+    "tactic": "Проще всего создать Hotseat-партию на четыре стороны и разделить их на две команды по две. Перед запуском проверь номера команд: в каждой команде должно быть несколько сторон.",
     "editor": "Нет",
     "source": "https://wiki.hoodedhorse.com/Old_World/Achievements",
     "isScenario": false,
@@ -5009,7 +5013,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a170",
@@ -5654,8 +5660,8 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Сыграть в режиме дуэли",
-    "tactic": "Выставь указанный режим до старта. Для победной версии нужно именно выиграть партию в этом режиме.",
+    "guide": "Запустить соревновательную многопользовательскую партию ровно с двумя сторонами, находящимися в разных командах. Подходит и Hotseat. Достижение засчитывается при старте партии, поэтому завершать её не нужно.",
+    "tactic": "Проще всего создать Hotseat-партию на две стороны и назначить им разные команды. Не добавляй третью сторону и не объединяй обоих участников в одну команду.",
     "editor": "Нет",
     "source": "https://wiki.hoodedhorse.com/Old_World/Achievements",
     "isScenario": false,
@@ -5670,7 +5676,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a194",
@@ -6357,8 +6365,8 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Сыграть в режиме Hotseat",
-    "tactic": "Выставь указанный режим до старта. Для победной версии нужно именно выиграть партию в этом режиме.",
+    "guide": "Запустить многопользовательскую партию в режиме Hotseat, где участники по очереди играют на одном устройстве. Достижение засчитывается при старте партии; завершать её не требуется.",
+    "tactic": "В меню многопользовательской игры выбери Hotseat, добавь минимум две локальные стороны и запусти карту. Для этой карточки достаточно дождаться начала первого хода.",
     "editor": "Нет",
     "source": "https://wiki.hoodedhorse.com/Old_World/Achievements",
     "isScenario": false,
@@ -6373,7 +6381,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a219",
@@ -6415,8 +6425,8 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Победить в многопользовательской игре",
-    "tactic": "Выставь указанный режим до старта. Для победной версии нужно именно выиграть партию в этом режиме.",
+    "guide": "Одержать победу в синхронной многопользовательской партии по сети. Подходят обычная сетевая игра, выделенный сервер и игра по локальной сети; Hotseat и «Игра через облако» проверяются отдельными достижениями. Засчитывается любой включённый тип победы.",
+    "tactic": "Выбери небольшую карту и быстрые настройки, а перед стартом проверь, что нужное условие победы включено. Партия должна завершиться признанием тебя или твоей команды победителем.",
     "editor": "Нет",
     "source": "https://wiki.hoodedhorse.com/Old_World/Achievements",
     "isScenario": false,
@@ -6431,7 +6441,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a221",
@@ -6652,8 +6664,8 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Сыграть в игру по локальной сети",
-    "tactic": "Выставь указанный режим до старта. Для победной версии нужно именно выиграть партию в этом режиме.",
+    "guide": "Запустить многопользовательскую партию в режиме LAN. Достижение засчитывается при старте партии, поэтому завершать или выигрывать её не требуется.",
+    "tactic": "Создай LAN-лобби в меню многопользовательской игры, подключи второго участника по локальной сети и запусти карту. Не выбирай обычную сетевую игру или Hotseat: для этой карточки проверяется именно режим LAN.",
     "editor": "Нет",
     "source": "https://wiki.hoodedhorse.com/Old_World/Achievements",
     "isScenario": false,
@@ -6668,7 +6680,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a230",
@@ -7151,8 +7165,8 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Сыграть в режиме «Игра через облако»",
-    "tactic": "Выставь указанный режим до старта. Для победной версии нужно именно выиграть партию в этом режиме.",
+    "guide": "Запустить асинхронную многопользовательскую партию в режиме «Игра через облако». Достижение засчитывается при старте партии; ждать её завершения не требуется.",
+    "tactic": "Создай облачную игру, укажи второго участника и запусти карту. Убедись, что выбран именно режим «Игра через облако», а не обычное сетевое лобби.",
     "editor": "Нет",
     "source": "https://wiki.hoodedhorse.com/Old_World/Achievements",
     "isScenario": false,
@@ -7167,7 +7181,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a249",
@@ -7698,9 +7714,9 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Победить в командной сетевой игре",
-    "tactic": "Следуй точному условию; для событийных достижений сохраняйся перед важными решениями.",
-    "editor": "Зависит от достижения",
+    "guide": "Победить в многопользовательской партии, где стороны объединены в команды. Несмотря на слово «сетевая» в названии достижения, подходит и Hotseat. Достижение получает игрок победившей команды; засчитывается любой включённый тип победы.",
+    "tactic": "Создай две команды минимум по две стороны и играй вместе с союзником против второй команды. Для самостоятельного прохождения можно использовать Hotseat; победу может обеспечить любой участник твоей команды.",
+    "editor": "Нет",
     "source": "https://wiki.hoodedhorse.com/Old_World/Achievements",
     "isScenario": false,
     "scenario": "",
@@ -7715,7 +7731,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a269",
@@ -8333,8 +8351,8 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Победить в режиме «Каждый за себя» (>2 игрока)",
-    "tactic": "Выставь указанный режим до старта. Для победной версии нужно именно выиграть партию в этом режиме.",
+    "guide": "Победить в многопользовательской партии «Каждый за себя» с тремя или более сторонами. Все стороны должны находиться в отдельных командах; подходит и Hotseat. Засчитывается любой включённый тип победы.",
+    "tactic": "Для самостоятельного прохождения создай Hotseat-партию минимум на три стороны и назначь каждой отдельную команду. В сетевой партии свободные места можно отдать ИИ. Небольшая карта и быстрые настройки сократят прохождение.",
     "editor": "Нет",
     "source": "https://wiki.hoodedhorse.com/Old_World/Achievements",
     "isScenario": false,
@@ -8349,7 +8367,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a293",
@@ -9831,8 +9851,8 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Победить в режиме дуэли",
-    "tactic": "Выставь указанный режим до старта. Для победной версии нужно именно выиграть партию в этом режиме.",
+    "guide": "Победить в соревновательной многопользовательской партии ровно с двумя сторонами, находящимися в разных командах. Подходит и Hotseat; засчитывается любой включённый тип победы.",
+    "tactic": "Для самостоятельного прохождения создай Hotseat-партию на две стороны с разными командами. Выбери небольшую карту и быстрые настройки; третья сторона уже не выполнит условие дуэли.",
     "editor": "Нет",
     "source": "https://wiki.hoodedhorse.com/Old_World/Achievements",
     "isScenario": false,
@@ -9847,7 +9867,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a349",
@@ -9858,8 +9880,8 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Победить в режиме Hotseat",
-    "tactic": "Выставь указанный режим до старта. Для победной версии нужно именно выиграть партию в этом режиме.",
+    "guide": "Одержать победу в многопользовательской партии Hotseat. Игра должна завершиться победой одной из локальных сторон; засчитывается любой включённый тип победы.",
+    "tactic": "Создай Hotseat-партию на небольшую карту и играй выбранной стороной до победы. Для более быстрого прохождения оставь две локальные стороны и включи удобное короткое условие победы.",
     "editor": "Нет",
     "source": "https://wiki.hoodedhorse.com/Old_World/Achievements",
     "isScenario": false,
@@ -9874,7 +9896,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a350",
@@ -9885,8 +9909,8 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Победить в игре по локальной сети",
-    "tactic": "Выставь указанный режим до старта. Для победной версии нужно именно выиграть партию в этом режиме.",
+    "guide": "Одержать победу в многопользовательской партии, запущенной в режиме LAN. Засчитывается любой включённый тип победы.",
+    "tactic": "Создай LAN-лобби, подключи второго участника и выбери небольшую карту с быстрыми настройками. Не переходи в обычную сетевую или облачную игру: победа проверяется именно для режима LAN.",
     "editor": "Нет",
     "source": "https://wiki.hoodedhorse.com/Old_World/Achievements",
     "isScenario": false,
@@ -9901,7 +9925,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a351",
@@ -9912,8 +9938,8 @@
     "civs": "",
     "dlc": "Основная игра / другое",
     "rarity": null,
-    "guide": "Победить в режиме «Игра через облако»",
-    "tactic": "Выставь указанный режим до старта. Для победной версии нужно именно выиграть партию в этом режиме.",
+    "guide": "Одержать победу в асинхронной многопользовательской партии «Игра через облако». Засчитывается любой включённый тип победы.",
+    "tactic": "Создай облачную игру на небольшой карте и заранее договорись с участниками регулярно передавать ход. Быстрые настройки помогут сократить реальное время ожидания между началом и завершением партии.",
     "editor": "Нет",
     "source": "https://wiki.hoodedhorse.com/Old_World/Achievements",
     "isScenario": false,
@@ -9928,7 +9954,9 @@
     "affinityCivs": [],
     "nationalUnique": false,
     "nationalLinkType": "",
-    "guideStatus": "filled"
+    "guideStatus": "filled",
+    "guideSource": "https://wiki.hoodedhorse.com/Old_World/Achievements",
+    "guideVerified": true
   },
   {
     "id": "a352",
