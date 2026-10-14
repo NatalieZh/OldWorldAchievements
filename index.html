@@ -264,8 +264,8 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
   <div class="plannerSectionTitle"><div><div class="kicker">Шаг 1</div><h3>Какую партию хочется сыграть?</h3></div></div>
   <div class="setupGrid plannerSetup">
    <div class="setupBox">
-    <h3>Режим</h3><p>Режим влияет на доступность сетевых достижений.</p>
-    <select id="planMode" class="filter" style="width:100%">
+    <h3>Режим</h3><p id="planModeNote">Режим влияет на доступность сетевых достижений.</p>
+    <select id="planMode" class="filter" style="width:100%" onchange="handlePlannerModeChange()">
      <option value="Singleplayer">Singleplayer</option>
      <option value="Multiplayer / FFA">Multiplayer / FFA</option>
      <option value="Hotseat">Hotseat</option>
@@ -411,9 +411,10 @@ function setPlannerSelectValue(id,value,fallback){
 function applyPlannerRunSettings(run){
  const settings={...plannerRunDefaults,...(run||{})};
  setPlannerSelectValue('planMode',settings.mode,plannerRunDefaults.mode);
+ updatePlannerSpecialOptions(settings.special);
  setPlannerSelectValue('planDifficulty',settings.difficulty,plannerRunDefaults.difficulty);
  setPlannerSelectValue('planStyle',settings.style,plannerRunDefaults.style);
- setPlannerSelectValue('planSpecial',settings.special,plannerRunDefaults.special);
+ setPlannerSelectValue('planSpecial',specialCompatibleWithMode(settings.special,document.getElementById('planMode').value)?settings.special:plannerRunDefaults.special,plannerRunDefaults.special);
  setPlannerSelectValue('planDlc',settings.dlc,plannerRunDefaults.dlc);
  setPlannerSelectValue('planScenario',settings.scenario,plannerRunDefaults.scenario);
 }
@@ -436,6 +437,7 @@ function initialize(){
  const planDlc=document.getElementById('planDlc');if(planDlc&&planDlc.options.length===0)planDlc.innerHTML='<option value="all">Все DLC</option>'+dlcs.map(x=>'<option>'+esc(x)+'</option>').join('');
  const planScenario=document.getElementById('planScenario');if(planScenario&&planScenario.options.length===0)planScenario.innerHTML='<option value="none">Обычная партия (без сценария)</option><option value="all">Любой сценарий</option>'+scenarios.map(x=>'<option>'+esc(x)+'</option>').join('');
  const planSpecial=document.getElementById('planSpecial');if(planSpecial&&planSpecial.options.length===0)planSpecial.innerHTML='<option value="">Без особого условия</option>'+specialOptions.map(x=>'<option value="'+esc(x.value)+'">'+esc(x.label)+'</option>').join('');
+ updatePlannerSpecialOptions();
  render();
 }
 function persist(){writeStoredState(state)}
@@ -769,18 +771,44 @@ function styleBonus(a,style){
  return 0;
 }
 const multiplayerSpecials=['multiplayer','ffa','teams','duel','hotseat','lan','cloud'];
+const modeSpecificSpecials=['singleplayer',...multiplayerSpecials];
+const plannerModeSpecials={
+ 'Singleplayer':['singleplayer'],
+ 'Multiplayer / FFA':['multiplayer','ffa','teams','duel','lan','cloud'],
+ 'Hotseat':['hotseat','ffa','teams','duel']
+};
+const plannerModeNotes={
+ 'Singleplayer':'Доступны одиночные и общие цели; сетевые достижения исключены.',
+ 'Multiplayer / FFA':'Доступны мультиплеер, «Каждый за себя», команды, дуэль, LAN и игра через облако.',
+ 'Hotseat':'Доступны Hotseat, «Каждый за себя», командная игра и дуэль; LAN и облако исключены.'
+};
+function specialCompatibleWithMode(special,mode){
+ if(!special||!modeSpecificSpecials.includes(special))return true;
+ return (plannerModeSpecials[mode]||[]).includes(special);
+}
+function updatePlannerSpecialOptions(preferred){
+ const mode=document.getElementById('planMode')?.value||plannerRunDefaults.mode;
+ const select=document.getElementById('planSpecial');if(!select)return;
+ const requested=preferred===undefined?select.value:preferred;
+ [...select.options].forEach(option=>{
+   const compatible=specialCompatibleWithMode(option.value,mode);
+   option.disabled=!compatible;option.hidden=!compatible;
+ });
+ select.value=specialCompatibleWithMode(requested,mode)?requested:'';
+ const note=document.getElementById('planModeNote');if(note)note.textContent=plannerModeNotes[mode]||'Режим влияет на доступность достижений.';
+}
+function handlePlannerModeChange(){updatePlannerSpecialOptions()}
 function modeCompatible(a,mode,special=''){
- if(a.category!=='Мультиплеер / режим') return true;
  const tags=Array.isArray(a.settingTags)?a.settingTags:[];
- if(multiplayerSpecials.includes(special)) return tags.includes(special);
- if(mode==='Singleplayer') return false;
- if(mode==='Hotseat') return tags.includes('hotseat');
- if(mode==='Multiplayer / FFA') return tags.some(tag=>tag!=='hotseat'&&multiplayerSpecials.includes(tag));
- return false;
+ const cardModeTags=tags.filter(tag=>modeSpecificSpecials.includes(tag));
+ if(modeSpecificSpecials.includes(special)&&cardModeTags.length)return tags.includes(special);
+ if(cardModeTags.length)return cardModeTags.some(tag=>(plannerModeSpecials[mode]||[]).includes(tag));
+ return a.category!=='Мультиплеер / режим';
 }
 function achievementScoreForCiv(a,civ,style,mode){
  const special=document.getElementById('planSpecial')?.value||'';
  if(!modeCompatible(a,mode,special)) return {score:-99,reason:'Не подходит выбранному режиму',tier:'exclude'};
+ if(special==='no_characters'&&a.category==='Черта / персонаж') return {score:-99,reason:'Недоступно в партии без персонажей',tier:'exclude'};
  const scenarioMode=document.getElementById('planScenario')?.value||'none';
  if(a.isScenario&&scenarioMode==='none') return {score:0,reason:'Сценарное достижение — не относится к обычной партии',tier:'exclude'};
 
