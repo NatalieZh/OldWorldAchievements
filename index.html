@@ -272,11 +272,17 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
     </select>
    </div>
    <div class="setupBox">
-    <h3>Сложность</h3><p>Можно не привязывать план к достижению сложности.</p>
+    <h3>Сложность</h3><p>Победа на выбранном уровне засчитывает также достижения всех нижних уровней.</p>
     <select id="planDifficulty" class="filter" style="width:100%">
-     <option value="Комфортная">Комфортная</option>
+     <option value="any">Не учитывать</option>
+     <option value="Новый">Новый</option>
+     <option value="Способный">Способный</option>
+     <option value="Справедливый">Справедливый</option>
      <option value="Добрый">Добрый</option>
+     <option value="Могучий">Могучий</option>
      <option value="Благородный">Благородный</option>
+     <option value="Славный">Славный</option>
+     <option value="Великолепный">Великолепный</option>
      <option value="Великий">Великий</option>
     </select>
    </div>
@@ -369,7 +375,9 @@ const dlcs=["Behind the Throne", "Carthage", "Empires of the Indus", "Heroes of 
 const scenarios=["Обучение", "Учимся играть", "Орда варваров", "Герои Эгейи", "Герои Эгейи 1", "Герои Эгейи 2", "Герои Эгейи 3", "Герои Эгейи 4", "Герои Эгейи 5", "Герои Эгейи 6", "Карфаген — кампания", "Карфаген — сценарий 1", "Карфаген — сценарий 2", "Карфаген — сценарий 3", "Карфаген — сценарий 4", "Фараоны Нила — кампания", "Фараоны Нила — сценарий 1", "Фараоны Нила — сценарий 2", "Фараоны Нила — сценарий 3", "Фараоны Нила — сценарий 4", "Фараоны Нила — сценарий 5", "Фараоны Нила — сценарий 6"];
 const civs=["Аксум", "Ассирия", "Вавилония", "Греция", "Египет", "Карфаген", "Куш", "Маурья", "Персия", "Рим", "Тамилакам", "Хетты", "Юэчжи"];
 const specialOptions=[{"value":"singleplayer","label":"Одиночная игра"},{"value":"multiplayer","label":"Мультиплеер / сеть"},{"value":"ffa","label":"Каждый за себя"},{"value":"teams","label":"Командная игра"},{"value":"duel","label":"Дуэль"},{"value":"hotseat","label":"Hotseat"},{"value":"lan","label":"Локальная сеть"},{"value":"cloud","label":"Игра через облако"},{"value":"one_city","label":"Один город"},{"value":"no_characters","label":"Без персонажей"},{"value":"no_undo","label":"Без отмены"},{"value":"random_leaders","label":"Случайные лидеры"},{"value":"random_families","label":"Случайные семьи"},{"value":"role_playing","label":"Ролевые события"},{"value":"high_events","label":"Высокий уровень событий"},{"value":"realistic_mortality","label":"Реалистичная смертность"},{"value":"game_of_week","label":"Игра недели"},{"value":"all_nations","label":"Все нации"},{"value":"points_victory","label":"Победа по очкам"},{"value":"ambition_victory","label":"Победа по амбициям"},{"value":"time_victory","label":"Победа по времени"},{"value":"conquest_victory","label":"Победа завоеванием"},{"value":"alliance_victory","label":"Победа союза"},{"value":"double_victory","label":"Двойная победа"},{"value":"difficulty","label":"Уровень сложности"},{"value":"family","label":"Определённая семья"},{"value":"hardcore","label":"Хардкорные настройки"},{"value":"tribe_level","label":"Уровень племён"}];
-const plannerRunDefaults={mode:'Singleplayer',difficulty:'Комфортная',style:'balanced',special:'',dlc:'all',scenario:'none'};
+const plannerDifficulties=['Новый','Способный','Справедливый','Добрый','Могучий','Благородный','Славный','Великолепный','Великий'];
+function plannerDifficultyValue(value){return value==='any'||plannerDifficulties.includes(value)?value:'any'}
+const plannerRunDefaults={mode:'Singleplayer',difficulty:'any',style:'balanced',special:'',dlc:'all',scenario:'none'};
 const plannerStyleLabels={balanced:'Сбалансированная',war:'Военная',peace:'Спокойная / мирная',long:'Долгая партия'};
 const duplicateIdAliases={};
 const OFFICIAL_TOTAL=408, DB_TOTAL=achievements.length;
@@ -394,6 +402,7 @@ if(!Array.isArray(state.done))state.done=[];
 state.done=[...new Set(state.done.map(id=>duplicateIdAliases[id]||id).filter(id=>achievements.some(a=>a.id===id)))];
 if(state.run&&typeof state.run==='object'){
  state.run={...plannerRunDefaults,...state.run};
+ state.run.difficulty=plannerDifficultyValue(state.run.difficulty);
  const savedGoals=Array.isArray(state.run.goals)?state.run.goals:[];
  state.run.goals=[...new Set(savedGoals.map(id=>duplicateIdAliases[id]||id).filter(id=>achievements.some(a=>a.id===id)))];
 }else state.run=null;
@@ -410,11 +419,12 @@ function setPlannerSelectValue(id,value,fallback){
 }
 function applyPlannerRunSettings(run){
  const settings={...plannerRunDefaults,...(run||{})};
+ settings.difficulty=plannerDifficultyValue(settings.difficulty);
  setPlannerSelectValue('planMode',settings.mode,plannerRunDefaults.mode);
  updatePlannerSpecialOptions(settings.special);
  setPlannerSelectValue('planDifficulty',settings.difficulty,plannerRunDefaults.difficulty);
  setPlannerSelectValue('planStyle',settings.style,plannerRunDefaults.style);
- setPlannerSelectValue('planSpecial',specialCompatibleWithMode(settings.special,document.getElementById('planMode').value)?settings.special:plannerRunDefaults.special,plannerRunDefaults.special);
+ setPlannerSelectValue('planSpecial',plannerSpecialAvailable(settings.special,document.getElementById('planMode').value)?settings.special:plannerRunDefaults.special,plannerRunDefaults.special);
  setPlannerSelectValue('planDlc',settings.dlc,plannerRunDefaults.dlc);
  setPlannerSelectValue('planScenario',settings.scenario,plannerRunDefaults.scenario);
 }
@@ -423,7 +433,8 @@ function plannerRunMeta(run){
  const special=specialOptions.find(x=>x.value===settings.special)?.label;
  const scenario=settings.scenario==='none'?'Обычная партия':settings.scenario==='all'?'Любой сценарий':settings.scenario;
  const dlc=settings.dlc==='all'?'Все DLC':'DLC: '+settings.dlc;
- const parts=[settings.mode,settings.difficulty,plannerStyleLabels[settings.style]||settings.style,dlc,scenario];
+ const difficulty=settings.difficulty==='any'?'Без привязки к сложности':'Сложность: '+settings.difficulty;
+ const parts=[settings.mode,difficulty,plannerStyleLabels[settings.style]||settings.style,dlc,scenario];
  if(special)parts.push(special);
  return parts.filter(Boolean).join(' · ');
 }
@@ -663,6 +674,7 @@ function importProgress(ev){
    let importedRun=state.run;
    if(incoming.run&&typeof incoming.run==='object'&&Array.isArray(incoming.run.goals)){
      importedRun={...plannerRunDefaults,...incoming.run};
+     importedRun.difficulty=plannerDifficultyValue(importedRun.difficulty);
      importedRun.goals=[...new Set(incoming.run.goals.map(id=>duplicateIdAliases[id]||id).filter(id=>achievements.some(a=>a.id===id)))];
    }
    state={done:importedDone,run:importedRun};
@@ -786,18 +798,33 @@ function specialCompatibleWithMode(special,mode){
  if(!special||!modeSpecificSpecials.includes(special))return true;
  return (plannerModeSpecials[mode]||[]).includes(special);
 }
+function plannerSpecialAvailable(special,mode){return special!=='difficulty'&&specialCompatibleWithMode(special,mode)}
 function updatePlannerSpecialOptions(preferred){
  const mode=document.getElementById('planMode')?.value||plannerRunDefaults.mode;
  const select=document.getElementById('planSpecial');if(!select)return;
  const requested=preferred===undefined?select.value:preferred;
  [...select.options].forEach(option=>{
-   const compatible=specialCompatibleWithMode(option.value,mode);
+   const compatible=plannerSpecialAvailable(option.value,mode);
    option.disabled=!compatible;option.hidden=!compatible;
  });
- select.value=specialCompatibleWithMode(requested,mode)?requested:'';
+ select.value=plannerSpecialAvailable(requested,mode)?requested:'';
  const note=document.getElementById('planModeNote');if(note)note.textContent=plannerModeNotes[mode]||'Режим влияет на доступность достижений.';
 }
 function handlePlannerModeChange(){updatePlannerSpecialOptions()}
+function achievementDifficulty(a){
+ if(a.category!=='Сложность')return '';
+ const text=(a.name||'')+' '+(a.condition||'');
+ return plannerDifficulties.find(level=>text.includes('«'+level+'»'))||'';
+}
+function difficultyScore(a,selected){
+ if(a.category!=='Сложность')return null;
+ if(selected==='any')return {score:-99,reason:'План не привязан к уровню сложности',tier:'exclude'};
+ const required=achievementDifficulty(a),selectedRank=plannerDifficulties.indexOf(selected),requiredRank=plannerDifficulties.indexOf(required);
+ if(requiredRank<0||selectedRank<0)return {score:-99,reason:'Неизвестный уровень сложности',tier:'exclude'};
+ if(requiredRank>selectedRank)return {score:-99,reason:'Требует более высокой сложности',tier:'exclude'};
+ if(required===selected)return {score:4,reason:'Цель выбранного уровня сложности «'+selected+'»',tier:'core'};
+ return {score:3,reason:'Засчитается вместе с победой на сложности «'+selected+'»',tier:'core'};
+}
 function modeCompatible(a,mode,special=''){
  const tags=Array.isArray(a.settingTags)?a.settingTags:[];
  const cardModeTags=tags.filter(tag=>modeSpecificSpecials.includes(tag));
@@ -809,6 +836,8 @@ function achievementScoreForCiv(a,civ,style,mode){
  const special=document.getElementById('planSpecial')?.value||'';
  if(!modeCompatible(a,mode,special)) return {score:-99,reason:'Не подходит выбранному режиму',tier:'exclude'};
  if(special==='no_characters'&&a.category==='Черта / персонаж') return {score:-99,reason:'Недоступно в партии без персонажей',tier:'exclude'};
+ const selectedDifficulty=document.getElementById('planDifficulty')?.value||plannerRunDefaults.difficulty;
+ const difficultyResult=difficultyScore(a,selectedDifficulty);if(difficultyResult)return difficultyResult;
  const scenarioMode=document.getElementById('planScenario')?.value||'none';
  if(a.isScenario&&scenarioMode==='none') return {score:0,reason:'Сценарное достижение — не относится к обычной партии',tier:'exclude'};
 
