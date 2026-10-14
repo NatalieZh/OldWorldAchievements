@@ -369,20 +369,63 @@ const dlcs=["Behind the Throne", "Carthage", "Empires of the Indus", "Heroes of 
 const scenarios=["Обучение", "Учимся играть", "Орда варваров", "Герои Эгейи", "Герои Эгейи 1", "Герои Эгейи 2", "Герои Эгейи 3", "Герои Эгейи 4", "Герои Эгейи 5", "Герои Эгейи 6", "Карфаген — кампания", "Карфаген — сценарий 1", "Карфаген — сценарий 2", "Карфаген — сценарий 3", "Карфаген — сценарий 4", "Фараоны Нила — кампания", "Фараоны Нила — сценарий 1", "Фараоны Нила — сценарий 2", "Фараоны Нила — сценарий 3", "Фараоны Нила — сценарий 4", "Фараоны Нила — сценарий 5", "Фараоны Нила — сценарий 6"];
 const civs=["Аксум", "Ассирия", "Вавилония", "Греция", "Египет", "Карфаген", "Куш", "Маурья", "Персия", "Рим", "Тамилакам", "Хетты", "Юэчжи"];
 const specialOptions=[{"value":"singleplayer","label":"Одиночная игра"},{"value":"multiplayer","label":"Мультиплеер / сеть"},{"value":"ffa","label":"Каждый за себя"},{"value":"teams","label":"Командная игра"},{"value":"duel","label":"Дуэль"},{"value":"hotseat","label":"Hotseat"},{"value":"lan","label":"Локальная сеть"},{"value":"cloud","label":"Игра через облако"},{"value":"one_city","label":"Один город"},{"value":"no_characters","label":"Без персонажей"},{"value":"no_undo","label":"Без отмены"},{"value":"random_leaders","label":"Случайные лидеры"},{"value":"random_families","label":"Случайные семьи"},{"value":"role_playing","label":"Ролевые события"},{"value":"high_events","label":"Высокий уровень событий"},{"value":"realistic_mortality","label":"Реалистичная смертность"},{"value":"game_of_week","label":"Игра недели"},{"value":"all_nations","label":"Все нации"},{"value":"points_victory","label":"Победа по очкам"},{"value":"ambition_victory","label":"Победа по амбициям"},{"value":"time_victory","label":"Победа по времени"},{"value":"conquest_victory","label":"Победа завоеванием"},{"value":"alliance_victory","label":"Победа союза"},{"value":"double_victory","label":"Двойная победа"},{"value":"difficulty","label":"Уровень сложности"},{"value":"family","label":"Определённая семья"},{"value":"hardcore","label":"Хардкорные настройки"},{"value":"tribe_level","label":"Уровень племён"}];
+const plannerRunDefaults={mode:'Singleplayer',difficulty:'Комфортная',style:'balanced',special:'',dlc:'all',scenario:'none'};
+const plannerStyleLabels={balanced:'Сбалансированная',war:'Военная',peace:'Спокойная / мирная',long:'Долгая партия'};
 const duplicateIdAliases={};
 const OFFICIAL_TOTAL=408, DB_TOTAL=achievements.length;
-let state={done:[],run:null};
+const STATE_STORAGE_KEY='ow-guide-v4', WINDOW_STATE_PREFIX=STATE_STORAGE_KEY+':';
+function readStoredState(){
+ const candidates=[];
+ try{const raw=window.localStorage.getItem(STATE_STORAGE_KEY);if(raw)candidates.push(raw)}catch(e){}
+ try{const raw=window.sessionStorage.getItem(STATE_STORAGE_KEY);if(raw)candidates.push(raw)}catch(e){}
+ if(typeof window.name==='string'&&window.name.startsWith(WINDOW_STATE_PREFIX))candidates.push(window.name.slice(WINDOW_STATE_PREFIX.length));
+ for(const raw of candidates){try{const parsed=JSON.parse(raw);if(parsed&&typeof parsed==='object')return parsed}catch(e){}}
+ return {};
+}
+function writeStoredState(value){
+ const raw=JSON.stringify(value);
+ try{window.localStorage.setItem(STATE_STORAGE_KEY,raw)}catch(e){}
+ try{window.sessionStorage.setItem(STATE_STORAGE_KEY,raw)}catch(e){}
+ try{window.name=WINDOW_STATE_PREFIX+raw}catch(e){}
+}
+let state=Object.assign({done:[],run:null},readStoredState());
 let runGoalsExpanded=false;
-try{state=Object.assign(state,JSON.parse(localStorage.getItem('ow-guide-v4')||'{}'))}catch(e){}
 if(!Array.isArray(state.done))state.done=[];
 state.done=[...new Set(state.done.map(id=>duplicateIdAliases[id]||id).filter(id=>achievements.some(a=>a.id===id)))];
-if(state.run&&Array.isArray(state.run.goals))state.run.goals=[...new Set(state.run.goals.map(id=>duplicateIdAliases[id]||id).filter(id=>achievements.some(a=>a.id===id)))];
+if(state.run&&typeof state.run==='object'){
+ state.run={...plannerRunDefaults,...state.run};
+ const savedGoals=Array.isArray(state.run.goals)?state.run.goals:[];
+ state.run.goals=[...new Set(savedGoals.map(id=>duplicateIdAliases[id]||id).filter(id=>achievements.some(a=>a.id===id)))];
+}else state.run=null;
 let draftDone=new Set(state.done), catalogPage=1, currentAchId=null;
 const PAGE_SIZE=48;
 
 function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
 function initSelect(id,items,label){const el=document.getElementById(id);el.innerHTML='<option value="">'+label+'</option>'+items.map(x=>'<option>'+esc(x)+'</option>').join('')}
 function specialTagByLabel(label){const x=specialOptions.find(o=>o.label===label);return x?x.value:''}
+function setPlannerSelectValue(id,value,fallback){
+ const el=document.getElementById(id);if(!el)return;
+ const next=[...el.options].some(o=>o.value===value)?value:fallback;
+ el.value=next;
+}
+function applyPlannerRunSettings(run){
+ const settings={...plannerRunDefaults,...(run||{})};
+ setPlannerSelectValue('planMode',settings.mode,plannerRunDefaults.mode);
+ setPlannerSelectValue('planDifficulty',settings.difficulty,plannerRunDefaults.difficulty);
+ setPlannerSelectValue('planStyle',settings.style,plannerRunDefaults.style);
+ setPlannerSelectValue('planSpecial',settings.special,plannerRunDefaults.special);
+ setPlannerSelectValue('planDlc',settings.dlc,plannerRunDefaults.dlc);
+ setPlannerSelectValue('planScenario',settings.scenario,plannerRunDefaults.scenario);
+}
+function plannerRunMeta(run){
+ const settings={...plannerRunDefaults,...run};
+ const special=specialOptions.find(x=>x.value===settings.special)?.label;
+ const scenario=settings.scenario==='none'?'Обычная партия':settings.scenario==='all'?'Любой сценарий':settings.scenario;
+ const dlc=settings.dlc==='all'?'Все DLC':'DLC: '+settings.dlc;
+ const parts=[settings.mode,settings.difficulty,plannerStyleLabels[settings.style]||settings.style,dlc,scenario];
+ if(special)parts.push(special);
+ return parts.filter(Boolean).join(' · ');
+}
 function initialize(){
  initSelect('categoryFilter',categories,'Все категории');initSelect('dlcFilter',dlcs,'Все DLC');initSelect('scenarioFilter',scenarios,'Все сценарии');initSelect('civFilter',civs,'Все цивилизации');
  document.getElementById('scenarioFilter').insertAdjacentHTML('afterbegin','<option value="__none__">Без сценарных достижений</option>');
@@ -390,13 +433,12 @@ function initialize(){
  initSelect('pCategory',categories,'Все категории');initSelect('pDlc',dlcs,'Все DLC');initSelect('pScenario',scenarios,'Все сценарии');initSelect('pCiv',civs,'Все цивилизации');
  document.getElementById('pScenario').insertAdjacentHTML('afterbegin','<option value="__none__">Без сценарных достижений</option>');
  if(document.getElementById('pSpecial').options.length===0)initSelect('pSpecial',specialOptions.map(x=>x.label),'Все особые условия');
- const civ=document.getElementById('civ');civ.innerHTML='<option value="Автовыбор">Пусть сайт предложит</option>'+civs.map(x=>'<option>'+esc(x)+'</option>').join('');
  const planDlc=document.getElementById('planDlc');if(planDlc&&planDlc.options.length===0)planDlc.innerHTML='<option value="all">Все DLC</option>'+dlcs.map(x=>'<option>'+esc(x)+'</option>').join('');
  const planScenario=document.getElementById('planScenario');if(planScenario&&planScenario.options.length===0)planScenario.innerHTML='<option value="none">Обычная партия (без сценария)</option><option value="all">Любой сценарий</option>'+scenarios.map(x=>'<option>'+esc(x)+'</option>').join('');
  const planSpecial=document.getElementById('planSpecial');if(planSpecial&&planSpecial.options.length===0)planSpecial.innerHTML='<option value="">Без особого условия</option>'+specialOptions.map(x=>'<option value="'+esc(x.value)+'">'+esc(x.label)+'</option>').join('');
  render();
 }
-function persist(){localStorage.setItem('ow-guide-v4',JSON.stringify(state))}
+function persist(){writeStoredState(state)}
 function hasProgress(){return state.done.length>0}
 function render(){
  const has=hasProgress(), count=state.done.length, pct=Math.round(count/OFFICIAL_TOTAL*100);
@@ -454,7 +496,7 @@ function renderRunGoalList(elId,items,maxVisible){
 function renderCurrentRunDashboard(){
  const runGoals=(state.run.goals||[]).map(id=>achievements.find(a=>a.id===id)).filter(Boolean);
  document.getElementById('runCiv').textContent=state.run.civ;
- document.getElementById('runMeta').textContent=state.run.mode+' · '+state.run.difficulty;
+ document.getElementById('runMeta').textContent=plannerRunMeta(state.run);
  const completed=runGoals.filter(a=>state.done.includes(a.id)).length;
  const total=runGoals.length;
  const pct=total?Math.round(completed/total*100):0;
@@ -609,7 +651,23 @@ function openProgress(){draftDone=new Set(state.done);renderProgressList();openM
 function commitProgress(){state.done=[...draftDone];persist();render();closeModal('progressModal');toast('Прогресс сохранён')}
 function clearAllProgress(){if(!confirm('Очистить все отмеченные достижения?'))return;draftDone.clear();renderProgressList()}
 function exportProgress(){const blob=new Blob([JSON.stringify({app:'old-world-achievement-guide',version:4,dbCount:DB_TOTAL,exportedAt:new Date().toISOString(),state},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='old-world-progress.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast('Файл прогресса сохранён')}
-function importProgress(ev){const f=ev.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const obj=JSON.parse(r.result);const incoming=obj.state||obj;if(!Array.isArray(incoming.done))throw new Error();state=Object.assign({done:[],run:null},incoming);persist();draftDone=new Set(state.done);render();renderProgressList();toast('Прогресс импортирован')}catch(e){toast('Не удалось прочитать файл прогресса')}};r.readAsText(f);ev.target.value=''}
+function importProgress(ev){
+ const f=ev.target.files[0];if(!f)return;
+ const r=new FileReader();
+ r.onload=()=>{try{
+   const obj=JSON.parse(r.result),incoming=obj.state||obj;
+   if(!Array.isArray(incoming.done))throw new Error();
+   const importedDone=[...new Set(incoming.done.map(id=>duplicateIdAliases[id]||id).filter(id=>achievements.some(a=>a.id===id)))];
+   let importedRun=state.run;
+   if(incoming.run&&typeof incoming.run==='object'&&Array.isArray(incoming.run.goals)){
+     importedRun={...plannerRunDefaults,...incoming.run};
+     importedRun.goals=[...new Set(incoming.run.goals.map(id=>duplicateIdAliases[id]||id).filter(id=>achievements.some(a=>a.id===id)))];
+   }
+   state={done:importedDone,run:importedRun};
+   persist();draftDone=new Set(state.done);render();renderProgressList();toast('Прогресс импортирован');
+ }catch(e){toast('Не удалось прочитать файл прогресса')}};
+ r.readAsText(f);ev.target.value='';
+}
 
 function openAch(id){const a=achievements.find(x=>x.id===id);if(!a)return;currentAchId=id;document.getElementById('mCat').textContent=a.category;document.getElementById('mName').textContent=a.name;document.getElementById('mCond').textContent=a.condition||'—';const guide=document.getElementById('mGuide');guide.textContent=a.guide||'Подробный способ получения ещё не добавлен.';if(a.guideLink){const link=document.createElement('a');link.href=a.guideLink;link.textContent=a.guideLinkLabel||a.guideLink;link.target='_blank';link.rel='noreferrer';link.className='sourceLink';guide.append(document.createTextNode(' '),link)}document.getElementById('mTactic').textContent=a.tactic||'Практическая тактика ещё не добавлена.';document.getElementById('mEditor').textContent=a.editor||'Нет данных.';
 const ebox=document.getElementById('mEnglishBox'),etxt=document.getElementById('mEnglish');if(a.englishName){ebox.classList.remove('hidden');etxt.textContent=a.englishName+(a.englishCondition?' — '+a.englishCondition:'')}else{ebox.classList.add('hidden');etxt.textContent=''}
@@ -634,13 +692,12 @@ function openPlanner(editExisting=false){
  plannerState={step:1,recommendations:[],selectedCiv:null,goals:[],editing:!!(editExisting&&state.run)};
  document.getElementById('plannerDoneCount').textContent=state.done.length;
  if(plannerState.editing){
-   document.getElementById('planMode').value=state.run.mode||'Singleplayer';
-   document.getElementById('planDifficulty').value=state.run.difficulty||'Комфортная';
-   document.getElementById('planStyle').value=state.run.style||'balanced';
+   applyPlannerRunSettings(state.run);
    prepareExistingRunForEdit();
    openModal('plannerModal');
    return;
  }
+ applyPlannerRunSettings(plannerRunDefaults);
  showPlannerStep(1);
  openModal('plannerModal');
 }
@@ -653,25 +710,24 @@ function showPlannerStep(n){
  const saveBtn=document.querySelector('#plannerStep3 .plannerNav .btn:last-child');
  if(saveBtn)saveBtn.textContent=plannerState.editing?'Сохранить изменения':'Создать текущую партию';
 }
-function plannerRemaining(){
- const done=new Set(state.done);
+function plannerMatchesFilters(a){
  const dlcMode=document.getElementById('planDlc')?.value||'all';
  const scenarioMode=document.getElementById('planScenario')?.value||'none';
- return achievements.filter(a=>{
-   if(done.has(a.id))return false;
-   if(dlcMode!=='all'&&a.dlcName!==dlcMode)return false;
-   if(scenarioMode==='none'&&a.isScenario)return false;
-   if(scenarioMode==='all'&&!a.isScenario)return false;
-   if(scenarioMode!=='none'&&scenarioMode!=='all'&&a.scenarioName!==scenarioMode&&a.scenario!==scenarioMode)return false;
-   return true;
- });
+ if(dlcMode!=='all'&&a.dlcName!==dlcMode)return false;
+ if(scenarioMode==='none'&&a.isScenario)return false;
+ if(scenarioMode==='all'&&!a.isScenario)return false;
+ if(scenarioMode!=='none'&&scenarioMode!=='all'&&a.scenarioName!==scenarioMode&&a.scenario!==scenarioMode)return false;
+ return true;
+}
+function plannerRemaining(){
+ const done=new Set(state.done);
+ return achievements.filter(a=>!done.has(a.id)&&plannerMatchesFilters(a));
 }
 
 function plannerPoolForEdit(){
  const current=new Set(state.run?.goals||[]);
  const done=new Set(state.done);
- const dlcMode=document.getElementById('planDlc')?.value||'all';
- return achievements.filter(a=>(!done.has(a.id)||current.has(a.id))&&(dlcMode==='all'||a.dlc==='Основная игра / другое'));
+ return achievements.filter(a=>current.has(a.id)||(!done.has(a.id)&&plannerMatchesFilters(a)));
 }
 function prepareExistingRunForEdit(){
  const civ=state.run.civ;
@@ -879,6 +935,9 @@ function createPlannedRun(){
   mode:document.getElementById('planMode').value,
   difficulty:document.getElementById('planDifficulty').value,
   style:document.getElementById('planStyle').value,
+  special:document.getElementById('planSpecial').value,
+  dlc:document.getElementById('planDlc').value,
+  scenario:document.getElementById('planScenario').value,
   goals:selected.map(g=>g.a.id)
  };
  persist();render();closeModal('plannerModal');toast(wasEditing?'План партии обновлён':'План партии создан');
