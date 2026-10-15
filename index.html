@@ -137,6 +137,7 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
 .goalPts{text-align:right;color:#d3b36f;font-size:12.5px;font-weight:650}
 .goalInfo{min-width:0}
 .goalCondition{font-size:12.5px;color:#a09582;line-height:1.5;margin-top:4px}
+.plannerNote{color:#c7ab73;border-left:2px solid rgba(184,148,83,.45);padding-left:8px;margin-top:6px}
 .goalMeta{display:flex;gap:6px;flex-wrap:wrap;margin-top:7px}
 .goalBadge{font-size:9.5px;text-transform:uppercase;letter-spacing:.06em;border:1px solid rgba(255,255,255,.07);border-radius:99px;padding:4px 6px;color:#958a77}
 .goalBadge.score{color:#d4b36f;border-color:rgba(184,148,83,.28)}
@@ -315,14 +316,15 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
 
  <section id="plannerStep2" class="plannerStep hidden">
   <div class="plannerSectionTitle">
-   <div><div class="kicker">Шаг 2</div><h3>Какая цивилизация выгоднее?</h3><p>Показываются все нации, за которые у тебя остаются невыполненные достижения; балл влияет только на порядок.</p></div>
+   <div><div class="kicker">Шаг 2</div><h3>Какая цивилизация выгоднее?</h3><p>Рейтинг учитывает отличия между нациями; общие цели остаются доступными, но почти не влияют на порядок.</p></div>
    <button class="btn ghost small" onclick="showPlannerStep(1)">← Настройки</button>
   </div>
   <div class="recommendationLegend">
-   <span><b>+3</b> победа за цивилизацию</span>
-   <span><b>+2</b> уникальная/историческая цель</span>
-   <span><b>+1</b> естественно совместимая общая цель</span>
-   <span><b>−1</b> случайное чудо/событие</span>
+   <span><b>+4</b> победа или уникальный юнит нации</span>
+   <span><b>+3</b> другая национальная цель</span>
+   <span><b>+2</b> естественная связь</span>
+   <span><b>до +3</b> все общие цели вместе</span>
+   <span><b>−1</b> случайность в национальной или естественной цели</span>
   </div>
   <div id="civRecommendations" class="civRecommendations"></div>
   <div class="plannerNav"><button class="btn ghost" onclick="showPlannerStep(1)">← Назад</button><span></span></div>
@@ -907,22 +909,67 @@ function achievementScoreForCiv(a,civ,style,mode){
    if(tier==='compatible')tier='core';
  }
  if(isRandomish(a)){score-=1;if(score>0){reason+='; зависит от случайности/условий';if(tier==='core')tier='optional';else if(tier!=='affinity')tier='risky'}}
+ if(a.plannerTier)tier=a.plannerTier;
  return {score,reason,tier};
+}
+function recommendationKind(goal,civ,special){
+ if(goal.a.plannerTier==='optional'||goal.a.plannerTier==='risky')return 'conditional';
+ const playerCivs=Array.isArray(goal.a.playerCivs)?goal.a.playerCivs:[];
+ const affinityCivs=Array.isArray(goal.a.affinityCivs)?goal.a.affinityCivs:[];
+ if(playerCivs.includes(civ))return 'national';
+ if(affinityCivs.includes(civ))return 'affinity';
+ if(goal.tier==='risky'||goal.tier==='optional'||(special&&(goal.a.settingTags||[]).includes(special)))return 'conditional';
+ return 'common';
+}
+function recommendationWeight(goal,kind){
+ if(kind==='national'){
+   const major=goal.a.category==='Победа за цивилизацию'||(goal.a.nationalUnique&&goal.a.category==='Юнит');
+   return Math.max(1,(major?4:3)-(isRandomish(goal.a)?1:0));
+ }
+ if(kind==='affinity')return Math.max(1,2-(isRandomish(goal.a)?1:0));
+ return 0;
+}
+function recommendationGoalCount(count,one,few,many){
+ const last=count%10,lastTwo=count%100;
+ const word=last===1&&lastTwo!==11?one:last>=2&&last<=4&&(lastTwo<12||lastTwo>14)?few:many;
+ return count+' '+word;
+}
+function recommendationExplanation(result,scenario){
+ const national=recommendationGoalCount(result.national,'национальная цель','национальные цели','национальных целей');
+ const affinity=recommendationGoalCount(result.affinity,'естественно связанная цель','естественно связанные цели','естественно связанных целей');
+ if(scenario!=='none'){
+   if(result.national)return result.civ+': '+national+' выбранного сценария напрямую '+(result.national===1?'связана':'связаны')+' с этой цивилизацией.';
+   return result.civ+' подходит для выбранного сценария; его общие цели будут доступны на следующем шаге.';
+ }
+ if(result.national&&result.affinity){
+   const linked=result.national+result.affinity;
+   if(linked>=5)return national+' и ещё '+affinity+' делают эту цивилизацию сильным выбором.';
+   if(linked>=3)return national+' и ещё '+affinity+' делают эту цивилизацию хорошим выбором.';
+   return national+' и ещё '+affinity+' дают этой цивилизации небольшое преимущество перед вариантами только с общими целями.';
+ }
+ if(result.national)return national+' '+(result.national===1?'требует':'требуют')+' или особенно '+(result.national===1?'поддерживает':'поддерживают')+' игру за эту цивилизацию.';
+ if(result.affinity)return affinity+' '+(result.affinity===1?'сочетается':'сочетаются')+' с этой цивилизацией, хотя формально '+(result.affinity===1?'не требует':'не требуют')+' её.';
+ return 'Отдельных национальных преимуществ не найдено; доступны только общие и условные цели.';
 }
 function calculateRecommendations(){
  const remaining=plannerRemaining(),style=document.getElementById('planStyle').value,mode=document.getElementById('planMode').value;
+ const special=document.getElementById('planSpecial')?.value||'';
  const scenario=document.getElementById('planScenario')?.value||'none';
  const allCivs=(scenario!=='none'?plannerCivsForScenario(scenario):civs).filter(Boolean);
  const recs=allCivs.map(civ=>{
-   const civSpecificRemaining=remaining.filter(a=>(a.playerCivs||[]).includes(civ)&&!a.isScenario);
    const scored=remaining.map(a=>({a,...achievementScoreForCiv(a,civ,style,mode)})).filter(x=>x.score>0);
-   const direct=scored.filter(x=>x.tier==='core').length;
-   const compatible=scored.filter(x=>x.tier==='compatible').length;
-   const risky=scored.filter(x=>x.tier==='risky'||x.tier==='optional').length;
-   const total=scored.reduce((s,x)=>s+x.score,0);
-   return {civ,total,direct,compatible,risky,remainingSpecific:civSpecificRemaining.length,goals:scored.sort((x,y)=>y.score-x.score||x.a.name.localeCompare(y.a.name,'ru'))};
- }).filter(x=>x.remainingSpecific>0||x.total>0)
-   .sort((a,b)=>b.total-a.total||b.remainingSpecific-a.remainingSpecific||b.direct-a.direct||a.civ.localeCompare(b.civ,'ru'));
+   scored.forEach(goal=>goal.rankKind=recommendationKind(goal,civ,special));
+   const national=scored.filter(x=>x.rankKind==='national').length;
+   const affinity=scored.filter(x=>x.rankKind==='affinity').length;
+   const common=scored.filter(x=>x.rankKind==='common').length;
+   const conditional=scored.filter(x=>x.rankKind==='conditional').length;
+   const relevance=scored.reduce((sum,goal)=>sum+recommendationWeight(goal,goal.rankKind),0);
+   const commonBonus=Math.min(common,3),total=relevance+commonBonus;
+   const result={civ,total,national,affinity,common,conditional,commonBonus,goals:scored.sort((x,y)=>y.score-x.score||x.a.name.localeCompare(y.a.name,'ru'))};
+   result.explanation=recommendationExplanation(result,scenario);
+   return result;
+ }).filter(x=>x.national||x.affinity||x.common||x.conditional)
+   .sort((a,b)=>b.total-a.total||b.national-a.national||b.affinity-a.affinity||a.civ.localeCompare(b.civ,'ru'));
  plannerState.recommendations=recs;
  renderRecommendations();
  showPlannerStep(2);
@@ -930,10 +977,11 @@ function calculateRecommendations(){
 function renderRecommendations(){
  const box=document.getElementById('civRecommendations');
  const top=plannerState.recommendations;
- box.innerHTML=top.length?top.map((r,i)=>`<div class="civRec" onclick="selectPlannerCiv('${esc(r.civ)}')"><div class="civRecTop"><div><div class="kicker">${i===0?'Лучшая рекомендация':'Вариант '+(i+1)}</div><h4>${esc(r.civ)}</h4></div><div class="scoreBadge">${r.total}</div></div><p>${r.remainingSpecific} невыполненных за нацию · ${r.direct} основных${r.affinity?' · '+r.affinity+' естественных':''} · ${r.compatible} совместимых${r.risky?' · '+r.risky+' условных':''}</p><div class="civRecAccess">Все эти цели будут доступны на следующем шаге.</div><div class="civBreakdown"><span>за нацию ${r.remainingSpecific}</span><span>основные ${r.direct}</span>${r.affinity?'<span>естественные '+r.affinity+'</span>':''}<span>совместимые ${r.compatible}</span>${r.risky?'<span>случайные '+r.risky+'</span>':''}</div></div>`).join(''):'<div class="progressEmpty">Для выбранных настроек подходящих рекомендаций не найдено.</div>';
+ box.innerHTML=top.length?top.map((r,i)=>`<div class="civRec" onclick="selectPlannerCiv('${esc(r.civ)}')"><div class="civRecTop"><div><div class="kicker">${i===0?'Лучшая рекомендация':'Вариант '+(i+1)}</div><h4>${esc(r.civ)}</h4></div><div class="scoreBadge">${r.total}</div></div><p>${r.national} национальных · ${r.affinity} естественных · ${r.common} общих${r.conditional?' · '+r.conditional+' условных':''}</p><div class="civRecAccess">${esc(r.explanation)}</div><div class="civBreakdown"><span>национальные ${r.national}</span><span>естественные ${r.affinity}</span><span>общие ${r.common} · бонус +${r.commonBonus}</span>${r.conditional?'<span>условные '+r.conditional+'</span>':''}</div></div>`).join(''):'<div class="progressEmpty">Для выбранных настроек подходящих рекомендаций не найдено.</div>';
 }
 function goalIsPractical(g){
  const a=g.a;
+ if(a.plannerPractical===false)return false;
  if(g.tier==='risky')return false;
  if(a.category==='Черта / персонаж')return false;
  if(a.category==='Событие / особое')return false;
@@ -1008,7 +1056,7 @@ function renderGoalGroups(){
    const allItems=plannerState.goals.filter(g=>g.tier===key);
    const items=allItems.filter(g=>visibleIds.has(g.a.id));
    if(!items.length)return '';
-   return `<div class="goalGroup"><div class="goalGroupHead"><div><h4>${title}</h4><span>${sub}</span></div><span>${items.length===allItems.length?items.length:`${items.length} <span class="countDetail">из ${allItems.length}</span>`}</span></div><div class="goalRows">${items.map(g=>`<div class="goalRow"><input type="checkbox" ${g.selected?'checked':''} onchange="togglePlannerGoal('${g.a.id}',this.checked)"><div class="goalInfo"><div class="goalName">${esc(displayAchievementName(g.a))}</div><div class="goalCondition">${esc(g.a.condition)}</div><div class="goalMeta"><span class="goalBadge">${esc(title)}</span>${g.a.nationalUnique?'<span class="goalBadge practicalBadge">уникальный юнит</span>':''}${goalIsPractical(g)?'<span class="goalBadge practicalBadge">практичная</span>':''}${g.a.scenarioName?'<span class="goalBadge">'+esc(g.a.scenarioName)+'</span>':''}${g.a.cognomenLegitimacy!=null?'<span class="goalBadge">легит. '+g.a.cognomenLegitimacy+'</span>':''}<span class="goalBadge score">+${g.score}</span><button class="goalDetails" onclick="openAch('${g.a.id}')">Подробнее</button></div></div><div class="goalPts">+${g.score}</div></div>`).join('')}</div></div>`;
+   return `<div class="goalGroup"><div class="goalGroupHead"><div><h4>${title}</h4><span>${sub}</span></div><span>${items.length===allItems.length?items.length:`${items.length} <span class="countDetail">из ${allItems.length}</span>`}</span></div><div class="goalRows">${items.map(g=>`<div class="goalRow"><input type="checkbox" ${g.selected?'checked':''} onchange="togglePlannerGoal('${g.a.id}',this.checked)"><div class="goalInfo"><div class="goalName">${esc(displayAchievementName(g.a))}</div><div class="goalCondition">${esc(g.a.condition)}</div>${g.a.plannerNote?'<div class="goalCondition plannerNote">'+esc(g.a.plannerNote)+'</div>':''}<div class="goalMeta"><span class="goalBadge">${esc(title)}</span>${g.a.nationalUnique?'<span class="goalBadge practicalBadge">уникальный юнит</span>':''}${goalIsPractical(g)?'<span class="goalBadge practicalBadge">практичная</span>':''}${g.a.scenarioName?'<span class="goalBadge">'+esc(g.a.scenarioName)+'</span>':''}${g.a.cognomenLegitimacy!=null?'<span class="goalBadge">легит. '+g.a.cognomenLegitimacy+'</span>':''}<span class="goalBadge score">+${g.score}</span><button class="goalDetails" onclick="openAch('${g.a.id}')">Подробнее</button></div></div><div class="goalPts">+${g.score}</div></div>`).join('')}</div></div>`;
  }).join('');
  const hint=document.getElementById('plannerGoalHint');
  if(hint){
