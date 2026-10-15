@@ -96,6 +96,20 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
 .legitRule{margin-top:7px;color:#9f927d;font-size:10.5px;line-height:1.5}
 .planEmpty{border:1px dashed rgba(82,107,116,.34);background:rgba(82,107,116,.045);padding:17px;border-radius:13px}.planEmpty h3{font:500 18px Georgia,serif;margin:0 0 7px}.planEmpty p{font-size:11px;color:#8e8472;line-height:1.55;margin:0 0 14px}.tip{margin-top:12px;padding:13px;border-left:2px solid var(--gold);background:rgba(184,148,83,.035);color:#918673;font-size:10.5px;line-height:1.55}
 .catalogTop{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:14px}.progressFilters{display:grid;grid-template-columns:minmax(220px,1.35fr) repeat(5,minmax(135px,1fr));gap:8px;margin-bottom:6px;align-items:center}.filter{border:1px solid rgba(255,255,255,.08);background:#1a1712;color:#c6baa6;border-radius:9px;padding:10px 12px;min-height:40px;font-size:14px;line-height:1.25}.filter.search{min-width:240px;flex:1}.catalogGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.catCard{padding:15px;border:1px solid rgba(255,255,255,.055);background:rgba(255,255,255,.018);border-radius:12px;cursor:pointer}.catCard:hover{border-color:rgba(184,148,83,.28)}.catCard strong{font-size:14px;line-height:1.35}.catCard p{font-size:12px;color:#918674;line-height:1.5;margin:7px 0 0}.catalogFoot{display:flex;justify-content:center;margin-top:16px}
+.referenceSection{scroll-margin-top:94px;margin-top:34px;padding:30px 0 26px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:linear-gradient(90deg,rgba(184,148,83,.035),transparent 42%,rgba(82,107,116,.035))}
+.referenceIntro{display:grid;grid-template-columns:minmax(240px,.8fr) minmax(320px,1.2fr);gap:42px;align-items:end;padding:0 28px 25px}.referenceIntro h2{font:500 32px Georgia,serif;margin:7px 0 0;color:#f0e3ca}.referenceIntro p{color:#9b907e;font-size:13px;line-height:1.65;margin:0;max-width:660px}
+.referenceLayout{display:grid;grid-template-columns:250px minmax(0,1fr);border-top:1px solid rgba(213,184,117,.13);min-height:410px}
+.referenceNav{padding:22px 18px 0 28px;border-right:1px solid rgba(213,184,117,.13);display:flex;flex-direction:column;gap:2px}.referenceNav button{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;border:0;border-bottom:1px solid rgba(255,255,255,.045);background:transparent;color:#938875;text-align:left;padding:13px 4px;cursor:pointer;font-size:12.5px}.referenceNav button span{color:#665f54;transition:transform .18s,color .18s}.referenceNav button:hover{color:#d8cab1}.referenceNav button.active{color:#f0dfbd}.referenceNav button.active span{color:var(--gold2);transform:translateX(3px)}
+.referenceContent{padding:27px 32px 8px;min-width:0}.referencePanel{display:none}.referencePanel.active{display:block;animation:referenceReveal .24s ease-out}.referencePanel h3{font:500 25px Georgia,serif;margin:0;color:#eadcc2}.referenceLead{color:#9b907e;font-size:12.5px;line-height:1.65;max-width:760px;margin:8px 0 22px}
+.guideSteps{list-style:none;padding:0;margin:0;counter-reset:guide-step}.guideSteps li{counter-increment:guide-step;display:grid;grid-template-columns:42px minmax(0,1fr);gap:14px;padding:14px 0;border-top:1px solid rgba(255,255,255,.055)}.guideSteps li:before{content:'0' counter(guide-step);font:500 17px Georgia,serif;color:#b89453}.guideSteps strong{display:block;font-size:13.5px;color:#ddd0b8;margin-bottom:4px}.guideSteps p{font-size:11.5px;color:#918674;line-height:1.55;margin:0}
+.referenceNote{margin-top:18px;padding:11px 0 2px 14px;border-left:2px solid rgba(184,148,83,.48);color:#a99d88;font-size:11.5px;line-height:1.6}
+.termList{margin:0}.termRow{display:grid;grid-template-columns:190px minmax(0,1fr);gap:24px;padding:15px 0;border-top:1px solid rgba(255,255,255,.055)}.termRow dt{font:500 17px Georgia,serif;color:#ddcba8}.termRow dd{margin:0;color:#9b907e;font-size:12px;line-height:1.6}.termRow em{color:#c5b18b;font-style:normal}
+.mechanicList{display:grid;grid-template-columns:1fr 1fr;column-gap:34px}.mechanicItem{padding:15px 0;border-top:1px solid rgba(255,255,255,.055)}.mechanicItem small{display:block;color:#b89453;font-size:9px;letter-spacing:.15em;text-transform:uppercase;margin-bottom:7px}.mechanicItem strong{display:block;font:500 18px Georgia,serif;color:#dfd2ba}.mechanicItem p{font-size:11.5px;color:#918674;line-height:1.6;margin:6px 0 0}
+.sourceList{border-top:1px solid rgba(255,255,255,.055)}.sourceRow{display:grid;grid-template-columns:minmax(180px,.65fr) minmax(0,1.35fr) auto;gap:20px;align-items:center;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.055)}.sourceRow strong{font:500 17px Georgia,serif;color:#dfd2ba}.sourceRow p{font-size:11.5px;line-height:1.55;color:#918674;margin:0}.sourceRow a{color:#d0b474;text-decoration:none;font-size:11.5px;white-space:nowrap}.sourceRow a:hover{text-decoration:underline;text-underline-offset:3px}
+@keyframes referenceReveal{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:none}}
+@media(max-width:960px){.referenceIntro{grid-template-columns:1fr;gap:10px}.referenceLayout{grid-template-columns:1fr;min-height:0}.referenceNav{padding:8px 22px;border-right:0;border-bottom:1px solid rgba(213,184,117,.13);flex-direction:row;overflow-x:auto}.referenceNav button{min-width:max-content;padding:11px 8px}.referenceContent{padding:25px 28px 8px}}
+@media(max-width:620px){.referenceSection{margin-top:26px;padding-top:24px}.referenceIntro{padding:0 18px 20px}.referenceIntro h2{font-size:27px}.referenceNav{padding-left:12px;padding-right:12px}.referenceContent{padding:22px 18px 6px}.mechanicList{grid-template-columns:1fr}.termRow{grid-template-columns:1fr;gap:6px}.sourceRow{grid-template-columns:1fr;gap:6px}.sourceRow a{margin-top:3px}.referencePanel h3{font-size:22px}}
+@media(prefers-reduced-motion:reduce){.referencePanel.active{animation:none}}
 .overlay{position:fixed;inset:0;background:rgba(5,5,4,.72);backdrop-filter:blur(5px);display:grid;place-items:center;z-index:100;padding:22px}.modal{width:min(780px,100%);max-height:88vh;overflow:auto;padding:25px}.modal.wide{width:min(1200px,100%)}.modalHead{display:flex;justify-content:space-between;gap:15px;align-items:start}.modal h2{font:500 27px Georgia,serif;margin:6px 0}.close{border:0;background:transparent;color:#a99d89;font-size:24px;cursor:pointer}
 .setupGrid{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:18px}.setupBox{padding:16px;border:1px solid rgba(255,255,255,.06);border-radius:12px;background:rgba(255,255,255,.018)}.setupBox h3{font:500 17px Georgia,serif;margin:0 0 7px}.setupBox p{color:#8d8371;font-size:11px;line-height:1.5;margin:0 0 12px}
 .progressToolbar{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap;padding:6px 0 8px}.bulk{display:flex;gap:7px;flex-wrap:wrap}.progressSummary{color:#a79b87;font-size:12.5px}
@@ -185,7 +199,7 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
 <body>
 <header class="topbar"><div class="topinner">
  <div class="brand" onclick="window.scrollTo({top:0,behavior:'smooth'})"><div class="mark">OW</div><div><strong>Old World</strong><span>Achievement Guide</span></div></div>
- <nav class="nav"><button class="active">Главная</button><button onclick="document.getElementById('catalog').scrollIntoView()">Достижения</button><button onclick="openPlanner(true)">Планировщик</button><button>Гайды</button></nav>
+ <nav class="nav"><button class="active">Главная</button><button onclick="document.getElementById('catalog').scrollIntoView()">Достижения</button><button onclick="openPlanner(true)">Планировщик</button><button onclick="openReferenceGuide()">Справочник</button></nav>
  <div class="topright"><label class="searchMini">⌕&nbsp;<input id="topSearch" placeholder="Поиск достижения..." oninput="syncTopSearch()"></label><button class="btn ghost small" onclick="openProgress()">Мой прогресс</button></div>
 </div></header>
 
@@ -245,6 +259,70 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
 </div><div class="tip">Прогресс хранится локально для удобства, но его можно скачать в JSON-файл и восстановить после очистки браузера.</div></aside>
 </section></div>
 
+<section id="reference" class="section referenceSection" aria-labelledby="referenceTitle">
+ <div class="referenceIntro">
+  <div><div class="kicker">Гайды и справочник</div><h2 id="referenceTitle">Разобраться без лишних поисков</h2></div>
+  <p>Короткие объяснения для работы с сайтом и общих условий достижений. Подробная тактика по-прежнему находится в самих карточках.</p>
+ </div>
+ <div class="referenceLayout">
+  <nav class="referenceNav" aria-label="Разделы справочника">
+   <button class="active" type="button" data-reference-topic="site" aria-selected="true" onclick="showReferenceTopic('site')">Как пользоваться сайтом <span>→</span></button>
+   <button type="button" data-reference-topic="terms" aria-selected="false" onclick="showReferenceTopic('terms')">Словарь терминов <span>→</span></button>
+   <button type="button" data-reference-topic="mechanics" aria-selected="false" onclick="showReferenceTopic('mechanics')">Механики достижений <span>→</span></button>
+   <button type="button" data-reference-topic="sources" aria-selected="false" onclick="showReferenceTopic('sources')">Источники <span>→</span></button>
+  </nav>
+  <div class="referenceContent">
+   <article id="reference-site" class="referencePanel active">
+    <h3>Как пользоваться сайтом</h3>
+    <p class="referenceLead">Каталог работает без регистрации. Личный прогресс и текущая партия сохраняются только в этом браузере.</p>
+    <ol class="guideSteps">
+     <li><div><strong>Отметь полученные достижения</strong><p>Открой «Мой прогресс», используй поиск и фильтры, затем сохрани изменения. Полученные карточки останутся в каталоге и будут доступны через фильтр статуса.</p></div></li>
+     <li><div><strong>Сохрани резервную копию</strong><p>Кнопка «Сохранить файл» выгружает JSON с прогрессом и текущей партией. Этот файл можно импортировать в другом браузере или после очистки его данных.</p></div></li>
+     <li><div><strong>Подбери следующую партию</strong><p>Планировщик учитывает невыполненные достижения, выбранные режимы и цивилизацию. Готовый размер плана можно изменить вручную.</p></div></li>
+     <li><div><strong>Проверяй подробности карточки</strong><p>«Как получить» описывает условие, «Оптимальная тактика» — удобный путь, а поля редактора и источника показывают ограничения и происхождение данных.</p></div></li>
+    </ol>
+    <div class="referenceNote">При переходе с локального файла на GitHub Pages перенеси прогресс через экспорт и импорт JSON: браузер считает эти адреса разными сайтами.</div>
+   </article>
+
+   <article id="reference-terms" class="referencePanel">
+    <h3>Словарь терминов</h3>
+    <p class="referenceLead">В справочнике используются названия из русской локализации Old World. Английский термин указан только там, где он помогает узнать механику в других источниках.</p>
+    <dl class="termList">
+     <div class="termRow"><dt>Соцкапитал</dt><dd>Государственный ресурс <em>Civics</em>. В карточках количество записывается как «300 ед. соцкапитала».</dd></div>
+     <div class="termRow"><dt>Муштра</dt><dd>Военный ресурс <em>Training</em>. Он накапливается в общем запасе и используется, в частности, для развития армии.</dd></div>
+     <div class="termRow"><dt>Приказы</dt><dd>Очки действий на текущий ход. Передвижение юнитов и многие команды расходуют приказы из общего запаса.</dd></div>
+     <div class="termRow"><dt>Легитимность</dt><dd>Авторитет правителя. В карточках прозвищ отдельно показано, сколько легитимности даёт новое прозвище и может ли оно заменить текущее.</dd></div>
+     <div class="termRow"><dt>Уровень культуры</dt><dd>Ступень развития культуры конкретного города. Это не размер города: для чудес и некоторых условий нужен именно указанный культурный уровень.</dd></div>
+     <div class="termRow"><dt>Редкость Steam</dt><dd>Доля игроков Steam, получивших достижение. Значение берётся из глобальной статистики и может со временем меняться.</dd></div>
+    </dl>
+   </article>
+
+   <article id="reference-mechanics" class="referencePanel">
+    <h3>Общие механики достижений</h3>
+    <p class="referenceLead">Эти правила помогают читать карточки, но точное условие конкретного достижения всегда важнее общего пояснения.</p>
+    <div class="mechanicList">
+     <div class="mechanicItem"><small>01 · Чудеса</small><strong>Проверь набор партии</strong><p>Не каждое чудо доступно в каждой партии. До начала строительства проверь его присутствие, культурный уровень города, клетку и стоимость.</p></div>
+     <div class="mechanicItem"><small>02 · Сложность</small><strong>Смотри точную формулировку</strong><p>Если в условии указано «или выше», более высокая сложность подходит. Для особых испытаний могут действовать дополнительные настройки.</p></div>
+     <div class="mechanicItem"><small>03 · Сценарии</small><strong>Выбери нужную главу</strong><p>Сценарные достижения могут проверять конкретную миссию, героя, ход или дополнительную цель. Обычная партия их не заменяет.</p></div>
+     <div class="mechanicItem"><small>04 · Режимы</small><strong>Hotseat — не всегда сеть</strong><p>Карточка отдельно указывает, подходит ли Hotseat, дуэль, локальная сеть или полноценная многопользовательская игра.</p></div>
+     <div class="mechanicItem"><small>05 · Редактор</small><strong>Подготовка не равна зачёту</strong><p>Редактор может помочь создать условия, но не каждая игровая проверка срабатывает после прямого добавления объекта или ресурса.</p></div>
+     <div class="mechanicItem"><small>06 · Проценты</small><strong>Это текущий снимок Steam</strong><p>Редкость меняется вместе с общей статистикой игроков. Она помогает оценить частоту, но не определяет реальную сложность попытки.</p></div>
+    </div>
+   </article>
+
+   <article id="reference-sources" class="referencePanel">
+    <h3>Источники</h3>
+    <p class="referenceLead">Условия и термины проверяются по нескольким источникам. Советы в карточках являются пояснениями этого проекта, а не официальным руководством разработчиков.</p>
+    <div class="sourceList">
+     <div class="sourceRow"><strong>Steam</strong><p>Официальные названия, условия достижений и глобальные проценты получения.</p><a href="https://steamcommunity.com/stats/597180/achievements?l=russian" target="_blank" rel="noreferrer">Открыть ↗</a></div>
+     <div class="sourceRow"><strong>Old World Wiki</strong><p>Механики игры, технологии, законы, персонажи, города и требования построек.</p><a href="https://wiki.hoodedhorse.com/Old_World/" target="_blank" rel="noreferrer">Открыть ↗</a></div>
+     <div class="sourceRow"><strong>Репозиторий проекта</strong><p>История изменений сайта и открытые данные всех карточек достижений.</p><a href="https://github.com/NatalieZh/OldWorldAchievements" target="_blank" rel="noreferrer">Открыть ↗</a></div>
+    </div>
+    <div class="referenceNote">Если карточка расходится с текстом в игре, приоритет имеет актуальная русская локализация игры. Такое расхождение стоит проверить отдельно.</div>
+   </article>
+  </div>
+ </div>
+</section>
 <section class="section card catalog" id="catalog"><div class="sectionHead"><div><div class="kicker">Библиотека достижений</div><h2>Каталог достижений</h2><p><span id="catalogCount">408</span> достижений в текущей базе.</p></div></div>
  <div class="catalogTop"><input id="catalogSearch" class="filter search" placeholder="Название или условие..." oninput="resetCatalogPage()"><select id="categoryFilter" class="filter" onchange="resetCatalogPage()"></select><select id="dlcFilter" class="filter" onchange="resetCatalogPage()"></select><select id="scenarioFilter" class="filter" onchange="resetCatalogPage()"></select><select id="specialFilter" class="filter" onchange="resetCatalogPage()"><option value="">Все особые условия</option><option value="Одиночная игра">Одиночная игра</option><option value="Мультиплеер / сеть">Мультиплеер / сеть</option><option value="Каждый за себя">Каждый за себя</option><option value="Командная игра">Командная игра</option><option value="Дуэль">Дуэль</option><option value="Hotseat">Hotseat</option><option value="Локальная сеть">Локальная сеть</option><option value="Игра через облако">Игра через облако</option><option value="Один город">Один город</option><option value="Без персонажей">Без персонажей</option><option value="Без отмены">Без отмены</option><option value="Случайные лидеры">Случайные лидеры</option><option value="Случайные семьи">Случайные семьи</option><option value="Ролевые события">Ролевые события</option><option value="Высокий уровень событий">Высокий уровень событий</option><option value="Реалистичная смертность">Реалистичная смертность</option><option value="Игра недели">Игра недели</option><option value="Все нации">Все нации</option><option value="Победа по очкам">Победа по очкам</option><option value="Победа по амбициям">Победа по амбициям</option><option value="Победа по времени">Победа по времени</option><option value="Победа завоеванием">Победа завоеванием</option><option value="Победа союза">Победа союза</option><option value="Двойная победа">Двойная победа</option><option value="Уровень сложности">Уровень сложности</option><option value="Определённая семья">Определённая семья</option><option value="Хардкорные настройки">Хардкорные настройки</option><option value="Уровень племён">Уровень племён</option></select><select id="civFilter" class="filter" onchange="resetCatalogPage()"></select><select id="statusFilter" class="filter" onchange="resetCatalogPage()"><option value="">Любой статус</option><option value="todo">Не получено</option><option value="done">Получено</option></select></div>
  <div class="catalogGrid" id="catalogGrid"></div><div class="catalogFoot"><button id="moreBtn" class="btn ghost small" onclick="showMore()">Показать ещё</button></div>
@@ -661,6 +739,17 @@ function renderCatalog(){
 function resetCatalogPage(){catalogPage=1;renderCatalog()} function showMore(){catalogPage++;renderCatalog()}
 function syncTopSearch(){document.getElementById('catalogSearch').value=document.getElementById('topSearch').value;resetCatalogPage();if(document.getElementById('topSearch').value)document.getElementById('catalog').scrollIntoView({behavior:'smooth'})}
 function quickFilterCategory(cat){document.getElementById('categoryFilter').value=cat;resetCatalogPage();document.getElementById('catalog').scrollIntoView({behavior:'smooth'})}
+function showReferenceTopic(topic){
+ document.querySelectorAll('.referencePanel').forEach(panel=>panel.classList.toggle('active',panel.id==='reference-'+topic));
+ document.querySelectorAll('[data-reference-topic]').forEach(button=>{
+   const active=button.dataset.referenceTopic===topic;
+   button.classList.toggle('active',active);button.setAttribute('aria-selected',String(active));
+ });
+}
+function openReferenceGuide(topic='site'){
+ showReferenceTopic(topic);
+ document.getElementById('reference').scrollIntoView({behavior:'smooth',block:'start'});
+}
 
 function progressFiltered(){
  const q=(document.getElementById('pSearch').value||'').toLowerCase().trim(),cat=document.getElementById('pCategory').value,dlc=document.getElementById('pDlc').value,scenario=document.getElementById('pScenario').value,special=specialTagByLabel(document.getElementById('pSpecial').value),civ=document.getElementById('pCiv').value,status=document.getElementById('pStatus').value;
