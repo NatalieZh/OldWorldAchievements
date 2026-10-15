@@ -9276,7 +9276,11 @@
     "nationalLinkType": "",
     "guideStatus": "filled",
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Characters",
-    "guideVerified": true
+    "guideVerified": true,
+    "mechanicNote": "Уточнение: достижение засчитывается, если убить Александра до того, как он станет лидером.",
+    "plannerNote": "Уточнение: достижение засчитывается, если убить Александра до того, как он станет лидером.",
+    "plannerTier": "optional",
+    "plannerPractical": false
   },
   {
     "id": "a315",
