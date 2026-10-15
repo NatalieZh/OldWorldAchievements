@@ -170,6 +170,9 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
 .muted{color:#807665}
 
 .footer{margin-top:34px;padding-top:18px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:18px;color:#71695b;font-size:10px}.toast{position:fixed;right:22px;bottom:22px;background:#272219;border:1px solid rgba(184,148,83,.34);color:#e8dcc4;padding:11px 14px;border-radius:11px;box-shadow:var(--shadow);z-index:200;font-size:11px}
+.importBusy{position:fixed;inset:0;z-index:320;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;background:rgba(8,7,5,.84);backdrop-filter:blur(8px);animation:importBusyIn .16s ease-out}.importBusy strong{font:500 25px Georgia,serif;color:#eadcc1;margin-top:17px}.importBusy span{font-size:11.5px;color:#c3af88;margin-top:7px;max-width:min(420px,90vw);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.importBusy small{font-size:10.5px;color:#817766;margin-top:7px}.importSpinner{width:42px;height:42px;border-radius:50%;border:1px solid rgba(184,148,83,.22);border-top-color:var(--gold2);box-shadow:inset 0 0 0 6px rgba(184,148,83,.025);animation:importSpin .8s linear infinite}body.importBusyOpen{overflow:hidden}
+@keyframes importSpin{to{transform:rotate(360deg)}}@keyframes importBusyIn{from{opacity:0}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.importBusy,.importSpinner{animation:none}.importSpinner{border-color:rgba(184,148,83,.45)}}
 @media(max-width:1100px){
  .progressFilters{grid-template-columns:repeat(3,minmax(0,1fr))}
  .dynamicZone.runActive #recoSection .achievementList{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -207,7 +210,7 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
 <section class="hero">
  <div class="card heroMain"><div class="kicker">Неофициальный помощник по достижениям</div><h1>Планируй свою<br>следующую эпоху.</h1><p class="lead">Все достижения Old World в одном месте: условия, механики, советы и подбор целей для новой партии. Можно просто изучать гайды — или подключить собственный прогресс.</p><div class="heroActions"><button class="btn" onclick="document.getElementById('catalog').scrollIntoView()">Смотреть достижения</button><button class="btn ghost" onclick="openPlanner()">Спланировать партию</button></div></div>
  <aside class="card heroAside"><div><div class="asideTitle"><div><div class="kicker">Твой прогресс</div><h2 id="progressTitle">Прогресс не подключён</h2></div><span class="statusDot" id="progressStatus">Гость</span></div>
-   <div id="guestProgress" class="noProgress"><strong>Сделать сайт своим</strong><p>Загрузи сохранённый файл прогресса или отметь достижения вручную. Это необязательно: весь каталог и гайды доступны без регистрации.</p><div class="importRow"><button class="btn small" onclick="document.getElementById('importFile').click()">Импортировать файл</button><button class="btn ghost small" onclick="openProgress()">Отметить вручную</button></div><input id="importFile" class="fileInput" type="file" accept=".json" onchange="importProgress(event)"></div>
+   <div id="guestProgress" class="noProgress"><strong>Сделать сайт своим</strong><p>Загрузи сохранённый файл прогресса или отметь достижения вручную. Это необязательно: весь каталог и гайды доступны без регистрации.</p><div class="importRow"><button class="btn small" onclick="selectProgressFile('importFile')">Импортировать файл</button><button class="btn ghost small" onclick="openProgress()">Отметить вручную</button></div><input id="importFile" class="fileInput" type="file" accept=".json" onchange="importProgress(event)" oncancel="cancelProgressImportSelection()"></div>
    <div id="loadedProgress" class="progressView hidden"><div class="progressNums"><div class="bigNum"><span id="doneCount">0</span> <small>/ 408</small></div><div class="progressMeta" id="percentText">0% завершено</div></div><div class="progressBar"><div class="progressFill" id="progressFill"></div></div><div class="miniStats"><div class="miniStat"><b id="leftCount">408</b><span>осталось</span></div><div class="miniStat"><b id="runCount">0</b><span>в плане</span></div><div class="miniStat"><b>408</b><span>в базе</span></div></div></div>
  </div><div id="progressActions" class="hidden" style="margin-top:16px;display:flex;gap:8px;flex-wrap:wrap"><button class="btn small" onclick="openProgress()">Изменить</button><button class="btn ghost small" onclick="exportProgress()">Сохранить файл</button></div></aside>
 </section>
@@ -335,7 +338,7 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
  <div class="progressFilters"><input id="pSearch" class="filter search" placeholder="Поиск..." oninput="renderProgressList()"><select id="pCategory" class="filter" onchange="renderProgressList()"></select><select id="pDlc" class="filter" onchange="renderProgressList()"></select><select id="pScenario" class="filter" onchange="renderProgressList()"></select><select id="pSpecial" class="filter" onchange="renderProgressList()"><option value="">Все особые условия</option><option value="Одиночная игра">Одиночная игра</option><option value="Мультиплеер / сеть">Мультиплеер / сеть</option><option value="Каждый за себя">Каждый за себя</option><option value="Командная игра">Командная игра</option><option value="Дуэль">Дуэль</option><option value="Hotseat">Hotseat</option><option value="Локальная сеть">Локальная сеть</option><option value="Игра через облако">Игра через облако</option><option value="Один город">Один город</option><option value="Без персонажей">Без персонажей</option><option value="Без отмены">Без отмены</option><option value="Случайные лидеры">Случайные лидеры</option><option value="Случайные семьи">Случайные семьи</option><option value="Ролевые события">Ролевые события</option><option value="Высокий уровень событий">Высокий уровень событий</option><option value="Реалистичная смертность">Реалистичная смертность</option><option value="Игра недели">Игра недели</option><option value="Все нации">Все нации</option><option value="Победа по очкам">Победа по очкам</option><option value="Победа по амбициям">Победа по амбициям</option><option value="Победа по времени">Победа по времени</option><option value="Победа завоеванием">Победа завоеванием</option><option value="Победа союза">Победа союза</option><option value="Двойная победа">Двойная победа</option><option value="Уровень сложности">Уровень сложности</option><option value="Определённая семья">Определённая семья</option><option value="Хардкорные настройки">Хардкорные настройки</option><option value="Уровень племён">Уровень племён</option></select><select id="pCiv" class="filter" onchange="renderProgressList()"></select><select id="pStatus" class="filter" onchange="renderProgressList()"><option value="">Все</option><option value="todo">Не отмеченные</option><option value="done">Полученные</option></select><select id="pSort" class="filter" onchange="renderProgressList()"><option value="name">Название А–Я</option><option value="category">Категория</option><option value="rarity">Редкость Steam</option><option value="doneFirst">Полученные сначала</option><option value="todoFirst">Неполученные сначала</option></select></div>
  <div class="progressToolbar"><div class="bulk"><button class="btn ghost small" onclick="markVisible(true)">Отметить все видимые</button><button class="btn ghost small" onclick="markVisible(false)">Снять все видимые</button><button class="btn ghost small" onclick="resetProgressFilters()">Сбросить фильтры</button></div><div class="progressSummary" id="pSummary"></div></div>
  <div class="progressList" id="progressList"></div>
- <div class="modalFoot"><div class="bulk"><button class="btn danger small" onclick="clearAllProgress()">Очистить весь прогресс</button><button class="btn ghost small" onclick="document.getElementById('importFileModal').click()">Импорт JSON</button><input id="importFileModal" class="fileInput" type="file" accept=".json" onchange="importProgress(event)"><button class="btn ghost small" onclick="exportProgress()">Сохранить JSON</button></div><button class="btn" onclick="commitProgress()">Сохранить изменения</button></div>
+ <div class="modalFoot"><div class="bulk"><button class="btn danger small" onclick="clearAllProgress()">Очистить весь прогресс</button><button class="btn ghost small" onclick="selectProgressFile('importFileModal')">Импорт JSON</button><input id="importFileModal" class="fileInput" type="file" accept=".json" onchange="importProgress(event)" oncancel="cancelProgressImportSelection()"><button class="btn ghost small" onclick="exportProgress()">Сохранить JSON</button></div><button class="btn" onclick="commitProgress()">Сохранить изменения</button></div>
 </div></div>
 
 
@@ -469,6 +472,12 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
 <div style="display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap;margin-top:15px"><button id="runAchBtn" class="btn ghost small hidden" onclick="toggleCurrentAchievementInRun()"></button><button id="toggleAchBtn" class="btn small" onclick="toggleCurrentAchievement()"></button></div></div></div>
 
 <div id="toast" class="toast hidden"></div>
+<div id="importBusy" class="importBusy hidden" role="status" aria-live="polite" aria-busy="true">
+ <div class="importSpinner" aria-hidden="true"></div>
+ <strong id="importBusyTitle">Загружаем прогресс…</strong>
+ <span id="importBusyFile"></span>
+ <small id="importBusyHint">Проверяем файл и обновляем карточки достижений.</small>
+</div>
 
 <script src="data/achievements.js"></script>
 <script>
@@ -792,10 +801,34 @@ function closeProgress(){if(progressHasUnsavedChanges()&&!confirm('Есть не
 function commitProgress(){state.done=[...draftDone];persist();render();closeModal('progressModal');toast('Прогресс сохранён')}
 function clearAllProgress(){if(!confirm('Очистить все отмеченные достижения?'))return;draftDone.clear();renderProgressList()}
 function exportProgress(){const blob=new Blob([JSON.stringify({app:'old-world-achievement-guide',version:4,dbCount:DB_TOTAL,exportedAt:new Date().toISOString(),state},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='old-world-progress.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast('Файл прогресса сохранён')}
+let pendingImportInput=null;
+function setImportBusy(on,fileName='',title='Загружаем прогресс…',hint='Проверяем файл и обновляем карточки достижений.'){
+ document.getElementById('importBusy').classList.toggle('hidden',!on);
+ document.getElementById('importBusyFile').textContent=on?fileName:'';
+ document.getElementById('importBusyTitle').textContent=title;
+ document.getElementById('importBusyHint').textContent=hint;
+ document.body.classList.toggle('importBusyOpen',on);
+}
+function selectProgressFile(inputId){
+ const input=document.getElementById(inputId);if(!input)return;
+ pendingImportInput=input;input.value='';
+ setImportBusy(true,'','Выберите файл прогресса','После выбора начнётся проверка и обновление достижений.');
+ input.click();
+}
+function cancelProgressImportSelection(){pendingImportInput=null;setImportBusy(false)}
 function importProgress(ev){
- const f=ev.target.files[0];if(!f)return;
+ const input=ev.target,f=input.files[0];pendingImportInput=null;
+ if(!f){setImportBusy(false);return}
+ setImportBusy(true,f.name);
  const r=new FileReader();
- r.onload=()=>{try{
+ const importStarted=Date.now(),minimumBusyMs=500;
+ let finished=false;
+ const finish=(message)=>{
+  if(finished)return;finished=true;
+  const delay=Math.max(0,minimumBusyMs-(Date.now()-importStarted));
+  setTimeout(()=>{setImportBusy(false);toast(message)},delay);
+ };
+ r.onload=()=>requestAnimationFrame(()=>setTimeout(()=>{try{
    const obj=JSON.parse(r.result),incoming=obj.state||obj;
    if(!Array.isArray(incoming.done))throw new Error();
    const importedDone=[...new Set(incoming.done.map(id=>duplicateIdAliases[id]||id).filter(id=>achievements.some(a=>a.id===id)))];
@@ -807,9 +840,11 @@ function importProgress(ev){
      importedRun.goals=[...new Set(incoming.run.goals.map(id=>duplicateIdAliases[id]||id).filter(id=>achievements.some(a=>a.id===id)))];
    }
    state={done:importedDone,run:importedRun};
-   persist();draftDone=new Set(state.done);render();renderProgressList();toast('Прогресс импортирован');
- }catch(e){toast('Не удалось прочитать файл прогресса')}};
- r.readAsText(f);ev.target.value='';
+   persist();draftDone=new Set(state.done);render();renderProgressList();finish('Прогресс импортирован');
+ }catch(e){finish('Не удалось прочитать файл прогресса')}},0));
+ r.onerror=()=>finish('Не удалось прочитать файл прогресса');
+ try{r.readAsText(f)}catch(e){finish('Не удалось прочитать файл прогресса')}
+ input.value='';
 }
 
 function openAch(id){const a=achievements.find(x=>x.id===id);if(!a)return;currentAchId=id;document.getElementById('mCat').textContent=a.category;document.getElementById('mName').textContent=a.name;document.getElementById('mCond').textContent=a.condition||'—';const guide=document.getElementById('mGuide');guide.textContent=a.guide||'Подробный способ получения ещё не добавлен.';if(a.guideLink){const link=document.createElement('a');link.href=a.guideLink;link.textContent=a.guideLinkLabel||a.guideLink;link.target='_blank';link.rel='noreferrer';link.className='sourceLink';guide.append(document.createTextNode(' '),link)}document.getElementById('mTactic').textContent=a.tactic||'Практическая тактика ещё не добавлена.';document.getElementById('mEditor').textContent=a.editor||'Нет данных.';
@@ -859,6 +894,8 @@ function showPlannerStep(n){
   document.getElementById('plannerStep'+i).classList.toggle('hidden',i!==n);
   document.getElementById('stepTab'+i).classList.toggle('active',i===n);
  });
+ const plannerModal=document.querySelector('#plannerModal .plannerModal');
+ if(plannerModal)plannerModal.scrollTop=0;
  updatePlannerStepAvailability();
  const saveBtn=document.getElementById('plannerSaveBtn');
  if(saveBtn)saveBtn.textContent=plannerState.editing?'Сохранить изменения':'Создать текущую партию';
