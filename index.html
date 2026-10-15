@@ -300,12 +300,12 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
     <select id="planSpecial" class="filter" style="width:100%"><option value="">Без особого условия</option><option value="singleplayer">Одиночная игра</option><option value="multiplayer">Мультиплеер / сеть</option><option value="ffa">Каждый за себя</option><option value="teams">Командная игра</option><option value="duel">Дуэль</option><option value="hotseat">Hotseat</option><option value="lan">Локальная сеть</option><option value="cloud">Игра через облако</option><option value="one_city">Один город</option><option value="no_characters">Без персонажей</option><option value="no_undo">Без отмены</option><option value="random_leaders">Случайные лидеры</option><option value="random_families">Случайные семьи</option><option value="role_playing">Ролевые события</option><option value="high_events">Высокий уровень событий</option><option value="realistic_mortality">Реалистичная смертность</option><option value="game_of_week">Игра недели</option><option value="all_nations">Все нации</option><option value="points_victory">Победа по очкам</option><option value="ambition_victory">Победа по амбициям</option><option value="time_victory">Победа по времени</option><option value="conquest_victory">Победа завоеванием</option><option value="alliance_victory">Победа союза</option><option value="double_victory">Двойная победа</option><option value="difficulty">Уровень сложности</option><option value="family">Определённая семья</option><option value="hardcore">Хардкорные настройки</option><option value="tribe_level">Уровень племён</option></select>
    </div>
    <div class="setupBox">
-    <h3>DLC</h3><p>Можно ограничить рекомендации конкретным дополнением.</p>
-    <select id="planDlc" class="filter" style="width:100%"><option value="all">Все DLC</option><option value="Behind the Throne">Behind the Throne</option><option value="Carthage">Carthage</option><option value="Empires of the Indus">Empires of the Indus</option><option value="Heroes of the Aegean">Heroes of the Aegean</option><option value="Pharaohs of the Nile">Pharaohs of the Nile</option><option value="The Sacred and the Profane">The Sacred and the Profane</option><option value="Wonders and Dynasties">Wonders and Dynasties</option><option value="Wrath of Gods">Wrath of Gods</option><option value="Основная игра">Основная игра</option></select>
+    <h3>Источник достижений</h3><p>Выбери основную игру, конкретное дополнение или цели из любого источника.</p>
+    <select id="planDlc" class="filter" style="width:100%" onchange="handlePlannerDlcChange()"><option value="all">Любой источник</option><option value="Behind the Throne">Behind the Throne</option><option value="Carthage">Carthage</option><option value="Empires of the Indus">Empires of the Indus</option><option value="Heroes of the Aegean">Heroes of the Aegean</option><option value="Pharaohs of the Nile">Pharaohs of the Nile</option><option value="The Sacred and the Profane">The Sacred and the Profane</option><option value="Wonders and Dynasties">Wonders and Dynasties</option><option value="Wrath of Gods">Wrath of Gods</option><option value="Основная игра">Основная игра</option></select>
    </div>
    <div class="setupBox">
-    <h3>Сценарий</h3><p>Сценарии фильтруются отдельно от DLC и не смешиваются с обычной партией.</p>
-    <select id="planScenario" class="filter" style="width:100%"><option value="none">Обычная партия (без сценария)</option><option value="all">Любой сценарий</option><option value="Орда варваров">Орда варваров</option><option value="Герои Эгейи 1">Герои Эгейи 1</option><option value="Герои Эгейи 2">Герои Эгейи 2</option><option value="Герои Эгейи 3">Герои Эгейи 3</option><option value="Герои Эгейи 4">Герои Эгейи 4</option><option value="Герои Эгейи 5">Герои Эгейи 5</option><option value="Герои Эгейи 6">Герои Эгейи 6</option><option value="Карфаген — кампания">Карфаген — кампания</option><option value="Карфаген — сценарий 1">Карфаген — сценарий 1</option><option value="Карфаген — сценарий 2">Карфаген — сценарий 2</option><option value="Карфаген — сценарий 3">Карфаген — сценарий 3</option><option value="Карфаген — сценарий 4">Карфаген — сценарий 4</option><option value="Фараоны Нила — кампания">Фараоны Нила — кампания</option><option value="Фараоны Нила — сценарий 1">Фараоны Нила — сценарий 1</option><option value="Фараоны Нила — сценарий 2">Фараоны Нила — сценарий 2</option><option value="Фараоны Нила — сценарий 3">Фараоны Нила — сценарий 3</option><option value="Фараоны Нила — сценарий 4">Фараоны Нила — сценарий 4</option><option value="Фараоны Нила — сценарий 5">Фараоны Нила — сценарий 5</option><option value="Фараоны Нила — сценарий 6">Фараоны Нила — сценарий 6</option></select>
+    <h3>Сценарий</h3><p id="planScenarioNote">Сценарии отсортированы по числу оставшихся достижений.</p>
+    <select id="planScenario" class="filter" style="width:100%" onchange="handlePlannerScenarioChange()"><option value="none">Обычная партия (без сценария)</option></select>
    </div>
   </div>
   <div class="plannerHint setupAudit"><b>Что умеет учитывать планировщик:</b> режим сети, дуэль, Hotseat, LAN, облако, «Каждый за себя», команды, «Один город», «Без персонажей», «Без отмены», случайных лидеров/семьи, ролевые события, высокий уровень событий, реалистичную смертность, тип победы, сложность и семейные ограничения. Явного достижения на конкретный тип карты в текущей базе не найдено.</div>
@@ -372,11 +372,12 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
 if (achievements.length !== 408) throw new Error(`Expected 408 achievements, loaded ${achievements.length}`);
 const categories=["Военное / историческое", "Дипломатия / отношения", "Законы", "Комплексное испытание", "Мультиплеер / режим", "Победа / условие партии", "Победа за цивилизацию", "Развитие / управление", "Религия / теология", "Семья", "Сложность", "Событие / особое", "Сооружение", "Сценарий / кампания", "Технология", "Черта / персонаж", "Чудо", "Юнит"];
 const dlcs=["Behind the Throne", "Carthage", "Empires of the Indus", "Heroes of the Aegean", "Pharaohs of the Nile", "The Sacred and the Profane", "Wonders and Dynasties", "Wrath of Gods", "Основная игра"];
-const scenarios=["Обучение", "Учимся играть", "Орда варваров", "Герои Эгейи", "Герои Эгейи 1", "Герои Эгейи 2", "Герои Эгейи 3", "Герои Эгейи 4", "Герои Эгейи 5", "Герои Эгейи 6", "Карфаген — кампания", "Карфаген — сценарий 1", "Карфаген — сценарий 2", "Карфаген — сценарий 3", "Карфаген — сценарий 4", "Фараоны Нила — кампания", "Фараоны Нила — сценарий 1", "Фараоны Нила — сценарий 2", "Фараоны Нила — сценарий 3", "Фараоны Нила — сценарий 4", "Фараоны Нила — сценарий 5", "Фараоны Нила — сценарий 6"];
+const scenarios=[...new Set(achievements.filter(a=>a.isScenario).map(a=>a.scenarioName).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'ru'));
 const civs=["Аксум", "Ассирия", "Вавилония", "Греция", "Египет", "Карфаген", "Куш", "Маурья", "Персия", "Рим", "Тамилакам", "Хетты", "Юэчжи"];
 const specialOptions=[{"value":"singleplayer","label":"Одиночная игра"},{"value":"multiplayer","label":"Мультиплеер / сеть"},{"value":"ffa","label":"Каждый за себя"},{"value":"teams","label":"Командная игра"},{"value":"duel","label":"Дуэль"},{"value":"hotseat","label":"Hotseat"},{"value":"lan","label":"Локальная сеть"},{"value":"cloud","label":"Игра через облако"},{"value":"one_city","label":"Один город"},{"value":"no_characters","label":"Без персонажей"},{"value":"no_undo","label":"Без отмены"},{"value":"random_leaders","label":"Случайные лидеры"},{"value":"random_families","label":"Случайные семьи"},{"value":"role_playing","label":"Ролевые события"},{"value":"high_events","label":"Высокий уровень событий"},{"value":"realistic_mortality","label":"Реалистичная смертность"},{"value":"game_of_week","label":"Игра недели"},{"value":"all_nations","label":"Все нации"},{"value":"points_victory","label":"Победа по очкам"},{"value":"ambition_victory","label":"Победа по амбициям"},{"value":"time_victory","label":"Победа по времени"},{"value":"conquest_victory","label":"Победа завоеванием"},{"value":"alliance_victory","label":"Победа союза"},{"value":"double_victory","label":"Двойная победа"},{"value":"difficulty","label":"Уровень сложности"},{"value":"family","label":"Определённая семья"},{"value":"hardcore","label":"Хардкорные настройки"},{"value":"tribe_level","label":"Уровень племён"}];
 const plannerDifficulties=['Новый','Способный','Справедливый','Добрый','Могучий','Благородный','Славный','Великолепный','Великий'];
 function plannerDifficultyValue(value){return value==='any'||plannerDifficulties.includes(value)?value:'any'}
+function plannerScenarioValue(value){return value==='none'||scenarios.includes(value)?value:'none'}
 const plannerRunDefaults={mode:'Singleplayer',difficulty:'any',style:'balanced',special:'',dlc:'all',scenario:'none'};
 const plannerStyleLabels={balanced:'Сбалансированная',war:'Военная',peace:'Спокойная / мирная',long:'Долгая партия'};
 const duplicateIdAliases={};
@@ -403,6 +404,7 @@ state.done=[...new Set(state.done.map(id=>duplicateIdAliases[id]||id).filter(id=
 if(state.run&&typeof state.run==='object'){
  state.run={...plannerRunDefaults,...state.run};
  state.run.difficulty=plannerDifficultyValue(state.run.difficulty);
+ state.run.scenario=plannerScenarioValue(state.run.scenario);
  const savedGoals=Array.isArray(state.run.goals)?state.run.goals:[];
  state.run.goals=[...new Set(savedGoals.map(id=>duplicateIdAliases[id]||id).filter(id=>achievements.some(a=>a.id===id)))];
 }else state.run=null;
@@ -420,19 +422,20 @@ function setPlannerSelectValue(id,value,fallback){
 function applyPlannerRunSettings(run){
  const settings={...plannerRunDefaults,...(run||{})};
  settings.difficulty=plannerDifficultyValue(settings.difficulty);
+ settings.scenario=plannerScenarioValue(settings.scenario);
  setPlannerSelectValue('planMode',settings.mode,plannerRunDefaults.mode);
  updatePlannerSpecialOptions(settings.special);
  setPlannerSelectValue('planDifficulty',settings.difficulty,plannerRunDefaults.difficulty);
  setPlannerSelectValue('planStyle',settings.style,plannerRunDefaults.style);
  setPlannerSelectValue('planSpecial',plannerSpecialAvailable(settings.special,document.getElementById('planMode').value)?settings.special:plannerRunDefaults.special,plannerRunDefaults.special);
  setPlannerSelectValue('planDlc',settings.dlc,plannerRunDefaults.dlc);
- setPlannerSelectValue('planScenario',settings.scenario,plannerRunDefaults.scenario);
+ updatePlannerScenarioOptions(settings.scenario);
 }
 function plannerRunMeta(run){
  const settings={...plannerRunDefaults,...run};
  const special=specialOptions.find(x=>x.value===settings.special)?.label;
- const scenario=settings.scenario==='none'?'Обычная партия':settings.scenario==='all'?'Любой сценарий':settings.scenario;
- const dlc=settings.dlc==='all'?'Все DLC':'DLC: '+settings.dlc;
+ const scenario=settings.scenario==='none'?'Обычная партия':'Сценарий: '+settings.scenario;
+ const dlc=settings.dlc==='all'?'Любой источник':'Источник: '+settings.dlc;
  const difficulty=settings.difficulty==='any'?'Без привязки к сложности':'Сложность: '+settings.difficulty;
  const parts=[settings.mode,difficulty,plannerStyleLabels[settings.style]||settings.style,dlc,scenario];
  if(special)parts.push(special);
@@ -445,10 +448,11 @@ function initialize(){
  initSelect('pCategory',categories,'Все категории');initSelect('pDlc',dlcs,'Все DLC');initSelect('pScenario',scenarios,'Все сценарии');initSelect('pCiv',civs,'Все цивилизации');
  document.getElementById('pScenario').insertAdjacentHTML('afterbegin','<option value="__none__">Без сценарных достижений</option>');
  if(document.getElementById('pSpecial').options.length===0)initSelect('pSpecial',specialOptions.map(x=>x.label),'Все особые условия');
- const planDlc=document.getElementById('planDlc');if(planDlc&&planDlc.options.length===0)planDlc.innerHTML='<option value="all">Все DLC</option>'+dlcs.map(x=>'<option>'+esc(x)+'</option>').join('');
- const planScenario=document.getElementById('planScenario');if(planScenario&&planScenario.options.length===0)planScenario.innerHTML='<option value="none">Обычная партия (без сценария)</option><option value="all">Любой сценарий</option>'+scenarios.map(x=>'<option>'+esc(x)+'</option>').join('');
+ const planDlc=document.getElementById('planDlc');if(planDlc&&planDlc.options.length===0)planDlc.innerHTML='<option value="all">Любой источник</option>'+dlcs.map(x=>'<option>'+esc(x)+'</option>').join('');
+ const planScenario=document.getElementById('planScenario');if(planScenario)planScenario.innerHTML='<option value="none">Обычная партия (без сценария)</option>';
  const planSpecial=document.getElementById('planSpecial');if(planSpecial&&planSpecial.options.length===0)planSpecial.innerHTML='<option value="">Без особого условия</option>'+specialOptions.map(x=>'<option value="'+esc(x.value)+'">'+esc(x.label)+'</option>').join('');
  updatePlannerSpecialOptions();
+ updatePlannerScenarioOptions();
  render();
 }
 function persist(){writeStoredState(state)}
@@ -675,6 +679,7 @@ function importProgress(ev){
    if(incoming.run&&typeof incoming.run==='object'&&Array.isArray(incoming.run.goals)){
      importedRun={...plannerRunDefaults,...incoming.run};
      importedRun.difficulty=plannerDifficultyValue(importedRun.difficulty);
+     importedRun.scenario=plannerScenarioValue(importedRun.scenario);
      importedRun.goals=[...new Set(incoming.run.goals.map(id=>duplicateIdAliases[id]||id).filter(id=>achievements.some(a=>a.id===id)))];
    }
    state={done:importedDone,run:importedRun};
@@ -729,8 +734,7 @@ function plannerMatchesFilters(a){
  const scenarioMode=document.getElementById('planScenario')?.value||'none';
  if(dlcMode!=='all'&&a.dlcName!==dlcMode)return false;
  if(scenarioMode==='none'&&a.isScenario)return false;
- if(scenarioMode==='all'&&!a.isScenario)return false;
- if(scenarioMode!=='none'&&scenarioMode!=='all'&&a.scenarioName!==scenarioMode&&a.scenario!==scenarioMode)return false;
+ if(scenarioMode!=='none'&&a.scenarioName!==scenarioMode&&a.scenario!==scenarioMode)return false;
  return true;
 }
 function plannerRemaining(){
@@ -811,6 +815,41 @@ function updatePlannerSpecialOptions(preferred){
  const note=document.getElementById('planModeNote');if(note)note.textContent=plannerModeNotes[mode]||'Режим влияет на доступность достижений.';
 }
 function handlePlannerModeChange(){updatePlannerSpecialOptions()}
+function plannerScenarioEntries(dlc){
+ const done=new Set(state.done),groups=new Map();
+ achievements.filter(a=>a.isScenario&&(dlc==='all'||a.dlcName===dlc)).forEach(a=>{
+   const item=groups.get(a.scenarioName)||{name:a.scenarioName,remaining:0,total:0};
+   item.total+=1;if(!done.has(a.id))item.remaining+=1;groups.set(a.scenarioName,item);
+ });
+ return [...groups.values()].sort((a,b)=>b.remaining-a.remaining||a.name.localeCompare(b.name,'ru'));
+}
+function updatePlannerScenarioOptions(preferred){
+ const select=document.getElementById('planScenario');if(!select)return;
+ const dlc=document.getElementById('planDlc')?.value||'all';
+ const requested=plannerScenarioValue(preferred===undefined?select.value:preferred),entries=plannerScenarioEntries(dlc);
+ select.innerHTML='<option value="none">Обычная партия (без сценария)</option>'+entries.map(item=>'<option value="'+esc(item.name)+'">'+esc(item.name)+' — осталось '+item.remaining+'</option>').join('');
+ select.value=entries.some(item=>item.name===requested)?requested:'none';
+ const note=document.getElementById('planScenarioNote');if(note)note.textContent=entries.length?'Сценарии отсортированы по числу оставшихся достижений.':'У выбранного источника нет сценарных достижений.';
+}
+function handlePlannerDlcChange(){updatePlannerScenarioOptions()}
+function handlePlannerScenarioChange(){
+ const select=document.getElementById('planScenario'),scenario=select?.value||'none';
+ if(scenario!=='none'){
+   const source=achievements.find(a=>a.isScenario&&a.scenarioName===scenario)?.dlcName;
+   if(source)setPlannerSelectValue('planDlc',source,'all');
+ }
+ updatePlannerScenarioOptions(scenario);
+}
+function plannerCivsForScenario(scenario){
+ const cards=achievements.filter(a=>a.isScenario&&a.scenarioName===scenario);
+ const explicit=[...new Set(cards.flatMap(a=>Array.isArray(a.playerCivs)?a.playerCivs:[]))];
+ if(explicit.length)return explicit;
+ const dlc=cards[0]?.dlcName;
+ if(dlc==='Carthage')return ['Карфаген'];
+ if(dlc==='Heroes of the Aegean')return ['Греция'];
+ if(dlc==='Pharaohs of the Nile')return ['Египет'];
+ return civs;
+}
 function achievementDifficulty(a){
  if(a.category!=='Сложность')return '';
  const text=(a.name||'')+' '+(a.condition||'');
@@ -840,6 +879,10 @@ function achievementScoreForCiv(a,civ,style,mode){
  const difficultyResult=difficultyScore(a,selectedDifficulty);if(difficultyResult)return difficultyResult;
  const scenarioMode=document.getElementById('planScenario')?.value||'none';
  if(a.isScenario&&scenarioMode==='none') return {score:0,reason:'Сценарное достижение — не относится к обычной партии',tier:'exclude'};
+ if(a.isScenario&&(a.scenarioName===scenarioMode||a.scenario===scenarioMode)){
+   const direct=(a.playerCivs||[]).includes(civ);
+   return {score:direct?4:3,reason:direct?'Цель выбранного сценария за эту цивилизацию':'Цель выбранного сценария «'+scenarioMode+'»',tier:'core'};
+ }
 
  const playerCivs=Array.isArray(a.playerCivs)?a.playerCivs:[];
  const affinityCivs=Array.isArray(a.affinityCivs)?a.affinityCivs:[];
@@ -868,7 +911,8 @@ function achievementScoreForCiv(a,civ,style,mode){
 }
 function calculateRecommendations(){
  const remaining=plannerRemaining(),style=document.getElementById('planStyle').value,mode=document.getElementById('planMode').value;
- const allCivs=civs.filter(Boolean);
+ const scenario=document.getElementById('planScenario')?.value||'none';
+ const allCivs=(scenario!=='none'?plannerCivsForScenario(scenario):civs).filter(Boolean);
  const recs=allCivs.map(civ=>{
    const civSpecificRemaining=remaining.filter(a=>(a.playerCivs||[]).includes(civ)&&!a.isScenario);
    const scored=remaining.map(a=>({a,...achievementScoreForCiv(a,civ,style,mode)})).filter(x=>x.score>0);
