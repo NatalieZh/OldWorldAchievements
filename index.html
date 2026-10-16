@@ -620,11 +620,14 @@ function render(){
 }
  renderFeatured();renderCatalog();
 }
+function usingEnglish(){return AppI18n.getLocale()==='en'}
+function achievementName(a){return usingEnglish()&&a.englishName?a.englishName:a.name}
+function achievementCondition(a){return usingEnglish()&&a.englishCondition?a.englishCondition:a.condition}
 function displayAchievementName(a){
- return a.englishName?a.name+' · '+a.englishName:a.name;
+ return usingEnglish()?achievementName(a):(a.englishName?a.name+' · '+a.englishName:a.name);
 }
 function duplicateIdentityHTML(a){
- if(!a.englishName)return '';
+ if(usingEnglish()||!a.englishName)return '';
  const pct=(a.currentRarity??a.rarity);
  return `<div class="dupIdentity"><span class="dupEn">${esc(a.englishName)}</span>${pct!=null?`<span class="dupPct">${pct}% Steam</span>`:''}</div>`;
 }
@@ -749,7 +752,7 @@ function renderFeatured(){
        return {a,score};
      })
      .filter(x=>x.score>0)
-     .sort((x,y)=>y.score-x.score||x.a.name.localeCompare(y.a.name,'ru'))
+     .sort((x,y)=>y.score-x.score||achievementName(x.a).localeCompare(achievementName(y.a),AppI18n.getLocale()))
      .slice(0,4).map(x=>x.a);
  } else {
    const preferred=['Старый','Древний','Битва за Плодородный полумесяц','Священники'];
@@ -761,7 +764,7 @@ function renderFeatured(){
    const inRun=!!state.run&&(state.run.goals||[]).includes(a.id);
    return `<div class="ach" onclick="openAch('${a.id}')">
      <div class="achIcon">${done?'✓':'◆'}</div>
-     <div><strong>${esc(a.name)}</strong>${duplicateIdentityHTML(a)}<p>${esc(a.condition)}</p><div class="tags"><span class="tag">${esc(categoryLabel(a.category))}</span>${a.scenario?'<span class="tag">'+esc(a.scenario)+'</span>':''}${legitimacyTag(a)}${rarityTag(a)}${done?'<span class="tag done">'+esc(t('achievement.earned'))+'</span>':''}</div></div>
+     <div><strong>${esc(achievementName(a))}</strong>${duplicateIdentityHTML(a)}<p>${esc(achievementCondition(a))}</p><div class="tags"><span class="tag">${esc(categoryLabel(a.category))}</span>${a.scenario?'<span class="tag">'+esc(a.scenario)+'</span>':''}${legitimacyTag(a)}${rarityTag(a)}${done?'<span class="tag done">'+esc(t('achievement.earned'))+'</span>':''}</div></div>
      <div class="achAction">${esc(t('common.open'))}</div>
      ${state.run?`<div class="featuredAdd"><button class="btn ghost small ${inRun?'added':''}" onclick="event.stopPropagation();toggleGoalInCurrentRun('${a.id}')">${inRun?esc(t('run.inPlan')):esc(t('run.addToPlan'))}</button></div>`:''}
    </div>`;
@@ -782,7 +785,7 @@ function catalogFiltered(){
 function renderCatalog(){
  const arr=catalogFiltered(), visible=arr.slice(0,PAGE_SIZE*catalogPage);
  document.getElementById('catalogSummary').textContent=arr.length===DB_TOTAL?t('catalog.countAll',{total:DB_TOTAL}):t('catalog.countFiltered',{shown:arr.length,total:DB_TOTAL});
- document.getElementById('catalogGrid').innerHTML=visible.map(a=>{const done=state.done.includes(a.id);return `<div class="catCard" onclick="openAch('${a.id}')"><strong>${done?'✓':'◇'} &nbsp;${esc(a.name)}</strong>${duplicateIdentityHTML(a)}<p>${esc(a.condition)}</p><div class="tags"><span class="tag">${esc(categoryLabel(a.category))}</span>${a.dlc!=='Основная игра / другое'?'<span class="tag">'+esc(dlcLabel(a.dlc))+'</span>':''}${rarityTag(a)}${done?'<span class="tag done">'+esc(t('achievement.earned'))+'</span>':''}</div></div>`}).join('');
+ document.getElementById('catalogGrid').innerHTML=visible.map(a=>{const done=state.done.includes(a.id);return `<div class="catCard" onclick="openAch('${a.id}')"><strong>${done?'✓':'◇'} &nbsp;${esc(achievementName(a))}</strong>${duplicateIdentityHTML(a)}<p>${esc(achievementCondition(a))}</p><div class="tags"><span class="tag">${esc(categoryLabel(a.category))}</span>${a.dlc!=='Основная игра / другое'?'<span class="tag">'+esc(dlcLabel(a.dlc))+'</span>':''}${rarityTag(a)}${done?'<span class="tag done">'+esc(t('achievement.earned'))+'</span>':''}</div></div>`}).join('');
  document.getElementById('moreBtn').classList.toggle('hidden',visible.length>=arr.length)
 }
 function resetCatalogPage(){catalogPage=1;renderCatalog()} function showMore(){catalogPage++;renderCatalog()}
@@ -817,7 +820,7 @@ function progressFiltered(){
 }
 function sortProgressRows(arr){
  const mode=document.getElementById('pSort')?.value||'name';
- const nameCmp=(a,b)=>a.name.localeCompare(b.name,'ru',{sensitivity:'base'});
+ const nameCmp=(a,b)=>achievementName(a).localeCompare(achievementName(b),AppI18n.getLocale(),{sensitivity:'base'});
  const categoryCmp=(a,b)=>a.category.localeCompare(b.category,'ru',{sensitivity:'base'})||nameCmp(a,b);
  const rarityValue=a=>a.rarity==null?999:a.rarity;
  return [...arr].sort((a,b)=>{
@@ -833,7 +836,7 @@ function renderProgressList(){
  const arr=sortProgressRows(progressFiltered());document.getElementById('pSummary').textContent=t('progress.summary',{shown:arr.length,marked:draftDone.size,total:DB_TOTAL});
  const el=document.getElementById('progressList');
  if(!arr.length){el.innerHTML='<div class="progressEmpty">'+esc(t('filters.noResults'))+'</div>';return}
- el.innerHTML=arr.map(a=>`<label class="pRow ${draftDone.has(a.id)?'done':''}"><input type="checkbox" ${draftDone.has(a.id)?'checked':''} onchange="draftToggle('${a.id}',this.checked)"><div class="pName">${esc(a.name)}${a.englishName?'<div class="dupIdentity"><span class="dupEn">'+esc(a.englishName)+'</span>'+(a.cognomenLegitimacy!=null?'<span class="dupPct">'+esc(t('achievement.legitimacyShort',{value:a.cognomenLegitimacy}))+'</span>':'')+'</div>':''}</div><div class="pCond">${esc(a.condition)}</div><div class="pMeta">${esc(categoryLabel(a.category))}${a.civs?' · '+esc(a.civs):''}</div><div class="pRare">${a.rarity!=null?a.rarity+'%':'—'}</div></label>`).join('')
+ el.innerHTML=arr.map(a=>`<label class="pRow ${draftDone.has(a.id)?'done':''}"><input type="checkbox" ${draftDone.has(a.id)?'checked':''} onchange="draftToggle('${a.id}',this.checked)"><div class="pName">${esc(achievementName(a))}${duplicateIdentityHTML(a)}</div><div class="pCond">${esc(achievementCondition(a))}</div><div class="pMeta">${esc(categoryLabel(a.category))}${a.civs?' · '+esc(a.civs):''}</div><div class="pRare">${a.rarity!=null?a.rarity+'%':'—'}</div></label>`).join('')
 }
 function draftToggle(id,on){if(on)draftDone.add(id);else draftDone.delete(id);renderProgressList()}
 function markVisible(on){progressFiltered().forEach(a=>on?draftDone.add(a.id):draftDone.delete(a.id));renderProgressList()}
@@ -933,8 +936,8 @@ function importPlan(ev){
  input.value='';
 }
 
-function openAch(id){const a=achievements.find(x=>x.id===id);if(!a)return;currentAchId=id;document.getElementById('mCat').textContent=categoryLabel(a.category);document.getElementById('mName').textContent=a.name;document.getElementById('mCond').textContent=a.condition||'—';const guide=document.getElementById('mGuide');guide.textContent=a.guide||t('achievement.noGuide');if(a.guideLink){const link=document.createElement('a');link.href=a.guideLink;link.textContent=a.guideLinkLabel||a.guideLink;link.target='_blank';link.rel='noreferrer';link.className='sourceLink';guide.append(document.createTextNode(' '),link)}document.getElementById('mTactic').textContent=a.tactic||t('achievement.noTactic');document.getElementById('mEditor').textContent=a.editor||t('achievement.noData');
-const ebox=document.getElementById('mEnglishBox'),etxt=document.getElementById('mEnglish');if(a.englishName){ebox.classList.remove('hidden');etxt.textContent=a.englishName+(a.englishCondition?' — '+a.englishCondition:'')}else{ebox.classList.add('hidden');etxt.textContent=''}
+function openAch(id){const a=achievements.find(x=>x.id===id);if(!a)return;currentAchId=id;document.getElementById('mCat').textContent=categoryLabel(a.category);document.getElementById('mName').textContent=achievementName(a);document.getElementById('mCond').textContent=achievementCondition(a)||'—';const guide=document.getElementById('mGuide');guide.textContent=a.guide||t('achievement.noGuide');if(a.guideLink){const link=document.createElement('a');link.href=a.guideLink;link.textContent=a.guideLinkLabel||a.guideLink;link.target='_blank';link.rel='noreferrer';link.className='sourceLink';guide.append(document.createTextNode(' '),link)}document.getElementById('mTactic').textContent=a.tactic||t('achievement.noTactic');document.getElementById('mEditor').textContent=a.editor||t('achievement.noData');
+const ebox=document.getElementById('mEnglishBox'),etxt=document.getElementById('mEnglish');if(a.englishName&&!usingEnglish()){ebox.classList.remove('hidden');etxt.textContent=a.englishName+(a.englishCondition?' — '+a.englishCondition:'')}else{ebox.classList.add('hidden');etxt.textContent=''}
 const mnbox=document.getElementById('mMechanicNoteBox'),mntxt=document.getElementById('mMechanicNote');if(mnbox&&a.mechanicNote){mnbox.classList.remove('hidden');mntxt.textContent=a.mechanicNote}else if(mnbox){mnbox.classList.add('hidden');mntxt.textContent=''}
 const lbox=document.getElementById('mLegitimacyBox'),lval=document.getElementById('mLegitimacyValue'),lwarn=document.getElementById('mLegitimacyWarn'),lrule=document.getElementById('mLegitimacyRule');
 if(lbox&&a.cognomenLegitimacy!=null){
@@ -945,7 +948,7 @@ if(lbox&&a.cognomenLegitimacy!=null){
 }else if(lbox){lbox.classList.add('hidden');lval.textContent='';lwarn.textContent='';lrule.textContent=''}
 
 const dnote=document.getElementById('mDupNote');if(a.duplicateNote){dnote.classList.remove('hidden');dnote.textContent=a.duplicateNote}else{dnote.classList.add('hidden');dnote.textContent=''}
-const src=document.getElementById('mSource');src.textContent=a.source||t('achievement.noSource');src.href=a.source&&a.source.startsWith('http')?a.source:'#';document.getElementById('mTags').innerHTML=`<span class="tag">${esc(dlcLabel(a.dlcName))}</span>${a.scenarioName?'<span class="tag">'+esc(a.scenarioName)+'</span>':''}${a.englishName?'<span class="tag">'+esc(a.englishName)+'</span>':''}${(a.playerCivs||[]).length?'<span class="tag">'+esc(t('achievement.playAs',{civilizations:a.playerCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.affinityCivs||[]).length?'<span class="tag">'+esc(t('achievement.naturalFor',{civilizations:a.affinityCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.targetCivs||[]).length?'<span class="tag">'+esc(t('achievement.target',{civilizations:a.targetCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.settingTags||[]).map(tag=>'<span class="tag">'+esc(specialLabel(tag))+'</span>').join('')}${a.requiredCity?'<span class="tag">'+esc(t('achievement.city',{city:a.requiredCity}))+'</span>':''}${legitimacyTag(a)}${rarityTag(a)}`;updateToggleButton();updateRunAchievementButton();openModal('achievementModal')}
+const src=document.getElementById('mSource');src.textContent=(usingEnglish()?a.englishSource:a.source)||t('achievement.noSource');src.href=((usingEnglish()?a.englishSource:a.source)||'').startsWith('http')?(usingEnglish()?a.englishSource:a.source):'#';document.getElementById('mTags').innerHTML=`<span class="tag">${esc(dlcLabel(a.dlcName))}</span>${a.scenarioName?'<span class="tag">'+esc(a.scenarioName)+'</span>':''}${a.englishName&&!usingEnglish()?'<span class="tag">'+esc(a.englishName)+'</span>':''}${(a.playerCivs||[]).length?'<span class="tag">'+esc(t('achievement.playAs',{civilizations:a.playerCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.affinityCivs||[]).length?'<span class="tag">'+esc(t('achievement.naturalFor',{civilizations:a.affinityCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.targetCivs||[]).length?'<span class="tag">'+esc(t('achievement.target',{civilizations:a.targetCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.settingTags||[]).map(tag=>'<span class="tag">'+esc(specialLabel(tag))+'</span>').join('')}${a.requiredCity?'<span class="tag">'+esc(t('achievement.city',{city:a.requiredCity}))+'</span>':''}${legitimacyTag(a)}${rarityTag(a)}`;updateToggleButton();updateRunAchievementButton();openModal('achievementModal')}
 function updateToggleButton(){const done=state.done.includes(currentAchId),b=document.getElementById('toggleAchBtn');b.textContent=done?t('achievement.unmarkEarned'):t('achievement.markEarned');b.className=done?'btn ghost small':'btn small'}
 function toggleCurrentAchievement(){if(!currentAchId)return;const s=new Set(state.done);s.has(currentAchId)?s.delete(currentAchId):s.add(currentAchId);state.done=[...s];persist();render();updateToggleButton();toast(s.has(currentAchId)?t('achievement.markedEarned'):t('achievement.unmarked'))}
 
@@ -1352,7 +1355,7 @@ function renderGoalGroups(){
    const allItems=plannerState.goals.filter(g=>g.tier===key);
    const items=allItems.filter(g=>visibleIds.has(g.a.id));
    if(!items.length)return '';
-   return `<div class="goalGroup"><div class="goalGroupHead"><div><h4>${esc(title)}</h4><span>${esc(sub)}</span></div><span>${items.length===allItems.length?items.length:`${items.length} <span class="countDetail">${esc(t('planner.ofTotal',{total:allItems.length}))}</span>`}</span></div><div class="goalRows">${items.map(g=>`<div class="goalRow"><input type="checkbox" ${g.selected?'checked':''} onchange="togglePlannerGoal('${g.a.id}',this.checked)"><div class="goalInfo"><div class="goalName">${esc(displayAchievementName(g.a))}</div><div class="goalCondition">${esc(g.a.condition)}</div>${g.a.plannerNote?'<div class="goalCondition plannerNote">'+esc(g.a.plannerNote)+'</div>':''}<div class="goalMeta"><span class="goalBadge">${esc(title)}</span>${g.a.nationalUnique?'<span class="goalBadge practicalBadge">'+esc(t('planner.uniqueUnit'))+'</span>':''}${goalIsPractical(g)?'<span class="goalBadge practicalBadge">'+esc(t('planner.practical'))+'</span>':''}${g.a.scenarioName?'<span class="goalBadge">'+esc(g.a.scenarioName)+'</span>':''}${g.a.cognomenLegitimacy!=null?'<span class="goalBadge">'+esc(t('achievement.legitimacyShort',{value:g.a.cognomenLegitimacy}))+'</span>':''}<span class="goalBadge score">+${g.score}</span><button class="goalDetails" onclick="openAch('${g.a.id}')">${esc(t('common.details'))}</button></div></div><div class="goalPts">+${g.score}</div></div>`).join('')}</div></div>`;
+   return `<div class="goalGroup"><div class="goalGroupHead"><div><h4>${esc(title)}</h4><span>${esc(sub)}</span></div><span>${items.length===allItems.length?items.length:`${items.length} <span class="countDetail">${esc(t('planner.ofTotal',{total:allItems.length}))}</span>`}</span></div><div class="goalRows">${items.map(g=>`<div class="goalRow"><input type="checkbox" ${g.selected?'checked':''} onchange="togglePlannerGoal('${g.a.id}',this.checked)"><div class="goalInfo"><div class="goalName">${esc(displayAchievementName(g.a))}</div><div class="goalCondition">${esc(achievementCondition(g.a))}</div>${g.a.plannerNote?'<div class="goalCondition plannerNote">'+esc(g.a.plannerNote)+'</div>':''}<div class="goalMeta"><span class="goalBadge">${esc(title)}</span>${g.a.nationalUnique?'<span class="goalBadge practicalBadge">'+esc(t('planner.uniqueUnit'))+'</span>':''}${goalIsPractical(g)?'<span class="goalBadge practicalBadge">'+esc(t('planner.practical'))+'</span>':''}${g.a.scenarioName?'<span class="goalBadge">'+esc(g.a.scenarioName)+'</span>':''}${g.a.cognomenLegitimacy!=null?'<span class="goalBadge">'+esc(t('achievement.legitimacyShort',{value:g.a.cognomenLegitimacy}))+'</span>':''}<span class="goalBadge score">+${g.score}</span><button class="goalDetails" onclick="openAch('${g.a.id}')">${esc(t('common.details'))}</button></div></div><div class="goalPts">+${g.score}</div></div>`).join('')}</div></div>`;
  }).join('');
  const hint=document.getElementById('plannerGoalHint');
  if(hint){
