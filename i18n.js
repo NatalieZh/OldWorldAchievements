@@ -34,6 +34,9 @@
     scope.querySelectorAll("[data-i18n]").forEach(element => {
       element.textContent = translate(element.dataset.i18n);
     });
+    scope.querySelectorAll("[data-i18n-html]").forEach(element => {
+      element.innerHTML = translate(element.dataset.i18nHtml);
+    });
     scope.querySelectorAll("[data-i18n-placeholder]").forEach(element => {
       element.setAttribute("placeholder", translate(element.dataset.i18nPlaceholder));
     });

@@ -121,9 +121,9 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
 
 .plannerModal{width:min(1180px,100%)}
 .plannerIntro{color:#948875;font-size:12px;line-height:1.55;margin:4px 0 0}
-.plannerSteps{display:flex;gap:8px;margin:20px 0 22px;border-bottom:1px solid var(--line);padding-bottom:12px}
-.stepTab{border:1px solid rgba(255,255,255,.07);background:rgba(255,255,255,.015);color:#948875;border-radius:10px;padding:9px 13px;cursor:pointer;font-size:12px}
-.stepTab span{display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;border:1px solid rgba(184,148,83,.28);margin-right:7px;color:#c9aa6b}
+.plannerSteps{display:flex;gap:8px;margin:20px 0 22px;border-bottom:1px solid var(--line);padding-bottom:12px;overflow-x:auto}
+.stepTab{display:inline-flex;align-items:center;gap:7px;flex:0 0 auto;white-space:nowrap;border:1px solid rgba(255,255,255,.07);background:rgba(255,255,255,.015);color:#948875;border-radius:10px;padding:9px 13px;cursor:pointer;font-size:12px}
+.stepTab>span:first-child{display:inline-grid;place-items:center;flex:0 0 20px;width:20px;height:20px;border-radius:50%;border:1px solid rgba(184,148,83,.28);color:#c9aa6b}
 .stepTab.active{color:#eadfc9;border-color:rgba(184,148,83,.36);background:rgba(184,148,83,.07)}
 .stepTab.locked{opacity:.48}
 .plannerSectionTitle{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:14px}
@@ -209,33 +209,33 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
 
 <main class="shell">
 <section class="hero">
- <div class="card heroMain"><div class="kicker">Неофициальный помощник по достижениям</div><h1>Планируй свою<br>следующую эпоху.</h1><p class="lead">Все достижения Old World в одном месте: условия, механики, советы и подбор целей для новой партии. Можно просто изучать гайды — или подключить собственный прогресс.</p><div class="heroActions"><button class="btn" onclick="document.getElementById('catalog').scrollIntoView()">Смотреть достижения</button><button class="btn ghost" onclick="openPlanner()">Спланировать партию</button></div></div>
- <aside class="card heroAside"><div><div class="asideTitle"><div><div class="kicker">Твой прогресс</div><h2 id="progressTitle">Прогресс не подключён</h2></div><span class="statusDot" id="progressStatus">Гость</span></div>
-   <div id="guestProgress" class="noProgress"><strong>Сделать сайт своим</strong><p>Загрузи сохранённый файл прогресса или отметь достижения вручную. Это необязательно: весь каталог и гайды доступны без регистрации.</p><div class="importRow"><button class="btn small" onclick="selectProgressFile('importFile')">Импортировать файл</button><button class="btn ghost small" onclick="openProgress()">Отметить вручную</button></div><input id="importFile" class="fileInput" type="file" accept=".json" onchange="importProgress(event)" oncancel="cancelProgressImportSelection()"></div>
-   <div id="loadedProgress" class="progressView hidden"><div class="progressNums"><div class="bigNum"><span id="doneCount">0</span> <small>/ 408</small></div><div class="progressMeta" id="percentText">0% завершено</div></div><div class="progressBar"><div class="progressFill" id="progressFill"></div></div><div class="miniStats"><div class="miniStat"><b id="leftCount">408</b><span>осталось</span></div><div class="miniStat"><b id="runCount">0</b><span>в плане</span></div><div class="miniStat"><b>408</b><span>в базе</span></div></div></div>
- </div><div id="progressActions" class="hidden" style="margin-top:16px;display:flex;gap:8px;flex-wrap:wrap"><button class="btn small" onclick="openProgress()">Изменить</button><button class="btn ghost small" onclick="exportProgress()">Сохранить файл</button></div></aside>
+ <div class="card heroMain"><div class="kicker" data-i18n="home.kicker">Неофициальный помощник по достижениям</div><h1 data-i18n-html="home.title">Планируй свою<br>следующую эпоху.</h1><p class="lead" data-i18n="home.lead">Все достижения Old World в одном месте: условия, механики, советы и подбор целей для новой партии. Можно просто изучать гайды — или подключить собственный прогресс.</p><div class="heroActions"><button class="btn" onclick="document.getElementById('catalog').scrollIntoView()" data-i18n="home.viewAchievements">Смотреть достижения</button><button class="btn ghost" onclick="openPlanner()" data-i18n="home.planRun">Спланировать партию</button></div></div>
+ <aside class="card heroAside"><div><div class="asideTitle"><div><div class="kicker" data-i18n="progress.kicker">Твой прогресс</div><h2 id="progressTitle">Прогресс не подключён</h2></div><span class="statusDot" id="progressStatus">Гость</span></div>
+   <div id="guestProgress" class="noProgress"><strong data-i18n="progress.makeYours">Сделать сайт своим</strong><p data-i18n="progress.guestDescription">Загрузи сохранённый файл прогресса или отметь достижения вручную. Это необязательно: весь каталог и гайды доступны без регистрации.</p><div class="importRow"><button class="btn small" onclick="selectProgressFile('importFile')" data-i18n="progress.importFile">Импортировать файл</button><button class="btn ghost small" onclick="openProgress()" data-i18n="progress.markManually">Отметить вручную</button></div><input id="importFile" class="fileInput" type="file" accept=".json" onchange="importProgress(event)" oncancel="cancelProgressImportSelection()"></div>
+   <div id="loadedProgress" class="progressView hidden"><div class="progressNums"><div class="bigNum"><span id="doneCount">0</span> <small>/ 408</small></div><div class="progressMeta" id="percentText">0% завершено</div></div><div class="progressBar"><div class="progressFill" id="progressFill"></div></div><div class="miniStats"><div class="miniStat"><b id="leftCount">408</b><span data-i18n="progress.remaining">осталось</span></div><div class="miniStat"><b id="runCount">0</b><span data-i18n="progress.inPlan">в плане</span></div><div class="miniStat"><b>408</b><span data-i18n="progress.inDatabase">в базе</span></div></div></div>
+ </div><div id="progressActions" class="hidden" style="margin-top:16px;display:flex;gap:8px;flex-wrap:wrap"><button class="btn small" onclick="openProgress()" data-i18n="common.edit">Изменить</button><button class="btn ghost small" onclick="exportProgress()" data-i18n="progress.saveFile">Сохранить файл</button></div></aside>
 </section>
 
-<div id="dynamicZone" class="dynamicZone"><section id="exploreSection" class="section exploreSection"><div class="sectionHead"><div><div class="kicker">Разделы</div><h2>Что тебя интересует?</h2><p>Можно пользоваться сайтом и без личного прогресса.</p></div></div>
-<div class="explore"><div class="exploreCard" onclick="quickFilterCategory('Победа за цивилизацию')"><div class="exploreIcon">♜</div><strong>Цивилизации</strong><span>Победы, уникальные постройки и исторические цели.</span></div><div class="exploreCard" onclick="quickFilterCategory('Черта / персонаж')"><div class="exploreIcon">♛</div><strong>Прозвища</strong><span>Старый, Древний, Завоеватель и другие прозвища правителей.</span></div><div class="exploreCard" onclick="quickFilterCategory('Религия / теология')"><div class="exploreIcon">✦</div><strong>Религии</strong><span>Основание вер, теологии и религиозные условия.</span></div><div class="exploreCard" onclick="quickFilterCategory('Сценарий / кампания')"><div class="exploreIcon">◇</div><strong>DLC и сценарии</strong><span>Исторические кампании и специальные достижения.</span></div><div class="exploreCard" onclick="openPlanner()"><div class="exploreIcon">◎</div><strong>Новая партия</strong><span>Подобрать цивилизацию и цели под твой прогресс.</span></div></div></section>
+<div id="dynamicZone" class="dynamicZone"><section id="exploreSection" class="section exploreSection"><div class="sectionHead"><div><div class="kicker" data-i18n="explore.kicker">Разделы</div><h2 data-i18n="explore.title">Что тебя интересует?</h2><p data-i18n="explore.subtitle">Можно пользоваться сайтом и без личного прогресса.</p></div></div>
+<div class="explore"><div class="exploreCard" onclick="quickFilterCategory('Победа за цивилизацию')"><div class="exploreIcon">♜</div><strong data-i18n="explore.civilizations">Цивилизации</strong><span data-i18n="explore.civilizationsDescription">Победы, уникальные постройки и исторические цели.</span></div><div class="exploreCard" onclick="quickFilterCategory('Черта / персонаж')"><div class="exploreIcon">♛</div><strong data-i18n="explore.cognomens">Прозвища</strong><span data-i18n="explore.cognomensDescription">Старый, Древний, Завоеватель и другие прозвища правителей.</span></div><div class="exploreCard" onclick="quickFilterCategory('Религия / теология')"><div class="exploreIcon">✦</div><strong data-i18n="explore.religions">Религии</strong><span data-i18n="explore.religionsDescription">Основание вер, теологии и религиозные условия.</span></div><div class="exploreCard" onclick="quickFilterCategory('Сценарий / кампания')"><div class="exploreIcon">◇</div><strong data-i18n="explore.scenarios">DLC и сценарии</strong><span data-i18n="explore.scenariosDescription">Исторические кампании и специальные достижения.</span></div><div class="exploreCard" onclick="openPlanner()"><div class="exploreIcon">◎</div><strong data-i18n="explore.newRun">Новая партия</strong><span data-i18n="explore.newRunDescription">Подобрать цивилизацию и цели под твой прогресс.</span></div></div></section>
 
 <section id="homeGrid" class="section homeGrid">
- <div id="recoSection" class="card recoWrap"><div class="sectionHead"><div><div class="kicker">Рекомендации</div><h2 id="featuredTitle">Полезные достижения</h2><p id="featuredSubtitle">Подборка из реальной базы. После заполнения прогресса полученные цели помечаются автоматически.</p></div><button class="btn ghost small" onclick="document.getElementById('catalog').scrollIntoView()">Весь каталог</button></div><div class="achievementList" id="featured"></div></div>
- <aside id="currentRunSection" class="card sideWrap"><div class="sectionHead"><div><div class="kicker">План партии</div><h2>Текущая партия</h2></div></div><div id="noRun" class="planEmpty"><h3>Партия ещё не создана</h3><p>Когда будешь готова, планировщик сравнит оставшиеся достижения и поможет выбрать цивилизацию, режим и совместимые цели.</p><button class="btn small" onclick="openPlanner()">Начать планирование</button></div><div id="runBox" class="hidden currentRunDashboard">
+ <div id="recoSection" class="card recoWrap"><div class="sectionHead"><div><div class="kicker" data-i18n="recommendations.kicker">Рекомендации</div><h2 id="featuredTitle">Полезные достижения</h2><p id="featuredSubtitle">Подборка из реальной базы. После заполнения прогресса полученные цели помечаются автоматически.</p></div><button class="btn ghost small" onclick="document.getElementById('catalog').scrollIntoView()" data-i18n="catalog.all">Весь каталог</button></div><div class="achievementList" id="featured"></div></div>
+ <aside id="currentRunSection" class="card sideWrap"><div class="sectionHead"><div><div class="kicker" data-i18n="run.kicker">План партии</div><h2 data-i18n="run.title">Текущая партия</h2></div></div><div id="noRun" class="planEmpty"><h3 data-i18n="run.emptyTitle">Партия ещё не создана</h3><p data-i18n="run.emptyDescription">Когда будешь готова, планировщик сравнит оставшиеся достижения и поможет выбрать цивилизацию, режим и совместимые цели.</p><button class="btn small" onclick="openPlanner()" data-i18n="run.startPlanning">Начать планирование</button></div><div id="runBox" class="hidden currentRunDashboard">
   <div class="runHeader">
     <div>
       <div class="runTitle" id="runCiv"></div>
       <div class="runMeta" id="runMeta"></div>
     </div>
     <div class="runActions">
-      <button class="btn ghost small" onclick="openPlanner(true)">Изменить план</button>
-      <button class="btn danger small" onclick="deleteCurrentRun()">Удалить партию</button>
+      <button class="btn ghost small" onclick="openPlanner(true)" data-i18n="run.editPlan">Изменить план</button>
+      <button class="btn danger small" onclick="deleteCurrentRun()" data-i18n="run.deleteRun">Удалить партию</button>
     </div>
   </div>
 
   <div class="runProgressBlock">
     <div class="runProgressTop">
-      <div><span class="kicker">Прогресс партии</span><div class="runProgressText" id="runProgressText">0 / 0 целей выполнено</div></div>
+      <div><span class="kicker" data-i18n="run.progress">Прогресс партии</span><div class="runProgressText" id="runProgressText">0 / 0 целей выполнено</div></div>
       <div class="runProgressPct" id="runProgressPct">0%</div>
     </div>
     <div class="runProgressBar"><div id="runProgressFill"></div></div>
@@ -243,15 +243,15 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
 
   <div class="runColumns">
     <div class="runCol">
-      <div class="runColHead"><h3>Основные</h3><span id="runCoreCount">0</span></div>
+      <div class="runColHead"><h3 data-i18n="run.core">Основные</h3><span id="runCoreCount">0</span></div>
       <div id="runCoreGoals" class="runGoalList"></div>
     </div>
     <div class="runCol">
-      <div class="runColHead"><h3>Совместимые</h3><span id="runCompatCount">0</span></div>
+      <div class="runColHead"><h3 data-i18n="run.compatible">Совместимые</h3><span id="runCompatCount">0</span></div>
       <div id="runCompatGoals" class="runGoalList"></div>
     </div>
     <div class="runCol">
-      <div class="runColHead"><h3>Опциональные</h3><span id="runOptionalCount">0</span></div>
+      <div class="runColHead"><h3 data-i18n="run.optional">Опциональные</h3><span id="runOptionalCount">0</span></div>
       <div id="runOptionalGoals" class="runGoalList"></div>
     </div>
   </div>
@@ -260,224 +260,224 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
     <button class="btn ghost small" onclick="toggleRunGoalsExpanded()" id="runExpandBtn">Показать все цели</button>
     <span id="runFooterMeta"></span>
   </div>
-</div><div class="tip">Прогресс хранится локально для удобства, но его можно скачать в JSON-файл и восстановить после очистки браузера.</div></aside>
+</div><div class="tip" data-i18n="run.storageNote">Прогресс хранится локально для удобства, но его можно скачать в JSON-файл и восстановить после очистки браузера.</div></aside>
 </section></div>
 
 <section id="reference" class="section referenceSection" aria-labelledby="referenceTitle">
  <div class="referenceIntro">
-  <div><div class="kicker">Гайды и справочник</div><h2 id="referenceTitle">Разобраться без лишних поисков</h2></div>
-  <p>Короткие объяснения для работы с сайтом и общих условий достижений. Подробная тактика по-прежнему находится в самих карточках.</p>
+  <div><div class="kicker" data-i18n="reference.kicker">Гайды и справочник</div><h2 id="referenceTitle" data-i18n="reference.title">Разобраться без лишних поисков</h2></div>
+  <p data-i18n="reference.intro">Короткие объяснения для работы с сайтом и общих условий достижений. Подробная тактика по-прежнему находится в самих карточках.</p>
  </div>
  <div class="referenceLayout">
-  <nav class="referenceNav" aria-label="Разделы справочника">
-   <button class="active" type="button" data-reference-topic="site" aria-selected="true" onclick="showReferenceTopic('site')">Как пользоваться сайтом <span>→</span></button>
-   <button type="button" data-reference-topic="terms" aria-selected="false" onclick="showReferenceTopic('terms')">Словарь терминов <span>→</span></button>
-   <button type="button" data-reference-topic="mechanics" aria-selected="false" onclick="showReferenceTopic('mechanics')">Механики достижений <span>→</span></button>
-   <button type="button" data-reference-topic="sources" aria-selected="false" onclick="showReferenceTopic('sources')">Источники <span>→</span></button>
+  <nav class="referenceNav" aria-label="Разделы справочника" data-i18n-aria-label="reference.navLabel">
+   <button class="active" type="button" data-reference-topic="site" aria-selected="true" onclick="showReferenceTopic('site')"><span data-i18n="reference.nav.site">Как пользоваться сайтом</span> <span>→</span></button>
+   <button type="button" data-reference-topic="terms" aria-selected="false" onclick="showReferenceTopic('terms')"><span data-i18n="reference.nav.terms">Словарь терминов</span> <span>→</span></button>
+   <button type="button" data-reference-topic="mechanics" aria-selected="false" onclick="showReferenceTopic('mechanics')"><span data-i18n="reference.nav.mechanics">Механики достижений</span> <span>→</span></button>
+   <button type="button" data-reference-topic="sources" aria-selected="false" onclick="showReferenceTopic('sources')"><span data-i18n="reference.nav.sources">Источники</span> <span>→</span></button>
   </nav>
   <div class="referenceContent">
    <article id="reference-site" class="referencePanel active">
-    <h3>Как пользоваться сайтом</h3>
-    <p class="referenceLead">Каталог работает без регистрации. Личный прогресс и текущая партия сохраняются только в этом браузере.</p>
+    <h3 data-i18n="reference.site.title">Как пользоваться сайтом</h3>
+    <p class="referenceLead" data-i18n="reference.site.lead">Каталог работает без регистрации. Личный прогресс и текущая партия сохраняются только в этом браузере.</p>
     <ol class="guideSteps">
-     <li><div><strong>Отметь полученные достижения</strong><p>Открой «Мой прогресс», используй поиск и фильтры, затем сохрани изменения. Полученные карточки останутся в каталоге и будут доступны через фильтр статуса.</p></div></li>
-     <li><div><strong>Сохрани резервную копию</strong><p>Кнопка «Сохранить файл» выгружает JSON с прогрессом и текущей партией. Этот файл можно импортировать в другом браузере или после очистки его данных.</p></div></li>
-     <li><div><strong>Подбери следующую партию</strong><p>Планировщик учитывает невыполненные достижения, выбранные режимы и цивилизацию. Готовый размер плана можно изменить вручную.</p></div></li>
-     <li><div><strong>Проверяй подробности карточки</strong><p>«Как получить» описывает условие, «Оптимальная тактика» — удобный путь, а поля редактора и источника показывают ограничения и происхождение данных.</p></div></li>
+     <li><div><strong data-i18n="reference.site.step1Title">Отметь полученные достижения</strong><p data-i18n="reference.site.step1Text">Открой «Мой прогресс», используй поиск и фильтры, затем сохрани изменения. Полученные карточки останутся в каталоге и будут доступны через фильтр статуса.</p></div></li>
+     <li><div><strong data-i18n="reference.site.step2Title">Сохрани резервную копию</strong><p data-i18n="reference.site.step2Text">Кнопка «Сохранить файл» выгружает JSON с прогрессом и текущей партией. Этот файл можно импортировать в другом браузере или после очистки его данных.</p></div></li>
+     <li><div><strong data-i18n="reference.site.step3Title">Подбери следующую партию</strong><p data-i18n="reference.site.step3Text">Планировщик учитывает невыполненные достижения, выбранные режимы и цивилизацию. Готовый размер плана можно изменить вручную.</p></div></li>
+     <li><div><strong data-i18n="reference.site.step4Title">Проверяй подробности карточки</strong><p data-i18n="reference.site.step4Text">«Как получить» описывает условие, «Оптимальная тактика» — удобный путь, а поля редактора и источника показывают ограничения и происхождение данных.</p></div></li>
     </ol>
-    <div class="referenceNote">При переходе с локального файла на GitHub Pages перенеси прогресс через экспорт и импорт JSON: браузер считает эти адреса разными сайтами.</div>
+<div class="referenceNote" data-local-only data-i18n="reference.site.note">При переходе с локального файла на GitHub Pages перенеси прогресс через экспорт и импорт JSON: браузер считает эти адреса разными сайтами.</div>
    </article>
 
    <article id="reference-terms" class="referencePanel">
-    <h3>Словарь терминов</h3>
-    <p class="referenceLead">В справочнике используются названия из русской локализации Old World. Английский термин указан только там, где он помогает узнать механику в других источниках.</p>
+    <h3 data-i18n="reference.terms.title">Словарь терминов</h3>
+    <p class="referenceLead" data-i18n="reference.terms.lead">В справочнике используются названия из русской локализации Old World. Английский термин указан только там, где он помогает узнать механику в других источниках.</p>
     <dl class="termList">
-     <div class="termRow"><dt>Соцкапитал</dt><dd>Государственный ресурс <em>Civics</em>. В карточках количество записывается как «300 ед. соцкапитала».</dd></div>
-     <div class="termRow"><dt>Муштра</dt><dd>Военный ресурс <em>Training</em>. Он накапливается в общем запасе и используется, в частности, для развития армии.</dd></div>
-     <div class="termRow"><dt>Приказы</dt><dd>Очки действий на текущий ход. Передвижение юнитов и многие команды расходуют приказы из общего запаса.</dd></div>
-     <div class="termRow"><dt>Легитимность</dt><dd>Авторитет правителя. В карточках прозвищ отдельно показано, сколько легитимности даёт новое прозвище и может ли оно заменить текущее.</dd></div>
-     <div class="termRow"><dt>Уровень культуры</dt><dd>Ступень развития культуры конкретного города. Это не размер города: для чудес и некоторых условий нужен именно указанный культурный уровень.</dd></div>
-     <div class="termRow"><dt>Редкость Steam</dt><dd>Доля игроков Steam, получивших достижение. Значение берётся из глобальной статистики и может со временем меняться.</dd></div>
+     <div class="termRow"><dt data-i18n="reference.terms.civics">Соцкапитал</dt><dd data-i18n-html="reference.terms.civicsText">Государственный ресурс <em>Civics</em>. В карточках количество записывается как «300 ед. соцкапитала».</dd></div>
+     <div class="termRow"><dt data-i18n="reference.terms.training">Муштра</dt><dd data-i18n-html="reference.terms.trainingText">Военный ресурс <em>Training</em>. Он накапливается в общем запасе и используется, в частности, для развития армии.</dd></div>
+     <div class="termRow"><dt data-i18n="reference.terms.orders">Приказы</dt><dd data-i18n="reference.terms.ordersText">Очки действий на текущий ход. Передвижение юнитов и многие команды расходуют приказы из общего запаса.</dd></div>
+     <div class="termRow"><dt data-i18n="reference.terms.legitimacy">Легитимность</dt><dd data-i18n="reference.terms.legitimacyText">Авторитет правителя. В карточках прозвищ отдельно показано, сколько легитимности даёт новое прозвище и может ли оно заменить текущее.</dd></div>
+     <div class="termRow"><dt data-i18n="reference.terms.culture">Уровень культуры</dt><dd data-i18n="reference.terms.cultureText">Ступень развития культуры конкретного города. Это не размер города: для чудес и некоторых условий нужен именно указанный культурный уровень.</dd></div>
+     <div class="termRow"><dt data-i18n="reference.terms.rarity">Редкость Steam</dt><dd data-i18n="reference.terms.rarityText">Доля игроков Steam, получивших достижение. Значение берётся из глобальной статистики и может со временем меняться.</dd></div>
     </dl>
    </article>
 
    <article id="reference-mechanics" class="referencePanel">
-    <h3>Общие механики достижений</h3>
-    <p class="referenceLead">Эти правила помогают читать карточки, но точное условие конкретного достижения всегда важнее общего пояснения.</p>
+    <h3 data-i18n="reference.mechanics.title">Общие механики достижений</h3>
+    <p class="referenceLead" data-i18n="reference.mechanics.lead">Эти правила помогают читать карточки, но точное условие конкретного достижения всегда важнее общего пояснения.</p>
     <div class="mechanicList">
-     <div class="mechanicItem"><small>01 · Чудеса</small><strong>Проверь набор партии</strong><p>Не каждое чудо доступно в каждой партии. До начала строительства проверь его присутствие, культурный уровень города, клетку и стоимость.</p></div>
-     <div class="mechanicItem"><small>02 · Сложность</small><strong>Смотри точную формулировку</strong><p>Если в условии указано «или выше», более высокая сложность подходит. Для особых испытаний могут действовать дополнительные настройки.</p></div>
-     <div class="mechanicItem"><small>03 · Сценарии</small><strong>Выбери нужную главу</strong><p>Сценарные достижения могут проверять конкретную миссию, героя, ход или дополнительную цель. Обычная партия их не заменяет.</p></div>
-     <div class="mechanicItem"><small>04 · Режимы</small><strong>Hotseat — не всегда сеть</strong><p>Карточка отдельно указывает, подходит ли Hotseat, дуэль, локальная сеть или полноценная многопользовательская игра.</p></div>
-     <div class="mechanicItem"><small>05 · Редактор</small><strong>Подготовка не равна зачёту</strong><p>Редактор может помочь создать условия, но не каждая игровая проверка срабатывает после прямого добавления объекта или ресурса.</p></div>
-     <div class="mechanicItem"><small>06 · Проценты</small><strong>Это текущий снимок Steam</strong><p>Редкость меняется вместе с общей статистикой игроков. Она помогает оценить частоту, но не определяет реальную сложность попытки.</p></div>
+     <div class="mechanicItem"><small data-i18n="reference.mechanics.wondersLabel">01 · Чудеса</small><strong data-i18n="reference.mechanics.wondersTitle">Проверь набор партии</strong><p data-i18n="reference.mechanics.wondersText">Не каждое чудо доступно в каждой партии. До начала строительства проверь его присутствие, культурный уровень города, клетку и стоимость.</p></div>
+     <div class="mechanicItem"><small data-i18n="reference.mechanics.difficultyLabel">02 · Сложность</small><strong data-i18n="reference.mechanics.difficultyTitle">Смотри точную формулировку</strong><p data-i18n="reference.mechanics.difficultyText">Если в условии указано «или выше», более высокая сложность подходит. Для особых испытаний могут действовать дополнительные настройки.</p></div>
+     <div class="mechanicItem"><small data-i18n="reference.mechanics.scenariosLabel">03 · Сценарии</small><strong data-i18n="reference.mechanics.scenariosTitle">Выбери нужную главу</strong><p data-i18n="reference.mechanics.scenariosText">Сценарные достижения могут проверять конкретную миссию, героя, ход или дополнительную цель. Обычная партия их не заменяет.</p></div>
+     <div class="mechanicItem"><small data-i18n="reference.mechanics.modesLabel">04 · Режимы</small><strong data-i18n="reference.mechanics.modesTitle">Hotseat — не всегда сеть</strong><p data-i18n="reference.mechanics.modesText">Карточка отдельно указывает, подходит ли Hotseat, дуэль, локальная сеть или полноценная многопользовательская игра.</p></div>
+     <div class="mechanicItem"><small data-i18n="reference.mechanics.editorLabel">05 · Редактор</small><strong data-i18n="reference.mechanics.editorTitle">Подготовка не равна зачёту</strong><p data-i18n="reference.mechanics.editorText">Редактор может помочь создать условия, но не каждая игровая проверка срабатывает после прямого добавления объекта или ресурса.</p></div>
+     <div class="mechanicItem"><small data-i18n="reference.mechanics.percentagesLabel">06 · Проценты</small><strong data-i18n="reference.mechanics.percentagesTitle">Это текущий снимок Steam</strong><p data-i18n="reference.mechanics.percentagesText">Редкость меняется вместе с общей статистикой игроков. Она помогает оценить частоту, но не определяет реальную сложность попытки.</p></div>
     </div>
    </article>
 
    <article id="reference-sources" class="referencePanel">
-    <h3>Источники</h3>
-    <p class="referenceLead">Условия и термины проверяются по нескольким источникам. Советы в карточках являются пояснениями этого проекта, а не официальным руководством разработчиков.</p>
+    <h3 data-i18n="reference.sources.title">Источники</h3>
+    <p class="referenceLead" data-i18n="reference.sources.lead">Условия и термины проверяются по нескольким источникам. Советы в карточках являются пояснениями этого проекта, а не официальным руководством разработчиков.</p>
     <div class="sourceList">
-     <div class="sourceRow"><strong>Steam</strong><p>Официальные названия, условия достижений и глобальные проценты получения.</p><a href="https://steamcommunity.com/stats/597180/achievements?l=russian" target="_blank" rel="noreferrer">Открыть ↗</a></div>
-     <div class="sourceRow"><strong>Old World Wiki</strong><p>Механики игры, технологии, законы, персонажи, города и требования построек.</p><a href="https://wiki.hoodedhorse.com/Old_World/" target="_blank" rel="noreferrer">Открыть ↗</a></div>
-     <div class="sourceRow"><strong>Репозиторий проекта</strong><p>История изменений сайта и открытые данные всех карточек достижений.</p><a href="https://github.com/NatalieZh/OldWorldAchievements" target="_blank" rel="noreferrer">Открыть ↗</a></div>
+     <div class="sourceRow"><strong>Steam</strong><p data-i18n="reference.sources.steamText">Официальные названия, условия достижений и глобальные проценты получения.</p><a href="https://steamcommunity.com/stats/597180/achievements" target="_blank" rel="noreferrer" data-i18n="common.openExternal">Открыть ↗</a></div>
+     <div class="sourceRow"><strong>Old World Wiki</strong><p data-i18n="reference.sources.wikiText">Механики игры, технологии, законы, персонажи, города и требования построек.</p><a href="https://wiki.hoodedhorse.com/Old_World/" target="_blank" rel="noreferrer" data-i18n="common.openExternal">Открыть ↗</a></div>
+     <div class="sourceRow"><strong data-i18n="reference.sources.repository">Репозиторий проекта</strong><p data-i18n="reference.sources.repositoryText">История изменений сайта и открытые данные всех карточек достижений.</p><a href="https://github.com/NatalieZh/OldWorldAchievements" target="_blank" rel="noreferrer" data-i18n="common.openExternal">Открыть ↗</a></div>
     </div>
-    <div class="referenceNote">Если карточка расходится с текстом в игре, приоритет имеет актуальная русская локализация игры. Такое расхождение стоит проверить отдельно.</div>
+    <div class="referenceNote" data-i18n="reference.sources.note">Если карточка расходится с текстом в игре, приоритет имеет актуальная русская локализация игры. Такое расхождение стоит проверить отдельно.</div>
    </article>
   </div>
  </div>
 </section>
-<section class="section card catalog" id="catalog"><div class="sectionHead"><div><div class="kicker">Библиотека достижений</div><h2>Каталог достижений</h2><p><span id="catalogCount">408</span> достижений в текущей базе.</p></div></div>
- <div class="catalogTop"><input id="catalogSearch" class="filter search" placeholder="Название или условие..." oninput="syncCatalogSearch()"><select id="categoryFilter" class="filter" onchange="resetCatalogPage()"></select><select id="dlcFilter" class="filter" onchange="resetCatalogPage()"></select><select id="scenarioFilter" class="filter" onchange="resetCatalogPage()"></select><select id="specialFilter" class="filter" onchange="resetCatalogPage()"><option value="">Все особые условия</option><option value="Одиночная игра">Одиночная игра</option><option value="Мультиплеер / сеть">Мультиплеер / сеть</option><option value="Каждый за себя">Каждый за себя</option><option value="Командная игра">Командная игра</option><option value="Дуэль">Дуэль</option><option value="Hotseat">Hotseat</option><option value="Локальная сеть">Локальная сеть</option><option value="Игра через облако">Игра через облако</option><option value="Один город">Один город</option><option value="Без персонажей">Без персонажей</option><option value="Без отмены">Без отмены</option><option value="Случайные лидеры">Случайные лидеры</option><option value="Случайные семьи">Случайные семьи</option><option value="Ролевые события">Ролевые события</option><option value="Высокий уровень событий">Высокий уровень событий</option><option value="Реалистичная смертность">Реалистичная смертность</option><option value="Игра недели">Игра недели</option><option value="Все нации">Все нации</option><option value="Победа по очкам">Победа по очкам</option><option value="Победа по амбициям">Победа по амбициям</option><option value="Победа по времени">Победа по времени</option><option value="Победа завоеванием">Победа завоеванием</option><option value="Победа союза">Победа союза</option><option value="Двойная победа">Двойная победа</option><option value="Уровень сложности">Уровень сложности</option><option value="Определённая семья">Определённая семья</option><option value="Хардкорные настройки">Хардкорные настройки</option><option value="Уровень племён">Уровень племён</option></select><select id="civFilter" class="filter" onchange="resetCatalogPage()"></select><select id="statusFilter" class="filter" onchange="resetCatalogPage()"><option value="">Любой статус</option><option value="todo">Не получено</option><option value="done">Получено</option></select></div>
- <div class="catalogGrid" id="catalogGrid"></div><div class="catalogFoot"><button id="moreBtn" class="btn ghost small" onclick="showMore()">Показать ещё</button></div>
+<section class="section card catalog" id="catalog"><div class="sectionHead"><div><div class="kicker" data-i18n="catalog.kicker">Библиотека достижений</div><h2 data-i18n="catalog.title">Каталог достижений</h2><p id="catalogSummary">408 достижений в текущей базе.</p></div></div>
+ <div class="catalogTop"><input id="catalogSearch" class="filter search" placeholder="Название или условие..." data-i18n-placeholder="catalog.searchPlaceholder" oninput="syncCatalogSearch()"><select id="categoryFilter" class="filter" onchange="resetCatalogPage()"></select><select id="dlcFilter" class="filter" onchange="resetCatalogPage()"></select><select id="scenarioFilter" class="filter" onchange="resetCatalogPage()"></select><select id="specialFilter" class="filter" onchange="resetCatalogPage()"></select><select id="civFilter" class="filter" onchange="resetCatalogPage()"></select><select id="statusFilter" class="filter" onchange="resetCatalogPage()"><option value="" data-i18n="filters.anyStatus">Любой статус</option><option value="todo" data-i18n="filters.todo">Не получено</option><option value="done" data-i18n="filters.done">Получено</option></select></div>
+ <div class="catalogGrid" id="catalogGrid"></div><div class="catalogFoot"><button id="moreBtn" class="btn ghost small" onclick="showMore()" data-i18n="catalog.showMore">Показать ещё</button></div>
 </section>
-<footer class="footer"><span>Unofficial fan-made prototype · Old World belongs to Mohawk Games / Hooded Horse.</span><span>Local-first · no account required</span></footer>
+<footer class="footer"><span data-i18n="footer.disclaimer">Неофициальный фанатский проект · Old World принадлежит Mohawk Games / Hooded Horse.</span><span data-i18n="footer.local">Локальные данные · регистрация не требуется</span></footer>
 </main>
 
 <div id="progressModal" class="overlay hidden"><div class="card modal wide">
- <div class="modalHead"><div><div class="kicker">Твой прогресс</div><h2>Мои достижения</h2><p style="color:#9d917d;font-size:13px;line-height:1.5;margin:6px 0 0">Отметь полученные достижения. Можно фильтровать список и массово отмечать только видимые результаты.</p></div><button class="close" onclick="closeProgress()">×</button></div>
- <div class="progressFilters"><input id="pSearch" class="filter search" placeholder="Поиск..." oninput="renderProgressList()"><select id="pCategory" class="filter" onchange="renderProgressList()"></select><select id="pDlc" class="filter" onchange="renderProgressList()"></select><select id="pScenario" class="filter" onchange="renderProgressList()"></select><select id="pSpecial" class="filter" onchange="renderProgressList()"><option value="">Все особые условия</option><option value="Одиночная игра">Одиночная игра</option><option value="Мультиплеер / сеть">Мультиплеер / сеть</option><option value="Каждый за себя">Каждый за себя</option><option value="Командная игра">Командная игра</option><option value="Дуэль">Дуэль</option><option value="Hotseat">Hotseat</option><option value="Локальная сеть">Локальная сеть</option><option value="Игра через облако">Игра через облако</option><option value="Один город">Один город</option><option value="Без персонажей">Без персонажей</option><option value="Без отмены">Без отмены</option><option value="Случайные лидеры">Случайные лидеры</option><option value="Случайные семьи">Случайные семьи</option><option value="Ролевые события">Ролевые события</option><option value="Высокий уровень событий">Высокий уровень событий</option><option value="Реалистичная смертность">Реалистичная смертность</option><option value="Игра недели">Игра недели</option><option value="Все нации">Все нации</option><option value="Победа по очкам">Победа по очкам</option><option value="Победа по амбициям">Победа по амбициям</option><option value="Победа по времени">Победа по времени</option><option value="Победа завоеванием">Победа завоеванием</option><option value="Победа союза">Победа союза</option><option value="Двойная победа">Двойная победа</option><option value="Уровень сложности">Уровень сложности</option><option value="Определённая семья">Определённая семья</option><option value="Хардкорные настройки">Хардкорные настройки</option><option value="Уровень племён">Уровень племён</option></select><select id="pCiv" class="filter" onchange="renderProgressList()"></select><select id="pStatus" class="filter" onchange="renderProgressList()"><option value="">Все</option><option value="todo">Не отмеченные</option><option value="done">Полученные</option></select><select id="pSort" class="filter" onchange="renderProgressList()"><option value="name">Название А–Я</option><option value="category">Категория</option><option value="rarity">Редкость Steam</option><option value="doneFirst">Полученные сначала</option><option value="todoFirst">Неполученные сначала</option></select></div>
- <div class="progressToolbar"><div class="bulk"><button class="btn ghost small" onclick="markVisible(true)">Отметить все видимые</button><button class="btn ghost small" onclick="markVisible(false)">Снять все видимые</button><button class="btn ghost small" onclick="resetProgressFilters()">Сбросить фильтры</button></div><div class="progressSummary" id="pSummary"></div></div>
+ <div class="modalHead"><div><div class="kicker" data-i18n="progress.kicker">Твой прогресс</div><h2 data-i18n="progress.modalTitle">Мои достижения</h2><p style="color:#9d917d;font-size:13px;line-height:1.5;margin:6px 0 0" data-i18n="progress.modalDescription">Отметь полученные достижения. Можно фильтровать список и массово отмечать только видимые результаты.</p></div><button class="close" onclick="closeProgress()">×</button></div>
+ <div class="progressFilters"><input id="pSearch" class="filter search" placeholder="Поиск..." data-i18n-placeholder="common.searchPlaceholder" oninput="renderProgressList()"><select id="pCategory" class="filter" onchange="renderProgressList()"></select><select id="pDlc" class="filter" onchange="renderProgressList()"></select><select id="pScenario" class="filter" onchange="renderProgressList()"></select><select id="pSpecial" class="filter" onchange="renderProgressList()"></select><select id="pCiv" class="filter" onchange="renderProgressList()"></select><select id="pStatus" class="filter" onchange="renderProgressList()"><option value="" data-i18n="filters.allStatuses">Все</option><option value="todo" data-i18n="filters.notMarked">Не отмеченные</option><option value="done" data-i18n="filters.earned">Полученные</option></select><select id="pSort" class="filter" onchange="renderProgressList()"><option value="name" data-i18n="sort.name">Название А–Я</option><option value="category" data-i18n="sort.category">Категория</option><option value="rarity" data-i18n="sort.rarity">Редкость Steam</option><option value="doneFirst" data-i18n="sort.doneFirst">Полученные сначала</option><option value="todoFirst" data-i18n="sort.todoFirst">Неполученные сначала</option></select></div>
+ <div class="progressToolbar"><div class="bulk"><button class="btn ghost small" onclick="markVisible(true)" data-i18n="progress.markVisible">Отметить все видимые</button><button class="btn ghost small" onclick="markVisible(false)" data-i18n="progress.unmarkVisible">Снять все видимые</button><button class="btn ghost small" onclick="resetProgressFilters()" data-i18n="filters.reset">Сбросить фильтры</button></div><div class="progressSummary" id="pSummary"></div></div>
  <div class="progressList" id="progressList"></div>
- <div class="modalFoot"><div class="bulk"><button class="btn danger small" onclick="clearAllProgress()">Очистить весь прогресс</button><button class="btn ghost small" onclick="selectProgressFile('importFileModal')">Импорт JSON</button><input id="importFileModal" class="fileInput" type="file" accept=".json" onchange="importProgress(event)" oncancel="cancelProgressImportSelection()"><button class="btn ghost small" onclick="exportProgress()">Сохранить JSON</button></div><button class="btn" onclick="commitProgress()">Сохранить изменения</button></div>
+ <div class="modalFoot"><div class="bulk"><button class="btn danger small" onclick="clearAllProgress()" data-i18n="progress.clearAll">Очистить весь прогресс</button><button class="btn ghost small" onclick="selectProgressFile('importFileModal')" data-i18n="progress.importJson">Импорт JSON</button><input id="importFileModal" class="fileInput" type="file" accept=".json" onchange="importProgress(event)" oncancel="cancelProgressImportSelection()"><button class="btn ghost small" onclick="exportProgress()" data-i18n="progress.saveJson">Сохранить JSON</button></div><button class="btn" onclick="commitProgress()" data-i18n="common.saveChanges">Сохранить изменения</button></div>
 </div></div>
 
 
 <div id="plannerModal" class="overlay hidden"><div class="card modal wide plannerModal">
  <div class="modalHead">
-  <div><div class="kicker">Планирование партии</div><h2>Спланировать новую партию</h2><p class="plannerIntro">План строится только по достижениям, которые сейчас не отмечены как полученные.</p></div>
+  <div><div class="kicker" data-i18n="planner.kicker">Планирование партии</div><h2 data-i18n="planner.title">Спланировать новую партию</h2><p class="plannerIntro" data-i18n="planner.intro">План строится только по достижениям, которые сейчас не отмечены как полученные.</p></div>
   <button class="close" onclick="closeModal('plannerModal')">×</button>
  </div>
 
  <div class="plannerSteps">
-  <button class="stepTab active" id="stepTab1" onclick="navigatePlannerStep(1)"><span>1</span> Настройки</button>
-  <button class="stepTab locked" id="stepTab2" onclick="navigatePlannerStep(2)"><span>2</span> Цивилизация</button>
-  <button class="stepTab locked" id="stepTab3" onclick="navigatePlannerStep(3)"><span>3</span> Цели партии</button>
+  <button class="stepTab active" id="stepTab1" onclick="navigatePlannerStep(1)"><span>1</span> <span data-i18n="planner.steps.settings">Настройки</span></button>
+  <button class="stepTab locked" id="stepTab2" onclick="navigatePlannerStep(2)"><span>2</span> <span data-i18n="planner.steps.civilization">Цивилизация</span></button>
+  <button class="stepTab locked" id="stepTab3" onclick="navigatePlannerStep(3)"><span>3</span> <span data-i18n="planner.steps.goals">Цели партии</span></button>
  </div>
 
  <section id="plannerStep1" class="plannerStep">
-  <div class="plannerSectionTitle"><div><div class="kicker">Шаг 1</div><h3>Какую партию хочется сыграть?</h3></div></div>
+  <div class="plannerSectionTitle"><div><div class="kicker" data-i18n="planner.step1.label">Шаг 1</div><h3 data-i18n="planner.step1.title">Какую партию хочется сыграть?</h3></div></div>
   <div class="setupGrid plannerSetup">
    <div class="setupBox">
-    <h3>Режим</h3><p id="planModeNote">Режим влияет на доступность сетевых достижений.</p>
+    <h3 data-i18n="planner.mode.title">Режим</h3><p id="planModeNote">Режим влияет на доступность сетевых достижений.</p>
     <select id="planMode" class="filter" style="width:100%" onchange="handlePlannerModeChange()">
-     <option value="Singleplayer">Singleplayer</option>
-     <option value="Multiplayer / FFA">Multiplayer / FFA</option>
-     <option value="Hotseat">Hotseat</option>
+     <option value="Singleplayer" data-i18n="values.mode.singleplayer">Одиночная игра</option>
+     <option value="Multiplayer / FFA" data-i18n="values.mode.multiplayer">Мультиплеер / Каждый за себя</option>
+     <option value="Hotseat" data-i18n="values.mode.hotseat">Hotseat</option>
     </select>
    </div>
    <div class="setupBox">
-    <h3>Сложность</h3><p>Победа на выбранном уровне засчитывает также достижения всех нижних уровней.</p>
+    <h3 data-i18n="planner.difficulty.title">Сложность</h3><p data-i18n="planner.difficulty.description">Победа на выбранном уровне засчитывает также достижения всех нижних уровней.</p>
     <select id="planDifficulty" class="filter" style="width:100%">
-     <option value="any">Не учитывать</option>
-     <option value="Новый">Новый</option>
-     <option value="Способный">Способный</option>
-     <option value="Справедливый">Справедливый</option>
-     <option value="Добрый">Добрый</option>
-     <option value="Могучий">Могучий</option>
-     <option value="Благородный">Благородный</option>
-     <option value="Славный">Славный</option>
-     <option value="Великолепный">Великолепный</option>
-     <option value="Великий">Великий</option>
+     <option value="any" data-i18n="planner.difficulty.any">Не учитывать</option>
+     <option value="Новый" data-i18n="values.difficulty.theNew">Новый</option>
+     <option value="Способный" data-i18n="values.difficulty.theAble">Способный</option>
+     <option value="Справедливый" data-i18n="values.difficulty.theJust">Справедливый</option>
+     <option value="Добрый" data-i18n="values.difficulty.theGood">Добрый</option>
+     <option value="Могучий" data-i18n="values.difficulty.theStrong">Могучий</option>
+     <option value="Благородный" data-i18n="values.difficulty.theNoble">Благородный</option>
+     <option value="Славный" data-i18n="values.difficulty.theGlorious">Славный</option>
+     <option value="Великолепный" data-i18n="values.difficulty.theMagnificent">Великолепный</option>
+     <option value="Великий" data-i18n="values.difficulty.theGreat">Великий</option>
     </select>
    </div>
    <div class="setupBox">
-    <h3>Стиль партии</h3><p>Это влияет на вес военных, мирных и долгих целей.</p>
+    <h3 data-i18n="planner.style.title">Стиль партии</h3><p data-i18n="planner.style.description">Это влияет на вес военных, мирных и долгих целей.</p>
     <select id="planStyle" class="filter" style="width:100%">
-     <option value="balanced">Сбалансированная</option>
-     <option value="war">Военная</option>
-     <option value="peace">Спокойная / мирная</option>
-     <option value="long">Долгая партия</option>
+     <option value="balanced" data-i18n="values.style.balanced">Сбалансированная</option>
+     <option value="war" data-i18n="values.style.war">Военная</option>
+     <option value="peace" data-i18n="values.style.peace">Спокойная / мирная</option>
+     <option value="long" data-i18n="values.style.long">Долгая партия</option>
     </select>
    </div>
    <div class="setupBox plannerIntentBox">
-    <h3>Особое условие партии</h3><p>Например: дуэль, один город, без персонажей или конкретный тип победы.</p>
-    <select id="planSpecial" class="filter" style="width:100%"><option value="">Без особого условия</option><option value="singleplayer">Одиночная игра</option><option value="multiplayer">Мультиплеер / сеть</option><option value="ffa">Каждый за себя</option><option value="teams">Командная игра</option><option value="duel">Дуэль</option><option value="hotseat">Hotseat</option><option value="lan">Локальная сеть</option><option value="cloud">Игра через облако</option><option value="one_city">Один город</option><option value="no_characters">Без персонажей</option><option value="no_undo">Без отмены</option><option value="random_leaders">Случайные лидеры</option><option value="random_families">Случайные семьи</option><option value="role_playing">Ролевые события</option><option value="high_events">Высокий уровень событий</option><option value="realistic_mortality">Реалистичная смертность</option><option value="game_of_week">Игра недели</option><option value="all_nations">Все нации</option><option value="points_victory">Победа по очкам</option><option value="ambition_victory">Победа по амбициям</option><option value="time_victory">Победа по времени</option><option value="conquest_victory">Победа завоеванием</option><option value="alliance_victory">Победа союза</option><option value="double_victory">Двойная победа</option><option value="difficulty">Уровень сложности</option><option value="family">Определённая семья</option><option value="hardcore">Хардкорные настройки</option><option value="tribe_level">Уровень племён</option></select>
+    <h3 data-i18n="planner.special.title">Особое условие партии</h3><p data-i18n="planner.special.description">Например: дуэль, один город, без персонажей или конкретный тип победы.</p>
+    <select id="planSpecial" class="filter" style="width:100%"></select>
    </div>
    <div class="setupBox">
-    <h3>Источник достижений</h3><p>Выбери основную игру, конкретное дополнение или цели из любого источника.</p>
+    <h3 data-i18n="planner.source.title">Источник достижений</h3><p data-i18n="planner.source.description">Выбери основную игру, конкретное дополнение или цели из любого источника.</p>
     <select id="planDlc" class="filter" style="width:100%" onchange="handlePlannerDlcChange()"><option value="all">Любой источник</option><option value="Behind the Throne">Behind the Throne</option><option value="Carthage">Carthage</option><option value="Empires of the Indus">Empires of the Indus</option><option value="Heroes of the Aegean">Heroes of the Aegean</option><option value="Pharaohs of the Nile">Pharaohs of the Nile</option><option value="The Sacred and the Profane">The Sacred and the Profane</option><option value="Wonders and Dynasties">Wonders and Dynasties</option><option value="Wrath of Gods">Wrath of Gods</option><option value="Основная игра">Основная игра</option></select>
    </div>
    <div class="setupBox">
-    <h3>Сценарий</h3><p id="planScenarioNote">Сценарии отсортированы по числу оставшихся достижений.</p>
+    <h3 data-i18n="planner.scenario.title">Сценарий</h3><p id="planScenarioNote">Сценарии отсортированы по числу оставшихся достижений.</p>
     <select id="planScenario" class="filter" style="width:100%" onchange="handlePlannerScenarioChange()"><option value="none">Обычная партия (без сценария)</option></select>
    </div>
   </div>
-  <div class="plannerHint setupAudit"><b>Что умеет учитывать планировщик:</b> режим сети, дуэль, Hotseat, LAN, облако, «Каждый за себя», команды, «Один город», «Без персонажей», «Без отмены», случайных лидеров/семьи, ролевые события, высокий уровень событий, реалистичную смертность, тип победы, сложность и семейные ограничения. Явного достижения на конкретный тип карты в текущей базе не найдено.</div>
-  <div class="plannerHint">Сейчас у тебя отмечено <b id="plannerDoneCount">0</b> достижений. Планировщик будет считать оставшимися все остальные записи в базе.</div>
-  <div class="plannerNav"><span></span><button class="btn" onclick="calculateRecommendations()">Подобрать цивилизации →</button></div>
+  <div class="plannerHint setupAudit" data-i18n-html="planner.capabilities"><b>Что умеет учитывать планировщик:</b> режим сети, дуэль, Hotseat, LAN, облако, «Каждый за себя», команды, «Один город», «Без персонажей», «Без отмены», случайных лидеров/семьи, ролевые события, высокий уровень событий, реалистичную смертность, тип победы, сложность и семейные ограничения. Явного достижения на конкретный тип карты в текущей базе не найдено.</div>
+  <div class="plannerHint"><span data-i18n="planner.donePrefix">Сейчас у тебя отмечено</span> <b id="plannerDoneCount">0</b> <span data-i18n="planner.doneSuffix">достижений. Планировщик будет считать оставшимися все остальные записи в базе.</span></div>
+  <div class="plannerNav"><span></span><button class="btn" onclick="calculateRecommendations()" data-i18n="planner.findCivilizations">Подобрать цивилизации →</button></div>
  </section>
 
  <section id="plannerStep2" class="plannerStep hidden">
   <div class="plannerSectionTitle">
-   <div><div class="kicker">Шаг 2</div><h3>Какая цивилизация выгоднее?</h3><p>Рейтинг учитывает отличия между нациями; общие цели остаются доступными, но почти не влияют на порядок.</p></div>
-   <button class="btn ghost small" onclick="showPlannerStep(1)">← Настройки</button>
+   <div><div class="kicker" data-i18n="planner.step2.label">Шаг 2</div><h3 data-i18n="planner.step2.title">Какая цивилизация выгоднее?</h3><p data-i18n="planner.step2.description">Рейтинг учитывает отличия между нациями; общие цели остаются доступными, но почти не влияют на порядок.</p></div>
+   <button class="btn ghost small" onclick="showPlannerStep(1)" data-i18n="planner.backSettings">← Настройки</button>
   </div>
   <div class="recommendationLegend">
-   <span><b>+4</b> победа или уникальный юнит нации</span>
-   <span><b>+3</b> другая национальная цель</span>
-   <span><b>+2</b> естественная связь</span>
-   <span><b>до +3</b> все общие цели вместе</span>
-   <span><b>−1</b> случайность в национальной или естественной цели</span>
+   <span data-i18n-html="planner.legend.four"><b>+4</b> победа или уникальный юнит нации</span>
+   <span data-i18n-html="planner.legend.three"><b>+3</b> другая национальная цель</span>
+   <span data-i18n-html="planner.legend.two"><b>+2</b> естественная связь</span>
+   <span data-i18n-html="planner.legend.common"><b>до +3</b> все общие цели вместе</span>
+   <span data-i18n-html="planner.legend.random"><b>−1</b> случайность в национальной или естественной цели</span>
   </div>
   <div id="civRecommendations" class="civRecommendations"></div>
-  <div class="plannerNav"><button class="btn ghost" onclick="showPlannerStep(1)">← Назад</button><span></span></div>
+  <div class="plannerNav"><button class="btn ghost" onclick="showPlannerStep(1)" data-i18n="common.back">← Назад</button><span></span></div>
  </section>
 
  <section id="plannerStep3" class="plannerStep hidden">
   <div class="plannerSectionTitle">
-   <div><div class="kicker">Шаг 3</div><h3 id="goalsTitle">Цели партии</h3><p id="goalsSubtitle">Выбери, что действительно хочешь взять в этот забег.</p></div>
-   <button class="btn ghost small" onclick="returnToPlannerCivilizations()">← Цивилизации</button>
+   <div><div class="kicker" data-i18n="planner.step3.label">Шаг 3</div><h3 id="goalsTitle">Цели партии</h3><p id="goalsSubtitle">Выбери, что действительно хочешь взять в этот забег.</p></div>
+   <button class="btn ghost small" onclick="returnToPlannerCivilizations()" data-i18n="planner.backCivilizations">← Цивилизации</button>
   </div>
   <div class="planSizePicker">
-   <div><div class="kicker">Размер плана</div><p id="planSizeNote">Обычный план: до 18 сбалансированных целей.</p></div>
+   <div><div class="kicker" data-i18n="planner.planSize.title">Размер плана</div><p id="planSizeNote">Обычный план: до 18 сбалансированных целей.</p></div>
    <div class="planSizeOptions">
-    <button id="planSizeCompact" class="planSizeButton" type="button" onclick="applyPlannerGoalPreset('compact')"><strong>Компактный</strong><span>до 8 целей</span></button>
-    <button id="planSizeStandard" class="planSizeButton active" type="button" onclick="applyPlannerGoalPreset('standard')"><strong>Обычный</strong><span>до 18 целей</span></button>
-    <button id="planSizeExpanded" class="planSizeButton" type="button" onclick="applyPlannerGoalPreset('expanded')"><strong>Расширенный</strong><span>до 30 целей</span></button>
+    <button id="planSizeCompact" class="planSizeButton" type="button" onclick="applyPlannerGoalPreset('compact')"><strong data-i18n="planner.planSize.compact">Компактный</strong><span data-i18n="planner.planSize.compactLimit">до 8 целей</span></button>
+    <button id="planSizeStandard" class="planSizeButton active" type="button" onclick="applyPlannerGoalPreset('standard')"><strong data-i18n="planner.planSize.standard">Обычный</strong><span data-i18n="planner.planSize.standardLimit">до 18 целей</span></button>
+    <button id="planSizeExpanded" class="planSizeButton" type="button" onclick="applyPlannerGoalPreset('expanded')"><strong data-i18n="planner.planSize.expanded">Расширенный</strong><span data-i18n="planner.planSize.expandedLimit">до 30 целей</span></button>
    </div>
   </div>
   <div class="plannerGoalTools">
-   <input id="plannerGoalSearch" class="filter search" placeholder="Поиск среди подходящих целей..." oninput="renderGoalGroups()">
-   <select id="plannerGoalCategory" class="filter" onchange="renderGoalGroups()"><option value="">Все категории</option></select>
+   <input id="plannerGoalSearch" class="filter search" placeholder="Поиск среди подходящих целей..." data-i18n-placeholder="planner.goalSearch" oninput="renderGoalGroups()">
+   <select id="plannerGoalCategory" class="filter" onchange="renderGoalGroups()"><option value="" data-i18n="filters.allCategories">Все категории</option></select>
    <select id="plannerGoalKind" class="filter" onchange="renderGoalGroups()">
-    <option value="all">Все подходящие</option>
-    <option value="practical">Практичные цели</option>
-    <option value="direct">Только основные</option>
-    <option value="traits">Прозвища / персонажи</option>
-    <option value="risky">Условные / случайные</option>
+    <option value="all" data-i18n="planner.goalKinds.all">Все подходящие</option>
+    <option value="practical" data-i18n="planner.goalKinds.practical">Практичные цели</option>
+    <option value="direct" data-i18n="planner.goalKinds.direct">Только основные</option>
+    <option value="traits" data-i18n="planner.goalKinds.traits">Прозвища / персонажи</option>
+    <option value="risky" data-i18n="planner.goalKinds.risky">Условные / случайные</option>
    </select>
-   <button class="btn ghost small" type="button" onclick="selectVisiblePlannerGoals(true)">Выбрать видимые</button>
-   <button class="btn ghost small" type="button" onclick="selectVisiblePlannerGoals(false)">Снять видимые</button>
+   <button class="btn ghost small" type="button" onclick="selectVisiblePlannerGoals(true)" data-i18n="planner.selectVisible">Выбрать видимые</button>
+   <button class="btn ghost small" type="button" onclick="selectVisiblePlannerGoals(false)" data-i18n="planner.unselectVisible">Снять видимые</button>
   </div>
   <div class="plannerGoalHint" id="plannerGoalHint"></div>
   <div id="goalGroups"></div>
   <div class="plannerFootSummary">
-   <div><span class="muted">Выбрано целей</span><strong id="selectedGoalCount">0</strong></div>
-   <div><span class="muted">Ожидаемый потенциал</span><strong id="selectedGoalScore">0 баллов</strong></div>
+   <div><span class="muted" data-i18n="planner.selectedGoals">Выбрано целей</span><strong id="selectedGoalCount">0</strong></div>
+   <div><span class="muted" data-i18n="planner.expectedPotential">Ожидаемый потенциал</span><strong id="selectedGoalScore">0 баллов</strong></div>
   </div>
   <div id="selectedGoalBreakdown" class="selectedGoalBreakdown"></div>
-  <div id="plannerEmptyWarning" class="plannerEmptyWarning hidden">Выбери хотя бы одну цель, чтобы создать план.</div>
+  <div id="plannerEmptyWarning" class="plannerEmptyWarning hidden" data-i18n="planner.emptyWarning">Выбери хотя бы одну цель, чтобы создать план.</div>
   <div id="plannerReview" class="plannerReview"></div>
-  <div class="plannerNav"><button class="btn ghost" onclick="returnToPlannerCivilizations()">← Назад</button><button id="plannerSaveBtn" class="btn" onclick="createPlannedRun()">Создать текущую партию</button></div>
+  <div class="plannerNav"><button class="btn ghost" onclick="returnToPlannerCivilizations()" data-i18n="common.back">← Назад</button><button id="plannerSaveBtn" class="btn" onclick="createPlannedRun()">Создать текущую партию</button></div>
  </section>
 </div></div>
 
 <div id="achievementModal" class="overlay hidden"><div class="card modal"><div class="modalHead"><div><div class="kicker" id="mCat"></div><h2 id="mName"></h2></div><button class="close" onclick="closeModal('achievementModal')">×</button></div>
-<div class="tags" id="mTags"></div><div class="achDetailGrid"><div class="setupBox full"><div class="kicker">Условие</div><p id="mCond" style="font-size:13px;color:#d2c5ae"></p><div id="mDupNote" class="dupNote hidden"></div></div><div id="mEnglishBox" class="setupBox full hidden"><div class="kicker">Оригинал Steam (англ.)</div><p id="mEnglish" style="font-size:12px;color:#d2c5ae;line-height:1.55"></p></div><div id="mMechanicNoteBox" class="setupBox full hidden"><div class="kicker">Важный нюанс</div><p id="mMechanicNote" style="font-size:12px;color:#d2c5ae;line-height:1.55"></p></div><div id="mLegitimacyBox" class="setupBox full legitPanel hidden">
-<div class="kicker">Легитимность прозвища</div>
+<div class="tags" id="mTags"></div><div class="achDetailGrid"><div class="setupBox full"><div class="kicker" data-i18n="achievement.condition">Условие</div><p id="mCond" style="font-size:13px;color:#d2c5ae"></p><div id="mDupNote" class="dupNote hidden"></div></div><div id="mEnglishBox" class="setupBox full hidden"><div class="kicker" data-i18n="achievement.steamOriginal">Оригинал Steam (англ.)</div><p id="mEnglish" style="font-size:12px;color:#d2c5ae;line-height:1.55"></p></div><div id="mMechanicNoteBox" class="setupBox full hidden"><div class="kicker" data-i18n="achievement.importantNote">Важный нюанс</div><p id="mMechanicNote" style="font-size:12px;color:#d2c5ae;line-height:1.55"></p></div><div id="mLegitimacyBox" class="setupBox full legitPanel hidden">
+<div class="kicker" data-i18n="achievement.cognomenLegitimacy">Легитимность прозвища</div>
 <div id="mLegitimacyValue" class="legitValue"></div>
 <p id="mLegitimacyWarn" class="legitWarn"></p>
 <div id="mLegitimacyRule" class="legitRule"></div>
-</div><div class="setupBox"><div class="kicker">Как получить</div><p id="mGuide" style="font-size:12px;color:#d2c5ae;line-height:1.55"></p></div><div class="setupBox"><div class="kicker">Оптимальная тактика</div><p id="mTactic" style="font-size:12px;color:#d2c5ae;line-height:1.55"></p></div><div class="setupBox"><div class="kicker">Редактор игры</div><p id="mEditor" style="font-size:12px;color:#d2c5ae;line-height:1.55"></p></div><div class="setupBox"><div class="kicker">Источник</div><p style="font-size:11px"><a id="mSource" class="sourceLink" target="_blank" rel="noreferrer"></a></p></div></div>
+</div><div class="setupBox"><div class="kicker" data-i18n="achievement.howTo">Как получить</div><p id="mGuide" style="font-size:12px;color:#d2c5ae;line-height:1.55"></p></div><div class="setupBox"><div class="kicker" data-i18n="achievement.tactic">Оптимальная тактика</div><p id="mTactic" style="font-size:12px;color:#d2c5ae;line-height:1.55"></p></div><div class="setupBox"><div class="kicker" data-i18n="achievement.editor">Редактор игры</div><p id="mEditor" style="font-size:12px;color:#d2c5ae;line-height:1.55"></p></div><div class="setupBox"><div class="kicker" data-i18n="achievement.source">Источник</div><p style="font-size:11px"><a id="mSource" class="sourceLink" target="_blank" rel="noreferrer"></a></p></div></div>
 <div style="display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap;margin-top:15px"><button id="runAchBtn" class="btn ghost small hidden" onclick="toggleCurrentAchievementInRun()"></button><button id="toggleAchBtn" class="btn small" onclick="toggleCurrentAchievement()"></button></div></div></div>
 
 <div id="toast" class="toast hidden"></div>
 <div id="importBusy" class="importBusy hidden" role="status" aria-live="polite" aria-busy="true">
  <div class="importSpinner" aria-hidden="true"></div>
- <strong id="importBusyTitle">Загружаем прогресс…</strong>
+ <strong id="importBusyTitle" data-i18n="import.loading">Загружаем прогресс…</strong>
  <span id="importBusyFile"></span>
- <small id="importBusyHint">Проверяем файл и обновляем карточки достижений.</small>
+ <small id="importBusyHint" data-i18n="import.checking">Проверяем файл и обновляем карточки достижений.</small>
 </div>
 
 <script src="locales/ru.js"></script>
@@ -490,12 +490,16 @@ const categories=["Военное / историческое", "Дипломат
 const dlcs=["Behind the Throne", "Carthage", "Empires of the Indus", "Heroes of the Aegean", "Pharaohs of the Nile", "The Sacred and the Profane", "Wonders and Dynasties", "Wrath of Gods", "Основная игра"];
 const scenarios=[...new Set(achievements.filter(a=>a.isScenario).map(a=>a.scenarioName).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'ru'));
 const civs=["Аксум", "Ассирия", "Вавилония", "Греция", "Египет", "Карфаген", "Куш", "Маурья", "Персия", "Рим", "Тамилакам", "Хетты", "Юэчжи"];
-const specialOptions=[{"value":"singleplayer","label":"Одиночная игра"},{"value":"multiplayer","label":"Мультиплеер / сеть"},{"value":"ffa","label":"Каждый за себя"},{"value":"teams","label":"Командная игра"},{"value":"duel","label":"Дуэль"},{"value":"hotseat","label":"Hotseat"},{"value":"lan","label":"Локальная сеть"},{"value":"cloud","label":"Игра через облако"},{"value":"one_city","label":"Один город"},{"value":"no_characters","label":"Без персонажей"},{"value":"no_undo","label":"Без отмены"},{"value":"random_leaders","label":"Случайные лидеры"},{"value":"random_families","label":"Случайные семьи"},{"value":"role_playing","label":"Ролевые события"},{"value":"high_events","label":"Высокий уровень событий"},{"value":"realistic_mortality","label":"Реалистичная смертность"},{"value":"game_of_week","label":"Игра недели"},{"value":"all_nations","label":"Все нации"},{"value":"points_victory","label":"Победа по очкам"},{"value":"ambition_victory","label":"Победа по амбициям"},{"value":"time_victory","label":"Победа по времени"},{"value":"conquest_victory","label":"Победа завоеванием"},{"value":"alliance_victory","label":"Победа союза"},{"value":"double_victory","label":"Двойная победа"},{"value":"difficulty","label":"Уровень сложности"},{"value":"family","label":"Определённая семья"},{"value":"hardcore","label":"Хардкорные настройки"},{"value":"tribe_level","label":"Уровень племён"}];
+const specialOptions=["singleplayer","multiplayer","ffa","teams","duel","hotseat","lan","cloud","one_city","no_characters","no_undo","random_leaders","random_families","role_playing","high_events","realistic_mortality","game_of_week","all_nations","points_victory","ambition_victory","time_victory","conquest_victory","alliance_victory","double_victory","difficulty","family","hardcore","tribe_level"];
+const categoryKeys={"Военное / историческое":"military","Дипломатия / отношения":"diplomacy","Законы":"laws","Комплексное испытание":"challenge","Мультиплеер / режим":"multiplayer","Победа / условие партии":"victoryCondition","Победа за цивилизацию":"civilizationVictory","Развитие / управление":"development","Религия / теология":"religion","Семья":"family","Сложность":"difficulty","Событие / особое":"event","Сооружение":"building","Сценарий / кампания":"scenario","Технология":"technology","Черта / персонаж":"character","Чудо":"wonder","Юнит":"unit"};
+const civKeys={"Аксум":"aksum","Ассирия":"assyria","Вавилония":"babylonia","Греция":"greece","Египет":"egypt","Карфаген":"carthage","Куш":"kush","Маурья":"maurya","Персия":"persia","Рим":"rome","Тамилакам":"tamilakam","Хетты":"hatti","Юэчжи":"yuezhi"};
+const difficultyKeys={"Новый":"theNew","Способный":"theAble","Справедливый":"theJust","Добрый":"theGood","Могучий":"theStrong","Благородный":"theNoble","Славный":"theGlorious","Великолепный":"theMagnificent","Великий":"theGreat"};
 const plannerDifficulties=['Новый','Способный','Справедливый','Добрый','Могучий','Благородный','Славный','Великолепный','Великий'];
 function plannerDifficultyValue(value){return value==='any'||plannerDifficulties.includes(value)?value:'any'}
 function plannerScenarioValue(value){return value==='none'||scenarios.includes(value)?value:'none'}
 const plannerRunDefaults={mode:'Singleplayer',difficulty:'any',style:'balanced',special:'',dlc:'all',scenario:'none'};
-const plannerStyleLabels={balanced:'Сбалансированная',war:'Военная',peace:'Спокойная / мирная',long:'Долгая партия'};
+const plannerStyleLabels={balanced:'values.style.balanced',war:'values.style.war',peace:'values.style.peace',long:'values.style.long'};
+const plannerModeLabels={'Singleplayer':'values.mode.singleplayer','Multiplayer / FFA':'values.mode.multiplayer','Hotseat':'values.mode.hotseat'};
 const duplicateIdAliases={};
 const OFFICIAL_TOTAL=408, DB_TOTAL=achievements.length;
 const STATE_STORAGE_KEY='ow-guide-v4', WINDOW_STATE_PREFIX=STATE_STORAGE_KEY+':';
@@ -528,8 +532,15 @@ let draftDone=new Set(state.done), catalogPage=1, currentAchId=null;
 const PAGE_SIZE=48;
 
 function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
-function initSelect(id,items,label){const el=document.getElementById(id);el.innerHTML='<option value="">'+label+'</option>'+items.map(x=>'<option>'+esc(x)+'</option>').join('')}
-function specialTagByLabel(label){const x=specialOptions.find(o=>o.label===label);return x?x.value:''}
+function t(key,variables){return AppI18n.t(key,variables)}
+function categoryLabel(value){return t('values.category.'+(categoryKeys[value]||value))}
+function civLabel(value){return t('values.civ.'+(civKeys[value]||value))}
+function difficultyLabel(value){return t('values.difficulty.'+(difficultyKeys[value]||value))}
+function specialLabel(value){return t('values.special.'+value)}
+function modeLabel(value){return t(plannerModeLabels[value]||value)}
+function dlcLabel(value){return value==='Основная игра'?t('values.dlc.baseGame'):value}
+function initSelect(id,items,labelKey,labeler=x=>x){const el=document.getElementById(id),selected=el.value;el.innerHTML='<option value="">'+esc(t(labelKey))+'</option>'+items.map(x=>'<option value="'+esc(x)+'">'+esc(labeler(x))+'</option>').join('');if([...el.options].some(option=>option.value===selected))el.value=selected}
+function initSpecialSelect(id,emptyKey){const el=document.getElementById(id),selected=el.value;el.innerHTML='<option value="">'+esc(t(emptyKey))+'</option>'+specialOptions.map(value=>'<option value="'+esc(value)+'">'+esc(specialLabel(value))+'</option>').join('');if([...el.options].some(option=>option.value===selected))el.value=selected}
 function setPlannerSelectValue(id,value,fallback){
  const el=document.getElementById(id);if(!el)return;
  const next=[...el.options].some(o=>o.value===value)?value:fallback;
@@ -549,28 +560,35 @@ function applyPlannerRunSettings(run){
 }
 function plannerRunMeta(run){
  const settings={...plannerRunDefaults,...run};
- const special=specialOptions.find(x=>x.value===settings.special)?.label;
- const scenario=settings.scenario==='none'?'Обычная партия':'Сценарий: '+settings.scenario;
- const dlc=settings.dlc==='all'?'Любой источник':'Источник: '+settings.dlc;
- const difficulty=settings.difficulty==='any'?'Без привязки к сложности':'Сложность: '+settings.difficulty;
- const parts=[settings.mode,difficulty,plannerStyleLabels[settings.style]||settings.style,dlc,scenario];
+ const special=settings.special?specialLabel(settings.special):'';
+ const scenario=settings.scenario==='none'?t('planner.meta.standardGame'):t('planner.meta.scenario',{scenario:settings.scenario});
+ const dlc=settings.dlc==='all'?t('planner.meta.anySource'):t('planner.meta.source',{source:dlcLabel(settings.dlc)});
+ const difficulty=settings.difficulty==='any'?t('planner.meta.anyDifficulty'):t('planner.meta.difficulty',{difficulty:difficultyLabel(settings.difficulty)});
+ const parts=[modeLabel(settings.mode),difficulty,t(plannerStyleLabels[settings.style]||settings.style),dlc,scenario];
  if(special)parts.push(special);
  return parts.filter(Boolean).join(' · ');
 }
 function initialize(){
  AppI18n.apply();
- initSelect('categoryFilter',categories,'Все категории');initSelect('dlcFilter',dlcs,'Все DLC');initSelect('scenarioFilter',scenarios,'Все сценарии');initSelect('civFilter',civs,'Все цивилизации');
- document.getElementById('scenarioFilter').insertAdjacentHTML('afterbegin','<option value="__none__">Без сценарных достижений</option>');
- if(document.getElementById('specialFilter').options.length===0)initSelect('specialFilter',specialOptions.map(x=>x.label),'Все особые условия');
- initSelect('pCategory',categories,'Все категории');initSelect('pDlc',dlcs,'Все DLC');initSelect('pScenario',scenarios,'Все сценарии');initSelect('pCiv',civs,'Все цивилизации');
- document.getElementById('pScenario').insertAdjacentHTML('afterbegin','<option value="__none__">Без сценарных достижений</option>');
- if(document.getElementById('pSpecial').options.length===0)initSelect('pSpecial',specialOptions.map(x=>x.label),'Все особые условия');
- const planDlc=document.getElementById('planDlc');if(planDlc&&planDlc.options.length===0)planDlc.innerHTML='<option value="all">Любой источник</option>'+dlcs.map(x=>'<option>'+esc(x)+'</option>').join('');
- const planScenario=document.getElementById('planScenario');if(planScenario)planScenario.innerHTML='<option value="none">Обычная партия (без сценария)</option>';
- const planSpecial=document.getElementById('planSpecial');if(planSpecial&&planSpecial.options.length===0)planSpecial.innerHTML='<option value="">Без особого условия</option>'+specialOptions.map(x=>'<option value="'+esc(x.value)+'">'+esc(x.label)+'</option>').join('');
+ document.querySelectorAll('[data-local-only]').forEach(element=>element.classList.toggle('hidden',window.location.protocol!=='file:'));
+ renderLocalizedSelects();
  updatePlannerSpecialOptions();
  updatePlannerScenarioOptions();
  render();
+}
+function renderLocalizedSelects(){
+ const catalogScenario=document.getElementById('scenarioFilter')?.value||'';
+ const progressScenario=document.getElementById('pScenario')?.value||'';
+ initSelect('categoryFilter',categories,'filters.allCategories',categoryLabel);initSelect('dlcFilter',dlcs,'filters.allDlc',dlcLabel);initSelect('scenarioFilter',scenarios,'filters.allScenarios');initSelect('civFilter',civs,'filters.allCivilizations',civLabel);
+ document.getElementById('scenarioFilter').insertAdjacentHTML('afterbegin','<option value="__none__">'+esc(t('filters.noScenarioAchievements'))+'</option>');
+ if(catalogScenario==='__none__')document.getElementById('scenarioFilter').value='__none__';
+ initSpecialSelect('specialFilter','filters.allSpecial');
+ initSelect('pCategory',categories,'filters.allCategories',categoryLabel);initSelect('pDlc',dlcs,'filters.allDlc',dlcLabel);initSelect('pScenario',scenarios,'filters.allScenarios');initSelect('pCiv',civs,'filters.allCivilizations',civLabel);
+ document.getElementById('pScenario').insertAdjacentHTML('afterbegin','<option value="__none__">'+esc(t('filters.noScenarioAchievements'))+'</option>');
+ if(progressScenario==='__none__')document.getElementById('pScenario').value='__none__';
+ initSpecialSelect('pSpecial','filters.allSpecial');
+ const planDlc=document.getElementById('planDlc'),selectedDlc=planDlc?.value;if(planDlc){planDlc.innerHTML='<option value="all">'+esc(t('planner.source.any'))+'</option>'+dlcs.map(x=>'<option value="'+esc(x)+'">'+esc(dlcLabel(x))+'</option>').join('');if([...planDlc.options].some(option=>option.value===selectedDlc))planDlc.value=selectedDlc}
+ initSpecialSelect('planSpecial','planner.special.none');
 }
 function persist(){writeStoredState(state)}
 function hasProgress(){return state.done.length>0}
@@ -580,13 +598,13 @@ function render(){
  if(zone) zone.classList.toggle('runActive',!!state.run);
  const featuredTitle=document.getElementById('featuredTitle');
  const featuredSubtitle=document.getElementById('featuredSubtitle');
- if(featuredTitle) featuredTitle.textContent=state.run?'Можно добавить в текущую партию':'Полезные достижения';
+ if(featuredTitle) featuredTitle.textContent=state.run?t('recommendations.addToRun'):t('recommendations.useful');
  if(featuredSubtitle) featuredSubtitle.textContent=state.run
-   ? 'Дополнительные цели, которые не входят в текущий план, но могут хорошо сочетаться с этой партией.'
-   : 'Подборка из реальной базы. После заполнения прогресса полученные цели помечаются автоматически.';
+   ? t('recommendations.addToRunDescription')
+   : t('recommendations.usefulDescription');
  document.getElementById('guestProgress').classList.toggle('hidden',has);document.getElementById('loadedProgress').classList.toggle('hidden',!has);document.getElementById('progressActions').classList.toggle('hidden',!has);
- document.getElementById('progressTitle').textContent=has?'Личный прогресс':'Прогресс не подключён';document.getElementById('progressStatus').textContent=has?'Локально':'Гость';
- document.getElementById('doneCount').textContent=count;document.getElementById('leftCount').textContent=Math.max(0,OFFICIAL_TOTAL-count);document.getElementById('percentText').textContent=pct+'% завершено';document.getElementById('progressFill').style.width=pct+'%';document.getElementById('runCount').textContent=state.run?.goals?.length||0;
+ document.getElementById('progressTitle').textContent=has?t('progress.personal'):t('progress.notConnected');document.getElementById('progressStatus').textContent=has?t('progress.local'):t('progress.guest');
+ document.getElementById('doneCount').textContent=count;document.getElementById('leftCount').textContent=Math.max(0,OFFICIAL_TOTAL-count);document.getElementById('percentText').textContent=t('progress.percentComplete',{percent:pct});document.getElementById('progressFill').style.width=pct+'%';document.getElementById('runCount').textContent=state.run?.goals?.length||0;
  document.getElementById('noRun').classList.toggle('hidden',!!state.run);document.getElementById('runBox').classList.toggle('hidden',!state.run);
  if(state.run){
   renderCurrentRunDashboard();
@@ -603,13 +621,13 @@ function duplicateIdentityHTML(a){
 }
 function displayAchievementContext(a){
  if(a.scenario) return a.scenario;
- if((a.playerCivs||[]).length) return 'Играть за: '+a.playerCivs.join(', ');
- if((a.targetCivs||[]).length) return 'Цель: '+a.targetCivs.join(', ');
+ if((a.playerCivs||[]).length) return t('achievement.playAs',{civilizations:a.playerCivs.map(civLabel).join(', ')});
+ if((a.targetCivs||[]).length) return t('achievement.target',{civilizations:a.targetCivs.map(civLabel).join(', ')});
  return '';
 }
 
 function rarityTag(a){return a.rarity!=null?'<span class="tag rare">'+a.rarity+'% Steam</span>':''}
-function legitimacyTag(a){return a.cognomenLegitimacy!=null?'<span class="tag legit">Легит. '+a.cognomenLegitimacy+'</span>':''}
+function legitimacyTag(a){return a.cognomenLegitimacy!=null?'<span class="tag legit">'+esc(t('achievement.legitimacyShort',{value:a.cognomenLegitimacy}))+'</span>':''}
 
 function classifyRunGoal(a){
  const civ=state.run?.civ||'';
@@ -625,16 +643,16 @@ function renderRunGoalList(elId,items,maxVisible){
  el.innerHTML=visible.map(a=>{
    const done=state.done.includes(a.id);
    return `<label class="runGoal ${done?'done':''}"><input type="checkbox" ${done?'checked':''} onchange="toggleRunGoalDone('${a.id}',this.checked)"><span class="runGoalName">${esc(displayAchievementName(a))}</span></label>`;
- }).join('') + (!runGoalsExpanded&&items.length>maxVisible?`<div class="runGoalMore">… ещё ${items.length-maxVisible}</div>`:'');
+ }).join('') + (!runGoalsExpanded&&items.length>maxVisible?`<div class="runGoalMore">${esc(t('run.moreGoals',{count:items.length-maxVisible}))}</div>`:'');
 }
 function renderCurrentRunDashboard(){
  const runGoals=(state.run.goals||[]).map(id=>achievements.find(a=>a.id===id)).filter(Boolean);
- document.getElementById('runCiv').textContent=state.run.civ;
+ document.getElementById('runCiv').textContent=civLabel(state.run.civ);
  document.getElementById('runMeta').textContent=plannerRunMeta(state.run);
  const completed=runGoals.filter(a=>state.done.includes(a.id)).length;
  const total=runGoals.length;
  const pct=total?Math.round(completed/total*100):0;
- document.getElementById('runProgressText').textContent=`${completed} / ${total} целей выполнено`;
+ document.getElementById('runProgressText').textContent=t('run.completed',{completed,total});
  document.getElementById('runProgressPct').textContent=pct+'%';
  document.getElementById('runProgressFill').style.width=pct+'%';
 
@@ -649,8 +667,8 @@ function renderCurrentRunDashboard(){
  renderRunGoalList('runCompatGoals',compatible,4);
  renderRunGoalList('runOptionalGoals',optional,4);
 
- document.getElementById('runExpandBtn').textContent=runGoalsExpanded?'Свернуть цели':'Показать все цели';
- document.getElementById('runFooterMeta').textContent=total?`${total} целей в текущем плане`:'В плане пока нет целей';
+ document.getElementById('runExpandBtn').textContent=runGoalsExpanded?t('run.collapseGoals'):t('run.showAllGoals');
+ document.getElementById('runFooterMeta').textContent=total?t('run.goalsInPlan',{count:total}):t('run.noGoals');
 }
 function toggleRunGoalsExpanded(){
  runGoalsExpanded=!runGoalsExpanded;
@@ -665,12 +683,12 @@ function toggleRunGoalDone(id,on){
 }
 function deleteCurrentRun(){
  if(!state.run)return;
- if(!confirm('Удалить текущую партию? Прогресс достижений при этом сохранится.'))return;
+ if(!confirm(t('run.deleteConfirm')))return;
  state.run=null;
  runGoalsExpanded=false;
  persist();
  render();
- toast('Текущая партия удалена');
+ toast(t('run.deleted'));
 }
 
 
@@ -679,10 +697,10 @@ function toggleGoalInCurrentRun(id){
  const goals=new Set(state.run.goals||[]);
  if(goals.has(id)){
    goals.delete(id);
-   toast('Достижение удалено из текущей партии');
+   toast(t('run.achievementRemoved'));
  } else {
    goals.add(id);
-   toast('Достижение добавлено в текущую партию');
+   toast(t('run.achievementAdded'));
  }
  state.run.goals=[...goals];
  persist();
@@ -695,7 +713,7 @@ function updateRunAchievementButton(){
  if(!state.run||!currentAchId){ b.classList.add('hidden'); return; }
  b.classList.remove('hidden');
  const inRun=(state.run.goals||[]).includes(currentAchId);
- b.textContent=inRun?'Убрать из текущей партии':'Добавить в текущую партию';
+ b.textContent=inRun?t('run.removeAchievement'):t('run.addAchievement');
 }
 function toggleCurrentAchievementInRun(){
  if(!currentAchId||!state.run)return;
@@ -734,9 +752,9 @@ function renderFeatured(){
    const inRun=!!state.run&&(state.run.goals||[]).includes(a.id);
    return `<div class="ach" onclick="openAch('${a.id}')">
      <div class="achIcon">${done?'✓':'◆'}</div>
-     <div><strong>${esc(a.name)}</strong>${duplicateIdentityHTML(a)}<p>${esc(a.condition)}</p><div class="tags"><span class="tag">${esc(a.category)}</span>${a.scenario?'<span class="tag">'+esc(a.scenario)+'</span>':''}${legitimacyTag(a)}${rarityTag(a)}${done?'<span class="tag done">получено</span>':''}</div></div>
-     <div class="achAction">Открыть →</div>
-     ${state.run?`<div class="featuredAdd"><button class="btn ghost small ${inRun?'added':''}" onclick="event.stopPropagation();toggleGoalInCurrentRun('${a.id}')">${inRun?'✓ В плане':'+ Добавить в партию'}</button></div>`:''}
+     <div><strong>${esc(a.name)}</strong>${duplicateIdentityHTML(a)}<p>${esc(a.condition)}</p><div class="tags"><span class="tag">${esc(categoryLabel(a.category))}</span>${a.scenario?'<span class="tag">'+esc(a.scenario)+'</span>':''}${legitimacyTag(a)}${rarityTag(a)}${done?'<span class="tag done">'+esc(t('achievement.earned'))+'</span>':''}</div></div>
+     <div class="achAction">${esc(t('common.open'))}</div>
+     ${state.run?`<div class="featuredAdd"><button class="btn ghost small ${inRun?'added':''}" onclick="event.stopPropagation();toggleGoalInCurrentRun('${a.id}')">${inRun?esc(t('run.inPlan')):esc(t('run.addToPlan'))}</button></div>`:''}
    </div>`;
  }).join('');
 }
@@ -749,12 +767,13 @@ function catalogMatchesSearch(a,q){
 }
 function catalogFiltered(){
  const q=(document.getElementById('catalogSearch').value||'').trim();
- const cat=document.getElementById('categoryFilter').value,dlc=document.getElementById('dlcFilter').value,scenario=document.getElementById('scenarioFilter').value,special=specialTagByLabel(document.getElementById('specialFilter').value),civ=document.getElementById('civFilter').value,status=document.getElementById('statusFilter').value;
+ const cat=document.getElementById('categoryFilter').value,dlc=document.getElementById('dlcFilter').value,scenario=document.getElementById('scenarioFilter').value,special=document.getElementById('specialFilter').value,civ=document.getElementById('civFilter').value,status=document.getElementById('statusFilter').value;
  return achievements.filter(a=>{const done=state.done.includes(a.id);return catalogMatchesSearch(a,q)&&(!cat||a.category===cat)&&(!dlc||a.dlcName===dlc)&&(!scenario||(scenario==='__none__'?!a.isScenario:(a.scenarioName===scenario||a.scenario===scenario)))&&(!special||(a.settingTags||[]).includes(special))&&(!civ||(a.playerCivs||[]).includes(civ)||(a.affinityCivs||[]).includes(civ)||(a.targetCivs||[]).includes(civ))&&(!status||(status==='done'?done:!done))})
 }
 function renderCatalog(){
- const arr=catalogFiltered(), visible=arr.slice(0,PAGE_SIZE*catalogPage);document.getElementById('catalogCount').textContent=arr.length;
- document.getElementById('catalogGrid').innerHTML=visible.map(a=>{const done=state.done.includes(a.id);return `<div class="catCard" onclick="openAch('${a.id}')"><strong>${done?'✓':'◇'} &nbsp;${esc(a.name)}</strong>${duplicateIdentityHTML(a)}<p>${esc(a.condition)}</p><div class="tags"><span class="tag">${esc(a.category)}</span>${a.dlc!=='Основная игра / другое'?'<span class="tag">'+esc(a.dlc)+'</span>':''}${rarityTag(a)}${done?'<span class="tag done">получено</span>':''}</div></div>`}).join('');
+ const arr=catalogFiltered(), visible=arr.slice(0,PAGE_SIZE*catalogPage);
+ document.getElementById('catalogSummary').textContent=arr.length===DB_TOTAL?t('catalog.countAll',{total:DB_TOTAL}):t('catalog.countFiltered',{shown:arr.length,total:DB_TOTAL});
+ document.getElementById('catalogGrid').innerHTML=visible.map(a=>{const done=state.done.includes(a.id);return `<div class="catCard" onclick="openAch('${a.id}')"><strong>${done?'✓':'◇'} &nbsp;${esc(a.name)}</strong>${duplicateIdentityHTML(a)}<p>${esc(a.condition)}</p><div class="tags"><span class="tag">${esc(categoryLabel(a.category))}</span>${a.dlc!=='Основная игра / другое'?'<span class="tag">'+esc(dlcLabel(a.dlc))+'</span>':''}${rarityTag(a)}${done?'<span class="tag done">'+esc(t('achievement.earned'))+'</span>':''}</div></div>`}).join('');
  document.getElementById('moreBtn').classList.toggle('hidden',visible.length>=arr.length)
 }
 function resetCatalogPage(){catalogPage=1;renderCatalog()} function showMore(){catalogPage++;renderCatalog()}
@@ -774,7 +793,7 @@ function openReferenceGuide(topic='site'){
 }
 
 function progressFiltered(){
- const q=(document.getElementById('pSearch').value||'').toLowerCase().trim(),cat=document.getElementById('pCategory').value,dlc=document.getElementById('pDlc').value,scenario=document.getElementById('pScenario').value,special=specialTagByLabel(document.getElementById('pSpecial').value),civ=document.getElementById('pCiv').value,status=document.getElementById('pStatus').value;
+ const q=(document.getElementById('pSearch').value||'').toLowerCase().trim(),cat=document.getElementById('pCategory').value,dlc=document.getElementById('pDlc').value,scenario=document.getElementById('pScenario').value,special=document.getElementById('pSpecial').value,civ=document.getElementById('pCiv').value,status=document.getElementById('pStatus').value;
  return achievements.filter(a=>{const done=draftDone.has(a.id);return(!q||(a.name+' '+(a.englishName||'')+' '+a.condition+' '+(a.englishCondition||'')+' '+a.category+' '+a.civs+' '+(a.affinityCivs||[]).join(' ')+' '+a.dlcName+' '+a.scenarioName).toLowerCase().includes(q))&&(!cat||a.category===cat)&&(!dlc||a.dlcName===dlc)&&(!scenario||(scenario==='__none__'?!a.isScenario:(a.scenarioName===scenario||a.scenario===scenario)))&&(!special||(a.settingTags||[]).includes(special))&&(!civ||(a.playerCivs||[]).includes(civ)||(a.affinityCivs||[]).includes(civ)||(a.targetCivs||[]).includes(civ))&&(!status||(status==='done'?done:!done))})
 }
 function sortProgressRows(arr){
@@ -792,22 +811,22 @@ function sortProgressRows(arr){
  });
 }
 function renderProgressList(){
- const arr=sortProgressRows(progressFiltered());document.getElementById('pSummary').textContent=`Показано ${arr.length} · отмечено ${draftDone.size} из ${DB_TOTAL}`;
+ const arr=sortProgressRows(progressFiltered());document.getElementById('pSummary').textContent=t('progress.summary',{shown:arr.length,marked:draftDone.size,total:DB_TOTAL});
  const el=document.getElementById('progressList');
- if(!arr.length){el.innerHTML='<div class="progressEmpty">По выбранным фильтрам ничего не найдено.</div>';return}
- el.innerHTML=arr.map(a=>`<label class="pRow ${draftDone.has(a.id)?'done':''}"><input type="checkbox" ${draftDone.has(a.id)?'checked':''} onchange="draftToggle('${a.id}',this.checked)"><div class="pName">${esc(a.name)}${a.englishName?'<div class="dupIdentity"><span class="dupEn">'+esc(a.englishName)+'</span>'+(a.cognomenLegitimacy!=null?'<span class="dupPct">Легит. '+a.cognomenLegitimacy+'</span>':'')+'</div>':''}</div><div class="pCond">${esc(a.condition)}</div><div class="pMeta">${esc(a.category)}${a.civs?' · '+esc(a.civs):''}</div><div class="pRare">${a.rarity!=null?a.rarity+'%':'—'}</div></label>`).join('')
+ if(!arr.length){el.innerHTML='<div class="progressEmpty">'+esc(t('filters.noResults'))+'</div>';return}
+ el.innerHTML=arr.map(a=>`<label class="pRow ${draftDone.has(a.id)?'done':''}"><input type="checkbox" ${draftDone.has(a.id)?'checked':''} onchange="draftToggle('${a.id}',this.checked)"><div class="pName">${esc(a.name)}${a.englishName?'<div class="dupIdentity"><span class="dupEn">'+esc(a.englishName)+'</span>'+(a.cognomenLegitimacy!=null?'<span class="dupPct">'+esc(t('achievement.legitimacyShort',{value:a.cognomenLegitimacy}))+'</span>':'')+'</div>':''}</div><div class="pCond">${esc(a.condition)}</div><div class="pMeta">${esc(categoryLabel(a.category))}${a.civs?' · '+esc(a.civs):''}</div><div class="pRare">${a.rarity!=null?a.rarity+'%':'—'}</div></label>`).join('')
 }
 function draftToggle(id,on){if(on)draftDone.add(id);else draftDone.delete(id);renderProgressList()}
 function markVisible(on){progressFiltered().forEach(a=>on?draftDone.add(a.id):draftDone.delete(a.id));renderProgressList()}
 function resetProgressFilters(){['pSearch','pCategory','pDlc','pScenario','pSpecial','pCiv','pStatus'].forEach(id=>document.getElementById(id).value='');document.getElementById('pSort').value='name';renderProgressList()}
 function openProgress(){draftDone=new Set(state.done);renderProgressList();openModal('progressModal')}
 function progressHasUnsavedChanges(){const saved=new Set(state.done);return saved.size!==draftDone.size||[...saved].some(id=>!draftDone.has(id))}
-function closeProgress(){if(progressHasUnsavedChanges()&&!confirm('Есть несохранённые изменения прогресса. Закрыть окно и отменить их?'))return;closeModal('progressModal')}
-function commitProgress(){state.done=[...draftDone];persist();render();closeModal('progressModal');toast('Прогресс сохранён')}
-function clearAllProgress(){if(!confirm('Очистить все отмеченные достижения?'))return;draftDone.clear();renderProgressList()}
-function exportProgress(){const blob=new Blob([JSON.stringify({app:'old-world-achievement-guide',version:4,dbCount:DB_TOTAL,exportedAt:new Date().toISOString(),state},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='old-world-progress.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast('Файл прогресса сохранён')}
+function closeProgress(){if(progressHasUnsavedChanges()&&!confirm(t('progress.unsavedConfirm')))return;closeModal('progressModal')}
+function commitProgress(){state.done=[...draftDone];persist();render();closeModal('progressModal');toast(t('progress.saved'))}
+function clearAllProgress(){if(!confirm(t('progress.clearConfirm')))return;draftDone.clear();renderProgressList()}
+function exportProgress(){const blob=new Blob([JSON.stringify({app:'old-world-achievement-guide',version:4,dbCount:DB_TOTAL,exportedAt:new Date().toISOString(),state},null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='old-world-progress.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast(t('progress.fileSaved'))}
 let pendingImportInput=null;
-function setImportBusy(on,fileName='',title='Загружаем прогресс…',hint='Проверяем файл и обновляем карточки достижений.'){
+function setImportBusy(on,fileName='',title=t('import.loading'),hint=t('import.checking')){
  document.getElementById('importBusy').classList.toggle('hidden',!on);
  document.getElementById('importBusyFile').textContent=on?fileName:'';
  document.getElementById('importBusyTitle').textContent=title;
@@ -817,7 +836,7 @@ function setImportBusy(on,fileName='',title='Загружаем прогресс
 function selectProgressFile(inputId){
  const input=document.getElementById(inputId);if(!input)return;
  pendingImportInput=input;input.value='';
- setImportBusy(true,'','Выберите файл прогресса','После выбора начнётся проверка и обновление достижений.');
+ setImportBusy(true,'',t('import.chooseFile'),t('import.afterSelection'));
  input.click();
 }
 function cancelProgressImportSelection(){pendingImportInput=null;setImportBusy(false)}
@@ -845,34 +864,34 @@ function importProgress(ev){
      importedRun.goals=[...new Set(incoming.run.goals.map(id=>duplicateIdAliases[id]||id).filter(id=>achievements.some(a=>a.id===id)))];
    }
    state={done:importedDone,run:importedRun};
-   persist();draftDone=new Set(state.done);render();renderProgressList();finish('Прогресс импортирован');
- }catch(e){finish('Не удалось прочитать файл прогресса')}},0));
- r.onerror=()=>finish('Не удалось прочитать файл прогресса');
- try{r.readAsText(f)}catch(e){finish('Не удалось прочитать файл прогресса')}
+   persist();draftDone=new Set(state.done);render();renderProgressList();finish(t('import.success'));
+ }catch(e){finish(t('import.error'))}},0));
+ r.onerror=()=>finish(t('import.error'));
+ try{r.readAsText(f)}catch(e){finish(t('import.error'))}
  input.value='';
 }
 
-function openAch(id){const a=achievements.find(x=>x.id===id);if(!a)return;currentAchId=id;document.getElementById('mCat').textContent=a.category;document.getElementById('mName').textContent=a.name;document.getElementById('mCond').textContent=a.condition||'—';const guide=document.getElementById('mGuide');guide.textContent=a.guide||'Подробный способ получения ещё не добавлен.';if(a.guideLink){const link=document.createElement('a');link.href=a.guideLink;link.textContent=a.guideLinkLabel||a.guideLink;link.target='_blank';link.rel='noreferrer';link.className='sourceLink';guide.append(document.createTextNode(' '),link)}document.getElementById('mTactic').textContent=a.tactic||'Практическая тактика ещё не добавлена.';document.getElementById('mEditor').textContent=a.editor||'Нет данных.';
+function openAch(id){const a=achievements.find(x=>x.id===id);if(!a)return;currentAchId=id;document.getElementById('mCat').textContent=categoryLabel(a.category);document.getElementById('mName').textContent=a.name;document.getElementById('mCond').textContent=a.condition||'—';const guide=document.getElementById('mGuide');guide.textContent=a.guide||t('achievement.noGuide');if(a.guideLink){const link=document.createElement('a');link.href=a.guideLink;link.textContent=a.guideLinkLabel||a.guideLink;link.target='_blank';link.rel='noreferrer';link.className='sourceLink';guide.append(document.createTextNode(' '),link)}document.getElementById('mTactic').textContent=a.tactic||t('achievement.noTactic');document.getElementById('mEditor').textContent=a.editor||t('achievement.noData');
 const ebox=document.getElementById('mEnglishBox'),etxt=document.getElementById('mEnglish');if(a.englishName){ebox.classList.remove('hidden');etxt.textContent=a.englishName+(a.englishCondition?' — '+a.englishCondition:'')}else{ebox.classList.add('hidden');etxt.textContent=''}
 const mnbox=document.getElementById('mMechanicNoteBox'),mntxt=document.getElementById('mMechanicNote');if(mnbox&&a.mechanicNote){mnbox.classList.remove('hidden');mntxt.textContent=a.mechanicNote}else if(mnbox){mnbox.classList.add('hidden');mntxt.textContent=''}
 const lbox=document.getElementById('mLegitimacyBox'),lval=document.getElementById('mLegitimacyValue'),lwarn=document.getElementById('mLegitimacyWarn'),lrule=document.getElementById('mLegitimacyRule');
 if(lbox&&a.cognomenLegitimacy!=null){
  lbox.classList.remove('hidden');
- lval.textContent='+'+a.cognomenLegitimacy+' легитимности';
- lwarn.textContent='Чтобы получить это прозвище, текущее прозвище лидера должно давать меньше '+a.cognomenLegitimacy+' легитимности.';
- lrule.textContent='Важно: проверяется любое текущее прозвище, независимо от ветки. Равная легитимность тоже не подходит — новое прозвище должно давать строго больше.';
+ lval.textContent=t('achievement.legitimacyValue',{value:a.cognomenLegitimacy});
+ lwarn.textContent=t('achievement.legitimacyWarning',{value:a.cognomenLegitimacy});
+ lrule.textContent=t('achievement.legitimacyRule');
 }else if(lbox){lbox.classList.add('hidden');lval.textContent='';lwarn.textContent='';lrule.textContent=''}
 
 const dnote=document.getElementById('mDupNote');if(a.duplicateNote){dnote.classList.remove('hidden');dnote.textContent=a.duplicateNote}else{dnote.classList.add('hidden');dnote.textContent=''}
-const src=document.getElementById('mSource');src.textContent=a.source||'Источник пока не указан';src.href=a.source&&a.source.startsWith('http')?a.source:'#';document.getElementById('mTags').innerHTML=`<span class="tag">${esc(a.dlcName)}</span>${a.scenarioName?'<span class="tag">'+esc(a.scenarioName)+'</span>':''}${a.englishName?'<span class="tag">'+esc(a.englishName)+'</span>':''}${(a.playerCivs||[]).length?'<span class="tag">Играть за: '+esc(a.playerCivs.join(', '))+'</span>':''}${(a.affinityCivs||[]).length?'<span class="tag">Естественно для: '+esc(a.affinityCivs.join(', '))+'</span>':''}${(a.targetCivs||[]).length?'<span class="tag">Цель: '+esc(a.targetCivs.join(', '))+'</span>':''}${(a.settingTags||[]).map(t=>'<span class="tag">'+esc((specialOptions.find(x=>x.value===t)||{}).label||t)+'</span>').join('')}${a.requiredCity?'<span class="tag">Город: '+esc(a.requiredCity)+'</span>':''}${legitimacyTag(a)}${rarityTag(a)}`;updateToggleButton();updateRunAchievementButton();openModal('achievementModal')}
-function updateToggleButton(){const done=state.done.includes(currentAchId),b=document.getElementById('toggleAchBtn');b.textContent=done?'Снять отметку «получено»':'Отметить как получено';b.className=done?'btn ghost small':'btn small'}
-function toggleCurrentAchievement(){if(!currentAchId)return;const s=new Set(state.done);s.has(currentAchId)?s.delete(currentAchId):s.add(currentAchId);state.done=[...s];persist();render();updateToggleButton();toast(s.has(currentAchId)?'Отмечено как получено':'Отметка снята')}
+const src=document.getElementById('mSource');src.textContent=a.source||t('achievement.noSource');src.href=a.source&&a.source.startsWith('http')?a.source:'#';document.getElementById('mTags').innerHTML=`<span class="tag">${esc(dlcLabel(a.dlcName))}</span>${a.scenarioName?'<span class="tag">'+esc(a.scenarioName)+'</span>':''}${a.englishName?'<span class="tag">'+esc(a.englishName)+'</span>':''}${(a.playerCivs||[]).length?'<span class="tag">'+esc(t('achievement.playAs',{civilizations:a.playerCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.affinityCivs||[]).length?'<span class="tag">'+esc(t('achievement.naturalFor',{civilizations:a.affinityCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.targetCivs||[]).length?'<span class="tag">'+esc(t('achievement.target',{civilizations:a.targetCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.settingTags||[]).map(tag=>'<span class="tag">'+esc(specialLabel(tag))+'</span>').join('')}${a.requiredCity?'<span class="tag">'+esc(t('achievement.city',{city:a.requiredCity}))+'</span>':''}${legitimacyTag(a)}${rarityTag(a)}`;updateToggleButton();updateRunAchievementButton();openModal('achievementModal')}
+function updateToggleButton(){const done=state.done.includes(currentAchId),b=document.getElementById('toggleAchBtn');b.textContent=done?t('achievement.unmarkEarned'):t('achievement.markEarned');b.className=done?'btn ghost small':'btn small'}
+function toggleCurrentAchievement(){if(!currentAchId)return;const s=new Set(state.done);s.has(currentAchId)?s.delete(currentAchId):s.add(currentAchId);state.done=[...s];persist();render();updateToggleButton();toast(s.has(currentAchId)?t('achievement.markedEarned'):t('achievement.unmarked'))}
 
 
 const plannerPlanSizes={
- compact:{label:'Компактный',total:8,quotas:{core:4,affinity:2,compatible:1,optional:1}},
- standard:{label:'Обычный',total:18,quotas:{core:7,affinity:4,compatible:5,optional:2}},
- expanded:{label:'Расширенный',total:30,quotas:{core:11,affinity:6,compatible:9,optional:4}}
+ compact:{labelKey:'planner.planSize.compact',total:8,quotas:{core:4,affinity:2,compatible:1,optional:1}},
+ standard:{labelKey:'planner.planSize.standard',total:18,quotas:{core:7,affinity:4,compatible:5,optional:2}},
+ expanded:{labelKey:'planner.planSize.expanded',total:30,quotas:{core:11,affinity:6,compatible:9,optional:4}}
 };
 let plannerState={step:1,recommendations:[],selectedCiv:null,goals:[],editing:false,planSize:'standard'};
 
@@ -903,14 +922,14 @@ function showPlannerStep(n){
  if(plannerModal)plannerModal.scrollTop=0;
  updatePlannerStepAvailability();
  const saveBtn=document.getElementById('plannerSaveBtn');
- if(saveBtn)saveBtn.textContent=plannerState.editing?'Сохранить изменения':'Создать текущую партию';
+ if(saveBtn)saveBtn.textContent=plannerState.editing?t('common.saveChanges'):t('planner.createRun');
 }
 function navigatePlannerStep(n){
  if(n===2&&plannerState.recommendations.length===0){
    if(plannerState.editing&&plannerState.selectedCiv){calculateRecommendations();return}
-   toast('Сначала подбери цивилизации на первом шаге');return;
+   toast(t('planner.chooseCivilizationsFirst'));return;
  }
- if(n===3&&!plannerState.selectedCiv){toast('Сначала выбери цивилизацию');return}
+ if(n===3&&!plannerState.selectedCiv){toast(t('planner.chooseCivilizationFirst'));return}
  showPlannerStep(n);
 }
 function returnToPlannerCivilizations(){
@@ -945,7 +964,7 @@ function prepareExistingRunForEdit(){
    .filter(x=>x.score>0||current.has(x.a.id))
    .map(x=>{
       if(current.has(x.a.id)&&x.score<=0){
-        x.score=1;x.reason='Уже добавлено в текущий план';x.tier='optional';
+        x.score=1;x.reason=t('planner.reasons.alreadyInPlan');x.tier='optional';
       }
       x.selected=current.has(x.a.id);
       return x;
@@ -959,8 +978,8 @@ function prepareExistingRunForEdit(){
  plannerState.goals=scored;
  resetPlannerGoalFilters();
  populatePlannerGoalCategory();
- document.getElementById('goalsTitle').textContent=civ+' — изменить цели партии';
- document.getElementById('goalsSubtitle').textContent=`Доступны все ${scored.length} подходящих достижений. Существующие цели отмечены; можно добавить любые совместимые.`;
+ document.getElementById('goalsTitle').textContent=t('planner.editGoalsTitle',{civilization:civLabel(civ)});
+ document.getElementById('goalsSubtitle').textContent=t('planner.editGoalsSubtitle',{count:scored.length});
  renderGoalGroups();
  showPlannerStep(3);
 }
@@ -983,9 +1002,9 @@ const plannerModeSpecials={
  'Hotseat':['hotseat','ffa','teams','duel']
 };
 const plannerModeNotes={
- 'Singleplayer':'Доступны одиночные и общие цели; сетевые достижения исключены.',
- 'Multiplayer / FFA':'Доступны мультиплеер, «Каждый за себя», команды, дуэль, LAN и игра через облако.',
- 'Hotseat':'Доступны Hotseat, «Каждый за себя», командная игра и дуэль; LAN и облако исключены.'
+ 'Singleplayer':'planner.modeNotes.singleplayer',
+ 'Multiplayer / FFA':'planner.modeNotes.multiplayer',
+ 'Hotseat':'planner.modeNotes.hotseat'
 };
 function specialCompatibleWithMode(special,mode){
  if(!special||!modeSpecificSpecials.includes(special))return true;
@@ -1001,7 +1020,7 @@ function updatePlannerSpecialOptions(preferred){
    option.disabled=!compatible;option.hidden=!compatible;
  });
  select.value=plannerSpecialAvailable(requested,mode)?requested:'';
- const note=document.getElementById('planModeNote');if(note)note.textContent=plannerModeNotes[mode]||'Режим влияет на доступность достижений.';
+ const note=document.getElementById('planModeNote');if(note)note.textContent=t(plannerModeNotes[mode]||'planner.modeNotes.default');
 }
 function handlePlannerModeChange(){updatePlannerSpecialOptions()}
 function plannerScenarioEntries(dlc){
@@ -1016,9 +1035,9 @@ function updatePlannerScenarioOptions(preferred){
  const select=document.getElementById('planScenario');if(!select)return;
  const dlc=document.getElementById('planDlc')?.value||'all';
  const requested=plannerScenarioValue(preferred===undefined?select.value:preferred),entries=plannerScenarioEntries(dlc);
- select.innerHTML='<option value="none">Обычная партия (без сценария)</option>'+entries.map(item=>'<option value="'+esc(item.name)+'">'+esc(item.name)+' — осталось '+item.remaining+'</option>').join('');
+ select.innerHTML='<option value="none">'+esc(t('planner.scenario.standard'))+'</option>'+entries.map(item=>'<option value="'+esc(item.name)+'">'+esc(t('planner.scenario.option',{scenario:item.name,remaining:item.remaining}))+'</option>').join('');
  select.value=entries.some(item=>item.name===requested)?requested:'none';
- const note=document.getElementById('planScenarioNote');if(note)note.textContent=entries.length?'Сценарии отсортированы по числу оставшихся достижений.':'У выбранного источника нет сценарных достижений.';
+ const note=document.getElementById('planScenarioNote');if(note)note.textContent=entries.length?t('planner.scenario.sorted'):t('planner.scenario.noneAvailable');
 }
 function handlePlannerDlcChange(){updatePlannerScenarioOptions()}
 function handlePlannerScenarioChange(){
@@ -1046,12 +1065,12 @@ function achievementDifficulty(a){
 }
 function difficultyScore(a,selected){
  if(a.category!=='Сложность')return null;
- if(selected==='any')return {score:-99,reason:'План не привязан к уровню сложности',tier:'exclude'};
+ if(selected==='any')return {score:-99,reason:t('planner.reasons.noDifficulty'),tier:'exclude'};
  const required=achievementDifficulty(a),selectedRank=plannerDifficulties.indexOf(selected),requiredRank=plannerDifficulties.indexOf(required);
- if(requiredRank<0||selectedRank<0)return {score:-99,reason:'Неизвестный уровень сложности',tier:'exclude'};
- if(requiredRank>selectedRank)return {score:-99,reason:'Требует более высокой сложности',tier:'exclude'};
- if(required===selected)return {score:4,reason:'Цель выбранного уровня сложности «'+selected+'»',tier:'core'};
- return {score:3,reason:'Засчитается вместе с победой на сложности «'+selected+'»',tier:'core'};
+ if(requiredRank<0||selectedRank<0)return {score:-99,reason:t('planner.reasons.unknownDifficulty'),tier:'exclude'};
+ if(requiredRank>selectedRank)return {score:-99,reason:t('planner.reasons.higherDifficulty'),tier:'exclude'};
+ if(required===selected)return {score:4,reason:t('planner.reasons.selectedDifficulty',{difficulty:difficultyLabel(selected)}),tier:'core'};
+ return {score:3,reason:t('planner.reasons.lowerDifficulty',{difficulty:difficultyLabel(selected)}),tier:'core'};
 }
 function modeCompatible(a,mode,special=''){
  const tags=Array.isArray(a.settingTags)?a.settingTags:[];
@@ -1062,15 +1081,15 @@ function modeCompatible(a,mode,special=''){
 }
 function achievementScoreForCiv(a,civ,style,mode){
  const special=document.getElementById('planSpecial')?.value||'';
- if(!modeCompatible(a,mode,special)) return {score:-99,reason:'Не подходит выбранному режиму',tier:'exclude'};
- if(special==='no_characters'&&a.category==='Черта / персонаж') return {score:-99,reason:'Недоступно в партии без персонажей',tier:'exclude'};
+ if(!modeCompatible(a,mode,special)) return {score:-99,reason:t('planner.reasons.modeMismatch'),tier:'exclude'};
+ if(special==='no_characters'&&a.category==='Черта / персонаж') return {score:-99,reason:t('planner.reasons.noCharacters'),tier:'exclude'};
  const selectedDifficulty=document.getElementById('planDifficulty')?.value||plannerRunDefaults.difficulty;
  const difficultyResult=difficultyScore(a,selectedDifficulty);if(difficultyResult)return difficultyResult;
  const scenarioMode=document.getElementById('planScenario')?.value||'none';
- if(a.isScenario&&scenarioMode==='none') return {score:0,reason:'Сценарное достижение — не относится к обычной партии',tier:'exclude'};
+ if(a.isScenario&&scenarioMode==='none') return {score:0,reason:t('planner.reasons.scenarioOnly'),tier:'exclude'};
  if(a.isScenario&&(a.scenarioName===scenarioMode||a.scenario===scenarioMode)){
    const direct=(a.playerCivs||[]).includes(civ);
-   return {score:direct?4:3,reason:direct?'Цель выбранного сценария за эту цивилизацию':'Цель выбранного сценария «'+scenarioMode+'»',tier:'core'};
+   return {score:direct?4:3,reason:direct?t('planner.reasons.scenarioCivilization'):t('planner.reasons.selectedScenario',{scenario:scenarioMode}),tier:'core'};
  }
 
  const playerCivs=Array.isArray(a.playerCivs)?a.playerCivs:[];
@@ -1079,23 +1098,23 @@ function achievementScoreForCiv(a,civ,style,mode){
  const affinity=affinityCivs.includes(civ);
  let score=0,reason='',tier='optional';
 
- if(direct && a.category==='Победа за цивилизацию'){score=4;reason='Победа непосредственно за эту цивилизацию';tier='core'}
- else if(direct && a.nationalUnique && a.category==='Юнит'){score=4;reason='Уникальный национальный юнит этой цивилизации';tier='core'}
- else if(direct && ['Религия / теология','Юнит','Сооружение','Чудо','Военное / историческое'].includes(a.category)){score=3;reason='Специальная или историческая цель за эту цивилизацию';tier='core'}
- else if(direct){score=3;reason='Достижение требует играть за эту цивилизацию';tier='core'}
- else if(affinity){score=2;reason='Естественно сочетается с этой цивилизацией, но формально не требует её';tier='affinity'}
- else if(!playerCivs.length && ['Семья','Победа / условие партии','Развитие / управление','Черта / персонаж','Законы','Технология'].includes(a.category)){score=1;reason='Общая цель, которую можно совместить с обычной партией';tier='compatible'}
- else if(!playerCivs.length && a.category==='Мультиплеер / режим' && mode!=='Singleplayer'){score=1;reason='Совместимо с выбранным сетевым режимом';tier='compatible'}
- else if(special&&(a.settingTags||[]).includes(special)){score=2;reason='Соответствует выбранному особому условию';tier='core'}
+ if(direct && a.category==='Победа за цивилизацию'){score=4;reason=t('planner.reasons.civilizationVictory');tier='core'}
+ else if(direct && a.nationalUnique && a.category==='Юнит'){score=4;reason=t('planner.reasons.uniqueUnit');tier='core'}
+ else if(direct && ['Религия / теология','Юнит','Сооружение','Чудо','Военное / историческое'].includes(a.category)){score=3;reason=t('planner.reasons.historicalGoal');tier='core'}
+ else if(direct){score=3;reason=t('planner.reasons.requiresCivilization');tier='core'}
+ else if(affinity){score=2;reason=t('planner.reasons.affinity');tier='affinity'}
+ else if(!playerCivs.length && ['Семья','Победа / условие партии','Развитие / управление','Черта / персонаж','Законы','Технология'].includes(a.category)){score=1;reason=t('planner.reasons.generalGoal');tier='compatible'}
+ else if(!playerCivs.length && a.category==='Мультиплеер / режим' && mode!=='Singleplayer'){score=1;reason=t('planner.reasons.multiplayerCompatible');tier='compatible'}
+ else if(special&&(a.settingTags||[]).includes(special)){score=2;reason=t('planner.reasons.specialMatch');tier='core'}
  else return {score:0,reason:'',tier:'exclude'};
 
  score+=styleBonus(a,style);
  if(special&&(a.settingTags||[]).includes(special)){
    score+=3;
-   reason=(reason?reason+'; ':'')+'соответствует выбранному особому условию';
+   reason=(reason?reason+'; ':'')+t('planner.reasons.specialMatchLower');
    if(tier==='compatible')tier='core';
  }
- if(isRandomish(a)){score-=1;if(score>0){reason+='; зависит от случайности/условий';if(tier==='core')tier='optional';else if(tier!=='affinity')tier='risky'}}
+ if(isRandomish(a)){score-=1;if(score>0){reason+='; '+t('planner.reasons.randomness');if(tier==='core')tier='optional';else if(tier!=='affinity')tier='risky'}}
  if(a.plannerTier)tier=a.plannerTier;
  return {score,reason,tier};
 }
@@ -1116,27 +1135,26 @@ function recommendationWeight(goal,kind){
  if(kind==='affinity')return Math.max(1,2-(isRandomish(goal.a)?1:0));
  return 0;
 }
-function recommendationGoalCount(count,one,few,many){
- const last=count%10,lastTwo=count%100;
- const word=last===1&&lastTwo!==11?one:last>=2&&last<=4&&(lastTwo<12||lastTwo>14)?few:many;
- return count+' '+word;
+function recommendationGoalCount(count,type){
+ return t('planner.recommendation.'+type+(count===1?'One':'Other'),{count});
 }
 function recommendationExplanation(result,scenario){
- const national=recommendationGoalCount(result.national,'национальная цель','национальные цели','национальных целей');
- const affinity=recommendationGoalCount(result.affinity,'естественно связанная цель','естественно связанные цели','естественно связанных целей');
+ const national=recommendationGoalCount(result.national,'national');
+ const affinity=recommendationGoalCount(result.affinity,'affinity');
+ const civilization=civLabel(result.civ);
  if(scenario!=='none'){
-   if(result.national)return result.civ+': '+national+' выбранного сценария напрямую '+(result.national===1?'связана':'связаны')+' с этой цивилизацией.';
-   return result.civ+' подходит для выбранного сценария; его общие цели будут доступны на следующем шаге.';
+   if(result.national)return t('planner.recommendation.scenarioNational',{civilization,national});
+   return t('planner.recommendation.scenarioGeneral',{civilization});
  }
  if(result.national&&result.affinity){
    const linked=result.national+result.affinity;
-   if(linked>=5)return national+' и ещё '+affinity+' делают эту цивилизацию сильным выбором.';
-   if(linked>=3)return national+' и ещё '+affinity+' делают эту цивилизацию хорошим выбором.';
-   return national+' и ещё '+affinity+' дают этой цивилизации небольшое преимущество перед вариантами только с общими целями.';
+   if(linked>=5)return t('planner.recommendation.strong',{national,affinity});
+   if(linked>=3)return t('planner.recommendation.good',{national,affinity});
+   return t('planner.recommendation.smallAdvantage',{national,affinity});
  }
- if(result.national)return national+' '+(result.national===1?'требует':'требуют')+' или особенно '+(result.national===1?'поддерживает':'поддерживают')+' игру за эту цивилизацию.';
- if(result.affinity)return affinity+' '+(result.affinity===1?'сочетается':'сочетаются')+' с этой цивилизацией, хотя формально '+(result.affinity===1?'не требует':'не требуют')+' её.';
- return 'Отдельных национальных преимуществ не найдено; доступны только общие и условные цели.';
+ if(result.national)return t('planner.recommendation.nationalOnly',{national});
+ if(result.affinity)return t('planner.recommendation.affinityOnly',{affinity});
+ return t('planner.recommendation.noAdvantages');
 }
 function calculateRecommendations(){
  const remaining=plannerRemaining(),style=document.getElementById('planStyle').value,mode=document.getElementById('planMode').value;
@@ -1164,7 +1182,7 @@ function calculateRecommendations(){
 function renderRecommendations(){
  const box=document.getElementById('civRecommendations');
  const top=plannerState.recommendations;
- box.innerHTML=top.length?top.map((r,i)=>`<div class="civRec" onclick="selectPlannerCiv('${esc(r.civ)}')"><div class="civRecTop"><div><div class="kicker">${i===0?'Лучшая рекомендация':'Вариант '+(i+1)}</div><h4>${esc(r.civ)}</h4></div><div class="scoreBadge">${r.total}</div></div><p>${r.national} национальных · ${r.affinity} естественных · ${r.common} общих${r.conditional?' · '+r.conditional+' условных':''}</p><div class="civRecAccess">${esc(r.explanation)}</div><div class="civBreakdown"><span>национальные ${r.national}</span><span>естественные ${r.affinity}</span><span>общие ${r.common} · бонус +${r.commonBonus}</span>${r.conditional?'<span>условные '+r.conditional+'</span>':''}</div></div>`).join(''):'<div class="progressEmpty">Для выбранных настроек подходящих рекомендаций не найдено.</div>';
+ box.innerHTML=top.length?top.map((r,i)=>`<div class="civRec" onclick="selectPlannerCiv('${esc(r.civ)}')"><div class="civRecTop"><div><div class="kicker">${esc(i===0?t('planner.recommendation.best'):t('planner.recommendation.option',{number:i+1}))}</div><h4>${esc(civLabel(r.civ))}</h4></div><div class="scoreBadge">${r.total}</div></div><p>${esc(t('planner.recommendation.counts',{national:r.national,affinity:r.affinity,common:r.common,conditional:r.conditional?t('planner.recommendation.conditionalCount',{count:r.conditional}):''}))}</p><div class="civRecAccess">${esc(r.explanation)}</div><div class="civBreakdown"><span>${esc(t('planner.recommendation.nationalBadge',{count:r.national}))}</span><span>${esc(t('planner.recommendation.affinityBadge',{count:r.affinity}))}</span><span>${esc(t('planner.recommendation.commonBadge',{count:r.common,bonus:r.commonBonus}))}</span>${r.conditional?'<span>'+esc(t('planner.recommendation.conditionalBadge',{count:r.conditional}))+'</span>':''}</div></div>`).join(''):'<div class="progressEmpty">'+esc(t('planner.recommendation.none'))+'</div>';
 }
 function goalIsPractical(g){
  const a=g.a;
@@ -1179,7 +1197,7 @@ function populatePlannerGoalCategory(){
  if(!sel)return;
  const previous=sel.value;
  const cats=[...new Set(plannerState.goals.map(g=>g.a.category).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'ru'));
- sel.innerHTML='<option value="">Все категории</option>'+cats.map(x=>'<option>'+esc(x)+'</option>').join('');
+ sel.innerHTML='<option value="">'+esc(t('filters.allCategories'))+'</option>'+cats.map(x=>'<option value="'+esc(x)+'">'+esc(categoryLabel(x))+'</option>').join('');
  if(cats.includes(previous))sel.value=previous;
 }
 function resetPlannerGoalFilters(){
@@ -1221,7 +1239,7 @@ function renderPlanSizePicker(){
  for(const size of Object.keys(plannerPlanSizes))document.getElementById('planSize'+size[0].toUpperCase()+size.slice(1))?.classList.toggle('active',plannerState.planSize===size);
  const note=document.getElementById('planSizeNote');if(!note)return;
  const profile=plannerPlanSizes[plannerState.planSize];
- note.textContent=profile?profile.label+' план: до '+profile.total+' сбалансированных целей.':'Набор изменён вручную; можно снова применить любой готовый размер.';
+ note.textContent=profile?t('planner.planSize.note',{size:t(profile.labelKey),count:profile.total}):t('planner.planSize.customNote');
 }
 function applyPlannerGoalPreset(size){
  const profile=plannerPlanSizes[size];if(!profile||!plannerState.goals.length)return;
@@ -1245,34 +1263,35 @@ function selectPlannerCiv(civ){
  plannerState.goals.forEach(goal=>goal.selected=ids.has(goal.a.id));
  resetPlannerGoalFilters();
  populatePlannerGoalCategory();
- document.getElementById('goalsTitle').textContent=civ+' — цели партии';
- document.getElementById('goalsSubtitle').textContent=`Доступны все ${plannerState.goals.length} подходящих невыполненных достижений. Обычный план выбрал ${recommended.length}; размер и состав можно изменить.`;
+ document.getElementById('goalsTitle').textContent=t('planner.goalsTitle',{civilization:civLabel(civ)});
+ document.getElementById('goalsSubtitle').textContent=t('planner.goalsSubtitle',{total:plannerState.goals.length,recommended:recommended.length});
  renderGoalGroups();
  showPlannerStep(3);
 }
 function renderGoalGroups(){
  const groups=[
-  ['core','Основные цели','Требуют выбранную цивилизацию или её уникальную механику'],
-  ['affinity','Естественно для этой цивилизации','Не требуют эту нацию формально, но хорошо сочетаются с её городами, религией или историей'],
-  ['compatible','Совместимые','Можно получить в этой партии без привязки к другой цивилизации'],
-  ['optional','Опциональные','Подходят, но требуют дополнительных условий'],
-  ['risky','Случайные / рискованные','Сильнее зависят от события, удачи или специальной ситуации']
+  ['core','planner.groups.coreTitle','planner.groups.coreDescription'],
+  ['affinity','planner.groups.affinityTitle','planner.groups.affinityDescription'],
+  ['compatible','planner.groups.compatibleTitle','planner.groups.compatibleDescription'],
+  ['optional','planner.groups.optionalTitle','planner.groups.optionalDescription'],
+  ['risky','planner.groups.riskyTitle','planner.groups.riskyDescription']
  ];
  const visible=plannerVisibleGoals();
  const visibleIds=new Set(visible.map(g=>g.a.id));
  const holder=document.getElementById('goalGroups');
- holder.innerHTML=groups.map(([key,title,sub])=>{
+ holder.innerHTML=groups.map(([key,titleKey,subKey])=>{
+   const title=t(titleKey),sub=t(subKey);
    const allItems=plannerState.goals.filter(g=>g.tier===key);
    const items=allItems.filter(g=>visibleIds.has(g.a.id));
    if(!items.length)return '';
-   return `<div class="goalGroup"><div class="goalGroupHead"><div><h4>${title}</h4><span>${sub}</span></div><span>${items.length===allItems.length?items.length:`${items.length} <span class="countDetail">из ${allItems.length}</span>`}</span></div><div class="goalRows">${items.map(g=>`<div class="goalRow"><input type="checkbox" ${g.selected?'checked':''} onchange="togglePlannerGoal('${g.a.id}',this.checked)"><div class="goalInfo"><div class="goalName">${esc(displayAchievementName(g.a))}</div><div class="goalCondition">${esc(g.a.condition)}</div>${g.a.plannerNote?'<div class="goalCondition plannerNote">'+esc(g.a.plannerNote)+'</div>':''}<div class="goalMeta"><span class="goalBadge">${esc(title)}</span>${g.a.nationalUnique?'<span class="goalBadge practicalBadge">уникальный юнит</span>':''}${goalIsPractical(g)?'<span class="goalBadge practicalBadge">практичная</span>':''}${g.a.scenarioName?'<span class="goalBadge">'+esc(g.a.scenarioName)+'</span>':''}${g.a.cognomenLegitimacy!=null?'<span class="goalBadge">легит. '+g.a.cognomenLegitimacy+'</span>':''}<span class="goalBadge score">+${g.score}</span><button class="goalDetails" onclick="openAch('${g.a.id}')">Подробнее</button></div></div><div class="goalPts">+${g.score}</div></div>`).join('')}</div></div>`;
+   return `<div class="goalGroup"><div class="goalGroupHead"><div><h4>${esc(title)}</h4><span>${esc(sub)}</span></div><span>${items.length===allItems.length?items.length:`${items.length} <span class="countDetail">${esc(t('planner.ofTotal',{total:allItems.length}))}</span>`}</span></div><div class="goalRows">${items.map(g=>`<div class="goalRow"><input type="checkbox" ${g.selected?'checked':''} onchange="togglePlannerGoal('${g.a.id}',this.checked)"><div class="goalInfo"><div class="goalName">${esc(displayAchievementName(g.a))}</div><div class="goalCondition">${esc(g.a.condition)}</div>${g.a.plannerNote?'<div class="goalCondition plannerNote">'+esc(g.a.plannerNote)+'</div>':''}<div class="goalMeta"><span class="goalBadge">${esc(title)}</span>${g.a.nationalUnique?'<span class="goalBadge practicalBadge">'+esc(t('planner.uniqueUnit'))+'</span>':''}${goalIsPractical(g)?'<span class="goalBadge practicalBadge">'+esc(t('planner.practical'))+'</span>':''}${g.a.scenarioName?'<span class="goalBadge">'+esc(g.a.scenarioName)+'</span>':''}${g.a.cognomenLegitimacy!=null?'<span class="goalBadge">'+esc(t('achievement.legitimacyShort',{value:g.a.cognomenLegitimacy}))+'</span>':''}<span class="goalBadge score">+${g.score}</span><button class="goalDetails" onclick="openAch('${g.a.id}')">${esc(t('common.details'))}</button></div></div><div class="goalPts">+${g.score}</div></div>`).join('')}</div></div>`;
  }).join('');
  const hint=document.getElementById('plannerGoalHint');
  if(hint){
    const practical=plannerState.goals.filter(goalIsPractical).length;
    const traits=plannerState.goals.filter(g=>g.a.category==='Черта / персонаж').length;
    const affin=plannerState.goals.filter(g=>g.tier==='affinity').length;
-   hint.innerHTML=`Показано <b>${visible.length}</b> из <b>${plannerState.goals.length}</b> подходящих целей · практичных ${practical}${affin?' · естественно связанных '+affin:''}${traits?' · прозвищ/персонажей '+traits:''}. Фильтр «Практичные цели» скрывает прозвища, события и рискованные цели, но не удаляет их из партии.`;
+   hint.innerHTML=t('planner.goalHint',{visible:visible.length, total:plannerState.goals.length, practical, affinity:affin, traits});
  }
  updatePlannerSummary();
 }
@@ -1297,28 +1316,41 @@ function updatePlannerSummary(){
  const selected=plannerState.goals.filter(g=>g.selected);
  const counts=Object.fromEntries(['core','affinity','compatible','optional','risky'].map(tier=>[tier,selected.filter(goal=>goal.tier===tier).length]));
  document.getElementById('selectedGoalCount').textContent=selected.length;
- document.getElementById('selectedGoalScore').textContent=selected.reduce((s,g)=>s+g.score,0)+' баллов';
- document.getElementById('selectedGoalBreakdown').innerHTML=[['Основные',counts.core],['Естественные',counts.affinity],['Совместимые',counts.compatible],['Опциональные',counts.optional],['Рискованные',counts.risky]].filter(([,count])=>count).map(([label,count])=>'<span>'+label+' '+count+'</span>').join('');
+ document.getElementById('selectedGoalScore').textContent=t('planner.points',{points:selected.reduce((s,g)=>s+g.score,0)});
+ document.getElementById('selectedGoalBreakdown').innerHTML=[['planner.summary.core',counts.core],['planner.summary.affinity',counts.affinity],['planner.summary.compatible',counts.compatible],['planner.summary.optional',counts.optional],['planner.summary.risky',counts.risky]].filter(([,count])=>count).map(([key,count])=>'<span>'+esc(t(key,{count}))+'</span>').join('');
  const empty=selected.length===0;
  document.getElementById('plannerEmptyWarning').classList.toggle('hidden',!empty);
  const saveBtn=document.getElementById('plannerSaveBtn');if(saveBtn)saveBtn.disabled=empty;
- const profile=plannerPlanSizes[plannerState.planSize],sizeLabel=profile?profile.label+' план':'Состав изменён вручную';
+ const profile=plannerPlanSizes[plannerState.planSize],sizeLabel=profile?t('planner.planSize.label',{size:t(profile.labelKey)}):t('planner.planSize.custom');
  const settings=plannerRunMeta(plannerDraftRun());
- document.getElementById('plannerReview').innerHTML='<div class="kicker">Итог перед созданием</div><div class="plannerReviewTitle">'+esc(plannerState.selectedCiv||'Цивилизация не выбрана')+' · '+esc(sizeLabel)+'</div><div class="plannerReviewMeta">'+esc(settings)+'</div><div class="plannerReviewGroups">'+(empty?'Цели пока не выбраны.':'В план войдёт '+selected.length+' целей: основные '+counts.core+', естественные '+counts.affinity+', совместимые '+counts.compatible+', опциональные '+counts.optional+', рискованные '+counts.risky+'.')+'</div>';
+ document.getElementById('plannerReview').innerHTML='<div class="kicker">'+esc(t('planner.review.kicker'))+'</div><div class="plannerReviewTitle">'+esc(plannerState.selectedCiv?civLabel(plannerState.selectedCiv):t('planner.review.noCivilization'))+' · '+esc(sizeLabel)+'</div><div class="plannerReviewMeta">'+esc(settings)+'</div><div class="plannerReviewGroups">'+esc(empty?t('planner.review.noGoals'):t('planner.review.goals',{total:selected.length,core:counts.core,affinity:counts.affinity,compatible:counts.compatible,optional:counts.optional,risky:counts.risky}))+'</div>';
  renderPlanSizePicker();
 }
 function createPlannedRun(){
- if(!plannerState.selectedCiv){toast('Сначала выбери цивилизацию');return}
+ if(!plannerState.selectedCiv){toast(t('planner.chooseCivilizationFirst'));return}
  const selected=plannerState.goals.filter(g=>g.selected);
- if(!selected.length){toast('Выбери хотя бы одну цель');updatePlannerSummary();return}
+ if(!selected.length){toast(t('planner.chooseGoal'));updatePlannerSummary();return}
  const wasEditing=plannerState.editing;
  state.run=plannerDraftRun(selected.map(g=>g.a.id));
- persist();render();closeModal('plannerModal');toast(wasEditing?'План партии обновлён':'План партии создан');
+ persist();render();closeModal('plannerModal');toast(wasEditing?t('planner.updated'):t('planner.created'));
 }
 
 function openModal(id){document.getElementById(id).classList.remove('hidden')}function closeModal(id){document.getElementById(id).classList.add('hidden')}
 function toast(t){const el=document.getElementById('toast');el.textContent=t;el.classList.remove('hidden');clearTimeout(window._tt);window._tt=setTimeout(()=>el.classList.add('hidden'),2200)}
 document.addEventListener('click',e=>{if(e.target.classList.contains('overlay')&&!['plannerModal','progressModal'].includes(e.target.id))e.target.classList.add('hidden')})
+window.addEventListener('app:languagechange',()=>{
+ renderLocalizedSelects();
+ updatePlannerSpecialOptions();
+ updatePlannerScenarioOptions();
+ render();
+ if(!document.getElementById('progressModal').classList.contains('hidden'))renderProgressList();
+ if(plannerState.recommendations.length)renderRecommendations();
+ if(plannerState.goals.length){
+  populatePlannerGoalCategory();
+  renderGoalGroups();
+ }
+ if(currentAchId&&!document.getElementById('achievementModal').classList.contains('hidden'))openAch(currentAchId);
+});
 initialize();
 </script>
 </body>
