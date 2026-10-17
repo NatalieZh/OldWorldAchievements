@@ -28,7 +28,10 @@
     "englishName": "The Chittorgarh",
     "englishCondition": "Build the Chittorgarh",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_HILL_FORT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build The Chittorgarh in one of your city territories. The Wonder must be available in the current game and the city must have Legendary Culture.",
+    "englishTactic": "Reserve a Hill and stockpile 400 Civics, 1800 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a002",
@@ -59,7 +62,10 @@
     "englishName": "The Monumental Buddhas",
     "englishCondition": "Build the Monumental Buddhas",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_MONUMENTAL_BUDDHAS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build The Monumental Buddhas in one of your city territories. The Wonder must be available in the current game and the city must have Strong Culture.",
+    "englishTactic": "Reserve a tile adjacent to a Mountain or Volcano and stockpile 300 Civics, 1200 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a003",
@@ -90,7 +96,10 @@
     "englishName": "Al Khazneh",
     "englishCondition": "Build the Al Khazneh",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_AL_KHAZNEH",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Al Khazneh in one of your city territories. The Wonder must be available in the current game and the city must have Strong Culture.",
+    "englishTactic": "Reserve a tile adjacent to a Mountain or Volcano and stockpile 300 Civics, 1200 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a004",
@@ -121,7 +130,10 @@
     "englishName": "The Mahabodhi Temple",
     "englishCondition": "Build the Mahabodhi Temple",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_BUDDHISM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Empires of the Indus, build the Mahabodhi Temple, the Buddhist Holy Site. Control Buddhism’s Holy City at Developing Culture or higher, then use a Buddhist Disciple to build the Temple. Construction consumes the Disciple and costs 200 Stone and 200 Civics.",
+    "englishTactic": "The simplest route is to found Buddhism as Maurya and use a Buddhist Disciple for construction. Buddhism does not need to be your State Religion; that is only needed to train new Disciples without the Tolerance law. Develop the Holy City, clear a suitable city tile, and stockpile both resources.",
+    "englishEditor": "Partially — the editor can prepare the religion, city, and resources, but completing the Temple with a Disciple is more reliable."
   },
   {
     "id": "a005",
@@ -346,7 +358,10 @@
     "englishName": "The Mahavihara",
     "englishCondition": "Build the Mahavihara",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_THE_MAHAVIHARA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build The Mahavihara in one of your city territories. The Wonder must be available in the current game and the city must have Developing Culture.",
+    "englishTactic": "Reserve a habitable land tile and stockpile 200 Civics, 900 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a012",
@@ -484,7 +499,10 @@
     "englishName": "The Great Stupa",
     "englishCondition": "Build the Great Stupa",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_STUPA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build The Great Stupa in one of your city territories. The Wonder must be available in the current game and the city must have Weak Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 400 Civics, 400 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a016",
@@ -612,7 +630,10 @@
     "englishName": "Circus Maximus",
     "englishCondition": "Build the Circus Maximus",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_CIRCUS_MAXIMUS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Circus Maximus in one of your city territories. The Wonder must be available in the current game and the city must have Legendary Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 400 Civics, 600 Food, 1200 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a020",
@@ -1019,7 +1040,10 @@
     "englishName": "Pyramids",
     "englishCondition": "Build the Pyramids",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_PYRAMIDS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Pyramids in one of your city territories. The Wonder must be available in the current game and the city must have Weak Culture.",
+    "englishTactic": "Reserve an Arid or Sand tile and stockpile 100 Civics, 600 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a032",
@@ -1116,7 +1140,10 @@
     "englishName": "Colosseum",
     "englishCondition": "Build the Colosseum",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_COLOSSEUM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Colosseum in one of your city territories. The Wonder must be available in the current game and the city must have Legendary Culture.",
+    "englishTactic": "Reserve a tile adjacent to a River and stockpile 400 Civics, 600 Food, 1200 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a035",
@@ -1248,7 +1275,10 @@
     "englishName": "Royal Library",
     "englishCondition": "Build the Royal Library",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_ROYAL_LIBRARY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Royal Library in one of your city territories. The Wonder must be available in the current game and the city must have Developing Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 200 Civics, 300 Wood, 600 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a039",
@@ -1281,7 +1311,10 @@
     "englishName": "Hittite Iron",
     "englishCondition": "As Hatti, build a mine",
     "englishApiName": "ACHIEVEMENT_HITTITE_IRON",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Heroes of the Aegean, play as Hatti and use a Worker to complete a regular Mine in your city territory. The unique Hittite Mine is not required; construction costs 20 Wood.",
+    "englishTactic": "This can be done at the start of a game. Find a valid Mine tile, such as a Hill or a resource tile, move a Worker there, and finish construction. You do not need to win the game.",
+    "englishEditor": "Partially — the editor can prepare the territory and tile, but completing the Mine with a Worker is more reliable."
   },
   {
     "id": "a040",
@@ -1673,7 +1706,10 @@
     "englishName": "Apadana",
     "englishCondition": "Build the Apadana",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_APADANA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Apadana in one of your city territories. The Wonder must be available in the current game and the city must have Developing Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 200 Civics, 900 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a052",
@@ -1838,7 +1874,10 @@
     "englishName": "Hagia Sophia",
     "englishCondition": "Build the Hagia Sophia",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_HAGIA_SOPHIA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Hagia Sophia in one of your city territories. The Wonder must be available in the current game and the city must have Legendary Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 400 Civics, 1800 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a057",
@@ -1869,7 +1908,10 @@
     "englishName": "Building Wonders",
     "englishCondition": "Build seven Wonders (One Game)",
     "englishApiName": "ACHIEVEMENT_STAT_SEVEN_WONDERS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Complete seven different Wonders of the World in a single game.",
+    "englishTactic": "Plan from the opening: maintain strong Stone and Civics income, keep several Workers, and develop city Culture because Wonders are distributed across Weak, Developing, Strong, and Legendary Culture Levels. The Game Editor does not disable achievements if you want to run a test game.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a058",
@@ -1900,7 +1942,10 @@
     "englishName": "Via Recta Souk",
     "englishCondition": "Build the Via Recta Souk",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_VIA_RECTA_SOUK",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Via Recta Souk in one of your city territories. The Wonder must be available in the current game and the city must have Legendary Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 400 Civics, 600 Wood, 1200 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a059",
@@ -2063,7 +2108,10 @@
     "englishName": "Church of the Holy Sepulchre",
     "englishCondition": "Build the Church of the Holy Sepulchre",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_CHRISTIANITY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build the Church of the Holy Sepulchre, the Christian Holy Site. Control Christianity’s Holy City at Developing Culture or higher, then use a Christian Disciple to build the Temple. Construction consumes the Disciple and costs 200 Stone and 200 Civics.",
+    "englishTactic": "Obtain a Christian Disciple, develop the Holy City, stockpile Stone and Civics, and clear a suitable city tile. Christianity does not need to be your State Religion; that is only one way to train new Disciples, with Tolerance being another.",
+    "englishEditor": "Partially — the editor can prepare the religion, city, and resources, but completing the Temple with a Disciple is more reliable."
   },
   {
     "id": "a064",
@@ -2162,7 +2210,10 @@
     "englishName": "Colossus",
     "englishCondition": "Build the Colossus",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_COLOSSUS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Colossus in one of your city territories. The Wonder must be available in the current game and the city must have Strong Culture.",
+    "englishTactic": "Reserve Coastal Water and stockpile 300 Civics, 800 Iron, 400 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a067",
@@ -2193,7 +2244,10 @@
     "englishName": "Lighthouse",
     "englishCondition": "Build the Lighthouse",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_LIGHTHOUSE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Lighthouse in one of your city territories. The Wonder must be available in the current game and the city must have Strong Culture.",
+    "englishTactic": "Reserve Coastal Water and stockpile 200 Civics, 300 Iron, 600 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a068",
@@ -2224,7 +2278,10 @@
     "englishName": "Ishtar Gate",
     "englishCondition": "Build the Ishtar Gate",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_ISHTAR_GATE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Ishtar Gate in one of your city territories. The Wonder must be available in the current game and the city must have Developing Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 200 Civics, 300 Iron, 600 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a069",
@@ -2663,7 +2720,10 @@
     "englishName": "Cothon",
     "englishCondition": "Build the Cothon",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_COTHON",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Cothon in one of your city territories. The Wonder must be available in the current game and the city must have Strong Culture.",
+    "englishTactic": "Reserve Coastal Water and stockpile 300 Civics, 600 Wood, 600 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a082",
@@ -2725,7 +2785,10 @@
     "englishName": "Necropolis",
     "englishCondition": "Build the Necropolis",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_NECROPOLIS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Necropolis in one of your city territories. The Wonder must be available in the current game and the city must have Developing Culture.",
+    "englishTactic": "Reserve a Hill and stockpile 200 Civics, 900 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a084",
@@ -2919,7 +2982,10 @@
     "englishName": "Pantheon",
     "englishCondition": "Build the Pantheon",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_PANTHEON",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Pantheon in one of your city territories. The Wonder must be available in the current game and the city must have Legendary Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 400 Civics, 1800 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a090",
@@ -3018,7 +3084,10 @@
     "englishName": "Jebel Barkal",
     "englishCondition": "Build the Jebel Barkal",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_JEBEL_BARKAL",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Jebel Barkal in one of your city territories. The Wonder must be available in the current game and the city must have Developing Culture.",
+    "englishTactic": "Reserve a Hill and stockpile 200 Civics, 900 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a093",
@@ -3156,7 +3225,10 @@
     "englishName": "Temple of Solomon",
     "englishCondition": "Build the Temple of Solomon",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_JUDAISM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build the Temple of Solomon, the Jewish Holy Site. Control Judaism’s Holy City at Developing Culture or higher, then use a Jewish Disciple to build the Temple. Construction consumes the Disciple and costs 200 Stone and 200 Civics.",
+    "englishTactic": "Obtain a Jewish Disciple, develop the Holy City, stockpile Stone and Civics, and clear a suitable city tile. Judaism does not need to be your State Religion; that is only one way to train new Disciples, with Tolerance being another.",
+    "englishEditor": "Partially — the editor can prepare the religion, city, and resources, but completing the Temple with a Disciple is more reliable."
   },
   {
     "id": "a097",
@@ -3187,7 +3259,10 @@
     "englishName": "Jerwan Aqueduct",
     "englishCondition": "Build the Jerwan Aqueduct",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_JERWAN_AQUEDUCT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Jerwan Aqueduct in one of your city territories. The Wonder must be available in the current game and the city must have Weak Culture.",
+    "englishTactic": "Reserve a tile adjacent to a Mountain or Volcano and stockpile 100 Civics, 200 Iron, 400 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a098",
@@ -3286,7 +3361,10 @@
     "englishName": "Acropolis",
     "englishCondition": "Build the Acropolis",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_ACROPOLIS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Acropolis in one of your city territories. The Wonder must be available in the current game and the city must have Strong Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 300 Civics, 400 Wood, 800 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a101",
@@ -3496,7 +3574,10 @@
     "englishName": "Oracle",
     "englishCondition": "Build the Oracle",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_ORACLE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Oracle in one of your city territories. The Wonder must be available in the current game and the city must have Weak Culture.",
+    "englishTactic": "Reserve a Hill and stockpile 100 Civics, 200 Food, 400 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a107",
@@ -3661,7 +3742,10 @@
     "englishName": "Great Ziggurat",
     "englishCondition": "Build the Great Ziggurat",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_GREAT_ZIGGURAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Great Ziggurat in one of your city territories. The Wonder must be available in the current game and the city must have Weak Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 100 Civics, 600 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a112",
@@ -3829,7 +3913,10 @@
     "englishName": "Hanging Gardens in Babylon",
     "englishCondition": "Build the Hanging Gardens in Babylon",
     "englishApiName": "ACHIEVEMENT_BABYLON_HANGING_GARDENS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build the Hanging Gardens in a city named Babylon. If the city has a different name, rename it before construction is complete; at completion it must already have the required name. This method is confirmed in the Russian localization through the comparable Necropolis in Waset achievement.",
+    "englishTactic": "Check that the Wonder is available in this game and reserve a valid tile. Rename the city before construction if possible, but it must be renamed before completion. Once construction starts, rival nations cannot begin the same Wonder.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a117",
@@ -3860,7 +3947,10 @@
     "englishName": "Hanging Gardens",
     "englishCondition": "Build the Hanging Gardens",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_HANGING_GARDENS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Hanging Gardens in one of your city territories. The Wonder must be available in the current game and the city must have Weak Culture.",
+    "englishTactic": "Reserve a land tile adjacent to a River and stockpile 100 Civics, 200 Wood, 400 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a118",
@@ -4440,7 +4530,10 @@
     "englishName": "Musaeum",
     "englishCondition": "Build the Musaeum",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_MUSAEUM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Musaeum in one of your city territories. The Wonder must be available in the current game and the city must have Strong Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 300 Civics, 400 Wood, 800 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a135",
@@ -4471,7 +4564,10 @@
     "englishName": "Mausoleum",
     "englishCondition": "Build the Mausoleum",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_MAUSOLEUM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Mausoleum in one of your city territories. The Wonder must be available in the current game and the city must have Strong Culture.",
+    "englishTactic": "Reserve a Hill and stockpile 300 Civics, 1200 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a136",
@@ -5337,7 +5433,10 @@
     "englishName": "Adur Burzen-Mihr",
     "englishCondition": "Build the Adur Burzen-Mihr",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_ZOROASTRIANISM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Adur Burzen-Mihr, the Zoroastrian Holy Site. Control Zoroastrianism’s Holy City at Developing Culture or higher, then use a Zoroastrian Disciple to build the Holy Site. Construction consumes the Disciple and costs 200 Stone and 200 Civics.",
+    "englishTactic": "Obtain a Zoroastrian Disciple, develop the Holy City, stockpile Stone and Civics, and clear a suitable city tile. Your religion does not need to be the State Religion; use Tolerance if you need another way to train Disciples.",
+    "englishEditor": "Partially — the editor can prepare the religion, city, and resources, but completing the Holy Site with a Disciple is more reliable."
   },
   {
     "id": "a161",
@@ -5406,7 +5505,10 @@
     "englishName": "Ishtar Gate in Babylon",
     "englishCondition": "Build the Ishtar Gate in Babylon",
     "englishApiName": "ACHIEVEMENT_BABYLON_ISHTAR_GATE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Ishtar Gate in Babylon in a city named Babylon. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Developing Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 200 Civics, 300 Iron, 600 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a163",
@@ -5540,7 +5642,10 @@
     "englishName": "Yazilikaya",
     "englishCondition": "Build the Yazilikaya",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_YAZILIKAYA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Yazilikaya in one of your city territories. The Wonder must be available in the current game and the city must have Weak Culture.",
+    "englishTactic": "Reserve a tile adjacent to a Mountain or Volcano and stockpile 100 Civics, 600 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a167",
@@ -5571,7 +5676,10 @@
     "englishName": "Cao'an",
     "englishCondition": "Build the Cao'an",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_MANICHAEISM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Cao’an, the Manichaean Holy Site. Control Manichaeism’s Holy City at Developing Culture or higher, then use a Manichaean Disciple to build the Holy Site. Construction consumes the Disciple and costs 200 Stone and 200 Civics.",
+    "englishTactic": "Obtain a Manichaean Disciple, develop the Holy City, stockpile Stone and Civics, and clear a suitable city tile. Your religion does not need to be the State Religion; use Tolerance if you need another way to train Disciples.",
+    "englishEditor": "Partially — the editor can prepare the religion, city, and resources, but completing the Holy Site with a Disciple is more reliable."
   },
   {
     "id": "a168",
@@ -5940,7 +6048,10 @@
     "englishName": "Kushite Pyramids",
     "englishCondition": "As Kush, build Kushite Pyramids",
     "englishApiName": "ACHIEVEMENT_KUSHITE_PYRAMIDS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Pharaohs of the Nile, play as Kush and use a Worker to build Kushite Pyramids in one of your city territories. This is Kush’s unique urban improvement: it costs 60 Stone, needs no technology or Culture Level, and spreads Kushite Paganism.",
+    "englishTactic": "Choose a Kush city, reserve a valid urban tile, and move a Worker there with 60 Stone available. Do not wait for a technology or Culture threshold; the improvement is available immediately once the tile is valid.",
+    "englishEditor": "Partially — the editor can prepare the city, tile, and resources, but completing the improvement with a Worker is more reliable."
   },
   {
     "id": "a179",
@@ -5976,7 +6087,10 @@
     "englishName": "Necropolis in Waset",
     "englishCondition": "Build the Necropolis in Waset",
     "englishApiName": "ACHIEVEMENT_WASET_NECROPOLIS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Necropolis in Waset in a city named Waset. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Developing Culture.",
+    "englishTactic": "Reserve a Hill and stockpile 200 Civics, 900 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a180",
@@ -6331,7 +6445,10 @@
     "englishName": "Heliopolis",
     "englishCondition": "Build the Heliopolis",
     "englishApiName": "ACHIEVEMENT_IMPROVEMENT_HELIOPOLIS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Heliopolis in one of your city territories. The Wonder must be available in the current game and the city must have Legendary Culture.",
+    "englishTactic": "Reserve an Arid or Sand tile and stockpile 400 Civics, 1800 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a191",
@@ -6400,7 +6517,10 @@
     "englishName": "Pyramids in Menefer",
     "englishCondition": "Build the Pyramids in Menefer",
     "englishApiName": "ACHIEVEMENT_MEMPHIS_PYRAMIDS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Pyramids in Menefer in a city named Menefer. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Weak Culture.",
+    "englishTactic": "Reserve an Arid or Sand tile and stockpile 100 Civics, 600 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a193",
@@ -6469,7 +6589,10 @@
     "englishName": "Circus Maximus in Roma",
     "englishCondition": "Build the Circus Maximus in Roma",
     "englishApiName": "ACHIEVEMENT_ROMA_CIRCUS_MAXIMUS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Circus Maximus in Roma in a city named Roma. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Legendary Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 400 Civics, 600 Food, 1200 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a195",
@@ -6567,7 +6690,10 @@
     "englishName": "Pantheon in Roma",
     "englishCondition": "Build the Pantheon in Roma",
     "englishApiName": "ACHIEVEMENT_ROMA_PANTHEON",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Pantheon in Roma in a city named Roma. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Legendary Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 400 Civics, 1800 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a198",
@@ -6698,7 +6824,10 @@
     "englishName": "Apadana in Parsa",
     "englishCondition": "Build the Apadana in Parsa",
     "englishApiName": "ACHIEVEMENT_PERSEPOLIS_APADANA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Apadana in Parsa in a city named Parsa. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Developing Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 200 Civics, 900 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a202",
@@ -8439,7 +8568,10 @@
     "englishName": "Cothon in Carthago",
     "englishCondition": "Build the Cothon in Carthago",
     "englishApiName": "ACHIEVEMENT_CARTHAGO_COTHON",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Cothon in Carthago in a city named Carthago. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Strong Culture.",
+    "englishTactic": "Reserve Coastal Water and stockpile 300 Civics, 600 Wood, 600 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a255",
@@ -8609,7 +8741,10 @@
     "englishName": "Colosseum in Roma",
     "englishCondition": "Build the Colosseum in Roma",
     "englishApiName": "ACHIEVEMENT_ROMA_COLOSSEUM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Colosseum in Roma in a city named Roma. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Legendary Culture.",
+    "englishTactic": "Reserve a tile adjacent to a River and stockpile 400 Civics, 600 Food, 1200 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a260",
@@ -8677,7 +8812,10 @@
     "englishName": "Lighthouse in Alexandria",
     "englishCondition": "Build the Lighthouse in Alexandria",
     "englishApiName": "ACHIEVEMENT_ALEXANDRIA_LIGHTHOUSE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Lighthouse in Alexandria in a city named Alexandria. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Developing Culture.",
+    "englishTactic": "Reserve Coastal Water and stockpile 200 Civics, 300 Iron, 600 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a262",
@@ -8713,7 +8851,10 @@
     "englishName": "Acropolis in Athenai",
     "englishCondition": "Build the Acropolis in Athenai",
     "englishApiName": "ACHIEVEMENT_ATHENS_ACROPOLIS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Acropolis in Athenai in a city named Athenai. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Strong Culture.",
+    "englishTactic": "Reserve a Hill and stockpile 300 Civics, 1200 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a263",
@@ -8943,7 +9084,10 @@
     "englishName": "Legendary Stele",
     "englishCondition": "As Aksum, erect a Legendary Stele",
     "englishApiName": "ACHIEVEMENT_AKSUMITE_MAJOR_STELE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Wrath of Gods, play as Aksum and raise the ruler’s Legitimacy to at least 90 before their death. At the start of the next turn, an event offers to raise a Legendary Stele in a family city; choose the construction option. Steam retains the older achievement title, Aksumite Grand Stele.",
+    "englishTactic": "Build Legitimacy through laws, Wonders, and other available sources, then keep the game going until the ruler dies. In the memorial event, select a city for the Stele rather than the Stone compensation. In No Characters mode, build a Stele for 100 Stone at Developing Culture, a Grand Stele for 200 Stone at Strong Culture, and a Legendary Stele for 400 Stone at Legendary Culture.",
+    "englishEditor": "Not recommended — in a normal game the achievement depends on the memorial event after the ruler dies; in No Characters mode, it is more reliable to build the Steles with a Worker."
   },
   {
     "id": "a270",
@@ -8980,7 +9124,10 @@
     "englishName": "Musaeum in Alexandria",
     "englishCondition": "Build the Musaeum in Alexandria",
     "englishApiName": "ACHIEVEMENT_ALEXANDRIA_MUSAEUM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Musaeum in Alexandria in a city named Alexandria. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Strong Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 300 Civics, 400 Wood, 800 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a271",
@@ -9423,7 +9570,10 @@
     "englishName": "Yazilikaya in Hattusa",
     "englishCondition": "Build the Yazilikaya in Hattusa",
     "englishApiName": "ACHIEVEMENT_HATTUSA_YAZILIKAYA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Yazilikaya in Hattusa in a city named Hattusa. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Weak Culture.",
+    "englishTactic": "Reserve a tile adjacent to a Mountain or Volcano and stockpile 100 Civics, 600 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a285",
@@ -9554,7 +9704,10 @@
     "englishName": "Great Ziggurat in Ur",
     "englishCondition": "Build the Great Ziggurat in Ur",
     "englishApiName": "ACHIEVEMENT_UR_GREAT_ZIGGURAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Great Ziggurat in Ur in a city named Ur. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Weak Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 100 Civics, 600 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a289",
@@ -10516,7 +10669,10 @@
     "englishName": "Hagia Sophia in Byzantion",
     "englishCondition": "Build the Hagia Sophia in Byzantion",
     "englishApiName": "ACHIEVEMENT_BYZANTIUM_HAGIA_SOPHIA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Hagia Sophia in Byzantion in a city named Byzantion. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Legendary Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 400 Civics, 1800 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a318",
@@ -10583,7 +10739,10 @@
     "englishName": "Oracle in Delphi",
     "englishCondition": "Build the Oracle in Delphi",
     "englishApiName": "ACHIEVEMENT_DELPHI_ORACLE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Oracle in Delphi in a city named Delphi. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Weak Culture.",
+    "englishTactic": "Reserve a Hill and stockpile 100 Civics, 200 Food, 400 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a320",
@@ -11300,7 +11459,10 @@
     "englishName": "Mausoleum in Halicarnassus",
     "englishCondition": "Build the Mausoleum in Halicarnassus",
     "englishApiName": "ACHIEVEMENT_HALICARNASSUS_MAUSOLEUM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Mausoleum in Halicarnassus in a city named Halicarnassus. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Strong Culture.",
+    "englishTactic": "Reserve a Hill and stockpile 300 Civics, 1200 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a342",
@@ -11473,7 +11635,10 @@
     "englishName": "Royal Library in Nineveh",
     "englishCondition": "Build the Royal Library in Nineveh",
     "englishApiName": "ACHIEVEMENT_NINEVEH_ROYAL_LIBRARY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Royal Library in Nineveh in a city named Nineveh. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Developing Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 200 Civics, 300 Wood, 600 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a347",
@@ -12031,7 +12196,10 @@
     "englishName": "Via Recta Souk in Damascus",
     "englishCondition": "Build the Via Recta Souk in Damascus",
     "englishApiName": "ACHIEVEMENT_DAMASCUS_VIA_RECTA_SOUK",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Via Recta Souk in Damascus in a city named Damascus. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Legendary Culture.",
+    "englishTactic": "Reserve a land tile outside Water and Marsh and stockpile 400 Civics, 600 Wood, 1200 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a363",
@@ -13050,7 +13218,10 @@
     "englishName": "Heliopolis in Heliopolis",
     "englishCondition": "Build the Heliopolis in Heliopolis",
     "englishApiName": "ACHIEVEMENT_HELIOPOLIS_HELIOPOLIS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Heliopolis in Heliopolis in one of your city territories. The Wonder must be available in the current game and the city must have Legendary Culture.",
+    "englishTactic": "Reserve an Arid or Sand tile and stockpile 400 Civics, 1800 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a394",
@@ -13119,7 +13290,10 @@
     "englishName": "Jerwan Aqueduct in Jerwan",
     "englishCondition": "Build the Jerwan Aqueduct in Jerwan",
     "englishApiName": "ACHIEVEMENT_JERWAN_JERWAN_AQUEDUCT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Jerwan Aqueduct in Jerwan in a city named Jerwan. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Weak Culture.",
+    "englishTactic": "Reserve a tile adjacent to a Mountain or Volcano and stockpile 100 Civics, 200 Iron, 400 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a396",
@@ -13151,7 +13325,10 @@
     "englishName": "Knowledge of the Ancients",
     "englishCondition": "Build a Library and The Musaeum in Thutmosid (Sages) Alexandria",
     "englishApiName": "ACHIEVEMENT_KNOWLEDGE_ANCIENTS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Alexandria, controlled by the Thutmosid family of Sages, build both a Library and the Musaeum. Both improvements must exist in the same city at the same time; Alexandria needs Strong Culture for the Musaeum.",
+    "englishTactic": "Assign Alexandria to the Thutmosids, build a Library there, and reserve a land tile outside Water and Marsh for the Musaeum. Stockpile 300 Civics, 400 Wood, and 800 Stone for the Wonder.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a397",
@@ -13187,7 +13364,10 @@
     "englishName": "Jebel Barkal in Napata",
     "englishCondition": "Build the Jebel Barkal in Napata",
     "englishApiName": "ACHIEVEMENT_NAPATA_JEBEL_BARKAL",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Jebel Barkal in Napata in a city named Napata. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Developing Culture.",
+    "englishTactic": "Reserve a Hill and stockpile 200 Civics, 900 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a398",
@@ -13252,7 +13432,10 @@
     "englishName": "Al Khazneh in Petra",
     "englishCondition": "Build the Al Khazneh in Petra",
     "englishApiName": "ACHIEVEMENT_PETRA_AL_KHAZNEH",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Al Khazneh in Petra in a city named Petra. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Strong Culture.",
+    "englishTactic": "Reserve a tile adjacent to a Mountain or Volcano and stockpile 300 Civics, 1200 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a400",
@@ -13288,7 +13471,10 @@
     "englishName": "Colossus in Rhodes",
     "englishCondition": "Build the Colossus in Rhodes",
     "englishApiName": "ACHIEVEMENT_RHODES_COLOSSUS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Build Colossus in Rhodes in a city named Rhodes. Rename the city before construction is complete if necessary; at completion it must already have the required name. The Wonder must be available in the current game and the city must have Strong Culture.",
+    "englishTactic": "Reserve Coastal Water and stockpile 300 Civics, 800 Iron, 400 Stone. Once construction starts, rival nations cannot begin the same Wonder, but a hostile unit can destroy the unfinished Wonder by occupying its tile.",
+    "englishEditor": "Partially — the editor can prepare resources, a suitable tile, and shorten construction time. For reliable credit, begin and complete the Wonder through normal play."
   },
   {
     "id": "a401",
