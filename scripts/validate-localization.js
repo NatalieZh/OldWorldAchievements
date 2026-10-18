@@ -155,5 +155,7 @@ assert(!element('selectedGoalBreakdown').innerHTML.includes('Natural'), 'Planner
 assert.equal(element('runCoreCount').textContent, 1);
 assert.equal(element('runCompatCount').textContent, 1);
 assert.equal(element('runOptionalCount').textContent, 1);
+assert(element('runCoreGoals').innerHTML.includes('type="button" onclick="openAch(\'a017\')"'), 'Current game goal does not open its achievement card');
+assert(element('runCoreGoals').innerHTML.includes('onchange="toggleRunGoalDone(\'a017\',this.checked)"'), 'Current game checkbox no longer updates progress separately');
 
 console.log(`Localization checks passed: ${cards.length} cards, ${Object.keys(en).length} UI keys, search, filters, planner review, language switching, progress and plan import/export.`);

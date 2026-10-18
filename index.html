@@ -71,10 +71,12 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
 .runColHead h3{font:500 18px Georgia,serif;margin:0;color:#e3d6bf}
 .runColHead span{font-size:10px;color:#8f846f;border:1px solid rgba(255,255,255,.07);border-radius:99px;padding:3px 6px}
 .runGoalList{display:grid;gap:6px}
-.runGoal{display:flex;align-items:flex-start;gap:8px;padding:7px 8px;border-radius:8px;background:rgba(255,255,255,.012);cursor:pointer}
+.runGoal{display:flex;align-items:center;gap:8px;padding:7px 8px;border-radius:8px;background:rgba(255,255,255,.012)}
 .runGoal:hover{background:rgba(184,148,83,.035)}
-.runGoal input{margin-top:2px;accent-color:#b89453}
-.runGoalName{font-size:12.5px;color:#cfc2aa;line-height:1.4}
+.runGoal input{margin:0;accent-color:#b89453}
+.runGoalName{min-width:0;border:0;background:none;padding:0;text-align:left;font:inherit;font-size:12.5px;color:#cfc2aa;line-height:1.4;cursor:pointer}
+.runGoalName:hover{text-decoration:underline}
+.runGoalName:focus-visible{outline:2px solid #c4a15f;outline-offset:3px;border-radius:2px}
 .runGoal.done .runGoalName{text-decoration:line-through;color:#7d8568}
 .runGoalMore{font-size:10px;color:#807665;padding:4px 2px}
 .runFooter{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-top:14px;color:#857a69;font-size:10.5px}
@@ -675,7 +677,7 @@ function renderRunGoalList(elId,items,maxVisible){
  const visible=runGoalsExpanded?items:items.slice(0,maxVisible);
  el.innerHTML=visible.map(a=>{
    const done=state.done.includes(a.id);
-   return `<label class="runGoal ${done?'done':''}"><input type="checkbox" ${done?'checked':''} onchange="toggleRunGoalDone('${a.id}',this.checked)"><span class="runGoalName">${esc(displayAchievementName(a))}</span></label>`;
+   return `<div class="runGoal ${done?'done':''}"><input type="checkbox" ${done?'checked':''} aria-labelledby="runGoalName-${a.id}" onchange="toggleRunGoalDone('${a.id}',this.checked)"><button id="runGoalName-${a.id}" class="runGoalName" type="button" onclick="openAch('${a.id}')">${esc(displayAchievementName(a))}</button></div>`;
  }).join('') + (!runGoalsExpanded&&items.length>maxVisible?`<div class="runGoalMore">${esc(t('run.moreGoals',{count:items.length-maxVisible}))}</div>`:'');
 }
 function renderCurrentRunDashboard(){
