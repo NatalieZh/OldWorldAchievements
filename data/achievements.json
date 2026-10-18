@@ -1935,7 +1935,11 @@
     "englishName": "Learn By Playing 1 - Able",
     "englishCondition": "Complete Learn By Playing 1 - Able",
     "englishApiName": "ACHIEVEMENT_LBP1",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Learn By Playing 1: Able",
+    "englishGuide": "Choose Learn By Playing 1 as Babylonia on Able difficulty and win the game. This is a full game on a fixed medium coastal map, not a short Tutorial scenario.",
+    "englishTactic": "Develop the river capital, build economic Improvements early, and expand without delay. Complete feasible Ambitions and maintain enough military strength to finish your chosen victory.",
+    "englishEditor": "No — win the built-in Learn By Playing 1: Able game."
   },
   {
     "id": "a055",
@@ -4464,7 +4468,11 @@
     "englishName": "Learn to Play 5",
     "englishCondition": "Complete Learn to Play scenario 5",
     "englishApiName": "ACHIEVEMENT_LEARNTOPLAY_5",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Tutorial 5: Polemos",
+    "englishGuide": "Complete Tutorial 5: Polemos as Greece. Finish its military objective chain and the campaign against Rome; the achievement comes with successful scenario completion.",
+    "englishTactic": "Train the requested troops, scout Roman territory, and assemble an army before advancing. Clear defenders before surrounding a city, and save reinforcements and Orders for the final conquest of Rome.",
+    "englishEditor": "No — complete the built-in tutorial scenario."
   },
   {
     "id": "a125",
@@ -4497,7 +4505,11 @@
     "englishName": "Learn to Play 4",
     "englishCondition": "Complete Learn to Play scenario 4",
     "englishApiName": "ACHIEVEMENT_LEARNTOPLAY_4",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Tutorial 4: Heavy is the Crown",
+    "englishGuide": "Complete Tutorial 4: Heavy is the Crown as Greece. Starting with three cities, finish objectives about expansion, Councilors, Tribes, diplomacy, and missions.",
+    "englishTactic": "Develop the cities in parallel, but keep a Scout and some Orders available for map and contact objectives. Appoint Councilors and perform diplomatic missions when prompted; later steps unlock only after the current goal.",
+    "englishEditor": "No — complete the built-in tutorial scenario."
   },
   {
     "id": "a126",
@@ -4530,7 +4542,11 @@
     "englishName": "Learn to Play 3",
     "englishCondition": "Complete Learn to Play scenario 3",
     "englishApiName": "ACHIEVEMENT_LEARNTOPLAY_3",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Tutorial 3: Everyone has an Opinion",
+    "englishGuide": "Complete Tutorial 3: Everyone has an Opinion as Greece, finishing all objectives about characters, Families, relationships, and the ruler’s actions.",
+    "englishTactic": "Do not spend Money, Civics, or Orders that a later step may require. Select the specific characters shown in the prompts; some goals require a named action such as Influence rather than another way to improve opinion.",
+    "englishEditor": "No — complete the built-in tutorial scenario."
   },
   {
     "id": "a127",
@@ -4563,7 +4579,11 @@
     "englishName": "Learn to Play 2",
     "englishCondition": "Complete Learn to Play scenario 2",
     "englishApiName": "ACHIEVEMENT_LEARNTOPLAY_2",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Tutorial 2: A Place to Live",
+    "englishGuide": "Complete Tutorial 2: A Place to Live as Greece. Finish every objective in sequence, including founding the capital on a City Site and building a basic economy.",
+    "englishTactic": "Do exactly what the current prompt asks: found the city at the marked site, produce the required units and Improvements, and keep the Worker free for tutorial tasks.",
+    "englishEditor": "No — complete the built-in tutorial scenario."
   },
   {
     "id": "a128",
@@ -4596,7 +4616,11 @@
     "englishName": "Learn to Play 1",
     "englishCondition": "Complete Learn to Play scenario 1",
     "englishApiName": "ACHIEVEMENT_LEARNTOPLAY_1",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Tutorial 1: The Old World",
+    "englishGuide": "Open Tutorial 1: The Old World as Greece and complete the full sequence of objectives until the completion message. Starting the tutorial alone is not enough.",
+    "englishTactic": "Follow the prompts in order to learn Orders, movement, exploration, and combat. Save enough Orders for the current objective and protect the provided units for the final Barbarian encounter.",
+    "englishEditor": "No — complete the built-in tutorial scenario."
   },
   {
     "id": "a129",
@@ -6372,7 +6396,11 @@
     "englishName": "Carthage - Ox Hide",
     "englishCondition": "Win Carthage scenario 1",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_1",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game One: Ox Hide",
+    "englishGuide": "Complete the Carthage campaign's Game One: Ox Hide with Bronze, Silver, Gold, or Epic Victory. Bronze needs 6 scenario objectives.",
+    "englishTactic": "Found and develop Carthage. Expand production, explore, and keep Money, Stone, and Wood in reserve. The offered goals span Technologies, Workers, cities, ships, Laws, and Improvements; choose compatible short-term objectives first.",
+    "englishEditor": "No — complete the built-in scenario and earn one of its victory tiers."
   },
   {
     "id": "a177",
@@ -6514,7 +6542,11 @@
     "englishName": "Bronze Victory (Carthage 1)",
     "englishCondition": "Win a Bronze Victory in Carthage scenario 1",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_1_BRONZE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game One: Ox Hide",
+    "englishGuide": "In the Carthage campaign's Game One: Ox Hide, complete 6 scenario objectives to earn Bronze Victory. Higher victory tiers also pass this threshold.",
+    "englishTactic": "For Bronze, prioritize early goals that fit normal development: Technologies, Workers, cities, ships, and resource reserves. Do timed goals first; six simpler objectives can be enough.",
+    "englishEditor": "No — the game must register six objectives within the scenario."
   },
   {
     "id": "a181",
@@ -6645,7 +6677,11 @@
     "englishName": "Silver Victory (Carthage 1)",
     "englishCondition": "Win a Silver Victory in Carthage scenario 1",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_1_SILVER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game One: Ox Hide",
+    "englishGuide": "In the Carthage campaign's Game One: Ox Hide, complete 8 scenario objectives to earn Silver Victory.",
+    "englishTactic": "After six easier goals, prepare two more. Keep Workers and tiles available, develop several cities, and retain resources for the next assignment. Watch deadlines: an expired Family request cannot be completed later as the same goal.",
+    "englishEditor": "No — the game must register eight objectives within the scenario."
   },
   {
     "id": "a185",
@@ -7062,7 +7098,11 @@
     "englishName": "Run, Pheidippides, Run!",
     "englishCondition": "Complete the run to Sparta (Heroes of the Aegean 1)",
     "englishApiName": "ACHIEVEMENT_GREECE1_RUN",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 1: Prologue",
+    "englishGuide": "After the objective to block the exits from Marathon Bay, deliver Pheidippides to the marked point near Sparta within 5 turns.",
+    "englishTactic": "Choose the shortest safe route immediately and reserve most Orders for the runner. Avoid enemy Zones of Control and slow terrain while the army holds its positions.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a197",
@@ -7199,7 +7239,11 @@
     "englishName": "Nenikekamen",
     "englishCondition": "Win the Marathon scenario (Heroes of the Aegean 1)",
     "englishApiName": "ACHIEVEMENT_GREECE1_WIN",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 1: Prologue",
+    "englishGuide": "Complete the scenario sequence: block both Persian exits from Marathon Bay within 3 turns, deliver Pheidippides to Sparta, await the strategoi’s decision, and destroy the Persian army within the allotted 7 turns.",
+    "englishTactic": "Occupy both passages first without spreading Orders too thin. Assemble troops for the final battle, focus several units on each target, and prevent the Persians from escaping.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a201",
@@ -7269,7 +7313,11 @@
     "englishName": "Gold Victory (Carthage 1)",
     "englishCondition": "Win a Gold Victory in Carthage scenario 1",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_1_GOLD",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game One: Ox Hide",
+    "englishGuide": "In the Carthage campaign's Game One: Ox Hide, complete 10 scenario objectives to earn Gold Victory.",
+    "englishTactic": "Plan across economy, Specialists, Laws, city Projects, fleets, and Tribal warfare. Maintain reserves so you can switch to a new request quickly; by midgame, several developed cities are more useful than one overloaded capital.",
+    "englishEditor": "No — the game must register ten objectives within the scenario."
   },
   {
     "id": "a203",
@@ -7300,7 +7348,11 @@
     "englishName": "Carthage - Riches and Influence",
     "englishCondition": "Win Carthage scenario 2",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_2",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game Two: Riches and Influence",
+    "englishGuide": "Complete the Carthage campaign's Game Two: Riches and Influence with Bronze, Silver, Gold, or Epic Victory. Bronze needs 6 scenario objectives.",
+    "englishTactic": "Expand Carthaginian influence toward Sardinia, Sicily, and Iberia. Build Workers and ships early, scout sea routes, and prepare for either alliance or war with Phoenician colonies. Several island objectives have short deadlines.",
+    "englishEditor": "No — complete the built-in scenario and earn one of its victory tiers."
   },
   {
     "id": "a204",
@@ -7331,7 +7383,11 @@
     "englishName": "Bronze Victory (Carthage 2)",
     "englishCondition": "Win a Bronze Victory in Carthage scenario 2",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_2_BRONZE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game Two: Riches and Influence",
+    "englishGuide": "In the Carthage campaign's Game Two: Riches and Influence, complete 6 scenario objectives to earn Bronze Victory. Higher victory tiers also pass this threshold.",
+    "englishTactic": "Choose mutually reinforcing goals: Workers, Wood, silver exploration, island settlements, and a small fleet. Scout the islands and Iberia immediately so later turns are not wasted searching.",
+    "englishEditor": "No — the game must register six objectives within the scenario."
   },
   {
     "id": "a205",
@@ -7470,7 +7526,11 @@
     "englishName": "Silver Victory (Carthage 2)",
     "englishCondition": "Win a Silver Victory in Carthage scenario 2",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_2_SILVER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game Two: Riches and Influence",
+    "englishGuide": "In the Carthage campaign's Game Two: Riches and Influence, complete 8 scenario objectives to earn Silver Victory.",
+    "englishTactic": "Combine territorial expansion with economic goals. Specialize new cities on Sardinia and Sicily for Mines, Nets, or other required Improvements, while mainland cities produce ships and troops. Save alliance resources early if using diplomacy.",
+    "englishEditor": "No — the game must register eight objectives within the scenario."
   },
   {
     "id": "a209",
@@ -7547,7 +7607,11 @@
     "englishName": "A Good Start",
     "englishCondition": "Kill 10 Persian units at Thermopylae (Heroes of the Aegean 2)",
     "englishApiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_10",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 2: On Land and Sea",
+    "englishGuide": "In Heroes of the Aegean 2: On Land and Sea, kill at least 10 Persian units at Thermopylae before the first chapter ends.",
+    "englishTactic": "Hold the narrow pass and focus attacks on one target. Finish damaged Persians with your own units instead of leaving the last blow to allies.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a211",
@@ -7578,7 +7642,11 @@
     "englishName": "Tell the Spartans",
     "englishCondition": "Complete the Battle of Thermopylae (Heroes of the Aegean 2)",
     "englishApiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_WIN",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 2: On Land and Sea",
+    "englishGuide": "Finish the first chapter at Thermopylae through its scripted conclusion. The historical death of its defenders does not make this achievement fail.",
+    "englishTactic": "Do not sacrifice the objective to save every unit. Hold the pass, inflict losses, and use the stage to work toward the 10–50 Persian-unit kill achievements.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a212",
@@ -7613,7 +7681,11 @@
     "englishName": "Learn By Playing 2 - Just",
     "englishCondition": "Complete Learn By Playing 2 - Just",
     "englishApiName": "ACHIEVEMENT_LBP2",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Learn By Playing 2: Just",
+    "englishGuide": "Choose Learn By Playing 2 as Egypt on Just difficulty and win the game. This is a full game on a fixed medium map with an inland sea, not a short Tutorial scenario.",
+    "englishTactic": "Develop fertile tiles and the inland coast, keep Workers active, and expand toward good City Sites. Complete feasible Ambitions and defend likely invasion routes.",
+    "englishEditor": "No — win the built-in Learn By Playing 2: Just game."
   },
   {
     "id": "a213",
@@ -7975,7 +8047,11 @@
     "englishName": "Gold Victory (Carthage 2)",
     "englishCondition": "Win a Gold Victory in Carthage scenario 2",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_2_GOLD",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game Two: Riches and Influence",
+    "englishGuide": "In the Carthage campaign's Game Two: Riches and Influence, complete 10 scenario objectives to earn Gold Victory.",
+    "englishTactic": "Add trade and military infrastructure to island expansion: several productive ports, a sufficient fleet, and diverse Resources. Preserve a possible diplomatic partner if pursuing that branch; for war, position Settlers near liberated City Sites.",
+    "englishEditor": "No — the game must register ten objectives within the scenario."
   },
   {
     "id": "a223",
@@ -8075,7 +8151,11 @@
     "englishName": "Get the Hellas Out",
     "englishCondition": "Win the Battle of Plataea (Heroes of the Aegean 2)",
     "englishApiName": "ACHIEVEMENT_GREECE2_PLATAEA_WIN",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 2: On Land and Sea",
+    "englishGuide": "Reach the final land chapter and complete the victory objective at Plataea. The achievement comes with winning that battle.",
+    "englishTactic": "Preserve veteran troops from earlier stages. At Plataea, keep a coherent line, remove dangerous targets with coordinated attacks, and avoid stretching across the front.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a226",
@@ -8106,7 +8186,11 @@
     "englishName": "The Turning Point",
     "englishCondition": "Win the Battle of Salamis (Heroes of the Aegean 2)",
     "englishApiName": "ACHIEVEMENT_GREECE2_SALAMIS_WIN",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 2: On Land and Sea",
+    "englishGuide": "In the second chapter, destroy the Persian fleet and complete the Battle of Salamis objective.",
+    "englishTactic": "Position ships so several can attack the same target. Use narrow waters, finish damaged enemy ships, and pull wounded vessels out of retaliatory fire.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a227",
@@ -8139,7 +8223,11 @@
     "englishName": "Like a Lion",
     "englishCondition": "Kill 20 Persian units at Thermopylae (Heroes of the Aegean 2)",
     "englishApiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_20",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 2: On Land and Sea",
+    "englishGuide": "In Heroes of the Aegean 2: On Land and Sea, kill at least 20 Persian units at Thermopylae before the first chapter ends.",
+    "englishTactic": "Stay inside the pass rather than meeting the whole Persian army. Rotate damaged defenders, focus fire, and keep the finishing blow for your unit.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a228",
@@ -8384,7 +8472,11 @@
     "englishName": "Kmt Unified",
     "englishCondition": "Minor Victory (Egypt scenario 1)",
     "englishApiName": "ACHIEVEMENT_EGYPT1_MINOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 1: Unification",
+    "englishGuide": "Expel the Hyksos from Ta-Mehu, conquer Kerma, and unify Kemet. A normal victory requires winning without meeting both extra Greater Victory conditions: taking Buhen quickly and fully defeating Kerma with its capital Pnubs.",
+    "englishTactic": "Focus the army on the Hyksos first; the opening objective has a 12-turn limit. Then move south through Buhen. For a normal victory, completing unification is enough.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a235",
@@ -8516,7 +8608,11 @@
     "englishName": "Carthage - Rise of Rome",
     "englishCondition": "Win Carthage scenario 3",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_3",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game Three: Rise of Rome",
+    "englishGuide": "Complete the Carthage campaign's Game Three: Rise of Rome with Bronze, Silver, Gold, or Epic Victory. Bronze needs 6 scenario objectives.",
+    "englishTactic": "The scenario opens under military pressure. Hold Panormus, ready the fleet for early Roman attacks, and spend Orders on key defenses. Once stable, pursue additional economic and military objectives.",
+    "englishEditor": "No — complete the built-in scenario and earn one of its victory tiers."
   },
   {
     "id": "a239",
@@ -8547,7 +8643,11 @@
     "englishName": "Bronze Victory (Carthage 3)",
     "englishCondition": "Win a Bronze Victory in Carthage scenario 3",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_3_BRONZE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game Three: Rise of Rome",
+    "englishGuide": "In the Carthage campaign's Game Three: Rise of Rome, complete 6 scenario objectives to earn Bronze Victory. Higher victory tiers also pass this threshold.",
+    "englishTactic": "The first goals focus on survival: hold Panormus, counter Roman ships, and repel invasions. Reinforce the city, repair damaged ships, and concentrate naval attacks; then take simpler army or development goals.",
+    "englishEditor": "No — the game must register six objectives within the scenario."
   },
   {
     "id": "a240",
@@ -8580,7 +8680,11 @@
     "englishName": "Rmt n Kmt Buhen",
     "englishCondition": "Capture Buhen quickly (Egypt scenario 1)",
     "englishApiName": "ACHIEVEMENT_EGYPT1_BUHEN",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 1: Unification",
+    "englishGuide": "After expelling the Hyksos, complete the Break Through and Take Buhen Quickly objective before Kerma can assemble its army.",
+    "englishTactic": "Prepare a mobile southern force during the northern war. When the objective appears, head directly to Buhen, weaken its garrison at range, and keep a fresh unit to capture it.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a241",
@@ -8613,7 +8717,11 @@
     "englishName": "Greater Kmt Unified",
     "englishCondition": "Major Victory (Egypt scenario 1)",
     "englishApiName": "ACHIEVEMENT_EGYPT1_MAJOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 1: Unification",
+    "englishGuide": "Eliminate the Hyksos in the first 12 turns, take Buhen quickly, then fully defeat Kerma and capture its capital Pnubs within 15 turns.",
+    "englishTactic": "Keep the army together after the northern campaign. Send reinforcements south early, capture Buhen, and continue to Pnubs before Kerma recovers.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a242",
@@ -8677,7 +8785,11 @@
     "englishName": "The Olive Wreath",
     "englishCondition": "Win an Olympic race (Heroes of the Aegean 3)",
     "englishApiName": "ACHIEVEMENT_GREECE3_OLYMPICS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 3: Rise of Macedon",
+    "englishGuide": "Complete the optional Hold the Olympic Games objective and win the associated horse race. Both completion and the race victory are required.",
+    "englishTactic": "Start the Games before the scenario’s end, with required resources prepared. Save before the competition events.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a244",
@@ -8708,7 +8820,11 @@
     "englishName": "Those Were Mine",
     "englishCondition": "Retake Paionia (Heroes of the Aegean 3)",
     "englishApiName": "ACHIEVEMENT_GREECE3_PAIONIA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 3: Rise of Macedon",
+    "englishGuide": "Complete the Paeonia story objective by destroying three marked Paeonian camps.",
+    "englishTactic": "Move the army from camp to camp as one force. Defeat defenders before clearing a site, and do not leave isolated units near reinforcements.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a245",
@@ -8739,7 +8855,11 @@
     "englishName": "Three's a Crowd",
     "englishCondition": "Have three wives as Philip (Heroes of the Aegean 3)",
     "englishApiName": "ACHIEVEMENT_GREECE3_THREE_WIVES",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 3: Rise of Macedon",
+    "englishGuide": "Arrange the available story marriages without divorcing: Philip must have three spouses at once. The condition is checked at the beginning of the next turn.",
+    "englishTactic": "Choose marriage options, including the optional Thessalian marriage. Keep the spouses safe and wait one turn after the third wedding.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a246",
@@ -8774,7 +8894,11 @@
     "englishName": "Learn By Playing 3 - Good",
     "englishCondition": "Complete Learn By Playing 3 - Good",
     "englishApiName": "ACHIEVEMENT_LBP3",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Learn By Playing 3: Good",
+    "englishGuide": "Choose Learn By Playing 3 as Persia on Good difficulty and win the game. This is a full game on a fixed medium map with rainy coastal lowlands, not a short Tutorial scenario.",
+    "englishTactic": "Connect cities by Roads, develop production, and position mounted units to respond quickly. Keep pace in city count and work toward victory before rivals grow stronger.",
+    "englishEditor": "No — win the built-in Learn By Playing 3: Good game."
   },
   {
     "id": "a247",
@@ -8973,7 +9097,11 @@
     "englishName": "Epic Victory (Carthage 1)",
     "englishCondition": "Win an Epic Victory in Carthage scenario 1",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_1_EPIC",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game One: Ox Hide",
+    "englishGuide": "In the Carthage campaign's Game One: Ox Hide, complete every objective offered in this game to earn Epic Victory.",
+    "englishTactic": "Complete every timed goal. Explore ahead, develop all four Family tracks, and keep Money, Stone, Wood, and Civics reserves. Prepare Workers, cities, and troops before each new goal so the entire chain keeps moving.",
+    "englishEditor": "No — the full scenario objective chain must be completed."
   },
   {
     "id": "a253",
@@ -9004,7 +9132,11 @@
     "englishName": "Epic Victory (Carthage 2)",
     "englishCondition": "Win an Epic Victory in Carthage scenario 2",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_2_EPIC",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game Two: Riches and Influence",
+    "englishGuide": "In the Carthage campaign's Game Two: Riches and Influence, complete every objective offered in this game to earn Epic Victory.",
+    "englishTactic": "Prepare for the full chain from turn one: scout the western Mediterranean, settle islands and Iberia rapidly, and develop fleet, trade, and resources together. Track Family deadlines and reserve Orders and materials.",
+    "englishEditor": "No — the full scenario objective chain must be completed."
   },
   {
     "id": "a254",
@@ -9114,7 +9246,11 @@
     "englishName": "Still Fighting",
     "englishCondition": "Kill 30 Persian units at Thermopylae (Heroes of the Aegean 2)",
     "englishApiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_30",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 2: On Land and Sea",
+    "englishGuide": "In Heroes of the Aegean 2: On Land and Sea, kill at least 30 Persian units at Thermopylae before the first chapter ends.",
+    "englishTactic": "Survival matters at this count. Rotate wounded defenders, heal and promote them, and keep fresh troops behind the line for replacements.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a257",
@@ -9145,7 +9281,11 @@
     "englishName": "What's 'hubris' in Greek?",
     "englishCondition": "Name two cities after yourself (Heroes of the Aegean 3)",
     "englishApiName": "ACHIEVEMENT_GREECE3_THRACIANS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 3: Rise of Macedon",
+    "englishGuide": "Capture the Thracian cities of Crenides and Eumolpia. Both must be under your control and renamed in Philip’s honor as the scenario requires.",
+    "englishTactic": "Advance into Thrace systematically and hold both cities until the next turn. Do not make peace before Macedon controls them.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a258",
@@ -9180,7 +9320,11 @@
     "englishName": "Learn By Playing 4 - Strong",
     "englishCondition": "Complete Learn By Playing 4 - Strong",
     "englishApiName": "ACHIEVEMENT_LBP4",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Learn By Playing 4: Strong",
+    "englishGuide": "Choose Learn By Playing 4 as Rome on Strong difficulty and win the game. This is a full game on a fixed medium deciduous-forest map, not a short Tutorial scenario.",
+    "englishTactic": "Use forests as a resource source, develop military production, and avoid spreading the army across several fronts. Secure borders and a stable economy before pursuing one victory.",
+    "englishEditor": "No — win the built-in Learn By Playing 4: Strong game."
   },
   {
     "id": "a259",
@@ -9363,7 +9507,11 @@
     "englishName": "Silver Victory (Carthage 3)",
     "englishCondition": "Win a Silver Victory in Carthage scenario 3",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_3_SILVER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game Three: Rise of Rome",
+    "englishGuide": "In the Carthage campaign's Game Three: Rise of Rome, complete 8 scenario objectives to earn Silver Victory.",
+    "englishTactic": "Do more than defend. After the first Roman attacks, rebuild the fleet and army, secure the sea route to Sicily, and prepare a counterattack. Pair this with two peaceful goals such as Specialists, Laws, or a city Project.",
+    "englishEditor": "No — the game must register eight objectives within the scenario."
   },
   {
     "id": "a264",
@@ -9394,7 +9542,11 @@
     "englishName": "Carthage - Seizing Destiny",
     "englishCondition": "Win Carthage scenario 4",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_4",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game Four: Seizing Destiny",
+    "englishGuide": "Complete the Carthage campaign's Game Four: Seizing Destiny with Bronze, Silver, Gold, or Epic Victory. Bronze needs 6 scenario objectives.",
+    "englishTactic": "Lead Hannibal through Europe and the Alps without stripping other lands of defense. The scenario tests both the Italian campaign and defense of Iberia and Africa. Reinforce the expedition and keep garrisons and a mobile reserve at home.",
+    "englishEditor": "No — complete the built-in scenario and earn one of its victory tiers."
   },
   {
     "id": "a265",
@@ -9425,7 +9577,11 @@
     "englishName": "Bronze Victory (Carthage 4)",
     "englishCondition": "Win a Bronze Victory in Carthage scenario 4",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_4_BRONZE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game Four: Seizing Destiny",
+    "englishGuide": "In the Carthage campaign's Game Four: Seizing Destiny, complete 6 scenario objectives to earn Bronze Victory. Higher victory tiers also pass this threshold.",
+    "englishTactic": "Focus on Hannibal’s main stages: enlarge his army, clear the route through the Volcae, cross the Alps, and defeat Roman forces in Italy. Leave enough troops to defend Iberia and Africa.",
+    "englishEditor": "No — the game must register six objectives within the scenario."
   },
   {
     "id": "a266",
@@ -9456,7 +9612,11 @@
     "englishName": "Carthage Campaign",
     "englishCondition": "Complete the Carthage Campaign",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_CAMPAIGN",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage Campaign",
+    "englishGuide": "Complete all four Carthage campaign games in order: Ox Hide, Riches and Influence, Rise of Rome, and Seizing Destiny. Any victory tier in each game counts.",
+    "englishTactic": "For campaign completion alone, play each game at a comfortable difficulty and stop at the 6-objective Bronze threshold. The focus changes from founding Carthage to maritime expansion, Roman defense, and Hannibal’s campaign; medal goals can be replayed later.",
+    "englishEditor": "No — the entire built-in campaign must be completed."
   },
   {
     "id": "a267",
@@ -9641,7 +9801,11 @@
     "englishName": "Gold Victory (Carthage 3)",
     "englishCondition": "Win a Gold Victory in Carthage scenario 3",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_3_GOLD",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game Three: Rise of Rome",
+    "englishGuide": "In the Carthage campaign's Game Three: Rise of Rome, complete 10 scenario objectives to earn Gold Victory.",
+    "englishTactic": "Gold needs a working economy as well as defense. Hold Panormus, preserve veteran ships for major battles, and keep land reserves for Africa and Sicily. Save resources for Laws, buildings, and diplomatic missions between attacks.",
+    "englishEditor": "No — the game must register ten objectives within the scenario."
   },
   {
     "id": "a272",
@@ -9672,7 +9836,11 @@
     "englishName": "Gold Victory (Carthage 4)",
     "englishCondition": "Win a Gold Victory in Carthage scenario 4",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_4_GOLD",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game Four: Seizing Destiny",
+    "englishGuide": "In the Carthage campaign's Game Four: Seizing Destiny, complete 10 scenario objectives to earn Gold Victory.",
+    "englishTactic": "Divide the empire’s work: Hannibal advances in Italy, western cities protect Iberia, and African and island cities build reserves and fleets. Start long-term Culture, Science, Civics, Specialist, and fortification goals early.",
+    "englishEditor": "No — the game must register ten objectives within the scenario."
   },
   {
     "id": "a273",
@@ -9703,7 +9871,11 @@
     "englishName": "Silver Victory (Carthage 4)",
     "englishCondition": "Win a Silver Victory in Carthage scenario 4",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_4_SILVER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game Four: Seizing Destiny",
+    "englishGuide": "In the Carthage campaign's Game Four: Seizing Destiny, complete 8 scenario objectives to earn Silver Victory.",
+    "englishTactic": "After crossing the Alps, sustain Hannibal’s advance while maintaining separate troops and production at home. Capture Roman cities, protect allies, and retake islands with prepared forces rather than marching the whole army back.",
+    "englishEditor": "No — the game must register eight objectives within the scenario."
   },
   {
     "id": "a274",
@@ -9772,7 +9944,11 @@
     "englishName": "Prosperous Kmt",
     "englishCondition": "Minor Victory (Egypt scenario 2)",
     "englishApiName": "ACHIEVEMENT_EGYPT2_MINOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 2: Nswt-bjtj's Rule",
+    "englishGuide": "By the end of turn 60, complete the five standard tracks: build a Mortuary Temple, expand Karnak to four structures, spread the Cult of Amun six times, finish five Caravans, and eliminate the Hyksos.",
+    "englishTactic": "Advance all tracks in parallel. Assign cities to Karnak and Caravans, prepare a site near Waset for the Mortuary Temple, and keep the war moving while the economy handles construction.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a276",
@@ -9803,7 +9979,11 @@
     "englishName": "I am the Archon Now",
     "englishCondition": "Subjugate Athens (Heroes of the Aegean 3)",
     "englishApiName": "ACHIEVEMENT_GREECE3_ATHENS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 3: Rise of Macedon",
+    "englishGuide": "Complete the Subdue Athens objective by capturing four cities held by Athens and its allies.",
+    "englishTactic": "Remove Athens’s border cities and reinforcement routes first. Garrison captures and continue with the main army on one front.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a277",
@@ -9834,7 +10014,11 @@
     "englishName": "If? Then!",
     "englishCondition": "Subjugate Sparta (Heroes of the Aegean 3)",
     "englishApiName": "ACHIEVEMENT_GREECE3_SPARTA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 3: Rise of Macedon",
+    "englishGuide": "After Sparta’s response, complete its subjugation objective by killing five Spartan units.",
+    "englishTactic": "Draw Spartans out instead of attacking fortified positions one unit at a time. Focus fire and watch the counter for Spartan losses specifically.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a278",
@@ -9865,7 +10049,11 @@
     "englishName": "Unfinished Business",
     "englishCondition": "Win Philip's scenario (Heroes of the Aegean 3)",
     "englishApiName": "ACHIEVEMENT_GREECE3_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 3: Rise of Macedon",
+    "englishGuide": "Complete Philip’s main story objectives and win the scenario. Optional objectives are not needed.",
+    "englishTactic": "Secure the north, subdue Thessaly, Athens, and Sparta, then prepare for Persia and Cleopatra’s wedding. Check the objective journal before finishing each stage.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a279",
@@ -9896,7 +10084,11 @@
     "englishName": "Philip's Bronze Crown",
     "englishCondition": "Complete the main victory goals as Philip (Heroes of the Aegean 3)",
     "englishApiName": "ACHIEVEMENT_GREECE3_VICTORY_BRONZE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 3: Rise of Macedon",
+    "englishGuide": "Win through the main objective chain. The optional Illyrian elimination, Thessalian marriage, and Olympic Games are not needed for Philip’s Bronze Crown.",
+    "englishTactic": "Focus on required objectives. Before the finale, finish preparations for the Persian campaign and wedding.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a280",
@@ -9927,7 +10119,11 @@
     "englishName": "Philip's Silver Crown",
     "englishCondition": "Complete two optional victory goals as Philip (Heroes of the Aegean 3)",
     "englishApiName": "ACHIEVEMENT_GREECE3_VICTORY_SILVER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 3: Rise of Macedon",
+    "englishGuide": "In addition to the main chain, complete two of three optional objectives: eliminate the Illyrians, marry the Thessalian woman, and hold the Olympic Games.",
+    "englishTactic": "Choose two compatible goals early. The marriage fits the Thessalian campaign, Illyrian elimination fits the northern campaign, and the Games require separate resources and time.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a281",
@@ -9958,7 +10154,11 @@
     "englishName": "Mighty Bucephalus",
     "englishCondition": "Kill 10 units with Alexander on Bucephalus (Heroes of the Aegean 5)",
     "englishApiName": "ACHIEVEMENT_GREECE5_BUCEPHALUS_10_KILLS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 5: Megas Basileus",
+    "englishGuide": "Use a mounted unit with Alexander as General and Bucephalus, and deliver 10 killing blows with that unit.",
+    "englishTactic": "Weaken targets with other troops and leave the finishing blows to Alexander. Protect and heal his cavalry between fights, beginning the count in early chapters.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a282",
@@ -9989,7 +10189,11 @@
     "englishName": "Knot So Hard",
     "englishCondition": "Cut the Gordian Knot (Heroes of the Aegean 5)",
     "englishApiName": "ACHIEVEMENT_GREECE5_GORDIAN_KNOT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 5: Megas Basileus",
+    "englishGuide": "Complete the optional objective at Gordium and choose the event option where Alexander cuts the knot.",
+    "englishTactic": "Do not bypass Gordium on the way through Asia Minor. Take it before the army moves too far east, and save before the knot event.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a283",
@@ -10020,7 +10224,11 @@
     "englishName": "A Tyresome Siege",
     "englishCondition": "Complete the Siege of Tyre (Heroes of the Aegean 5)",
     "englishApiName": "ACHIEVEMENT_GREECE5_TYRE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 5: Megas Basileus",
+    "englishGuide": "After the victory at Issus, complete the story objective to capture Tyre and finish its siege.",
+    "englishTactic": "Bring troops and siege support to the coast in advance. Isolate defenders, wear down defenses, and keep the main army focused until Tyre falls.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a284",
@@ -10462,7 +10670,11 @@
     "englishName": "Epic Victory (Carthage 3)",
     "englishCondition": "Win an Epic Victory in Carthage scenario 3",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_3_EPIC",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game Three: Rise of Rome",
+    "englishGuide": "In the Carthage campaign's Game Three: Rise of Rome, complete every objective offered in this game to earn Epic Victory.",
+    "englishTactic": "Preserve key cities and veteran ships from the start: losing Panormus or too many ships can block later goals. Finish urgent military requests at once and use quiet periods for development, Laws, Mercenaries, and resources.",
+    "englishEditor": "No — the full scenario objective chain must be completed."
   },
   {
     "id": "a297",
@@ -10493,7 +10705,11 @@
     "englishName": "Epic Victory (Carthage 4)",
     "englishCondition": "Win an Epic Victory in Carthage scenario 4",
     "englishApiName": "ACHIEVEMENT_CARTHAGE_4_EPIC",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Carthage — Game Four: Seizing Destiny",
+    "englishGuide": "In the Carthage campaign's Game Four: Seizing Destiny, complete every objective offered in this game to earn Epic Victory.",
+    "englishTactic": "Advance military and economic goals in parallel from turn one. Do not pull Hannibal out of Italy to defend Africa; build a separate army there. Preserve Syracuse and Archimedes, retake island cities, and stockpile resources for late goals.",
+    "englishEditor": "No — the full scenario objective chain must be completed."
   },
   {
     "id": "a298",
@@ -10658,7 +10874,11 @@
     "englishName": "Glory to The Aten",
     "englishCondition": "Major Victory (Egypt scenario 3)",
     "englishApiName": "ACHIEVEMENT_EGYPT3_MAJOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 3: One True God",
+    "englishGuide": "Complete Akhenaten’s chain in order: found Akhetaten within 1 turn, build the Aten Temple within 5, spread the Cult to 6 cities within 15, enact Monotheism within 10, make the Cult of Aten the State Religion within 5, and capture all Cult of Amun cities.",
+    "englishTactic": "Prepare each step before finishing the previous one. Keep a Worker for the Temple, train Aten Disciples early, save Civics for the Law, and position troops near Amun’s lands.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a302",
@@ -10691,7 +10911,11 @@
     "englishName": "Akhenaten's Legacy",
     "englishCondition": "Minor Victory (Egypt scenario 3)",
     "englishApiName": "ACHIEVEMENT_EGYPT3_MINOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 3: One True God",
+    "englishGuide": "Establish the Cult of Aten and win the scenario through the required religious chain. A normal victory does not require every Greater Victory condition.",
+    "englishTactic": "Do not miss the short opening deadlines. Preserve the main army for the final conflict with Amun’s priests and station religious units near six different cities.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a303",
@@ -10722,7 +10946,11 @@
     "englishName": "Defend Where?",
     "englishCondition": "Lose the Marathon scenario (Heroes of the Aegean 1)",
     "englishApiName": "ACHIEVEMENT_GREECE1_LOSE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 1: Prologue",
+    "englishGuide": "Lose the scenario and confirm the final event. A reliable route is to start the last objective, Win at Marathon, and fail to destroy the Persian army within its 7-turn limit.",
+    "englishTactic": "Save separately before the last battle. Let the deadline expire for this achievement, then reload and win the scenario for the other goals.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a304",
@@ -10755,7 +10983,11 @@
     "englishName": "They Shall Not Pass",
     "englishCondition": "Kill 40 Persian units at Thermopylae (Heroes of the Aegean 2)",
     "englishApiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_40",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 2: On Land and Sea",
+    "englishGuide": "In Heroes of the Aegean 2: On Land and Sea, kill at least 40 Persian units at Thermopylae before the first chapter ends.",
+    "englishTactic": "Do not hasten the end of the phase. Hold the pass and turn every wave into safe finishing blows. Preserve strong units for the later waves.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a305",
@@ -10786,7 +11018,11 @@
     "englishName": "Shape of Things to Come",
     "englishCondition": "Kill a unit with young Alexander as general (Heroes of the Aegean 3)",
     "englishApiName": "ACHIEVEMENT_GREECE3_ALEXANDER_KILL",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 3: Rise of Macedon",
+    "englishGuide": "Once Alexander is available as a General, assign him to a military unit and use that unit to deal a killing blow.",
+    "englishTactic": "Weaken an enemy with another unit first, then give Alexander a safe finishing attack. Do not risk him against an undamaged strong enemy.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a306",
@@ -10817,7 +11053,11 @@
     "englishName": "Philip's Golden Crown",
     "englishCondition": "Complete all the optional victory goals as Philip (Heroes of the Aegean 3)",
     "englishApiName": "ACHIEVEMENT_GREECE3_VICTORY_GOLD",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 3: Rise of Macedon",
+    "englishGuide": "Before the finale, complete the whole main chain, fully eliminate the Illyrians, arrange the Thessalian marriage, and hold the Olympic Games.",
+    "englishTactic": "Plan all three optional goals from the start: finish the Illyrians in the north, marry in Thessaly, and save resources for the Games.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a307",
@@ -10848,7 +11088,11 @@
     "englishName": "Queen of Politics",
     "englishCondition": "Gain Control of all Cities (Heroes of the Aegean 4)",
     "englishApiName": "ACHIEVEMENT_GREECE4_CITIES",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 4: Queen Olympias",
+    "englishGuide": "Bring every city on the map under Olympias’s Influence. The achievement triggers when Influence is established over the last city.",
+    "englishTactic": "Develop Influence in several directions, but finish each action you start. Take nearby, cheaper cities first so their income supports pressure on distant ones.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a308",
@@ -10879,7 +11123,11 @@
     "englishName": "Queen of Intrigue",
     "englishCondition": "Complete the Intrigue Tree (Heroes of the Aegean 4)",
     "englishApiName": "ACHIEVEMENT_GREECE4_INTRIGUE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 4: Queen Olympias",
+    "englishGuide": "Accumulate Intrigue and complete every project in the Intrigue tree, including its final branches.",
+    "englishTactic": "Maintain Intrigue production and avoid spending it on actions that do not advance the next tree step. Check for unfinished side branches before the story finale.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a309",
@@ -10910,7 +11158,11 @@
     "englishName": "Gate to Victory",
     "englishCondition": "Win the Battle of Persian Gate (Heroes of the Aegean 5)",
     "englishApiName": "ACHIEVEMENT_GREECE5_PERSIAN_GATE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 5: Megas Basileus",
+    "englishGuide": "On the way to Persepolis, win the special battle stage at the Persian Gates.",
+    "englishTactic": "Bring a healthy assault group to the pass. Do not attack the narrow defense piecemeal: weaken reachable targets at range, then finish with melee units.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a310",
@@ -10941,7 +11193,11 @@
     "englishName": "Pharaoh",
     "englishCondition": "Get Alexander recognized as Pharaoh (Heroes of the Aegean 5)",
     "englishApiName": "ACHIEVEMENT_GREECE5_PHARAOH",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 5: Megas Basileus",
+    "englishGuide": "Complete the optional Egyptian objective: personally bring Alexander to the temple at the Siwa Oasis and finish its event.",
+    "englishTactic": "Plan the Egyptian detour before Persia’s final defeat. Escort Alexander and reserve enough Orders that the visit to Siwa does not stall the eastern campaign.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a311",
@@ -10974,7 +11230,11 @@
     "englishName": "Alexander the Mediocre",
     "englishCondition": "Defeat the Persian Empire (Heroes of the Aegean 5)",
     "englishApiName": "ACHIEVEMENT_GREECE5_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 5: Megas Basileus",
+    "englishGuide": "Complete Alexander’s main campaign: establish a position in Asia Minor, win at Issus, take Tyre and Gaza, then Babylon, Susa, and Persepolis, and finish Persia’s defeat.",
+    "englishTactic": "Keep the army concentrated and leave only enough troops to hold the rear. Heal during travel and send reinforcements toward the next story objective in advance.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a312",
@@ -11302,7 +11562,11 @@
     "englishName": "Sepat Wase Forever",
     "englishCondition": "Fail to capture Ta-mehu (Egypt scenario 1)",
     "englishApiName": "ACHIEVEMENT_EGYPT1_MAJOR_DEFEAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 1: Unification",
+    "englishGuide": "Fail to eliminate the Hyksos within the first 12 turns and continue to the scenario defeat screen.",
+    "englishTactic": "Save at the beginning. For this achievement, leave key Hyksos cities untaken until the opening deadline expires; then reload to play for victory.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a321",
@@ -11335,7 +11599,11 @@
     "englishName": "Pharaonic Greater Kmt Unified",
     "englishCondition": "Major Victory on Pharaoh (Egypt scenario 1)",
     "englishApiName": "ACHIEVEMENT_EGYPT1_PHARAOH_MAJOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 1: Unification",
+    "englishGuide": "Select Pharaoh difficulty before starting. Eliminate the Hyksos within 12 turns, take Buhen quickly, and fully defeat Kerma with the capture of Pnubs within 15 turns.",
+    "englishTactic": "Spend Orders on progress toward the active objective. Concentrate attacks, heal while moving, and produce reinforcements in advance for an immediate southern campaign.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a322",
@@ -11368,7 +11636,11 @@
     "englishName": "Pharaonic Kmt Unified",
     "englishCondition": "Minor Victory on Pharaoh (Egypt scenario 1)",
     "englishApiName": "ACHIEVEMENT_EGYPT1_PHARAOH_MINOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 1: Unification",
+    "englishGuide": "On Pharaoh difficulty, unify Ta-Mehu and Ta-Shema and complete the scenario with a normal victory. Greater Victory is not required.",
+    "englishTactic": "Secure required stages rather than chasing the best result. Preserve veteran troops between northern and southern wars, and do not delay the move against Kerma.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a323",
@@ -11401,7 +11673,11 @@
     "englishName": "Golden Age-less",
     "englishCondition": "Fail to achieve Egypt's Golden Age (Egypt scenario 2)",
     "englishApiName": "ACHIEVEMENT_EGYPT2_DEFEAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 2: Nswt-bjtj's Rule",
+    "englishGuide": "Fail to complete the set of standard scenario objectives by turn 60 and receive the normal defeat result.",
+    "englishTactic": "Save separately near the deadline. Leave one or more standard tracks incomplete—monuments, Religion, trade, tomb, or war—and wait for the final evaluation.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a324",
@@ -11434,7 +11710,11 @@
     "englishName": "Kmt Golden Age",
     "englishCondition": "Major Victory (Egypt scenario 2)",
     "englishApiName": "ACHIEVEMENT_EGYPT2_MAJOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 2: Nswt-bjtj's Rule",
+    "englishGuide": "Complete every standard and Greater goal: a Mortuary Temple and 6 Obelisks in different cities; 4, then 7 Karnak structures; 6 plus 6 Cult of Amun spreads; 5 plus 5 completed Caravans; elimination of the Hyksos and expansion to 15 cities.",
+    "englishTactic": "Plan for Greater Victory from turn one. Specialize cities, keep training Caravans, and expand toward Shrine sites. Military expansion should also advance the 15-city requirement.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a325",
@@ -11467,7 +11747,11 @@
     "englishName": "Akhen-who?",
     "englishCondition": "Fail to achieve Akhenaten's Goals (Egypt scenario 3)",
     "englishApiName": "ACHIEVEMENT_EGYPT3_MAJOR_DEFEAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 3: One True God",
+    "englishGuide": "Fail several key stages of Akhenaten’s chain, or let his reforms collapse completely, so the scenario ends in a Greater Defeat.",
+    "englishTactic": "Use a separate save and deliberately neglect religious infrastructure, the Law, and forces against the Cult of Amun. The result must be worse than missing one early objective.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a326",
@@ -11500,7 +11784,11 @@
     "englishName": "Ramesses II The Great",
     "englishCondition": "Major Victory at Battle of Qadesh (Egypt scenario 4)",
     "englishApiName": "ACHIEVEMENT_EGYPT4_MAJOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 4: Clash of Giants",
+    "englishGuide": "Defeat the Hittite army and occupy the Qadesh city tile with one of your units when the battle ends. The battle ends when one army has half as many units as the other.",
+    "englishTactic": "Send the Scout to the Ptah and Set divisions, hold the camp, and await the Nearin reinforcements. Weaken the Hittites while moving a fresh unit toward Qadesh before the battle-ending threshold.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a327",
@@ -11533,7 +11821,11 @@
     "englishName": "Qadesh Victory",
     "englishCondition": "Minor Victory at Battle of Qadesh (Egypt scenario 4)",
     "englishApiName": "ACHIEVEMENT_EGYPT4_MINOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 4: Clash of Giants",
+    "englishGuide": "Reduce the Hittite army to half the Egyptian army’s size, but finish without occupying Qadesh.",
+    "englishTactic": "Preserve your troops and destroy vulnerable enemy units. Do not occupy Qadesh when combat ends, or the result may become a Greater Victory.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a328",
@@ -11566,7 +11858,11 @@
     "englishName": "Ramesses II KIA",
     "englishCondition": "As Kmt, Ramesses II killed in action at Battle of Qadesh (Egypt scenario 4)",
     "englishApiName": "ACHIEVEMENT_EGYPT4_RAMESSES_DEFEAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 4: Clash of Giants",
+    "englishGuide": "Let the unit commanded by Ramesses II die. The scenario then ends in a special defeat and grants the achievement.",
+    "englishTactic": "Save separately, move Ramesses’s chariot forward without protection, and let the Hittites focus attacks on it. Reload afterward for a normal run.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a329",
@@ -11599,7 +11895,11 @@
     "englishName": "Partly Balanced Ma'at",
     "englishCondition": "Kept Ma'at in balance, but not all reach Sekhet A'Aru (Egypt scenario 5)",
     "englishApiName": "ACHIEVEMENT_EGYPT5_MINOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 5: Ma'at",
+    "englishGuide": "At the final turn, keep Ma’at within the safe area near the center of the scale, but do not reach the perfect Greater Victory result. Keep Waset and Men-nefer.",
+    "englishTactic": "Check how each decision moves Ma’at. Alternate choices favoring Pharaoh and the priests, using the final turns for careful adjustment.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a330",
@@ -11632,7 +11932,11 @@
     "englishName": "History Repeats",
     "englishCondition": "Held against the Sea People (Egypt scenario 6)",
     "englishApiName": "ACHIEVEMENT_EGYPT6_MINOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 6: The Sea People",
+    "englishGuide": "Keep Waset and survive until the fourth invasion wave has finished. The end, not the beginning, of the fourth wave grants normal victory.",
+    "englishTactic": "Build several defensive lines, repair damaged Improvements, and hold a reserve near Waset. After wave four, you may finish or continue toward Greater Victory.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a331",
@@ -11665,7 +11969,11 @@
     "englishName": "Egypt Campaign",
     "englishCondition": "Completed the Egypt Campaign",
     "englishApiName": "ACHIEVEMENT_EGYPT_CAMPAIGN_COMPLETED",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile Campaign",
+    "englishGuide": "Complete the Pharaohs of the Nile campaign from 1: Unification through 6: The Sea People, earning at least normal victory in every scenario.",
+    "englishTactic": "Play through the campaign menu and save each chapter result. Greater Victories and Pharaoh difficulty are optional; finish all six chapters first and pursue alternate outcomes on separate saves.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a332",
@@ -11696,7 +12004,11 @@
     "englishName": "Not a Chance",
     "englishCondition": "Do not lose any ships in the Battle of Salamis (Heroes of the Aegean 2)",
     "englishApiName": "ACHIEVEMENT_GREECE2_SALAMIS_PERFECT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 2: On Land and Sea",
+    "englishGuide": "Complete the naval chapter of 2: On Land and Sea without losing a single ship. Damage is allowed; losing one of your vessels breaks the condition.",
+    "englishTactic": "Save before the battle. Keep damaged ships out of the front line, block approaches with healthy ships, and finish enemy targets to reduce return attacks.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a333",
@@ -11731,7 +12043,11 @@
     "englishName": "THIS IS SPARTA!!",
     "englishCondition": "Kill 50 Persian units at Thermopylae (Heroes of the Aegean 2)",
     "englishApiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_50",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 2: On Land and Sea",
+    "englishGuide": "In Heroes of the Aegean 2: On Land and Sea, kill at least 50 Persian units at Thermopylae before the first chapter ends.",
+    "englishTactic": "This is the maximum mark, so count kills from the first wave. Do not give finishing blows to allies; rotate wounded defenders and stay in the favorable pass.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a334",
@@ -11762,7 +12078,11 @@
     "englishName": "Not a Scratch",
     "englishCondition": "Win without Philip losing an eye (Heroes of the Aegean 3)",
     "englishApiName": "ACHIEVEMENT_GREECE3_NO_WOUND",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 3: Rise of Macedon",
+    "englishGuide": "Finish the scenario without Philip suffering his scripted injury. Once an event says he lost an eye, this attempt no longer qualifies.",
+    "englishTactic": "After turn 3, attacking with Philip as General can trigger the eye-loss event. Safest is not to assign him as an attacking General; if appointed, avoid attacks with his unit for the rest of the scenario.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a335",
@@ -11793,7 +12113,11 @@
     "englishName": "Queen of Lies",
     "englishCondition": "Win after Philip killed by Olympias (Heroes of the Aegean 4)",
     "englishApiName": "ACHIEVEMENT_GREECE4_WIN_OLYMPIAS_STORYLINE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 4: Queen Olympias",
+    "englishGuide": "Develop Olympias’s own conspiracy against Philip through events until he dies, then complete the remaining objectives and win. The achievement requires victory on Olympias’s branch.",
+    "englishTactic": "Save before selecting the final way to eliminate Philip. In this attempt, support Olympias’s own Intrigue network rather than giving the decisive role to Pausanias or the Persian plotters.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a336",
@@ -11824,7 +12148,11 @@
     "englishName": "Queen of Opportunity",
     "englishCondition": "Win after Philip killed by Pausanias (Heroes of the Aegean 4)",
     "englishApiName": "ACHIEVEMENT_GREECE4_WIN_PAUSANIAS_STORYLINE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 4: Queen Olympias",
+    "englishGuide": "Choose events that preserve and advance Pausanias’s path, wait for Philip’s assassination, and then win the scenario.",
+    "englishTactic": "Save before the three-way conspiracy branch. Do not remove Pausanias or let another branch carry out the killing; after Philip dies, keep building Influence until victory.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a337",
@@ -11855,7 +12183,11 @@
     "englishName": "Queen of War",
     "englishCondition": "Win after Philip killed by Persians (Heroes of the Aegean 4)",
     "englishApiName": "ACHIEVEMENT_GREECE4_WIN_PERSIA_STORYLINE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 4: Queen Olympias",
+    "englishGuide": "Let the Persian conspiracy remain active in the events, have Philip die through that branch, and then win the scenario.",
+    "englishTactic": "Do not dismantle the Persian network or finish Olympias’s or Pausanias’s branch first. A separate save before the decisive events lets you explore all three endings.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a338",
@@ -11888,7 +12220,11 @@
     "englishName": "Alexander the Alright",
     "englishCondition": "Defeat the Persian Empire in under 60 turns (Heroes of the Aegean 5)",
     "englishApiName": "ACHIEVEMENT_GREECE5_VICTORY_BETTER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 5: Megas Basileus",
+    "englishGuide": "Complete the main conquest of Persia before turn 60. Optional objectives are not required.",
+    "englishTactic": "Avoid backtracking and optional sieges. Plan a route from one main objective to the next, buy essential reinforcements, and save Orders for the assault group’s movement.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a339",
@@ -11919,7 +12255,11 @@
     "englishName": "Toppling the Giants",
     "englishCondition": "Win the Diadochi scenario as Cassander of Macedonia (Heroes of the Aegean 6)",
     "englishApiName": "ACHIEVEMENT_GREECE6_MACEDONIA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 6: Diadochi",
+    "englishGuide": "Play as Cassander and control all five key cities: Athens, Pella, Alexandria, Babylon, and Persepolis.",
+    "englishTactic": "Secure the western base at Pella and Athens first, then prepare the longer eastern campaign. Hold captured capitals and advance with one main army.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a340",
@@ -11950,7 +12290,11 @@
     "englishName": "The Eastern Empire",
     "englishCondition": "Win the Diadochi scenario as the Seleucid Empire (Heroes of the Aegean 6)",
     "englishApiName": "ACHIEVEMENT_GREECE6_SELEUCUS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 6: Diadochi",
+    "englishGuide": "Play as the Seleucids and control all five key cities: Athens, Pella, Alexandria, Babylon, and Persepolis.",
+    "englishTactic": "Use your eastern position: secure Babylon and Persepolis, then move west. Protect long supply routes and garrison key cities.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a341",
@@ -12805,7 +13149,11 @@
     "englishName": "Only Kem",
     "englishCondition": "Fail to capture Ta-shemau (Egypt scenario 1)",
     "englishApiName": "ACHIEVEMENT_EGYPT1_DEFEAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 1: Unification",
+    "englishGuide": "Win the Hyksos-war stage, then fail to eliminate Kerma within its 15-turn limit and continue to the defeat screen.",
+    "englishTactic": "Save after liberating Ta-Mehu. For this attempt, stop the southern offensive or leave Kerma’s final key city untaken until time runs out.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a364",
@@ -12838,7 +13186,11 @@
     "englishName": "Worst Pharaoh Ever",
     "englishCondition": "Fail to achieve any goals (Egypt scenario 2)",
     "englishApiName": "ACHIEVEMENT_EGYPT2_MAJOR_DEFEAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 2: Nswt-bjtj's Rule",
+    "englishGuide": "Fail Kemet’s major development tracks badly enough for the scenario to award a Greater Defeat rather than an ordinary loss.",
+    "englishTactic": "Use a separate save. Neglect several standard objectives together and do not recover before turn 60. Do not use this attempt for campaign progress.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a365",
@@ -12871,7 +13223,11 @@
     "englishName": "Pharaonic Kmt Golden Age",
     "englishCondition": "Major Victory on Pharaoh (Egypt scenario 2)",
     "englishApiName": "ACHIEVEMENT_EGYPT2_PHARAOH_MAJOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 2: Nswt-bjtj's Rule",
+    "englishGuide": "On Pharaoh difficulty, complete all standard and Greater personal, monumental, religious, trade, and military objectives by the end of turn 60.",
+    "englishTactic": "Start long goals immediately: six Obelisks, ten Caravans, and 15 cities are hard to finish at the end. Buy missing resources if needed while keeping city production continuous.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a366",
@@ -12904,7 +13260,11 @@
     "englishName": "Prosperous Pharaonic Kmt",
     "englishCondition": "Minor Victory on Pharaoh (Egypt scenario 2)",
     "englishApiName": "ACHIEVEMENT_EGYPT2_PHARAOH_MINOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 2: Nswt-bjtj's Rule",
+    "englishGuide": "On Pharaoh difficulty, complete all five standard goals by the end of turn 60. Their Greater extensions are not required.",
+    "englishTactic": "Track all five at once, and do not pursue Greater tiers before the standard goals are secure. Five completed Caravans and the Mortuary Temple near Waset are easy to overlook.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a367",
@@ -12937,7 +13297,11 @@
     "englishName": "Failed the Aten",
     "englishCondition": "Fail to establish Atenism (Egypt scenario 3)",
     "englishApiName": "ACHIEVEMENT_EGYPT3_DEFEAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 3: One True God",
+    "englishGuide": "Start the religious chain but miss one early deadline: Akhetaten within 1 turn, the Aten Temple within 5, spread to 6 cities within 15, Monotheism within 10, or the State Religion within 5 turns.",
+    "englishTactic": "For the quickest attempt, save at the start and do not found Akhetaten in the first turn. Reload afterward for a normal run.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a368",
@@ -12970,7 +13334,11 @@
     "englishName": "Pharaonic Glory to The Aten",
     "englishCondition": "Major Victory on Pharaoh (Egypt scenario 3)",
     "englishApiName": "ACHIEVEMENT_EGYPT3_PHARAOH_MAJOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 3: One True God",
+    "englishGuide": "On Pharaoh difficulty, complete the entire reform chain within its deadlines and defeat the Cult of Amun by capturing all its cities.",
+    "englishTactic": "Prepare before each stage unlocks. Save Orders and Civics, station Disciples near cities without Aten, and begin military deployment before the final objective appears.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a369",
@@ -13003,7 +13371,11 @@
     "englishName": "Akhenaten's Pharaonic Legacy",
     "englishCondition": "Minor Victory on Pharaoh (Egypt scenario 3)",
     "englishApiName": "ACHIEVEMENT_EGYPT3_PHARAOH_MINOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 3: One True God",
+    "englishGuide": "On Pharaoh difficulty, establish the Cult of Aten and finish the scenario with a normal victory.",
+    "englishTactic": "Prioritize every timer in the religious chain. If resources are tight, delay optional city growth and use production for the Temple, Disciples, and main-objective troops.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a370",
@@ -13036,7 +13408,11 @@
     "englishName": "Qadesh Defeat",
     "englishCondition": "Loss at Battle of Qadesh (Egypt scenario 4)",
     "englishApiName": "ACHIEVEMENT_EGYPT4_DEFEAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 4: Clash of Giants",
+    "englishGuide": "Let the Egyptian army fall to half the size of the Hittite army without also losing both Qadesh and the camp.",
+    "englishTactic": "Use a separate save. Expose ordinary units to enemy attacks, but protect Ramesses and the Scout unless pursuing their separate achievements.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a371",
@@ -13069,7 +13445,11 @@
     "englishName": "Destruction at Qadesh",
     "englishCondition": "Major Loss at Battle of Qadesh (Egypt scenario 4)",
     "englishApiName": "ACHIEVEMENT_EGYPT4_MAJOR_DEFEAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 4: Clash of Giants",
+    "englishGuide": "Allow the Hittites to take both Qadesh and the Egyptian camp for the most severe defeat outcome.",
+    "englishTactic": "On a separate save, withdraw defenders from both key positions and do not retake them. Avoid exposing Ramesses or the Scout if you want only this defeat achievement.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a372",
@@ -13102,7 +13482,11 @@
     "englishName": "Muwatalli II KIA",
     "englishCondition": "As Hatti, Muwatalli II killed in action at Battle of Qadesh (Egypt scenario 4)",
     "englishApiName": "ACHIEVEMENT_EGYPT4_MUWATALLI_DEFEAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 4: Clash of Giants",
+    "englishGuide": "Choose the Hittite side and let the unit commanded by Muwatalli II die.",
+    "englishTactic": "Save, move the royal unit ahead without support, and leave it exposed to coordinated Egyptian attacks. This is a separate attempt because the ruler’s death immediately causes a special outcome.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a373",
@@ -13135,7 +13519,11 @@
     "englishName": "Pharaonic Ramesses II The Great",
     "englishCondition": "Major Victory at Battle of Qadesh on Pharaoh (Egypt scenario 4)",
     "englishApiName": "ACHIEVEMENT_EGYPT4_PHARAOH_MAJOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 4: Clash of Giants",
+    "englishGuide": "On Pharaoh difficulty, defeat the Hittite army and occupy Qadesh with your unit when the battle ends.",
+    "englishTactic": "Preserve the starting forces until reinforcements arrive, and have the Scout deliver both messages. Do not end the battle before a healthy unit occupies Qadesh.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a374",
@@ -13168,7 +13556,11 @@
     "englishName": "Pharaonic Qadesh Victory",
     "englishCondition": "Minor Victory at Battle of Qadesh on Pharaoh (Egypt scenario 4)",
     "englishApiName": "ACHIEVEMENT_EGYPT4_PHARAOH_MINOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 4: Clash of Giants",
+    "englishGuide": "On Pharaoh difficulty, reduce the Hittite army to less than half your own and finish without the Greater Victory condition at Qadesh.",
+    "englishTactic": "Hold a line near the camp, await Ptah, Set, and Nearin, and eliminate isolated targets. Ensure your unit is not on Qadesh when the battle ends.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a375",
@@ -13201,7 +13593,11 @@
     "englishName": "Split the Army",
     "englishCondition": "Scout killed before getting message to Ptah and Set Divisions (Egypt scenario 4)",
     "englishApiName": "ACHIEVEMENT_EGYPT4_SCOUT_DEFEAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 4: Clash of Giants",
+    "englishGuide": "At the start of Qadesh, send the Scout but let it die before contacting both marked divisions.",
+    "englishTactic": "Save immediately after receiving the objective, then move the Scout through Hittite positions without an escort. Reload and use a safe detour for a normal run.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a376",
@@ -13234,7 +13630,11 @@
     "englishName": "Lost the Hearts of Kmt",
     "englishCondition": "Failed to win the Hearts of Kmt (Egypt scenario 5)",
     "englishApiName": "ACHIEVEMENT_EGYPT5_DEFEAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 5: Ma'at",
+    "englishGuide": "Finish with Ma’at outside the acceptable balance without a total collapse, or fail to restore the people’s trust by the final check.",
+    "englishTactic": "Save near the end and favor one side of the scale for several turns. For normal defeat, keep Waset and Men-nefer and avoid the catastrophic extreme.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a377",
@@ -13267,7 +13667,11 @@
     "englishName": "The Neter Collapsed",
     "englishCondition": "Failed so badly, the Neter collapsed and the universe stopped existing (Egypt scenario 5)",
     "englishApiName": "ACHIEVEMENT_EGYPT5_MAJOR_DEFEAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 5: Ma'at",
+    "englishGuide": "Drive Ma’at’s balance to a complete collapse of the world, or lose either key city: Waset or Men-nefer.",
+    "englishTactic": "Use a separate save. Repeatedly choose options that push the scale in one direction without correction, or leave one key city undefended.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a378",
@@ -13300,7 +13704,11 @@
     "englishName": "Won the Hearts of Kmt",
     "englishCondition": "Kept Ma'at in perfect balance and won the Hearts of Kmt (Egypt scenario 5)",
     "englishApiName": "ACHIEVEMENT_EGYPT5_MAJOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 5: Ma'at",
+    "englishGuide": "At the final turn, hold Ma’at at the exact ideal center and retain Waset and Men-nefer.",
+    "englishTactic": "Record the effect of each decision and plan offsetting actions. Near the end, avoid large shifts and reserve resources for a final correction toward the center.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a379",
@@ -13333,7 +13741,11 @@
     "englishName": "Won the Pharaonic Hearts of Kmt",
     "englishCondition": "Kept Ma'at in perfect balance on Pharaoh and won the Hearts of Kmt (Egypt scenario 5)",
     "englishApiName": "ACHIEVEMENT_EGYPT5_PHARAOH_MAJOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 5: Ma'at",
+    "englishGuide": "On Pharaoh difficulty, finish with Ma’at exactly centered, earn the people’s trust, and retain Waset and Men-nefer.",
+    "englishTactic": "Track each event from the start. Prevent a prolonged imbalance, defend both cities, and save the final decisions for precise balancing.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a380",
@@ -13366,7 +13778,11 @@
     "englishName": "Pharaonic Partly Balanced Ma'at",
     "englishCondition": "Kept Ma'at in balance on Pharaoh, but not all reach Sekhet A'Aru (Egypt scenario 5)",
     "englishApiName": "ACHIEVEMENT_EGYPT5_PHARAOH_MINOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 5: Ma'at",
+    "englishGuide": "On Pharaoh difficulty, finish with Ma’at in the safe area near the center, but without the perfect Greater Victory outcome.",
+    "englishTactic": "Do not favor one side for several turns in a row. Offset major shifts and protect Waset and Men-nefer through the final check.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a381",
@@ -13399,7 +13815,11 @@
     "englishName": "Kmt's Sunset",
     "englishCondition": "Couldn't handle the pressure (Egypt scenario 6)",
     "englishApiName": "ACHIEVEMENT_EGYPT6_DEFEAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 6: The Sea People",
+    "englishGuide": "Fail to survive the required Sea Peoples waves and lose the scenario, but avoid the earliest catastrophic outcome.",
+    "englishTactic": "Save after the invasion begins. For a normal loss, hold for a while, then stop replacing defenders and let the enemy take Waset.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a382",
@@ -13432,7 +13852,11 @@
     "englishName": "Worst.Ending.Possible.",
     "englishCondition": "Like you didn't even try (Egypt scenario 6)",
     "englishApiName": "ACHIEVEMENT_EGYPT6_MAJOR_DEFEAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 6: The Sea People",
+    "englishGuide": "Allow the defense to collapse almost immediately and lose Waset without significant resistance to the first waves.",
+    "englishTactic": "Use a separate attempt: withdraw defenders from Waset and train no replacements. Reload the opening save afterward.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a383",
@@ -13465,7 +13889,11 @@
     "englishName": "Re-writing History",
     "englishCondition": "Smashed the Sea People (Egypt scenario 6)",
     "englishApiName": "ACHIEVEMENT_EGYPT6_MAJOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 6: The Sea People",
+    "englishGuide": "Continue after normal victory and hold Waset until the eighth invasion wave finishes to earn Greater Victory.",
+    "englishTactic": "Do not spend all reserves on the first four waves. Rotate damaged troops, keep mobile units behind the line, and repair Roads and production between attacks.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a384",
@@ -13498,7 +13926,11 @@
     "englishName": "The Greatest Pharaoh!",
     "englishCondition": "Smashed the Sea People on Pharaoh (Egypt scenario 6)",
     "englishApiName": "ACHIEVEMENT_EGYPT6_PHARAOH_MAJOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 6: The Sea People",
+    "englishGuide": "On Pharaoh difficulty, retain Waset and survive until the eighth invasion wave has fully ended.",
+    "englishTactic": "Build defense in depth and do not chase retreating enemies far from Waset. Preserve the best troops for late waves and keep resources for urgent healing and replacements.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a385",
@@ -13531,7 +13963,11 @@
     "englishName": "Pharaonic History Repeats",
     "englishCondition": "Held against the Sea People on Pharaoh (Egypt scenario 6)",
     "englishApiName": "ACHIEVEMENT_EGYPT6_PHARAOH_MINOR_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Pharaohs of the Nile — 6: The Sea People",
+    "englishGuide": "On Pharaoh difficulty, hold Waset through the end of the fourth wave for a normal victory.",
+    "englishTactic": "Shorten the front around Waset, use fortifications, and rotate damaged units. Avoid distant counterattacks until the fourth wave has fully ended.",
+    "englishEditor": "No — the built-in historical scenario checks the result and its special conditions."
   },
   {
     "id": "a386",
@@ -13667,7 +14103,11 @@
     "englishName": "That Also Works",
     "englishCondition": "Find another way to win the Marathon scenario (Heroes of the Aegean 1)",
     "englishApiName": "ACHIEVEMENT_GREECE1_ALTERNATE_WIN",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 1: Prologue",
+    "englishGuide": "Fail to block the exits from Marathon Bay in the first 3 turns, but continue and still defeat Persia. Failing the opening objective unlocks this alternate victory path.",
+    "englishTactic": "Save first and deliberately miss the three-turn deadline. The Persians then have more room to leave the bay, so keep your formation and defeat separated enemy groups.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a390",
@@ -13702,7 +14142,11 @@
     "englishName": "Alexander the Great",
     "englishCondition": "Defeat the Persian Empire and become Pharaoh in under 50 turns (Heroes of the Aegean 5)",
     "englishApiName": "ACHIEVEMENT_GREECE5_VICTORY_BEST",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 5: Megas Basileus",
+    "englishGuide": "Before turn 50, bring Alexander to the Siwa temple, be recognized as Pharaoh, and fully complete the main objective chain against Persia.",
+    "englishTactic": "This is a timed route with a required Egyptian detour. Plan Siwa early while other troops move east. Skip Gordium, Pasargadae, and other optional goals if they delay the finale.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a391",
@@ -13733,7 +14177,11 @@
     "englishName": "Youth Prevails",
     "englishCondition": "Win the Diadochi scenario as the Antigonid Empire (Heroes of the Aegean 6)",
     "englishApiName": "ACHIEVEMENT_GREECE6_ANTIGONID",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 6: Diadochi",
+    "englishGuide": "Play as the Antigonids and control all five key cities: Athens, Pella, Alexandria, Babylon, and Persepolis.",
+    "englishTactic": "Your central position offers choices but invites a two-front war. Defeat the nearest rival and connect your holdings before taking the remaining capitals.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a392",
@@ -13764,7 +14212,11 @@
     "englishName": "Rule of Pharaohs",
     "englishCondition": "Win the Diadochi scenario as the Ptolemaic Kingdom (Heroes of the Aegean 6)",
     "englishApiName": "ACHIEVEMENT_GREECE6_PTOLEMY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishScenarioName": "Heroes of the Aegean — 6: Diadochi",
+    "englishGuide": "Play as the Ptolemies and control all five key cities: Athens, Pella, Alexandria, Babylon, and Persepolis.",
+    "englishTactic": "Hold Alexandria and build on Egypt’s economy. Advance through the Levant to Babylon and Persepolis; approach Athens and Pella with a prepared fleet and reserve.",
+    "englishEditor": "No — the built-in historical scenario checks this condition through its own scripts."
   },
   {
     "id": "a393",
