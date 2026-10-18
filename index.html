@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Old World Achievement Guide — Prototype v4</title>
+<title>Old World Achievements — Tracker &amp; Game Planner</title>
 <style>
 :root{
   --bg:#12110e;--panel:#242019;--panel2:#2b261d;--paper:#eadfc9;--muted:#a79b85;
@@ -1363,7 +1363,7 @@ function renderGoalGroups(){
    const allItems=plannerState.goals.filter(g=>g.tier===key);
    const items=allItems.filter(g=>visibleIds.has(g.a.id));
    if(!items.length)return '';
-   return `<div class="goalGroup"><div class="goalGroupHead"><div><h4>${esc(title)}</h4><span>${esc(sub)}</span></div><span>${items.length===allItems.length?items.length:`${items.length} <span class="countDetail">${esc(t('planner.ofTotal',{total:allItems.length}))}</span>`}</span></div><div class="goalRows">${items.map(g=>`<div class="goalRow"><input type="checkbox" ${g.selected?'checked':''} onchange="togglePlannerGoal('${g.a.id}',this.checked)"><div class="goalInfo"><div class="goalName">${esc(displayAchievementName(g.a))}</div><div class="goalCondition">${esc(achievementCondition(g.a))}</div>${g.a.plannerNote?'<div class="goalCondition plannerNote">'+esc(g.a.plannerNote)+'</div>':''}<div class="goalMeta"><span class="goalBadge">${esc(title)}</span>${g.a.nationalUnique?'<span class="goalBadge practicalBadge">'+esc(t('planner.uniqueUnit'))+'</span>':''}${goalIsPractical(g)?'<span class="goalBadge practicalBadge">'+esc(t('planner.practical'))+'</span>':''}${g.a.scenarioName?'<span class="goalBadge">'+esc(g.a.scenarioName)+'</span>':''}${g.a.cognomenLegitimacy!=null?'<span class="goalBadge">'+esc(t('achievement.legitimacyShort',{value:g.a.cognomenLegitimacy}))+'</span>':''}<span class="goalBadge score">+${g.score}</span><button class="goalDetails" onclick="openAch('${g.a.id}')">${esc(t('common.details'))}</button></div></div><div class="goalPts">+${g.score}</div></div>`).join('')}</div></div>`;
+   return `<div class="goalGroup"><div class="goalGroupHead"><div><h4>${esc(title)}</h4><span>${esc(sub)}</span></div><span>${items.length===allItems.length?items.length:`${items.length} <span class="countDetail">${esc(t('planner.ofTotal',{total:allItems.length}))}</span>`}</span></div><div class="goalRows">${items.map(g=>`<div class="goalRow"><input type="checkbox" ${g.selected?'checked':''} onchange="togglePlannerGoal('${g.a.id}',this.checked)"><div class="goalInfo"><div class="goalName">${esc(displayAchievementName(g.a))}</div><div class="goalCondition">${esc(achievementCondition(g.a))}</div>${g.a.plannerNote?'<div class="goalCondition plannerNote">'+esc(achievementDetail(g.a,'plannerNote'))+'</div>':''}<div class="goalMeta"><span class="goalBadge">${esc(title)}</span>${g.a.nationalUnique?'<span class="goalBadge practicalBadge">'+esc(t('planner.uniqueUnit'))+'</span>':''}${goalIsPractical(g)?'<span class="goalBadge practicalBadge">'+esc(t('planner.practical'))+'</span>':''}${g.a.scenarioName?'<span class="goalBadge">'+esc(g.a.scenarioName)+'</span>':''}${g.a.cognomenLegitimacy!=null?'<span class="goalBadge">'+esc(t('achievement.legitimacyShort',{value:g.a.cognomenLegitimacy}))+'</span>':''}<span class="goalBadge score">+${g.score}</span><button class="goalDetails" onclick="openAch('${g.a.id}')">${esc(t('common.details'))}</button></div></div><div class="goalPts">+${g.score}</div></div>`).join('')}</div></div>`;
  }).join('');
  const hint=document.getElementById('plannerGoalHint');
  if(hint){

@@ -166,7 +166,10 @@
     "englishName": "Armored Elephant",
     "englishCondition": "Train an Armored Elephant",
     "englishApiName": "ACHIEVEMENT_UNIT_ARMOURED_ELEPHANT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Maurya and train an Armored Elephant. This is the second-tier national unique unit. National unique units need no separate Technology: the first tier needs a Stronghold, and the second a Citadel.",
+    "englishTactic": "Build a Citadel in a military city and save Training and the other resources required for an Armored Elephant. You may train the first-tier unique unit and upgrade it.",
+    "englishEditor": "Partly — the Game Editor can prepare the city and resources, but placing a finished unit does not guarantee the achievement. Complete training the required unit normally."
   },
   {
     "id": "a006",
@@ -197,7 +200,10 @@
     "englishName": "Threat Averted",
     "englishCondition": "Eliminate the Huns (Empires of the Indus)",
     "englishApiName": "ACHIEVEMENT_THREAT_AVERTED",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Empires of the Indus, eliminate the Huns completely as a threat: destroy the Hun side or Horde until the relevant scenario condition is met.",
+    "englishTactic": "The Huns are stronger than ordinary Tribes. Prepare a mobile army and eliminate their camps and forces instead of merely repelling individual raids.",
+    "englishEditor": "Partly — the Game Editor can prepare the map, Nations, and units, but the required military or historical action must be completed and registered during a regular game."
   },
   {
     "id": "a007",
@@ -270,7 +276,10 @@
     "englishName": "Manichaeism",
     "englishCondition": "Found Manichaeism",
     "englishApiName": "ACHIEVEMENT_RELIGION_MANICHAEISM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Found Manichaeism: research Monasticism and have at least 2 Christian cities and 2 Zoroastrian cities in the world.",
+    "englishTactic": "This is a late World Religion. Do not suppress Christianity or Zoroastrianism too early: both must have spread to at least 2 cities.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a009",
@@ -301,7 +310,10 @@
     "englishName": "Regicide",
     "englishCondition": "Assassinate another nation's Leader",
     "englishApiName": "ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Successfully assassinate the current ruler of another Nation.",
+    "englishTactic": "Use the Assassinate mission through the appropriate Councilor or game mechanic. It has several possible outcomes, so you may need more than one attempt; the target ruler must actually die.",
+    "englishEditor": "Partly — the Game Editor can prepare the map, Nations, and units, but the required military or historical action must be completed and registered during a regular game."
   },
   {
     "id": "a010",
@@ -332,7 +344,10 @@
     "englishName": "It's a Jungle Out There",
     "englishCondition": "Cut Jungle vegetation (Empires of the Indus)",
     "englishApiName": "ACHIEVEMENT_JUNGLE_OUT_THERE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Empires of the Indus, have a Worker finish clearing a Jungle tile. The achievement triggers when Jungle is removed; Forest and Scrub do not count.",
+    "englishTactic": "Find Jungle within your borders, or expand to a suitable tile. Move a Worker there and clear the vegetation. You need not win the game or improve the cleared tile.",
+    "englishEditor": "Partly — the Editor can prepare a map with Jungle, but a Worker must finish clearing it in the game."
   },
   {
     "id": "a011",
@@ -441,7 +456,10 @@
     "englishName": "Buddhism",
     "englishCondition": "Found Buddhism",
     "englishApiName": "ACHIEVEMENT_RELIGION_BUDDHISM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Found Buddhism (Empires of the Indus). The Maurya can use their unique project; for other Nations, the DLC describes a later route after four World Theologies have been founded and the Philosophy Law has been enacted.",
+    "englishTactic": "The most controllable route is to play the Maurya and complete their Buddhist project. Other Nations depend on later religious development across the world.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a014",
@@ -617,7 +635,10 @@
     "englishName": "Enlightenment",
     "englishCondition": "Establish Enlightenment",
     "englishApiName": "ACHIEVEMENT_THEOLOGY_ENLIGHTENMENT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Adopt a World Religion as your State Religion, train one of its Disciples, and use that Disciple to found the Enlightenment Theology. Research Forestry first. Founding costs 600 Civics.",
+    "englishTactic": "Make the World Religion your State Religion first, save at least 600 Civics, and have a Disciple ready. Research Forestry before trying to found the Theology. One Disciple can found one Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a019",
@@ -726,7 +747,10 @@
     "englishName": "Roman Paganism",
     "englishCondition": "Found Roman Paganism",
     "englishApiName": "ACHIEVEMENT_RELIGION_PAGAN_ROME",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Rome and complete your first Shrine. A Nation's first Shrine founds its Pagan religion, Roman Paganism.",
+    "englishTactic": "Do this early: unlock a national Shrine and build it as soon as you can. Pagan religions are tied to the Nation; they do not require a Disciple or a Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a022",
@@ -801,7 +825,10 @@
     "englishName": "Legionary",
     "englishCondition": "Train a Legionary",
     "englishApiName": "ACHIEVEMENT_UNIT_LEGIONARY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Rome and train a Legionary. This is the second-tier national unique unit. National unique units need no separate Technology: the first tier needs a Stronghold, and the second a Citadel.",
+    "englishTactic": "Build a Citadel in a military city and save Training and the other resources required for a Legionary. You may train the first-tier unique unit and upgrade it.",
+    "englishEditor": "Partly — the Game Editor can prepare the city and resources, but placing a finished unit does not guarantee the achievement. Complete training the required unit normally."
   },
   {
     "id": "a024",
@@ -951,7 +978,10 @@
     "englishName": "Dualism",
     "englishCondition": "Establish Dualism",
     "englishApiName": "ACHIEVEMENT_THEOLOGY_DUALISM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Adopt a World Religion as your State Religion, train one of its Disciples, and use that Disciple to found the Dualism Theology. Research Rhetoric first. Founding costs 400 Civics.",
+    "englishTactic": "Make the World Religion your State Religion first, save at least 400 Civics, and have a Disciple ready. Research Rhetoric before trying to found the Theology. One Disciple can found one Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a028",
@@ -1220,7 +1250,10 @@
     "englishName": "Three Man Chariot",
     "englishCondition": "Train a Three Man Chariot",
     "englishApiName": "ACHIEVEMENT_UNIT_HITTITE_CHARIOT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Hittites and train a Three Man Chariot. This is the second-tier national unique unit. National unique units need no separate Technology: the first tier needs a Stronghold, and the second a Citadel.",
+    "englishTactic": "Build a Citadel in a military city and save Training and the other resources required for a Three Man Chariot. You may train the first-tier unique unit and upgrade it.",
+    "englishEditor": "Partly — the Game Editor can prepare the city and resources, but placing a finished unit does not guarantee the achievement. Complete training the required unit normally."
   },
   {
     "id": "a036",
@@ -1293,7 +1326,10 @@
     "englishName": "What's the Worst That Happens?",
     "englishCondition": "Declare war impulsively (Behind the Throne)",
     "englishApiName": "ACHIEVEMENT_BEHIND_THE_THRONE_WHATS_THE_WORST_THAT_HAPPENS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Behind the Throne, choose the event option that leads to an impulsive declaration of war.",
+    "englishTactic": "This is an event achievement. Do not declare war through the ordinary button; follow the DLC event chain and choose the option that explicitly triggers an impulsive declaration.",
+    "englishEditor": "No — the impulsive declaration of war must come from its Behind the Throne event; the Editor does not trigger it automatically."
   },
   {
     "id": "a038",
@@ -1396,7 +1432,10 @@
     "englishName": "Hittite Paganism",
     "englishCondition": "Found Hittite Paganism",
     "englishApiName": "ACHIEVEMENT_RELIGION_PAGAN_HITTITE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Hittites and complete your first Shrine. A Nation's first Shrine founds its Pagan religion, Hittite Paganism.",
+    "englishTactic": "Do this early: unlock a national Shrine and build it as soon as you can. Pagan religions are tied to the Nation; they do not require a Disciple or a Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a041",
@@ -1532,7 +1571,10 @@
     "englishName": "One True Faith",
     "englishCondition": "Have at least 3 cities and spread your State Religion to all of your cities",
     "englishApiName": "ACHIEVEMENT_ONE_TRUE_FAITH",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Own at least 3 cities, adopt a World Religion as your State Religion, and spread it to every one of your cities.",
+    "englishTactic": "Keep the empire small: reach 3 cities, adopt the Religion, and use Disciples to spread it to all 3. Avoid founding more cities before the achievement triggers.",
+    "englishEditor": "Partly — the Game Editor can add Religion to cities, but adopting a State Religion and spreading it to all your cities are best completed through normal gameplay."
   },
   {
     "id": "a045",
@@ -1647,7 +1689,10 @@
     "englishName": "That's My Queue!",
     "englishCondition": "Remove a Grand Vizier with a scheming mission (Behind the Throne)",
     "englishApiName": "ACHIEVEMENT_BEHIND_THE_THRONE_THATS_MY_QUEUE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Behind the Throne, remove the Grand Vizier through intrigue. Unlock and successfully complete the Plot Vengeance mission through events: both assassination and exile count. Ordinary dismissal, imprisonment, or unrelated death do not.",
+    "englishTactic": "Choose event options that lead your ruler to plot against the Vizier. Prepare 200 Training, 200 Civics, and two Orders for the mission. Higher Wisdom improves the chance of success; saving beforehand helps because the plot can fail or be exposed.",
+    "englishEditor": "No — this requires the special event path and a successful intrigue mission."
   },
   {
     "id": "a048",
@@ -1678,7 +1723,10 @@
     "englishName": "Reformer",
     "englishCondition": "Complete a Grand Vizier's reform program (Behind the Throne)",
     "englishApiName": "ACHIEVEMENT_BEHIND_THE_THRONE_REFORMER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Behind the Throne, accept the Grand Vizier’s proposal in the Reforms Program event, follow its chain, and agree to a proposed reform in Reforms Completed. Merely appointing a Vizier does not count.",
+    "englishTactic": "Keep the Grand Vizier in office and support the reforms until the chain finishes. Do not switch to a plot against the Vizier or reject the final reform; the achievement comes with enacting one of the proposed Laws.",
+    "englishEditor": "No — the Grand Vizier event chain must be completed."
   },
   {
     "id": "a049",
@@ -1709,7 +1757,10 @@
     "englishName": "Gnosticism",
     "englishCondition": "Establish Gnosticism",
     "englishApiName": "ACHIEVEMENT_THEOLOGY_GNOSTICISM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Adopt a World Religion as your State Religion, train one of its Disciples, and use that Disciple to found the Gnosticism Theology. Research Drama first. Founding costs 400 Civics.",
+    "englishTactic": "Make the World Religion your State Religion first, save at least 400 Civics, and have a Disciple ready. Research Drama before trying to found the Theology. One Disciple can found one Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a050",
@@ -1740,7 +1791,10 @@
     "englishName": "Mythology",
     "englishCondition": "Establish Mythology",
     "englishApiName": "ACHIEVEMENT_THEOLOGY_MYTHOLOGY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Adopt a World Religion as your State Religion, train one of its Disciples, and use that Disciple to found the Mythology Theology. Founding costs 200 Civics.",
+    "englishTactic": "Make the World Religion your State Religion first, save at least 200 Civics, and have a Disciple ready. One Disciple can found one Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a051",
@@ -2080,7 +2134,10 @@
     "englishName": "Cimmerian Archer",
     "englishCondition": "Train a Cimmerian Archer",
     "englishApiName": "ACHIEVEMENT_UNIT_CIMMERIAN_ARCHER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Babylonia and train a Cimmerian Archer. This is the second-tier national unique unit. National unique units need no separate Technology: the first tier needs a Stronghold, and the second a Citadel.",
+    "englishTactic": "Build a Citadel in a military city and save Training and the other resources required for a Cimmerian Archer. You may train the first-tier unique unit and upgrade it.",
+    "englishEditor": "Partly — the Game Editor can prepare the city and resources, but placing a finished unit does not guarantee the achievement. Complete training the required unit normally."
   },
   {
     "id": "a061",
@@ -2521,7 +2578,10 @@
     "englishName": "Babylonian Paganism",
     "englishCondition": "Found Babylonian Paganism",
     "englishApiName": "ACHIEVEMENT_RELIGION_PAGAN_BABYLONIA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Babylonia and complete your first Shrine. A Nation's first Shrine founds its Pagan religion, Babylonian Paganism.",
+    "englishTactic": "Do this early: unlock a national Shrine and build it as soon as you can. Pagan religions are tied to the Nation; they do not require a Disciple or a Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a073",
@@ -2761,7 +2821,10 @@
     "englishName": "Double Victory",
     "englishCondition": "Win a Double Victory",
     "englishApiName": "ACHIEVEMENT_VICTORY_DOUBLE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a Double Victory by fulfilling two victory conditions at the same time.",
+    "englishTactic": "Enable suitable victory types when setting up the game, then bring two conditions to completion on the same turn. Watch both progress tracks so one does not trigger too early.",
+    "englishEditor": "No — the game must register a Double Victory under normal rules; the Editor does not replace either victory condition."
   },
   {
     "id": "a080",
@@ -3414,7 +3477,10 @@
     "englishName": "Redemption",
     "englishCondition": "Establish Redemption",
     "englishApiName": "ACHIEVEMENT_THEOLOGY_REDEMPTION",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Adopt a World Religion as your State Religion, train one of its Disciples, and use that Disciple to found the Redemption Theology. Research Metaphysics first. Founding costs 600 Civics.",
+    "englishTactic": "Make the World Religion your State Religion first, save at least 600 Civics, and have a Disciple ready. Research Metaphysics before trying to found the Theology. One Disciple can found one Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a099",
@@ -3563,7 +3629,10 @@
     "englishName": "Christianity",
     "englishCondition": "Found Christianity",
     "englishApiName": "ACHIEVEMENT_RELIGION_CHRISTIANITY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Found Christianity: research Metaphysics, have at least 2 Jewish cities in the world (including one of your own), and meet the 12-Citizen requirement.",
+    "englishTactic": "First let Judaism appear and spread it to one of your cities. Then work toward 12 Citizens and research Metaphysics.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a103",
@@ -3754,7 +3823,10 @@
     "englishName": "Legalism",
     "englishCondition": "Establish Legalism",
     "englishApiName": "ACHIEVEMENT_THEOLOGY_LEGALISM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Adopt a World Religion as your State Religion, train one of its Disciples, and use that Disciple to found the Legalism Theology. Founding costs 200 Civics.",
+    "englishTactic": "Make the World Religion your State Religion first, save at least 200 Civics, and have a Disciple ready. One Disciple can found one Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a108",
@@ -3787,7 +3859,10 @@
     "englishName": "Zoroastrianism",
     "englishCondition": "Found Zoroastrianism",
     "englishApiName": "ACHIEVEMENT_RELIGION_ZOROASTRIANISM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Found Zoroastrianism. Its base founding condition is to have two Acolyte Specialists.",
+    "englishTactic": "Prepare two Acolyte Specialist slots. Once the condition is met, Zoroastrianism can be founded if no rival has founded it first.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a109",
@@ -3863,7 +3938,10 @@
     "englishName": "Judaism",
     "englishCondition": "Found Judaism",
     "englishApiName": "ACHIEVEMENT_RELIGION_JUDAISM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Found Judaism: research Labor Force and have two Rancher Specialists.",
+    "englishTactic": "Plan for Pastures and Rancher Specialists early, and do not delay Labor Force. Found Judaism before a rival does.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a111",
@@ -3928,7 +4006,10 @@
     "englishName": "The Clergy",
     "englishCondition": "Have a member of the Clergy join the Court (The Sacred and The Profane)",
     "englishApiName": "ACHIEVEMENT_SACRED_PROFANE_CLERGY_COURT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In The Sacred and The Profane, have a character with the Clergy role join your court.",
+    "englishTactic": "Maintain good relations with Religions and watch for religious events and missions. The DLC adds Clergy members who can join your court; religious missions can also induct existing characters.",
+    "englishEditor": "No — a Clergy member must join your court through a normal event or game action; editing Religions does not replace that."
   },
   {
     "id": "a113",
@@ -4034,7 +4115,10 @@
     "englishName": "Persian Paganism",
     "englishCondition": "Found Persian Paganism",
     "englishApiName": "ACHIEVEMENT_RELIGION_PAGAN_PERSIA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Persia and complete your first Shrine. A Nation's first Shrine founds its Pagan religion, Persian Paganism.",
+    "englishTactic": "Do this early: unlock a national Shrine and build it as soon as you can. Pagan religions are tied to the Nation; they do not require a Disciple or a Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a116",
@@ -4264,7 +4348,10 @@
     "englishName": "Friendly Family",
     "englishCondition": "Reach highest family opinion of you",
     "englishApiName": "ACHIEVEMENT_FAMILY_FRIENDLY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Raise at least one ruling Family’s opinion to its highest level, Friendly, and begin the next turn. The game checks the Family as a whole, not one member.",
+    "englishTactic": "Focus on one Family: appoint its members, send Luxuries to its cities, enact Laws it favors, and fulfill its requests. Keep the opinion at Friendly until the next turn begins.",
+    "englishEditor": "Partly — the Editor can make Family opinion easier to manage, but the achievement is checked in a normal turn."
   },
   {
     "id": "a122",
@@ -4339,7 +4426,10 @@
     "englishName": "Play a Single Player Game",
     "englishCondition": "Play a Single Player Game",
     "englishApiName": "ACHIEVEMENT_PLAY_SINGLEPLAYER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a Single Player game and enter the map. Only the mode matters; victory, map choice, and difficulty do not.",
+    "englishTactic": "Create a new Single Player game with any settings. A small map with standard settings is the quickest route; the achievement should trigger after loading.",
+    "englishEditor": "Not needed — simply start a normal Single Player game."
   },
   {
     "id": "a124",
@@ -4539,7 +4629,10 @@
     "englishName": "Greek Paganism",
     "englishCondition": "Found Greek Paganism",
     "englishApiName": "ACHIEVEMENT_RELIGION_PAGAN_GREECE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Greece and complete your first Shrine. A Nation's first Shrine founds its Pagan religion, Greek Paganism.",
+    "englishTactic": "Do this early: unlock a national Shrine and build it as soon as you can. Pagan religions are tied to the Nation; they do not require a Disciple or a Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a130",
@@ -4570,7 +4663,10 @@
     "englishName": "Furious Family",
     "englishCondition": "Reach lowest family opinion of you",
     "englishApiName": "ACHIEVEMENT_FAMILY_FURIOUS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Lower at least one ruling Family’s opinion to the lowest level, Furious, and begin the next turn. This checks the Family’s opinion of the ruler, not an individual member’s opinion.",
+    "englishTactic": "Target one Family: refuse its requests, withhold desired appointments, and choose event options that reduce its opinion. Keep the other Families content so one target’s anger does not become a wider crisis.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a131",
@@ -4603,7 +4699,10 @@
     "englishName": "Egyptian Paganism",
     "englishCondition": "Found Egyptian Paganism",
     "englishApiName": "ACHIEVEMENT_RELIGION_PAGAN_EGYPT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Egypt and complete your first Shrine. A Nation's first Shrine founds its Pagan religion, Egyptian Paganism.",
+    "englishTactic": "Do this early: unlock a national Shrine and build it as soon as you can. Pagan religions are tied to the Nation; they do not require a Disciple or a Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a132",
@@ -4636,7 +4735,10 @@
     "englishName": "Carthaginian Paganism",
     "englishCondition": "Found Carthaginian Paganism",
     "englishApiName": "ACHIEVEMENT_RELIGION_PAGAN_CARTHAGE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Carthage and complete your first Shrine. A Nation's first Shrine founds its Pagan religion, Carthaginian Paganism.",
+    "englishTactic": "Do this early: unlock a national Shrine and build it as soon as you can. Pagan religions are tied to the Nation; they do not require a Disciple or a Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a133",
@@ -5186,7 +5288,10 @@
     "englishName": "Veneration",
     "englishCondition": "Establish Veneration",
     "englishApiName": "ACHIEVEMENT_THEOLOGY_VENERATION",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Adopt a World Religion as your State Religion, train one of its Disciples, and use that Disciple to found the Veneration Theology. No Technology is required. Founding costs 200 Civics.",
+    "englishTactic": "Make the World Religion your State Religion first, save at least 200 Civics, and have a Disciple ready. One Disciple can found one Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a147",
@@ -5217,7 +5322,10 @@
     "englishName": "Revelation",
     "englishCondition": "Establish Revelation",
     "englishApiName": "ACHIEVEMENT_THEOLOGY_REVELATION",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Adopt a World Religion as your State Religion, train one of its Disciples, and use that Disciple to found the Revelation Theology. Research Labor Force first. Founding costs 400 Civics.",
+    "englishTactic": "Make the World Religion your State Religion first, save at least 400 Civics, and have a Disciple ready. Research Labor Force before trying to found the Theology. One Disciple can found one Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a148",
@@ -5371,7 +5479,10 @@
     "englishName": "Phalangite",
     "englishCondition": "Train a Phalangite",
     "englishApiName": "ACHIEVEMENT_UNIT_PHALANGITE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Greece and train a Phalangite. This is the second-tier national unique unit. It requires a Strong Culture city with a Citadel. National unique units need no separate Technology: the first tier needs a Stronghold, and the second a Citadel.",
+    "englishTactic": "Develop one military city to Strong Culture, build a Garrison, Stronghold, and Citadel, and save 100 Wood and 100 Iron. Then finish training one Phalangite.",
+    "englishEditor": "Partly — the Game Editor can prepare the city and resources, but placing a finished unit does not guarantee the achievement. Complete training the required unit normally."
   },
   {
     "id": "a152",
@@ -5404,7 +5515,10 @@
     "englishName": "Assyrian Paganism",
     "englishCondition": "Found Assyrian Paganism",
     "englishApiName": "ACHIEVEMENT_RELIGION_PAGAN_ASSYRIA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Assyria and complete your first Shrine. A Nation's first Shrine founds its Pagan religion, Assyrian Paganism.",
+    "englishTactic": "Do this early: unlock a national Shrine and build it as soon as you can. Pagan religions are tied to the Nation; they do not require a Disciple or a Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a153",
@@ -5435,7 +5549,10 @@
     "englishName": "Bad Heir Day",
     "englishCondition": "Be assassinated by your Heir",
     "englishApiName": "ACHIEVEMENT_ASSASSINATED_BY_HEIR",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Have the current ruler killed by their own heir through the heir-conspirator event chain. An ordinary death or a murder by another character does not count.",
+    "englishTactic": "Do not stop the plot in its early stages. Continue the chain until an assassination option kills the ruler. Save before each event, since follow-ups depend partly on chance and character attributes.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a154",
@@ -5501,7 +5618,10 @@
     "englishName": "Mounted Lancer",
     "englishCondition": "Train a Mounted Lancer",
     "englishApiName": "ACHIEVEMENT_UNIT_KUSHITE_CAVALRY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Egypt and train a Mounted Lancer. The Steam achievement still uses an older title, but the current Egyptian unit is the Mounted Lancer. This is the second-tier national unique unit. It requires a Strong Culture city with a Citadel and access to Horses. National unique units need no separate Technology: the first tier needs a Stronghold, and the second a Citadel.",
+    "englishTactic": "Secure Horses for a Strong Culture military city, build a Citadel, and save 100 Food and 100 Wood. Then finish training one Mounted Lancer.",
+    "englishEditor": "Partly — the Game Editor can prepare the city and resources, but placing a finished unit does not guarantee the achievement. Complete training the required unit normally."
   },
   {
     "id": "a156",
@@ -5703,7 +5823,10 @@
     "englishName": "Turreted Elephant",
     "englishCondition": "Train a Turreted Elephant",
     "englishApiName": "ACHIEVEMENT_UNIT_TURRETED_ELEPHANT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Carthage and train a Turreted Elephant. This is the second-tier national unique unit. It requires a Strong Culture city with a Citadel and access to Elephants. National unique units need no separate Technology: the first tier needs a Stronghold, and the second a Citadel.",
+    "englishTactic": "Prepare a Strong Culture city with Elephants and a Citadel. Save 100 Food and 100 Wood, then finish training one Turreted Elephant.",
+    "englishEditor": "Partly — the Game Editor can prepare the city and resources, but placing a finished unit does not guarantee the achievement. Complete training the required unit normally."
   },
   {
     "id": "a162",
@@ -5817,7 +5940,10 @@
     "englishName": "Ten Crowns",
     "englishCondition": "Have ten Leaders (One Game)",
     "englishApiName": "ACHIEVEMENT_STAT_TEN_LEADERS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Have ten rulers in one game. The achievement triggers when the tenth successive ruler takes the throne.",
+    "englishTactic": "Play a long game and maintain a reliable succession line. More frequent deaths may speed this up, but keep multiple suitable heirs to avoid a dynastic crisis.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a165",
@@ -5850,7 +5976,10 @@
     "englishName": "Cataphract Archer",
     "englishCondition": "Train a Cataphract Archer",
     "englishApiName": "ACHIEVEMENT_UNIT_CATAPHRACT_ARCHER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Persia and train a Cataphract Archer. This is the second-tier national unique unit. It requires a Strong Culture city with a Citadel and access to Horses. National unique units need no separate Technology: the first tier needs a Stronghold, and the second a Citadel.",
+    "englishTactic": "Prepare a Strong Culture city with Horses and a Citadel. Save 100 Food and 100 Iron, then finish training one Cataphract Archer.",
+    "englishEditor": "Partly — the Game Editor can prepare the city and resources, but placing a finished unit does not guarantee the achievement. Complete training the required unit normally."
   },
   {
     "id": "a166",
@@ -6062,7 +6191,10 @@
     "englishName": "Kushite Paganism",
     "englishCondition": "Found Kushite Paganism",
     "englishApiName": "ACHIEVEMENT_RELIGION_PAGAN_KUSH",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Kush and complete your first Shrine. A Nation's first Shrine founds its Pagan religion, Kushite Paganism.",
+    "englishTactic": "Do this early: unlock a national Shrine and build it as soon as you can. Pagan religions are tied to the Nation; they do not require a Disciple or a Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a172",
@@ -6172,7 +6304,10 @@
     "englishName": "Capturing Cities",
     "englishCondition": "Capture ten Cities (One Game)",
     "englishApiName": "ACHIEVEMENT_STAT_TEN_CITIES_CAPTURED",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Capture 10 cities in one game. Each successful capture increases the counter; you do not have to own all 10 simultaneously.",
+    "englishTactic": "Use a map with several opponents and enough cities. Weaken city defenses with your main army, keep a capturing unit nearby, and do not end the game before the counter reaches 10.",
+    "englishEditor": "Partly — the Game Editor can prepare the map, Nations, and units, but the required military or historical action must be completed and registered during a regular game."
   },
   {
     "id": "a175",
@@ -6203,7 +6338,10 @@
     "englishName": "Jackpot",
     "englishCondition": "Win at the gamble mission (Behind the Throne)",
     "englishApiName": "ACHIEVEMENT_BEHIND_THE_THRONE_JACKPOT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "As the selected ruler, successfully complete the Gamble mission from Behind the Throne. A winning result is required; merely starting the mission does not count.",
+    "englishTactic": "When the action becomes available for your ruler, save some Money and consider saving before starting. It can end in a win, loss, or separate event chain, so try again later if needed.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a176",
@@ -6267,7 +6405,10 @@
     "englishName": "Siege Tower",
     "englishCondition": "Train a Siege Tower",
     "englishApiName": "ACHIEVEMENT_UNIT_SIEGE_TOWER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Assyria and train a Siege Tower. This is the second-tier national unique unit. It requires a Strong Culture city with a Citadel. National unique units need no separate Technology: the first tier needs a Stronghold, and the second a Citadel.",
+    "englishTactic": "Develop one military city to Strong Culture, build a Garrison, Stronghold, and Citadel, and save 100 Wood and 100 Iron. Then finish training one Siege Tower.",
+    "englishEditor": "Partly — the Game Editor can prepare the city and resources, but placing a finished unit does not guarantee the achievement. Complete training the required unit normally."
   },
   {
     "id": "a178",
@@ -6404,7 +6545,10 @@
     "englishName": "The Mythical Beast",
     "englishCondition": "Follow the trail of a Mythical Beast (The Sacred and The Profane)",
     "englishApiName": "ACHIEVEMENT_SACRED_PROFANE_MYTHICAL_BEAST",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Reach the final event of the mythical-beast chain in The Sacred and The Profane. Choose options that continue the hunt after each lead or escape; the achievement comes with the concluding event.",
+    "englishTactic": "Avoid options that abandon the hunt. High Discipline or suitable Traits such as Swift, Pathfinder, or Tracker can offer extra ways to continue the pursuit.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a182",
@@ -6565,7 +6709,10 @@
     "englishName": "Deposed Tribe",
     "englishCondition": "Help a Priest depose a Tribal Leader (The Sacred and The Profane)",
     "englishApiName": "ACHIEVEMENT_SACRED_PROFANE_DEPOSE_TRIBE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In The Sacred and The Profane, follow the Priest and Tribal leader event chain until its final Druid event, then choose an option that deposes the Tribal leader. Either of the first two final options counts.",
+    "englishTactic": "Support the Priest in earlier events and keep that story going. Save before the final decision; one option can require the Schemer Trait.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a187",
@@ -6596,7 +6743,10 @@
     "englishName": "Five Routs",
     "englishCondition": "Perform five routs in a row with a single unit in the same turn",
     "englishApiName": "ACHIEVEMENT_FIVE_ROUTS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Use one unit with the Rout effect to kill five units in succession during a single turn. Each kill allows that same unit to attack again. The Russian Steam title uses a different word, but Rout is the current in-game term.",
+    "englishTactic": "Weaken five enemy units with other troops and leave them within reach of a Chariot, Rider, Cataphract, or Elephant with Rout. Save enough Orders and finish all five targets with that one unit before ending the turn.",
+    "englishEditor": "Partly — the Game Editor can prepare the map, Nations, and units, but the required military or historical action must be completed and registered during a regular game."
   },
   {
     "id": "a188",
@@ -6733,7 +6883,10 @@
     "englishName": "Aksumite Paganism",
     "englishCondition": "Found Aksumite Paganism",
     "englishApiName": "ACHIEVEMENT_RELIGION_PAGAN_AKSUM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Aksum and complete your first Shrine. A Nation's first Shrine founds its Pagan religion, Aksumite Paganism.",
+    "englishTactic": "Do this early: unlock a national Shrine and build it as soon as you can. Pagan religions are tied to the Nation; they do not require a Disciple or a Theology.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a192",
@@ -6875,7 +7028,10 @@
     "englishName": "The Great Mage",
     "englishCondition": "Find a Great Mage (The Sacred and The Profane)",
     "englishApiName": "ACHIEVEMENT_SACRED_PROFANE_GREAT_MAGE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Complete the Ostanes event chain from The Sacred and The Profane. When rumors of Ostanes arise, send agents to search for him; after the search, welcome the scholar they find to your court. A later event reveals her as the legendary Mage and grants the achievement.",
+    "englishTactic": "The chain can begin after turn 30 if another Nation has Zoroastrianism with the Mythology Theology and you have no more than three Courtiers. Do not ban Ostanes’s writings: choose the search and await its follow-ups.",
+    "englishEditor": "No — the Great Mage must appear through the intended event chain; adding Religion to a city does not satisfy this condition."
   },
   {
     "id": "a196",
@@ -6976,7 +7132,10 @@
     "englishName": "Word of God",
     "englishCondition": "Have Monotheism, Orthodoxy, Iconography, and Pilgrimage laws active at the same time",
     "englishApiName": "ACHIEVEMENT_THE_WORD_OF_GOD",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Have all four Laws active at once: Monotheism, Orthodoxy, Iconography, and Pilgrimage. They belong to different Law pairs, so they do not exclude one another. The achievement is checked at the start of the next turn.",
+    "englishTactic": "Research Monasticism, Doctrine, Vaulting, and Martial Code to unlock the relevant Law pairs. Save enough Civics to enact the Laws and account for their ongoing costs.",
+    "englishEditor": "No — all four required Laws must be active at once in a normal game; the Religion Editor does not enact Laws."
   },
   {
     "id": "a199",
@@ -7207,7 +7366,10 @@
     "englishName": "Macedonian Wars",
     "englishCondition": "Eliminate Greece as Rome",
     "englishApiName": "ACHIEVEMENT_MACEDONIAN_WARS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Rome and see Greece completely eliminated in the same game. You do not need to capture its final city personally.",
+    "englishTactic": "Add Greece as an opponent when setting up the game. On a small map, find it early and prevent another Nation from absorbing its main cities before your campaign.",
+    "englishEditor": "Partly — the Game Editor can prepare the map, Nations, and units, but the required military or historical action must be completed and registered during a regular game."
   },
   {
     "id": "a206",
@@ -7240,7 +7402,10 @@
     "englishName": "Beja Archer",
     "englishCondition": "Train a Beja Archer",
     "englishApiName": "ACHIEVEMENT_UNIT_BEJA_ARCHER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Pharaohs of the Nile, play as Kush and train a Beja Archer. This is the second-tier national unique unit. It requires a Strong Culture city with a Citadel. National unique units need no separate Technology: the first tier needs a Stronghold, and the second a Citadel.",
+    "englishTactic": "In Pharaohs of the Nile, develop a military city to Strong Culture and build a Citadel. Save 200 Wood and finish training one Beja Archer.",
+    "englishEditor": "Partly — the Game Editor can prepare the city and resources, but placing a finished unit does not guarantee the achievement. Complete training the required unit normally."
   },
   {
     "id": "a207",
@@ -7271,7 +7436,10 @@
     "englishName": "Future Regicide",
     "englishCondition": "Assassinate your Heir",
     "englishApiName": "ACHIEVEMENT_ASSASSINATED_HEIR",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Successfully complete an Assassinate mission against your current heir. The heir must die as a result of that attempt.",
+    "englishTactic": "Wait until the heir is an adult and appoint a strong Spymaster. Start the mission against the heir and be prepared for failure; saving before the attempt can help.",
+    "englishEditor": "Partly — the Game Editor can prepare the map, Nations, and units, but the required military or historical action must be completed and registered during a regular game."
   },
   {
     "id": "a208",
@@ -7602,7 +7770,10 @@
     "englishName": "Medo-Babylonian Conquest",
     "englishCondition": "Eliminate Assyria as Babylonia",
     "englishApiName": "ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Babylonia and see Assyria completely eliminated in the same game. You do not need to capture its final city personally.",
+    "englishTactic": "Add Assyria as an opponent. Scout its borders early, prepare siege units and protection, and remove all of its cities.",
+    "englishEditor": "Partly — the Game Editor can prepare the map, Nations, and units, but the required military or historical action must be completed and registered during a regular game."
   },
   {
     "id": "a217",
@@ -7703,7 +7874,10 @@
     "englishName": "Punic Wars",
     "englishCondition": "Eliminate Carthage as Rome",
     "englishApiName": "ACHIEVEMENT_PUNIC_WARS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Rome and see Carthage completely eliminated in the same game. You do not need to capture its final city personally.",
+    "englishTactic": "Add Carthage as an opponent. Plan for a possible sea crossing, or choose a map with a land route, so the campaign does not stall.",
+    "englishEditor": "Partly — the Game Editor can prepare the map, Nations, and units, but the required military or historical action must be completed and registered during a regular game."
   },
   {
     "id": "a220",
@@ -7767,7 +7941,10 @@
     "englishName": "Pragmatist",
     "englishCondition": "Welcome the Special Ambassador (Behind the Throne)",
     "englishApiName": "ACHIEVEMENT_BEHIND_THE_THRONE_PRAGMATIST",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "During a declaration of war or an invitation to join a war, accept a special envoy into your capital. Choose the option welcoming the envoy to the city; it also appoints the character Grand Vizier.",
+    "englishTactic": "Leave the Grand Vizier office vacant and maintain the relevant diplomatic situation with a client Nation. When another Nation declares war or proposes one, welcome the arriving envoy instead of refusing the visit.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a222",
@@ -7864,7 +8041,10 @@
     "englishName": "Et tu Brutus?",
     "englishCondition": "As Rome have Leader assassinated by another Roman family",
     "englishApiName": "ACHIEVEMENT_ET_TU_BRUTUS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Rome and trigger the rare event in which the head of another Roman Family kills your ruler. That Family head must be vindictive or plotting against the ruler.",
+    "englishTactic": "This is an event achievement, not a standard Assassinate mission. Keep a hostile head of another Family in play; when the event appears, choose the outcome that kills your ruler.",
+    "englishEditor": "Partly — the Game Editor can prepare the map, Nations, and units, but the required military or historical action must be completed and registered during a regular game."
   },
   {
     "id": "a225",
@@ -8060,7 +8240,10 @@
     "englishName": "Hinduism",
     "englishCondition": "Found Hinduism",
     "englishApiName": "ACHIEVEMENT_RELIGION_HINDUISM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as the Maurya, Yuezhi, or Tamilakam and complete your first Shrine. For these three Nations, Hinduism replaces a national Pagan religion and is founded by the first Shrine.",
+    "englishTactic": "Build an available national Shrine early. Unlike ordinary Paganism, Hinduism has Disciples, religious buildings, and Theologies.",
+    "englishEditor": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay."
   },
   {
     "id": "a231",
@@ -8091,7 +8274,10 @@
     "englishName": "Hypatia the Teacher",
     "englishCondition": "Tutor a character with Hypatia (The Sacred and The Profane)",
     "englishApiName": "ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Have one of your characters complete tutoring by Hypatia. Any of her mentoring missions counts when it ends: Wisdom, Charisma, Courage, Discipline, or a special event result.",
+    "englishTactic": "Develop Philosophy and wait for Hypatia’s event in The Sacred and The Profane. Keep her at court, assign a suitable young character for tutoring, and do not interrupt the mission.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a232",
@@ -8124,7 +8310,10 @@
     "englishName": "Shotelai",
     "englishCondition": "Train a Shotelai",
     "englishApiName": "ACHIEVEMENT_UNIT_SHOTELAI",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Wrath of Gods, play as Aksum and train a Shotelai. This is the second-tier national unique unit. It requires a Strong Culture city with a Citadel. National unique units need no separate Technology: the first tier needs a Stronghold, and the second a Citadel.",
+    "englishTactic": "In Wrath of Gods, develop a military city to Strong Culture and build a Citadel. Save 200 Iron and finish training one Shotelai.",
+    "englishEditor": "Partly — the Game Editor can prepare the city and resources, but placing a finished unit does not guarantee the achievement. Complete training the required unit normally."
   },
   {
     "id": "a233",
@@ -8159,7 +8348,10 @@
     "englishName": "Battle of Opis",
     "englishCondition": "Eliminate Babylonia as Persia",
     "englishApiName": "ACHIEVEMENT_BATTLE_OF_OPIS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Persia and see Babylonia completely eliminated in the same game. You do not need to capture its final city personally.",
+    "englishTactic": "Add Babylonia as an opponent. Scout and begin the war early; developed Babylonian cities strengthen its economy and make a late conquest harder.",
+    "englishEditor": "Partly — the Game Editor can prepare the map, Nations, and units, but the required military or historical action must be completed and registered during a regular game."
   },
   {
     "id": "a234",
@@ -8256,7 +8448,10 @@
     "englishName": "Centenarian",
     "englishCondition": "Have a leader survive to 100 years of age",
     "englishApiName": "ACHIEVEMENT_100_YEARS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Have the current ruler reach age 100. The game checks at the start of a turn, so the ruler must survive until at least the turn after reaching that age.",
+    "englishTactic": "Start with a young ruler, use a low-mortality setting, and do not send them into battle as General. Protect their health and avoid risky event choices.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a237",
@@ -8287,7 +8482,10 @@
     "englishName": "Blade of the Monkey",
     "englishCondition": "Be assassinated by a monkey",
     "englishApiName": "ACHIEVEMENT_BLADE_OF_THE_MONKEY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Have the current ruler killed by a monkey in a special event chain. A lethal outcome can occur in the exotic-pet and Eyes of the Monkey stories; merely owning a monkey does not count.",
+    "englishTactic": "Keep the monkey and continue its events, choosing risky options instead of removing it from court. Save before follow-ups: both the event and lethal outcome depend on chance.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a238",
@@ -8707,7 +8905,10 @@
     "englishName": "Barbarian Horde",
     "englishCondition": "Survive the Barbarian Horde",
     "englishApiName": "ACHIEVEMENT_BARBARIAN_INVASION",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start the separate Barbarian Horde scenario, survive the uprising, and eliminate every Horde raider. The scenario victory and achievement trigger when the remaining-raider counter reaches zero.",
+    "englishTactic": "For a first attempt, choose 120 turns of preparation and the Scattered Tribe organization. Build military production, fortify likely approaches, and keep mobile troops to find the last raiders.",
+    "englishEditor": "No — the Horde uprising and successful defense must be registered in the scenario; the Editor does not substitute for them."
   },
   {
     "id": "a251",
@@ -8738,7 +8939,10 @@
     "englishName": "True Opulence",
     "englishCondition": "Complete opulence project with an extravagant leader (Behind the Throne)",
     "englishApiName": "ACHIEVEMENT_BEHIND_THE_THRONE_OPULENCE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Finish the Opulence city project from Behind the Throne while the current ruler has the Extravagant Trait. The project needs Strong Culture, 100 Civics production, and 500 Money, and cannot be rushed.",
+    "englishTactic": "Obtain the Extravagant Trait first, then select a Strong Culture city where the project is available. Leave enough time for completion: the ruler must still have the Trait when the project finishes.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a252",
@@ -8874,7 +9078,10 @@
     "englishName": "Battle of the Fertile Crescent",
     "englishCondition": "As either Assyria, Babylonia, or Persia defeat the other two",
     "englishApiName": "ACHIEVEMENT_FERTILE_CRESCENT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Assyria, Babylonia, or Persia and see the other two Nations from that trio eliminated in one game. Both targets must be present; you need not personally deliver either final blow.",
+    "englishTactic": "Set up a small game with all three required Nations and play one of them. Let the rivals weaken each other, then eliminate the stronger survivor. You do not need to personally finish both.",
+    "englishEditor": "Partly — the Game Editor can prepare the map, Nations, and units, but the required military or historical action must be completed and registered during a regular game."
   },
   {
     "id": "a256",
@@ -9043,7 +9250,10 @@
     "englishName": "Pilgrimage",
     "englishCondition": "Have a character finish a Pilgrimage (The Sacred and The Profane)",
     "englishApiName": "ACHIEVEMENT_SACRED_PROFANE_PILGRIMAGE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Enact the Pilgrimage Law and wait for an event in which a Courtier of the same faith asks to visit a Holy City. Allow the journey and wait for its completion event.",
+    "englishTactic": "Martial Code unlocks Pilgrimage. The initial event requires a non-ruler character following a Religion with a Holy City owned by another Nation with which you are at peace or under truce. Do not recall the pilgrim in follow-up events.",
+    "englishEditor": "No — the character must complete a Pilgrimage through normal gameplay; adding Religion to a city does not count."
   },
   {
     "id": "a261",
@@ -9526,7 +9736,10 @@
     "englishName": "Dharmic Heartland",
     "englishCondition": "Found Hinduism and Buddhism in the same game (Empires of the Indus)",
     "englishApiName": "ACHIEVEMENT_DHARMIC_HEARTLAND",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Found both Hinduism and Buddhism yourself in one game. They may be founded in different cities or even in the same city, but your Nation must be the founder of both.",
+    "englishTactic": "The Maurya offer a practical route to founding both Dharmic Religions. Watch the Religion tooltips and prepare two cities before a rival founds either Religion.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a275",
@@ -9877,7 +10090,10 @@
     "englishName": "Land of Luxury",
     "englishCondition": "Have Jade, Silk, Ebony, and Spices resources within your borders (Empires of the Indus)",
     "englishApiName": "ACHIEVEMENT_LAND_OF_LUXURY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Own tiles containing Jade, Silk, Ebony, and Spices at the same time. The tiles only need to be within your borders; Improvements are not required.",
+    "englishTactic": "Enable Empires of the Indus and use a large map so all four rare Resources can appear. Scout, found cities near the tiles, and acquire territory where needed.",
+    "englishEditor": "Partly — the map Editor can place Resources, but you must own the tiles in the game."
   },
   {
     "id": "a286",
@@ -9910,7 +10126,10 @@
     "englishName": "Roman Papacy",
     "englishCondition": "As Rome, build Christianity Holy Site in Roma",
     "englishApiName": "ACHIEVEMENT_ROMAN_PAPACY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "As Rome, found Christianity with your capital, Rome, as its Holy City. Renaming another city Rome is not enough: the game checks the Roman Nation and its capital.",
+    "englishTactic": "Do not let another Nation found Christianity first. Meet the religious requirements in the capital and verify that Rome is still your capital before the founding action.",
+    "englishEditor": "Partly — the Editor can prepare the conditions, but found the Religion through normal gameplay."
   },
   {
     "id": "a287",
@@ -9941,7 +10160,10 @@
     "englishName": "Patriarch St Paul",
     "englishCondition": "Have St Paul as Patriarch of Christianity (The Sacred and The Profane)",
     "englishApiName": "ACHIEVEMENT_SACRED_PROFANE_ST_PAUL",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Receive Saul through the Saul the General event, then wait for his conversion to Christianity. He becomes Paul and joins the Christian Clergy. The achievement triggers when Paul becomes Patriarch of Christianity.",
+    "englishTactic": "Christianity must be present in one of your cities without being your State Religion to start the chain. Welcome Saul, keep him alive, and support his conversion. Pious characters have an advantage when the Patriarchate next becomes vacant.",
+    "englishEditor": "Partly — the Editor can add Christianity to cities, but Paul must become Patriarch through normal game mechanics."
   },
   {
     "id": "a288",
@@ -10785,7 +11007,10 @@
     "englishName": "Kushan Warlord",
     "englishCondition": "Train a Kushan Warlord",
     "englishApiName": "ACHIEVEMENT_UNIT_KUSHAN_WARLORDS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Empires of the Indus, play as Yuezhi and train a Kushan Warlord. This is the second-tier national unique unit. It requires a Strong Culture city with a Citadel and access to Horses. National unique units need no separate Technology: the first tier needs a Stronghold, and the second a Citadel.",
+    "englishTactic": "In Empires of the Indus, prepare a Strong Culture city with Horses and a Citadel. Save 100 Food and 100 Iron, then finish training one Kushan Warlord.",
+    "englishEditor": "Partly — the Game Editor can prepare the city and resources, but placing a finished unit does not guarantee the achievement. Complete training the required unit normally."
   },
   {
     "id": "a313",
@@ -10820,7 +11045,10 @@
     "englishName": "Alexander the Great",
     "englishCondition": "Eliminate Persia as Alexander The Great of Greece",
     "englishApiName": "ACHIEVEMENT_ALEXANDER_THE_GREAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Greece under Alexander the Great and see Persia completely eliminated. Alexander himself must rule; another Greek ruler does not qualify.",
+    "englishTactic": "Start as Greece with Alexander available, or use Philip’s dynasty until Alexander takes the throne. Add Persia as an opponent and finish its elimination only after Alexander becomes ruler.",
+    "englishEditor": "Partly — the Game Editor can prepare the map, Nations, and units, but the required military or historical action must be completed and registered during a regular game."
   },
   {
     "id": "a314",
@@ -10857,7 +11085,12 @@
     "englishName": "Alexander the who?",
     "englishCondition": "Assassinate Alexander as Leader with one of your characters",
     "englishApiName": "ACHIEVEMENT_ALEXANDER_THE_WHO",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "The Steam wording is outdated: the current game files require Alexander to be killed before he becomes ruler. Play as Greece with Philip’s dynasty, wait until Alexander is an adult, and successfully Assassinate him while Philip still rules.",
+    "englishTactic": "Alexander starts as a child, while the mission targets only adults. Wait for adulthood but keep Philip on the throne; then appoint a strong Spymaster and make a successful attempt.",
+    "englishEditor": "Partly — the Game Editor can prepare the map, Nations, and units, but the required military or historical action must be completed and registered during a regular game.",
+    "englishMechanicNote": "Clarification: the achievement counts if Alexander is killed before he becomes ruler.",
+    "englishPlannerNote": "Clarification: the achievement counts if Alexander is killed before he becomes ruler."
   },
   {
     "id": "a315",
@@ -10923,7 +11156,10 @@
     "englishName": "United Against The Horde",
     "englishCondition": "Survive the Barbarian Horde with friends",
     "englishApiName": "ACHIEVEMENT_BARBARIAN_INVASION_MULTIPLAYER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win the Barbarian Horde scenario in a multiplayer game: survive the uprising and jointly eliminate every Horde raider. All human participants must be on the same team.",
+    "englishTactic": "Choose a long preparation period and divide responsibilities. One player can hold the front while another builds mobile forces to hunt stragglers. Victory comes only after the final raider dies.",
+    "englishEditor": "No — the Horde uprising and successful team defense must be registered in the multiplayer scenario."
   },
   {
     "id": "a317",
@@ -10991,7 +11227,10 @@
     "englishName": "Drought Adept",
     "englishCondition": "Train a Drought Adept unit (Wrath of Gods)",
     "englishApiName": "ACHIEVEMENT_CALAMITIES_DROUGHT_ADEPT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Wrath of Gods, survive a Drought and have a court character with the Steward of the Land Trait and a military archetype so the Drought Adept event can appear. Choose its first option, which gives a city a special training project, then train an Infantry or Mounted unit in that city.",
+    "englishTactic": "After a Drought, keep a military Steward of the Land at court and have one city ready to train a unit. Choose the first option in the relevant event, then train an inexpensive Infantry or Mounted unit in the marked city.",
+    "englishEditor": "Not recommended — the achievement is tied to a Wrath of Gods event and normal completion of unit training in the marked city."
   },
   {
     "id": "a319",
@@ -11821,7 +12060,10 @@
     "englishName": "Merchants of the Levant",
     "englishCondition": "Win a OCC using Traders family",
     "englishApiName": "ACHIEVEMENT_MERCHANTS_LEVANT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a regular game in One City Challenge mode with the Traders Family. Your capital, the only permitted city, must be founded as a Traders city.",
+    "englishTactic": "Choose a Nation with Traders, enable One City Challenge, and assign your capital to them immediately. Do not found or annex other cities. Develop trade, Specialists, and Projects, and choose a favorable victory type in setup.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a344",
@@ -11959,7 +12201,10 @@
     "englishName": "Elephant Archer",
     "englishCondition": "Train an Elephant Archer",
     "englishApiName": "ACHIEVEMENT_UNIT_ARCHER_ELEPHANT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Empires of the Indus, play as Tamilakam and train an Elephant Archer. This is the second-tier national unique unit. It requires a Strong Culture city with a Citadel and access to Elephants. National unique units need no separate Technology: the first tier needs a Stronghold, and the second a Citadel.",
+    "englishTactic": "In Empires of the Indus, prepare a Strong Culture city with Elephants and a Citadel. Save 100 Food and 100 Wood, then finish training one Elephant Archer.",
+    "englishEditor": "Partly — the Game Editor can prepare the city and resources, but placing a finished unit does not guarantee the achievement. Complete training the required unit normally."
   },
   {
     "id": "a348",
@@ -12122,7 +12367,10 @@
     "englishName": "A Perfect Storm",
     "englishCondition": "Have three Calamities active at once (Wrath of Gods Scenario)",
     "englishApiName": "ACHIEVEMENT_WRATH_OF_GODS_PERFECT_STORM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Have three Disasters active at the same time in a game with disasters enabled. Three disasters survived one after another do not count.",
+    "englishTactic": "Choose a high Disaster frequency and a sufficiently large empire. Keep the first two active while stabilizing affected cities, and save resources for recovery when the third begins.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a353",
@@ -12156,7 +12404,10 @@
     "englishName": "The Great Raging Horde",
     "englishCondition": "Survive the Barbarian Horde on The Great difficulty against Raging tribes",
     "englishApiName": "ACHIEVEMENT_BARBARIAN_INVASION_GREAT_RAGING",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win the Barbarian Horde scenario on at least The Great difficulty and at least Raging Tribe level: survive the uprising and eliminate all Horde raiders.",
+    "englishTactic": "Double-check The Great and Raging in setup. You can ease other settings with long preparation and Scattered organization. Build fortified lines and save a large Orders reserve.",
+    "englishEditor": "No — the Horde uprising and successful defense must be registered at the required settings in the scenario."
   },
   {
     "id": "a354",
@@ -12483,7 +12734,10 @@
     "englishName": "Council of Madness",
     "englishCondition": "Have all three Councilors insane",
     "englishApiName": "ACHIEVEMENT_COUNCIL_OF_MADNESS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Have the Insane Trait on all three specified Council members simultaneously: Ambassador, Chancellor, and Spymaster. Other Councilors and Courtiers do not count.",
+    "englishTactic": "Keep Insane characters and appoint them to those three offices as they become available. Do not dismiss one who is already serving; events that make the other candidates Insane are random.",
+    "englishEditor": "Partly — the Character Editor can help prepare Traits and Council appointments."
   },
   {
     "id": "a362",
@@ -13310,7 +13564,10 @@
     "englishName": "The Hekau Khasut Slaves",
     "englishCondition": "Completed the Hekau Khasut Slaves Storyline in the Egypt Campaign",
     "englishApiName": "ACHIEVEMENT_EGYPT_EXODUS_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Complete the hidden Hekau Khasut Slaves storyline across the Egypt campaign in Pharaohs of the Nile. It begins in the first scenario after taking Hut-Waret if you allow the Hekau Khasut to stay, then continues in later scenarios.",
+    "englishTactic": "Play the campaign through one continuous save and choose options that preserve the Hekau Khasut and continue their story, rather than expelling or destroying them. Save separately before linked events: a wrong choice may break the chain much later.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a387",
@@ -13341,7 +13598,10 @@
     "englishName": "Elephant in Elephantine",
     "englishCondition": "Train an elephant in Elephantine",
     "englishApiName": "ACHIEVEMENT_ELEPHANTINE_ELEPHANT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Rename one of your cities Elephantine before it finishes training an ordinary War Elephant. The city needs access to Elephants and the Land Consolidation Technology.",
+    "englishTactic": "Prepare a city with Elephants and research Land Consolidation. Start training a regular War Elephant, and check that the city is named Elephantine before training completes. A national elephant variant does not substitute.",
+    "englishEditor": "Partly — the Editor can prepare the city and Technology, but an ordinary War Elephant must finish training in Elephantine."
   },
   {
     "id": "a388",
@@ -13576,7 +13836,10 @@
     "englishName": "Horde Warfare",
     "englishCondition": "Control 10 Steppe Riders (Empires of the Indus)",
     "englishApiName": "ACHIEVEMENT_HORDE_WARFARE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Empires of the Indus, play as the Yuezhi and control 10 Steppe Rider units at the same time. Winning the game or fighting with those units is not required.",
+    "englishTactic": "The Yuezhi begin with 2 Steppe Riders. Research Polis and save Wood and Training to produce 8 more, preferably in several cities. Do not upgrade or lose them before the counter reaches 10.",
+    "englishEditor": "Partly — the Game Editor can prepare the map, Nations, and units, but the required military or historical action must be completed and registered during a regular game."
   },
   {
     "id": "a395",
@@ -13722,7 +13985,10 @@
     "englishName": "One True King",
     "englishCondition": "Win a game as Tamilakam without changing Family Supremacy (Empires of the Indus)",
     "englishApiName": "ACHIEVEMENT_ONE_TRUE_KING",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win as Tamilakam without Family Supremacy ever changing hands. Any standard victory type works; the game tracks whether the leading Family changed since the start.",
+    "englishTactic": "Identify the Family with initial Supremacy and strengthen it with cities, appointments, Luxuries, and favorable events. Do not let another Family overtake it even for one turn; that cannot be undone in the same game.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a399",
@@ -13827,7 +14093,10 @@
     "englishName": "Religious Dissent",
     "englishCondition": "Have dissent from all four world religions at the same time (The Sacred and The Profane)",
     "englishApiName": "ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Have four active Schism projects in one of your cities at the same time: Zoroastrian, Jewish, Christian, and Manichaean. A separate Schism for each Religion in different cities is not enough.",
+    "englishTactic": "Spread all four World Religions to one city. Lower each Religion’s opinion to Upset or worse so a Schism can occur there. Do not resolve or suppress the Schisms until all four coexist.",
+    "englishEditor": "Partly — the Editor can prepare religious presence, but Schisms in all four Religions must occur and count in a normal game."
   },
   {
     "id": "a402",
@@ -13858,7 +14127,10 @@
     "englishName": "Five Cults",
     "englishCondition": "Have Five Cults (The Sacred and The Profane)",
     "englishApiName": "ACHIEVEMENT_SACRED_PROFANE_FIVE_CULTS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Have five Cults simultaneously. These special Improvements arise from The Sacred and The Profane events, and each event choice that creates a Cult increases the count.",
+    "englishTactic": "Choose event options that build Cult Improvements and preserve existing ones. Unfavorable events can begin after the third Cult; avoid choices that remove one until you reach five.",
+    "englishEditor": "Partly — the Editor can prepare the religious setting, but five Cults must arise and coexist in a normal game."
   },
   {
     "id": "a403",
@@ -13922,7 +14194,10 @@
     "englishName": "Wrath of Gods",
     "englishCondition": "Survive the Wrath of Gods (Wrath of Gods Scenario)",
     "englishApiName": "ACHIEVEMENT_WRATH_OF_GODS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Wrath of Gods mode, survive the climactic phase of divine wrath. Surviving one ordinary Disaster is insufficient: the special game must reach the end of the full wrath sequence.",
+    "englishTactic": "Stockpile Food, Wood, Stone, and Money, and keep Workers and troops near central cities. During the wrath, prioritize survival and repairs over expansion.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a405",
@@ -13953,7 +14228,10 @@
     "englishName": "The Divine Devotee Wrath of Gods",
     "englishCondition": "Survive the Wrath of Gods and complete a Divine Victory on Devotee difficulty (Wrath of Gods Scenario)",
     "englishApiName": "ACHIEVEMENT_WRATH_OF_GODS_DIVINE_DEVOTEE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Wrath of Gods mode on Devotee difficulty, survive divine wrath and then finish the same game with a Divine Victory. Both conditions must happen in one game.",
+    "englishTactic": "Check Devotee difficulty and Divine Victory during setup. Prepare victory requirements before the climax while reserving resources for Disasters, then finish the remaining goals after the wrath.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a406",
@@ -13984,7 +14262,10 @@
     "englishName": "Playing Favorites",
     "englishCondition": "Fulfill five Demands in a row for a single god (Wrath of Gods Scenario)",
     "englishApiName": "ACHIEVEMENT_WRATH_OF_GODS_PLAYING_FAVORITES",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Successfully complete five consecutive requests from the same deity. Requests from other gods do not extend the streak; refusing or failing a request from the chosen deity breaks it.",
+    "englishTactic": "Choose one deity to focus on. Save different Resources and leave production queues flexible so you can meet inconvenient requests. Check the current deadline before ending each turn.",
+    "englishEditor": "No — this event, character, or special condition must occur during a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a407",
