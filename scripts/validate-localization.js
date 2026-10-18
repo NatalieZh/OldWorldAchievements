@@ -17,7 +17,7 @@ const events = new Map();
 const elements = new Map();
 function element(id) {
   if (!elements.has(id)) elements.set(id, {
-    value: '', textContent: '', innerHTML: '', style: {},
+    value: '', textContent: '', innerHTML: '', style: {}, dataset: {},
     classList: { toggle() {}, contains: () => true },
   });
   return elements.get(id);
@@ -137,4 +137,23 @@ context.planFile = planFile;
 run('importPlan(planFile)');
 assert.equal(run('state.run.goals.join(",")'), saved.run.goals.join(','));
 
-console.log(`Localization checks passed: ${cards.length} cards, ${Object.keys(en).length} UI keys, search, filters, language switching, progress and plan import/export.`);
+run('applyPlannerRunSettings=()=>{}; prepareExistingRunForEdit=()=>{}; showPlannerStep=()=>{}; openModal=()=>{}; openPlanner(true)');
+assert.equal(element('plannerModalTitle').textContent, en['planner.editTitle']);
+assert.equal(element('plannerModalIntro').textContent, en['planner.editIntro']);
+run('openPlanner(false)');
+assert.equal(element('plannerModalTitle').textContent, en['planner.title']);
+assert.equal(element('plannerModalIntro').textContent, en['planner.intro']);
+
+run(`plannerState.selectedCiv='Рим'; plannerState.goals=[
+  {a:achievements.find(a=>a.id==='a017'),tier:'core',score:4,selected:true},
+  {a:achievements.find(a=>a.id==='a194'),tier:'affinity',score:2,selected:true},
+  {a:achievements.find(a=>a.id==='a001'),tier:'optional',score:1,selected:true}
+]; updatePlannerSummary(); state.run={...state.run,civ:'Рим',goals:plannerState.goals.map(g=>g.a.id)}; renderCurrentRunDashboard()`);
+assert(element('plannerReview').innerHTML.includes('3 goals: 1 core, 1 compatible, and 1 optional'), 'Planner review does not match run grouping');
+assert(element('selectedGoalBreakdown').innerHTML.includes('Compatible 1'), 'Planner selection summary does not match run grouping');
+assert(!element('selectedGoalBreakdown').innerHTML.includes('Natural'), 'Planner selection summary still uses a different grouping');
+assert.equal(element('runCoreCount').textContent, 1);
+assert.equal(element('runCompatCount').textContent, 1);
+assert.equal(element('runOptionalCount').textContent, 1);
+
+console.log(`Localization checks passed: ${cards.length} cards, ${Object.keys(en).length} UI keys, search, filters, planner review, language switching, progress and plan import/export.`);

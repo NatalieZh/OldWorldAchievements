@@ -349,7 +349,7 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
 
 <div id="plannerModal" class="overlay hidden"><div class="card modal wide plannerModal">
  <div class="modalHead">
-  <div><div class="kicker" data-i18n="planner.kicker">Планирование партии</div><h2 data-i18n="planner.title">Спланировать новую партию</h2><p class="plannerIntro" data-i18n="planner.intro">План строится только по достижениям, которые сейчас не отмечены как полученные.</p></div>
+  <div><div class="kicker" data-i18n="planner.kicker">Планирование партии</div><h2 id="plannerModalTitle" data-i18n="planner.title">Спланировать новую партию</h2><p id="plannerModalIntro" class="plannerIntro" data-i18n="planner.intro">План строится только по достижениям, которые сейчас не отмечены как полученные.</p></div>
   <button class="close" onclick="closeModal('plannerModal')">×</button>
  </div>
 
@@ -663,8 +663,7 @@ function displayAchievementContext(a){
 function rarityTag(a){return a.rarity!=null?'<span class="tag rare">'+a.rarity+'% Steam</span>':''}
 function legitimacyTag(a){return a.cognomenLegitimacy!=null?'<span class="tag legit">'+esc(t('achievement.legitimacyShort',{value:a.cognomenLegitimacy}))+'</span>':''}
 
-function classifyRunGoal(a){
- const civ=state.run?.civ||'';
+function classifyRunGoal(a,civ=state.run?.civ||''){
  const linked=Array.isArray(a.playerCivs)?a.playerCivs:[];
  if(linked.includes(civ)) return 'core';
  if((a.affinityCivs||[]).includes(civ)) return 'compatible';
@@ -984,6 +983,12 @@ let plannerState={step:1,recommendations:[],selectedCiv:null,goals:[],editing:fa
 
 function openPlanner(editExisting=false){
  plannerState={step:1,recommendations:[],selectedCiv:null,goals:[],editing:!!(editExisting&&state.run),planSize:'standard'};
+ const title=document.getElementById('plannerModalTitle');
+ const intro=document.getElementById('plannerModalIntro');
+ title.dataset.i18n=plannerState.editing?'planner.editTitle':'planner.title';
+ intro.dataset.i18n=plannerState.editing?'planner.editIntro':'planner.intro';
+ title.textContent=t(title.dataset.i18n);
+ intro.textContent=t(intro.dataset.i18n);
  document.getElementById('plannerDoneCount').textContent=state.done.length;
  if(plannerState.editing){
    applyPlannerRunSettings(state.run);
@@ -1407,16 +1412,16 @@ function plannerDraftRun(goalIds=[]){
 }
 function updatePlannerSummary(){
  const selected=plannerState.goals.filter(g=>g.selected);
- const counts=Object.fromEntries(['core','affinity','compatible','optional','risky'].map(tier=>[tier,selected.filter(goal=>goal.tier===tier).length]));
+ const runCounts=Object.fromEntries(['core','compatible','optional'].map(group=>[group,selected.filter(goal=>classifyRunGoal(goal.a,plannerState.selectedCiv)===group).length]));
  document.getElementById('selectedGoalCount').textContent=selected.length;
  document.getElementById('selectedGoalScore').textContent=t('planner.points',{points:selected.reduce((s,g)=>s+g.score,0)});
- document.getElementById('selectedGoalBreakdown').innerHTML=[['planner.summary.core',counts.core],['planner.summary.affinity',counts.affinity],['planner.summary.compatible',counts.compatible],['planner.summary.optional',counts.optional],['planner.summary.risky',counts.risky]].filter(([,count])=>count).map(([key,count])=>'<span>'+esc(t(key,{count}))+'</span>').join('');
+ document.getElementById('selectedGoalBreakdown').innerHTML=[['planner.summary.core',runCounts.core],['planner.summary.compatible',runCounts.compatible],['planner.summary.optional',runCounts.optional]].filter(([,count])=>count).map(([key,count])=>'<span>'+esc(t(key,{count}))+'</span>').join('');
  const empty=selected.length===0;
  document.getElementById('plannerEmptyWarning').classList.toggle('hidden',!empty);
  const saveBtn=document.getElementById('plannerSaveBtn');if(saveBtn)saveBtn.disabled=empty;
  const profile=plannerPlanSizes[plannerState.planSize],sizeLabel=profile?t('planner.planSize.label',{size:t(profile.labelKey)}):t('planner.planSize.custom');
  const settings=plannerRunMeta(plannerDraftRun());
- document.getElementById('plannerReview').innerHTML='<div class="kicker">'+esc(t('planner.review.kicker'))+'</div><div class="plannerReviewTitle">'+esc(plannerState.selectedCiv?civLabel(plannerState.selectedCiv):t('planner.review.noCivilization'))+' · '+esc(sizeLabel)+'</div><div class="plannerReviewMeta">'+esc(settings)+'</div><div class="plannerReviewGroups">'+esc(empty?t('planner.review.noGoals'):t('planner.review.goals',{total:selected.length,core:counts.core,affinity:counts.affinity,compatible:counts.compatible,optional:counts.optional,risky:counts.risky}))+'</div>';
+ document.getElementById('plannerReview').innerHTML='<div class="kicker">'+esc(t(plannerState.editing?'planner.review.editKicker':'planner.review.kicker'))+'</div><div class="plannerReviewTitle">'+esc(plannerState.selectedCiv?civLabel(plannerState.selectedCiv):t('planner.review.noCivilization'))+' · '+esc(sizeLabel)+'</div><div class="plannerReviewMeta">'+esc(settings)+'</div><div class="plannerReviewGroups">'+esc(empty?t('planner.review.noGoals'):t('planner.review.goals',{total:selected.length,core:runCounts.core,compatible:runCounts.compatible,optional:runCounts.optional}))+'</div>';
  renderPlanSizePicker();
 }
 function createPlannedRun(){
