@@ -604,7 +604,10 @@
     "englishName": "Rome",
     "englishCondition": "Win as Rome",
     "englishApiName": "ACHIEVEMENT_NATION_ROME",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a game as Rome and earn any enabled victory. The chosen nation's victory is what counts; no particular victory type, leader, or dynasty is required.",
+    "englishTactic": "For a quick dedicated run, choose a small two-player map and low difficulty. Conquest is easy to verify when there is only one rival to eliminate. Play a standard game with achievements enabled; Hotseat does not count for this victory.",
+    "englishEditor": "Partly — the editor can simplify development, but the game must register a full victory for the specified nation."
   },
   {
     "id": "a018",
@@ -1014,7 +1017,10 @@
     "englishName": "Able Difficulty",
     "englishCondition": "Win on Able Difficulty",
     "englishApiName": "ACHIEVEMENT_DIFFICULTY_ABLE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a game on the Able difficulty or higher. Any enabled victory type counts; winning on a higher level also awards the achievements for lower levels.",
+    "englishTactic": "Rivals are still passive and you retain noticeable advantages. A small two-player map and Conquest Victory make a short dedicated game possible.",
+    "englishEditor": "No — the game must be completed and won at the required difficulty; the editor cannot replace the settings and victory checks."
   },
   {
     "id": "a029",
@@ -1083,7 +1089,10 @@
     "englishName": "Egypt",
     "englishCondition": "Win as Egypt",
     "englishApiName": "ACHIEVEMENT_NATION_EGYPT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a game as Egypt and earn any enabled victory. The chosen nation's victory is what counts; no particular victory type, leader, or dynasty is required.",
+    "englishTactic": "For a quick dedicated run, choose a small two-player map and low difficulty. Conquest is easy to verify when there is only one rival to eliminate. Play a standard game with achievements enabled; Hotseat does not count for this victory.",
+    "englishEditor": "Partly — the editor can simplify development, but the game must register a full victory for the specified nation."
   },
   {
     "id": "a031",
@@ -1150,7 +1159,10 @@
     "englishName": "Just Difficulty",
     "englishCondition": "Win on Just Difficulty",
     "englishApiName": "ACHIEVEMENT_DIFFICULTY_JUST",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a game on the Just difficulty or higher. Any enabled victory type counts; winning on a higher level also awards the achievements for lower levels.",
+    "englishTactic": "You still have a small advantage and rivals remain peaceful. If you only need this achievement, choose a small map and a familiar path to victory.",
+    "englishEditor": "No — the game must be completed and won at the required difficulty; the editor cannot replace the settings and victory checks."
   },
   {
     "id": "a033",
@@ -1183,7 +1195,10 @@
     "englishName": "Hatti",
     "englishCondition": "Win as Hatti",
     "englishApiName": "ACHIEVEMENT_NATION_HITTITE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a game as the Hittites and earn any enabled victory. The chosen nation's victory is what counts; no particular victory type, leader, or dynasty is required.",
+    "englishTactic": "For a quick dedicated run, choose a small two-player map and low difficulty. Conquest is easy to verify when there is only one rival to eliminate. Play a standard game with achievements enabled; Hotseat does not count for this victory.",
+    "englishEditor": "Partly — the editor can simplify development, but the game must register a full victory for the specified nation."
   },
   {
     "id": "a034",
@@ -1540,7 +1555,10 @@
     "englishName": "Greece",
     "englishCondition": "Win as Greece",
     "englishApiName": "ACHIEVEMENT_NATION_GREECE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a game as Greece and earn any enabled victory. The chosen nation's victory is what counts; no particular victory type, leader, or dynasty is required.",
+    "englishTactic": "For a quick dedicated run, choose a small two-player map and low difficulty. Conquest is easy to verify when there is only one rival to eliminate. Play a standard game with achievements enabled; Hotseat does not count for this victory.",
+    "englishEditor": "Partly — the editor can simplify development, but the game must register a full victory for the specified nation."
   },
   {
     "id": "a044",
@@ -1972,7 +1990,10 @@
     "englishName": "Babylonia",
     "englishCondition": "Win as Babylonia",
     "englishApiName": "ACHIEVEMENT_NATION_BABYLONIA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a game as Babylonia and earn any enabled victory. The chosen nation's victory is what counts; no particular victory type, leader, or dynasty is required.",
+    "englishTactic": "For a quick dedicated run, choose a small two-player map and low difficulty. Conquest is easy to verify when there is only one rival to eliminate. Play a standard game with achievements enabled; Hotseat does not count for this victory.",
+    "englishEditor": "Partly — the editor can simplify development, but the game must register a full victory for the specified nation."
   },
   {
     "id": "a056",
@@ -2105,7 +2126,10 @@
     "englishName": "Trade Caravan",
     "englishCondition": "Complete a caravan trade mission",
     "englishApiName": "ACHIEVEMENT_TRADE_CARAVAN",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Train a Caravan, send it on a Caravan Mission to another nation’s capital, and wait for it to arrive safely. On successful completion, the Caravan disappears, yields Money, and improves that nation’s opinion; this arrival grants the achievement.",
+    "englishTactic": "A city can train Caravans if its Governor is Cunning or it has a Traders Family Seat. Choose a nearby friendly capital, scout and secure the route, and remember that a Caravan moves only once per turn and spends one Order.",
+    "englishEditor": "Partly — the editor can help prepare relations and resources, but the Caravan trade agreement must be completed through normal play."
   },
   {
     "id": "a060",
@@ -2214,7 +2238,10 @@
     "englishName": "Legendary Cities",
     "englishCondition": "Have three Legendary Cities (One Game)",
     "englishApiName": "ACHIEVEMENT_CULTURE_LEGENDARY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Control at least 3 Legendary cities at the same time. A city's Culture level rises as it accumulates Culture.",
+    "englishTactic": "Develop several cities in parallel. Cultural buildings, Specialists, Wonders, and Events speed up Culture growth. You must control the required number of cities at the required level simultaneously.",
+    "englishEditor": "Partly — the editor can help prepare cities and resources, but the required Culture levels and city control must be reached in a normal game."
   },
   {
     "id": "a063",
@@ -2321,7 +2348,10 @@
     "englishName": "Power to the People",
     "englishCondition": "Have Freedom, Constitution, Legal Code, and Tolerance laws active at the same time",
     "englishApiName": "ACHIEVEMENT_POWER_TO_THE_PEOPLE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Have Freedom, Constitution, Legal Code, and Tolerance enacted at the same time. Their law pairs are unlocked by Labor Force, Sovereignty, Citizenship, and Doctrine, respectively.",
+    "englishTactic": "Do not leave Slavery, Tyranny, Divine Rule, or Orthodoxy active when assembling the final combination. Save Civics for law changes and enact all four required laws at once.",
+    "englishEditor": "No — all required Laws must be active simultaneously in a normal game; the editor cannot directly enact the complete set."
   },
   {
     "id": "a066",
@@ -2618,7 +2648,10 @@
     "englishName": "New Difficulty",
     "englishCondition": "Win on New Difficulty",
     "englishApiName": "ACHIEVEMENT_DIFFICULTY_NEW",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a game on the New difficulty or higher. Any enabled victory type counts; winning on a higher level also awards the achievements for lower levels.",
+    "englishTactic": "This is the gentlest level: rivals and Tribes act passively, while you have substantial advantages. For a quick attempt, choose a small two-player map and a convenient victory type.",
+    "englishEditor": "No — the game must be completed and won at the required difficulty; the editor cannot replace the settings and victory checks."
   },
   {
     "id": "a074",
@@ -2651,7 +2684,10 @@
     "englishName": "Event Level High",
     "englishCondition": "Win a game with Event Level High",
     "englishApiName": "ACHIEVEMENT_EVENTLEVEL_HIGH",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Set Event Level to High when creating the game, then earn any enabled victory. This produces more Events than the standard setting.",
+    "englishTactic": "Check Event Level before starting the map. Decisions will appear more often, so keep resources in reserve for unexpected requests. You can combine this with Realistic Mortality and other settings-based victories.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   },
   {
     "id": "a075",
@@ -2792,7 +2828,10 @@
     "englishName": "Persia",
     "englishCondition": "Win as Persia",
     "englishApiName": "ACHIEVEMENT_NATION_PERSIA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a game as Persia and earn any enabled victory. The chosen nation's victory is what counts; no particular victory type, leader, or dynasty is required.",
+    "englishTactic": "For a quick dedicated run, choose a small two-player map and low difficulty. Conquest is easy to verify when there is only one rival to eliminate. Play a standard game with achievements enabled; Hotseat does not count for this victory.",
+    "englishEditor": "Partly — the editor can simplify development, but the game must register a full victory for the specified nation."
   },
   {
     "id": "a079",
@@ -2861,7 +2900,10 @@
     "englishName": "Win a Single Player Game",
     "englishCondition": "Win a Single Player Game",
     "englishApiName": "ACHIEVEMENT_WIN_SINGLEPLAYER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn any enabled victory in a game started through Single Player. Multiplayer modes have separate achievements.",
+    "englishTactic": "Choose a small map, a comfortable difficulty, and a quick victory type. To collect settings-based achievements together, also enable options such as No Undo, Randomized Families, or Realistic Mortality.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   },
   {
     "id": "a081",
@@ -2926,7 +2968,10 @@
     "englishName": "Strong Cities",
     "englishCondition": "Have four Strong Cities (One Game)",
     "englishApiName": "ACHIEVEMENT_CULTURE_STRONG",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Control at least 4 Strong cities at the same time. A city's Culture level rises as it accumulates Culture.",
+    "englishTactic": "Develop several cities in parallel. Cultural buildings, Specialists, Wonders, and Events speed up Culture growth. You must control the required number of cities at the required level simultaneously.",
+    "englishEditor": "Partly — the editor can help prepare cities and resources, but the required Culture levels and city control must be reached in a normal game."
   },
   {
     "id": "a083",
@@ -2993,7 +3038,10 @@
     "englishName": "Role-Playing",
     "englishCondition": "Win a game with Role-Playing",
     "englishApiName": "ACHIEVEMENT_VICTORY_ROLE_PLAYING",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Enable Role-Playing when creating a game, then earn any enabled victory. This option hides the pop-up previews of consequences for story-event choices.",
+    "englishTactic": "Read each Event carefully because the usual choice previews will be hidden. No special victory type is required, so combine this setting with other achievements.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   },
   {
     "id": "a085",
@@ -3026,7 +3074,10 @@
     "englishName": "No Undo",
     "englishCondition": "Win a game with No Undo",
     "englishApiName": "ACHIEVEMENT_VICTORY_NO_UNDO",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Enable No Undo when creating a game, then earn any enabled victory. Once an action is performed, the game does not allow it to be undone.",
+    "englishTactic": "Double-check your target and remaining Orders before moving a unit or taking another important action. The option must be enabled from the start and can be combined with other settings-based achievements.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   },
   {
     "id": "a086",
@@ -3057,7 +3108,10 @@
     "englishName": "Pantheon of Gods",
     "englishCondition": "Have Polytheism, Divine Rule, and Holy War laws active at the same time",
     "englishApiName": "ACHIEVEMENT_PANTHEON_OF_GODS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Have Polytheism, Divine Rule, and Holy War enacted at the same time. They belong to three different mutually exclusive law pairs.",
+    "englishTactic": "Unlock the relevant law categories and save Civics before switching each pair to the required option. Do not let Monotheism, Legal Code, or Pilgrimage replace them.",
+    "englishEditor": "No — all required Laws must be active simultaneously in a normal game; the editor cannot directly enact the complete set."
   },
   {
     "id": "a087",
@@ -3090,7 +3144,10 @@
     "englishName": "Maurya",
     "englishCondition": "Win as Maurya",
     "englishApiName": "ACHIEVEMENT_NATION_MAURYA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a game as the Maurya and earn any enabled victory. The chosen nation's victory is what counts; no particular victory type, leader, or dynasty is required.",
+    "englishTactic": "For a quick dedicated run, choose a small two-player map and low difficulty. Conquest is easy to verify when there is only one rival to eliminate. Play a standard game with achievements enabled; Hotseat does not count for this victory.",
+    "englishEditor": "Partly — the editor can simplify development, but the game must register a full victory for the specified nation."
   },
   {
     "id": "a088",
@@ -3123,7 +3180,10 @@
     "englishName": "Points Victory",
     "englishCondition": "Win a Points Victory",
     "englishApiName": "ACHIEVEMENT_VICTORY_POINTS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a Points Victory by being the first to reach the target number of Victory Points. The threshold depends on the number of City Sites on the map and the number of players or teams.",
+    "englishTactic": "Make sure Points Victory is enabled. Expand, raise city Culture, and build Wonders while watching the Victory Point bar. Disable other fast victories if they might end the game first.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   },
   {
     "id": "a089",
@@ -3188,7 +3248,10 @@
     "englishName": "Old World Order",
     "englishCondition": "Have Epics, Slavery, and Tyranny laws active at the same time",
     "englishApiName": "ACHIEVEMENT_OLD_WORLD_ORDER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Have Epics, Slavery, and Tyranny enacted at the same time. They are unlocked by Rhetoric, Labor Force, and Sovereignty, respectively.",
+    "englishTactic": "This is an early-to-midgame combination. Research the three required Technologies and do not switch the pairs to Exploration, Freedom, or Constitution before receiving the achievement.",
+    "englishEditor": "No — all required Laws must be active simultaneously in a normal game; the editor cannot directly enact the complete set."
   },
   {
     "id": "a091",
@@ -3382,7 +3445,10 @@
     "englishName": "Developing Cities",
     "englishCondition": "Have five Developing Cities (One Game)",
     "englishApiName": "ACHIEVEMENT_CULTURE_DEVELOPING",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Control at least 5 Developing cities at the same time. A city's Culture level rises as it accumulates Culture.",
+    "englishTactic": "Develop several cities in parallel. Cultural buildings, Specialists, Wonders, and Events speed up Culture growth. You must control the required number of cities at the required level simultaneously.",
+    "englishEditor": "Partly — the editor can help prepare cities and resources, but the required Culture levels and city control must be reached in a normal game."
   },
   {
     "id": "a096",
@@ -4044,7 +4110,10 @@
     "englishName": "Naming Landmarks",
     "englishCondition": "Name ten Landmarks (One Game)",
     "englishApiName": "ACHIEVEMENT_STAT_TEN_LANDMARKS_NAME",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Name 10 discovered Landmarks in a single game.",
+    "englishTactic": "Explore actively with Scouts. When you discover a Landmark and can name it, use that action; the counter applies within one game.",
+    "englishEditor": "No — name all 10 Landmarks through normal gameplay in one game; the editor cannot replace this counter."
   },
   {
     "id": "a114",
@@ -5043,7 +5112,10 @@
     "englishName": "Economic Reform",
     "englishCondition": "Research Economic Reform",
     "englishApiName": "ACHIEVEMENT_TECH_ECONOMIC_REFORM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Research the tier VIII Technology Economic Reform. It follows Fiscal Policy, costs 2000 Science, and cannot be gained as a free Technology. The first completion grants the achievement; each research also grants 1 Victory Point and a Merchant Courtier.",
+    "englishTactic": "Advance through the economic branch to Fiscal Policy and maintain a high Science income. Once Economic Reform enters the Technology deck, research other cards until it appears. A Scholar leader can redraw offered cards once per year.",
+    "englishEditor": "Partly — the editor can research Technologies, but doing so directly may not trigger the achievement. For a reliable result, research the Technology normally."
   },
   {
     "id": "a140",
@@ -5162,7 +5234,10 @@
     "englishName": "Military Prestige",
     "englishCondition": "Research Military Prestige",
     "englishApiName": "ACHIEVEMENT_TECH_MILITARY_PRESTIGE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Research the tier VIII Technology Military Prestige. It requires Barding, Bodkin Arrow, and Cohorts, costs 2000 Science, and cannot be gained for free. The first completion grants the achievement; each research also grants 1 Victory Point and a Soldier Courtier.",
+    "englishTactic": "Develop all three military branches because one line alone is insufficient. After researching the prerequisites, cycle through the Technology deck until Military Prestige appears. Strong Science income and a Scholar leader who can redraw cards each year help.",
+    "englishEditor": "Partly — the editor can research Technologies, but doing so directly may not trigger the achievement. For a reliable result, research the Technology normally."
   },
   {
     "id": "a143",
@@ -5193,7 +5268,10 @@
     "englishName": "Industrial Progress",
     "englishCondition": "Research Industrial Progress",
     "englishApiName": "ACHIEVEMENT_TECH_INDUSTRIAL_PROGRESS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Research the tier VIII Technology Industrial Progress. It requires Chain Drive and Ballistics, costs 2000 Science, and cannot be gained for free. The first completion grants the achievement; each research also grants 1 Victory Point and a Minister Courtier.",
+    "englishTactic": "Advance toward Chain Drive and Ballistics in parallel, then continue researching available cards until Industrial Progress appears. Build strong Science income by the late game; a Scholar leader can redraw offered cards each year.",
+    "englishEditor": "Partly — the editor can research Technologies, but doing so directly may not trigger the achievement. For a reliable result, research the Technology normally."
   },
   {
     "id": "a144",
@@ -5470,7 +5548,10 @@
     "englishName": "Play a Network Game",
     "englishCondition": "Play a Network Game",
     "englishApiName": "ACHIEVEMENT_PLAY_NETWORK",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a synchronous multiplayer game over a network. The achievement is awarded when the game starts; you do not need to finish or win. A normal Network Game, dedicated server, or LAN game counts. Hotseat and Play-By-Cloud are separate modes.",
+    "englishTactic": "Create or join a network lobby and wait for the map to load. If you also want other multiplayer achievements, choose Free-For-All, Teams, or 1-v-1 at setup; one game can satisfy several start conditions.",
+    "englishEditor": "No — the condition must be met in the appropriate multiplayer or Hotseat game; the editor cannot substitute for the chosen mode or match result."
   },
   {
     "id": "a151",
@@ -5609,7 +5690,10 @@
     "englishName": "Good Difficulty",
     "englishCondition": "Win on Good Difficulty",
     "englishApiName": "ACHIEVEMENT_DIFFICULTY_GOOD",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a game on the Good difficulty or higher. Any enabled victory type counts; winning on a higher level also awards the achievements for lower levels.",
+    "englishTactic": "Neither side has a direct advantage at this level, but rivals are still peaceful. Focus on one victory condition instead of splitting resources among several plans.",
+    "englishEditor": "No — the game must be completed and won at the required difficulty; the editor cannot replace the settings and victory checks."
   },
   {
     "id": "a155",
@@ -5714,7 +5798,10 @@
     "englishName": "Play a Free-For-All Game (>2 Players)",
     "englishCondition": "Play a Free-For-All Game (>2 Players)",
     "englishApiName": "ACHIEVEMENT_PLAY_FFA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a multiplayer Free-For-All game with at least 3 sides, each on a different team. Hotseat counts. The achievement is awarded at game start; finishing is unnecessary.",
+    "englishTactic": "The simplest setup is a Hotseat game with at least 3 sides and a separate team for each. In a network game, AI can fill empty seats: the game counts all sides, not only humans.",
+    "englishEditor": "No — the condition must be met in the appropriate multiplayer or Hotseat game; the editor cannot substitute for the chosen mode or match result."
   },
   {
     "id": "a158",
@@ -5747,7 +5834,10 @@
     "englishName": "Carthage",
     "englishCondition": "Win as Carthage",
     "englishApiName": "ACHIEVEMENT_NATION_CARTHAGE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a game as Carthage and earn any enabled victory. The chosen nation's victory is what counts; no particular victory type, leader, or dynasty is required.",
+    "englishTactic": "For a quick dedicated run, choose a small two-player map and low difficulty. Conquest is easy to verify when there is only one rival to eliminate. Play a standard game with achievements enabled; Hotseat does not count for this victory.",
+    "englishEditor": "Partly — the editor can simplify development, but the game must register a full victory for the specified nation."
   },
   {
     "id": "a159",
@@ -5780,7 +5870,10 @@
     "englishName": "All Nations",
     "englishCondition": "Win against all nations",
     "englishApiName": "ACHIEVEMENT_VICTORY_ALL_NATIONS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a game against at least 6 opponents: there must be at least 7 sides on the map including yours. AI opponents count; you do not need to eliminate every nation personally.",
+    "englishTactic": "Create a game with 7 or more sides and choose a comfortable difficulty and victory type. Count opponents, not total players: your own side is not one of the required 6.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   },
   {
     "id": "a160",
@@ -6104,7 +6197,10 @@
     "englishName": "Strong Difficulty",
     "englishCondition": "Win on Strong Difficulty",
     "englishApiName": "ACHIEVEMENT_DIFFICULTY_STRONG",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a game on the Strong difficulty or higher. Any enabled victory type counts; winning on a higher level also awards the achievements for lower levels.",
+    "englishTactic": "This is a neutral level without a direct advantage for either side; rivals and Tribes are more active than before. Choose a small map and one primary route to victory.",
+    "englishEditor": "No — the game must be completed and won at the required difficulty; the editor cannot replace the settings and victory checks."
   },
   {
     "id": "a169",
@@ -6138,7 +6234,10 @@
     "englishName": "Play a MP Teams Game",
     "englishCondition": "Play a MP Teams Game",
     "englishApiName": "ACHIEVEMENT_PLAY_MPTEAMS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a multiplayer game with sides grouped into teams. Despite “MP” in the achievement name, Hotseat also counts. The achievement is awarded when the game starts; winning or finishing is unnecessary.",
+    "englishTactic": "The simplest setup is a four-side Hotseat game with two teams of two. Check team numbers before starting: each team must contain multiple sides.",
+    "englishEditor": "No — the condition must be met in the appropriate multiplayer or Hotseat game; the editor cannot substitute for the chosen mode or match result."
   },
   {
     "id": "a170",
@@ -6613,7 +6712,10 @@
     "englishName": "Noble Difficulty",
     "englishCondition": "Win on Noble Difficulty",
     "englishApiName": "ACHIEVEMENT_DIFFICULTY_NOBLE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a game on the Noble difficulty or higher. Any enabled victory type counts; winning on a higher level also awards the achievements for lower levels.",
+    "englishTactic": "Rivals start in a more developed position, though they have no direct strength bonus yet. Keep up in city count and military readiness early, then work toward your chosen victory.",
+    "englishEditor": "No — the game must be completed and won at the required difficulty; the editor cannot replace the settings and victory checks."
   },
   {
     "id": "a183",
@@ -6646,7 +6748,10 @@
     "englishName": "Conquest Victory",
     "englishCondition": "Win a Conquest Victory",
     "englishApiName": "ACHIEVEMENT_VICTORY_CONQUEST",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a Conquest Victory by eliminating every other nation. Tribes and Barbarians are not nations and do not prevent this victory. Single Player or a network 1-v-1 game counts, but Hotseat does not.",
+    "englishTactic": "The simplest setup is a small Single Player map with two sides: you and one AI opponent. For a simultaneous 1-v-1 victory achievement, play a network match instead. Do not use Hotseat for this general Conquest Victory, and disable optional victories that could finish the game early.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   },
   {
     "id": "a184",
@@ -6714,7 +6819,10 @@
     "englishName": "Assyria",
     "englishCondition": "Win as Assyria",
     "englishApiName": "ACHIEVEMENT_NATION_ASSYRIA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a game as Assyria and earn any enabled victory. The chosen nation's victory is what counts; no particular victory type, leader, or dynasty is required.",
+    "englishTactic": "For a quick dedicated run, choose a small two-player map and low difficulty. Conquest is easy to verify when there is only one rival to eliminate. Play a standard game with achievements enabled; Hotseat does not count for this victory.",
+    "englishEditor": "Partly — the editor can simplify development, but the game must register a full victory for the specified nation."
   },
   {
     "id": "a186",
@@ -6817,7 +6925,10 @@
     "englishName": "Cleopatra's Love",
     "englishCondition": "As Egyptian Queen marry a Roman",
     "englishApiName": "ACHIEVEMENT_CLEOPATRAS_LOVE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as Egypt with a female ruler and marry a character of Roman origin. The achievement alludes to Cleopatra, but no particular queen or Roman character is required.",
+    "englishTactic": "Include Rome in the game, maintain good relations, and look for a dynastic marriage. At the wedding, the current female ruler of Egypt must marry a Roman character; another family member’s marriage is insufficient.",
+    "englishEditor": "Partly — the editor can help prepare characters and relations, but the required diplomatic action must occur and be registered in normal play."
   },
   {
     "id": "a189",
@@ -6852,7 +6963,10 @@
     "englishName": "The Eternal Treaty",
     "englishCondition": "As Hatti, make Peace with Egypt",
     "englishApiName": "ACHIEVEMENT_FIRST_PEACE_TREATY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Play as the Hittites and establish peace with Egypt. Both nations must be present in the game; peaceful relations are checked at the start of a new turn.",
+    "englishTactic": "Create a small game with the Hittites and Egypt, make contact, and remain at peace. If the two nations are at war, arrange peace through diplomacy and end the turn so the condition is checked.",
+    "englishEditor": "Partly — the editor can help prepare characters and relations, but the required diplomatic action must occur and be registered in normal play."
   },
   {
     "id": "a190",
@@ -6994,7 +7108,10 @@
     "englishName": "Play a 1-v-1 Game",
     "englishCondition": "Play a 1-v-1 Game",
     "englishApiName": "ACHIEVEMENT_PLAY_1V1",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a competitive multiplayer game with exactly 2 sides on different teams. Hotseat counts. The achievement is awarded at game start; finishing is unnecessary.",
+    "englishTactic": "Create a two-side Hotseat game and assign different teams. Do not add a third side or place both sides on the same team.",
+    "englishEditor": "No — the condition must be met in the appropriate multiplayer or Hotseat game; the editor cannot substitute for the chosen mode or match result."
   },
   {
     "id": "a194",
@@ -7208,7 +7325,10 @@
     "englishName": "Glorious Difficulty",
     "englishCondition": "Win on Glorious Difficulty",
     "englishApiName": "ACHIEVEMENT_DIFFICULTY_GLORIOUS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a game on the Glorious difficulty or higher. Any enabled victory type counts; winning on a higher level also awards the achievements for lower levels.",
+    "englishTactic": "Rivals are aggressive, Tribes are stronger, and the AI gains a small advantage. Keep an army reserve from the first turns and fight wars that gain cities or directly advance your victory.",
+    "englishEditor": "No — the game must be completed and won at the required difficulty; the editor cannot replace the settings and victory checks."
   },
   {
     "id": "a200",
@@ -7807,7 +7927,10 @@
     "englishName": "Magnificent Difficulty",
     "englishCondition": "Win on Magnificent Difficulty",
     "englishApiName": "ACHIEVEMENT_DIFFICULTY_MAGNIFICENT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a game on the Magnificent difficulty or higher. Any enabled victory type counts; winning on a higher level also awards the achievements for lower levels.",
+    "englishTactic": "Rivals start developed, play aggressively, and have a small advantage. Secure nearby borders through diplomacy or military force, expand promptly, and direct your economy toward one victory condition.",
+    "englishEditor": "No — the game must be completed and won at the required difficulty; the editor cannot replace the settings and victory checks."
   },
   {
     "id": "a216",
@@ -7878,7 +8001,10 @@
     "englishName": "Kush",
     "englishCondition": "Win as Kush",
     "englishApiName": "ACHIEVEMENT_NATION_KUSH",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a game as Kush and earn any enabled victory. The chosen nation's victory is what counts; no particular victory type, leader, or dynasty is required.",
+    "englishTactic": "For a quick dedicated run, choose a small two-player map and low difficulty. Conquest is easy to verify when there is only one rival to eliminate. Play a standard game with achievements enabled; Hotseat does not count for this victory.",
+    "englishEditor": "Partly — the editor can simplify development, but the game must register a full victory for the specified nation."
   },
   {
     "id": "a218",
@@ -7911,7 +8037,10 @@
     "englishName": "Play a Hotseat Game",
     "englishCondition": "Play a Hotseat Game",
     "englishApiName": "ACHIEVEMENT_PLAY_HOTSEAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a multiplayer Hotseat game in which participants take turns on the same device. The achievement is awarded at game start; finishing is unnecessary.",
+    "englishTactic": "Select Hotseat in the multiplayer menu, add at least two local sides, and start the map. Reaching the first turn is enough for this achievement.",
+    "englishEditor": "No — the condition must be met in the appropriate multiplayer or Hotseat game; the editor cannot substitute for the chosen mode or match result."
   },
   {
     "id": "a219",
@@ -7982,7 +8111,10 @@
     "englishName": "Win a Network Game",
     "englishCondition": "Win a Network Game",
     "englishApiName": "ACHIEVEMENT_WIN_NETWORK",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a synchronous multiplayer game over a network. A normal Network Game, dedicated server, or LAN game counts. Hotseat and Play-By-Cloud have separate victory achievements. Any enabled victory type qualifies.",
+    "englishTactic": "Choose a small map and quick settings, then confirm the desired victory type is enabled. The game must finish with you or your team declared the winner.",
+    "englishEditor": "No — the condition must be met in the appropriate multiplayer or Hotseat game; the editor cannot substitute for the chosen mode or match result."
   },
   {
     "id": "a221",
@@ -8084,7 +8216,10 @@
     "englishName": "Great Difficulty",
     "englishCondition": "Win on Great Difficulty",
     "englishApiName": "ACHIEVEMENT_DIFFICULTY_GREAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a game on the Great difficulty. Any enabled victory type counts; this is the highest standard difficulty.",
+    "englishTactic": "Rivals start developed and play very competitively; Tribes are especially dangerous and the AI has a substantial advantage. Choose a strong start, avoid unnecessary early wars, and use a small map only if you are confident of an early conquest.",
+    "englishEditor": "No — the game must be completed and won at the required difficulty; the editor cannot replace the settings and victory checks."
   },
   {
     "id": "a224",
@@ -8260,7 +8395,10 @@
     "englishName": "Realistic Mortality",
     "englishCondition": "Win a game with Realistic Mortality",
     "englishApiName": "ACHIEVEMENT_MORTALITY_REALISTIC",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Set Mortality to Realistic when creating the game, then earn any enabled victory. The setting must be active from the start.",
+    "englishTactic": "With Realistic Mortality, the starting leader is protected from natural death for only the first 10 turns. Prepare heirs early and do not rely on one character for the whole game. This can be combined with other settings-based victories.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   },
   {
     "id": "a229",
@@ -8293,7 +8431,10 @@
     "englishName": "Play a LAN Game",
     "englishCondition": "Play a LAN Game",
     "englishApiName": "ACHIEVEMENT_PLAY_LAN",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a multiplayer game in LAN mode. The achievement is awarded when the game starts; finishing or winning is unnecessary.",
+    "englishTactic": "Create a LAN lobby in the multiplayer menu, connect a second participant on the local network, and start the map. Do not choose a normal Network Game or Hotseat; this achievement checks LAN mode specifically.",
+    "englishEditor": "No — the condition must be met in the appropriate multiplayer or Hotseat game; the editor cannot substitute for the chosen mode or match result."
   },
   {
     "id": "a230",
@@ -8509,7 +8650,10 @@
     "englishName": "Randomized Leaders",
     "englishCondition": "Win a game with Randomized Leaders",
     "englishApiName": "ACHIEVEMENT_VICTORY_RANDOMIZE_LEADERS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Set your own starting leader Archetype to Random before the game begins, then win. Randomized rival leaders do not satisfy this setting for your side.",
+    "englishTactic": "Choose Random for your side’s leader Archetype rather than selecting a specific leader or Archetype. Adapt your strategy to the resulting traits and win by any enabled route.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   },
   {
     "id": "a236",
@@ -8754,7 +8898,10 @@
     "englishName": "Game of the Week",
     "englishCondition": "Win a Game of the Week",
     "englishApiName": "ACHIEVEMENT_GOTW",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start an official Game of the Week from its menu section and win it. A custom game with similar settings does not count.",
+    "englishTactic": "Review the fixed nation, map, opponents, and conditions for that week first. You cannot change the setup, so plan around the starting position and available victories.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   },
   {
     "id": "a243",
@@ -8931,7 +9078,10 @@
     "englishName": "Aksum",
     "englishCondition": "Win as Aksum",
     "englishApiName": "ACHIEVEMENT_NATION_AKSUM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a game as Aksum and earn any enabled victory. The chosen nation's victory is what counts; no particular victory type, leader, or dynasty is required.",
+    "englishTactic": "For a quick dedicated run, choose a small two-player map and low difficulty. Conquest is easy to verify when there is only one rival to eliminate. Play a standard game with achievements enabled; Hotseat does not count for this victory.",
+    "englishEditor": "Partly — the editor can simplify development, but the game must register a full victory for the specified nation."
   },
   {
     "id": "a248",
@@ -8964,7 +9114,10 @@
     "englishName": "Play a Play-By-Cloud Game",
     "englishCondition": "Play a Play-By-Cloud Game",
     "englishApiName": "ACHIEVEMENT_PLAY_PLAYBYCLOUD",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start an asynchronous multiplayer game in Play-By-Cloud mode. The achievement is awarded at game start; you do not need to wait for completion.",
+    "englishTactic": "Create a Play-By-Cloud game, invite a second participant, and start the map. Check that you selected Play-By-Cloud rather than a normal network lobby.",
+    "englishEditor": "No — the condition must be met in the appropriate multiplayer or Hotseat game; the editor cannot substitute for the chosen mode or match result."
   },
   {
     "id": "a249",
@@ -8998,7 +9151,10 @@
     "englishName": "Randomized Families",
     "englishCondition": "Win a game with Randomized Families",
     "englishApiName": "ACHIEVEMENT_VICTORY_RANDOMIZE_FAMILIES",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Enable Randomized Families when creating a game and win. This randomly changes each Family Class, for example to Sages, Artisans, or Champions.",
+    "englishTactic": "Check the available Family Classes and bonuses again after starting; familiar nation–family combinations may change. Assign City Sites based on the rolled properties and win by any enabled route.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   },
   {
     "id": "a250",
@@ -9694,7 +9850,10 @@
     "englishName": "Win a MP Teams Game",
     "englishCondition": "Win a MP Teams Game",
     "englishApiName": "ACHIEVEMENT_WIN_MPTEAMS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a multiplayer game with sides grouped into teams. A player on the winning team receives the achievement; any enabled victory type qualifies. A Hotseat victory does not count for this card.",
+    "englishTactic": "Create a network or Play-By-Cloud game with two teams of at least two sides each, and play alongside an ally against the other team. A small map and quick settings shorten the game; any member of your team can secure the win.",
+    "englishEditor": "No — the condition must be met in the appropriate multiplayer or Hotseat game; the editor cannot substitute for the chosen mode or match result."
   },
   {
     "id": "a269",
@@ -10443,7 +10602,10 @@
     "englishName": "No Characters",
     "englishCondition": "Win a game with No Characters",
     "englishApiName": "ACHIEVEMENT_VICTORY_NO_CHARACTERS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Enable No Characters when creating a game and win. This mode removes characters and families from play.",
+    "englishTactic": "Do not rely on Governors, Generals, Family bonuses, or character Events. Focus on city development, economy, and the army; a small map and convenient victory type will shorten the run.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   },
   {
     "id": "a290",
@@ -10476,7 +10638,10 @@
     "englishName": "One City Challenge",
     "englishCondition": "Win a game with One City Challenge",
     "englishApiName": "ACHIEVEMENT_VICTORY_ONE_CITY_CHALLENGE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Enable One City Challenge when creating a game and win. A human player cannot control more than one city.",
+    "englishTactic": "Develop your single city intensively: reserve tiles for key Improvements and Wonders, build up Specialists and Culture, and prepare defenses. Choose a victory type that does not require broad territorial expansion.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   },
   {
     "id": "a291",
@@ -10509,7 +10674,10 @@
     "englishName": "Time Victory",
     "englishCondition": "Win a Time Victory",
     "englishApiName": "ACHIEVEMENT_VICTORY_TIME",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Enable Time Victory and have more Victory Points than all other sides at the end of turn 200. Disabling this victory type also removes the turn limit.",
+    "englishTactic": "Disable or avoid earlier Points, Ambition, and Double Victories. Capture cities and territories, build Wonders, and check the score table so you remain in first place at the end of turn 200.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   },
   {
     "id": "a292",
@@ -10542,7 +10710,10 @@
     "englishName": "Win a Free-For-All Game (>2 Players)",
     "englishCondition": "Win a Free-For-All Game (>2 Players)",
     "englishApiName": "ACHIEVEMENT_WIN_FFA",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a multiplayer Free-For-All game with at least 3 sides, each on a different team. Any enabled victory type qualifies. A Hotseat victory does not count for this card.",
+    "englishTactic": "Create a network or Play-By-Cloud game with at least 3 sides; AI can fill empty seats if needed. Give each side its own team. A small map and quick settings shorten the run.",
+    "englishEditor": "No — the condition must be met in the appropriate multiplayer or Hotseat game; the editor cannot substitute for the chosen mode or match result."
   },
   {
     "id": "a293",
@@ -10575,7 +10746,10 @@
     "englishName": "Alliance Victory",
     "englishCondition": "Help an ally win a game",
     "englishApiName": "ACHIEVEMENT_ALLIANCE_VICTORY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Share a victory through an Alliance with a nation that wins the game. A full Alliance must be active between you when that nation wins.",
+    "englishTactic": "Choose a strong friendly nation, keep its opinion high, and form the Alliance early. Help your ally in wars without beating it to the chosen victory condition; for a reliable result, let the ally satisfy that condition first.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   },
   {
     "id": "a294",
@@ -10608,7 +10782,10 @@
     "englishName": "Before the Mongol Horde",
     "englishCondition": "Win a game using only Riders family",
     "englishApiName": "ACHIEVEMENT_BEFORE_MONGOL_HORDE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a game after founding only one Family throughout the run, and that Family must have the Riders Class. Suitable nations include Carthage, Egypt, Persia, and the Hittites.",
+    "englishTactic": "Give your first city to a Riders Family and never found another Family Class. One City Challenge is a useful combination because it makes accidentally founding a second Family less likely. Then win by any enabled route.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   },
   {
     "id": "a295",
@@ -10639,7 +10816,10 @@
     "englishName": "Stewards of the Land",
     "englishCondition": "Control Three Stewards of the Land (Wrath of Gods)",
     "englishApiName": "ACHIEVEMENT_CALAMITIES_STEWARDS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "This can be earned in a standard game with Wrath of Gods content enabled. Control 3 living characters with the Steward of the Land Trait at the same time. A first Steward does not appear after every disaster: only particular choices in rare drought or flood Events grant one. The achievement is checked at the start of the next turn.",
+    "englishTactic": "Get the first Steward in one of three ways: invite a friendly Tribe member during the drought Event Stewards of the Land; make an Inquisitive or Productive Governor a Steward in Finding Balance after a drought; or choose “Perhaps this hill is better left as it is” in Iron Signs after a flood. Then use the three-year Impart Stewardship Mission on adolescent or adult characters without the Trait. It costs 100 Civics and 2 Orders, with a 75% success chance.",
+    "englishEditor": "No — first obtain a Steward through a suitable Wrath of Gods Event, then train two more characters."
   },
   {
     "id": "a296",
@@ -11383,7 +11563,10 @@
     "englishName": "Allies with Benefits",
     "englishCondition": "As the Yuezhi, use the Vassalize Tribe Mission (Empires of the Indus)",
     "englishApiName": "ACHIEVEMENT_ALLIES_WITH_BENEFITS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Empires of the Indus, play as the Yuezhi with Characters enabled and successfully complete the leader Mission Vassalize Tribe. The target may be any weaker Tribe that still has at least one Camp.",
+    "englishTactic": "Do not use No Characters: its separate version of the Mission does not trigger this achievement. Keep a weaker Tribe and one of its Camps alive, save 800 Training and 2 Orders, then assign your leader to the two-turn Mission.",
+    "englishEditor": "Partly — the editor can help prepare characters and relations, but the required diplomatic action must occur and be registered in normal play."
   },
   {
     "id": "a316",
@@ -12371,7 +12554,10 @@
     "englishName": "Hardcore",
     "englishCondition": "Win a game on the Great difficulty against all nations with High Event Level, Realistic Mortality, Locked Save, Ruthless AI and No Undo.",
     "englishApiName": "ACHIEVEMENT_HARDCORE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a standard game with every required setting: Great difficulty, 6 opponents, High Event Level, Realistic Mortality, Locked Save, No Undo, and Ruthless AI. The game data checks for 6 opponents; you do not need to include every nation from installed DLC.",
+    "englishTactic": "Check every setting manually before starting. Once the game begins, a mistake cannot be corrected, and Locked Save prevents reverting. Choose a familiar nation, a map with room to develop, and a comfortable victory type. Maintain military and diplomatic strength because Ruthless AI grows more aggressive as victory approaches.",
+    "englishEditor": "No — a full victory with the exact required settings is needed."
   },
   {
     "id": "a343",
@@ -12440,7 +12626,10 @@
     "englishName": "Tamilakam",
     "englishCondition": "Win as Tamilakam",
     "englishApiName": "ACHIEVEMENT_NATION_TAMILAKAM",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a game as Tamilakam and earn any enabled victory. The chosen nation's victory is what counts; no particular victory type, leader, or dynasty is required.",
+    "englishTactic": "For a quick dedicated run, choose a small two-player map and low difficulty. Conquest is easy to verify when there is only one rival to eliminate. Play a standard game with achievements enabled; Hotseat does not count for this victory.",
+    "englishEditor": "Partly — the editor can simplify development, but the game must register a full victory for the specified nation."
   },
   {
     "id": "a345",
@@ -12473,7 +12662,10 @@
     "englishName": "Yuezhi",
     "englishCondition": "Win as Yuezhi",
     "englishApiName": "ACHIEVEMENT_NATION_YUEZHI",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Start a game as the Yuezhi and earn any enabled victory. The chosen nation's victory is what counts; no particular victory type, leader, or dynasty is required.",
+    "englishTactic": "For a quick dedicated run, choose a small two-player map and low difficulty. Conquest is easy to verify when there is only one rival to eliminate. Play a standard game with achievements enabled; Hotseat does not count for this victory.",
+    "englishEditor": "Partly — the editor can simplify development, but the game must register a full victory for the specified nation."
   },
   {
     "id": "a346",
@@ -12581,7 +12773,10 @@
     "englishName": "Win a 1-v-1 Game",
     "englishCondition": "Win a 1-v-1 Game",
     "englishApiName": "ACHIEVEMENT_WIN_1V1",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a competitive multiplayer game with exactly 2 sides on different teams. Any enabled victory type qualifies. You can start a 1-v-1 game in Hotseat, but this victory achievement requires another multiplayer mode.",
+    "englishTactic": "Create a Network, LAN, or Play-By-Cloud game with exactly 2 sides on different teams. On a small map, eliminating the only opponent can also earn Conquest Victory.",
+    "englishEditor": "No — the condition must be met in the appropriate multiplayer or Hotseat game; the editor cannot substitute for the chosen mode or match result."
   },
   {
     "id": "a349",
@@ -12614,7 +12809,10 @@
     "englishName": "Win a Hotseat Game",
     "englishCondition": "Win a Hotseat Game",
     "englishApiName": "ACHIEVEMENT_WIN_HOTSEAT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a multiplayer Hotseat game. The game must end with one of the local sides victorious; any enabled victory type qualifies.",
+    "englishTactic": "Create a Hotseat game on a small map and play your chosen side to victory. Two local sides and a short victory condition can make the attempt faster.",
+    "englishEditor": "No — the condition must be met in the appropriate multiplayer or Hotseat game; the editor cannot substitute for the chosen mode or match result."
   },
   {
     "id": "a350",
@@ -12647,7 +12845,10 @@
     "englishName": "Win a LAN Game",
     "englishCondition": "Win a LAN Game",
     "englishApiName": "ACHIEVEMENT_WIN_LAN",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a multiplayer game started in LAN mode. Any enabled victory type qualifies.",
+    "englishTactic": "Create a LAN lobby, connect a second participant, and choose a small map with quick settings. Do not switch to a normal Network or Play-By-Cloud game: this achievement checks LAN mode specifically.",
+    "englishEditor": "No — the condition must be met in the appropriate multiplayer or Hotseat game; the editor cannot substitute for the chosen mode or match result."
   },
   {
     "id": "a351",
@@ -12680,7 +12881,10 @@
     "englishName": "Win a Play-By-Cloud Game",
     "englishCondition": "Win a Play-By-Cloud Game",
     "englishApiName": "ACHIEVEMENT_WIN_PLAYBYCLOUD",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win an asynchronous multiplayer game in Play-By-Cloud mode. Any enabled victory type qualifies.",
+    "englishTactic": "Create a Play-By-Cloud game on a small map and agree with the participants to pass turns regularly. Quick settings reduce the real-world wait between starting and finishing.",
+    "englishEditor": "No — the condition must be met in the appropriate multiplayer or Hotseat game; the editor cannot substitute for the chosen mode or match result."
   },
   {
     "id": "a352",
@@ -12782,7 +12986,10 @@
     "englishName": "Didn't Need it Anyway",
     "englishCondition": "Lose a bet, win the game without that city (Behind the Throne)",
     "englishApiName": "ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "In Behind the Throne, lose a bet with another nation in an Event chain where your city is at stake. Hand over the city, then win the game without taking it back.",
+    "englishTactic": "Wait for the archery-contest Events and, after losing, keep your promise by choosing “My word is my word.” Leave the city with the rival until victory. Conquest, Time, Ambition, Points, Double, or Alliance Victory can count.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   },
   {
     "id": "a355",
@@ -14615,7 +14822,11 @@
     "englishName": "The Royal Couple",
     "englishCondition": "Have Old World's two most famous faces married and ruling your nation.",
     "englishApiName": "ACHIEVEMENT_THE_ROYAL_COUPLE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Have the characters bearing Soren Johnson’s and Leyla Johnson’s portraits marry, with one of them currently ruling your nation. Their names and your nation do not matter: the game checks the portraits. Compare their faces on the Mohawk Games team page:",
+    "englishTactic": "Soren’s portrait belongs to the male Roman set; Leyla’s belongs to the female Persian set. Include Rome and Persia and enable Random Dynasties. When one portrait’s character becomes ruler, arrange a marriage with the other. The ruler must have exactly one spouse.",
+    "englishGuideLinkLabel": "Mohawk Games team",
+    "englishEditor": "Partly — the editor can help prepare characters and relations, but the required diplomatic action must occur and be registered in normal play."
   },
   {
     "id": "a404",
@@ -14794,6 +15005,9 @@
     "englishName": "Ambition Victory",
     "englishCondition": "Win an Ambition Victory",
     "englishApiName": "ACHIEVEMENT_VICTORY_AMBITION",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Enable Ambition Victory and complete 10 Ambitions, including at least one National Ambition. Only human players can use this victory type.",
+    "englishTactic": "Choose achievable Ambitions based on your current position and prepare for the next tier. Disable or avoid earlier Points, Time, and Double Victories so you can finish all 10 Ambitions.",
+    "englishEditor": "No — the required victory type or result must pass the normal game check; the editor cannot replace it."
   }
 ]
