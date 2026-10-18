@@ -543,6 +543,12 @@ function difficultyLabel(value){return t('values.difficulty.'+(difficultyKeys[va
 function specialLabel(value){return t('values.special.'+value)}
 function modeLabel(value){return t(plannerModeLabels[value]||value)}
 function dlcLabel(value){return value==='Основная игра'?t('values.dlc.baseGame'):value}
+function scenarioLabel(value){
+ if(!usingEnglish()||!value)return value;
+ const card=achievements.find(a=>a.scenarioName===value&&a.englishScenarioName);
+ if(card)return card.englishScenarioName;
+ return {'Герои Эгейи':'Heroes of the Aegean','Карфаген — кампания':'Carthage Campaign','Обучение':'Tutorial','Учимся играть':'Learn By Playing','Фараоны Нила — кампания':'Pharaohs of the Nile Campaign'}[value]||value;
+}
 function initSelect(id,items,labelKey,labeler=x=>x){const el=document.getElementById(id),selected=el.value;el.innerHTML='<option value="">'+esc(t(labelKey))+'</option>'+items.map(x=>'<option value="'+esc(x)+'">'+esc(labeler(x))+'</option>').join('');if([...el.options].some(option=>option.value===selected))el.value=selected}
 function initSpecialSelect(id,emptyKey){const el=document.getElementById(id),selected=el.value;el.innerHTML='<option value="">'+esc(t(emptyKey))+'</option>'+specialOptions.map(value=>'<option value="'+esc(value)+'">'+esc(specialLabel(value))+'</option>').join('');if([...el.options].some(option=>option.value===selected))el.value=selected}
 function setPlannerSelectValue(id,value,fallback){
@@ -565,7 +571,7 @@ function applyPlannerRunSettings(run){
 function plannerRunMeta(run){
  const settings={...plannerRunDefaults,...run};
  const special=settings.special?specialLabel(settings.special):'';
- const scenario=settings.scenario==='none'?t('planner.meta.standardGame'):t('planner.meta.scenario',{scenario:settings.scenario});
+ const scenario=settings.scenario==='none'?t('planner.meta.standardGame'):t('planner.meta.scenario',{scenario:scenarioLabel(settings.scenario)});
  const dlc=settings.dlc==='all'?t('planner.meta.anySource'):t('planner.meta.source',{source:dlcLabel(settings.dlc)});
  const difficulty=settings.difficulty==='any'?t('planner.meta.anyDifficulty'):t('planner.meta.difficulty',{difficulty:difficultyLabel(settings.difficulty)});
  const parts=[modeLabel(settings.mode),difficulty,t(plannerStyleLabels[settings.style]||settings.style),dlc,scenario];
@@ -588,11 +594,11 @@ function initialize(){
 function renderLocalizedSelects(){
  const catalogScenario=document.getElementById('scenarioFilter')?.value||'';
  const progressScenario=document.getElementById('pScenario')?.value||'';
- initSelect('categoryFilter',categories,'filters.allCategories',categoryLabel);initSelect('dlcFilter',dlcs,'filters.allDlc',dlcLabel);initSelect('scenarioFilter',scenarios,'filters.allScenarios');initSelect('civFilter',civs,'filters.allCivilizations',civLabel);
+ initSelect('categoryFilter',categories,'filters.allCategories',categoryLabel);initSelect('dlcFilter',dlcs,'filters.allDlc',dlcLabel);initSelect('scenarioFilter',scenarios,'filters.allScenarios',scenarioLabel);initSelect('civFilter',civs,'filters.allCivilizations',civLabel);
  document.getElementById('scenarioFilter').insertAdjacentHTML('afterbegin','<option value="__none__">'+esc(t('filters.noScenarioAchievements'))+'</option>');
  if(catalogScenario==='__none__')document.getElementById('scenarioFilter').value='__none__';
  initSpecialSelect('specialFilter','filters.allSpecial');
- initSelect('pCategory',categories,'filters.allCategories',categoryLabel);initSelect('pDlc',dlcs,'filters.allDlc',dlcLabel);initSelect('pScenario',scenarios,'filters.allScenarios');initSelect('pCiv',civs,'filters.allCivilizations',civLabel);
+ initSelect('pCategory',categories,'filters.allCategories',categoryLabel);initSelect('pDlc',dlcs,'filters.allDlc',dlcLabel);initSelect('pScenario',scenarios,'filters.allScenarios',scenarioLabel);initSelect('pCiv',civs,'filters.allCivilizations',civLabel);
  document.getElementById('pScenario').insertAdjacentHTML('afterbegin','<option value="__none__">'+esc(t('filters.noScenarioAchievements'))+'</option>');
  if(progressScenario==='__none__')document.getElementById('pScenario').value='__none__';
  initSpecialSelect('pSpecial','filters.allSpecial');
@@ -772,7 +778,7 @@ function renderFeatured(){
    const inRun=!!state.run&&(state.run.goals||[]).includes(a.id);
    return `<div class="ach" onclick="openAch('${a.id}')">
      <div class="achIcon">${done?'✓':'◆'}</div>
-     <div><strong>${esc(achievementName(a))}</strong>${duplicateIdentityHTML(a)}<p>${esc(achievementCondition(a))}</p><div class="tags"><span class="tag">${esc(categoryLabel(a.category))}</span>${a.scenario?'<span class="tag">'+esc(a.scenario)+'</span>':''}${legitimacyTag(a)}${rarityTag(a)}${done?'<span class="tag done">'+esc(t('achievement.earned'))+'</span>':''}</div></div>
+     <div><strong>${esc(achievementName(a))}</strong>${duplicateIdentityHTML(a)}<p>${esc(achievementCondition(a))}</p><div class="tags"><span class="tag">${esc(categoryLabel(a.category))}</span>${a.scenario?'<span class="tag">'+esc(scenarioLabel(a.scenario))+'</span>':''}${legitimacyTag(a)}${rarityTag(a)}${done?'<span class="tag done">'+esc(t('achievement.earned'))+'</span>':''}</div></div>
      <div class="achAction">${esc(t('common.open'))}</div>
      ${state.run?`<div class="featuredAdd"><button class="btn ghost small ${inRun?'added':''}" onclick="event.stopPropagation();toggleGoalInCurrentRun('${a.id}')">${inRun?esc(t('run.inPlan')):esc(t('run.addToPlan'))}</button></div>`:''}
    </div>`;
@@ -780,7 +786,7 @@ function renderFeatured(){
 }
 function catalogMatchesSearch(a,q){
  if(!q)return true;
- const text=(a.name+' '+(a.englishName||'')+' '+a.condition+' '+(a.englishCondition||'')+' '+a.category+' '+a.civs+' '+(a.affinityCivs||[]).join(' ')+' '+a.dlcName+' '+a.scenarioName).toLowerCase().replaceAll('ё','е');
+ const text=(a.name+' '+(a.englishName||'')+' '+a.condition+' '+(a.englishCondition||'')+' '+a.category+' '+a.civs+' '+(a.affinityCivs||[]).join(' ')+' '+a.dlcName+' '+a.scenarioName+' '+(a.englishScenarioName||'')).toLowerCase().replaceAll('ё','е');
  const words=text.split(/[^\p{L}\p{N}]+/u).filter(Boolean);
  const tokens=q.toLowerCase().replaceAll('ё','е').split(/[^\p{L}\p{N}]+/u).filter(Boolean);
  return tokens.every(token=>words.some(word=>word.startsWith(token)));
@@ -824,7 +830,7 @@ function toggleReferenceGuide(){
 
 function progressFiltered(){
  const q=(document.getElementById('pSearch').value||'').toLowerCase().trim(),cat=document.getElementById('pCategory').value,dlc=document.getElementById('pDlc').value,scenario=document.getElementById('pScenario').value,special=document.getElementById('pSpecial').value,civ=document.getElementById('pCiv').value,status=document.getElementById('pStatus').value;
- return achievements.filter(a=>{const done=draftDone.has(a.id);return(!q||(a.name+' '+(a.englishName||'')+' '+a.condition+' '+(a.englishCondition||'')+' '+a.category+' '+a.civs+' '+(a.affinityCivs||[]).join(' ')+' '+a.dlcName+' '+a.scenarioName).toLowerCase().includes(q))&&(!cat||a.category===cat)&&(!dlc||a.dlcName===dlc)&&(!scenario||(scenario==='__none__'?!a.isScenario:(a.scenarioName===scenario||a.scenario===scenario)))&&(!special||(a.settingTags||[]).includes(special))&&(!civ||(a.playerCivs||[]).includes(civ)||(a.affinityCivs||[]).includes(civ)||(a.targetCivs||[]).includes(civ))&&(!status||(status==='done'?done:!done))})
+ return achievements.filter(a=>{const done=draftDone.has(a.id);return(!q||(a.name+' '+(a.englishName||'')+' '+a.condition+' '+(a.englishCondition||'')+' '+a.category+' '+a.civs+' '+(a.affinityCivs||[]).join(' ')+' '+a.dlcName+' '+a.scenarioName+' '+(a.englishScenarioName||'')).toLowerCase().includes(q))&&(!cat||a.category===cat)&&(!dlc||a.dlcName===dlc)&&(!scenario||(scenario==='__none__'?!a.isScenario:(a.scenarioName===scenario||a.scenario===scenario)))&&(!special||(a.settingTags||[]).includes(special))&&(!civ||(a.playerCivs||[]).includes(civ)||(a.affinityCivs||[]).includes(civ)||(a.targetCivs||[]).includes(civ))&&(!status||(status==='done'?done:!done))})
 }
 function sortProgressRows(arr){
  const mode=document.getElementById('pSort')?.value||'name';
@@ -956,7 +962,7 @@ if(lbox&&a.cognomenLegitimacy!=null){
 }else if(lbox){lbox.classList.add('hidden');lval.textContent='';lwarn.textContent='';lrule.textContent=''}
 
 const dnote=document.getElementById('mDupNote');if(a.duplicateNote){dnote.classList.remove('hidden');dnote.textContent=achievementDetail(a,'duplicateNote')}else{dnote.classList.add('hidden');dnote.textContent=''}
-const src=document.getElementById('mSource'),source=achievementSource(a);src.textContent=source||t('achievement.noSource');src.href=source?.startsWith('http')?source:'#';document.getElementById('mTags').innerHTML=`<span class="tag">${esc(dlcLabel(a.dlcName))}</span>${a.scenarioName?'<span class="tag">'+esc(a.scenarioName)+'</span>':''}${a.englishName&&!usingEnglish()?'<span class="tag">'+esc(a.englishName)+'</span>':''}${(a.playerCivs||[]).length?'<span class="tag">'+esc(t('achievement.playAs',{civilizations:a.playerCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.affinityCivs||[]).length?'<span class="tag">'+esc(t('achievement.naturalFor',{civilizations:a.affinityCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.targetCivs||[]).length?'<span class="tag">'+esc(t('achievement.target',{civilizations:a.targetCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.settingTags||[]).map(tag=>'<span class="tag">'+esc(specialLabel(tag))+'</span>').join('')}${a.requiredCity?'<span class="tag">'+esc(t('achievement.city',{city:a.requiredCity}))+'</span>':''}${legitimacyTag(a)}${rarityTag(a)}`;updateToggleButton();updateRunAchievementButton();openModal('achievementModal')}
+const src=document.getElementById('mSource'),source=achievementSource(a);src.textContent=source||t('achievement.noSource');src.href=source?.startsWith('http')?source:'#';document.getElementById('mTags').innerHTML=`<span class="tag">${esc(dlcLabel(a.dlcName))}</span>${a.scenarioName?'<span class="tag">'+esc(scenarioLabel(a.scenarioName))+'</span>':''}${a.englishName&&!usingEnglish()?'<span class="tag">'+esc(a.englishName)+'</span>':''}${(a.playerCivs||[]).length?'<span class="tag">'+esc(t('achievement.playAs',{civilizations:a.playerCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.affinityCivs||[]).length?'<span class="tag">'+esc(t('achievement.naturalFor',{civilizations:a.affinityCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.targetCivs||[]).length?'<span class="tag">'+esc(t('achievement.target',{civilizations:a.targetCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.settingTags||[]).map(tag=>'<span class="tag">'+esc(specialLabel(tag))+'</span>').join('')}${a.requiredCity?'<span class="tag">'+esc(t('achievement.city',{city:a.requiredCity}))+'</span>':''}${legitimacyTag(a)}${rarityTag(a)}`;updateToggleButton();updateRunAchievementButton();openModal('achievementModal')}
 function updateToggleButton(){const done=state.done.includes(currentAchId),b=document.getElementById('toggleAchBtn');b.textContent=done?t('achievement.unmarkEarned'):t('achievement.markEarned');b.className=done?'btn ghost small':'btn small'}
 function toggleCurrentAchievement(){if(!currentAchId)return;const s=new Set(state.done);s.has(currentAchId)?s.delete(currentAchId):s.add(currentAchId);state.done=[...s];persist();render();updateToggleButton();toast(s.has(currentAchId)?t('achievement.markedEarned'):t('achievement.unmarked'))}
 
@@ -1108,7 +1114,7 @@ function updatePlannerScenarioOptions(preferred){
  const select=document.getElementById('planScenario');if(!select)return;
  const dlc=document.getElementById('planDlc')?.value||'all';
  const requested=plannerScenarioValue(preferred===undefined?select.value:preferred),entries=plannerScenarioEntries(dlc);
- select.innerHTML='<option value="none">'+esc(t('planner.scenario.standard'))+'</option>'+entries.map(item=>'<option value="'+esc(item.name)+'">'+esc(t('planner.scenario.option',{scenario:item.name,remaining:item.remaining}))+'</option>').join('');
+ select.innerHTML='<option value="none">'+esc(t('planner.scenario.standard'))+'</option>'+entries.map(item=>'<option value="'+esc(item.name)+'">'+esc(t('planner.scenario.option',{scenario:scenarioLabel(item.name),remaining:item.remaining}))+'</option>').join('');
  select.value=entries.some(item=>item.name===requested)?requested:'none';
  const note=document.getElementById('planScenarioNote');if(note)note.textContent=entries.length?t('planner.scenario.sorted'):t('planner.scenario.noneAvailable');
 }
@@ -1162,7 +1168,7 @@ function achievementScoreForCiv(a,civ,style,mode){
  if(a.isScenario&&scenarioMode==='none') return {score:0,reason:t('planner.reasons.scenarioOnly'),tier:'exclude'};
  if(a.isScenario&&(a.scenarioName===scenarioMode||a.scenario===scenarioMode)){
    const direct=(a.playerCivs||[]).includes(civ);
-   return {score:direct?4:3,reason:direct?t('planner.reasons.scenarioCivilization'):t('planner.reasons.selectedScenario',{scenario:scenarioMode}),tier:'core'};
+   return {score:direct?4:3,reason:direct?t('planner.reasons.scenarioCivilization'):t('planner.reasons.selectedScenario',{scenario:scenarioLabel(scenarioMode)}),tier:'core'};
  }
 
  const playerCivs=Array.isArray(a.playerCivs)?a.playerCivs:[];
@@ -1363,7 +1369,7 @@ function renderGoalGroups(){
    const allItems=plannerState.goals.filter(g=>g.tier===key);
    const items=allItems.filter(g=>visibleIds.has(g.a.id));
    if(!items.length)return '';
-   return `<div class="goalGroup"><div class="goalGroupHead"><div><h4>${esc(title)}</h4><span>${esc(sub)}</span></div><span>${items.length===allItems.length?items.length:`${items.length} <span class="countDetail">${esc(t('planner.ofTotal',{total:allItems.length}))}</span>`}</span></div><div class="goalRows">${items.map(g=>`<div class="goalRow"><input type="checkbox" ${g.selected?'checked':''} onchange="togglePlannerGoal('${g.a.id}',this.checked)"><div class="goalInfo"><div class="goalName">${esc(displayAchievementName(g.a))}</div><div class="goalCondition">${esc(achievementCondition(g.a))}</div>${g.a.plannerNote?'<div class="goalCondition plannerNote">'+esc(achievementDetail(g.a,'plannerNote'))+'</div>':''}<div class="goalMeta"><span class="goalBadge">${esc(title)}</span>${g.a.nationalUnique?'<span class="goalBadge practicalBadge">'+esc(t('planner.uniqueUnit'))+'</span>':''}${goalIsPractical(g)?'<span class="goalBadge practicalBadge">'+esc(t('planner.practical'))+'</span>':''}${g.a.scenarioName?'<span class="goalBadge">'+esc(g.a.scenarioName)+'</span>':''}${g.a.cognomenLegitimacy!=null?'<span class="goalBadge">'+esc(t('achievement.legitimacyShort',{value:g.a.cognomenLegitimacy}))+'</span>':''}<span class="goalBadge score">+${g.score}</span><button class="goalDetails" onclick="openAch('${g.a.id}')">${esc(t('common.details'))}</button></div></div><div class="goalPts">+${g.score}</div></div>`).join('')}</div></div>`;
+   return `<div class="goalGroup"><div class="goalGroupHead"><div><h4>${esc(title)}</h4><span>${esc(sub)}</span></div><span>${items.length===allItems.length?items.length:`${items.length} <span class="countDetail">${esc(t('planner.ofTotal',{total:allItems.length}))}</span>`}</span></div><div class="goalRows">${items.map(g=>`<div class="goalRow"><input type="checkbox" ${g.selected?'checked':''} onchange="togglePlannerGoal('${g.a.id}',this.checked)"><div class="goalInfo"><div class="goalName">${esc(displayAchievementName(g.a))}</div><div class="goalCondition">${esc(achievementCondition(g.a))}</div>${g.a.plannerNote?'<div class="goalCondition plannerNote">'+esc(achievementDetail(g.a,'plannerNote'))+'</div>':''}<div class="goalMeta"><span class="goalBadge">${esc(title)}</span>${g.a.nationalUnique?'<span class="goalBadge practicalBadge">'+esc(t('planner.uniqueUnit'))+'</span>':''}${goalIsPractical(g)?'<span class="goalBadge practicalBadge">'+esc(t('planner.practical'))+'</span>':''}${g.a.scenarioName?'<span class="goalBadge">'+esc(scenarioLabel(g.a.scenarioName))+'</span>':''}${g.a.cognomenLegitimacy!=null?'<span class="goalBadge">'+esc(t('achievement.legitimacyShort',{value:g.a.cognomenLegitimacy}))+'</span>':''}<span class="goalBadge score">+${g.score}</span><button class="goalDetails" onclick="openAch('${g.a.id}')">${esc(t('common.details'))}</button></div></div><div class="goalPts">+${g.score}</div></div>`).join('')}</div></div>`;
  }).join('');
  const hint=document.getElementById('plannerGoalHint');
  if(hint){
