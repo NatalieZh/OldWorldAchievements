@@ -406,7 +406,7 @@ window.APP_LOCALES.en = {
   "values.category.building": "Building",
   "values.category.scenario": "Scenario / campaign",
   "values.category.technology": "Technology",
-  "values.category.character": "Trait / character",
+  "values.category.character": "Cognomens / characters",
   "values.category.wonder": "Wonder",
   "values.category.unit": "Unit",
   "values.civ.aksum": "Aksum",

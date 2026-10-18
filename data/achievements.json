@@ -234,7 +234,12 @@
     "legitimacyNote": "Это прозвище даёт 40 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 40 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_GRACIOUS"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_GRACIOUS",
+    "englishGuide": "Earn 4,000 humane points during one ruler's reign: +500 when a city's Culture level increases, +300 when its Happiness level increases, +50 for healing a unit, and −50 for killing an enemy military unit.",
+    "englishTactic": "Raise Culture and Happiness in several cities and heal damaged units. Avoid unnecessary kills: each one removes 50 points.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 40 Legitimacy. A ruler can receive it only if their current cognomen grants less than 40 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a008",
@@ -398,7 +403,12 @@
     "legitimacyNote": "Это прозвище даёт 40 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 40 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_JUST"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_JUST",
+    "englishGuide": "Earn 40,000 total cognomen points during one ruler's reign. Points from the other cognomen tracks count toward this total; completing an Ambition adds 12,000 points, and completing a Legacy adds 6,000.",
+    "englishTactic": "Aim for this cognomen with a young ruler who can reign for a long time. Complete Ambitions while also earning military, science, construction, and other points.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 40 Legitimacy. A ruler can receive it only if their current cognomen grants less than 40 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a013",
@@ -468,7 +478,12 @@
     "legitimacyNote": "Это прозвище даёт 10 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 10 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_WARRIOR"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_WARRIOR",
+    "englishGuide": "Earn 1,000 military glory points: +200 for killing an enemy military unit, another +200 if the killing unit is led by your ruler as General, and −200 for losing one of your own units.",
+    "englishTactic": "Assign your ruler as General of a strong unit and let that unit finish off enemies. Without losses, three such kills can exceed the base threshold at 400 points each.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 10 Legitimacy. A ruler can receive it only if their current cognomen grants less than 10 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a015",
@@ -535,7 +550,10 @@
     "englishName": "Champions",
     "englishCondition": "Win with Champions",
     "englishApiName": "ACHIEVEMENT_FAMILYCLASS_CHAMPIONS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a regular game with the Champions Family among your Families.",
+    "englishTactic": "Choose a Nation and Family set where the Champions are available, and make sure random settings do not remove them. Any victory type counts, provided you win with that Family.",
+    "englishEditor": "No — you must win a regular game with the required Family. The Game Editor does not substitute for that victory."
   },
   {
     "id": "a017",
@@ -670,7 +688,12 @@
     "legitimacyNote": "Это прозвище даёт 60 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 60 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_SAVIOR"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_SAVIOR",
+    "englishGuide": "Earn 6,000 humane points during one ruler's reign: +500 when a city's Culture level increases, +300 when its Happiness level increases, +50 for healing a unit, and −50 for killing an enemy military unit.",
+    "englishTactic": "Develop several cities at once; Culture-level increases are the largest predictable source of points. Heal damaged units and avoid needless kills.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 60 Legitimacy. A ruler can receive it only if their current cognomen grants less than 60 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a021",
@@ -740,7 +763,12 @@
     "legitimacyNote": "Это прозвище даёт 20 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 20 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_GATHERER"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_GATHERER",
+    "englishGuide": "Earn 2,000 gathering points: +200 for each resource harvested and +50 for each vegetation feature removed.",
+    "englishTactic": "Harvesting is four times as valuable as clearing vegetation: ten harvests reach the base threshold. Keep Workers near available resources and clear tiles only as a supplement.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 20 Legitimacy. A ruler can receive it only if their current cognomen grants less than 20 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a023",
@@ -805,7 +833,10 @@
     "guideStatus": "filled",
     "guideVerified": true,
     "guideSource": "https://steamcommunity.com/stats/597180/achievements?l=russian",
-    "englishApiName": "ACHIEVEMENT_PACIFIST_LEADER"
+    "englishApiName": "ACHIEVEMENT_PACIFIST_LEADER",
+    "englishGuide": "Have a current ruler with the Pacifist Trait. The achievement checks the ruler’s Trait itself, not a cognomen or a hidden point track.",
+    "englishTactic": "Pacifist can be granted by choices in The Mahabharata, Enemies in Deed, Animal Welfare, Animal Warfare, The Jains, The Pain of Conscience, and Peace of Meat. Choose the peaceful option that explicitly grants the Trait to your ruler.",
+    "englishEditor": "No — the required Trait must arise through birth, tutoring, or an event in a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a025",
@@ -842,7 +873,12 @@
     "legitimacyNote": "Это прозвище даёт 40 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 40 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_HOLY"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_HOLY",
+    "englishGuide": "Earn 4,000 religious points during one ruler's reign: +200 for spreading a Religion, +1,000 for founding a Theology, and +1,500 for founding a World Religion.",
+    "englishTactic": "Founding a World Religion and Theologies supplies most of the points; spread Religion to more cities for the rest. Start with a young ruler to leave enough time.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 40 Legitimacy. A ruler can receive it only if their current cognomen grants less than 40 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a026",
@@ -879,7 +915,12 @@
     "legitimacyNote": "Это прозвище даёт 20 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 20 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_DEVOUT"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_DEVOUT",
+    "englishGuide": "Earn 2,000 religious points during one ruler's reign: +200 for spreading a Religion, +1,000 for founding a Theology, and +1,500 for founding a World Religion.",
+    "englishTactic": "One World Religion plus three spreads reaches the base threshold; founding a Theology can replace some spreads. All actions must occur under the same ruler.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 20 Legitimacy. A ruler can receive it only if their current cognomen grants less than 20 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a027",
@@ -976,7 +1017,10 @@
     "englishName": "Landowners",
     "englishCondition": "Win with Landowners",
     "englishApiName": "ACHIEVEMENT_FAMILYCLASS_LANDOWNERS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a regular game with the Landowners Family among your Families.",
+    "englishTactic": "Choose a Nation and Family set where the Landowners are available, and make sure random settings do not remove them. Any victory type counts, provided you win with that Family.",
+    "englishEditor": "No — you must win a regular game with the required Family. The Game Editor does not substitute for that victory."
   },
   {
     "id": "a030",
@@ -1213,7 +1257,12 @@
     "legitimacyNote": "Это прозвище даёт 60 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 60 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_BELOVED"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_BELOVED",
+    "englishGuide": "Earn 6,000 court-development points: +100 for each Specialist trained and +1,000 for each Courtier added to your court.",
+    "englishTactic": "A Courtier is worth as much as ten Specialists, so welcome suitable characters to your court. Train Specialists between relevant events and marriages.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 60 Legitimacy. A ruler can receive it only if their current cognomen grants less than 60 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a037",
@@ -1380,7 +1429,10 @@
     "englishName": "Patrons",
     "englishCondition": "Win with Patrons",
     "englishApiName": "ACHIEVEMENT_FAMILYCLASS_PATRONS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a regular game with the Patrons Family among your Families.",
+    "englishTactic": "Choose a Nation and Family set where the Patrons are available, and make sure random settings do not remove them. Any victory type counts, provided you win with that Family.",
+    "englishEditor": "No — you must win a regular game with the required Family. The Game Editor does not substitute for that victory."
   },
   {
     "id": "a042",
@@ -1413,7 +1465,10 @@
     "englishName": "Sages",
     "englishCondition": "Win with Sages",
     "englishApiName": "ACHIEVEMENT_FAMILYCLASS_SAGES",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a regular game with the Sages Family among your Families.",
+    "englishTactic": "Choose a Nation and Family set where the Sages are available, and make sure random settings do not remove them. Any victory type counts, provided you win with that Family.",
+    "englishEditor": "No — you must win a regular game with the required Family. The Game Editor does not substitute for that victory."
   },
   {
     "id": "a043",
@@ -1514,7 +1569,12 @@
     "legitimacyNote": "Это прозвище даёт 100 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 100 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_GREAT"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_GREAT",
+    "englishGuide": "Earn 100,000 total cognomen points during one ruler's reign. Points from the other cognomen tracks count toward this total; completing an Ambition adds 12,000 points, and completing a Legacy adds 6,000.",
+    "englishTactic": "This requires a very long reign. Complete every feasible Ambition while building, researching, founding cities, and fighting so several tracks feed the total.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 100 Legitimacy. A ruler can receive it only if their current cognomen grants less than 100 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a046",
@@ -1551,7 +1611,12 @@
     "legitimacyNote": "Это прозвище даёт 90 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 90 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_MAGNIFICENT"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_MAGNIFICENT",
+    "englishGuide": "Earn 90,000 total cognomen points during one ruler's reign. Points from the other cognomen tracks count toward this total; completing an Ambition adds 12,000 points, and completing a Legacy adds 6,000.",
+    "englishTactic": "Choose a young heir and prepare feasible Ambitions in advance. A long reign with progress across several tracks gives you the best chance.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 90 Legitimacy. A ruler can receive it only if their current cognomen grants less than 90 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a047",
@@ -1742,7 +1807,10 @@
     "englishName": "Artisans",
     "englishCondition": "Win with Artisans",
     "englishApiName": "ACHIEVEMENT_FAMILYCLASS_ARTISANS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a regular game with the Artisans Family among your Families.",
+    "englishTactic": "Choose a Nation and Family set where the Artisans are available, and make sure random settings do not remove them. Any victory type counts, provided you win with that Family.",
+    "englishEditor": "No — you must win a regular game with the required Family. The Game Editor does not substitute for that victory."
   },
   {
     "id": "a053",
@@ -1775,7 +1843,10 @@
     "englishName": "Traders",
     "englishCondition": "Win with Traders",
     "englishApiName": "ACHIEVEMENT_FAMILYCLASS_TRADERS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a regular game with the Traders Family among your Families.",
+    "englishTactic": "Choose a Nation and Family set where the Traders are available, and make sure random settings do not remove them. Any victory type counts, provided you win with that Family.",
+    "englishEditor": "No — you must win a regular game with the required Family. The Game Editor does not substitute for that victory."
   },
   {
     "id": "a054",
@@ -2046,7 +2117,12 @@
     "legitimacyNote": "Это прозвище даёт 40 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 40 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_ENLIGHTENED"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_ENLIGHTENED",
+    "englishGuide": "Earn 4,000 science points during one ruler's reign. Each completed Technology contributes 500 points.",
+    "englishTactic": "At the base threshold, research eight Technologies under one ruler. Build a strong Science income before succession and choose shorter Technologies when speed matters.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 40 Legitimacy. A ruler can receive it only if their current cognomen grants less than 40 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a062",
@@ -2148,7 +2224,12 @@
     "legitimacyNote": "Это прозвище даёт 20 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 20 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_LEARNED"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_LEARNED",
+    "englishGuide": "Earn 2,000 science points during one ruler's reign. Each completed Technology contributes 500 points.",
+    "englishTactic": "At the base threshold, four Technologies under one ruler suffice. Prepare Science before succession and research cheaper available Technologies first.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 20 Legitimacy. A ruler can receive it only if their current cognomen grants less than 20 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a065",
@@ -2318,7 +2399,12 @@
     "legitimacyNote": "Это прозвище даёт 10 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 10 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_MASON"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_MASON",
+    "englishGuide": "Earn 1,000 construction points: +50 for each completed Improvement and +2,000 for each completed Wonder.",
+    "englishTactic": "A single completed Wonder exceeds the base threshold. Without one, finish twenty regular Improvements during one reign.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 10 Legitimacy. A ruler can receive it only if their current cognomen grants less than 10 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a070",
@@ -2355,7 +2441,12 @@
     "legitimacyNote": "Это прозвище даёт 80 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 80 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_GLORIOUS"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_GLORIOUS",
+    "englishGuide": "Earn 80,000 total cognomen points during one ruler's reign. Points from the other cognomen tracks count toward this total; completing an Ambition adds 12,000 points, and completing a Legacy adds 6,000.",
+    "englishTactic": "Use a young ruler for a long, productive reign. Complete Ambitions and earn points from construction, research, war, and other actions instead of relying on a single track.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 80 Legitimacy. A ruler can receive it only if their current cognomen grants less than 80 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a071",
@@ -2392,7 +2483,12 @@
     "legitimacyNote": "Это прозвище даёт 60 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 60 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_WISE"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_WISE",
+    "englishGuide": "Earn 6,000 science points during one ruler's reign. Each completed Technology contributes 500 points.",
+    "englishTactic": "At the base threshold, you need twelve Technologies under one ruler. Maximize Science and protect the ruler’s health; points do not transfer to the successor.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 60 Legitimacy. A ruler can receive it only if their current cognomen grants less than 60 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a072",
@@ -2524,7 +2620,10 @@
     "englishName": "Hunters",
     "englishCondition": "Win with Hunters",
     "englishApiName": "ACHIEVEMENT_FAMILYCLASS_HUNTERS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a regular game with the Hunters Family among your Families.",
+    "englishTactic": "Choose a Nation and Family set where the Hunters are available, and make sure random settings do not remove them. Any victory type counts, provided you win with that Family.",
+    "englishEditor": "No — you must win a regular game with the required Family. The Game Editor does not substitute for that victory."
   },
   {
     "id": "a076",
@@ -2557,7 +2656,10 @@
     "englishName": "Riders",
     "englishCondition": "Win with Riders",
     "englishApiName": "ACHIEVEMENT_FAMILYCLASS_RIDERS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a regular game with the Riders Family among your Families.",
+    "englishTactic": "Choose a Nation and Family set where the Riders are available, and make sure random settings do not remove them. Any victory type counts, provided you win with that Family.",
+    "englishEditor": "No — you must win a regular game with the required Family. The Game Editor does not substitute for that victory."
   },
   {
     "id": "a077",
@@ -2590,7 +2692,10 @@
     "englishName": "Statesmen",
     "englishCondition": "Win with Statesmen",
     "englishApiName": "ACHIEVEMENT_FAMILYCLASS_STATESMEN",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a regular game with the Statesmen Family among your Families.",
+    "englishTactic": "Choose a Nation and Family set where the Statesmen are available, and make sure random settings do not remove them. Any victory type counts, provided you win with that Family.",
+    "englishEditor": "No — you must win a regular game with the required Family. The Game Editor does not substitute for that victory."
   },
   {
     "id": "a078",
@@ -3053,7 +3158,12 @@
     "legitimacyNote": "Это прозвище даёт 60 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 60 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_FOUNTAINHEAD"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_FOUNTAINHEAD",
+    "englishGuide": "Earn 6,000 construction points: +50 for each completed Improvement and +2,000 for each completed Wonder.",
+    "englishTactic": "Three completed Wonders meet the base threshold. If too few Wonders are available, prepare several Workers and supplement with ordinary Improvements.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 60 Legitimacy. A ruler can receive it only if their current cognomen grants less than 60 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a092",
@@ -3124,7 +3234,12 @@
     "legitimacyNote": "Это прозвище даёт 40 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 40 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_KEYSTONE"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_KEYSTONE",
+    "englishGuide": "Earn 4,000 construction points: +50 for each completed Improvement and +2,000 for each completed Wonder.",
+    "englishTactic": "Two completed Wonders meet the base threshold. Alternatively, combine one Wonder with many Improvements under the same ruler.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 40 Legitimacy. A ruler can receive it only if their current cognomen grants less than 40 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a094",
@@ -3163,7 +3278,13 @@
     "mechanicNote": "Базовый порог прозвища увеличивается на 5% для каждого следующего правителя.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_ABLE"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_ABLE",
+    "englishGuide": "Earn 30,000 total cognomen points during one ruler's reign. Points from the other cognomen tracks count toward this total; completing an Ambition adds 12,000 points, and completing a Legacy adds 6,000.",
+    "englishTactic": "Do not confuse the total cognomen track with one activity. Two Ambitions give 24,000 points; fill the gap through construction, research, war, and city development.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 30 Legitimacy. A ruler can receive it only if their current cognomen grants less than 30 Legitimacy; one with equal or greater Legitimacy will not be replaced.",
+    "englishDuplicateNote": "This is Able. The other achievement sharing its Russian title is Capable."
   },
   {
     "id": "a095",
@@ -3330,7 +3451,12 @@
     "legitimacyNote": "Это прозвище даёт 70 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 70 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_NOBLE"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_NOBLE",
+    "englishGuide": "Earn 70,000 total cognomen points during one ruler's reign. Points from the other cognomen tracks count toward this total; completing an Ambition adds 12,000 points, and completing a Legacy adds 6,000.",
+    "englishTactic": "Choose a young ruler, complete Ambitions, and develop several areas at once. A longer reign allows more actions to count toward that ruler’s personal score.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 70 Legitimacy. A ruler can receive it only if their current cognomen grants less than 70 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a100",
@@ -3401,7 +3527,12 @@
     "legitimacyNote": "Это прозвище даёт 50 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 50 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_GOOD"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_GOOD",
+    "englishGuide": "Earn 50,000 total cognomen points during one ruler's reign. Points from the other cognomen tracks count toward this total; completing an Ambition adds 12,000 points, and completing a Legacy adds 6,000.",
+    "englishTactic": "Combine Ambitions with normal development. Four completed Ambitions nearly reach the base threshold; points from the other tracks close the gap.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 50 Legitimacy. A ruler can receive it only if their current cognomen grants less than 50 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a102",
@@ -3469,7 +3600,12 @@
     "legitimacyNote": "Это прозвище даёт 40 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 40 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_BRILLIANT"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_BRILLIANT",
+    "englishGuide": "Earn 4,000 court-development points: +100 for each Specialist trained and +1,000 for each Courtier added to your court.",
+    "englishTactic": "Four Courtiers directly meet the base threshold. If events do not provide enough characters, train Specialists: ten are worth one Courtier.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 40 Legitimacy. A ruler can receive it only if their current cognomen grants less than 40 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a104",
@@ -3506,7 +3642,12 @@
     "legitimacyNote": "Это прозвище даёт 30 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 30 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_VALIANT"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_VALIANT",
+    "englishGuide": "Earn 3,000 military glory points: +200 for killing an enemy military unit, another +200 if the killing unit is led by your ruler as General, and −200 for losing one of your own units.",
+    "englishTactic": "Use the ruler as General of a durable unit and leave finishing blows to it. Eight such kills without losses exceed the base threshold.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 30 Legitimacy. A ruler can receive it only if their current cognomen grants less than 30 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a105",
@@ -3543,7 +3684,12 @@
     "legitimacyNote": "Это прозвище даёт 20 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 20 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_ARCHITECT"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_ARCHITECT",
+    "englishGuide": "Earn 2,000 construction points: +50 for each completed Improvement and +2,000 for each completed Wonder.",
+    "englishTactic": "One completed Wonder meets the base threshold. Alternatively, complete forty ordinary Improvements under one ruler; prepare multiple Workers in advance.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 20 Legitimacy. A ruler can receive it only if their current cognomen grants less than 20 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a106",
@@ -3680,7 +3826,13 @@
     "mechanicNote": "Базовый порог прозвища увеличивается на 5% для каждого следующего правителя.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_STRONG"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_STRONG",
+    "englishGuide": "Earn 60,000 total cognomen points during one ruler's reign. Points from the other cognomen tracks count toward this total; completing an Ambition adds 12,000 points, and completing a Legacy adds 6,000.",
+    "englishTactic": "Do not confuse Strong with Mighty: this achievement uses the total cognomen track, not just military actions. Complete Ambitions and develop several tracks under one ruler.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 60 Legitimacy. A ruler can receive it only if their current cognomen grants less than 60 Legitimacy; one with equal or greater Legitimacy will not be replaced.",
+    "englishDuplicateNote": "This is Strong. The other achievement sharing its Russian title is Mighty."
   },
   {
     "id": "a110",
@@ -3844,7 +3996,12 @@
     "legitimacyNote": "Это прозвище даёт 50 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 50 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_INTREPID"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_INTREPID",
+    "englishGuide": "Earn 5,000 exploration points: +1 for each revealed tile, +100 for first contact with a Tribe or Nation, +200 for a Caravan's arrival or an explored Ruins, +300 for discovering a Landmark, and +400 for naming it.",
+    "englishTactic": "Discovering and naming a Landmark yields 700 points together. Explore a large map under one ruler, investigate Ruins, and make new contacts; tiles alone yield only one point each.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 50 Legitimacy. A ruler can receive it only if their current cognomen grants less than 50 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a115",
@@ -3987,7 +4144,12 @@
     "legitimacyNote": "Это прозвище даёт 40 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 40 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_PIONEER"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_PIONEER",
+    "englishGuide": "Earn 4,000 city-founding points during one ruler's reign. Each city you found contributes 1,000 points.",
+    "englishTactic": "Found four cities under one ruler at the base threshold. Prepare Settlers and open City Sites ahead of time so you can found them before succession.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 40 Legitimacy. A ruler can receive it only if their current cognomen grants less than 40 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a119",
@@ -4024,7 +4186,12 @@
     "legitimacyNote": "Это прозвище даёт 30 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 30 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_EXPLORER"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_EXPLORER",
+    "englishGuide": "Earn 3,000 exploration points: +1 for each revealed tile, +100 for first contact with a Tribe or Nation, +200 for a Caravan's arrival or an explored Ruins, +300 for discovering a Landmark, and +400 for naming it.",
+    "englishTactic": "Send several Scouts in different directions. Prioritize Landmarks, Ruins, and first contacts; simply revealing tiles gives very few points.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 30 Legitimacy. A ruler can receive it only if their current cognomen grants less than 30 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a120",
@@ -4061,7 +4228,12 @@
     "legitimacyNote": "Это прозвище даёт 20 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 20 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_AMBITIOUS"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_AMBITIOUS",
+    "englishGuide": "Earn 2,000 court-development points: +100 for each Specialist trained and +1,000 for each Courtier added to your court.",
+    "englishTactic": "Two new Courtiers meet the base threshold. Alternatively, train twenty Specialists or combine both sources during one reign.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 20 Legitimacy. A ruler can receive it only if their current cognomen grants less than 20 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a121",
@@ -4129,7 +4301,12 @@
     "legitimacyNote": "Это прозвище даёт 20 легитимности. Лидер сможет получить его только если его текущее прозвище даёт меньше 20 легитимности. Прозвище с такой же или большей легитимностью не будет заменено.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_SETTLER"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_SETTLER",
+    "englishGuide": "Earn 2,000 city-founding points during one ruler's reign. Each city you found contributes 1,000 points.",
+    "englishTactic": "Found two cities under one ruler at the base threshold. Train Settlers and scout open City Sites in advance.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 20 Legitimacy. A ruler can receive it only if their current cognomen grants less than 20 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a123",
@@ -4499,7 +4676,13 @@
     "rarityChecked": "2026-10-08",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_BRAVE"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_BRAVE",
+    "englishGuide": "Earn 2,000 military glory points: +200 for killing an enemy military unit, another +200 if the killing unit is led by your ruler as General, and −200 for losing one of your own units.",
+    "englishTactic": "Assign your ruler as General of a strong unit and let it finish off enemies. Five such kills without losses meet the base threshold.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 20 Legitimacy. A ruler can receive it only if their current cognomen grants less than 20 Legitimacy; one with equal or greater Legitimacy will not be replaced.",
+    "englishDuplicateNote": "The Russian Steam title corresponds to the English Drillmaster. This uses the military track with a 2,000-point base threshold."
   },
   {
     "id": "a134",
@@ -4606,7 +4789,13 @@
     "mechanicNote": "Базовый порог прозвища увеличивается на 5% для каждого следующего правителя.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_CAPABLE"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_CAPABLE",
+    "englishGuide": "Earn 2,000 army-training points: +100 for each unit trained and +100 for each unit promoted.",
+    "englishTactic": "Train and promote units regularly. At the base threshold, twenty unit-training or promotion actions suffice; later rulers may need more.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 20 Legitimacy. A ruler can receive it only if their current cognomen grants less than 20 Legitimacy; one with equal or greater Legitimacy will not be replaced.",
+    "englishDuplicateNote": "This is Capable. The other achievement sharing its Russian title is Able."
   },
   {
     "id": "a137",
@@ -4645,7 +4834,13 @@
     "mechanicNote": "Базовый порог прозвища увеличивается на 5% для каждого следующего правителя.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_MIGHTY"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_MIGHTY",
+    "englishGuide": "Earn 4,000 military glory points: +200 for killing an enemy military unit, another +200 if the killing unit is led by your ruler as General, and −200 for losing one of your own units.",
+    "englishTactic": "Do not confuse Mighty with Strong: Mighty uses the military track. A ruler-General can meet the base threshold with ten kills and no losses.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 40 Legitimacy. A ruler can receive it only if their current cognomen grants less than 40 Legitimacy; one with equal or greater Legitimacy will not be replaced.",
+    "englishDuplicateNote": "This is Mighty. The other achievement sharing its Russian title is Strong."
   },
   {
     "id": "a138",
@@ -4685,7 +4880,13 @@
     "rarityChecked": "2026-10-08",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_READY"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_READY",
+    "englishGuide": "Earn 3,000 army-training points: +100 for each unit trained and +100 for each unit promoted.",
+    "englishTactic": "Thirty unit-training or promotion actions meet the base threshold. Train inexpensive units and promote experienced troops during one reign.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 30 Legitimacy. A ruler can receive it only if their current cognomen grants less than 30 Legitimacy; one with equal or greater Legitimacy will not be replaced.",
+    "englishDuplicateNote": "The Russian Steam title corresponds to the English Ready, not Drillmaster."
   },
   {
     "id": "a139",
@@ -4755,7 +4956,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Victorious",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_VICTORIOUS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 5,000 military glory points: +200 for killing an enemy military unit, another +200 if the killing unit is led by your ruler as General, and −200 for losing one of your own units.",
+    "englishTactic": "Put the ruler in command of a strong, durable unit; its kills can earn both positive bonuses. Finish weakened enemies and avoid losses.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 50 Legitimacy. A ruler can receive it only if their current cognomen grants less than 50 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a141",
@@ -4794,7 +5000,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Intercessor",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_INTERCESSOR",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 3,000 diplomacy points: +1,000 for making peace with a Tribe or Nation and +2,000 for forming an Alliance with one.",
+    "englishTactic": "The shortest route is one Alliance and one peace agreement. Maintain relations with Tribes and neighboring Nations so both can happen under one ruler.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 30 Legitimacy. A ruler can receive it only if their current cognomen grants less than 30 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a142",
@@ -4895,7 +5106,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Conqueror",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_CONQUEROR",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 4,000 conquest points: +2,000 for capturing a city and another +2,000 if it is a capital.",
+    "englishTactic": "Capturing a capital usually meets the threshold at once, since it counts as both a city and a capital. Alternatively, capture two ordinary cities under one ruler.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 40 Legitimacy. A ruler can receive it only if their current cognomen grants less than 40 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a145",
@@ -4934,7 +5150,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Invincible",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_INVINCIBLE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 7,000 military glory points: +200 for killing an enemy military unit, another +200 if the killing unit is led by your ruler as General, and −200 for losing one of your own units.",
+    "englishTactic": "Plan for a sustained war with a durable ruler-General. Give that unit finishing blows, heal it, and avoid losing your troops: each loss removes 200 points.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 70 Legitimacy. A ruler can receive it only if their current cognomen grants less than 70 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a146",
@@ -5035,7 +5256,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Lion",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_LION",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 6,000 military glory points: +200 for killing an enemy military unit, another +200 if the killing unit is led by your ruler as General, and −200 for losing one of your own units.",
+    "englishTactic": "Fight with a powerful unit led by your ruler and let it finish enemies. Each such kill can yield 400 points; avoid losses that lower the score.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 60 Legitimacy. A ruler can receive it only if their current cognomen grants less than 60 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a149",
@@ -5074,7 +5300,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Subjugator",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_SUBJUGATOR",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 6,000 conquest points: +2,000 for capturing a city and another +2,000 if it is a capital.",
+    "englishTactic": "Capture a capital and another city, or three ordinary cities. All captures must occur during one ruler’s reign.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 60 Legitimacy. A ruler can receive it only if their current cognomen grants less than 60 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a150",
@@ -5303,7 +5534,10 @@
     "englishName": "Clerics",
     "englishCondition": "Win with Clerics",
     "englishApiName": "ACHIEVEMENT_FAMILYCLASS_CLERICS",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Win a regular game with the Clerics among your three ruling Families. The safest approach is to assign one of your first three cities to them. Clerics are available to Assyria, Egypt, and Persia in the base game, and to Aksum and the Yuezhi with the relevant DLC.",
+    "englishTactic": "Choose one of those Nations and assign an early city to the Clerics. Then win by any available victory type on any difficulty; there is no separate religious requirement.",
+    "englishEditor": "No — you must win a regular game with the required Family. The Game Editor does not substitute for that victory."
   },
   {
     "id": "a157",
@@ -5547,7 +5781,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Old",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_OLD",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 4,000 longevity points at 100 per year of rule. The base threshold takes 40 years under one ruler.",
+    "englishTactic": "Start with a young ruler, protect their health, and avoid risky offices and front-line command. Another available cognomen with higher Legitimacy can block this one.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 40 Legitimacy. A ruler can receive it only if their current cognomen grants less than 40 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a164",
@@ -5785,7 +6024,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Peacemaker",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_PEACEMAKER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 5,000 diplomacy points: +1,000 for making peace with a Tribe or Nation and +2,000 for forming an Alliance with one.",
+    "englishTactic": "Prepare several Tribes and neighboring Nations for peace or Alliance. For example, two Alliances and one peace agreement give 5,000 points.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 50 Legitimacy. A ruler can receive it only if their current cognomen grants less than 50 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a171",
@@ -5857,7 +6101,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Ancient",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_ANCIENT",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 5,000 longevity points at 100 per year of rule. The base threshold takes 50 years under one ruler.",
+    "englishTactic": "Start with a very young ruler, avoid appointing them General, and protect their health. Watch for competing cognomens with equal or higher Legitimacy.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 50 Legitimacy. A ruler can receive it only if their current cognomen grants less than 50 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a173",
@@ -5889,7 +6138,10 @@
     "englishName": "Poetic Leader",
     "englishCondition": "Have a Leader with the Poet trait (The Sacred and The Profane)",
     "englishApiName": "ACHIEVEMENT_SACRED_PROFANE_POET_LEADER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Have a current ruler with the Poet Trait. This Trait can come from The Sacred and The Profane events. If an heir gains it, the achievement triggers only after that heir becomes ruler.",
+    "englishTactic": "Suitable choices appear in The Fable of Aesop, More than Stories, Lucky in Love, A Memory for the Gods, Carmen, Other World, Eyes of Green, and Competitions of Music. Pick an option that grants the Poet Trait.",
+    "englishEditor": "No — the required Trait must arise through birth, tutoring, or an event in a regular game. The Game Editor does not guarantee the achievement."
   },
   {
     "id": "a174",
@@ -7089,7 +7341,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Resourceful",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_RESOURCEFUL",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 4,000 gathering points: +200 for each resource harvested and +50 for each vegetation feature removed.",
+    "englishTactic": "Harvesting is much faster than clearing vegetation: twenty harvests meet the base threshold. Keep Workers near resources and use clearing for additional points.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 40 Legitimacy. A ruler can receive it only if their current cognomen grants less than 40 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a210",
@@ -7227,7 +7484,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Humane",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_HUMANE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 2,000 humane points during one ruler's reign: +500 when a city's Culture level increases, +300 when its Happiness level increases, +50 for healing a unit, and −50 for killing an enemy military unit.",
+    "englishTactic": "Raise Culture and Happiness in several cities and heal damaged units. Avoid unnecessary kills, which lower this track’s score.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 20 Legitimacy. A ruler can receive it only if their current cognomen grants less than 20 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a214",
@@ -7266,7 +7528,13 @@
     "mechanicNote": "Базовый порог прозвища увеличивается на 5% для каждого следующего правителя.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_REBUILDER"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_REBUILDER",
+    "englishGuide": "Earn the Rebuilder cognomen by gaining 2,000 points from repairing pillaged Improvements. Each completed repair contributes 200 points.",
+    "englishTactic": "At the base threshold, repair ten pillaged Improvements under one ruler. Do not confuse this with Restorer, which requires retaking your lost cities.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 20 Legitimacy. A ruler can receive it only if their current cognomen grants less than 20 Legitimacy; one with equal or greater Legitimacy will not be replaced.",
+    "englishDuplicateNote": "This is Rebuilder. The other achievement sharing its Russian title is Restorer."
   },
   {
     "id": "a215",
@@ -9017,7 +9285,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Destroyer",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_DESTROYER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 2,000 tribal-camp points: each fully cleared Tribal Site contributes 500 points.",
+    "englishTactic": "Clear four Tribal Sites during one reign. A large map with many Tribes gives you more opportunities.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 20 Legitimacy. A ruler can receive it only if their current cognomen grants less than 20 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a268",
@@ -10037,7 +10310,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Avenger",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_AVENGER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 4,000 tribal-camp points: each fully cleared Tribal Site contributes 500 points.",
+    "englishTactic": "Clear eight Tribal Sites during one reign. Choose a large map with many Tribes and prepare a mobile army in advance.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 40 Legitimacy. A ruler can receive it only if their current cognomen grants less than 40 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a299",
@@ -10076,7 +10354,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Lawgiver",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_LAWGIVER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 3,000 lawgiving points: +1,000 for enacting a new Law and +500 for changing an existing Law.",
+    "englishTactic": "Accumulate Civics and unlock Law pairs in advance. Three new Laws meet the threshold; changing Laws can add the remaining 500-point increments.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 30 Legitimacy. A ruler can receive it only if their current cognomen grants less than 30 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a300",
@@ -10115,7 +10398,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the White Death",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_WHITE_DEATH",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 6,000 tribal-camp points: each fully cleared Tribal Site contributes 500 points.",
+    "englishTactic": "Clear twelve Tribal Sites during one reign. Use a large map with many Tribes and begin early.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 60 Legitimacy. A ruler can receive it only if their current cognomen grants less than 60 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a301",
@@ -11938,7 +12226,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Fanatic",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_FANATIC",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 4,000 fanaticism points. Each successful Purge Religion action contributes 1,000 points.",
+    "englishTactic": "Purge Religion four times under one ruler. The Religions need not be different; successful purges are what count. Prepare suitable cities in advance.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 40 Legitimacy. A ruler can receive it only if their current cognomen grants less than 40 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a356",
@@ -11977,7 +12270,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Favored",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_FAVORED",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 3,000 favor points: +800 for spreading Paganism, +800 for building a Cult Shrine, and +400 for adding a Clergy member.",
+    "englishTactic": "Combine all three sources instead of waiting for a single event. Four Paganism spreads or Cult Shrines exceed the threshold; Clergy can fill the gap.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 30 Legitimacy. A ruler can receive it only if their current cognomen grants less than 30 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a357",
@@ -12016,7 +12314,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Hunter",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_HUNTER",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 3,000 raiding points: +600 for pillaging an Improvement, +200 for a military-unit kill by any General, and another +200 if that General is your ruler.",
+    "englishTactic": "Pillaging Improvements gives the fastest progress. Assign your ruler as General of a mobile unit, raid enemy territory, and let it finish military targets.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 30 Legitimacy. A ruler can receive it only if their current cognomen grants less than 30 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a358",
@@ -12055,7 +12358,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Liberator",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_LIBERATOR",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 6,000 recapture points: each time you retake one of your previously lost cities, gain 2,000 points.",
+    "englishTactic": "Retake your own cities three times under one ruler. Recaptures are counted, so these need not be three different cities.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 60 Legitimacy. A ruler can receive it only if their current cognomen grants less than 60 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a359",
@@ -12094,7 +12402,13 @@
     "mechanicNote": "Базовый порог прозвища увеличивается на 5% для каждого следующего правителя.",
     "guideStatus": "filled",
     "guideVerified": true,
-    "englishApiName": "ACHIEVEMENT_COGNOMEN_RESTORER"
+    "englishApiName": "ACHIEVEMENT_COGNOMEN_RESTORER",
+    "englishGuide": "Earn 4,000 recapture points: each time you retake one of your previously lost cities, gain 2,000 points.",
+    "englishTactic": "At the base threshold, retake two lost cities under one ruler. This rare goal usually needs a game planned around it. Do not confuse it with Rebuilder, which repairs pillaged Improvements.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 40 Legitimacy. A ruler can receive it only if their current cognomen grants less than 40 Legitimacy; one with equal or greater Legitimacy will not be replaced.",
+    "englishDuplicateNote": "This is Restorer. The other achievement sharing its Russian title is Rebuilder."
   },
   {
     "id": "a360",
@@ -12133,7 +12447,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Scourge",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_SCOURGE",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 5,000 raiding points: +600 for pillaging an Improvement, +200 for a military-unit kill by any General, and another +200 if that General is your ruler.",
+    "englishTactic": "Fight a sustained raiding war: pillage Improvements with mobile troops and use your ruler-General to finish enemy military units.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 50 Legitimacy. A ruler can receive it only if their current cognomen grants less than 50 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "a361",
@@ -13054,7 +13373,10 @@
     "englishName": "Ethnic Diversity",
     "englishCondition": "Have a Leader with all 7 ethnicities",
     "englishApiName": "ACHIEVEMENT_ETHNIC_DIVERSITY",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Have a current ruler whose ancestry includes all seven peoples. This is a dynastic goal: ancestry accumulates through parents and earlier generations, not through a single event chain.",
+    "englishTactic": "Start a game with all required Nations and arrange marriages with new peoples over several generations. Preserve heirs who add missing ancestry and check their lineage before succession.",
+    "englishEditor": "No — ancestry from all seven peoples must develop in a regular game. The Character Editor does not guarantee this achievement."
   },
   {
     "id": "a389",
@@ -13701,7 +14023,12 @@
     "guideSource": "https://wiki.hoodedhorse.com/Old_World/Legitimacy",
     "englishCondition": "Become the Chosen",
     "englishApiName": "ACHIEVEMENT_COGNOMEN_CHOSEN",
-    "englishSource": "https://steamcommunity.com/achievements/597180?l=english"
+    "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
+    "englishGuide": "Earn 5,000 favor points: +800 for spreading Paganism, +800 for building a Cult Shrine, and +400 for adding a Clergy member.",
+    "englishTactic": "Develop Paganism early and use all three point sources. For example, five spreads or Cult Shrines plus three Clergy members exceed 5,000 points.",
+    "englishEditor": "No — the game must award the required cognomen after its conditions are met. The Game Editor does not guarantee the achievement.",
+    "englishMechanicNote": "The base cognomen threshold increases by 5% for each successive ruler.",
+    "englishLegitimacyNote": "This cognomen grants 50 Legitimacy. A ruler can receive it only if their current cognomen grants less than 50 Legitimacy; one with equal or greater Legitimacy will not be replaced."
   },
   {
     "id": "ambition-victory",

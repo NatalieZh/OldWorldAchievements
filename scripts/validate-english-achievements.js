@@ -27,14 +27,30 @@ const russianGuideFields = guideScope.flatMap(achievement =>
     .filter(field => /[А-Яа-яЁё]/.test(String(achievement[field] || '')))
     .map(field => `${achievement.id}: ${field}`)
 );
+const characterScope = achievements.filter(achievement => ['Черта / персонаж', 'Семья'].includes(achievement.category));
+const missingCharacterFields = characterScope.flatMap(achievement =>
+  [...guideFields,
+    ...(achievement.mechanicNote ? ['englishMechanicNote'] : []),
+    ...(achievement.legitimacyNote ? ['englishLegitimacyNote'] : []),
+    ...(achievement.duplicateNote ? ['englishDuplicateNote'] : [])]
+    .filter(field => !String(achievement[field] || '').trim())
+    .map(field => `${achievement.id}: ${field}`)
+);
+const russianCharacterFields = characterScope.flatMap(achievement =>
+  ['englishGuide', 'englishTactic', 'englishEditor', 'englishMechanicNote', 'englishLegitimacyNote', 'englishDuplicateNote']
+    .filter(field => /[А-Яа-яЁё]/.test(String(achievement[field] || '')))
+    .map(field => `${achievement.id}: ${field}`)
+);
 
-if (missing.length || duplicateApiNames.length || missingGuideFields.length || russianGuideFields.length || achievements.length !== 408) {
-  console.error(`English achievement validation failed: ${missing.length} missing identity field(s), ${missingGuideFields.length} missing guide field(s), ${russianGuideFields.length} Russian guide field(s), ${duplicateApiNames.length} duplicate API name(s), ${achievements.length} total record(s).`);
+if (missing.length || duplicateApiNames.length || missingGuideFields.length || russianGuideFields.length || missingCharacterFields.length || russianCharacterFields.length || characterScope.length !== 69 || achievements.length !== 408) {
+  console.error(`English achievement validation failed: ${missing.length} missing identity field(s), ${missingGuideFields.length + missingCharacterFields.length} missing guide field(s), ${russianGuideFields.length + russianCharacterFields.length} Russian guide field(s), ${duplicateApiNames.length} duplicate API name(s), ${achievements.length} total record(s), ${characterScope.length} character/family record(s).`);
   missing.forEach(item => console.error(`  Missing ${item}`));
   missingGuideFields.forEach(item => console.error(`  Missing guide ${item}`));
   russianGuideFields.forEach(item => console.error(`  Russian guide ${item}`));
+  missingCharacterFields.forEach(item => console.error(`  Missing character/family guide ${item}`));
+  russianCharacterFields.forEach(item => console.error(`  Russian character/family guide ${item}`));
   duplicateApiNames.forEach(item => console.error(`  Duplicate ${item}`));
   process.exit(1);
 }
 
-console.log(`English achievement validation passed: ${achievements.length} official Steam entries and ${guideScope.length} Wonder/building guides.`);
+console.log(`English achievement validation passed: ${achievements.length} official Steam entries, ${guideScope.length} Wonder/building guides, and ${characterScope.length} character/family guides.`);
