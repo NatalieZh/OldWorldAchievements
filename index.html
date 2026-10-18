@@ -539,15 +539,23 @@ function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&l
 function t(key,variables){return AppI18n.t(key,variables)}
 function categoryLabel(value){return t('values.category.'+(categoryKeys[value]||value))}
 function civLabel(value){return t('values.civ.'+(civKeys[value]||value))}
+function civsLabel(value){return usingEnglish()?value.split(',').map(civ=>civLabel(civ.trim())).join(', '):value}
 function difficultyLabel(value){return t('values.difficulty.'+(difficultyKeys[value]||value))}
 function specialLabel(value){return t('values.special.'+value)}
 function modeLabel(value){return t(plannerModeLabels[value]||value)}
-function dlcLabel(value){return value==='Основная игра'?t('values.dlc.baseGame'):value}
+function dlcLabel(value){
+ if(value==='Основная игра')return t('values.dlc.baseGame');
+ if(usingEnglish()&&value==='The Sacred and The Profane')return 'The Sacred and the Profane';
+ if(usingEnglish()&&value==='Carthage campaign')return 'Carthage Campaign';
+ return value;
+}
+const englishCityNames={'Вавилон':'Babylon','Уасет':'Waset','Менефер':'Menefer','Рим':'Roma','Парса':'Parsa','Карфаген':'Carthago','Александрия':'Alexandria','Афины':'Athenai','Хаттуса':'Hattusa','Ур':'Ur','Византия':'Byzantion','Дельфы':'Delphi','Галикарнасс':'Halicarnassus','Ниневия':'Nineveh','Дамаск':'Damascus','Гелиополис':'Heliopolis','Джерван':'Jerwan','Напата':'Napata','Петра':'Petra','Родос':'Rhodes'};
+function cityLabel(value){return usingEnglish()?englishCityNames[value]||value:value}
 function scenarioLabel(value){
  if(!usingEnglish()||!value)return value;
  const card=achievements.find(a=>a.scenarioName===value&&a.englishScenarioName);
  if(card)return card.englishScenarioName;
- return {'Герои Эгейи':'Heroes of the Aegean','Карфаген — кампания':'Carthage Campaign','Обучение':'Tutorial','Учимся играть':'Learn By Playing','Фараоны Нила — кампания':'Pharaohs of the Nile Campaign'}[value]||value;
+ return {'Герои Эгейи':'Heroes of the Aegean','Карфаген — кампания':'Carthage Campaign','Обучение':'Tutorial','Орда варваров':'The Barbarian Horde','Учимся играть':'Learn By Playing','Фараоны Нила — кампания':'Pharaohs of the Nile Campaign'}[value]||value;
 }
 function initSelect(id,items,labelKey,labeler=x=>x){const el=document.getElementById(id),selected=el.value;el.innerHTML='<option value="">'+esc(t(labelKey))+'</option>'+items.map(x=>'<option value="'+esc(x)+'">'+esc(labeler(x))+'</option>').join('');if([...el.options].some(option=>option.value===selected))el.value=selected}
 function initSpecialSelect(id,emptyKey){const el=document.getElementById(id),selected=el.value;el.innerHTML='<option value="">'+esc(t(emptyKey))+'</option>'+specialOptions.map(value=>'<option value="'+esc(value)+'">'+esc(specialLabel(value))+'</option>').join('');if([...el.options].some(option=>option.value===selected))el.value=selected}
@@ -646,7 +654,7 @@ function duplicateIdentityHTML(a){
  return `<div class="dupIdentity"><span class="dupEn">${esc(a.englishName)}</span>${pct!=null?`<span class="dupPct">${pct}% Steam</span>`:''}</div>`;
 }
 function displayAchievementContext(a){
- if(a.scenario) return a.scenario;
+ if(a.scenario) return scenarioLabel(a.scenario);
  if((a.playerCivs||[]).length) return t('achievement.playAs',{civilizations:a.playerCivs.map(civLabel).join(', ')});
  if((a.targetCivs||[]).length) return t('achievement.target',{civilizations:a.targetCivs.map(civLabel).join(', ')});
  return '';
@@ -850,7 +858,7 @@ function renderProgressList(){
  const arr=sortProgressRows(progressFiltered());document.getElementById('pSummary').textContent=t('progress.summary',{shown:arr.length,marked:draftDone.size,total:DB_TOTAL});
  const el=document.getElementById('progressList');
  if(!arr.length){el.innerHTML='<div class="progressEmpty">'+esc(t('filters.noResults'))+'</div>';return}
- el.innerHTML=arr.map(a=>`<label class="pRow ${draftDone.has(a.id)?'done':''}"><input type="checkbox" ${draftDone.has(a.id)?'checked':''} onchange="draftToggle('${a.id}',this.checked)"><div class="pName">${esc(achievementName(a))}${duplicateIdentityHTML(a)}</div><div class="pCond">${esc(achievementCondition(a))}</div><div class="pMeta">${esc(categoryLabel(a.category))}${a.civs?' · '+esc(a.civs):''}</div><div class="pRare">${a.rarity!=null?a.rarity+'%':'—'}</div></label>`).join('')
+ el.innerHTML=arr.map(a=>`<label class="pRow ${draftDone.has(a.id)?'done':''}"><input type="checkbox" ${draftDone.has(a.id)?'checked':''} onchange="draftToggle('${a.id}',this.checked)"><div class="pName">${esc(achievementName(a))}${duplicateIdentityHTML(a)}</div><div class="pCond">${esc(achievementCondition(a))}</div><div class="pMeta">${esc(categoryLabel(a.category))}${a.civs?' · '+esc(civsLabel(a.civs)):''}</div><div class="pRare">${a.rarity!=null?a.rarity+'%':'—'}</div></label>`).join('')
 }
 function draftToggle(id,on){if(on)draftDone.add(id);else draftDone.delete(id);renderProgressList()}
 function markVisible(on){progressFiltered().forEach(a=>on?draftDone.add(a.id):draftDone.delete(a.id));renderProgressList()}
@@ -962,7 +970,7 @@ if(lbox&&a.cognomenLegitimacy!=null){
 }else if(lbox){lbox.classList.add('hidden');lval.textContent='';lwarn.textContent='';lrule.textContent=''}
 
 const dnote=document.getElementById('mDupNote');if(a.duplicateNote){dnote.classList.remove('hidden');dnote.textContent=achievementDetail(a,'duplicateNote')}else{dnote.classList.add('hidden');dnote.textContent=''}
-const src=document.getElementById('mSource'),source=achievementSource(a);src.textContent=source||t('achievement.noSource');src.href=source?.startsWith('http')?source:'#';document.getElementById('mTags').innerHTML=`<span class="tag">${esc(dlcLabel(a.dlcName))}</span>${a.scenarioName?'<span class="tag">'+esc(scenarioLabel(a.scenarioName))+'</span>':''}${a.englishName&&!usingEnglish()?'<span class="tag">'+esc(a.englishName)+'</span>':''}${(a.playerCivs||[]).length?'<span class="tag">'+esc(t('achievement.playAs',{civilizations:a.playerCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.affinityCivs||[]).length?'<span class="tag">'+esc(t('achievement.naturalFor',{civilizations:a.affinityCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.targetCivs||[]).length?'<span class="tag">'+esc(t('achievement.target',{civilizations:a.targetCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.settingTags||[]).map(tag=>'<span class="tag">'+esc(specialLabel(tag))+'</span>').join('')}${a.requiredCity?'<span class="tag">'+esc(t('achievement.city',{city:a.requiredCity}))+'</span>':''}${legitimacyTag(a)}${rarityTag(a)}`;updateToggleButton();updateRunAchievementButton();openModal('achievementModal')}
+const src=document.getElementById('mSource'),source=achievementSource(a);src.textContent=source||t('achievement.noSource');src.href=source?.startsWith('http')?source:'#';document.getElementById('mTags').innerHTML=`<span class="tag">${esc(dlcLabel(a.dlcName))}</span>${a.scenarioName?'<span class="tag">'+esc(scenarioLabel(a.scenarioName))+'</span>':''}${a.englishName&&!usingEnglish()?'<span class="tag">'+esc(a.englishName)+'</span>':''}${(a.playerCivs||[]).length?'<span class="tag">'+esc(t('achievement.playAs',{civilizations:a.playerCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.affinityCivs||[]).length?'<span class="tag">'+esc(t('achievement.naturalFor',{civilizations:a.affinityCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.targetCivs||[]).length?'<span class="tag">'+esc(t('achievement.target',{civilizations:a.targetCivs.map(civLabel).join(', ')}))+'</span>':''}${(a.settingTags||[]).map(tag=>'<span class="tag">'+esc(specialLabel(tag))+'</span>').join('')}${a.requiredCity?'<span class="tag">'+esc(t('achievement.city',{city:cityLabel(a.requiredCity)}))+'</span>':''}${legitimacyTag(a)}${rarityTag(a)}`;updateToggleButton();updateRunAchievementButton();openModal('achievementModal')}
 function updateToggleButton(){const done=state.done.includes(currentAchId),b=document.getElementById('toggleAchBtn');b.textContent=done?t('achievement.unmarkEarned'):t('achievement.markEarned');b.className=done?'btn ghost small':'btn small'}
 function toggleCurrentAchievement(){if(!currentAchId)return;const s=new Set(state.done);s.has(currentAchId)?s.delete(currentAchId):s.add(currentAchId);state.done=[...s];persist();render();updateToggleButton();toast(s.has(currentAchId)?t('achievement.markedEarned'):t('achievement.unmarked'))}
 
@@ -1289,7 +1297,7 @@ function plannerVisibleGoals(){
  const kind=document.getElementById('plannerGoalKind')?.value||'all';
  return plannerState.goals.filter(g=>{
    const a=g.a;
-   if(q && !(a.name+' '+(a.englishName||'')+' '+a.condition+' '+a.category).toLowerCase().includes(q))return false;
+   if(q && !(a.name+' '+(a.englishName||'')+' '+a.condition+' '+(a.englishCondition||'')+' '+a.category).toLowerCase().includes(q))return false;
    if(cat&&a.category!==cat)return false;
    if(kind==='practical'&&!goalIsPractical(g))return false;
    if(kind==='direct'&&g.tier!=='core')return false;
