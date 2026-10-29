@@ -14256,7 +14256,7 @@
     "dlc": "Основная игра / другое",
     "rarity": 0.1,
     "guide": "Получить действующего лидера, в происхождении которого представлены все семь народов. Это династическая задача: происхождение накапливается через родителей и предыдущие поколения, а не выдаётся одной событийной цепочкой.",
-    "tactic": "Начни партию со всеми нужными державами и на протяжении нескольких поколений заключай браки с представителями новых народов. Сохраняй наследников, добавляющих отсутствующее происхождение, и проверяй состав корней персонажа перед передачей престола.",
+    "tactic": "Для наиболее надёжного прохождения начни партию с шестью соперниками, чтобы в ней были представлены все семь народов. Затем на протяжении нескольких поколений заключай браки с представителями новых народов. Сохраняй наследников, добавляющих отсутствующее происхождение, и проверяй состав корней персонажа перед передачей престола.",
     "editor": "Нет — происхождение лидера от семи народов должно сложиться в обычной партии; редактор персонажей не гарантирует проверку этого достижения.",
     "source": "https://steamcommunity.com/achievements/597180?l=russian",
     "isScenario": false,
@@ -14278,7 +14278,7 @@
     "englishApiName": "ACHIEVEMENT_ETHNIC_DIVERSITY",
     "englishSource": "https://steamcommunity.com/achievements/597180?l=english",
     "englishGuide": "Have a current ruler whose ancestry includes all seven peoples. This is a dynastic goal: ancestry accumulates through parents and earlier generations, not through a single event chain.",
-    "englishTactic": "Start a game with all required Nations and arrange marriages with new peoples over several generations. Preserve heirs who add missing ancestry and check their lineage before succession.",
+    "englishTactic": "For the most reliable approach, start a game with six opponents so that all seven peoples are represented. Then arrange marriages with new peoples over several generations. Preserve heirs who add missing ancestry and check their lineage before succession.",
     "englishEditor": "No — ancestry from all seven peoples must develop in a regular game. The Character Editor does not guarantee this achievement."
   },
   {
