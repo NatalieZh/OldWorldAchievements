@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#12110e">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
 <title>Old World Achievements — Tracker &amp; Game Planner</title>
 <style>
 :root{
@@ -98,7 +100,7 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
 .legitWarn{font-size:11.5px;line-height:1.55;color:#cdbd9f;margin:0}
 .legitRule{margin-top:7px;color:#9f927d;font-size:10.5px;line-height:1.5}
 .planEmpty{border:1px dashed rgba(82,107,116,.34);background:rgba(82,107,116,.045);padding:17px;border-radius:13px}.planEmpty h3{font:500 18px Georgia,serif;margin:0 0 7px}.planEmpty p{font-size:11px;color:#8e8472;line-height:1.55;margin:0 0 14px}.planEmptyActions{display:flex;gap:8px;flex-wrap:wrap}.tip{margin-top:12px;padding:13px;border-left:2px solid var(--gold);background:rgba(184,148,83,.035);color:#918673;font-size:10.5px;line-height:1.55}
-.catalogTop{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:14px}.progressFilters{display:grid;grid-template-columns:minmax(220px,1.35fr) repeat(5,minmax(135px,1fr));gap:8px;margin-bottom:6px;align-items:center}.filter{border:1px solid rgba(255,255,255,.08);background:#1a1712;color:#c6baa6;border-radius:9px;padding:10px 12px;min-height:40px;font-size:14px;line-height:1.25}.filter.search{min-width:240px;flex:1}.catalogGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.catCard{padding:15px;border:1px solid rgba(255,255,255,.055);background:rgba(255,255,255,.018);border-radius:12px;cursor:pointer}.catCard:hover{border-color:rgba(184,148,83,.28)}.catCard strong{font-size:14px;line-height:1.35}.catCard p{font-size:12px;color:#918674;line-height:1.5;margin:7px 0 0}.catalogFoot{display:flex;justify-content:center;margin-top:16px}
+.catalogTop{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:14px}.catalogSearchWrap{position:relative;flex:1;min-width:240px}.catalogSearchWrap .search{width:100%;min-width:0;padding-right:42px}.catalogSearchClear{position:absolute;right:7px;top:50%;width:29px;height:29px;display:grid;place-items:center;transform:translateY(-50%);border:0;border-radius:7px;background:transparent;color:#8f8370;font-size:20px;line-height:1;cursor:pointer;opacity:1;transition:color .16s ease,background .16s ease,opacity .16s ease}.catalogSearchClear:hover,.catalogSearchClear:focus-visible{color:#eadfc9;background:rgba(184,148,83,.12);outline:0}.catalogSearchClear.hidden{display:grid!important;opacity:0;visibility:hidden;pointer-events:none}.catalogFilterHint{color:#b8aa94;font-size:12px;line-height:1.45;margin:-5px 0 14px;padding-left:2px}.progressFilters{display:grid;grid-template-columns:minmax(220px,1.35fr) repeat(5,minmax(135px,1fr));gap:8px;margin-bottom:6px;align-items:center}.filter{border:1px solid rgba(255,255,255,.08);background:#1a1712;color:#c6baa6;border-radius:9px;padding:10px 12px;min-height:40px;font-size:14px;line-height:1.25}.filter.search{min-width:240px;flex:1}.catalogGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.catCard{padding:15px;border:1px solid rgba(255,255,255,.055);background:rgba(255,255,255,.018);border-radius:12px;cursor:pointer}.catCard:hover{border-color:rgba(184,148,83,.28)}.catCard strong{font-size:14px;line-height:1.35}.catCard p{font-size:12px;color:#918674;line-height:1.5;margin:7px 0 0}.catalogFoot{display:flex;justify-content:center;margin-top:16px}
 .referenceSection{scroll-margin-top:94px;margin-top:26px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(90deg,rgba(184,148,83,.035),transparent 42%,rgba(82,107,116,.035));overflow:hidden}
 .referenceIntro{display:grid;grid-template-columns:minmax(240px,.8fr) minmax(320px,1.2fr) auto;gap:30px;align-items:center;padding:23px 28px}.referenceIntro h2{font:500 32px Georgia,serif;margin:7px 0 0;color:#f0e3ca}.referenceIntro p{color:#9b907e;font-size:13px;line-height:1.65;margin:0;max-width:660px}.referenceToggle{min-width:126px}.referenceChevron{display:inline-block;margin-left:7px;transition:transform .2s ease}.referenceToggle[aria-expanded="true"] .referenceChevron{transform:rotate(180deg)}
 .referenceLayout{display:grid;grid-template-columns:250px minmax(0,1fr);border-top:1px solid rgba(213,184,117,.13);min-height:410px;animation:referenceExpand .22s ease-out}.referenceLayout[hidden]{display:none}
@@ -150,8 +152,8 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
 .goalGroupHead{display:flex;justify-content:space-between;align-items:end;margin-bottom:8px}
 .goalGroupHead h4{font:500 20px Georgia,serif;margin:0}.goalGroupHead span{font-size:12px;color:#918674;line-height:1.45}
 .goalRows{display:grid;gap:7px}
-.goalRow{display:grid;grid-template-columns:32px 1fr 82px;gap:12px;align-items:center;padding:13px 14px;border:1px solid rgba(255,255,255,.055);background:rgba(255,255,255,.016);border-radius:11px}
-.goalRow input{accent-color:#b89453}
+.goalRow{display:grid;grid-template-columns:32px 1fr 82px;gap:12px;align-items:center;padding:13px 14px;border:1px solid rgba(255,255,255,.055);background:rgba(255,255,255,.016);border-radius:11px;cursor:pointer;transition:border-color .16s ease,background .16s ease}.goalRow:hover{border-color:rgba(184,148,83,.24);background:rgba(184,148,83,.035)}.goalRow:has(input:focus-visible){outline:2px solid rgba(215,185,120,.7);outline-offset:2px}
+.goalRow input{accent-color:#b89453;cursor:pointer}
 .goalName{font-size:15.5px;color:#e8dcc5;font-weight:650;line-height:1.35}.goalWhy{font-size:12.5px;color:#9b907e;line-height:1.5;margin-top:4px}
 .goalPts{text-align:right;color:#d3b36f;font-size:12.5px;font-weight:650}
 .goalInfo{min-width:0}
@@ -334,7 +336,8 @@ h1{font:500 clamp(34px,5vw,55px)/1 Georgia,serif;margin:13px 0 14px;color:#f1e6c
  </div>
 </section>
 <section class="section card catalog" id="catalog"><div class="sectionHead"><div><div class="kicker" data-i18n="catalog.kicker">Библиотека достижений</div><h2 data-i18n="catalog.title">Каталог достижений</h2><p id="catalogSummary">408 достижений в текущей базе.</p></div></div>
- <div class="catalogTop"><input id="catalogSearch" class="filter search" placeholder="Название или условие..." data-i18n-placeholder="catalog.searchPlaceholder" oninput="syncCatalogSearch()"><select id="categoryFilter" class="filter" onchange="resetCatalogPage()"></select><select id="dlcFilter" class="filter" onchange="resetCatalogPage()"></select><select id="scenarioFilter" class="filter" onchange="resetCatalogPage()"></select><select id="specialFilter" class="filter" onchange="resetCatalogPage()"></select><select id="civFilter" class="filter" onchange="resetCatalogPage()"></select><select id="statusFilter" class="filter" onchange="resetCatalogPage()"><option value="" data-i18n="filters.anyStatus">Любой статус</option><option value="todo" data-i18n="filters.todo">Не получено</option><option value="done" data-i18n="filters.done">Получено</option></select></div>
+ <div class="catalogTop"><div class="catalogSearchWrap"><input id="catalogSearch" class="filter search" placeholder="Название или условие..." data-i18n-placeholder="catalog.searchPlaceholder" oninput="syncCatalogSearch()"><button id="catalogSearchClear" class="catalogSearchClear hidden" type="button" aria-label="Очистить поиск" data-i18n-aria-label="catalog.clearSearch" onclick="clearCatalogSearch()">×</button></div><select id="categoryFilter" class="filter" onchange="updateCategoryFilter()"></select><select id="dlcFilter" class="filter" onchange="resetCatalogPage()"></select><select id="scenarioFilter" class="filter" onchange="resetCatalogPage()"></select><select id="specialFilter" class="filter" onchange="resetCatalogPage()"></select><select id="civFilter" class="filter" onchange="resetCatalogPage()"></select><select id="legitimacyFilter" class="filter" onchange="updateLegitimacyFilter()"></select><select id="statusFilter" class="filter" onchange="resetCatalogPage()"><option value="" data-i18n="filters.anyStatus">Любой статус</option><option value="todo" data-i18n="filters.todo">Не получено</option><option value="done" data-i18n="filters.done">Получено</option></select></div>
+ <div id="legitimacyFilterHint" class="catalogFilterHint hidden"></div>
  <div class="catalogGrid" id="catalogGrid"></div><div class="catalogFoot"><button id="moreBtn" class="btn ghost small" onclick="showMore()" data-i18n="catalog.showMore">Показать ещё</button></div>
 </section>
 <footer class="footer"><span data-i18n="footer.disclaimer">Неофициальный фанатский проект · Old World принадлежит Mohawk Games / Hooded Horse.</span><span data-i18n="footer.local">Локальные данные · регистрация не требуется</span></footer>
@@ -501,6 +504,7 @@ const categoryKeys={"Военное / историческое":"military","Ди
 const civKeys={"Аксум":"aksum","Ассирия":"assyria","Вавилония":"babylonia","Греция":"greece","Египет":"egypt","Карфаген":"carthage","Куш":"kush","Маурья":"maurya","Персия":"persia","Рим":"rome","Тамилакам":"tamilakam","Хетты":"hatti","Юэчжи":"yuezhi"};
 const difficultyKeys={"Новый":"theNew","Способный":"theAble","Справедливый":"theJust","Добрый":"theGood","Могучий":"theStrong","Благородный":"theNoble","Славный":"theGlorious","Великолепный":"theMagnificent","Великий":"theGreat"};
 const plannerDifficulties=['Новый','Способный','Справедливый','Добрый','Могучий','Благородный','Славный','Великолепный','Великий'];
+const cognomenLegitimacyLevels=[...new Set(achievements.map(a=>a.cognomenLegitimacy).filter(value=>value!=null))].sort((a,b)=>a-b);
 function plannerDifficultyValue(value){return value==='any'||plannerDifficulties.includes(value)?value:'any'}
 function plannerScenarioValue(value){return value==='none'||scenarios.includes(value)?value:'none'}
 const plannerRunDefaults={mode:'Singleplayer',difficulty:'any',style:'balanced',special:'',dlc:'all',scenario:'none'};
@@ -561,6 +565,29 @@ function scenarioLabel(value){
 }
 function initSelect(id,items,labelKey,labeler=x=>x){const el=document.getElementById(id),selected=el.value;el.innerHTML='<option value="">'+esc(t(labelKey))+'</option>'+items.map(x=>'<option value="'+esc(x)+'">'+esc(labeler(x))+'</option>').join('');if([...el.options].some(option=>option.value===selected))el.value=selected}
 function initSpecialSelect(id,emptyKey){const el=document.getElementById(id),selected=el.value;el.innerHTML='<option value="">'+esc(t(emptyKey))+'</option>'+specialOptions.map(value=>'<option value="'+esc(value)+'">'+esc(specialLabel(value))+'</option>').join('');if([...el.options].some(option=>option.value===selected))el.value=selected}
+function initLegitimacySelect(){
+ const el=document.getElementById('legitimacyFilter'),selected=el?.value||'';
+ if(!el)return;
+ el.innerHTML='<option value="">'+esc(t('filters.legitimacyAny'))+'</option>'+cognomenLegitimacyLevels.map(value=>'<option value="'+value+'">'+esc(t('filters.legitimacyCurrent',{value}))+'</option>').join('');
+ if([...el.options].some(option=>option.value===selected))el.value=selected;
+ updateLegitimacyFilterHint();
+}
+function updateLegitimacyFilterHint(){
+ const value=document.getElementById('legitimacyFilter')?.value||'',hint=document.getElementById('legitimacyFilterHint');
+ if(!hint)return;
+ hint.classList.toggle('hidden',!value);
+ hint.textContent=value?t('filters.legitimacyHint',{value}):'';
+}
+function updateLegitimacyFilter(){
+ const value=document.getElementById('legitimacyFilter')?.value||'',category=document.getElementById('categoryFilter');
+ if(value&&category)category.value='Черта / персонаж';
+ updateLegitimacyFilterHint();resetCatalogPage();
+}
+function updateCategoryFilter(){
+ const category=document.getElementById('categoryFilter')?.value||'',legitimacy=document.getElementById('legitimacyFilter');
+ if(category&&category!=='Черта / персонаж'&&legitimacy?.value){legitimacy.value='';updateLegitimacyFilterHint()}
+ resetCatalogPage();
+}
 function setPlannerSelectValue(id,value,fallback){
  const el=document.getElementById(id);if(!el)return;
  const next=[...el.options].some(o=>o.value===value)?value:fallback;
@@ -608,6 +635,7 @@ function renderLocalizedSelects(){
  document.getElementById('scenarioFilter').insertAdjacentHTML('afterbegin','<option value="__none__">'+esc(t('filters.noScenarioAchievements'))+'</option>');
  if(catalogScenario==='__none__')document.getElementById('scenarioFilter').value='__none__';
  initSpecialSelect('specialFilter','filters.allSpecial');
+ initLegitimacySelect();
  initSelect('pCategory',categories,'filters.allCategories',categoryLabel);initSelect('pDlc',dlcs,'filters.allDlc',dlcLabel);initSelect('pScenario',scenarios,'filters.allScenarios',scenarioLabel);initSelect('pCiv',civs,'filters.allCivilizations',civLabel);
  document.getElementById('pScenario').insertAdjacentHTML('afterbegin','<option value="__none__">'+esc(t('filters.noScenarioAchievements'))+'</option>');
  if(progressScenario==='__none__')document.getElementById('pScenario').value='__none__';
@@ -802,18 +830,26 @@ function catalogMatchesSearch(a,q){
 }
 function catalogFiltered(){
  const q=(document.getElementById('catalogSearch').value||'').trim();
- const cat=document.getElementById('categoryFilter').value,dlc=document.getElementById('dlcFilter').value,scenario=document.getElementById('scenarioFilter').value,special=document.getElementById('specialFilter').value,civ=document.getElementById('civFilter').value,status=document.getElementById('statusFilter').value;
- return achievements.filter(a=>{const done=state.done.includes(a.id);return catalogMatchesSearch(a,q)&&(!cat||a.category===cat)&&(!dlc||a.dlcName===dlc)&&(!scenario||(scenario==='__none__'?!a.isScenario:(a.scenarioName===scenario||a.scenario===scenario)))&&(!special||(a.settingTags||[]).includes(special))&&(!civ||(a.playerCivs||[]).includes(civ)||(a.affinityCivs||[]).includes(civ)||(a.targetCivs||[]).includes(civ))&&(!status||(status==='done'?done:!done))})
+ const cat=document.getElementById('categoryFilter').value,dlc=document.getElementById('dlcFilter').value,scenario=document.getElementById('scenarioFilter').value,special=document.getElementById('specialFilter').value,civ=document.getElementById('civFilter').value,legitimacy=Number(document.getElementById('legitimacyFilter').value||0),status=document.getElementById('statusFilter').value;
+ return achievements.filter(a=>{const done=state.done.includes(a.id);return catalogMatchesSearch(a,q)&&(!cat||a.category===cat)&&(!dlc||a.dlcName===dlc)&&(!scenario||(scenario==='__none__'?!a.isScenario:(a.scenarioName===scenario||a.scenario===scenario)))&&(!special||(a.settingTags||[]).includes(special))&&(!civ||(a.playerCivs||[]).includes(civ)||(a.affinityCivs||[]).includes(civ)||(a.targetCivs||[]).includes(civ))&&(!legitimacy||(a.cognomenLegitimacy!=null&&a.cognomenLegitimacy>legitimacy))&&(!status||(status==='done'?done:!done))})
 }
 function renderCatalog(){
  const arr=catalogFiltered(), visible=arr.slice(0,PAGE_SIZE*catalogPage);
  document.getElementById('catalogSummary').textContent=arr.length===DB_TOTAL?t('catalog.countAll',{total:DB_TOTAL}):t('catalog.countFiltered',{shown:arr.length,total:DB_TOTAL});
- document.getElementById('catalogGrid').innerHTML=visible.map(a=>{const done=state.done.includes(a.id);return `<div class="catCard" onclick="openAch('${a.id}')"><strong>${done?'✓':'◇'} &nbsp;${esc(achievementName(a))}</strong>${duplicateIdentityHTML(a)}<p>${esc(achievementCondition(a))}</p><div class="tags"><span class="tag">${esc(categoryLabel(a.category))}</span>${a.dlc!=='Основная игра / другое'?'<span class="tag">'+esc(dlcLabel(a.dlc))+'</span>':''}${rarityTag(a)}${done?'<span class="tag done">'+esc(t('achievement.earned'))+'</span>':''}</div></div>`}).join('');
+ document.getElementById('catalogGrid').innerHTML=visible.map(a=>{const done=state.done.includes(a.id);return `<div class="catCard" onclick="openAch('${a.id}')"><strong>${done?'✓':'◇'} &nbsp;${esc(achievementName(a))}</strong>${duplicateIdentityHTML(a)}<p>${esc(achievementCondition(a))}</p><div class="tags"><span class="tag">${esc(categoryLabel(a.category))}</span>${a.dlc!=='Основная игра / другое'?'<span class="tag">'+esc(dlcLabel(a.dlc))+'</span>':''}${legitimacyTag(a)}${rarityTag(a)}${done?'<span class="tag done">'+esc(t('achievement.earned'))+'</span>':''}</div></div>`}).join('');
  document.getElementById('moreBtn').classList.toggle('hidden',visible.length>=arr.length)
 }
 function resetCatalogPage(){catalogPage=1;renderCatalog()} function showMore(){catalogPage++;renderCatalog()}
-function syncTopSearch(){document.getElementById('catalogSearch').value=document.getElementById('topSearch').value;resetCatalogPage();if(document.getElementById('topSearch').value)document.getElementById('catalog').scrollIntoView({behavior:'smooth'})}
-function syncCatalogSearch(){document.getElementById('topSearch').value=document.getElementById('catalogSearch').value;resetCatalogPage()}
+function updateCatalogSearchClear(){
+ const input=document.getElementById('catalogSearch'),button=document.getElementById('catalogSearchClear');
+ if(button)button.classList.toggle('hidden',!input?.value);
+}
+function syncTopSearch(){document.getElementById('catalogSearch').value=document.getElementById('topSearch').value;updateCatalogSearchClear();resetCatalogPage();if(document.getElementById('topSearch').value)document.getElementById('catalog').scrollIntoView({behavior:'smooth'})}
+function syncCatalogSearch(){document.getElementById('topSearch').value=document.getElementById('catalogSearch').value;updateCatalogSearchClear();resetCatalogPage()}
+function clearCatalogSearch(){
+ const catalogSearch=document.getElementById('catalogSearch'),topSearch=document.getElementById('topSearch');
+ catalogSearch.value='';topSearch.value='';updateCatalogSearchClear();resetCatalogPage();catalogSearch.focus();
+}
 function quickFilterCategory(cat){document.getElementById('categoryFilter').value=cat;resetCatalogPage();document.getElementById('catalog').scrollIntoView({behavior:'smooth'})}
 function showReferenceTopic(topic){
  document.querySelectorAll('.referencePanel').forEach(panel=>panel.classList.toggle('active',panel.id==='reference-'+topic));
@@ -1384,7 +1420,7 @@ function renderGoalGroups(){
    const allItems=plannerState.goals.filter(g=>g.tier===key);
    const items=allItems.filter(g=>visibleIds.has(g.a.id));
    if(!items.length)return '';
-   return `<div class="goalGroup"><div class="goalGroupHead"><div><h4>${esc(title)}</h4><span>${esc(sub)}</span></div><span>${items.length===allItems.length?items.length:`${items.length} <span class="countDetail">${esc(t('planner.ofTotal',{total:allItems.length}))}</span>`}</span></div><div class="goalRows">${items.map(g=>`<div class="goalRow"><input type="checkbox" ${g.selected?'checked':''} onchange="togglePlannerGoal('${g.a.id}',this.checked)"><div class="goalInfo"><div class="goalName">${esc(displayAchievementName(g.a))}</div><div class="goalCondition">${esc(achievementCondition(g.a))}</div>${g.a.plannerNote?'<div class="goalCondition plannerNote">'+esc(achievementDetail(g.a,'plannerNote'))+'</div>':''}<div class="goalMeta"><span class="goalBadge">${esc(title)}</span>${g.a.nationalUnique?'<span class="goalBadge practicalBadge">'+esc(t('planner.uniqueUnit'))+'</span>':''}${goalIsPractical(g)?'<span class="goalBadge practicalBadge">'+esc(t('planner.practical'))+'</span>':''}${g.a.scenarioName?'<span class="goalBadge">'+esc(scenarioLabel(g.a.scenarioName))+'</span>':''}${g.a.cognomenLegitimacy!=null?'<span class="goalBadge">'+esc(t('achievement.legitimacyShort',{value:g.a.cognomenLegitimacy}))+'</span>':''}<span class="goalBadge score">+${g.score}</span><button class="goalDetails" onclick="openAch('${g.a.id}')">${esc(t('common.details'))}</button></div></div><div class="goalPts">+${g.score}</div></div>`).join('')}</div></div>`;
+   return `<div class="goalGroup"><div class="goalGroupHead"><div><h4>${esc(title)}</h4><span>${esc(sub)}</span></div><span>${items.length===allItems.length?items.length:`${items.length} <span class="countDetail">${esc(t('planner.ofTotal',{total:allItems.length}))}</span>`}</span></div><div class="goalRows">${items.map(g=>`<div class="goalRow" onclick="togglePlannerGoalFromRow(event,'${g.a.id}')"><input type="checkbox" ${g.selected?'checked':''} onchange="togglePlannerGoal('${g.a.id}',this.checked)"><div class="goalInfo"><div class="goalName">${esc(displayAchievementName(g.a))}</div><div class="goalCondition">${esc(achievementCondition(g.a))}</div>${g.a.plannerNote?'<div class="goalCondition plannerNote">'+esc(achievementDetail(g.a,'plannerNote'))+'</div>':''}<div class="goalMeta"><span class="goalBadge">${esc(title)}</span>${g.a.nationalUnique?'<span class="goalBadge practicalBadge">'+esc(t('planner.uniqueUnit'))+'</span>':''}${goalIsPractical(g)?'<span class="goalBadge practicalBadge">'+esc(t('planner.practical'))+'</span>':''}${g.a.scenarioName?'<span class="goalBadge">'+esc(scenarioLabel(g.a.scenarioName))+'</span>':''}${g.a.cognomenLegitimacy!=null?'<span class="goalBadge">'+esc(t('achievement.legitimacyShort',{value:g.a.cognomenLegitimacy}))+'</span>':''}<span class="goalBadge score">+${g.score}</span><button class="goalDetails" onclick="openAch('${g.a.id}')">${esc(t('common.details'))}</button></div></div><div class="goalPts">+${g.score}</div></div>`).join('')}</div></div>`;
  }).join('');
  const hint=document.getElementById('plannerGoalHint');
  if(hint){
@@ -1394,6 +1430,12 @@ function renderGoalGroups(){
    hint.innerHTML=t('planner.goalHint',{visible:visible.length, total:plannerState.goals.length, practical, affinity:affin, traits});
  }
  updatePlannerSummary();
+}
+function togglePlannerGoalFromRow(event,id){
+ if(event.target.closest('input,button,a'))return;
+ const checkbox=event.currentTarget.querySelector('input[type="checkbox"]');
+ if(!checkbox)return;
+ checkbox.checked=!checkbox.checked;togglePlannerGoal(id,checkbox.checked);
 }
 function togglePlannerGoal(id,on){
  const g=plannerState.goals.find(x=>x.a.id===id);if(g)g.selected=on;
