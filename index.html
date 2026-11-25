@@ -585,7 +585,7 @@ function updateLegitimacyFilter(){
 }
 function updateCategoryFilter(){
  const category=document.getElementById('categoryFilter')?.value||'',legitimacy=document.getElementById('legitimacyFilter');
- if(category&&category!=='Черта / персонаж'&&legitimacy?.value){legitimacy.value='';updateLegitimacyFilterHint()}
+ if(category!=='Черта / персонаж'&&legitimacy?.value){legitimacy.value='';updateLegitimacyFilterHint()}
  resetCatalogPage();
 }
 function setPlannerSelectValue(id,value,fallback){
@@ -850,7 +850,7 @@ function clearCatalogSearch(){
  const catalogSearch=document.getElementById('catalogSearch'),topSearch=document.getElementById('topSearch');
  catalogSearch.value='';topSearch.value='';updateCatalogSearchClear();resetCatalogPage();catalogSearch.focus();
 }
-function quickFilterCategory(cat){document.getElementById('categoryFilter').value=cat;resetCatalogPage();document.getElementById('catalog').scrollIntoView({behavior:'smooth'})}
+function quickFilterCategory(cat){document.getElementById('categoryFilter').value=cat;updateCategoryFilter();document.getElementById('catalog').scrollIntoView({behavior:'smooth'})}
 function showReferenceTopic(topic){
  document.querySelectorAll('.referencePanel').forEach(panel=>panel.classList.toggle('active',panel.id==='reference-'+topic));
  document.querySelectorAll('[data-reference-topic]').forEach(button=>{

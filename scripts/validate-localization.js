@@ -99,6 +99,38 @@ for (const id of filterIds) element(id).value = '';
 run('catalogPage=100; renderCatalog(); realRenderProgressList()');
 assert(!/[А-Яа-яЁё]/.test(element('catalogGrid').innerHTML), 'Russian text in rendered English catalog');
 assert(!/[А-Яа-яЁё]/.test(element('progressList').innerHTML), 'Russian text in rendered English progress list');
+element('catalog').scrollIntoView = () => {};
+for (const locale of ['ru', 'en']) {
+  window.AppI18n.setLocale(locale);
+  element('civFilter').value = 'Греция';
+  const greekCatalog = run('catalogFiltered().map(card=>card.id).join(",")');
+  assert(greekCatalog, 'Civilization filter should have results');
+  element('legitimacyFilter').value = '10';
+  run('updateLegitimacyFilter()');
+  assert.equal(element('categoryFilter').value, 'Черта / персонаж');
+  assert(element('legitimacyFilterHint').textContent, 'Active legitimacy filter should show a hint');
+  run('updateCategoryFilter()');
+  assert.equal(element('legitimacyFilter').value, '10', 'Cognomen category should preserve legitimacy');
+  element('categoryFilter').value = '';
+  run('catalogPage=3; updateCategoryFilter()');
+  assert.equal(element('legitimacyFilter').value, '', 'All categories should clear legitimacy');
+  assert.equal(element('legitimacyFilterHint').textContent, '', 'Cleared legitimacy should remove its hint');
+  assert.equal(element('civFilter').value, 'Греция', 'Category changes should preserve civilization');
+  assert.equal(run('catalogPage'), 1);
+  assert.equal(run('catalogFiltered().map(card=>card.id).join(",")'), greekCatalog, 'All categories should restore civilization results');
+  for (const selectCategory of ['updateCategoryFilter()', 'quickFilterCategory("Победа за цивилизацию")']) {
+    element('legitimacyFilter').value = '10';
+    run('updateLegitimacyFilter()');
+    if (selectCategory === 'updateCategoryFilter()') element('categoryFilter').value = 'Победа за цивилизацию';
+    run(selectCategory);
+    assert.equal(element('legitimacyFilter').value, '', 'Switching categories should clear legitimacy');
+    assert.equal(element('legitimacyFilterHint').textContent, '');
+    assert(run('catalogFiltered().length') > 0, 'Civilization achievements should remain visible');
+  }
+  element('categoryFilter').value = '';
+  element('civFilter').value = '';
+}
+
 element('categoryFilter').value = 'Победа за цивилизацию';
 element('pCategory').value = 'Победа за цивилизацию';
 const catalogEn = run('catalogFiltered().map(card=>card.id).join(",")');
