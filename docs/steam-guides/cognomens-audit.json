@@ -1,0 +1,903 @@
+{
+  "checkedAt": "2026-11-24",
+  "source": "Installed Old World Reference/XML/Infos/cognomen.xml",
+  "rulerThresholdFormula": "floor(base*(20+leaderIndex)/20); then integer turn-scale modifier",
+  "turnScaleMultipliers": {
+    "year": 1,
+    "semester": 1.5,
+    "season": 2
+  },
+  "entries": [
+    {
+      "id": "a007",
+      "type": "COGNOMEN_GRACIOUS",
+      "baseThreshold": 4000,
+      "legitimacy": 40,
+      "requiredContent": "EMPIRES_OF_THE_INDUS",
+      "weights": {
+        "STAT_CULTURE_LEVEL_INCREASED": 500,
+        "STAT_HAPPINESS_LEVEL_INCREASED": 300,
+        "STAT_UNIT_HEALED": 50,
+        "STAT_UNIT_MILITARY_KILLED": -50
+      }
+    },
+    {
+      "id": "a012",
+      "type": "COGNOMEN_JUST",
+      "baseThreshold": 40000,
+      "legitimacy": 40,
+      "requiredContent": "",
+      "weights": {
+        "STAT_AMBITION_ACHIEVED": 12000,
+        "STAT_LEGACY_ACHIEVED": 6000,
+        "STAT_TRIBE_CONTACTED": 100,
+        "STAT_TRIBE_CLEARED": 200,
+        "STAT_TRIBE_PEACE": 1000,
+        "STAT_TRIBE_ALLIANCE": 2000,
+        "STAT_TEAM_CONTACTED": 100,
+        "STAT_TEAM_PEACE": 1000,
+        "STAT_TEAM_ALLIANCE": 2000,
+        "STAT_CARAVAN_ARRIVED": 200,
+        "STAT_CAPITAL_CAPTURED": 2000,
+        "STAT_CITY_FOUNDED": 1000,
+        "STAT_CITY_CAPTURED": 2000,
+        "STAT_CITY_RECAPTURED": 2000,
+        "STAT_CITY_LOST": -2000,
+        "STAT_COURTIER_ADDED": 1000,
+        "STAT_IMPROVEMENT_FINISHED": 50,
+        "STAT_IMPROVEMENT_REPAIRED": 200,
+        "STAT_LANDMARK_NAMED": 300,
+        "STAT_LANDMARK_DISCOVERED": 200,
+        "STAT_WORLD_RELIGION_FOUNDED": 1500,
+        "STAT_RELIGION_SPREAD": 200,
+        "STAT_RUINS_EXPLORED": 100,
+        "STAT_SPECIALIST_PRODUCED": 100,
+        "STAT_TECH_DISCOVERED": 500,
+        "STAT_THEOLOGY_ESTABLISHED": 1000,
+        "STAT_TILES_REVEALED": 1,
+        "STAT_UNIT_TRAINED": 100,
+        "STAT_UNIT_PROMOTED": 100,
+        "STAT_UNIT_MILITARY_KILLED": 200,
+        "STAT_UNIT_MILITARY_KILLED_GENERAL": 200,
+        "STAT_UNIT_LOST": -200,
+        "STAT_WONDER_FINISHED": 2000,
+        "STAT_YEARS_REIGNED": 100
+      }
+    },
+    {
+      "id": "a014",
+      "type": "COGNOMEN_WARRIOR",
+      "baseThreshold": 1000,
+      "legitimacy": 10,
+      "requiredContent": "",
+      "weights": {
+        "STAT_UNIT_MILITARY_KILLED": 200,
+        "STAT_UNIT_MILITARY_KILLED_GENERAL": 200,
+        "STAT_UNIT_LOST": -200
+      }
+    },
+    {
+      "id": "a020",
+      "type": "COGNOMEN_SAVIOR",
+      "baseThreshold": 6000,
+      "legitimacy": 60,
+      "requiredContent": "EMPIRES_OF_THE_INDUS",
+      "weights": {
+        "STAT_CULTURE_LEVEL_INCREASED": 500,
+        "STAT_HAPPINESS_LEVEL_INCREASED": 300,
+        "STAT_UNIT_HEALED": 50,
+        "STAT_UNIT_MILITARY_KILLED": -50
+      }
+    },
+    {
+      "id": "a022",
+      "type": "COGNOMEN_GATHERER",
+      "baseThreshold": 2000,
+      "legitimacy": 20,
+      "requiredContent": "EMPIRES_OF_THE_INDUS",
+      "weights": {
+        "STAT_RESOURCE_HARVESTED": 200,
+        "STAT_VEGETATION_REMOVED": 50
+      }
+    },
+    {
+      "id": "a025",
+      "type": "COGNOMEN_HOLY",
+      "baseThreshold": 4000,
+      "legitimacy": 40,
+      "requiredContent": "",
+      "weights": {
+        "STAT_WORLD_RELIGION_FOUNDED": 1500,
+        "STAT_RELIGION_SPREAD": 200,
+        "STAT_THEOLOGY_ESTABLISHED": 1000
+      }
+    },
+    {
+      "id": "a026",
+      "type": "COGNOMEN_DEVOUT",
+      "baseThreshold": 2000,
+      "legitimacy": 20,
+      "requiredContent": "",
+      "weights": {
+        "STAT_WORLD_RELIGION_FOUNDED": 1500,
+        "STAT_RELIGION_SPREAD": 200,
+        "STAT_THEOLOGY_ESTABLISHED": 1000
+      }
+    },
+    {
+      "id": "a036",
+      "type": "COGNOMEN_BELOVED",
+      "baseThreshold": 6000,
+      "legitimacy": 60,
+      "requiredContent": "",
+      "weights": {
+        "STAT_COURTIER_ADDED": 1000,
+        "STAT_SPECIALIST_PRODUCED": 100
+      }
+    },
+    {
+      "id": "a045",
+      "type": "COGNOMEN_GREAT",
+      "baseThreshold": 100000,
+      "legitimacy": 100,
+      "requiredContent": "",
+      "weights": {
+        "STAT_AMBITION_ACHIEVED": 12000,
+        "STAT_LEGACY_ACHIEVED": 6000,
+        "STAT_TRIBE_CONTACTED": 100,
+        "STAT_TRIBE_CLEARED": 200,
+        "STAT_TRIBE_PEACE": 1000,
+        "STAT_TRIBE_ALLIANCE": 2000,
+        "STAT_TEAM_CONTACTED": 100,
+        "STAT_TEAM_PEACE": 1000,
+        "STAT_TEAM_ALLIANCE": 2000,
+        "STAT_CARAVAN_ARRIVED": 200,
+        "STAT_CAPITAL_CAPTURED": 2000,
+        "STAT_CITY_FOUNDED": 1000,
+        "STAT_CITY_CAPTURED": 2000,
+        "STAT_CITY_RECAPTURED": 2000,
+        "STAT_CITY_LOST": -2000,
+        "STAT_COURTIER_ADDED": 1000,
+        "STAT_IMPROVEMENT_FINISHED": 50,
+        "STAT_IMPROVEMENT_REPAIRED": 200,
+        "STAT_LANDMARK_NAMED": 300,
+        "STAT_LANDMARK_DISCOVERED": 200,
+        "STAT_WORLD_RELIGION_FOUNDED": 1500,
+        "STAT_RELIGION_SPREAD": 200,
+        "STAT_RUINS_EXPLORED": 100,
+        "STAT_SPECIALIST_PRODUCED": 100,
+        "STAT_TECH_DISCOVERED": 500,
+        "STAT_THEOLOGY_ESTABLISHED": 1000,
+        "STAT_TILES_REVEALED": 1,
+        "STAT_UNIT_TRAINED": 100,
+        "STAT_UNIT_PROMOTED": 100,
+        "STAT_UNIT_MILITARY_KILLED": 200,
+        "STAT_UNIT_MILITARY_KILLED_GENERAL": 200,
+        "STAT_UNIT_LOST": -200,
+        "STAT_WONDER_FINISHED": 2000,
+        "STAT_YEARS_REIGNED": 100
+      }
+    },
+    {
+      "id": "a046",
+      "type": "COGNOMEN_MAGNIFICENT",
+      "baseThreshold": 90000,
+      "legitimacy": 90,
+      "requiredContent": "",
+      "weights": {
+        "STAT_AMBITION_ACHIEVED": 12000,
+        "STAT_LEGACY_ACHIEVED": 6000,
+        "STAT_TRIBE_CONTACTED": 100,
+        "STAT_TRIBE_CLEARED": 200,
+        "STAT_TRIBE_PEACE": 1000,
+        "STAT_TRIBE_ALLIANCE": 2000,
+        "STAT_TEAM_CONTACTED": 100,
+        "STAT_TEAM_PEACE": 1000,
+        "STAT_TEAM_ALLIANCE": 2000,
+        "STAT_CARAVAN_ARRIVED": 200,
+        "STAT_CAPITAL_CAPTURED": 2000,
+        "STAT_CITY_FOUNDED": 1000,
+        "STAT_CITY_CAPTURED": 2000,
+        "STAT_CITY_RECAPTURED": 2000,
+        "STAT_CITY_LOST": -2000,
+        "STAT_COURTIER_ADDED": 1000,
+        "STAT_IMPROVEMENT_FINISHED": 50,
+        "STAT_IMPROVEMENT_REPAIRED": 200,
+        "STAT_LANDMARK_NAMED": 300,
+        "STAT_LANDMARK_DISCOVERED": 200,
+        "STAT_WORLD_RELIGION_FOUNDED": 1500,
+        "STAT_RELIGION_SPREAD": 200,
+        "STAT_RUINS_EXPLORED": 100,
+        "STAT_SPECIALIST_PRODUCED": 100,
+        "STAT_TECH_DISCOVERED": 500,
+        "STAT_THEOLOGY_ESTABLISHED": 1000,
+        "STAT_TILES_REVEALED": 1,
+        "STAT_UNIT_TRAINED": 100,
+        "STAT_UNIT_PROMOTED": 100,
+        "STAT_UNIT_MILITARY_KILLED": 200,
+        "STAT_UNIT_MILITARY_KILLED_GENERAL": 200,
+        "STAT_UNIT_LOST": -200,
+        "STAT_WONDER_FINISHED": 2000,
+        "STAT_YEARS_REIGNED": 100
+      }
+    },
+    {
+      "id": "a061",
+      "type": "COGNOMEN_ENLIGHTENED",
+      "baseThreshold": 4000,
+      "legitimacy": 40,
+      "requiredContent": "",
+      "weights": {
+        "STAT_TECH_DISCOVERED": 500
+      }
+    },
+    {
+      "id": "a064",
+      "type": "COGNOMEN_LEARNED",
+      "baseThreshold": 2000,
+      "legitimacy": 20,
+      "requiredContent": "",
+      "weights": {
+        "STAT_TECH_DISCOVERED": 500
+      }
+    },
+    {
+      "id": "a069",
+      "type": "COGNOMEN_MASON",
+      "baseThreshold": 1000,
+      "legitimacy": 10,
+      "requiredContent": "",
+      "weights": {
+        "STAT_IMPROVEMENT_FINISHED": 50,
+        "STAT_WONDER_FINISHED": 2000
+      }
+    },
+    {
+      "id": "a070",
+      "type": "COGNOMEN_GLORIOUS",
+      "baseThreshold": 80000,
+      "legitimacy": 80,
+      "requiredContent": "",
+      "weights": {
+        "STAT_AMBITION_ACHIEVED": 12000,
+        "STAT_LEGACY_ACHIEVED": 6000,
+        "STAT_TRIBE_CONTACTED": 100,
+        "STAT_TRIBE_CLEARED": 200,
+        "STAT_TRIBE_PEACE": 1000,
+        "STAT_TRIBE_ALLIANCE": 2000,
+        "STAT_TEAM_CONTACTED": 100,
+        "STAT_TEAM_PEACE": 1000,
+        "STAT_TEAM_ALLIANCE": 2000,
+        "STAT_CARAVAN_ARRIVED": 200,
+        "STAT_CAPITAL_CAPTURED": 2000,
+        "STAT_CITY_FOUNDED": 1000,
+        "STAT_CITY_CAPTURED": 2000,
+        "STAT_CITY_RECAPTURED": 2000,
+        "STAT_CITY_LOST": -2000,
+        "STAT_COURTIER_ADDED": 1000,
+        "STAT_IMPROVEMENT_FINISHED": 50,
+        "STAT_IMPROVEMENT_REPAIRED": 200,
+        "STAT_LANDMARK_NAMED": 300,
+        "STAT_LANDMARK_DISCOVERED": 200,
+        "STAT_WORLD_RELIGION_FOUNDED": 1500,
+        "STAT_RELIGION_SPREAD": 200,
+        "STAT_RUINS_EXPLORED": 100,
+        "STAT_SPECIALIST_PRODUCED": 100,
+        "STAT_TECH_DISCOVERED": 500,
+        "STAT_THEOLOGY_ESTABLISHED": 1000,
+        "STAT_TILES_REVEALED": 1,
+        "STAT_UNIT_TRAINED": 100,
+        "STAT_UNIT_PROMOTED": 100,
+        "STAT_UNIT_MILITARY_KILLED": 200,
+        "STAT_UNIT_MILITARY_KILLED_GENERAL": 200,
+        "STAT_UNIT_LOST": -200,
+        "STAT_WONDER_FINISHED": 2000,
+        "STAT_YEARS_REIGNED": 100
+      }
+    },
+    {
+      "id": "a071",
+      "type": "COGNOMEN_WISE",
+      "baseThreshold": 6000,
+      "legitimacy": 60,
+      "requiredContent": "",
+      "weights": {
+        "STAT_TECH_DISCOVERED": 500
+      }
+    },
+    {
+      "id": "a091",
+      "type": "COGNOMEN_FOUNTAINHEAD",
+      "baseThreshold": 6000,
+      "legitimacy": 60,
+      "requiredContent": "",
+      "weights": {
+        "STAT_IMPROVEMENT_FINISHED": 50,
+        "STAT_WONDER_FINISHED": 2000
+      }
+    },
+    {
+      "id": "a093",
+      "type": "COGNOMEN_KEYSTONE",
+      "baseThreshold": 4000,
+      "legitimacy": 40,
+      "requiredContent": "",
+      "weights": {
+        "STAT_IMPROVEMENT_FINISHED": 50,
+        "STAT_WONDER_FINISHED": 2000
+      }
+    },
+    {
+      "id": "a094",
+      "type": "COGNOMEN_ABLE",
+      "baseThreshold": 30000,
+      "legitimacy": 30,
+      "requiredContent": "",
+      "weights": {
+        "STAT_AMBITION_ACHIEVED": 12000,
+        "STAT_LEGACY_ACHIEVED": 6000,
+        "STAT_TRIBE_CONTACTED": 100,
+        "STAT_TRIBE_CLEARED": 200,
+        "STAT_TRIBE_PEACE": 1000,
+        "STAT_TRIBE_ALLIANCE": 2000,
+        "STAT_TEAM_CONTACTED": 100,
+        "STAT_TEAM_PEACE": 1000,
+        "STAT_TEAM_ALLIANCE": 2000,
+        "STAT_CARAVAN_ARRIVED": 200,
+        "STAT_CAPITAL_CAPTURED": 2000,
+        "STAT_CITY_FOUNDED": 1000,
+        "STAT_CITY_CAPTURED": 2000,
+        "STAT_CITY_RECAPTURED": 2000,
+        "STAT_CITY_LOST": -2000,
+        "STAT_COURTIER_ADDED": 1000,
+        "STAT_IMPROVEMENT_FINISHED": 50,
+        "STAT_IMPROVEMENT_REPAIRED": 200,
+        "STAT_LANDMARK_NAMED": 300,
+        "STAT_LANDMARK_DISCOVERED": 200,
+        "STAT_WORLD_RELIGION_FOUNDED": 1500,
+        "STAT_RELIGION_SPREAD": 200,
+        "STAT_RUINS_EXPLORED": 100,
+        "STAT_SPECIALIST_PRODUCED": 100,
+        "STAT_TECH_DISCOVERED": 500,
+        "STAT_THEOLOGY_ESTABLISHED": 1000,
+        "STAT_TILES_REVEALED": 1,
+        "STAT_UNIT_TRAINED": 100,
+        "STAT_UNIT_PROMOTED": 100,
+        "STAT_UNIT_MILITARY_KILLED": 200,
+        "STAT_UNIT_MILITARY_KILLED_GENERAL": 200,
+        "STAT_UNIT_LOST": -200,
+        "STAT_WONDER_FINISHED": 2000,
+        "STAT_YEARS_REIGNED": 100
+      }
+    },
+    {
+      "id": "a099",
+      "type": "COGNOMEN_NOBLE",
+      "baseThreshold": 70000,
+      "legitimacy": 70,
+      "requiredContent": "",
+      "weights": {
+        "STAT_AMBITION_ACHIEVED": 12000,
+        "STAT_LEGACY_ACHIEVED": 6000,
+        "STAT_TRIBE_CONTACTED": 100,
+        "STAT_TRIBE_CLEARED": 200,
+        "STAT_TRIBE_PEACE": 1000,
+        "STAT_TRIBE_ALLIANCE": 2000,
+        "STAT_TEAM_CONTACTED": 100,
+        "STAT_TEAM_PEACE": 1000,
+        "STAT_TEAM_ALLIANCE": 2000,
+        "STAT_CARAVAN_ARRIVED": 200,
+        "STAT_CAPITAL_CAPTURED": 2000,
+        "STAT_CITY_FOUNDED": 1000,
+        "STAT_CITY_CAPTURED": 2000,
+        "STAT_CITY_RECAPTURED": 2000,
+        "STAT_CITY_LOST": -2000,
+        "STAT_COURTIER_ADDED": 1000,
+        "STAT_IMPROVEMENT_FINISHED": 50,
+        "STAT_IMPROVEMENT_REPAIRED": 200,
+        "STAT_LANDMARK_NAMED": 300,
+        "STAT_LANDMARK_DISCOVERED": 200,
+        "STAT_WORLD_RELIGION_FOUNDED": 1500,
+        "STAT_RELIGION_SPREAD": 200,
+        "STAT_RUINS_EXPLORED": 100,
+        "STAT_SPECIALIST_PRODUCED": 100,
+        "STAT_TECH_DISCOVERED": 500,
+        "STAT_THEOLOGY_ESTABLISHED": 1000,
+        "STAT_TILES_REVEALED": 1,
+        "STAT_UNIT_TRAINED": 100,
+        "STAT_UNIT_PROMOTED": 100,
+        "STAT_UNIT_MILITARY_KILLED": 200,
+        "STAT_UNIT_MILITARY_KILLED_GENERAL": 200,
+        "STAT_UNIT_LOST": -200,
+        "STAT_WONDER_FINISHED": 2000,
+        "STAT_YEARS_REIGNED": 100
+      }
+    },
+    {
+      "id": "a101",
+      "type": "COGNOMEN_GOOD",
+      "baseThreshold": 50000,
+      "legitimacy": 50,
+      "requiredContent": "",
+      "weights": {
+        "STAT_AMBITION_ACHIEVED": 12000,
+        "STAT_LEGACY_ACHIEVED": 6000,
+        "STAT_TRIBE_CONTACTED": 100,
+        "STAT_TRIBE_CLEARED": 200,
+        "STAT_TRIBE_PEACE": 1000,
+        "STAT_TRIBE_ALLIANCE": 2000,
+        "STAT_TEAM_CONTACTED": 100,
+        "STAT_TEAM_PEACE": 1000,
+        "STAT_TEAM_ALLIANCE": 2000,
+        "STAT_CARAVAN_ARRIVED": 200,
+        "STAT_CAPITAL_CAPTURED": 2000,
+        "STAT_CITY_FOUNDED": 1000,
+        "STAT_CITY_CAPTURED": 2000,
+        "STAT_CITY_RECAPTURED": 2000,
+        "STAT_CITY_LOST": -2000,
+        "STAT_COURTIER_ADDED": 1000,
+        "STAT_IMPROVEMENT_FINISHED": 50,
+        "STAT_IMPROVEMENT_REPAIRED": 200,
+        "STAT_LANDMARK_NAMED": 300,
+        "STAT_LANDMARK_DISCOVERED": 200,
+        "STAT_WORLD_RELIGION_FOUNDED": 1500,
+        "STAT_RELIGION_SPREAD": 200,
+        "STAT_RUINS_EXPLORED": 100,
+        "STAT_SPECIALIST_PRODUCED": 100,
+        "STAT_TECH_DISCOVERED": 500,
+        "STAT_THEOLOGY_ESTABLISHED": 1000,
+        "STAT_TILES_REVEALED": 1,
+        "STAT_UNIT_TRAINED": 100,
+        "STAT_UNIT_PROMOTED": 100,
+        "STAT_UNIT_MILITARY_KILLED": 200,
+        "STAT_UNIT_MILITARY_KILLED_GENERAL": 200,
+        "STAT_UNIT_LOST": -200,
+        "STAT_WONDER_FINISHED": 2000,
+        "STAT_YEARS_REIGNED": 100
+      }
+    },
+    {
+      "id": "a103",
+      "type": "COGNOMEN_BRILLIANT",
+      "baseThreshold": 4000,
+      "legitimacy": 40,
+      "requiredContent": "",
+      "weights": {
+        "STAT_COURTIER_ADDED": 1000,
+        "STAT_SPECIALIST_PRODUCED": 100
+      }
+    },
+    {
+      "id": "a104",
+      "type": "COGNOMEN_VALIANT",
+      "baseThreshold": 3000,
+      "legitimacy": 30,
+      "requiredContent": "",
+      "weights": {
+        "STAT_UNIT_MILITARY_KILLED": 200,
+        "STAT_UNIT_MILITARY_KILLED_GENERAL": 200,
+        "STAT_UNIT_LOST": -200
+      }
+    },
+    {
+      "id": "a105",
+      "type": "COGNOMEN_ARCHITECT",
+      "baseThreshold": 2000,
+      "legitimacy": 20,
+      "requiredContent": "",
+      "weights": {
+        "STAT_IMPROVEMENT_FINISHED": 50,
+        "STAT_WONDER_FINISHED": 2000
+      }
+    },
+    {
+      "id": "a109",
+      "type": "COGNOMEN_STRONG",
+      "baseThreshold": 60000,
+      "legitimacy": 60,
+      "requiredContent": "",
+      "weights": {
+        "STAT_AMBITION_ACHIEVED": 12000,
+        "STAT_LEGACY_ACHIEVED": 6000,
+        "STAT_TRIBE_CONTACTED": 100,
+        "STAT_TRIBE_CLEARED": 200,
+        "STAT_TRIBE_PEACE": 1000,
+        "STAT_TRIBE_ALLIANCE": 2000,
+        "STAT_TEAM_CONTACTED": 100,
+        "STAT_TEAM_PEACE": 1000,
+        "STAT_TEAM_ALLIANCE": 2000,
+        "STAT_CARAVAN_ARRIVED": 200,
+        "STAT_CAPITAL_CAPTURED": 2000,
+        "STAT_CITY_FOUNDED": 1000,
+        "STAT_CITY_CAPTURED": 2000,
+        "STAT_CITY_RECAPTURED": 2000,
+        "STAT_CITY_LOST": -2000,
+        "STAT_COURTIER_ADDED": 1000,
+        "STAT_IMPROVEMENT_FINISHED": 50,
+        "STAT_IMPROVEMENT_REPAIRED": 200,
+        "STAT_LANDMARK_NAMED": 300,
+        "STAT_LANDMARK_DISCOVERED": 200,
+        "STAT_WORLD_RELIGION_FOUNDED": 1500,
+        "STAT_RELIGION_SPREAD": 200,
+        "STAT_RUINS_EXPLORED": 100,
+        "STAT_SPECIALIST_PRODUCED": 100,
+        "STAT_TECH_DISCOVERED": 500,
+        "STAT_THEOLOGY_ESTABLISHED": 1000,
+        "STAT_TILES_REVEALED": 1,
+        "STAT_UNIT_TRAINED": 100,
+        "STAT_UNIT_PROMOTED": 100,
+        "STAT_UNIT_MILITARY_KILLED": 200,
+        "STAT_UNIT_MILITARY_KILLED_GENERAL": 200,
+        "STAT_UNIT_LOST": -200,
+        "STAT_WONDER_FINISHED": 2000,
+        "STAT_YEARS_REIGNED": 100
+      }
+    },
+    {
+      "id": "a114",
+      "type": "COGNOMEN_INTREPID",
+      "baseThreshold": 5000,
+      "legitimacy": 50,
+      "requiredContent": "",
+      "weights": {
+        "STAT_TRIBE_CONTACTED": 100,
+        "STAT_TEAM_CONTACTED": 100,
+        "STAT_CARAVAN_ARRIVED": 200,
+        "STAT_LANDMARK_NAMED": 300,
+        "STAT_LANDMARK_DISCOVERED": 200,
+        "STAT_RUINS_EXPLORED": 100,
+        "STAT_TILES_REVEALED": 1
+      }
+    },
+    {
+      "id": "a118",
+      "type": "COGNOMEN_PIONEER",
+      "baseThreshold": 4000,
+      "legitimacy": 40,
+      "requiredContent": "",
+      "weights": {
+        "STAT_CITY_FOUNDED": 1000
+      }
+    },
+    {
+      "id": "a119",
+      "type": "COGNOMEN_EXPLORER",
+      "baseThreshold": 3000,
+      "legitimacy": 30,
+      "requiredContent": "",
+      "weights": {
+        "STAT_TRIBE_CONTACTED": 100,
+        "STAT_TEAM_CONTACTED": 100,
+        "STAT_CARAVAN_ARRIVED": 200,
+        "STAT_LANDMARK_NAMED": 300,
+        "STAT_LANDMARK_DISCOVERED": 200,
+        "STAT_RUINS_EXPLORED": 100,
+        "STAT_TILES_REVEALED": 1
+      }
+    },
+    {
+      "id": "a120",
+      "type": "COGNOMEN_AMBITIOUS",
+      "baseThreshold": 2000,
+      "legitimacy": 20,
+      "requiredContent": "",
+      "weights": {
+        "STAT_COURTIER_ADDED": 1000,
+        "STAT_SPECIALIST_PRODUCED": 100
+      }
+    },
+    {
+      "id": "a122",
+      "type": "COGNOMEN_SETTLER",
+      "baseThreshold": 2000,
+      "legitimacy": 20,
+      "requiredContent": "",
+      "weights": {
+        "STAT_CITY_FOUNDED": 1000
+      }
+    },
+    {
+      "id": "a133",
+      "type": "COGNOMEN_BRAVE",
+      "baseThreshold": 2000,
+      "legitimacy": 20,
+      "requiredContent": "",
+      "weights": {
+        "STAT_UNIT_MILITARY_KILLED": 200,
+        "STAT_UNIT_MILITARY_KILLED_GENERAL": 200,
+        "STAT_UNIT_LOST": -200
+      }
+    },
+    {
+      "id": "a136",
+      "type": "COGNOMEN_CAPABLE",
+      "baseThreshold": 2000,
+      "legitimacy": 20,
+      "requiredContent": "",
+      "weights": {
+        "STAT_UNIT_TRAINED": 100,
+        "STAT_UNIT_PROMOTED": 100
+      }
+    },
+    {
+      "id": "a137",
+      "type": "COGNOMEN_MIGHTY",
+      "baseThreshold": 4000,
+      "legitimacy": 40,
+      "requiredContent": "",
+      "weights": {
+        "STAT_UNIT_MILITARY_KILLED": 200,
+        "STAT_UNIT_MILITARY_KILLED_GENERAL": 200,
+        "STAT_UNIT_LOST": -200
+      }
+    },
+    {
+      "id": "a138",
+      "type": "COGNOMEN_READY",
+      "baseThreshold": 3000,
+      "legitimacy": 30,
+      "requiredContent": "",
+      "weights": {
+        "STAT_UNIT_TRAINED": 100,
+        "STAT_UNIT_PROMOTED": 100
+      }
+    },
+    {
+      "id": "a140",
+      "type": "COGNOMEN_VICTORIOUS",
+      "baseThreshold": 5000,
+      "legitimacy": 50,
+      "requiredContent": "",
+      "weights": {
+        "STAT_UNIT_MILITARY_KILLED": 200,
+        "STAT_UNIT_MILITARY_KILLED_GENERAL": 200,
+        "STAT_UNIT_LOST": -200
+      }
+    },
+    {
+      "id": "a141",
+      "type": "COGNOMEN_INTERCESSOR",
+      "baseThreshold": 3000,
+      "legitimacy": 30,
+      "requiredContent": "",
+      "weights": {
+        "STAT_TRIBE_PEACE": 1000,
+        "STAT_TRIBE_ALLIANCE": 2000,
+        "STAT_TEAM_PEACE": 1000,
+        "STAT_TEAM_ALLIANCE": 2000
+      }
+    },
+    {
+      "id": "a144",
+      "type": "COGNOMEN_CONQUEROR",
+      "baseThreshold": 4000,
+      "legitimacy": 40,
+      "requiredContent": "",
+      "weights": {
+        "STAT_CAPITAL_CAPTURED": 2000,
+        "STAT_CITY_CAPTURED": 2000
+      }
+    },
+    {
+      "id": "a145",
+      "type": "COGNOMEN_INVINCIBLE",
+      "baseThreshold": 7000,
+      "legitimacy": 70,
+      "requiredContent": "",
+      "weights": {
+        "STAT_UNIT_MILITARY_KILLED": 200,
+        "STAT_UNIT_MILITARY_KILLED_GENERAL": 200,
+        "STAT_UNIT_LOST": -200
+      }
+    },
+    {
+      "id": "a148",
+      "type": "COGNOMEN_LION",
+      "baseThreshold": 6000,
+      "legitimacy": 60,
+      "requiredContent": "",
+      "weights": {
+        "STAT_UNIT_MILITARY_KILLED": 200,
+        "STAT_UNIT_MILITARY_KILLED_GENERAL": 200,
+        "STAT_UNIT_LOST": -200
+      }
+    },
+    {
+      "id": "a149",
+      "type": "COGNOMEN_SUBJUGATOR",
+      "baseThreshold": 6000,
+      "legitimacy": 60,
+      "requiredContent": "",
+      "weights": {
+        "STAT_CAPITAL_CAPTURED": 2000,
+        "STAT_CITY_CAPTURED": 2000
+      }
+    },
+    {
+      "id": "a163",
+      "type": "COGNOMEN_OLD",
+      "baseThreshold": 4000,
+      "legitimacy": 40,
+      "requiredContent": "",
+      "weights": {
+        "STAT_YEARS_REIGNED": 100
+      }
+    },
+    {
+      "id": "a170",
+      "type": "COGNOMEN_PEACEMAKER",
+      "baseThreshold": 5000,
+      "legitimacy": 50,
+      "requiredContent": "",
+      "weights": {
+        "STAT_TRIBE_PEACE": 1000,
+        "STAT_TRIBE_ALLIANCE": 2000,
+        "STAT_TEAM_PEACE": 1000,
+        "STAT_TEAM_ALLIANCE": 2000
+      }
+    },
+    {
+      "id": "a172",
+      "type": "COGNOMEN_ANCIENT",
+      "baseThreshold": 5000,
+      "legitimacy": 50,
+      "requiredContent": "",
+      "weights": {
+        "STAT_YEARS_REIGNED": 100
+      }
+    },
+    {
+      "id": "a209",
+      "type": "COGNOMEN_RESOURCEFUL",
+      "baseThreshold": 4000,
+      "legitimacy": 40,
+      "requiredContent": "EMPIRES_OF_THE_INDUS",
+      "weights": {
+        "STAT_RESOURCE_HARVESTED": 200,
+        "STAT_VEGETATION_REMOVED": 50
+      }
+    },
+    {
+      "id": "a213",
+      "type": "COGNOMEN_HUMANE",
+      "baseThreshold": 2000,
+      "legitimacy": 20,
+      "requiredContent": "EMPIRES_OF_THE_INDUS",
+      "weights": {
+        "STAT_CULTURE_LEVEL_INCREASED": 500,
+        "STAT_HAPPINESS_LEVEL_INCREASED": 300,
+        "STAT_UNIT_HEALED": 50,
+        "STAT_UNIT_MILITARY_KILLED": -50
+      }
+    },
+    {
+      "id": "a214",
+      "type": "COGNOMEN_REBUILDER",
+      "baseThreshold": 2000,
+      "legitimacy": 20,
+      "requiredContent": "",
+      "weights": {
+        "STAT_IMPROVEMENT_REPAIRED": 200
+      }
+    },
+    {
+      "id": "a267",
+      "type": "COGNOMEN_DESTROYER",
+      "baseThreshold": 2000,
+      "legitimacy": 20,
+      "requiredContent": "",
+      "weights": {
+        "STAT_TRIBE_CLEARED": 500
+      }
+    },
+    {
+      "id": "a298",
+      "type": "COGNOMEN_AVENGER",
+      "baseThreshold": 4000,
+      "legitimacy": 40,
+      "requiredContent": "",
+      "weights": {
+        "STAT_TRIBE_CLEARED": 500
+      }
+    },
+    {
+      "id": "a299",
+      "type": "COGNOMEN_LAWGIVER",
+      "baseThreshold": 3000,
+      "legitimacy": 30,
+      "requiredContent": "EMPIRES_OF_THE_INDUS",
+      "weights": {
+        "STAT_LAW_ADOPTED": 1000,
+        "STAT_LAW_CHANGED": 500
+      }
+    },
+    {
+      "id": "a300",
+      "type": "COGNOMEN_WHITE_DEATH",
+      "baseThreshold": 6000,
+      "legitimacy": 60,
+      "requiredContent": "",
+      "weights": {
+        "STAT_TRIBE_CLEARED": 500
+      }
+    },
+    {
+      "id": "a355",
+      "type": "COGNOMEN_FANATIC",
+      "baseThreshold": 4000,
+      "legitimacy": 40,
+      "requiredContent": "EMPIRES_OF_THE_INDUS",
+      "weights": {
+        "STAT_RELIGION_PURGED": 1000
+      }
+    },
+    {
+      "id": "a356",
+      "type": "COGNOMEN_FAVORED",
+      "baseThreshold": 3000,
+      "legitimacy": 30,
+      "requiredContent": "EMPIRES_OF_THE_INDUS",
+      "weights": {
+        "STAT_PAGAN_RELIGION_SPREAD": 800,
+        "STAT_CULTS": 800,
+        "STAT_CLERGY_ADDED": 400
+      }
+    },
+    {
+      "id": "a357",
+      "type": "COGNOMEN_HUNTER",
+      "baseThreshold": 3000,
+      "legitimacy": 30,
+      "requiredContent": "EMPIRES_OF_THE_INDUS",
+      "weights": {
+        "STAT_IMPROVEMENT_PILLAGED": 600,
+        "STAT_UNIT_MILITARY_KILLED_GENERAL": 200,
+        "STAT_UNIT_MILITARY_KILLED_ANY_GENERAL": 200
+      }
+    },
+    {
+      "id": "a358",
+      "type": "COGNOMEN_LIBERATOR",
+      "baseThreshold": 6000,
+      "legitimacy": 60,
+      "requiredContent": "",
+      "weights": {
+        "STAT_CITY_RECAPTURED": 2000
+      }
+    },
+    {
+      "id": "a359",
+      "type": "COGNOMEN_RESTORER",
+      "baseThreshold": 4000,
+      "legitimacy": 40,
+      "requiredContent": "",
+      "weights": {
+        "STAT_CITY_RECAPTURED": 2000
+      }
+    },
+    {
+      "id": "a360",
+      "type": "COGNOMEN_SCOURGE",
+      "baseThreshold": 5000,
+      "legitimacy": 50,
+      "requiredContent": "EMPIRES_OF_THE_INDUS",
+      "weights": {
+        "STAT_IMPROVEMENT_PILLAGED": 600,
+        "STAT_UNIT_MILITARY_KILLED_GENERAL": 200,
+        "STAT_UNIT_MILITARY_KILLED_ANY_GENERAL": 200
+      }
+    },
+    {
+      "id": "a407",
+      "type": "COGNOMEN_CHOSEN",
+      "baseThreshold": 5000,
+      "legitimacy": 50,
+      "requiredContent": "EMPIRES_OF_THE_INDUS",
+      "weights": {
+        "STAT_PAGAN_RELIGION_SPREAD": 800,
+        "STAT_CULTS": 800,
+        "STAT_CLERGY_ADDED": 400
+      }
+    }
+  ]
+}

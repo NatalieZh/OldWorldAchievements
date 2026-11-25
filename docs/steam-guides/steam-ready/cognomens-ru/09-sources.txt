@@ -1,0 +1,7 @@
+[list]
+[*][url=https://steamcommunity.com/achievements/597180?l=russian]Достижения Old World в Steam[/url] — названия и исходные условия.
+[*][url=https://wiki.hoodedhorse.com/Old_World/Legitimacy]Old World Official Wiki: Legitimacy[/url] — дополнительный справочник.
+[*]Файлы установленной игры: пороги, веса действий и алгоритм смены прозвища.
+[/list]
+
+Механики проверены по файлам игры. Практические отметки автора перечислены отдельно в материалах проверки; они не заменяют проверку каждого способа получения.
