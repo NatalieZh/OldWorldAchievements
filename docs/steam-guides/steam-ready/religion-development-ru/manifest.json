@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-25",
+  "count": 43,
+  "sections": [
+    {
+      "file": "01-catalog.txt",
+      "title": "Полный каталог и планировщик",
+      "group": "Полный каталог и планировщик",
+      "ids": [],
+      "characters": 774,
+      "utf8Bytes": 1309,
+      "sha256": "fe62d860f1d6d585e67f0676c83d5b1a979ac4ffa2ed786b6ebc13ac47786fdb"
+    },
+    {
+      "file": "02-terms.txt",
+      "title": "Общие правила и термины",
+      "group": "Общие правила и термины",
+      "ids": [],
+      "characters": 1824,
+      "utf8Bytes": 3317,
+      "sha256": "f1d0cc651c60507e143dbbae19264716eb25589ed005533296c8a62a6e08b919"
+    },
+    {
+      "file": "03-religions-01.txt",
+      "title": "Основание религий и язычество — часть 1",
+      "group": "Основание религий и язычество",
+      "ids": [
+        "a191",
+        "a152",
+        "a013",
+        "a072",
+        "a129",
+        "a131",
+        "a108",
+        "a230"
+      ],
+      "characters": 3220,
+      "utf8Bytes": 5737,
+      "sha256": "5f3ee7a254ab8381364cb639886d2c671d77b0cac6587fccef71b2f98d5319da"
+    },
+    {
+      "file": "03-religions-02.txt",
+      "title": "Основание религий и язычество — часть 2",
+      "group": "Основание религий и язычество",
+      "ids": [
+        "a110",
+        "a132",
+        "a171",
+        "a008",
+        "a115",
+        "a021",
+        "a040",
+        "a102"
+      ],
+      "characters": 3038,
+      "utf8Bytes": 5435,
+      "sha256": "b8b58de6f1d3455a19101a7db03d0f524ceafa5c6cb47afe3e60383affaf1921"
+    },
+    {
+      "file": "04-theologies-events-01.txt",
+      "title": "Учения и особые религиозные условия — часть 1",
+      "group": "Учения и особые религиозные условия",
+      "ids": [
+        "a195",
+        "a049",
+        "a027",
+        "a112",
+        "a098",
+        "a044",
+        "a050"
+      ],
+      "characters": 3207,
+      "utf8Bytes": 5702,
+      "sha256": "57594407f93a1268c546d072c94527c8866d9c70ac8e14a5950846f803710d32"
+    },
+    {
+      "file": "04-theologies-events-02.txt",
+      "title": "Учения и особые религиозные условия — часть 2",
+      "group": "Учения и особые религиозные условия",
+      "ids": [
+        "a260",
+        "a287",
+        "a146",
+        "a147",
+        "a018",
+        "a402"
+      ],
+      "characters": 3041,
+      "utf8Bytes": 5404,
+      "sha256": "b1df5471b2e7b9d6397a5bc4322b5fb2d8907a1822b49635dbaed15773baf6a9"
+    },
+    {
+      "file": "04-theologies-events-03.txt",
+      "title": "Учения и особые религиозные условия — часть 3",
+      "group": "Учения и особые религиозные условия",
+      "ids": [
+        "a401",
+        "a198",
+        "a107"
+      ],
+      "characters": 1386,
+      "utf8Bytes": 2469,
+      "sha256": "27ed54df0fb90aed7b1a7cb06987184a2f0447b1bf5f897e6f5e6fa0d689e712"
+    },
+    {
+      "file": "05-development.txt",
+      "title": "Развитие городов и державы",
+      "group": "Развитие городов и державы",
+      "ids": [
+        "a062",
+        "a113",
+        "a095",
+        "a082",
+        "a295"
+      ],
+      "characters": 2711,
+      "utf8Bytes": 4859,
+      "sha256": "434bbd646b5f2bfda9fd8b86cdb19585c0021c8dbaeabcb62c09c9c539fc6d24"
+    },
+    {
+      "file": "06-laws.txt",
+      "title": "Законы",
+      "group": "Законы",
+      "ids": [
+        "a065",
+        "a086",
+        "a090"
+      ],
+      "characters": 1280,
+      "utf8Bytes": 2309,
+      "sha256": "abd492cff64aae00f854ae66d39c4b483b157ad4a20f7c378c6f636209f5b850"
+    },
+    {
+      "file": "07-technologies.txt",
+      "title": "Технологии",
+      "group": "Технологии",
+      "ids": [
+        "a142",
+        "a143",
+        "a139"
+      ],
+      "characters": 1565,
+      "utf8Bytes": 2831,
+      "sha256": "f1d3588803befc7db6cca2a7bbb91c564a751d111b7ed79721c2a7361990dbbd"
+    },
+    {
+      "file": "08-sources.txt",
+      "title": "Источники и границы проверки",
+      "group": "Источники и границы проверки",
+      "ids": [],
+      "characters": 770,
+      "utf8Bytes": 1266,
+      "sha256": "5d5cc6bdf30e39fd9cc503de1788a704b9f19133ef46b82e4addc21fbea81f57"
+    }
+  ]
+}

@@ -1,0 +1,981 @@
+{
+  "date": "2026-11-26",
+  "buildId": "26728102",
+  "count": 43,
+  "sourceRoot": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Old World",
+  "sourceSha256": {
+    "Reference/XML/Infos/achievement.xml": "63e0e16dedb35eb03ef5be426e9d2de23f69ede0bcfbfe57e48fbc7661d33a61",
+    "Reference/XML/Infos/bonus-event-sap.xml": "a413478d555eaee04e20de8f1300a14f5cf0217c6b1113bf9789d1c0248f986d",
+    "Reference/XML/Infos/bonus-event-wog.xml": "9aebe29fb4dba9b137c29d497aaf70c3febce4184bae944bcb91fde0d7e0454f",
+    "Reference/XML/Infos/bonus.xml": "2e73176de5a897a6914b0a113db202b7250f79ad7ced908662b9c86beb693f52",
+    "Reference/XML/Infos/eventStory-sap.xml": "0205250af3a85a022cbf181d19534713240ce3b815a93ebe53e86866533f9b66",
+    "Reference/XML/Infos/eventStory-wog.xml": "2826acf881b32c692c64f2c0e5deb9b75fa695ae77595ee90eb63263317282b3",
+    "Reference/XML/Infos/eventStory.xml": "7acdccec32f6d6cfb8cf61fd56f5d75d0a2e9fd350def4df360dbfb4d9337f5c",
+    "Reference/XML/Infos/religion.xml": "a9a06cfa4c53839dd03f0899c006007b80831710e006765208c45ab01028bf5f",
+    "Reference/XML/Infos/tech.xml": "27c3233fda8edb3250f55c9a25bc243e7a644a49e6131a3adf9c5a6ae6e8914f",
+    "Reference/XML/Infos/theology.xml": "1e8211ae07c5723b554b3ad7293ec193914cb6501326df5cbefed7e093bad703",
+    "Reference/XML/Mods/Egypt2/Infos/religion-add.xml": "ba3e2d4d7da181028af9d7cab6d36c36f10ef0f8334784673064cba38d274660",
+    "Reference/XML/Mods/Egypt3/Infos/religion-add.xml": "712664c18cdebc653fa4d2a235e131ba52fce1d64a2f460aee4a4963def036dd",
+    "Reference/XML/Mods/Egypt5/Infos/religion-add.xml": "ba3e2d4d7da181028af9d7cab6d36c36f10ef0f8334784673064cba38d274660",
+    "Reference/XML/Mods/Egypt6/Infos/religion-add.xml": "ba3e2d4d7da181028af9d7cab6d36c36f10ef0f8334784673064cba38d274660"
+  },
+  "records": [
+    {
+      "id": "a191",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_AKSUM",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_RELIGION_PAGAN_AKSUM",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_RELIGION_PAGAN_AKSUM</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_RELIGION_PAGAN_AKSUM_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_RELIGION_PAGAN_AKSUM</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/religion.xml",
+          "type": "RELIGION_PAGAN_AKSUM",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_PAGAN_AKSUM</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_PAGAN_AKSUM</GenderedName>\n\t\t<zIconName>RELIGION_PAGAN_AKSUM</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<bNoSpread>1</bNoSpread>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_PAGAN_AKSUM</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_PAGAN</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_PAGAN</EffectPlayerState>\n\t\t<PaganNation>NATION_AKSUM</PaganNation>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a152",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_ASSYRIA",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_RELIGION_PAGAN_ASSYRIA",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_RELIGION_PAGAN_ASSYRIA</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_RELIGION_PAGAN_ASSYRIA_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_RELIGION_PAGAN_ASSYRIA</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/religion.xml",
+          "type": "RELIGION_PAGAN_ASSYRIA",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_PAGAN_ASSYRIA</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_PAGAN_ASSYRIA</GenderedName>\n\t\t<zIconName>RELIGION_PAGAN_ASSYRIA</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<bNoSpread>1</bNoSpread>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_PAGAN_ASSYRIA</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_PAGAN</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_PAGAN</EffectPlayerState>\n\t\t<PaganNation>NATION_ASSYRIA</PaganNation>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a013",
+      "apiName": "ACHIEVEMENT_RELIGION_BUDDHISM",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_RELIGION_BUDDHISM",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_RELIGION_BUDDHISM</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_RELIGION_BUDDHISM_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_RELIGION_BUDDHISM</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/religion.xml",
+          "type": "RELIGION_BUDDHISM",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_BUDDHISM</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_BUDDHISM</GenderedName>\n\t\t<zIconName>RELIGION_BUDDHISM</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<iSpreadPercent>10</iSpreadPercent>\n\t\t<iRequiresTheologies>4</iRequiresTheologies>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_BUDDHISM</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_BUDDHISM</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_BUDDHISM</EffectPlayerState>\n\t\t<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_LOW_CIVICS</EffectPlayerUpkeep>\n\t\t<RequiresLaw>LAW_PHILOSOPHY</RequiresLaw>\n\t\t<SpreadUnit>UNIT_BUDDHISM_DISCIPLE</SpreadUnit>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a072",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_BABYLONIA",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_RELIGION_PAGAN_BABYLONIA",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_RELIGION_PAGAN_BABYLONIA</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_RELIGION_PAGAN_BABYLONIA_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_RELIGION_PAGAN_BABYLONIA</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/religion.xml",
+          "type": "RELIGION_PAGAN_BABYLONIA",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_PAGAN_BABYLONIA</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_PAGAN_BABYLONIA</GenderedName>\n\t\t<zIconName>RELIGION_PAGAN_BABYLONIA</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<bNoSpread>1</bNoSpread>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_PAGAN_BABYLONIA</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_PAGAN</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_PAGAN</EffectPlayerState>\n\t\t<PaganNation>NATION_BABYLONIA</PaganNation>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a129",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_GREECE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_RELIGION_PAGAN_GREECE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_RELIGION_PAGAN_GREECE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_RELIGION_PAGAN_GREECE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_RELIGION_PAGAN_GREECE</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/religion.xml",
+          "type": "RELIGION_PAGAN_GREECE",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_PAGAN_GREECE</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_PAGAN_GREECE</GenderedName>\n\t\t<zIconName>RELIGION_PAGAN_GREECE</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<bNoSpread>1</bNoSpread>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_PAGAN_GREECE</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_PAGAN</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_PAGAN</EffectPlayerState>\n\t\t<PaganNation>NATION_GREECE</PaganNation>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a131",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_EGYPT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_RELIGION_PAGAN_EGYPT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_RELIGION_PAGAN_EGYPT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_RELIGION_PAGAN_EGYPT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_RELIGION_PAGAN_EGYPT</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/religion.xml",
+          "type": "RELIGION_PAGAN_EGYPT",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_PAGAN_EGYPT</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_PAGAN_EGYPT</GenderedName>\n\t\t<zIconName>RELIGION_PAGAN_EGYPT</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<bNoSpread>1</bNoSpread>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_PAGAN_EGYPT</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_PAGAN</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_PAGAN</EffectPlayerState>\n\t\t<PaganNation>NATION_EGYPT</PaganNation>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/Egypt2/Infos/religion-add.xml",
+          "type": "RELIGION_CULT_OF_AMUN",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_CULT_OF_AMUN</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_CULT_OF_AMUN</GenderedName>\n\t\t<zIconName>RELIGION_PAGAN_EGYPT</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_PAGAN_EGYPT</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_PAGAN</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_PAGAN</EffectPlayerState>\n\t\t<PaganNation>NATION_KEMET</PaganNation>\n\t</Entry>\n"
+        },
+        {
+          "file": "Reference/XML/Mods/Egypt3/Infos/religion-add.xml",
+          "type": "RELIGION_CULT_OF_AMUN",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_CULT_OF_AMUN</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_CULT_OF_AMUN</GenderedName>\n\t\t<zIconName>RELIGION_PAGAN_EGYPT</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_PAGAN_EGYPT</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_PAGAN</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_PAGAN</EffectPlayerState>\n\t\t<PaganNation>NATION_KEMET</PaganNation>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/Egypt5/Infos/religion-add.xml",
+          "type": "RELIGION_CULT_OF_AMUN",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_CULT_OF_AMUN</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_CULT_OF_AMUN</GenderedName>\n\t\t<zIconName>RELIGION_PAGAN_EGYPT</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_PAGAN_EGYPT</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_PAGAN</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_PAGAN</EffectPlayerState>\n\t\t<PaganNation>NATION_KEMET</PaganNation>\n\t</Entry>\n"
+        },
+        {
+          "file": "Reference/XML/Mods/Egypt6/Infos/religion-add.xml",
+          "type": "RELIGION_CULT_OF_AMUN",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_CULT_OF_AMUN</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_CULT_OF_AMUN</GenderedName>\n\t\t<zIconName>RELIGION_PAGAN_EGYPT</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_PAGAN_EGYPT</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_PAGAN</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_PAGAN</EffectPlayerState>\n\t\t<PaganNation>NATION_KEMET</PaganNation>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a108",
+      "apiName": "ACHIEVEMENT_RELIGION_ZOROASTRIANISM",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_RELIGION_ZOROASTRIANISM",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_RELIGION_ZOROASTRIANISM</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_RELIGION_ZOROASTRIANISM_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_RELIGION_ZOROASTRIANISM</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/religion.xml",
+          "type": "RELIGION_ZOROASTRIANISM",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_ZOROASTRIANISM</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_ZOROASTRIANISM</GenderedName>\n\t\t<zIconName>RELIGION_ZOROASTRIANISM</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<iSpreadPercent>5</iSpreadPercent>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_ZOROASTRIANISM</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_ZOROASTRIANISM</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_ZOROASTRIANISM</EffectPlayerState>\n\t\t<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_LOW_CIVICS</EffectPlayerUpkeep>\n\t\t<SpreadUnit>UNIT_ZOROASTRIANISM_DISCIPLE</SpreadUnit>\n\t\t<aiRequiresSpecialistClass>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>SPECIALISTCLASS_ACOLYTE</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t</aiRequiresSpecialistClass>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a230",
+      "apiName": "ACHIEVEMENT_RELIGION_HINDUISM",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_RELIGION_HINDUISM",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_RELIGION_HINDUISM</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_RELIGION_HINDUISM_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_RELIGION_HINDUISM</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/religion.xml",
+          "type": "RELIGION_HINDUISM",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_HINDUISM</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_HINDUISM</GenderedName>\n        <Description>TEXT_RELIGION_HINDUISM_HELP</Description>\n\t\t<zIconName>RELIGION_HINDUISM</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<bHidden>1</bHidden>\n\t\t<bNoSpread>1</bNoSpread>\n\t\t<bForceTheologies>1</bForceTheologies>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_HINDUISM</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_HINDUISM</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_HINDUISM</EffectPlayerState>\n\t\t<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_LOW_CIVICS</EffectPlayerUpkeep>\n\t\t<SpreadUnit>UNIT_HINDUISM_DISCIPLE</SpreadUnit>\n\t\t<PaganNations>\n\t\t\t<zValue>NATION_MAURYA</zValue>\n\t\t\t<zValue>NATION_YUEZHI</zValue>\n\t\t\t<zValue>NATION_TAMIL</zValue>\n\t\t</PaganNations>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a110",
+      "apiName": "ACHIEVEMENT_RELIGION_JUDAISM",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_RELIGION_JUDAISM",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_RELIGION_JUDAISM</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_RELIGION_JUDAISM_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_RELIGION_JUDAISM</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/religion.xml",
+          "type": "RELIGION_JUDAISM",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_JUDAISM</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_JUDAISM</GenderedName>\n\t\t<zIconName>RELIGION_JUDAISM</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<iSpreadPercent>5</iSpreadPercent>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_JUDAISM</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_JUDAISM</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_JUDAISM</EffectPlayerState>\n\t\t<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_LOW_CIVICS</EffectPlayerUpkeep>\n\t\t<SpreadUnit>UNIT_JUDAISM_DISCIPLE</SpreadUnit>\n\t\t<aiRequiresSpecialist>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>SPECIALIST_RANCHER</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t</aiRequiresSpecialist>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a132",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_CARTHAGE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_RELIGION_PAGAN_CARTHAGE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_RELIGION_PAGAN_CARTHAGE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_RELIGION_PAGAN_CARTHAGE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_RELIGION_PAGAN_CARTHAGE</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/religion.xml",
+          "type": "RELIGION_PAGAN_CARTHAGE",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_PAGAN_CARTHAGE</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_PAGAN_CARTHAGE</GenderedName>\n\t\t<zIconName>RELIGION_PAGAN_CARTHAGE</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<bNoSpread>1</bNoSpread>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_PAGAN_CARTHAGE</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_PAGAN</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_PAGAN</EffectPlayerState>\n\t\t<PaganNation>NATION_CARTHAGE</PaganNation>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a171",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_KUSH",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_RELIGION_PAGAN_KUSH",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_RELIGION_PAGAN_KUSH</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_RELIGION_PAGAN_KUSH_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_RELIGION_PAGAN_KUSH</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/religion.xml",
+          "type": "RELIGION_PAGAN_KUSH",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_PAGAN_KUSH</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_PAGAN_KUSH</GenderedName>\n\t\t<zIconName>RELIGION_PAGAN_KUSH</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<bNoSpread>1</bNoSpread>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_PAGAN_KUSH</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_PAGAN</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_PAGAN</EffectPlayerState>\n\t\t<PaganNation>NATION_KUSH</PaganNation>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a008",
+      "apiName": "ACHIEVEMENT_RELIGION_MANICHAEISM",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_RELIGION_MANICHAEISM",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_RELIGION_MANICHAEISM</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_RELIGION_MANICHAEISM_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_RELIGION_MANICHAEISM</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/religion.xml",
+          "type": "RELIGION_MANICHAEISM",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_MANICHAEISM</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_MANICHAEISM</GenderedName>\n\t\t<zIconName>RELIGION_MANICHAEISM</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<iSpreadPercent>10</iSpreadPercent>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_MANICHAEISM</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_MANICHAEISM</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_MANICHAEISM</EffectPlayerState>\n\t\t<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_LOW_CIVICS</EffectPlayerUpkeep>\n\t\t<RequiresTech>TECH_METAPHYSICS</RequiresTech>\n\t\t<SpreadUnit>UNIT_MANICHAEISM_DISCIPLE</SpreadUnit>\n\t\t<aiRequiresReligion>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>RELIGION_ZOROASTRIANISM</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>RELIGION_CHRISTIANITY</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t</aiRequiresReligion>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a115",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_PERSIA",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_RELIGION_PAGAN_PERSIA",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_RELIGION_PAGAN_PERSIA</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_RELIGION_PAGAN_PERSIA_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_RELIGION_PAGAN_PERSIA</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/religion.xml",
+          "type": "RELIGION_PAGAN_PERSIA",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_PAGAN_PERSIA</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_PAGAN_PERSIA</GenderedName>\n\t\t<zIconName>RELIGION_PAGAN_PERSIA</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<bNoSpread>1</bNoSpread>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_PAGAN_PERSIA</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_PAGAN</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_PAGAN</EffectPlayerState>\n\t\t<PaganNation>NATION_PERSIA</PaganNation>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a021",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_ROME",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_RELIGION_PAGAN_ROME",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_RELIGION_PAGAN_ROME</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_RELIGION_PAGAN_ROME_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_RELIGION_PAGAN_ROME</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/religion.xml",
+          "type": "RELIGION_PAGAN_ROME",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_PAGAN_ROME</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_PAGAN_ROME</GenderedName>\n\t\t<zIconName>RELIGION_PAGAN_ROME</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<bNoSpread>1</bNoSpread>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_PAGAN_ROME</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_PAGAN</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_PAGAN</EffectPlayerState>\n\t\t<PaganNation>NATION_ROME</PaganNation>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a040",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_HITTITE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_RELIGION_PAGAN_HITTITE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_RELIGION_PAGAN_HITTITE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_RELIGION_PAGAN_HITTITE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_RELIGION_PAGAN_HITTITE</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/religion.xml",
+          "type": "RELIGION_PAGAN_HITTITE",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_PAGAN_HITTITE</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_PAGAN_HITTITE</GenderedName>\n\t\t<zIconName>RELIGION_PAGAN_HITTITE</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<bNoSpread>1</bNoSpread>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_PAGAN_HITTITE</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_PAGAN</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_PAGAN</EffectPlayerState>\n\t\t<PaganNation>NATION_HITTITE</PaganNation>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a102",
+      "apiName": "ACHIEVEMENT_RELIGION_CHRISTIANITY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_RELIGION_CHRISTIANITY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_RELIGION_CHRISTIANITY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_RELIGION_CHRISTIANITY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_RELIGION_CHRISTIANITY</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/religion.xml",
+          "type": "RELIGION_CHRISTIANITY",
+          "xml": "<Entry>\n\t\t<zType>RELIGION_CHRISTIANITY</zType>\n\t\t<GenderedName>GENDERED_TEXT_RELIGION_CHRISTIANITY</GenderedName>\n\t\t<zIconName>RELIGION_CHRISTIANITY</zIconName>\n\t\t<iCostBase>400</iCostBase>\n\t\t<iCostPerChange>200</iCostPerChange>\n\t\t<iSpreadPercent>10</iSpreadPercent>\n\t\t<iRequiresCitizens>12</iRequiresCitizens>\n\t\t<Achievement>ACHIEVEMENT_RELIGION_CHRISTIANITY</Achievement>\n\t\t<EffectCity>EFFECTCITY_RELIGION_CHRISTIANITY</EffectCity>\n\t\t<EffectPlayerState>EFFECTPLAYER_RELIGION_CHRISTIANITY</EffectPlayerState>\n\t\t<EffectPlayerUpkeep>EFFECTPLAYER_UPKEEP_LOW_CIVICS</EffectPlayerUpkeep>\n\t\t<SpreadUnit>UNIT_CHRISTIANITY_DISCIPLE</SpreadUnit>\n\t\t<aiRequiresReligion>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>RELIGION_JUDAISM</zIndex>\n\t\t\t\t<iValue>3</iValue>\n\t\t\t</Pair>\n\t\t</aiRequiresReligion>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a195",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_GREAT_MAGE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_SACRED_PROFANE_GREAT_MAGE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_SACRED_PROFANE_GREAT_MAGE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_SACRED_PROFANE_GREAT_MAGE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_SACRED_PROFANE_GREAT_MAGE</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-sap.xml",
+          "type": "BONUS_THE_LEGENDARY_MAGE",
+          "xml": "<Entry>\n\t\t<zType>BONUS_THE_LEGENDARY_MAGE</zType>\n\t\t<Achievement>ACHIEVEMENT_SACRED_PROFANE_GREAT_MAGE</Achievement>\n\t\t<aeAddTraits>\n\t\t\t<zValue>TRAIT_MAGIC_PRACTITIONER</zValue>\n\t\t\t<zValue>TRAIT_OSTANES</zValue>\n\t\t</aeAddTraits>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_LEGENDARY_MAGE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_THE_LEGENDARY_MAGE</zType>\n\t\t<GameContentRequired>EVENTPACK_RELIGION</GameContentRequired>\n\t\t<Name>TEXT_EVENTSTORY_THE_LEGENDARY_MAGE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_THE_LEGENDARY_MAGE</Text>\n\t\t<zFrameType>FRAME_RELIGION</zFrameType>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_RITUAL_SPLENDOR</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_OSTANES</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_THE_LEGENDARY_MAGE</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_THE_LEGENDARY_MAGE_OPTION_0</zValue>\n\t\t\t<zValue>EVENTOPTION_THE_LEGENDARY_MAGE_OPTION_1</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN_CHARACTER</Trigger>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a049",
+      "apiName": "ACHIEVEMENT_THEOLOGY_GNOSTICISM",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_THEOLOGY_GNOSTICISM",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_THEOLOGY_GNOSTICISM</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_THEOLOGY_GNOSTICISM_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_THEOLOGY_GNOSTICISM</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/theology.xml",
+          "type": "THEOLOGY_GNOSTICISM",
+          "xml": "<Entry>\n\t\t<zType>THEOLOGY_GNOSTICISM</zType>\n\t\t<Name>TEXT_THEOLOGY_GNOSTICISM</Name>\n\t\t<zIconName>THEOLOGY_GNOSTICISM</zIconName>\n\t\t<iTier>1</iTier>\n\t\t<iCost>400</iCost>\n\t\t<iSpreadChange>5</iSpreadChange>\n\t\t<Achievement>ACHIEVEMENT_THEOLOGY_GNOSTICISM</Achievement>\n\t\t<TechPrereq>TECH_DRAMA</TechPrereq>\n\t\t<EffectCity>EFFECTCITY_THEOLOGY_GNOSTICISM</EffectCity>\n\t\t<aiLawOpinion>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>LAW_MONOTHEISM</zIndex>\n\t\t\t\t<iValue>20</iValue>\n\t\t\t</Pair>\n\t\t</aiLawOpinion>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a027",
+      "apiName": "ACHIEVEMENT_THEOLOGY_DUALISM",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_THEOLOGY_DUALISM",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_THEOLOGY_DUALISM</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_THEOLOGY_DUALISM_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_THEOLOGY_DUALISM</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/theology.xml",
+          "type": "THEOLOGY_DUALISM",
+          "xml": "<Entry>\n\t\t<zType>THEOLOGY_DUALISM</zType>\n\t\t<Name>TEXT_THEOLOGY_DUALISM</Name>\n\t\t<zIconName>THEOLOGY_DUALISM</zIconName>\n\t\t<iTier>1</iTier>\n\t\t<iCost>400</iCost>\n\t\t<iSpreadChange>5</iSpreadChange>\n\t\t<Achievement>ACHIEVEMENT_THEOLOGY_DUALISM</Achievement>\n\t\t<TechPrereq>TECH_RHETORIC</TechPrereq>\n\t\t<EffectCity>EFFECTCITY_THEOLOGY_DUALISM</EffectCity>\n\t\t<aiLawOpinion>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>LAW_TOLERANCE</zIndex>\n\t\t\t\t<iValue>20</iValue>\n\t\t\t</Pair>\n\t\t</aiLawOpinion>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a112",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_CLERGY_COURT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_SACRED_PROFANE_CLERGY_COURT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_SACRED_PROFANE_CLERGY_COURT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_SACRED_PROFANE_CLERGY_COURT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_SACRED_PROFANE_CLERGY_COURT</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t\t<aiStatCount>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CLERGY_ADDED</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t</aiStatCount>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a098",
+      "apiName": "ACHIEVEMENT_THEOLOGY_REDEMPTION",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_THEOLOGY_REDEMPTION",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_THEOLOGY_REDEMPTION</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_THEOLOGY_REDEMPTION_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_THEOLOGY_REDEMPTION</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/theology.xml",
+          "type": "THEOLOGY_REDEMPTION",
+          "xml": "<Entry>\n\t\t<zType>THEOLOGY_REDEMPTION</zType>\n\t\t<Name>TEXT_THEOLOGY_REDEMPTION</Name>\n\t\t<zIconName>THEOLOGY_REDEMPTION</zIconName>\n\t\t<iTier>2</iTier>\n\t\t<iCost>600</iCost>\n\t\t<iSpreadChange>5</iSpreadChange>\n\t\t<Achievement>ACHIEVEMENT_THEOLOGY_REDEMPTION</Achievement>\n\t\t<TechPrereq>TECH_METAPHYSICS</TechPrereq>\n\t\t<EffectCity>EFFECTCITY_THEOLOGY_REDEMPTION</EffectCity>\n\t\t<aiLawOpinion>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>LAW_FREEDOM</zIndex>\n\t\t\t\t<iValue>20</iValue>\n\t\t\t</Pair>\n\t\t</aiLawOpinion>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a044",
+      "apiName": "ACHIEVEMENT_ONE_TRUE_FAITH",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_ONE_TRUE_FAITH",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_ONE_TRUE_FAITH</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_ONE_TRUE_FAITH_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_ONE_TRUE_FAITH</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t\t<bTrueFaith>1</bTrueFaith>\n\t\t<iNumCities>3</iNumCities>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a050",
+      "apiName": "ACHIEVEMENT_THEOLOGY_MYTHOLOGY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_THEOLOGY_MYTHOLOGY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_THEOLOGY_MYTHOLOGY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_THEOLOGY_MYTHOLOGY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_THEOLOGY_MYTHOLOGY</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/theology.xml",
+          "type": "THEOLOGY_MYTHOLOGY",
+          "xml": "<Entry>\n\t\t<zType>THEOLOGY_MYTHOLOGY</zType>\n\t\t<Name>TEXT_THEOLOGY_MYTHOLOGY</Name>\n\t\t<zIconName>THEOLOGY_MYTHOLOGY</zIconName>\n\t\t<iTier>0</iTier>\n\t\t<iCost>200</iCost>\n\t\t<iSpreadChange>5</iSpreadChange>\n\t\t<Achievement>ACHIEVEMENT_THEOLOGY_MYTHOLOGY</Achievement>\n\t\t<EffectCity>EFFECTCITY_THEOLOGY_MYTHOLOGY</EffectCity>\n\t\t<aiLawOpinion>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>LAW_POLYTHEISM</zIndex>\n\t\t\t\t<iValue>20</iValue>\n\t\t\t</Pair>\n\t\t</aiLawOpinion>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a260",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_PILGRIMAGE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_SACRED_PROFANE_PILGRIMAGE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_SACRED_PROFANE_PILGRIMAGE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_SACRED_PROFANE_PILGRIMAGE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_SACRED_PROFANE_PILGRIMAGE</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-sap.xml",
+          "type": "BONUS_PILGRIMAGE_FINISHED_ACHIEVEMENT",
+          "xml": "<Entry>\n\t\t<zType>BONUS_PILGRIMAGE_FINISHED_ACHIEVEMENT</zType>\n\t\t<Achievement>ACHIEVEMENT_SACRED_PROFANE_PILGRIMAGE</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-sap.xml",
+          "type": "EVENTSTORY_PILGRIMAGE_FINISHED_1",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_PILGRIMAGE_FINISHED_1</zType>\n\t\t<GameContentRequired>EVENTPACK_RELIGION</GameContentRequired>\n\t\t<Name>TEXT_EVENTSTORY_PILGRIMAGE_FINISHED_1_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_PILGRIMAGE_FINISHED_1</Text>\n\t\t<zFrameType>FRAME_RELIGION</zFrameType>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_RELIGION</zValue>\n\t\t\t<zValue>SUBJECT_CITY_THEM</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRepeatTurns>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>-1</Second>\n\t\t\t</Pair>\n\t\t</SubjectRepeatTurns>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_ON_PILGRIMAGE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECTRELATION_RELIGION_SAME</Second>\n\t\t\t\t<Third>1</Third>\n\t\t\t</Triple>\n\t\t\t<Triple>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECTRELATION_RELIGION_HOLY_CITY</Second>\n\t\t\t\t<Third>2</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue />\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_PILGRIMAGE_FINISHED_ACHIEVEMENT</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_PILGRIMAGE_7_OPTION_0</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_PILGRIMAGE</Class>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>0</iRepeatTurns>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-sap.xml",
+          "type": "EVENTSTORY_PILGRIMAGE_FINISHED_2",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_PILGRIMAGE_FINISHED_2</zType>\n\t\t<GameContentRequired>EVENTPACK_RELIGION</GameContentRequired>\n\t\t<Name>TEXT_EVENTSTORY_PILGRIMAGE_FINISHED_2_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_PILGRIMAGE_FINISHED_2</Text>\n\t\t<zFrameType>FRAME_RELIGION</zFrameType>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_RELIGION</zValue>\n\t\t\t<zValue>SUBJECT_CITY_THEM</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRepeatTurns>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>-1</Second>\n\t\t\t</Pair>\n\t\t</SubjectRepeatTurns>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_ON_PILGRIMAGE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECTRELATION_RELIGION_SAME</Second>\n\t\t\t\t<Third>1</Third>\n\t\t\t</Triple>\n\t\t\t<Triple>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECTRELATION_RELIGION_HOLY_CITY</Second>\n\t\t\t\t<Third>2</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_EVENTSTORY_PILGRIMAGE_FINISHED_2_RELIGION</zValue>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_PILGRIMAGE_FINISHED_ACHIEVEMENT</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_PILGRIMAGE_FINISHED_2_OPTION_0</zValue>\n\t\t\t<zValue>EVENTOPTION_PILGRIMAGE_FINISHED_2_OPTION_1</zValue>\n\t\t\t<zValue>EVENTOPTION_PILGRIMAGE_FINISHED_2_OPTION_2</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_PILGRIMAGE</Class>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>0</iRepeatTurns>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-sap.xml",
+          "type": "EVENTSTORY_PILGRIMAGE_FINISHED_3",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_PILGRIMAGE_FINISHED_3</zType>\n\t\t<GameContentRequired>EVENTPACK_RELIGION</GameContentRequired>\n\t\t<Name>TEXT_EVENTSTORY_PILGRIMAGE_FINISHED_3_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_PILGRIMAGE_FINISHED_3</Text>\n\t\t<zFrameType>FRAME_RELIGION</zFrameType>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_RELIGION</zValue>\n\t\t\t<zValue>SUBJECT_CITY_THEM</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRepeatTurns>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>-1</Second>\n\t\t\t</Pair>\n\t\t</SubjectRepeatTurns>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_ON_PILGRIMAGE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECTRELATION_RELIGION_SAME</Second>\n\t\t\t\t<Third>1</Third>\n\t\t\t</Triple>\n\t\t\t<Triple>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECTRELATION_RELIGION_HOLY_CITY</Second>\n\t\t\t\t<Third>2</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_EVENTSTORY_PILGRIMAGE_FINISHED_2_RELIGION</zValue>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_PILGRIMAGE_FINISHED_ACHIEVEMENT</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_PILGRIMAGE_FINISHED_3_OPTION_0</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_PILGRIMAGE</Class>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>0</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a287",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_ST_PAUL",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_SACRED_PROFANE_ST_PAUL",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_SACRED_PROFANE_ST_PAUL</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_SACRED_PROFANE_ST_PAUL_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_SACRED_PROFANE_ST_PAUL</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-sap.xml",
+          "type": "BONUS_ACHIEVEMENT_SACRED_PROFANE_PAUL_LEADER",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_SACRED_PROFANE_PAUL_LEADER</zType>\n\t\t<Achievement>ACHIEVEMENT_SACRED_PROFANE_ST_PAUL</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-sap.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_SACRED_PROFANE_PAUL_LEADER_EVENT",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_SACRED_PROFANE_PAUL_LEADER_EVENT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_RELIGION_HEAD_US</zValue>\n\t\t\t<zValue>SUBJECT_RELIGION_WORLD</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_SAUL</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_CHRISTIANITY</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECTRELATION_RELIGION_HEAD</Second>\n\t\t\t\t<Third>1</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_SACRED_PROFANE_PAUL_LEADER</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a146",
+      "apiName": "ACHIEVEMENT_THEOLOGY_VENERATION",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_THEOLOGY_VENERATION",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_THEOLOGY_VENERATION</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_THEOLOGY_VENERATION_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_THEOLOGY_VENERATION</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/theology.xml",
+          "type": "THEOLOGY_VENERATION",
+          "xml": "<Entry>\n\t\t<zType>THEOLOGY_VENERATION</zType>\n\t\t<Name>TEXT_THEOLOGY_VENERATION</Name>\n\t\t<zIconName>THEOLOGY_VENERATION</zIconName>\n\t\t<iTier>0</iTier>\n\t\t<iCost>200</iCost>\n\t\t<iSpreadChange>10</iSpreadChange>\n\t\t<Achievement>ACHIEVEMENT_THEOLOGY_VENERATION</Achievement>\n\t\t<EffectCity>EFFECTCITY_THEOLOGY_VENERATION</EffectCity>\n\t\t<aiLawOpinion>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>LAW_ICONOGRAPHY</zIndex>\n\t\t\t\t<iValue>20</iValue>\n\t\t\t</Pair>\n\t\t</aiLawOpinion>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a147",
+      "apiName": "ACHIEVEMENT_THEOLOGY_REVELATION",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_THEOLOGY_REVELATION",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_THEOLOGY_REVELATION</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_THEOLOGY_REVELATION_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_THEOLOGY_REVELATION</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/theology.xml",
+          "type": "THEOLOGY_REVELATION",
+          "xml": "<Entry>\n\t\t<zType>THEOLOGY_REVELATION</zType>\n\t\t<Name>TEXT_THEOLOGY_REVELATION</Name>\n\t\t<zIconName>THEOLOGY_REVELATION</zIconName>\n\t\t<iTier>1</iTier>\n\t\t<iCost>400</iCost>\n\t\t<iSpreadChange>20</iSpreadChange>\n\t\t<Achievement>ACHIEVEMENT_THEOLOGY_REVELATION</Achievement>\n\t\t<TechPrereq>TECH_LABOR_FORCE</TechPrereq>\n\t\t<aiLawOpinion>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>LAW_ORTHODOXY</zIndex>\n\t\t\t\t<iValue>20</iValue>\n\t\t\t</Pair>\n\t\t</aiLawOpinion>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a018",
+      "apiName": "ACHIEVEMENT_THEOLOGY_ENLIGHTENMENT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_THEOLOGY_ENLIGHTENMENT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_THEOLOGY_ENLIGHTENMENT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_THEOLOGY_ENLIGHTENMENT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_THEOLOGY_ENLIGHTENMENT</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/theology.xml",
+          "type": "THEOLOGY_ENLIGHTENMENT",
+          "xml": "<Entry>\n\t\t<zType>THEOLOGY_ENLIGHTENMENT</zType>\n\t\t<Name>TEXT_THEOLOGY_ENLIGHTENMENT</Name>\n\t\t<zIconName>THEOLOGY_ENLIGHTENMENT</zIconName>\n\t\t<iTier>2</iTier>\n\t\t<iCost>600</iCost>\n\t\t<iSpreadChange>5</iSpreadChange>\n\t\t<Achievement>ACHIEVEMENT_THEOLOGY_ENLIGHTENMENT</Achievement>\n\t\t<TechPrereq>TECH_FORESTRY</TechPrereq>\n\t\t<EffectCity>EFFECTCITY_THEOLOGY_ENLIGHTENMENT</EffectCity>\n\t\t<aiLawOpinion>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>LAW_PILGRIMAGE</zIndex>\n\t\t\t\t<iValue>20</iValue>\n\t\t\t</Pair>\n\t\t</aiLawOpinion>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a402",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_FIVE_CULTS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_SACRED_PROFANE_FIVE_CULTS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_SACRED_PROFANE_FIVE_CULTS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_SACRED_PROFANE_FIVE_CULTS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_SACRED_PROFANE_FIVE_CULTS</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t\t<aiStatCount>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CULTS</zIndex>\n\t\t\t\t<iValue>5</iValue>\n\t\t\t</Pair>\n\t\t</aiStatCount>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a401",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-sap.xml",
+          "type": "BONUS_ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL</zType>\n\t\t<Achievement>ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-sap.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CITY_DISSENT_ZOROASTRIANISM</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CITY_DISSENT_JUDAISM</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CITY_DISSENT_CHRISTIANITY</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CITY_DISSENT_MANICHAEISM</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a198",
+      "apiName": "ACHIEVEMENT_THE_WORD_OF_GOD",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_THE_WORD_OF_GOD",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_THE_WORD_OF_GOD</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_THE_WORD_OF_GOD_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_THE_WORD_OF_GOD</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_THE_WORD_OF_GOD",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_THE_WORD_OF_GOD</zType>\n\t\t<Achievement>ACHIEVEMENT_THE_WORD_OF_GOD</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_THE_WORD_OF_GOD",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_THE_WORD_OF_GOD</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_LAW_MONOTHEISM</zValue>\n\t\t\t<zValue>SUBJECT_LAW_ORTHODOXY</zValue>\n\t\t\t<zValue>SUBJECT_LAW_ICONOGRAPHY</zValue>\n\t\t\t<zValue>SUBJECT_LAW_PILGRIMAGE</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECTRELATION_LAW_ACTIVE</Second>\n\t\t\t\t<Third>0</Third>\n\t\t\t</Triple>\n\t\t\t<Triple>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECTRELATION_LAW_ACTIVE</Second>\n\t\t\t\t<Third>0</Third>\n\t\t\t</Triple>\n\t\t\t<Triple>\n\t\t\t\t<First>3</First>\n\t\t\t\t<Second>SUBJECTRELATION_LAW_ACTIVE</Second>\n\t\t\t\t<Third>0</Third>\n\t\t\t</Triple>\n\t\t\t<Triple>\n\t\t\t\t<First>4</First>\n\t\t\t\t<Second>SUBJECTRELATION_LAW_ACTIVE</Second>\n\t\t\t\t<Third>0</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_THE_WORD_OF_GOD</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a107",
+      "apiName": "ACHIEVEMENT_THEOLOGY_LEGALISM",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_THEOLOGY_LEGALISM",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_THEOLOGY_LEGALISM</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_THEOLOGY_LEGALISM_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_THEOLOGY_LEGALISM</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/theology.xml",
+          "type": "THEOLOGY_LEGALISM",
+          "xml": "<Entry>\n\t\t<zType>THEOLOGY_LEGALISM</zType>\n\t\t<Name>TEXT_THEOLOGY_LEGALISM</Name>\n\t\t<zIconName>THEOLOGY_LEGALISM</zIconName>\n\t\t<iTier>0</iTier>\n\t\t<iCost>200</iCost>\n\t\t<iSpreadChange>5</iSpreadChange>\n\t\t<Achievement>ACHIEVEMENT_THEOLOGY_LEGALISM</Achievement>\n\t\t<EffectCity>EFFECTCITY_THEOLOGY_LEGALISM</EffectCity>\n\t\t<aiLawOpinion>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>LAW_CENTRALIZATION</zIndex>\n\t\t\t\t<iValue>20</iValue>\n\t\t\t</Pair>\n\t\t</aiLawOpinion>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a062",
+      "apiName": "ACHIEVEMENT_CULTURE_LEGENDARY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CULTURE_LEGENDARY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CULTURE_LEGENDARY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CULTURE_LEGENDARY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CULTURE_LEGENDARY</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t\t<aiCultureCount>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>CULTURE_LEGENDARY</zIndex>\n\t\t\t\t<iValue>3</iValue>\n\t\t\t</Pair>\n\t\t</aiCultureCount>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a113",
+      "apiName": "ACHIEVEMENT_STAT_TEN_LANDMARKS_NAME",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_STAT_TEN_LANDMARKS_NAME",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_STAT_TEN_LANDMARKS_NAME</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_STAT_TEN_LANDMARKS_NAME_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_STAT_TEN_LANDMARKS_NAME</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t\t<aiStatCount>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_NAMED</zIndex>\n\t\t\t\t<iValue>10</iValue>\n\t\t\t</Pair>\n\t\t</aiStatCount>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a095",
+      "apiName": "ACHIEVEMENT_CULTURE_DEVELOPING",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CULTURE_DEVELOPING",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CULTURE_DEVELOPING</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CULTURE_DEVELOPING_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CULTURE_DEVELOPING</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t\t<aiCultureCount>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>CULTURE_DEVELOPING</zIndex>\n\t\t\t\t<iValue>5</iValue>\n\t\t\t</Pair>\n\t\t</aiCultureCount>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a082",
+      "apiName": "ACHIEVEMENT_CULTURE_STRONG",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CULTURE_STRONG",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CULTURE_STRONG</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CULTURE_STRONG_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CULTURE_STRONG</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t\t<aiCultureCount>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>CULTURE_STRONG</zIndex>\n\t\t\t\t<iValue>4</iValue>\n\t\t\t</Pair>\n\t\t</aiCultureCount>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a295",
+      "apiName": "ACHIEVEMENT_CALAMITIES_STEWARDS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CALAMITIES_STEWARDS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CALAMITIES_STEWARDS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CALAMITIES_STEWARDS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CALAMITIES_STEWARDS</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-wog.xml",
+          "type": "BONUS_ACHIEVEMENT_CALAMITIES_STEWARDS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_CALAMITIES_STEWARDS</zType>\n\t\t<Achievement>ACHIEVEMENT_CALAMITIES_STEWARDS</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-wog.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_CALAMITIES_STEWARDS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_CALAMITIES_STEWARDS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Brodie Frehlich</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_STEWARD_OF_THE_LAND</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_STEWARD_OF_THE_LAND</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>3</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_STEWARD_OF_THE_LAND</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_CALAMITIES_STEWARDS</zValue>\n\t\t\t<zValue />\n\t\t\t<zValue />\n\t\t\t<zValue />\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a065",
+      "apiName": "ACHIEVEMENT_POWER_TO_THE_PEOPLE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_POWER_TO_THE_PEOPLE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_POWER_TO_THE_PEOPLE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_POWER_TO_THE_PEOPLE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_POWER_TO_THE_PEOPLE</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_POWER_TO_THE_PEOPLE",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_POWER_TO_THE_PEOPLE</zType>\n\t\t<Achievement>ACHIEVEMENT_POWER_TO_THE_PEOPLE</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_POWER_TO_THE_PEOPLE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_POWER_TO_THE_PEOPLE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_LAW_FREEDOM</zValue>\n\t\t\t<zValue>SUBJECT_LAW_CONSTITUTION</zValue>\n\t\t\t<zValue>SUBJECT_LAW_LEGAL_CODE</zValue>\n\t\t\t<zValue>SUBJECT_LAW_TOLERANCE</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECTRELATION_LAW_ACTIVE</Second>\n\t\t\t\t<Third>0</Third>\n\t\t\t</Triple>\n\t\t\t<Triple>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECTRELATION_LAW_ACTIVE</Second>\n\t\t\t\t<Third>0</Third>\n\t\t\t</Triple>\n\t\t\t<Triple>\n\t\t\t\t<First>3</First>\n\t\t\t\t<Second>SUBJECTRELATION_LAW_ACTIVE</Second>\n\t\t\t\t<Third>0</Third>\n\t\t\t</Triple>\n\t\t\t<Triple>\n\t\t\t\t<First>4</First>\n\t\t\t\t<Second>SUBJECTRELATION_LAW_ACTIVE</Second>\n\t\t\t\t<Third>0</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_POWER_TO_THE_PEOPLE</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a086",
+      "apiName": "ACHIEVEMENT_PANTHEON_OF_GODS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_PANTHEON_OF_GODS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_PANTHEON_OF_GODS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_PANTHEON_OF_GODS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_PANTHEON_OF_GODS</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_PANTHEON_OF_GODS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_PANTHEON_OF_GODS</zType>\n\t\t<Achievement>ACHIEVEMENT_PANTHEON_OF_GODS</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_PANTHEON_OF_GODS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_PANTHEON_OF_GODS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_LAW_POLYTHEISM</zValue>\n\t\t\t<zValue>SUBJECT_LAW_DIVINE_RULE</zValue>\n\t\t\t<zValue>SUBJECT_LAW_HOLY_WAR</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECTRELATION_LAW_ACTIVE</Second>\n\t\t\t\t<Third>0</Third>\n\t\t\t</Triple>\n\t\t\t<Triple>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECTRELATION_LAW_ACTIVE</Second>\n\t\t\t\t<Third>0</Third>\n\t\t\t</Triple>\n\t\t\t<Triple>\n\t\t\t\t<First>3</First>\n\t\t\t\t<Second>SUBJECTRELATION_LAW_ACTIVE</Second>\n\t\t\t\t<Third>0</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_PANTHEON_OF_GODS</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a090",
+      "apiName": "ACHIEVEMENT_OLD_WORLD_ORDER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_OLD_WORLD_ORDER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_OLD_WORLD_ORDER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_OLD_WORLD_ORDER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_OLD_WORLD_ORDER</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_OLD_WORLD_ORDER",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_OLD_WORLD_ORDER</zType>\n\t\t<Achievement>ACHIEVEMENT_OLD_WORLD_ORDER</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_OLD_WORLD_ORDER",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_OLD_WORLD_ORDER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_LAW_EPICS</zValue>\n\t\t\t<zValue>SUBJECT_LAW_SLAVERY</zValue>\n\t\t\t<zValue>SUBJECT_LAW_TYRANNY</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECTRELATION_LAW_ACTIVE</Second>\n\t\t\t\t<Third>0</Third>\n\t\t\t</Triple>\n\t\t\t<Triple>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECTRELATION_LAW_ACTIVE</Second>\n\t\t\t\t<Third>0</Third>\n\t\t\t</Triple>\n\t\t\t<Triple>\n\t\t\t\t<First>3</First>\n\t\t\t\t<Second>SUBJECTRELATION_LAW_ACTIVE</Second>\n\t\t\t\t<Third>0</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_OLD_WORLD_ORDER</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a142",
+      "apiName": "ACHIEVEMENT_TECH_MILITARY_PRESTIGE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_TECH_MILITARY_PRESTIGE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_TECH_MILITARY_PRESTIGE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TECH_MILITARY_PRESTIGE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_TECH_MILITARY_PRESTIGE</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/tech.xml",
+          "type": "TECH_MILITARY_PRESTIGE",
+          "xml": "<Entry>\n\t\t<zType>TECH_MILITARY_PRESTIGE</zType>\n\t\t<Name>TEXT_TECH_MILITARY_PRESTIGE</Name>\n\t\t<Advice>TEXT_GUIDE_TECH_MILITARY_PRESTIGE</Advice>\n\t\t<zIconName>TECH_MILITARY_PRESTIGE</zIconName>\n\t\t<Achievement>ACHIEVEMENT_TECH_MILITARY_PRESTIGE</Achievement>\n\t\t<BonusDiscover>BONUS_TECH_MILITARY_PRESTIGE</BonusDiscover>\n\t\t<EffectPlayer>EFFECTPLAYER_TECH_MILITARY_PRESTIGE</EffectPlayer>\n\t\t<iCost>2000</iCost>\n\t\t<iColumn>7</iColumn>\n\t\t<iRow>5</iRow>\n\t\t<bNoFree>1</bNoFree>\n\t\t<bReturn>1</bReturn>\n\t\t<bValidAll>1</bValidAll>\n\t\t<abTechPrereq>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>TECH_BARDING</zIndex>\n\t\t\t\t<bValue>1</bValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>TECH_BODKIN_ARROW</zIndex>\n\t\t\t\t<bValue>1</bValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>TECH_COHORTS</zIndex>\n\t\t\t\t<bValue>1</bValue>\n\t\t\t</Pair>\n\t\t</abTechPrereq>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a143",
+      "apiName": "ACHIEVEMENT_TECH_INDUSTRIAL_PROGRESS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_TECH_INDUSTRIAL_PROGRESS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_TECH_INDUSTRIAL_PROGRESS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TECH_INDUSTRIAL_PROGRESS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_TECH_INDUSTRIAL_PROGRESS</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/tech.xml",
+          "type": "TECH_INDUSTRIAL_PROGRESS",
+          "xml": "<Entry>\n\t\t<zType>TECH_INDUSTRIAL_PROGRESS</zType>\n\t\t<Name>TEXT_TECH_INDUSTRIAL_PROGRESS</Name>\n\t\t<Advice>TEXT_GUIDE_TECH_INDUSTRIAL_PROGRESS</Advice>\n\t\t<zIconName>TECH_INDUSTRIAL_PROGRESS</zIconName>\n\t\t<Achievement>ACHIEVEMENT_TECH_INDUSTRIAL_PROGRESS</Achievement>\n\t\t<BonusDiscover>BONUS_TECH_INDUSTRIAL_PROGRESS</BonusDiscover>\n\t\t<EffectPlayer>EFFECTPLAYER_TECH_INDUSTRIAL_PROGRESS</EffectPlayer>\n\t\t<iCost>2000</iCost>\n\t\t<iColumn>7</iColumn>\n\t\t<iRow>9</iRow>\n\t\t<bNoFree>1</bNoFree>\n\t\t<bReturn>1</bReturn>\n\t\t<bValidAll>1</bValidAll>\n\t\t<abTechPrereq>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>TECH_CHAIN_DRIVE</zIndex>\n\t\t\t\t<bValue>1</bValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>TECH_BALLISTICS</zIndex>\n\t\t\t\t<bValue>1</bValue>\n\t\t\t</Pair>\n\t\t</abTechPrereq>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a139",
+      "apiName": "ACHIEVEMENT_TECH_ECONOMIC_REFORM",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_TECH_ECONOMIC_REFORM",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_TECH_ECONOMIC_REFORM</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TECH_ECONOMIC_REFORM_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_TECH_ECONOMIC_REFORM</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/tech.xml",
+          "type": "TECH_ECONOMIC_REFORM",
+          "xml": "<Entry>\n\t\t<zType>TECH_ECONOMIC_REFORM</zType>\n\t\t<Name>TEXT_TECH_ECONOMIC_REFORM</Name>\n\t\t<Advice>TEXT_GUIDE_TECH_ECONOMIC_REFORM</Advice>\n\t\t<zIconName>TECH_ECONOMIC_REFORM</zIconName>\n\t\t<Achievement>ACHIEVEMENT_TECH_ECONOMIC_REFORM</Achievement>\n\t\t<BonusDiscover>BONUS_TECH_ECONOMIC_REFORM</BonusDiscover>\n\t\t<EffectPlayer>EFFECTPLAYER_TECH_ECONOMIC_REFORM</EffectPlayer>\n\t\t<iCost>2000</iCost>\n\t\t<iColumn>7</iColumn>\n\t\t<iRow>1</iRow>\n\t\t<bNoFree>1</bNoFree>\n\t\t<bReturn>1</bReturn>\n\t\t<bValidAll>1</bValidAll>\n\t\t<abTechPrereq>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>TECH_FISCAL_POLICY</zIndex>\n\t\t\t\t<bValue>1</bValue>\n\t\t\t</Pair>\n\t\t</abTechPrereq>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    }
+  ],
+  "note": "Automated source index; not a gameplay test or complete verification of tactics. Human findings are in the review.",
+  "sharedSourceSha256": {
+    "Reference/Source/Base/Game/GameCore/Game.cs": "6f53b000279d14a9abb58c40269880b2d6385416cf8e4915996957b4417b6367",
+    "Reference/Source/Base/Game/GameCore/Player.cs": "b163e9bab5e496ca787e40e332749e27652bd68abfb896eab6aa1b880b8d3cda",
+    "Reference/Source/Base/Game/GameCore/PlayerGoal.cs": "c54e7b03ec71f2a4d17744ba558f0dcbff51796c44a8af5dcdde6e0889dacd54",
+    "Reference/Source/Base/Game/GameCore/PlayerEvent.cs": "6be1751b6a8fb606088eb1ba812170b6522a539e062c67cbb0bc972be843e356",
+    "Reference/Source/Base/Game/GameCore/Unit.cs": "744b943df9241c05115f0d6cdd03eec7a7dd0784b0689abd85ad5480530d3ad2",
+    "Reference/Source/Base/Game/GameCore/City.cs": "7b1fb548257e66f5407d0f7cf5eb471f06a4bac64dc56d584192d230b5d7badd",
+    "Reference/Source/Base/Game/GameCore/Tile.cs": "08fd9e13065d2a3a1747e45f24d8be2268e68b0ed58ee21666162e654ad273c0",
+    "Reference/Source/Base/Game/GameCore/Character.cs": "0b7c05e8467b30b76b6cbf6ff0dd423d629d8fd75584cc678ea6b0dd1c818419"
+  },
+  "humanFindings": "religion-development-review.md"
+}

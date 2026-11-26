@@ -1,0 +1,4067 @@
+{
+  "date": "2026-11-25",
+  "buildId": "26728102",
+  "count": 43,
+  "sourceRoot": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Old World",
+  "sourceSha256": {
+    "Reference/XML/Infos/achievement.xml": "63e0e16dedb35eb03ef5be426e9d2de23f69ede0bcfbfe57e48fbc7661d33a61",
+    "Reference/XML/Infos/religion.xml": "a9a06cfa4c53839dd03f0899c006007b80831710e006765208c45ab01028bf5f",
+    "Reference/XML/Infos/theology.xml": "1e8211ae07c5723b554b3ad7293ec193914cb6501326df5cbefed7e093bad703",
+    "Reference/XML/Infos/tech.xml": "27c3233fda8edb3250f55c9a25bc243e7a644a49e6131a3adf9c5a6ae6e8914f",
+    "Reference/XML/Infos/law.xml": "e3c53373a028b03cde33cffe387a64a483998de3e8003d3c4addf1692baf7680",
+    "Reference/XML/Infos/lawClass.xml": "698b7c898d6247ad7aea60bb217efb586db41aed9d73953c17281da40caeea4f",
+    "Reference/XML/Infos/project-event-eoti.xml": "b91bb824d9e06ce597e26456c6bfd315d17877ea9edafcf5111909c860f20478",
+    "Reference/XML/Infos/bonus.xml": "2e73176de5a897a6914b0a113db202b7250f79ad7ced908662b9c86beb693f52",
+    "Reference/XML/Infos/bonus-event-sap.xml": "a413478d555eaee04e20de8f1300a14f5cf0217c6b1113bf9789d1c0248f986d",
+    "Reference/XML/Infos/bonus-event-wog.xml": "9aebe29fb4dba9b137c29d497aaf70c3febce4184bae944bcb91fde0d7e0454f",
+    "Reference/XML/Infos/bonus-event-eoti.xml": "29f8d0b347c24983aadee470e7f9ac125810f8e00ed19ad80a19ac8cc81a7c35",
+    "Reference/XML/Infos/eventStory.xml": "7acdccec32f6d6cfb8cf61fd56f5d75d0a2e9fd350def4df360dbfb4d9337f5c",
+    "Reference/XML/Infos/eventStory-sap.xml": "0205250af3a85a022cbf181d19534713240ce3b815a93ebe53e86866533f9b66",
+    "Reference/XML/Infos/eventStory-wog.xml": "2826acf881b32c692c64f2c0e5deb9b75fa695ae77595ee90eb63263317282b3",
+    "Reference/XML/Infos/eventOption-sap.xml": "b9eb04f18db65488303bcebfa02c667d4b1be6d9d801553afe793ebe69a8e611",
+    "Reference/XML/Infos/eventOption-wog.xml": "0ea98001c4603e9c71b2e5d5546b7715ae3e0c2f2c59f1bb53a2b7bec7bde1eb",
+    "Reference/XML/Infos/mission.xml": "ff550a6e63bd2d9b259647dd110ed6a87b9aed00797be903fd23fcaa4292fa44",
+    "Reference/XML/Infos/subject.xml": "0fe5daa8d702d340a81e59ff1cf0568d676b9ebddb1dc6585a4eb54251410ba7",
+    "Reference/XML/Infos/subjectRelation.xml": "ce9266b4a2f2d509c464bf4eb6b2c3a4724a527dc8138dd40a2cca4e587cb335",
+    "Reference/XML/Infos/nation.xml": "d14a4fadc16b0f50dc7d95f210c35beb169fee88eb0c221b0ceb3d7e56907414",
+    "Reference/XML/Infos/additionalContent.xml": "a004c6681f1ce94d3a5bbad5f9f527326ddc1598d9e03a1d77c41d99cd583607",
+    "Reference/XML/Infos/improvement.xml": "b0334701e630e85f005a93ebaf30e6ea792334a071cb389409d183ce4b9e2215",
+    "Reference/XML/Infos/effectPlayer.xml": "e542143382fc2bf1505f9a152b628e84e82b2f0becbfb865c0f332bd8e39f38b",
+    "Reference/XML/Infos/culture.xml": "d4bbb39b4a4eb622afc29a15fdfc469180b7349bf1b849885d16b95994605b6c",
+    "Reference/Source/Base/Game/GameCore/Game.cs": "6f53b000279d14a9abb58c40269880b2d6385416cf8e4915996957b4417b6367",
+    "Reference/Source/Base/Game/GameCore/Player.cs": "b163e9bab5e496ca787e40e332749e27652bd68abfb896eab6aa1b880b8d3cda",
+    "Reference/Source/Base/Game/GameCore/PlayerGoal.cs": "c54e7b03ec71f2a4d17744ba558f0dcbff51796c44a8af5dcdde6e0889dacd54",
+    "Reference/Source/Base/Game/GameCore/City.cs": "7b1fb548257e66f5407d0f7cf5eb471f06a4bac64dc56d584192d230b5d7badd",
+    "Reference/Source/Base/Game/GameCore/Character.cs": "0b7c05e8467b30b76b6cbf6ff0dd423d629d8fd75584cc678ea6b0dd1c818419",
+    "Reference/Source/Base/Game/GameCore/Unit.cs": "744b943df9241c05115f0d6cdd03eec7a7dd0784b0689abd85ad5480530d3ad2",
+    "Reference/Source/Base/Game/GameCore/Tile.cs": "08fd9e13065d2a3a1747e45f24d8be2268e68b0ed58ee21666162e654ad273c0",
+    "Reference/Source/Base/Game/GameCore/PlayerBonus.cs": "95fb31ff4eeabc9cd6e15565f4b67c5898a2f6a25d403f1b45c041bf5a20ba3c",
+    "Reference/Source/Base/Game/GameCore/PlayerEvent.cs": "6be1751b6a8fb606088eb1ba812170b6522a539e062c67cbb0bc972be843e356",
+    "Reference/XML/Infos/text-achievement-btt.xml": "1b8d81df974f46202e1e401bb1ebc7d83716ac77eed61d8473a485aa6a15d5ca",
+    "Reference/XML/Infos/text-achievement-wd.xml": "b7bcbda73e0a6b718c0a72662a3d481e1b208312123ad827427fd868184a26ef",
+    "Reference/XML/Infos/text-achievement-wog.xml": "1421dcc9ae6d2d53bcc3d303b83c774df8f2394afd4af8096409d48b699b58f9",
+    "Reference/XML/Infos/text-achievement.xml": "057ee7fc94d49be382cebb19d0b0cc7ab725493f73270e40da6337feffc3e51f",
+    "Reference/XML/Infos/text-achievementTitle-wd.xml": "fcb8737e7207bffcd28b6bbfeb5f7820101821c3f6f5409acefab50a628e8cac",
+    "Reference/XML/Infos/text-achievementTitle.xml": "50f398527356c7aca75dc3751733556b0936d0090bdabd2ac27a7d5c06ab75e3",
+    "Reference/XML/Infos/text-announcements.xml": "99886a60e10c2c02b0e8fbf6d9578099383f0e98a0bad67513cfda722bbb8cbb",
+    "Reference/XML/Infos/text-audio-eoti.xml": "a76df32f94dbee69b587176a15668abafb0ee040e5259ac4bac0ad80376cc57c",
+    "Reference/XML/Infos/text-audio-wog.xml": "535c50a6197a585927221be442710a21d194a1a02cc5472bb3a672011b72195a",
+    "Reference/XML/Infos/text-audio.xml": "b2726d39bce953adc2d1f97c09c3307bd55eeb2dfd6ca4bcf7a0dbe77dd290f7",
+    "Reference/XML/Infos/text-bonus-btt.xml": "98fde6e16442e6e0853d5d0b241d909aa8d3f672b1f9a4473787d8c583192096",
+    "Reference/XML/Infos/text-bonus-hittite.xml": "54218084a7e190ccefd6a7e242bc36c9d43ca989ad8b107bc68cedf3f7821502",
+    "Reference/XML/Infos/text-bonus-sap.xml": "698569c2415649d5c77badeee90307b64c9fe4e9f578784842e0b792f0ad5549",
+    "Reference/XML/Infos/text-bonus-wog.xml": "7affebe9472a3d720c10325c881272614b24f7c84593e771e352f737d4a1988d",
+    "Reference/XML/Infos/text-bonus.xml": "33b3adcea91397765aa327fb0550d89e8226f8c1cadd2856cd8dff8d941751fe",
+    "Reference/XML/Infos/text-calamities-events.xml": "1b77989f765a7b3d66ef9c81b009bae0345aa80900004e7f8d746e7a8863123d",
+    "Reference/XML/Infos/text-calamities-map.xml": "e269d14148c905bf13abefaeef8c9a656ed41140a773025f6cae524244aad7a6",
+    "Reference/XML/Infos/text-calamities-misc.xml": "6d9439f1f47fd7924672cf4c432fa2d8ae40c4e4a86617fb0eca24ad81a0f5c4",
+    "Reference/XML/Infos/text-change.xml": "f070a2c596cb606cc9c2085fb555ed4e8a3d5305277747ca74382ea15ac2e711",
+    "Reference/XML/Infos/text-character-btt.xml": "0e3bcfaf8901ef4ccaeb9e10d6ed64b4fd2fafa19a77a8271de375958321d12d",
+    "Reference/XML/Infos/text-character-hittite.xml": "3f59bf18485dc351c8ad5038cdd4b3583631fef88c99a1c681e15306ab9630f2",
+    "Reference/XML/Infos/text-character-sap.xml": "b53225c33154c513615188834dfef3f2bcefd38f9f8a0b8a0a77b473e7591f8d",
+    "Reference/XML/Infos/text-character-wog.xml": "9754c2f2c11ac5ff781d0736cb57fb807aee2846e9eb4ce8b79eeda8a4857490",
+    "Reference/XML/Infos/text-character.xml": "7dd4831146f5bf365196b3305b5af770c19233b69fa0df68e3d426f0eff69c4a",
+    "Reference/XML/Infos/text-cityName-hittite.xml": "a5045d9c3f9c6e63ddceda408275cdb63ad0a7ae5ad8c803c0e6158f60de61cd",
+    "Reference/XML/Infos/text-cityName.xml": "b3c37de3983c1869bc0040041987ff2ae7efb03db1e78dd425b6ca5113994cbd",
+    "Reference/XML/Infos/text-effectCity-sap.xml": "d0b41be4a460d3b1ff6843b769d1a71a67ef3ee29cfebffaaba037ce932af033",
+    "Reference/XML/Infos/text-effectCity-wog.xml": "f5c030cc67b92fce98aac244a2019449271ba093bb5488988065bc98082a5c22",
+    "Reference/XML/Infos/text-effectCity.xml": "f145334d70a4fff9aed47cbebfe564b71d7f9815c108bfd0116bb6b46112e3bb",
+    "Reference/XML/Infos/text-effectPlayer-sap.xml": "d53047bdc38466b5327f03522d3f0e8bdd7896078ca1b50a2d6fb1a18c437e8f",
+    "Reference/XML/Infos/text-effectPlayer-wog.xml": "893656a11081e7e72947aa9f0e8d60e064abf6a8597082cd1f4791ea9f5110f8",
+    "Reference/XML/Infos/text-effectPlayer.xml": "cc9caa069075f8907e6204c6461697bc79c063abca65473bf8514e0f55f1cb95",
+    "Reference/XML/Infos/text-effectUnit-hittite.xml": "ee6ac13c8cdfdcd3749e2d52c36a86c8d627b6b0a8314a8b91cb82a90ceb5749",
+    "Reference/XML/Infos/text-effectUnit.xml": "0376313edba916f92846fb5eb8dcdb61aa15e3a7cf8d416f6f6f2d737057979c",
+    "Reference/XML/Infos/text-eoti.xml": "bbea5bf4e41020b7af7bc94770aa12bf79c02bd7d03eb6d1dd82fb5dfdb898a8",
+    "Reference/XML/Infos/text-eventCity.xml": "c29811af9b8225dce858cd27b433f5fd548b1f2fc9c537001918c30b87b09285",
+    "Reference/XML/Infos/text-eventEditor.xml": "a327e64fd138a8bcfef7efdfe0aa043847ca3ddaddde5ba8916c340a75c291ec",
+    "Reference/XML/Infos/text-eventOption-btt.xml": "8b4f1b4fff483e8cb5ea654fcaaa23d75dd17b8c1d1fb28317dedad78f85a497",
+    "Reference/XML/Infos/text-eventOption-hittite.xml": "3911a8630ed34e9e2cf5287cf810d15aae2adf02ea70ec6f338289b1d12d0fd4",
+    "Reference/XML/Infos/text-eventOption-sap.xml": "4271754d6710149eac8d13fb8258c0036ca65600ac39d1b145eec1a388434b46",
+    "Reference/XML/Infos/text-eventOption.xml": "7130aa6bd27970849eb7d199a9c60eaaa0fceccbbf57e3e19195b8c0f218b0eb",
+    "Reference/XML/Infos/text-eventStory-btt.xml": "36ae7af419bc2c9970cd633c4d13c1af16a1482a501cea7082ea593196a6e0f8",
+    "Reference/XML/Infos/text-eventStory-eoti.xml": "55a8a56ca66bdf95efdc4fbe1a2487823c250069b041cb90af590c47fdf49ff4",
+    "Reference/XML/Infos/text-eventStory-hittite-2.xml": "c01e7c47ff3e3db8128a5783c0007ea423e16d8727c6ca568c0a5bac3d6eff67",
+    "Reference/XML/Infos/text-eventStory-hittite.xml": "2d2ecfc20cbb6b3f039b6d07cf22563855dc50a4f9293456d08a516e538f0c1a",
+    "Reference/XML/Infos/text-eventStory-sap.xml": "bc96f063386a42e3b9075c5c13354bde71641f317b971aca21e8144566effd50",
+    "Reference/XML/Infos/text-eventStory.xml": "451e85fc724a9c55e24ffbe8166496e5d948d4cd7cbb9394b0ad58ac8fda6f26",
+    "Reference/XML/Infos/text-eventStoryTitle-btt.xml": "c49429c58dee4e150b46cf9980d7fb0f1289a5c1fad2c572c5b2c0ed164bcd6a",
+    "Reference/XML/Infos/text-eventStoryTitle-hittite.xml": "c6ce2647ccaeb83e8aac173bb31e1457413ca4ca011b15f1062d03ac338299ad",
+    "Reference/XML/Infos/text-eventStoryTitle-sap.xml": "d114153ccaf42db909a32dc6789ab9251623217b7585d6f8ecf961f33aaec786",
+    "Reference/XML/Infos/text-eventStoryTitle.xml": "0d65db7e5b4804d438bf0157a3cfd58d40d0bec5ff83ec1e92a604b43b301527",
+    "Reference/XML/Infos/text-family-hittite.xml": "24780b466a53cfb122e3de77fa856e6f7aeda83713a2767ce90a05d58efcec3c",
+    "Reference/XML/Infos/text-family.xml": "e26435182fbfebfe93a9b9c867d326f8c46e4c9e5408c2921f84875061127121",
+    "Reference/XML/Infos/text-game.xml": "2b0727f32ebd93b242cea20a6fef2f4a47472c9ee7391b32751c65d4b002495a",
+    "Reference/XML/Infos/text-helptext-sap.xml": "6a25841a234a0360140fc44d1e36eb1d910c6ce2e842517e1900e2038d1fcf51",
+    "Reference/XML/Infos/text-helptext.xml": "63dc96509544ef45f7e8dd3b8423408b3757859beab09da8538dd80d946e3cfb",
+    "Reference/XML/Infos/text-hint-btt.xml": "7d6b05777ce6159b911c61550387a437b84ea7ce4a2cdb43eeb9a3d8a3878992",
+    "Reference/XML/Infos/text-hint-sap.xml": "8bfe065d83f734bf9309d65d6e1b152e4007e0c3efa31cb95128ae5a28fb1d3f",
+    "Reference/XML/Infos/text-hint.xml": "b2c7caea4457c26aba609c0138abc4613af4abe9428dbc7bccfb0b1db55fc511",
+    "Reference/XML/Infos/text-improvement-hittite.xml": "5085bb68cb13dda17e3ad110c90d32ac23a5f9a7a8fc74c37342fe0a77164c01",
+    "Reference/XML/Infos/text-improvement-sap.xml": "91fcbbc1e4d44088aba9401e12fb2715594e349a3d1e11443430dee62b0ce4cc",
+    "Reference/XML/Infos/text-improvement.xml": "f5b8bcf797ab1f689860436eb645ae38fcf4bb8863d15f45543a1c628fc78ef7",
+    "Reference/XML/Infos/text-improvementClass.xml": "2bc249881070d9df0bc1b82a06457f18e93c428a6bd49edf7498a9a8887e2d5f",
+    "Reference/XML/Infos/text-infos-btt.xml": "17f566bdd69d8940e60f4b5ef2fe587df1019412f25ea7fd605a86bd62f65466",
+    "Reference/XML/Infos/text-infos-hittite.xml": "f5df036b6e34ea71a7a4c40dc7b72158116751176b57f72d32c8c592326d9bc9",
+    "Reference/XML/Infos/text-infos-sap.xml": "9c356f95784bc1b6f215b4f81311a881fa078fda8665220429bfdef487b505ad",
+    "Reference/XML/Infos/text-infos.xml": "f74736a9a0dc5ed0c94552b6dadff73196b279fa36d8800b5b613d16415b2aba",
+    "Reference/XML/Infos/text-invariant.xml": "2c748539bc9f2ba6747f38f66158301ef4a5c3503044e50d013e94970d7cf68e",
+    "Reference/XML/Infos/text-kush-misc.xml": "f4bffeb333d18cc06705c5f345e265a6bfcca59c3d12e2097cfd0f95d44d4cc0",
+    "Reference/XML/Infos/text-law.xml": "390ceda185f1a024a664ea4104298a17800fcc759decce89733b6fafa7b6c284",
+    "Reference/XML/Infos/text-locked-change.xml": "23495a448377ce22c34b4c8bab978869cb5899f52d4d24b434ecf7d7b7fe7ff1",
+    "Reference/XML/Infos/text-map.xml": "acb8deed1d6bc099eb9f34e5fb75c8a3d7251a0d689b95514397c579c0ba7571",
+    "Reference/XML/Infos/text-mapElementNames-hittite.xml": "38a5538a6af63dc36c34091e4cb1a95101c6e71434f8dd72cf62b37f50c3bb61",
+    "Reference/XML/Infos/text-mapElementNames.xml": "331d5e7d004590f74c3794f196635d7ade88b169eb1444e875aee8853225c9b0",
+    "Reference/XML/Infos/text-memory-btt.xml": "a7d7674bf2f01336f86a9043197ed23c7364ec60a922f83991b68447cedd4984",
+    "Reference/XML/Infos/text-memory-hittite.xml": "4a3b4af1346f503ddf1cfea60d2a6943c8b8f3cf30a751b63458e1e2bff571d3",
+    "Reference/XML/Infos/text-memory-sap.xml": "f583f3c86ea7fb3bb169e6eb2a82989f6a1f0532a5903e44830c47f6bda59c6d",
+    "Reference/XML/Infos/text-memory-wog.xml": "20968efc4c5acdb4355ba938297ce25e3ec78d9ddc63b5466a19a4c1c33f9119",
+    "Reference/XML/Infos/text-memory.xml": "fdf64a428809d82b12dd3750d0aab4ce6944bfd7d95e4ff26a4fc18f5fba8e9f",
+    "Reference/XML/Infos/text-misc-btt.xml": "a2a4a39cb53a6c5ef57019cf23abd3fa410a006e572109fbabc3abdfa406a9e3",
+    "Reference/XML/Infos/text-misc.xml": "53a357206c44f072927c688b0e73b4dcba05512ad8d607f327e2a925e5b0f14c",
+    "Reference/XML/Infos/text-miscOptions.xml": "ff36be6190fbe37b4468656ed61d34a1363630d28ed95e5764a042939b7d301b",
+    "Reference/XML/Infos/text-mission-btt.xml": "a209d3d5e1c4cd6e8108e82fa6cfb7a437416957efb427bcda7febe475d8f2c9",
+    "Reference/XML/Infos/text-mission-sap.xml": "0990e03fb5ff67fed5f7bfebef14876af290dd154f109a062717fd5368872afe",
+    "Reference/XML/Infos/text-mission-wog.xml": "61bcf0eb577246b1883c2d328fb8b3b1c32e1d187d8168c6b966ff020f4b55eb",
+    "Reference/XML/Infos/text-mission.xml": "a71c79d87b60867cecf38c317da299e31ba642043b0c309d53eb8a0de045a38a",
+    "Reference/XML/Infos/text-missionResult-btt.xml": "07e75f79ee1880668698b57333f4c5762bd7e81df148d4839b7c12cd5a03f07f",
+    "Reference/XML/Infos/text-missionResult-sap.xml": "f80a57936f11b158512591d62521448368e6e00f19ed5784551f8f3456c0e10c",
+    "Reference/XML/Infos/text-missionResult-wog.xml": "5520fe07d3a05ed3027c2fdb2a466a62417099b2de513f5691d5a36dbc84aff4",
+    "Reference/XML/Infos/text-missionResult.xml": "c54a86dcef291070676fbddca969b64ba479db537cbe31e93167a5b3069f09c6",
+    "Reference/XML/Infos/text-name-btt.xml": "babd03d0e84bdad5bf88ff9242ca6ec20200415c0ae5a101f70cf0a83db1e5ea",
+    "Reference/XML/Infos/text-name-hittite.xml": "d7b1a59b5d030b99ad7a741735e8ee30eb97304e5ad155e525cd4800211792e5",
+    "Reference/XML/Infos/text-name-sap.xml": "420d541d980dbbb414e180e8856439ad909d2e760eba0cc27d646263f92cd450",
+    "Reference/XML/Infos/text-name-wd.xml": "63e1855fc0cf53394fa3b78da11160d75eab6a286f07092a8fd4d0d7382e9962",
+    "Reference/XML/Infos/text-name.xml": "9fc36eb062334e75feb9ee4bfa2909680b49a927116548bf0eca8e20bd3351cf",
+    "Reference/XML/Infos/text-nation-hittite.xml": "6948693f2a40d144714fc47bf10a14192076a93eae4b64bd643eff89f9b3c98a",
+    "Reference/XML/Infos/text-nation.xml": "bb721924c3340d10ae383811f19d82cacca8bcf4cbfdb6442e26ecce26738142",
+    "Reference/XML/Infos/text-new.xml": "e2dbadd3c4d361e3d1117d400b97f78836813f828c98385a0b2ff14838a0575a",
+    "Reference/XML/Infos/text-occurrence-btt.xml": "b745777cd75faa8686f010b38c4b0dad925e11b702daa09ad20010a140ea1056",
+    "Reference/XML/Infos/text-occurrence-wog.xml": "5fff5bb2a286e26fdf7ef5568f819def4157c7a773f7f7618204a7f8ed95ec79",
+    "Reference/XML/Infos/text-occurrenceClass-wog.xml": "9f7e8fe870ddd3cf4a435d66dfdc3acd3c9e670a413b234b9ec21d5a2aeba140",
+    "Reference/XML/Infos/text-occurrenceLevel-wog.xml": "40f8a9babf0adedd90341ca746a45646aadc2e1cf69fab48501b744e0039c704",
+    "Reference/XML/Infos/text-playerOption.xml": "f1e0748d1dcdb49603f14938d3e27711131278a78b854b4e7a01e88e56c79473",
+    "Reference/XML/Infos/text-project-event-sap.xml": "fdcf4813d06edb003fd46f93b8d13e4b9cc0c8a99dbd7ac86c5d8ec300b2aca2",
+    "Reference/XML/Infos/text-project-event-wog.xml": "5e226aaf9c60d280b1bca62f995f1f5fa7061f20a41dbfddc32c1cff5048dc76",
+    "Reference/XML/Infos/text-project-event.xml": "f26bd313f6c7d1b0be7d730c5cbd2720364117527ed43ecb5a0195d88440abe3",
+    "Reference/XML/Infos/text-project.xml": "ec225bda58d0e79ec444a415da1add04bddbe7d611a8c01d25d204103e711d25",
+    "Reference/XML/Infos/text-promotion.xml": "b443f563ab385a277b2318c2ab74b7a750bee5e98fea751d5e3596cb9f2ccfa5",
+    "Reference/XML/Infos/text-relationship-btt.xml": "ee96ccb52ec84ee68c36b6bac0f6826da70852e4c99b291c55e7719f5286e5e0",
+    "Reference/XML/Infos/text-relationship.xml": "1b38c0871eeedb97ab0a21a27801421488dc16d96f7ed9d10fb5b6ed1b360118",
+    "Reference/XML/Infos/text-religion-hittite.xml": "14f36c0f979fe335a15a64564e7915bd49af28436e633620e127abda95f0ce99",
+    "Reference/XML/Infos/text-religion.xml": "9c179fb20bcb6b7798830ba7675e999e7ae4f7c2c19f31772b15101b4fcf15f4",
+    "Reference/XML/Infos/text-specialistClass.xml": "f856f4c8e1cd4fb4346d2c8c8e3b3fe720c87a0d0380b63ac6402fd20fb12544",
+    "Reference/XML/Infos/text-stat.xml": "1611f6f92ac631fa3ccae9828bf5ab60e455e64ac85cc9db7f00d25773277f10",
+    "Reference/XML/Infos/text-subject-sap.xml": "13cee9f16514b8609030578f07a997f7a7af77702981595b81f4b6d5f9836387",
+    "Reference/XML/Infos/text-subject.xml": "6c1fd0d96683ee45ee5aaa19ca0b930f980c33a7cacc216bdcc029c0e3f311d2",
+    "Reference/XML/Infos/text-trait-btt.xml": "f8584505b4d07856358b6d0cf697d2cd2b53bccbc2242cd44d41a7beba39d22c",
+    "Reference/XML/Infos/text-trait-sap.xml": "53b9811dd346297c3b37dc413458d3881b57d5040ea0cb6ae16bb1cf28044b65",
+    "Reference/XML/Infos/text-trait-wog.xml": "fbf617aa071deafadc033d1214dcb8f490bdebfdb3aaf98bb65114bdab3e70a3",
+    "Reference/XML/Infos/text-trait.xml": "f49d479f76cf020007d16be16ba03bc934c8175b899d169fa321ce36ea2d216a",
+    "Reference/XML/Infos/text-tribe.xml": "6019b2c09fd94db6f35fd958b36e77b83076fb718529a2c9a8ea6587402e9058",
+    "Reference/XML/Infos/text-ui-sap.xml": "47d44f0b37baadb0bb44963bdf186835148753e687fda2d8b4236d28ec3c719a",
+    "Reference/XML/Infos/text-ui.xml": "501358a7250325fa775bca265183eb55ef2d2d6ceb23bdbf26b829c5d6d7da78",
+    "Reference/XML/Infos/text-unit-hittite.xml": "9afedcf41e493d313d811195d39f40e00af640d020dfe5d5ebe271a5d23603ab",
+    "Reference/XML/Infos/text-unit.xml": "7b4d5968c20af377521521055791abe416a90e51a1e1dbe7ce9e6a7717ba47ef",
+    "Reference/XML/Infos/text-unitTrait.xml": "0a6fc92bb5968834d9676b4b897042bd61887973cc197d8fbd2c53b044524488",
+    "Reference/XML/Infos/text-wonders-dynasties-events.xml": "b3a9884c7ff750de34460fed2d900be014d8bdc27c8637984c16cca36a8d4a26",
+    "Reference/XML/Infos/text-wonders-dynasties-infos.xml": "741abf249b62c23903b3e6f09155666252ad81cad17ce586797dc21cc8db4c0c",
+    "Reference/XML/Infos/text-wonders-dynasties-misc.xml": "e4f3358f63524feb1bc8b637552de9a158844875484639015fbb12e5485c31f0",
+    "Reference/XML/Infos/text-wonders-dynasties-unitTrait.xml": "090c2c2f6e55040dc4db402bcf14ac038291afeec3b401e4b513e2b446887b4e",
+    "Reference/XML/Infos/text-wonders-dynasties-wd-add.xml": "b66cb623de208a5f1fb5ebc1f5a0c5b01269242cbe703cb7d1f28fda552da8c2",
+    "Reference/XML/Infos/text-yield.xml": "565ccf80f4935fd811150697bc9499e59031c691ed6a811b952549bd27baef89"
+  },
+  "records": [
+    {
+      "id": "a191",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_AKSUM",
+      "steamName": "Аксумское язычество",
+      "steamCondition": "Основать аксумское язычество",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": false,
+      "directAwardRecords": [
+        "RELIGION_PAGAN_AKSUM"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_CONTENDER_OPTION_2_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_SHUNNED_CLERGY_OPTION_0_CHARACTER_2"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_STUDY_OF_FAITH_OPTION_0_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MISSIONRESULT_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_DISAPPOINTED"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_VENGEFUL"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CHILD_OF_GOD_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_EVENTSTORY_CHRISTIAN_ASCETICISM_1"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_UNEXPECTED_PATH_OKAY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_TO_TAKE_THE_CLOTH_YES"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PATRON_GODS_AKSUM"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_REMOVE_CLERGY_HIDDEN"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_ASTAR"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_BEHER"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_MAHREM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_MEDR"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_PAGAN_AKSUM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_ASTAR"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_BEHER"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_MAHREM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_MEDR"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_RELIGION_AKSUM"
+        }
+      ]
+    },
+    {
+      "id": "a152",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_ASSYRIA",
+      "steamName": "Ассирийское язычество",
+      "steamCondition": "Основать ассирийское язычество",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": false,
+      "directAwardRecords": [
+        "RELIGION_PAGAN_ASSYRIA"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_CONTENDER_OPTION_2_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_SHUNNED_CLERGY_OPTION_0_CHARACTER_2"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_STUDY_OF_FAITH_OPTION_0_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY_PAGAN"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MISSIONRESULT_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY_PAGAN"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_DISAPPOINTED"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_VENGEFUL"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CHILD_OF_GOD_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_EVENTSTORY_CHRISTIAN_ASCETICISM_1"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_UNEXPECTED_PATH_OKAY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_TO_TAKE_THE_CLOTH_YES"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PATRON_GODS_ASSYRIA"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PRIESTLY_DWELLING_ASSYRIA"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_REMOVE_CLERGY_HIDDEN"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_RESPECT_FOR_THE_GODS"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_ASHUR"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_NINURTA"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_NUSKA"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_SHAMASH"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_PAGAN_ASSYRIA"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_ASHUR"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_NINURTA"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_NUSKA"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_SHAMASH"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_RELIGION_ASSYRIA"
+        }
+      ]
+    },
+    {
+      "id": "a013",
+      "apiName": "ACHIEVEMENT_RELIGION_BUDDHISM",
+      "steamName": "Буддизм",
+      "steamCondition": "Основать буддизм",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "RELIGION_BUDDHISM"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_CONTENDER_OPTION_2_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_SHUNNED_CLERGY_OPTION_0_CHARACTER_2"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_STUDY_OF_FAITH_OPTION_0_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MISSIONRESULT_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-eoti.xml",
+          "type": "BONUS_PROJECT_FOUND_BUDDHISM"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_DISAPPOINTED"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_VENGEFUL"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CHILD_OF_GOD_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_EVENTSTORY_CHRISTIAN_ASCETICISM_1"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_UNEXPECTED_PATH_OKAY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_TO_TAKE_THE_CLOTH_YES"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_REMOVE_CLERGY_HIDDEN"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_CATHEDRAL_BUDDHISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_HOLY_SITE_BUDDHISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_MONASTERY_BUDDHISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_MONUMENTAL_BUDDHAS"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_TEMPLE_BUDDHISM"
+        },
+        {
+          "file": "mission.xml",
+          "type": "MISSION_QUELL_DISSENT_BUDDHISM"
+        },
+        {
+          "file": "project-event-eoti.xml",
+          "type": "PROJECT_FOUND_BUDDHISM"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_BUDDHISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_BUDDHISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CHARACTER_BUDDHISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_BUDDHISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_MONASTERY_BUDDHISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CLERGY_BUDDHISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_RELIGION_BUDDHISM"
+        }
+      ]
+    },
+    {
+      "id": "a072",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_BABYLONIA",
+      "steamName": "Вавилонское язычество",
+      "steamCondition": "Основать вавилонское язычество",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "RELIGION_PAGAN_BABYLONIA"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_CONTENDER_OPTION_2_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_SHUNNED_CLERGY_OPTION_0_CHARACTER_2"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_STUDY_OF_FAITH_OPTION_0_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY_PAGAN"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MISSIONRESULT_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY_PAGAN"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_DISAPPOINTED"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_VENGEFUL"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CHILD_OF_GOD_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_EVENTSTORY_CHRISTIAN_ASCETICISM_1"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_UNEXPECTED_PATH_OKAY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_TO_TAKE_THE_CLOTH_YES"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PATRON_GODS_BABYLONIA"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_POET_IN_VOGUE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PRIESTLY_DWELLING_BABYLONIA"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_REMOVE_CLERGY_HIDDEN"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_RESPECT_FOR_THE_GODS"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_ERESHKIGAL"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_ISHTAR"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_MARDUK"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_NABU"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_PAGAN_BABYLONIA"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_ERESHKIGAL"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_ISHTAR"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_MARDUK"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_NABU"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_RELIGION_BABYLONIA"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_TILE_SHRINE_ERESHKIGAL_ANY"
+        }
+      ]
+    },
+    {
+      "id": "a129",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_GREECE",
+      "steamName": "Греческое язычество",
+      "steamCondition": "Основать греческое язычество",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": false,
+      "directAwardRecords": [
+        "RELIGION_PAGAN_GREECE"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-wog.xml",
+          "type": "BONUS_EVENTOPTION_CALAMITIES_HURRICANE_END_POSEIDON_YES_CITY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_CONTENDER_OPTION_2_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_SHUNNED_CLERGY_OPTION_0_CHARACTER_2"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_STUDY_OF_FAITH_OPTION_0_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY_PAGAN"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MISSIONRESULT_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY_PAGAN"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_DISAPPOINTED"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_VENGEFUL"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CHILD_OF_GOD_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_EVENTSTORY_CHRISTIAN_ASCETICISM_1"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_UNEXPECTED_PATH_OKAY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_TO_TAKE_THE_CLOTH_YES"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_DINING_WITH_DIVINITY"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_FESTIVAL_OF_DIONYSUS"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PATRON_GODS_GREECE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PRIESTLY_DWELLING_GREEK"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_REMOVE_CLERGY_HIDDEN"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_SACRED_GAMES"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_SACRED_GAMES_CHEAT"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_SACRED_GAMES_CHEAT_FAMILY"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_SACRED_GAMES_VICTORY"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_ATHENA"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_HADES"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_POSEIDON"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_SERAPIS"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_ZEUS"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_PAGAN_GREECE"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_ATHENA"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_HADES"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_POSEIDON"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_ZEUS"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_RELIGION_GREECE"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_TILE_SHRINE_HADES_ANY"
+        }
+      ]
+    },
+    {
+      "id": "a131",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_EGYPT",
+      "steamName": "Египетское язычество",
+      "steamCondition": "Основать египетское язычество",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "RELIGION_PAGAN_EGYPT"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_CONTENDER_OPTION_2_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_SHUNNED_CLERGY_OPTION_0_CHARACTER_2"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_STUDY_OF_FAITH_OPTION_0_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY_PAGAN"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MISSIONRESULT_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY_PAGAN"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_DISAPPOINTED"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_VENGEFUL"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CHILD_OF_GOD_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_EVENTSTORY_CHRISTIAN_ASCETICISM_1"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_UNEXPECTED_PATH_OKAY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_TO_TAKE_THE_CLOTH_YES"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PATRON_GODS_EGYPT"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PRIESTLY_DWELLING_EGYPT"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_REMOVE_CLERGY_HIDDEN"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_SIGN_FROM_ATEN"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_SOUL_OF_LIFE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THE_TRUE_GOD_ATEN"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_ISIS"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_NEITH"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_OSIRIS"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_RA"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_PAGAN_EGYPT"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_ISIS"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_NEITH"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_OSIRIS"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_RA"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_RELIGION_EGYPT"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_TILE_SHRINE_OSIRIS_ANY"
+        }
+      ]
+    },
+    {
+      "id": "a108",
+      "apiName": "ACHIEVEMENT_RELIGION_ZOROASTRIANISM",
+      "steamName": "Зороастризм",
+      "steamCondition": "Основать зороастризм",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "RELIGION_ZOROASTRIANISM"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_A_WORLD_MADE_SMALL_OPTION_0_CITY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_BUYING_FAVOR_OPTION_1_CITY_Z"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_CONTENDER_OPTION_2_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_SHUNNED_CLERGY_OPTION_0_CHARACTER_2"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_BASILICA_OPTION_0_CITY_Z"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_STUDY_OF_FAITH_OPTION_0_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_UNWORTHY_CLERIC_OPTION_0_CHARACTER_0"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_UNWORTHY_CLERIC_OPTION_1_CHARACTER_0"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTSTORY_PERSIAN_ZOROASTRIANISM_CITY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_IMPROVEMENT_TEMPLE_ZOROASTRIANISM"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MISSIONRESULT_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_DISAPPOINTED"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_VENGEFUL"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_BUYING_FAVOR_OPTION_0_Z"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_BUYING_FAVOR_OPTION_1_Z"
+        },
+        {
+          "file": "eventOption-wog.xml",
+          "type": "EVENTOPTION_CALAMITIES_WILDFIRE_UNTOUCHED_DISCIPLE_ZOROASTRIANISM"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CHILD_OF_GOD_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CONTENDER_OPTION_1_Z"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_DEEP_DIVISIONS_OPTION_0_Z"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_DEEP_DIVISIONS_OPTION_1_Z"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_EVENTSTORY_CHRISTIAN_ASCETICISM_1"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_OPEN_DISSENT_OPTION_1_Z"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_SACRED_SCRIPTURE_OPTION_1_Z"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_SCHISM_OF_FAITH_OPTION_0_Z"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_BASILICA_OPTION_0_ZOROASTRIANISM"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_NEXT_JOURNEY_ZOROASTRIANISM"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_UNEXPECTED_PATH_OKAY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_TO_TAKE_THE_CLOTH_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_UNWORTHY_CLERIC_OPTION_0"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_UNWORTHY_CLERIC_OPTION_1"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_AFTER_THE_YASNA"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_AHUNA_VAIRYA"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_A_FIRE_WITHIN"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_A_HOUSE_OF_SONG"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_A_WARNING_OF_JUDGEMENT"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_BEATING_POETS"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_BLESSED_BY_FIRE"
+        },
+        {
+          "file": "eventStory-wog.xml",
+          "type": "EVENTSTORY_CALAMITIES_END_POLYTHEISM"
+        },
+        {
+          "file": "eventStory-wog.xml",
+          "type": "EVENTSTORY_CALAMITIES_WILDFIRE_UNTOUCHED_ZOROASTRIANISM"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_DEALING_WITH_DISSENT_Z"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_DECEPTION_AND_CHAOS"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_EPIGRAPHY_REFORM_ZOROASTRIANISM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ERA_OF_UNIVERSAL_ZOROASTRIANISM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_FIRE_OF_FIRES"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_FIRE_OF_VERETHRANGHNA"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_FIRST_CONVERT"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_FOUNDING_AVESTAN"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_FRAVASHI"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_GUARDIANS_OF_THE_BRIDGE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_HAOMA"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_HOLY_SITE_ZOROASTRIANISM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_IMPERFECT_MADE_PERFECT"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_INSCRIPTIONS_TO_AHURA_MAZDA"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_LEGENDS_OF_MITHRA"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_NOWRUZ"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_OFFERINGS_TO_THE_DEAD"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PAYING_FOR_THE_SACRIFICE"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_PERSIAN_ZOROASTRIANISM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PREPARING_THE_SACRIFICE_1"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PREPARING_THE_SACRIFICE_2"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_PRIEST_FROM_A_FOREIGN_LAND_Z"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RELIGION_FIRE_IN_THE_MARKET"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RELIGION_LOST_WISDOM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RELIGION_MOUNTAIN_LIGHTS"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RELIGION_OUR_ALLEGIANCE"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_REMOVE_CLERGY_HIDDEN"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RITUAL_AND_LIFE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RIVAL_AT_THE_BRIDGE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RIVER_CONTAMINATION"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RIVER_REVELATION"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_RUMORS_OF_OSTANES"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_SACRIFICIAL_DEER"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_STRIKE_THEM_DOWN"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_STUDY_INSPIRED_ZOROASTRIAN_HOLY_SITE"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_ANGELIC_DIVINE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THE_CHARITY_OF_AHURA_MAZDA"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THE_DEDICATION"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THE_DIVINE_PRIEST"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THE_FINAL_FIGHT"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THE_FIRE_DEFILED"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_FIRE_EXTINGUISHED"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THE_GUARDIAN_FIRE"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_HELP_OF_ANOTHER_Z"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THE_JUDGE_MITHRA"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_KARPANS"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_MAGUS"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THE_ROYAL_DEAD"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_SOUL_OF_SACRIFICE"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_TUTOR_KARTIR"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THE_WEIGHT_OF_DEBT"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THOUGHTS_WORDS_DEEDS"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THUS_SPOKE_ZOROASTER"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_TRIBAL_MINISTER_Z"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_TRUTH_AND_ORDER"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_WAR_IN_THE_STARS"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_WORLD_OF_THOUGHT"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ZOROASTRIANISM_FOUNDED_THEM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ZOROASTRIANISM_FOUNDED_THEM_STATE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ZOROASTRIANISM_FOUNDED_TIE_LOST"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ZOROASTRIANISM_FOUNDED_US"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ZOROASTRIANISM_FOUNDED_US_STATE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ZOROASTRIANISM_TEMPLES"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_ZOROASTRIAN_DISSENT"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ZOROASTRIAN_PILGRIMAGE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ZURVANITES"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_CATHEDRAL_MANICHAEISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_CATHEDRAL_ZOROASTRIANISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_HOLY_SITE_MANICHAEISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_HOLY_SITE_ZOROASTRIANISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_MONASTERY_MANICHAEISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_MONASTERY_ZOROASTRIANISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_TEMPLE_MANICHAEISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_TEMPLE_ZOROASTRIANISM"
+        },
+        {
+          "file": "mission.xml",
+          "type": "MISSION_QUELL_DISSENT_ZOROASTRIANISM"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_MANICHAEISM"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_ZOROASTRIANISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_ZOROASTRIAN_HOLY_SITE"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CLERGY_MANICAHEAN"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CLERGY_ZOROASTRIAN"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_MANICHAEISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_TILE_TEMPLE_ZOROASTRIANISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_ZOROASTRIANISM"
+        }
+      ]
+    },
+    {
+      "id": "a230",
+      "apiName": "ACHIEVEMENT_RELIGION_HINDUISM",
+      "steamName": "Индуизм",
+      "steamCondition": "Основать индуизм",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": false,
+      "directAwardRecords": [
+        "RELIGION_HINDUISM"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_CONTENDER_OPTION_2_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_SHUNNED_CLERGY_OPTION_0_CHARACTER_2"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_STUDY_OF_FAITH_OPTION_0_CHARACTER"
+        },
+        {
+          "file": "bonus-event-eoti.xml",
+          "type": "BONUS_IMPROVEMENT_HINDU_TEMPLE"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MISSIONRESULT_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_DISAPPOINTED"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_VENGEFUL"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CHILD_OF_GOD_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_EVENTSTORY_CHRISTIAN_ASCETICISM_1"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_UNEXPECTED_PATH_OKAY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_TO_TAKE_THE_CLOTH_YES"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_HAOMA"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_REMOVE_CLERGY_HIDDEN"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_CATHEDRAL_HINDUISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_MONASTERY_HINDUISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_ARDAKSHO"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_INDRA"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_MAYON"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_MURUGAN"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_NANA"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_OESHO"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_ORLAGNO"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_SURYA"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_THE_MARUTS"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_TIRUMAL"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_VARUNA"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_YAMA"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_TEMPLE_HINDUISM"
+        },
+        {
+          "file": "mission.xml",
+          "type": "MISSION_QUELL_DISSENT_HINDUISM"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_HINDUISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CHARACTER_HINDUISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_HINDUISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CLERGY_HINDUISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_HINDUISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_RELIGION_HINDUISM"
+        }
+      ]
+    },
+    {
+      "id": "a110",
+      "apiName": "ACHIEVEMENT_RELIGION_JUDAISM",
+      "steamName": "Иудаизм",
+      "steamCondition": "Основать иудаизм",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "RELIGION_JUDAISM"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_BUYING_FAVOR_OPTION_1_CITY_J"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_CONTENDER_OPTION_2_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_SHUNNED_CLERGY_OPTION_0_CHARACTER_2"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_BASILICA_OPTION_0_CITY_J"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_STUDY_OF_FAITH_OPTION_0_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_UNWORTHY_CLERIC_OPTION_0_CHARACTER_0"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_UNWORTHY_CLERIC_OPTION_1_CHARACTER_0"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTSTORY_THE_FOLLOWERS_OF_CHRIST_CITY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_IMPROVEMENT_TEMPLE_JUDAISM"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MISSIONRESULT_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_DISAPPOINTED"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_VENGEFUL"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_BUYING_FAVOR_OPTION_0_J"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_BUYING_FAVOR_OPTION_1_J"
+        },
+        {
+          "file": "eventOption-wog.xml",
+          "type": "EVENTOPTION_CALAMITIES_WILDFIRE_UNTOUCHED_DISCIPLE_JUDAISM"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CHILD_OF_GOD_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CONTENDER_OPTION_1_J"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_DEEP_DIVISIONS_OPTION_0_J"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_DEEP_DIVISIONS_OPTION_1_J"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_EVENTSTORY_CHRISTIAN_ASCETICISM_1"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_OPEN_DISSENT_OPTION_1_J"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_SACRED_SCRIPTURE_OPTION_1_J"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_SCHISM_OF_FAITH_OPTION_0_J"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_BASILICA_OPTION_0_JUDAISM"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_NEXT_JOURNEY_JUDAISM"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_UNEXPECTED_PATH_OKAY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_TO_TAKE_THE_CLOTH_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_UNWORTHY_CLERIC_OPTION_0"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_UNWORTHY_CLERIC_OPTION_1"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_AGAINST_APION"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ALL_IS_VANITY"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ASHERAH"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_A_DAY_OF_REST"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_BABY_IN_THE_BASKET"
+        },
+        {
+          "file": "eventStory-wog.xml",
+          "type": "EVENTSTORY_CALAMITIES_END_POLYTHEISM"
+        },
+        {
+          "file": "eventStory-wog.xml",
+          "type": "EVENTSTORY_CALAMITIES_WILDFIRE_UNTOUCHED_JUDAISM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_COMING_OF_AGE"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_COUNTING_OF_THE_OMER"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_DEAD_SEA_SCROLLS_1"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_DEAD_SEA_SCROLLS_2"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_DEALING_WITH_DISSENT_J"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_EL_YAHWEH_BAAL"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_EPIGRAPHY_REFORM_JUDAISM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ERA_OF_UNIVERSAL_JUDAISM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_HOLY_SITE_JUDAISM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_INAPPROPRIATE_FAITH"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_JACHIN_AND_BOAZ"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_JEWISH_DISSENT"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_JUDAISM_FOUNDED_THEM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_JUDAISM_FOUNDED_THEM_STATE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_JUDAISM_FOUNDED_TIE_LOST"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_JUDAISM_FOUNDED_US"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_JUDAISM_FOUNDED_US_STATE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_JUDAISM_TEMPLES"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_JUSTICE_AND_KINDNESS"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_LAMENTATIONS"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_LAWS_OF_OUR_GOD"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_LISTENING_TO_THE_TORAH"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_MEDICAL_AID"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PLACE_OF_DWELLING"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_PRIEST_FROM_A_FOREIGN_LAND_J"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PROPHET_AND_THE_PARCHED_LAND"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PROPHET_IN_CHAINS"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PURIM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_REBEL_WRITER"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_REBEL_WRITER_RETURNS"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RELIGION_CAVE_OF_PATRIARCHS"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RELIGION_ENSLAVED_BY_EGYPT"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RELIGION_NOMADS"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RELIGION_READING_THE_WORD"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RELIGION_READING_THE_WORD_NON_JEWISH"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_REMOVE_CLERGY_HIDDEN"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_SON_OF_A_STAR"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_STATUE_OF_GOD"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_STUDY_INSPIRED_JUDAISM_HOLY_SITE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_TEMPLE_MARKET"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_ANGELIC_DIVINE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THE_CALLING"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_END_OF_ALL_THINGS"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_FOLLOWERS_OF_CHRIST"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_FOURTH_PHILOSOPHY"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_HELP_OF_ANOTHER_J"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_JUDGES"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_KOHEN"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THE_LAME_AND_SICK"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_ONE_GOD"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_PREDICTION_OF_JOSEPHUS"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THE_PROPHET_FROM_THE_SEA"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_TRIBAL_MINISTER_J"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_WEALTH_OF_DAVID"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_WHERE_OLD_BONES_LIE"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_CATHEDRAL_CHRISTIANITY"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_CATHEDRAL_JUDAISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_HOLY_SITE_CHRISTIANITY"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_HOLY_SITE_JUDAISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_MONASTERY_CHRISTIANITY"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_MONASTERY_JUDAISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_TEMPLE_CHRISTIANITY"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_TEMPLE_JUDAISM"
+        },
+        {
+          "file": "mission.xml",
+          "type": "MISSION_QUELL_DISSENT_JUDAISM"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_CHRISTIANITY"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_JUDAISM"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_MANICHAEISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CHRISTIANITY"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_JEWISH_HOLY_SITE"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CLERGY_CHRISTIAN"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CLERGY_JEWISH"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_JUDAISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_TILE_TEMPLE_JUDAISM"
+        }
+      ]
+    },
+    {
+      "id": "a132",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_CARTHAGE",
+      "steamName": "Карфагенское язычество",
+      "steamCondition": "Основать карфагенское язычество",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": false,
+      "directAwardRecords": [
+        "RELIGION_PAGAN_CARTHAGE"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_CONTENDER_OPTION_2_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_SHUNNED_CLERGY_OPTION_0_CHARACTER_2"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_STUDY_OF_FAITH_OPTION_0_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY_PAGAN"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MISSIONRESULT_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY_PAGAN"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_DISAPPOINTED"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_VENGEFUL"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CHILD_OF_GOD_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_EVENTSTORY_CHRISTIAN_ASCETICISM_1"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_UNEXPECTED_PATH_OKAY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_TO_TAKE_THE_CLOTH_YES"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PATRON_GODS_CARTHAGE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PRIESTLY_DWELLING_CARTHAGE"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_REMOVE_CLERGY_HIDDEN"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_TANIT"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_BAAL_HAMMON"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_ESHMUN"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_MELQART"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_TANIT"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_PAGAN_CARTHAGE"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_BAAL_HAMMON"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_ESHMUN"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_MELQART"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_TANIT"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_RELIGION_CARTHAGE"
+        }
+      ]
+    },
+    {
+      "id": "a171",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_KUSH",
+      "steamName": "Кушитское язычество",
+      "steamCondition": "Основать кушитское язычество",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": false,
+      "directAwardRecords": [
+        "RELIGION_PAGAN_KUSH"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_CONTENDER_OPTION_2_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_SHUNNED_CLERGY_OPTION_0_CHARACTER_2"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_STUDY_OF_FAITH_OPTION_0_CHARACTER"
+        },
+        {
+          "file": "bonus.xml",
+          "type": "BONUS_KUSH_SHRINE"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MISSIONRESULT_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_DISAPPOINTED"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_VENGEFUL"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CHILD_OF_GOD_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_EVENTSTORY_CHRISTIAN_ASCETICISM_1"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_UNEXPECTED_PATH_OKAY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_TO_TAKE_THE_CLOTH_YES"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PATRON_GODS_KUSH"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THE_RAM_WITH_TWO_HORNS"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_KUSHITE_PYRAMIDS"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_AMUN"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_APEDEMEK"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_MANDULIS"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_SEBIUMEKER"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_PAGAN_KUSH"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_AMANI"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_APEDEMEK"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_MANDULIS"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_SEBIUMEKER"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_RELIGION_KUSH"
+        }
+      ]
+    },
+    {
+      "id": "a008",
+      "apiName": "ACHIEVEMENT_RELIGION_MANICHAEISM",
+      "steamName": "Манихейство",
+      "steamCondition": "Основать манихейство",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "RELIGION_MANICHAEISM"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_BUYING_FAVOR_OPTION_1_CITY_M"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_CONTENDER_OPTION_2_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_SHUNNED_CLERGY_OPTION_0_CHARACTER_2"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_BASILICA_OPTION_0_CITY_M"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_STUDY_OF_FAITH_OPTION_0_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_UNWORTHY_CLERIC_OPTION_0_CHARACTER_0"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_UNWORTHY_CLERIC_OPTION_1_CHARACTER_0"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_IMPROVEMENT_TEMPLE_MANICHAEISM"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MISSIONRESULT_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_DISAPPOINTED"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_VENGEFUL"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_BUYING_FAVOR_OPTION_0_M"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_BUYING_FAVOR_OPTION_1_M"
+        },
+        {
+          "file": "eventOption-wog.xml",
+          "type": "EVENTOPTION_CALAMITIES_WILDFIRE_UNTOUCHED_DISCIPLE_MANICHAEISM"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CHILD_OF_GOD_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CONTENDER_OPTION_1_M"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_DEEP_DIVISIONS_OPTION_0_M"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_DEEP_DIVISIONS_OPTION_1_M"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_EVENTSTORY_CHRISTIAN_ASCETICISM_1"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_OPEN_DISSENT_OPTION_1_M"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_SACRED_SCRIPTURE_OPTION_1_M"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_SCHISM_OF_FAITH_OPTION_0_M"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_BASILICA_OPTION_0_MANICHAEISM"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_NEXT_JOURNEY_MANICHAEISM"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_UNEXPECTED_PATH_OKAY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_TO_TAKE_THE_CLOTH_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_UNWORTHY_CLERIC_OPTION_0"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_UNWORTHY_CLERIC_OPTION_1"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_A_WORLD_OF_LIGHT"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_BEMA"
+        },
+        {
+          "file": "eventStory-wog.xml",
+          "type": "EVENTSTORY_CALAMITIES_SANDSTORM_AD"
+        },
+        {
+          "file": "eventStory-wog.xml",
+          "type": "EVENTSTORY_CALAMITIES_WILDFIRE_UNTOUCHED_MANICHAEISM"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_DEALING_WITH_DISSENT_M"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_EPIGRAPHY_REFORM_MANICHAEISM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ERA_OF_UNIVERSAL_MANICHAEISM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_HOLY_SITE_MANICHAEISM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_MANICHAEISM_CATHEDRALS"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_MANICHAEISM_DISSENT"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_MANICHAEISM_FOUNDED_THEM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_MANICHAEISM_FOUNDED_THEM_STATE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_MANICHAEISM_FOUNDED_TIE_LOST"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_MANICHAEISM_FOUNDED_US"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_MANICHAEISM_FOUNDED_US_STATE"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_MANI_IN_EXILE"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_PRIEST_FROM_A_FOREIGN_LAND_M"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RELIGION_BANNED"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RELIGION_LIGHT_AND_DARK"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RELIGION_YOUR_BLESSING"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_REMOVE_CLERGY_HIDDEN"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_STUDY_INSPIRED_MANICHAEAN_HOLY_SITE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_TEMPLE_FROM_THE_EAST"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_CHURCH_OF_MANI"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_CHURCH_OF_MANI_THEM"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_CONFESSIONS"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_ELECT"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_GIFTED_OF_MANI"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_HEARERS"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_HELP_OF_ANOTHER_M"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_NEW_APOSTLES"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_SEVEN_BOOKS_OF_MANI"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_WAY_OF_MANI"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_TRIBAL_MINISTER_M"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_TURNING_MANI"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_TURNING_MANI_STATE"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_CATHEDRAL_MANICHAEISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_HOLY_SITE_MANICHAEISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_MONASTERY_MANICHAEISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_TEMPLE_MANICHAEISM"
+        },
+        {
+          "file": "mission.xml",
+          "type": "MISSION_QUELL_DISSENT_MANICHAEISM"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_MANICHAEISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_MANICHAEAN_HOLY_SITE"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CLERGY_MANICAHEAN"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_MANICHAEISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_TILE_TEMPLE_MANICHAEISM"
+        }
+      ]
+    },
+    {
+      "id": "a115",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_PERSIA",
+      "steamName": "Персидское язычество",
+      "steamCondition": "Основать персидское язычество",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "RELIGION_PAGAN_PERSIA"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_CONTENDER_OPTION_2_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_SHUNNED_CLERGY_OPTION_0_CHARACTER_2"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_STUDY_OF_FAITH_OPTION_0_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY_PAGAN"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MISSIONRESULT_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY_PAGAN"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_DISAPPOINTED"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_VENGEFUL"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CHILD_OF_GOD_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_EVENTSTORY_CHRISTIAN_ASCETICISM_1"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_UNEXPECTED_PATH_OKAY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_TO_TAKE_THE_CLOTH_YES"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PATRON_GODS_PERSIA"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PRIESTLY_DWELLING_PERSIA"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_REMOVE_CLERGY_HIDDEN"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_ANAHITA"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_ATAR"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_HVAR_KHSHAITA"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_MITHRA"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_PAGAN_PERSIA"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_ANAHITA"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_ATAR"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_HVAR_KHSHAITA"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_MITHRA"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_RELIGION_PERSIA"
+        }
+      ]
+    },
+    {
+      "id": "a021",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_ROME",
+      "steamName": "Римское язычество",
+      "steamCondition": "Основать римское язычество",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "RELIGION_PAGAN_ROME"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_CONTENDER_OPTION_2_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_SHUNNED_CLERGY_OPTION_0_CHARACTER_2"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_STUDY_OF_FAITH_OPTION_0_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY_PAGAN"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MISSIONRESULT_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY_PAGAN"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_DISAPPOINTED"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_VENGEFUL"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CHILD_OF_GOD_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_EVENTSTORY_CHRISTIAN_ASCETICISM_1"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_UNEXPECTED_PATH_OKAY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_TO_TAKE_THE_CLOTH_YES"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PATRON_GODS_ROME"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PRIESTLY_DWELLING_ROME"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_REMOVE_CLERGY_HIDDEN"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_WHERE_LIGHTNING_STRIKES"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_BELLONA"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_CERES"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_FERONIA"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_SOL"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_PAGAN_ROME"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_BELLONA"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_CERES"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_FERONIA"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_SOL"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_RELIGION_ROME"
+        }
+      ]
+    },
+    {
+      "id": "a040",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_HITTITE",
+      "steamName": "Хеттское язычество",
+      "steamCondition": "Основать хеттское язычество",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "RELIGION_PAGAN_HITTITE"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_CONTENDER_OPTION_2_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_SHUNNED_CLERGY_OPTION_0_CHARACTER_2"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_STUDY_OF_FAITH_OPTION_0_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY_PAGAN"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MISSIONRESULT_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY_PAGAN"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_DISAPPOINTED"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_VENGEFUL"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CHILD_OF_GOD_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_EVENTSTORY_CHRISTIAN_ASCETICISM_1"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_UNEXPECTED_PATH_OKAY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_TO_TAKE_THE_CLOTH_YES"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_PATRON_GODS_HITTITE"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_REMOVE_CLERGY_HIDDEN"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_RESPECT_FOR_THE_GODS"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_ARINNITTI"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_HALKI"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_KAMRUSEPA"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_SHRINE_TARHUN"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_PAGAN_HITTITE"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_ARINNITTI"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_HALKI"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_KAMRUSEPA"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_SHRINE_TARHUN"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_RELIGION_HITTITE"
+        }
+      ]
+    },
+    {
+      "id": "a102",
+      "apiName": "ACHIEVEMENT_RELIGION_CHRISTIANITY",
+      "steamName": "Христианство",
+      "steamCondition": "Основать христианство",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "RELIGION_CHRISTIANITY"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_BUYING_FAVOR_OPTION_1_CITY_C"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_COMMUNION_OPTION_0_CITY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_CONTENDER_OPTION_2_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_SHUNNED_CLERGY_OPTION_0_CHARACTER_2"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_BASILICA_OPTION_0_CITY_C"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_STUDY_OF_FAITH_OPTION_0_CHARACTER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_UNWORTHY_CLERIC_OPTION_0_CHARACTER_0"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_UNWORTHY_CLERIC_OPTION_1_CHARACTER_0"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTSTORY_THE_FOLLOWERS_OF_CHRIST_CITY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_IMPROVEMENT_TEMPLE_CHRISTIANITY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_MISSIONRESULT_MAKE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_REMOVE_CLERGY"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_DISAPPOINTED"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_WARLIKE_BISHOP_VENGEFUL"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_BUYING_FAVOR_OPTION_0_C"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_BUYING_FAVOR_OPTION_1_C"
+        },
+        {
+          "file": "eventOption-wog.xml",
+          "type": "EVENTOPTION_CALAMITIES_WILDFIRE_UNTOUCHED_DISCIPLE_CHRISTIANITY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CHILD_OF_GOD_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_CONTENDER_OPTION_1_C"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_DEEP_DIVISIONS_OPTION_0_C"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_DEEP_DIVISIONS_OPTION_1_C"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_EVENTSTORY_CHRISTIAN_ASCETICISM_1"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_OPEN_DISSENT_OPTION_1_C"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_SACRED_SCRIPTURE_OPTION_1_C"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_SCHISM_OF_FAITH_OPTION_0_C"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_BASILICA_OPTION_0_CHRISTIANITY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_NEXT_JOURNEY_CHRISTIANITY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_UNEXPECTED_PATH_OKAY"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_TO_TAKE_THE_CLOTH_YES"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_UNWORTHY_CLERIC_OPTION_0"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_UNWORTHY_CLERIC_OPTION_1"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_SACRED_PROFANE_PAUL_LEADER_EVENT"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ANTICHRIST"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_A_DAY_OF_REST"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_BAPTIZED_BEFORE_GOD"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_BE_VICTORIOUS_IN_THIS"
+        },
+        {
+          "file": "eventStory-wog.xml",
+          "type": "EVENTSTORY_CALAMITIES_END_POLYTHEISM"
+        },
+        {
+          "file": "eventStory-wog.xml",
+          "type": "EVENTSTORY_CALAMITIES_WILDFIRE_UNTOUCHED_CHRISTIANITY"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_CHRISTIANITY_FOUNDED_THEM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_CHRISTIANITY_FOUNDED_THEM_STATE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_CHRISTIANITY_FOUNDED_TIE_LOST"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_CHRISTIANITY_FOUNDED_US"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_CHRISTIANITY_FOUNDED_US_STATE"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_CHRISTIAN_APOLOGISTS"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_CHRISTIAN_ASCETICISM"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_CHRISTIAN_CATHEDRALS"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_CHRISTIAN_DISSENT"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_COMMUNION"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_CONFLICT_IN_HYPATIAS_CITY"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_DEALING_WITH_DISSENT_C"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_EASTER"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_EPIGRAPHY_REFORM_CHRISTIANITY"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ERA_OF_UNIVERSAL_CHRISTIANITY"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_HOLY_SITE_CHRISTIANITY"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_INCIDENT_AT_ANTIOCH"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_IN_HEAVEN_AS_ON_EARTH"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_MARTYR_DAYS"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_PRIEST_FROM_A_FOREIGN_LAND_C"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RELIGION_KINGDOM_OF_GOD"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RELIGION_THE_APOSTLES"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RELIGION_THE_CONVERTED"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RELIGION_THE_TWENTY_SAINTS"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_REMOVE_CLERGY_HIDDEN"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_REVELATION_ON_THE_ROAD_PERSECUTION"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_REVELATION_ON_THE_ROAD_TOLERANCE"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_SCHOOL_OF_REASON"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_STUDY_INSPIRED_CHRISTIAN_HOLY_SITE"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_ANGELIC_DIVINE"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_BISHOP"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_BOOK_AND_THE_SWORD"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_COMMANDER_SAUL"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_CONFESSIONS"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_DONATISTS"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_END_OF_ALL_THINGS"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_EVANGELICAL"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_FOLLOWERS_OF_CHRIST"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_HELP_OF_ANOTHER_C"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_WHORE_OF_BABYLON"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THREE_CROSSES"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_TRIBAL_MINISTER_C"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_WHERE_OLD_BONES_LIE"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_CATHEDRAL_CHRISTIANITY"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_CATHEDRAL_MANICHAEISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_HOLY_SITE_CHRISTIANITY"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_HOLY_SITE_MANICHAEISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_MONASTERY_CHRISTIANITY"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_MONASTERY_MANICHAEISM"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_TEMPLE_CHRISTIANITY"
+        },
+        {
+          "file": "improvement.xml",
+          "type": "IMPROVEMENT_TEMPLE_MANICHAEISM"
+        },
+        {
+          "file": "mission.xml",
+          "type": "MISSION_QUELL_DISSENT_CHRISTIANITY"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_CHRISTIANITY"
+        },
+        {
+          "file": "religion.xml",
+          "type": "RELIGION_MANICHAEISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CHRISTIANITY"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CITY_CHRISTIAN_HOLY_SITE"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CLERGY_CHRISTIAN"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_CLERGY_MANICAHEAN"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_MANICHAEISM"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_TILE_TEMPLE_CHRISTIANITY"
+        }
+      ]
+    },
+    {
+      "id": "a195",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_GREAT_MAGE",
+      "steamName": "Великий волхв",
+      "steamCondition": "Найти великого волхва (Божественное и мирское)",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": false,
+      "directAwardRecords": [
+        "BONUS_THE_LEGENDARY_MAGE"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_THE_LEGENDARY_MAGE"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_LEGENDARY_MAGE"
+        }
+      ]
+    },
+    {
+      "id": "a049",
+      "apiName": "ACHIEVEMENT_THEOLOGY_GNOSTICISM",
+      "steamName": "Гностицизм",
+      "steamCondition": "Основать гностицизм",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "THEOLOGY_GNOSTICISM"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_A_WORLD_OF_LIGHT_OPTION_1_RELIGION"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_A_WORLD_OF_LIGHT_OPTION_1"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_THEOLOGY_GNOSTICISM"
+        },
+        {
+          "file": "theology.xml",
+          "type": "THEOLOGY_GNOSTICISM"
+        }
+      ]
+    },
+    {
+      "id": "a027",
+      "apiName": "ACHIEVEMENT_THEOLOGY_DUALISM",
+      "steamName": "Дуализм",
+      "steamCondition": "Основать дуализм",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "THEOLOGY_DUALISM"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_OTHER_NATION_RELIGION_OPTION_0_RELIGION"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_OTHER_NATION_RELIGION_OPTION_0"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_WORLD_OF_THOUGHT"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ZURVANITES"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_THEOLOGY_DUALISM"
+        },
+        {
+          "file": "theology.xml",
+          "type": "THEOLOGY_DUALISM"
+        }
+      ]
+    },
+    {
+      "id": "a112",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_CLERGY_COURT",
+      "steamName": "Духовенство",
+      "steamCondition": "Кто-нибудь из духовенства должен присоединиться ко двору (Божественное и мирское)",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "ACHIEVEMENT_SACRED_PROFANE_CLERGY_COURT"
+      ],
+      "relatedRecords": [
+        {
+          "file": "achievement.xml",
+          "type": "ACHIEVEMENT_SACRED_PROFANE_CLERGY_COURT"
+        }
+      ]
+    },
+    {
+      "id": "a098",
+      "apiName": "ACHIEVEMENT_THEOLOGY_REDEMPTION",
+      "steamName": "Искупление",
+      "steamCondition": "Основать искупление",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "THEOLOGY_REDEMPTION"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_CADAVER_SYNOD_INNOCENT_PLAYER"
+        },
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_CONFESSIONS_OPTION_0_RELIGION_0"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_CADAVER_SYNOD_INNOCENT"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_CONFESSIONS_OPTION_0"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_FINAL_CONFESSION"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RIVAL_AT_THE_BRIDGE"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_SEEKING_REPENTANCE"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_THEOLOGY_REDEMPTION"
+        },
+        {
+          "file": "theology.xml",
+          "type": "THEOLOGY_REDEMPTION"
+        }
+      ]
+    },
+    {
+      "id": "a044",
+      "apiName": "ACHIEVEMENT_ONE_TRUE_FAITH",
+      "steamName": "Истинная вера",
+      "steamCondition": "Иметь не менее 3 городов и распространить свою государственную религию на все свои города",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "ACHIEVEMENT_ONE_TRUE_FAITH"
+      ],
+      "relatedRecords": [
+        {
+          "file": "achievement.xml",
+          "type": "ACHIEVEMENT_ONE_TRUE_FAITH"
+        }
+      ]
+    },
+    {
+      "id": "a050",
+      "apiName": "ACHIEVEMENT_THEOLOGY_MYTHOLOGY",
+      "steamName": "Мифология",
+      "steamCondition": "Основать мифологию",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "THEOLOGY_MYTHOLOGY"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_THE_ART_OF_ALLEGORY_OPTION_0_RELIGION_1"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_THE_ART_OF_ALLEGORY_OPTION_0"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_RUMORS_OF_OSTANES"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THE_DIVINE_PRIEST"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_THEOLOGY_MYTHOLOGY"
+        },
+        {
+          "file": "theology.xml",
+          "type": "THEOLOGY_MYTHOLOGY"
+        }
+      ]
+    },
+    {
+      "id": "a260",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_PILGRIMAGE",
+      "steamName": "Паломничество",
+      "steamCondition": "Один из ваших персонажей должен совершить паломничество (Божественное и мирское)",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": false,
+      "directAwardRecords": [
+        "BONUS_PILGRIMAGE_FINISHED_ACHIEVEMENT"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_PILGRIMAGE_FINISHED_ACHIEVEMENT"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_PILGRIMAGE_FINISHED_1"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_PILGRIMAGE_FINISHED_2"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_PILGRIMAGE_FINISHED_3"
+        }
+      ]
+    },
+    {
+      "id": "a287",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_ST_PAUL",
+      "steamName": "Патриарх святой Павел",
+      "steamCondition": "Сделать святого Павла патриархом христианства (Божественное и мирское)",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": false,
+      "directAwardRecords": [
+        "BONUS_ACHIEVEMENT_SACRED_PROFANE_PAUL_LEADER"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_ACHIEVEMENT_SACRED_PROFANE_PAUL_LEADER"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_SACRED_PROFANE_PAUL_LEADER_EVENT"
+        }
+      ]
+    },
+    {
+      "id": "a146",
+      "apiName": "ACHIEVEMENT_THEOLOGY_VENERATION",
+      "steamName": "Почитание",
+      "steamCondition": "Основать почитание",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "THEOLOGY_VENERATION"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_FINAL_REMEMBRANCE_OPTION_2_RELIGION"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_FINAL_REMEMBRANCE_OPTION_2"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_FOUNDING_AVESTAN"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_THEOLOGY_VENERATION"
+        },
+        {
+          "file": "theology.xml",
+          "type": "THEOLOGY_VENERATION"
+        }
+      ]
+    },
+    {
+      "id": "a147",
+      "apiName": "ACHIEVEMENT_THEOLOGY_REVELATION",
+      "steamName": "Прозрение",
+      "steamCondition": "Основать прозрение",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "THEOLOGY_REVELATION"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_A_WORLD_OF_LIGHT_OPTION_0_RELIGION"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_A_WORLD_OF_LIGHT_OPTION_0"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_RIVER_REVELATION"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_THE_END_OF_ALL_THINGS"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_THEOLOGY_REVELATION"
+        },
+        {
+          "file": "theology.xml",
+          "type": "THEOLOGY_REVELATION"
+        }
+      ]
+    },
+    {
+      "id": "a018",
+      "apiName": "ACHIEVEMENT_THEOLOGY_ENLIGHTENMENT",
+      "steamName": "Просветление",
+      "steamCondition": "Основать просветление",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "THEOLOGY_ENLIGHTENMENT"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_EVENTOPTION_FLIGHT_FROM_THE_BODY_OPTION_0_RELIGION"
+        },
+        {
+          "file": "eventOption-sap.xml",
+          "type": "EVENTOPTION_FLIGHT_FROM_THE_BODY_OPTION_0"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_THEOLOGY_ENLIGHTENMENT"
+        },
+        {
+          "file": "theology.xml",
+          "type": "THEOLOGY_ENLIGHTENMENT"
+        }
+      ]
+    },
+    {
+      "id": "a402",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_FIVE_CULTS",
+      "steamName": "Пять культов",
+      "steamCondition": "Иметь пять культов (Божественное и мирское)",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": false,
+      "directAwardRecords": [
+        "ACHIEVEMENT_SACRED_PROFANE_FIVE_CULTS"
+      ],
+      "relatedRecords": [
+        {
+          "file": "achievement.xml",
+          "type": "ACHIEVEMENT_SACRED_PROFANE_FIVE_CULTS"
+        }
+      ]
+    },
+    {
+      "id": "a401",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL",
+      "steamName": "Религиозный раскол",
+      "steamCondition": "Получить раскол во всех четырех мировых религиях одновременно (Божественное и мирское)",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": false,
+      "directAwardRecords": [
+        "BONUS_ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-sap.xml",
+          "type": "BONUS_ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL"
+        },
+        {
+          "file": "eventStory-sap.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL"
+        }
+      ]
+    },
+    {
+      "id": "a198",
+      "apiName": "ACHIEVEMENT_THE_WORD_OF_GOD",
+      "steamName": "Слово божье",
+      "steamCondition": "Сделать так, чтобы одновременно действовали законы «Единобожие», «Догматизм», «Иконопись» и «Паломничество»",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": false,
+      "directAwardRecords": [
+        "BONUS_ACHIEVEMENT_THE_WORD_OF_GOD"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_THE_WORD_OF_GOD"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_THE_WORD_OF_GOD"
+        }
+      ]
+    },
+    {
+      "id": "a107",
+      "apiName": "ACHIEVEMENT_THEOLOGY_LEGALISM",
+      "steamName": "Формализм",
+      "steamCondition": "Основать формализм",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "THEOLOGY_LEGALISM"
+      ],
+      "relatedRecords": [
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_THE_JUDGE_MITHRA"
+        },
+        {
+          "file": "subject.xml",
+          "type": "SUBJECT_THEOLOGY_LEGALISM"
+        },
+        {
+          "file": "theology.xml",
+          "type": "THEOLOGY_LEGALISM"
+        }
+      ]
+    },
+    {
+      "id": "a062",
+      "apiName": "ACHIEVEMENT_CULTURE_LEGENDARY",
+      "steamName": "Легендарные города",
+      "steamCondition": "Контролировать три легендарных города в одной игре",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "ACHIEVEMENT_CULTURE_LEGENDARY"
+      ],
+      "relatedRecords": [
+        {
+          "file": "achievement.xml",
+          "type": "ACHIEVEMENT_CULTURE_LEGENDARY"
+        }
+      ]
+    },
+    {
+      "id": "a113",
+      "apiName": "ACHIEVEMENT_STAT_TEN_LANDMARKS_NAME",
+      "steamName": "Названия достопримечательностей",
+      "steamCondition": "Дать названия десяти достопримечательностям в одной игре",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "ACHIEVEMENT_STAT_TEN_LANDMARKS_NAME"
+      ],
+      "relatedRecords": [
+        {
+          "file": "achievement.xml",
+          "type": "ACHIEVEMENT_STAT_TEN_LANDMARKS_NAME"
+        }
+      ]
+    },
+    {
+      "id": "a095",
+      "apiName": "ACHIEVEMENT_CULTURE_DEVELOPING",
+      "steamName": "Развивающиеся города",
+      "steamCondition": "Контролировать пять развивающихся городов в одной игре",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "ACHIEVEMENT_CULTURE_DEVELOPING"
+      ],
+      "relatedRecords": [
+        {
+          "file": "achievement.xml",
+          "type": "ACHIEVEMENT_CULTURE_DEVELOPING"
+        }
+      ]
+    },
+    {
+      "id": "a082",
+      "apiName": "ACHIEVEMENT_CULTURE_STRONG",
+      "steamName": "Сильные города",
+      "steamCondition": "Контролировать четыре сильных города в одной игре",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "ACHIEVEMENT_CULTURE_STRONG"
+      ],
+      "relatedRecords": [
+        {
+          "file": "achievement.xml",
+          "type": "ACHIEVEMENT_CULTURE_STRONG"
+        }
+      ]
+    },
+    {
+      "id": "a295",
+      "apiName": "ACHIEVEMENT_CALAMITIES_STEWARDS",
+      "steamName": "Хранители земли",
+      "steamCondition": "Контролировать троих хранителей земли (Wrath of Gods)",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": false,
+      "directAwardRecords": [
+        "BONUS_ACHIEVEMENT_CALAMITIES_STEWARDS"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus-event-wog.xml",
+          "type": "BONUS_ACHIEVEMENT_CALAMITIES_STEWARDS"
+        },
+        {
+          "file": "eventStory-wog.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_CALAMITIES_STEWARDS"
+        }
+      ]
+    },
+    {
+      "id": "a065",
+      "apiName": "ACHIEVEMENT_POWER_TO_THE_PEOPLE",
+      "steamName": "Власть народу",
+      "steamCondition": "Сделать так, чтобы одновременно действовали законы «Свобода», «Конституция», «Свод законов» и «Терпимость»",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "BONUS_ACHIEVEMENT_POWER_TO_THE_PEOPLE"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_POWER_TO_THE_PEOPLE"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_POWER_TO_THE_PEOPLE"
+        }
+      ]
+    },
+    {
+      "id": "a086",
+      "apiName": "ACHIEVEMENT_PANTHEON_OF_GODS",
+      "steamName": "Пантеон богов",
+      "steamCondition": "Сделать так, чтобы одновременно действовали законы «Многобожие», «Божественное правление» и «Священная война»",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "BONUS_ACHIEVEMENT_PANTHEON_OF_GODS"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_PANTHEON_OF_GODS"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_PANTHEON_OF_GODS"
+        }
+      ]
+    },
+    {
+      "id": "a090",
+      "apiName": "ACHIEVEMENT_OLD_WORLD_ORDER",
+      "steamName": "Старый мировой порядок",
+      "steamCondition": "Сделать так, чтобы одновременно действовали законы «Эпос», «Рабство» и «Тирания»",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "BONUS_ACHIEVEMENT_OLD_WORLD_ORDER"
+      ],
+      "relatedRecords": [
+        {
+          "file": "bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_OLD_WORLD_ORDER"
+        },
+        {
+          "file": "eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_OLD_WORLD_ORDER"
+        }
+      ]
+    },
+    {
+      "id": "a142",
+      "apiName": "ACHIEVEMENT_TECH_MILITARY_PRESTIGE",
+      "steamName": "Престиж военной службы",
+      "steamCondition": "Изучить технологию «Престиж военной службы»",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "TECH_MILITARY_PRESTIGE"
+      ],
+      "relatedRecords": [
+        {
+          "file": "tech.xml",
+          "type": "TECH_MILITARY_PRESTIGE"
+        }
+      ]
+    },
+    {
+      "id": "a143",
+      "apiName": "ACHIEVEMENT_TECH_INDUSTRIAL_PROGRESS",
+      "steamName": "Промышленный прогресс",
+      "steamCondition": "Изучить технологию «Промышленный прогресс»",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "TECH_INDUSTRIAL_PROGRESS"
+      ],
+      "relatedRecords": [
+        {
+          "file": "tech.xml",
+          "type": "TECH_INDUSTRIAL_PROGRESS"
+        }
+      ]
+    },
+    {
+      "id": "a139",
+      "apiName": "ACHIEVEMENT_TECH_ECONOMIC_REFORM",
+      "steamName": "Экономическая реформа",
+      "steamCondition": "Изучить технологию «Экономическая реформа»",
+      "verifiedBy": "installed XML and source code; not a full gameplay test",
+      "markedObtainedInAuthorExport": true,
+      "directAwardRecords": [
+        "TECH_ECONOMIC_REFORM"
+      ],
+      "relatedRecords": [
+        {
+          "file": "tech.xml",
+          "type": "TECH_ECONOMIC_REFORM"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Random event timing and every route were not playtested.",
+    "Steam editor rendering is not validated by the local HTML preview.",
+    "Card synchronization is documented separately in religion-development-card-changes.md."
+  ]
+}

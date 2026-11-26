@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-26",
+  "url": "https://steamcommunity.com/stats/597180/achievements/?l=russian",
+  "language": "russian",
+  "requestLanguage": "Steam_Language=russian cookie; Accept-Language: ru-RU",
+  "totalEntries": 408,
+  "entries": [
+    {
+      "id": "a128",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_1",
+      "steam": [
+        "Учимся играть 1",
+        "Пройти 1-й сценарий из серии «Учимся играть»"
+      ],
+      "matchesCard": true
+    },
+    {
+      "id": "a127",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_2",
+      "steam": [
+        "Учимся играть 2",
+        "Пройти 2-й сценарий из серии «Учимся играть»"
+      ],
+      "matchesCard": true
+    },
+    {
+      "id": "a126",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_3",
+      "steam": [
+        "Учимся играть 3",
+        "Пройти 3-й сценарий из серии «Учимся играть»"
+      ],
+      "matchesCard": true
+    },
+    {
+      "id": "a125",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_4",
+      "steam": [
+        "Учимся играть 4",
+        "Пройти 4-й сценарий из серии «Учимся играть»"
+      ],
+      "matchesCard": true
+    },
+    {
+      "id": "a124",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_5",
+      "steam": [
+        "Учимся играть 5",
+        "Пройти 5-й сценарий из серии «Учимся играть»"
+      ],
+      "matchesCard": true
+    },
+    {
+      "id": "a054",
+      "apiName": "ACHIEVEMENT_LBP1",
+      "steam": [
+        "Учимся играть 1 — Способный",
+        "Пройти «Учимся играть 1 — Способный»"
+      ],
+      "matchesCard": false
+    },
+    {
+      "id": "a212",
+      "apiName": "ACHIEVEMENT_LBP2",
+      "steam": [
+        "Учимся играть 2 — Справедливый",
+        "Пройти «Учимся играть 2 — Справедливый»"
+      ],
+      "matchesCard": false
+    },
+    {
+      "id": "a246",
+      "apiName": "ACHIEVEMENT_LBP3",
+      "steam": [
+        "Учимся играть 3 — Добрый",
+        "Пройти «Учимся играть 3 — Добрый»"
+      ],
+      "matchesCard": false
+    },
+    {
+      "id": "a258",
+      "apiName": "ACHIEVEMENT_LBP4",
+      "steam": [
+        "Учимся играть 4 — Сильный",
+        "Пройти «Учимся играть 4 — Сильный»"
+      ],
+      "matchesCard": false
+    },
+    {
+      "id": "a353",
+      "apiName": "ACHIEVEMENT_BARBARIAN_INVASION_GREAT_RAGING",
+      "steam": [
+        "Великая орда варваров",
+        "Пережить нападение орды варваров на уровне сложности «Великий» с уровнем племен «Яростные»"
+      ],
+      "matchesCard": true
+    },
+    {
+      "id": "a316",
+      "apiName": "ACHIEVEMENT_BARBARIAN_INVASION_MULTIPLAYER",
+      "steam": [
+        "Вместе против орды",
+        "Пережить нападение орды варваров с друзьями"
+      ],
+      "matchesCard": true
+    },
+    {
+      "id": "a250",
+      "apiName": "ACHIEVEMENT_BARBARIAN_INVASION",
+      "steam": [
+        "Орда варваров",
+        "Пережить нападение орды варваров"
+      ],
+      "matchesCard": true
+    }
+  ]
+}

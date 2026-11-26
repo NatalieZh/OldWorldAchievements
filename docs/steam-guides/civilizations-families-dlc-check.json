@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-26",
+  "scope": "Direct required content from improvement/nation XML; no new gameplay test",
+  "requirements": [
+    {
+      "id": "a247",
+      "gameContentRequired": [
+        "AKSUM"
+      ],
+      "cardDlc": "Wrath of Gods"
+    },
+    {
+      "id": "a185",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a055",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a043",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a030",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a158",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a217",
+      "gameContentRequired": [
+        "PHARAOHS"
+      ],
+      "cardDlc": "Pharaohs of the Nile"
+    },
+    {
+      "id": "a087",
+      "gameContentRequired": [
+        "EMPIRES_OF_THE_INDUS"
+      ],
+      "cardDlc": "Empires of the Indus"
+    },
+    {
+      "id": "a078",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a017",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a344",
+      "gameContentRequired": [
+        "EMPIRES_OF_THE_INDUS"
+      ],
+      "cardDlc": "Empires of the Indus"
+    },
+    {
+      "id": "a033",
+      "gameContentRequired": [
+        "NATION_HITTITES"
+      ],
+      "cardDlc": "Heroes of the Aegean"
+    },
+    {
+      "id": "a345",
+      "gameContentRequired": [
+        "EMPIRES_OF_THE_INDUS"
+      ],
+      "cardDlc": "Empires of the Indus"
+    },
+    {
+      "id": "a016",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a076",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a029",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a052",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a042",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a075",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a041",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a077",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a156",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a053",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    }
+  ]
+}

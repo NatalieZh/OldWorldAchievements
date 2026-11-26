@@ -1,0 +1,829 @@
+{
+  "date": "2026-11-25",
+  "count": 33,
+  "scope": "Religion and development guide corrections; RU and EN; no Hotseat rule",
+  "changes": [
+    {
+      "id": "a008",
+      "name": "Манихейство",
+      "fields": {
+        "guide": {
+          "before": "Основать манихейство: изучить технологию «Монашество»; в мире должны быть минимум 2 города с христианством и 2 города с зороастризмом.",
+          "after": "Основать манихейство раньше соперников. Нужна «Метафизика»; в мире должно быть минимум по 2 города с христианством и зороастризмом."
+        },
+        "tactic": {
+          "before": "Это поздняя мировая религия. Не подавляй христианство и зороастризм слишком рано: для основания нужны обе религии, уже распространённые минимум на два города каждая.",
+          "after": "Поддержи распространение обеих религий и изучи «Метафизику». «Монашество» не является прямым требованием основания."
+        },
+        "englishGuide": {
+          "before": "Found Manichaeism: research Monasticism and have at least 2 Christian cities and 2 Zoroastrian cities in the world.",
+          "after": "Found Manichaeism before a rival does. The standard requirements are Metaphysics and at least 2 Christian cities and 2 Zoroastrian cities anywhere in the world."
+        },
+        "englishTactic": {
+          "before": "This is a late World Religion. Do not suppress Christianity or Zoroastrianism too early: both must have spread to at least 2 cities.",
+          "after": "Support the spread of both religions and research Metaphysics. Monasticism is not the direct founding requirement."
+        }
+      }
+    },
+    {
+      "id": "a013",
+      "name": "Буддизм",
+      "fields": {
+        "dlc": {
+          "before": "Основная игра / другое",
+          "after": "Empires of the Indus"
+        },
+        "guide": {
+          "before": "Основать буддизм (Empires of the Indus). За Маурьев буддизм можно основать через их уникальный проект; для других наций в описании DLC указан альтернативный путь после появления четырёх мировых теологий и принятия закона «Философия».",
+          "after": "С Empires of the Indus за Маурьев можно завершить уникальный проект основания буддизма в городе с культурой «Развивающаяся» или выше, обходя обычные предпосылки. Общий путь: в мире основаны минимум 4 теологии и у твоей державы действует «Философия». Религия ещё не должна быть основана."
+        },
+        "tactic": {
+          "before": "Самый контролируемый путь — партия за Маурьев и целенаправленное выполнение их буддийского проекта. Для других наций это существенно позднее и зависит от развития религий мира.",
+          "after": "Для отдельной попытки удобно выбрать Маурьев. В общем пути четыре теологии считаются по всему миру, а не только в твоей религии."
+        },
+        "dlcName": {
+          "before": "Основная игра",
+          "after": "Empires of the Indus"
+        },
+        "englishGuide": {
+          "before": "Found Buddhism (Empires of the Indus). The Maurya can use their unique project; for other Nations, the DLC describes a later route after four World Theologies have been founded and the Philosophy Law has been enacted.",
+          "after": "With Empires of the Indus, the Maurya can complete their unique Buddhism founding project in a city with Developing Culture or higher, bypassing the normal prerequisites. The general route requires at least 4 Theologies founded worldwide and an active Philosophy Law in your Nation. Buddhism must not already be founded."
+        },
+        "englishTactic": {
+          "before": "The most controllable route is to play the Maurya and complete their Buddhist project. Other Nations depend on later religious development across the world.",
+          "after": "Choose the Maurya for a dedicated attempt. On the general route, the four Theologies are counted across the world, not only in your State Religion."
+        }
+      }
+    },
+    {
+      "id": "a018",
+      "name": "Просветление",
+      "fields": {
+        "guide": {
+          "before": "Сделать мировую религию государственной, обучить её последователя и этим последователем основать теологию «Просветление», предварительно изучив технологию «Лесное хозяйство». Стоимость основания — 600 ед. соцкапитала.",
+          "after": "Основать «Просветление» последователем своей государственной религии. Ступень 3; стоимость — 600 соцкапитала. Нужна технология «Лесничество». В религии уже должно быть 2 учения; выбирается один вариант этой ступени."
+        },
+        "tactic": {
+          "before": "Сначала прими нужную мировую религию как государственную (это открывает основание теологий), накопи не менее 600 ед. соцкапитала и держи ученика готовым. Один ученик основывает одну теологию.",
+          "after": "Подготовь последователя и соцкапитал. Юнит расходуется при основании. Для других вариантов той же ступени используй другую религию или новую партию."
+        },
+        "englishGuide": {
+          "before": "Adopt a World Religion as your State Religion, train one of its Disciples, and use that Disciple to found the Enlightenment Theology. Research Forestry first. Founding costs 600 Civics.",
+          "after": "Found Enlightenment using a Disciple of your State Religion. It is tier 3 and costs 600 Civics. Research Forestry first. The religion must already have 2 Theologies; choose one option at this tier."
+        },
+        "englishTactic": {
+          "before": "Make the World Religion your State Religion first, save at least 600 Civics, and have a Disciple ready. Research Forestry before trying to found the Theology. One Disciple can found one Theology.",
+          "after": "Prepare a Disciple and Civics. The unit is consumed on founding. Use another religion or a new game for other options at the same tier."
+        },
+        "editor": {
+          "before": "Частично — редактор позволяет добавить религию в города, но это не считается её основанием. Для надёжного получения выполни условие основания религии в обычной игре.",
+          "after": "Частично — редактор может подготовить религию и ресурсы, но для получения заверши основание нужной теологии последователем в обычной игре; само добавление религии в город её не заменяет."
+        },
+        "englishEditor": {
+          "before": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay.",
+          "after": "Partly — the Editor can prepare a religion and resources, but found the required Theology with a Disciple through normal gameplay. Merely adding the religion to a city does not replace founding its Theology."
+        }
+      }
+    },
+    {
+      "id": "a027",
+      "name": "Дуализм",
+      "fields": {
+        "guide": {
+          "before": "Сделать мировую религию государственной, обучить её последователя и этим последователем основать теологию «Дуализм», предварительно изучив технологию «Риторика». Стоимость основания — 400 ед. соцкапитала.",
+          "after": "Основать «Дуализм» последователем своей государственной религии. Ступень 2; стоимость — 400 соцкапитала. Нужна технология «Риторика». В религии уже должно быть 1 учение; выбирается один вариант этой ступени."
+        },
+        "tactic": {
+          "before": "Сначала прими нужную мировую религию как государственную (это открывает основание теологий), накопи не менее 400 ед. соцкапитала и держи ученика готовым. Один ученик основывает одну теологию.",
+          "after": "Подготовь последователя и соцкапитал. Юнит расходуется при основании. Для других вариантов той же ступени используй другую религию или новую партию."
+        },
+        "englishGuide": {
+          "before": "Adopt a World Religion as your State Religion, train one of its Disciples, and use that Disciple to found the Dualism Theology. Research Rhetoric first. Founding costs 400 Civics.",
+          "after": "Found Dualism using a Disciple of your State Religion. It is tier 2 and costs 400 Civics. Research Rhetoric first. The religion must already have 1 Theology; choose one option at this tier."
+        },
+        "englishTactic": {
+          "before": "Make the World Religion your State Religion first, save at least 400 Civics, and have a Disciple ready. Research Rhetoric before trying to found the Theology. One Disciple can found one Theology.",
+          "after": "Prepare a Disciple and Civics. The unit is consumed on founding. Use another religion or a new game for other options at the same tier."
+        },
+        "editor": {
+          "before": "Частично — редактор позволяет добавить религию в города, но это не считается её основанием. Для надёжного получения выполни условие основания религии в обычной игре.",
+          "after": "Частично — редактор может подготовить религию и ресурсы, но для получения заверши основание нужной теологии последователем в обычной игре; само добавление религии в город её не заменяет."
+        },
+        "englishEditor": {
+          "before": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay.",
+          "after": "Partly — the Editor can prepare a religion and resources, but found the required Theology with a Disciple through normal gameplay. Merely adding the religion to a city does not replace founding its Theology."
+        }
+      }
+    },
+    {
+      "id": "a040",
+      "name": "Хеттское язычество",
+      "fields": {
+        "dlc": {
+          "before": "Основная игра / другое",
+          "after": "Heroes of the Aegean"
+        },
+        "tactic": {
+          "before": "Это удобно делать в начале партии: изучи/используй доступ к святилищам и построй первое святилище как можно раньше. Языческие религии привязаны к нации и не используют учеников или теологии.",
+          "after": "Заверши первое национальное святилище на своей территории. Достижение даёт основание религии; последующее распространение уже существующей религии его не заменяет."
+        },
+        "dlcName": {
+          "before": "Основная игра",
+          "after": "Heroes of the Aegean"
+        },
+        "englishGuide": {
+          "before": "Play as Hittites and complete your first Shrine. A Nation's first Shrine founds its Pagan religion, Hittite Paganism.",
+          "after": "Play as the Hittites, available through Heroes of the Aegean, and complete your first national Shrine to found Hittite Paganism."
+        },
+        "englishTactic": {
+          "before": "Do this early: unlock a national Shrine and build it as soon as you can. Pagan religions are tied to the Nation; they do not require a Disciple or a Theology.",
+          "after": "Complete the Shrine in your own territory before the religion is founded. Spreading an already founded religion does not replace founding it."
+        }
+      }
+    },
+    {
+      "id": "a044",
+      "name": "Истинная вера",
+      "fields": {
+        "guide": {
+          "before": "Иметь минимум 3 собственных города и сделать одну мировую религию государственной, после чего распространить её во все свои города.",
+          "after": "Победить, имея минимум 3 собственных города и государственную религию во всех своих городах. Краткое условие Steam не упоминает победу, но код выдаёт достижение при обработке победы."
+        },
+        "tactic": {
+          "before": "Проще выполнять при небольшом числе городов: сначала доведи империю до 3 городов, прими религию как государственную, затем учениками распространи её во все три. Не основывай новые города до срабатывания достижения.",
+          "after": "Перед победой проверь каждый город, включая недавно основанные и захваченные. Одного распространения религии в середине партии недостаточно."
+        },
+        "editor": {
+          "before": "Частично — редактор позволяет добавить религию в города, но государственную религию и её распространение по всем своим городам надёжнее оформить обычными игровыми действиями.",
+          "after": "Частично — редактор может подготовить наличие религии в городах, но достижение проверяется при победе. Нужны минимум три своих города и государственная религия во всех."
+        },
+        "englishGuide": {
+          "before": "Own at least 3 cities, adopt a World Religion as your State Religion, and spread it to every one of your cities.",
+          "after": "Win with at least 3 cities of your own and your State Religion present in every one of your cities. The short Steam description omits victory, but the current code awards this achievement during victory processing."
+        },
+        "englishTactic": {
+          "before": "Keep the empire small: reach 3 cities, adopt the Religion, and use Disciples to spread it to all 3. Avoid founding more cities before the achievement triggers.",
+          "after": "Check every city before winning, including newly founded or captured cities. Spreading your State Religion during an unfinished game is not enough."
+        },
+        "englishEditor": {
+          "before": "Partly — the Game Editor can add Religion to cities, but adopting a State Religion and spreading it to all your cities are best completed through normal gameplay.",
+          "after": "Partly — the Editor can prepare religious presence, but the achievement is checked on victory. Own at least three cities with your State Religion in all of them."
+        }
+      }
+    },
+    {
+      "id": "a049",
+      "name": "Гностицизм",
+      "fields": {
+        "guide": {
+          "before": "Сделать мировую религию государственной, обучить её последователя и этим последователем основать теологию «Гностицизм», предварительно изучив технологию «Драма». Стоимость основания — 400 ед. соцкапитала.",
+          "after": "Основать «Гностицизм» последователем своей государственной религии. Ступень 2; стоимость — 400 соцкапитала. Нужна технология «Драма». В религии уже должно быть 1 учение; выбирается один вариант этой ступени."
+        },
+        "tactic": {
+          "before": "Сначала прими нужную мировую религию как государственную (это открывает основание теологий), накопи не менее 400 ед. соцкапитала и держи ученика готовым. Один ученик основывает одну теологию.",
+          "after": "Подготовь последователя и соцкапитал. Юнит расходуется при основании. Для других вариантов той же ступени используй другую религию или новую партию."
+        },
+        "englishGuide": {
+          "before": "Adopt a World Religion as your State Religion, train one of its Disciples, and use that Disciple to found the Gnosticism Theology. Research Drama first. Founding costs 400 Civics.",
+          "after": "Found Gnosticism using a Disciple of your State Religion. It is tier 2 and costs 400 Civics. Research Drama first. The religion must already have 1 Theology; choose one option at this tier."
+        },
+        "englishTactic": {
+          "before": "Make the World Religion your State Religion first, save at least 400 Civics, and have a Disciple ready. Research Drama before trying to found the Theology. One Disciple can found one Theology.",
+          "after": "Prepare a Disciple and Civics. The unit is consumed on founding. Use another religion or a new game for other options at the same tier."
+        },
+        "editor": {
+          "before": "Частично — редактор позволяет добавить религию в города, но это не считается её основанием. Для надёжного получения выполни условие основания религии в обычной игре.",
+          "after": "Частично — редактор может подготовить религию и ресурсы, но для получения заверши основание нужной теологии последователем в обычной игре; само добавление религии в город её не заменяет."
+        },
+        "englishEditor": {
+          "before": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay.",
+          "after": "Partly — the Editor can prepare a religion and resources, but found the required Theology with a Disciple through normal gameplay. Merely adding the religion to a city does not replace founding its Theology."
+        }
+      }
+    },
+    {
+      "id": "a050",
+      "name": "Мифология",
+      "fields": {
+        "guide": {
+          "before": "Сделать мировую религию государственной, обучить её последователя и этим последователем основать теологию «Мифология». Стоимость основания — 200 ед. соцкапитала.",
+          "after": "Основать «Мифология» последователем своей государственной религии. Ступень 1; стоимость — 200 соцкапитала. Дополнительная технология не нужна. Это первое учение религии."
+        },
+        "tactic": {
+          "before": "Сначала прими нужную мировую религию как государственную (это открывает основание теологий), накопи не менее 200 ед. соцкапитала и держи ученика готовым. Один ученик основывает одну теологию.",
+          "after": "Подготовь последователя и соцкапитал. Юнит расходуется при основании. Для других вариантов той же ступени используй другую религию или новую партию."
+        },
+        "englishGuide": {
+          "before": "Adopt a World Religion as your State Religion, train one of its Disciples, and use that Disciple to found the Mythology Theology. Founding costs 200 Civics.",
+          "after": "Found Mythology using a Disciple of your State Religion. It is tier 1 and costs 200 Civics. No additional Technology is required. This is the religion's first Theology."
+        },
+        "englishTactic": {
+          "before": "Make the World Religion your State Religion first, save at least 200 Civics, and have a Disciple ready. One Disciple can found one Theology.",
+          "after": "Prepare a Disciple and Civics. The unit is consumed on founding. Use another religion or a new game for other options at the same tier."
+        },
+        "editor": {
+          "before": "Частично — редактор позволяет добавить религию в города, но это не считается её основанием. Для надёжного получения выполни условие основания религии в обычной игре.",
+          "after": "Частично — редактор может подготовить религию и ресурсы, но для получения заверши основание нужной теологии последователем в обычной игре; само добавление религии в город её не заменяет."
+        },
+        "englishEditor": {
+          "before": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay.",
+          "after": "Partly — the Editor can prepare a religion and resources, but found the required Theology with a Disciple through normal gameplay. Merely adding the religion to a city does not replace founding its Theology."
+        }
+      }
+    },
+    {
+      "id": "a062",
+      "name": "Легендарные города",
+      "fields": {
+        "guide": {
+          "before": "Одновременно контролировать минимум 3 легендарных города. Уровень культуры города повышается по мере накопления культуры.",
+          "after": "Одновременно иметь минимум 3 города ровно с уровнем культуры «Легендарная». Более высокий уровень не заменяет требуемый: код считает точное совпадение."
+        },
+        "tactic": {
+          "before": "Развивай несколько городов параллельно: культурные здания, специалисты, чудеса и события ускоряют рост культуры. Достижение требует одновременно иметь нужное количество городов требуемого уровня.",
+          "after": "Выбери три города для долгого культурного развития и сохраняй их под своим контролем. Ускоряй рост культуры специалистами, сооружениями и чудесами. Проверка срабатывает при обновлении культурного уровня города."
+        },
+        "englishGuide": {
+          "before": "Control at least 3 Legendary cities at the same time. A city's Culture level rises as it accumulates Culture.",
+          "after": "Control at least 3 cities at exactly the Legendary Culture level simultaneously. Higher levels do not substitute for the required level: the current code counts exact matches."
+        },
+        "englishTactic": {
+          "before": "Develop several cities in parallel. Cultural buildings, Specialists, Wonders, and Events speed up Culture growth. You must control the required number of cities at the required level simultaneously.",
+          "after": "Develop the cities in parallel and keep them under your control. The check runs when a city's Culture level updates. Use Specialists, buildings, and Wonders to increase Culture."
+        }
+      }
+    },
+    {
+      "id": "a065",
+      "name": "Власть народу",
+      "fields": {
+        "condition": {
+          "before": "Сделать так, чтобы одновременно действовали законы «Свобода», «Конституция», «Свод. законов» и «Терпимость»",
+          "after": "Сделать так, чтобы одновременно действовали законы «Свобода», «Конституция», «Свод законов» и «Терпимость»"
+        },
+        "guide": {
+          "before": "Одновременно держать активными законы «Свобода», «Учредительный закон», «Свод законов» и «Терпимость». Нужные пары открываются технологиями «Рабочая сила», «Верховная власть», «Гражданство» и «Вероучение».",
+          "after": "Одновременно включить «Свободу», «Конституцию», «Свод законов» и «Терпимость». Пары открывают «Рабочая сила», «Суверенитет», «Гражданство» и «Доктрина»."
+        },
+        "tactic": {
+          "before": "Не выбирай противоположные законы «Рабство», «Тирания», «Божественное правление» и «Догматизм» в момент финальной сборки. Накопи соцкапитал на переключения и в один период выставь все четыре нужных закона.",
+          "after": "Подготовь соцкапитал и оставь все четыре закона активными до проверки в начале следующего хода."
+        },
+        "englishGuide": {
+          "before": "Have Freedom, Constitution, Legal Code, and Tolerance enacted at the same time. Their law pairs are unlocked by Labor Force, Sovereignty, Citizenship, and Doctrine, respectively.",
+          "after": "Have Freedom, Constitution, Legal Code, and Tolerance active together. Labor Force, Sovereignty, Citizenship, and Doctrine unlock the respective Law pairs."
+        },
+        "englishTactic": {
+          "before": "Do not leave Slavery, Tyranny, Divine Rule, or Orthodoxy active when assembling the final combination. Save Civics for law changes and enact all four required laws at once.",
+          "after": "Save Civics and leave all four Laws active until the start of the next turn, when the achievement is checked."
+        }
+      }
+    },
+    {
+      "id": "a082",
+      "name": "Сильные города",
+      "fields": {
+        "guide": {
+          "before": "Одновременно контролировать минимум 4 сильных города. Уровень культуры города повышается по мере накопления культуры.",
+          "after": "Одновременно иметь минимум 4 города ровно с уровнем культуры «Развитая». Более высокий уровень не заменяет требуемый: код считает точное совпадение. Название Steam «Сильные города» соответствует уровню «Развитая»."
+        },
+        "tactic": {
+          "before": "Развивай несколько городов параллельно: культурные здания, специалисты, чудеса и события ускоряют рост культуры. Достижение требует одновременно иметь нужное количество городов требуемого уровня.",
+          "after": "Развивай города параллельно. Для низких уровней следи, чтобы первые города не перешли на следующую ступень слишком рано. Проверка срабатывает при обновлении культурного уровня города."
+        },
+        "englishGuide": {
+          "before": "Control at least 4 Strong cities at the same time. A city's Culture level rises as it accumulates Culture.",
+          "after": "Control at least 4 cities at exactly the Strong Culture level simultaneously. Higher levels do not substitute for the required level: the current code counts exact matches."
+        },
+        "englishTactic": {
+          "before": "Develop several cities in parallel. Cultural buildings, Specialists, Wonders, and Events speed up Culture growth. You must control the required number of cities at the required level simultaneously.",
+          "after": "Develop the cities in parallel and keep them under your control. The check runs when a city's Culture level updates. For the lower-level goals, prevent the first cities from advancing to the next level too early."
+        }
+      }
+    },
+    {
+      "id": "a086",
+      "name": "Пантеон богов",
+      "fields": {
+        "guide": {
+          "before": "Одновременно держать законы «Многобожие», «Божественное правление» и «Священная война». Это три закона из разных взаимоисключающих пар.",
+          "after": "Одновременно включить «Многобожие», «Божественное правление» и «Священную войну». Пары открывают «Монашество», «Гражданство» и «Боевой кодекс»."
+        },
+        "tactic": {
+          "before": "Заранее открой соответствующие категории законов, накопи соцкапитал и переключи каждую пару на нужную сторону. Следи, чтобы «Единобожие», «Свод законов» или «Паломничество» не заменяли требуемые варианты.",
+          "after": "Подготовь соцкапитал и оставь три закона активными до следующего хода. Их противоположные варианты — «Единобожие», «Свод законов» и «Паломничество»."
+        },
+        "englishGuide": {
+          "before": "Have Polytheism, Divine Rule, and Holy War enacted at the same time. They belong to three different mutually exclusive law pairs.",
+          "after": "Have Polytheism, Divine Rule, and Holy War active together. Monasticism, Citizenship, and Martial Code unlock the respective Law pairs."
+        },
+        "englishTactic": {
+          "before": "Unlock the relevant law categories and save Civics before switching each pair to the required option. Do not let Monotheism, Legal Code, or Pilgrimage replace them.",
+          "after": "Save Civics and keep the three Laws active until the next turn. Their alternatives are Monotheism, Legal Code, and Pilgrimage."
+        }
+      }
+    },
+    {
+      "id": "a090",
+      "name": "Старый мировой порядок",
+      "fields": {
+        "guide": {
+          "before": "Одновременно держать законы «Эпос», «Рабство» и «Тирания». Они открываются технологиями «Риторика», «Рабочая сила» и «Верховная власть» соответственно.",
+          "after": "Одновременно включить «Эпос», «Рабство» и «Тиранию». Пары открывают «Риторика», «Рабочая сила» и «Суверенитет»."
+        },
+        "tactic": {
+          "before": "Это ранне-средняя комбинация. Исследуй три нужные технологии и не переключай пары на «Дальнюю разведку», «Свободу» и «Учредительный закон» до получения достижения.",
+          "after": "Не переключай пары на «Открытие земель», «Свободу» и «Конституцию» до проверки в начале нового хода. Позже можно собрать другой набор для другого достижения."
+        },
+        "englishGuide": {
+          "before": "Have Epics, Slavery, and Tyranny enacted at the same time. They are unlocked by Rhetoric, Labor Force, and Sovereignty, respectively.",
+          "after": "Have Epics, Slavery, and Tyranny active together. Rhetoric, Labor Force, and Sovereignty unlock the respective Law pairs."
+        },
+        "englishTactic": {
+          "before": "This is an early-to-midgame combination. Research the three required Technologies and do not switch the pairs to Exploration, Freedom, or Constitution before receiving the achievement.",
+          "after": "Do not switch to Exploration, Freedom, or Constitution before the new-turn check. You may later assemble another set for a different achievement."
+        }
+      }
+    },
+    {
+      "id": "a095",
+      "name": "Развивающиеся города",
+      "fields": {
+        "guide": {
+          "before": "Одновременно контролировать минимум 5 развивающихся городов. Уровень культуры города повышается по мере накопления культуры.",
+          "after": "Одновременно иметь минимум 5 городов ровно с уровнем культуры «Развивающаяся». Более высокий уровень не заменяет требуемый: код считает точное совпадение."
+        },
+        "tactic": {
+          "before": "Развивай несколько городов параллельно: культурные здания, специалисты, чудеса и события ускоряют рост культуры. Достижение требует одновременно иметь нужное количество городов требуемого уровня.",
+          "after": "Развивай города параллельно. Для низких уровней следи, чтобы первые города не перешли на следующую ступень слишком рано. Проверка срабатывает при обновлении культурного уровня города."
+        },
+        "englishGuide": {
+          "before": "Control at least 5 Developing cities at the same time. A city's Culture level rises as it accumulates Culture.",
+          "after": "Control at least 5 cities at exactly the Developing Culture level simultaneously. Higher levels do not substitute for the required level: the current code counts exact matches."
+        },
+        "englishTactic": {
+          "before": "Develop several cities in parallel. Cultural buildings, Specialists, Wonders, and Events speed up Culture growth. You must control the required number of cities at the required level simultaneously.",
+          "after": "Develop the cities in parallel and keep them under your control. The check runs when a city's Culture level updates. For the lower-level goals, prevent the first cities from advancing to the next level too early."
+        }
+      }
+    },
+    {
+      "id": "a098",
+      "name": "Искупление",
+      "fields": {
+        "guide": {
+          "before": "Сделать мировую религию государственной, обучить её последователя и этим последователем основать теологию «Искупление», предварительно изучив технологию «Метафизика». Стоимость основания — 600 ед. соцкапитала.",
+          "after": "Основать «Искупление» последователем своей государственной религии. Ступень 3; стоимость — 600 соцкапитала. Нужна технология «Метафизика». В религии уже должно быть 2 учения; выбирается один вариант этой ступени."
+        },
+        "tactic": {
+          "before": "Сначала прими нужную мировую религию как государственную (это открывает основание теологий), накопи не менее 600 ед. соцкапитала и держи ученика готовым. Один ученик основывает одну теологию.",
+          "after": "Подготовь последователя и соцкапитал. Юнит расходуется при основании. Для других вариантов той же ступени используй другую религию или новую партию."
+        },
+        "englishGuide": {
+          "before": "Adopt a World Religion as your State Religion, train one of its Disciples, and use that Disciple to found the Redemption Theology. Research Metaphysics first. Founding costs 600 Civics.",
+          "after": "Found Redemption using a Disciple of your State Religion. It is tier 3 and costs 600 Civics. Research Metaphysics first. The religion must already have 2 Theologies; choose one option at this tier."
+        },
+        "englishTactic": {
+          "before": "Make the World Religion your State Religion first, save at least 600 Civics, and have a Disciple ready. Research Metaphysics before trying to found the Theology. One Disciple can found one Theology.",
+          "after": "Prepare a Disciple and Civics. The unit is consumed on founding. Use another religion or a new game for other options at the same tier."
+        },
+        "editor": {
+          "before": "Частично — редактор позволяет добавить религию в города, но это не считается её основанием. Для надёжного получения выполни условие основания религии в обычной игре.",
+          "after": "Частично — редактор может подготовить религию и ресурсы, но для получения заверши основание нужной теологии последователем в обычной игре; само добавление религии в город её не заменяет."
+        },
+        "englishEditor": {
+          "before": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay.",
+          "after": "Partly — the Editor can prepare a religion and resources, but found the required Theology with a Disciple through normal gameplay. Merely adding the religion to a city does not replace founding its Theology."
+        }
+      }
+    },
+    {
+      "id": "a102",
+      "name": "Христианство",
+      "fields": {
+        "guide": {
+          "before": "Основать христианство: изучить технологию «Метафизика»; в мире должны быть минимум 2 города с иудаизмом, один из них — твой; также нужно 12 граждан.",
+          "after": "Для обычного основания христианства нужны суммарно 12 граждан в своей державе и минимум 3 города с иудаизмом во всём мире. Отдельного требования «Метафизики» или иудаизма именно в своём городе в текущей записи религии нет."
+        },
+        "tactic": {
+          "before": "Сначала добейся появления иудаизма и его распространения в свой город. Затем наращивай население до 12 граждан и исследуй технологию «Метафизика».",
+          "after": "Наращивай население нескольких городов и следи за распространением иудаизма в мире. Религию нужно основать раньше соперников."
+        },
+        "englishGuide": {
+          "before": "Found Christianity: research Metaphysics, have at least 2 Jewish cities in the world (including one of your own), and meet the 12-Citizen requirement.",
+          "after": "The standard founding requirements for Christianity are 12 Citizens in total across your Nation and at least 3 Jewish cities worldwide. Its current religion record does not separately require Metaphysics or Judaism in one of your own cities."
+        },
+        "englishTactic": {
+          "before": "First let Judaism appear and spread it to one of your cities. Then work toward 12 Citizens and research Metaphysics.",
+          "after": "Grow the population of several cities and monitor the spread of Judaism worldwide. Found Christianity before a rival does."
+        }
+      }
+    },
+    {
+      "id": "a107",
+      "name": "Формализм",
+      "fields": {
+        "guide": {
+          "before": "Сделать мировую религию государственной, обучить её последователя и этим последователем основать теологию «Формализм». Стоимость основания — 200 ед. соцкапитала.",
+          "after": "Основать «Формализм» последователем своей государственной религии. Ступень 1; стоимость — 200 соцкапитала. Дополнительная технология не нужна. Это первое учение религии."
+        },
+        "tactic": {
+          "before": "Сначала прими нужную мировую религию как государственную (это открывает основание теологий), накопи не менее 200 ед. соцкапитала и держи ученика готовым. Один ученик основывает одну теологию.",
+          "after": "Подготовь последователя и соцкапитал. Юнит расходуется при основании. Для других вариантов той же ступени используй другую религию или новую партию."
+        },
+        "englishGuide": {
+          "before": "Adopt a World Religion as your State Religion, train one of its Disciples, and use that Disciple to found the Legalism Theology. Founding costs 200 Civics.",
+          "after": "Found Legalism using a Disciple of your State Religion. It is tier 1 and costs 200 Civics. No additional Technology is required. This is the religion's first Theology."
+        },
+        "englishTactic": {
+          "before": "Make the World Religion your State Religion first, save at least 200 Civics, and have a Disciple ready. One Disciple can found one Theology.",
+          "after": "Prepare a Disciple and Civics. The unit is consumed on founding. Use another religion or a new game for other options at the same tier."
+        },
+        "editor": {
+          "before": "Частично — редактор позволяет добавить религию в города, но это не считается её основанием. Для надёжного получения выполни условие основания религии в обычной игре.",
+          "after": "Частично — редактор может подготовить религию и ресурсы, но для получения заверши основание нужной теологии последователем в обычной игре; само добавление религии в город её не заменяет."
+        },
+        "englishEditor": {
+          "before": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay.",
+          "after": "Partly — the Editor can prepare a religion and resources, but found the required Theology with a Disciple through normal gameplay. Merely adding the religion to a city does not replace founding its Theology."
+        }
+      }
+    },
+    {
+      "id": "a108",
+      "name": "Зороастризм",
+      "fields": {
+        "guide": {
+          "before": "Основать зороастризм. Базовое условие основания мировой религии: иметь двух специалистов «Служитель».",
+          "after": "Обычное условие основания зороастризма — иметь 2 специалиста класса «Служитель» в своей державе, не обязательно в одном городе. Религия ещё не должна быть основана."
+        },
+        "tactic": {
+          "before": "Заранее подготовь две ячейки для специалистов-служителей. Как только условие выполнено и религия ещё не основана другой стороной, срабатывает основание.",
+          "after": "Подготовь нужные улучшения и обучи служителей раньше соперников."
+        },
+        "englishGuide": {
+          "before": "Found Zoroastrianism. Its base founding condition is to have two Acolyte Specialists.",
+          "after": "The standard founding requirement for Zoroastrianism is 2 Specialists of the Acolyte class in your Nation. They need not be in the same city, and the religion must not already be founded."
+        },
+        "englishTactic": {
+          "before": "Prepare two Acolyte Specialist slots. Once the condition is met, Zoroastrianism can be founded if no rival has founded it first.",
+          "after": "Prepare suitable Improvements and train the Acolytes before your rivals."
+        }
+      }
+    },
+    {
+      "id": "a110",
+      "name": "Иудаизм",
+      "fields": {
+        "guide": {
+          "before": "Основать иудаизм: изучить технологию «Рабочая сила» и иметь двух специалистов «Пастух».",
+          "after": "Обычное условие основания иудаизма — иметь 2 специалиста «Пастух» в своей державе. Отдельного требования «Рабочей силы» в текущей записи религии нет."
+        },
+        "tactic": {
+          "before": "Планируй пастбища и специалистов-пастухов заранее; технологию «Рабочая сила» лучше не откладывать. Религию нужно основать раньше соперников.",
+          "after": "Подготовь пастбища и обучи двух пастухов раньше соперников. Технологию доступа к специалисту не следует путать с отдельным требованием религии."
+        },
+        "englishGuide": {
+          "before": "Found Judaism: research Labor Force and have two Rancher Specialists.",
+          "after": "The standard founding requirement for Judaism is 2 Rancher Specialists in your Nation. Its current religion record has no separate Labor Force prerequisite."
+        },
+        "englishTactic": {
+          "before": "Plan for Pastures and Rancher Specialists early, and do not delay Labor Force. Found Judaism before a rival does.",
+          "after": "Prepare Pastures and train two Ranchers before a rival founds Judaism. Access to a Specialist is distinct from a direct religion prerequisite."
+        }
+      }
+    },
+    {
+      "id": "a112",
+      "name": "Духовенство",
+      "fields": {
+        "guide": {
+          "before": "В DLC The Sacred and The Profane добиться, чтобы персонаж со свойством «Священнослужитель» присоединился к твоему двору.",
+          "after": "Получить представителя духовенства при своём дворе. Засчитывается добавление постоянного персонажа со свойством духовенства либо присвоение свойства имеющемуся персонажу."
+        },
+        "tactic": {
+          "before": "Поддерживай хорошие отношения с религией и следи за религиозными событиями/миссиями. DLC добавляет персонажей духовенства, которые могут присоединяться ко двору; существующих персонажей также можно вводить в духовенство через религиозные миссии.",
+          "after": "Принимай духовных персонажей в событиях или используй задание канцлера по введению в духовенство. Для этого задания не подходят лидер, наследник, глава семьи, глава религии и уже состоящий в духовенстве персонаж."
+        },
+        "englishGuide": {
+          "before": "In The Sacred and The Profane, have a character with the Clergy role join your court.",
+          "after": "Gain a Clergy member at your court. The code counts either adding a permanent character who already has a Clergy Trait or granting such a Trait to an existing character."
+        },
+        "englishTactic": {
+          "before": "Maintain good relations with Religions and watch for religious events and missions. The DLC adds Clergy members who can join your court; religious missions can also induct existing characters.",
+          "after": "Accept Clergy in Events or use the Chancellor mission that introduces a character to the Clergy. The mission excludes Leaders, Heirs, Family Heads, Religion Heads, and existing Clergy."
+        }
+      }
+    },
+    {
+      "id": "a113",
+      "name": "Названия достопримечательностей",
+      "fields": {
+        "guide": {
+          "before": "В одной партии присвоить имена десяти обнаруженным достопримечательностям.",
+          "after": "В одной партии присвоить имена 10 достопримечательностям. Счёт именований суммируется по правлениям; одного обнаружения недостаточно."
+        },
+        "tactic": {
+          "before": "Активно исследуй карту разведчиками. Когда открываешь достопримечательность и появляется возможность назвать её, обязательно используй действие; счёт идёт в пределах одной партии.",
+          "after": "Исследуй карту разведчиками и используй возможность дать название. Смена правителя не сбрасывает суммарный прогресс партии."
+        },
+        "englishGuide": {
+          "before": "Name 10 discovered Landmarks in a single game.",
+          "after": "Name 10 Landmarks in one game. Naming statistics are summed across rulers; merely discovering a Landmark is insufficient."
+        },
+        "englishTactic": {
+          "before": "Explore actively with Scouts. When you discover a Landmark and can name it, use that action; the counter applies within one game.",
+          "after": "Explore with Scouts and use the opportunity to name Landmarks. A change of ruler does not reset the game-wide total."
+        }
+      }
+    },
+    {
+      "id": "a139",
+      "name": "Экономическая реформа",
+      "fields": {
+        "guide": {
+          "before": "Изучить технологию VIII уровня «Экономическая реформа». Она становится доступна после «Налоговой политики», стоит 2000 науки и не может быть получена как бесплатная технология. Первое завершение открывает достижение; каждое исследование также даёт 1 победное очко и придворного-торговца.",
+          "after": "Завершить исследование этой поздней повторяемой технологии. Предпосылки: «Налоговая политика». Базовая цена — 2000 науки; фактическую стоимость смотри в своей партии. Бесплатное получение исключено."
+        },
+        "tactic": {
+          "before": "Продвигайся по экономической ветке до «Налоговой политики» и поддерживай высокий доход науки. После открытия «Экономической реформы» карта попадёт в колоду технологий: если она не появилась сразу, исследуй другие карты, чтобы приблизить перемешивание колоды. Лидер-учёный может раз в год заменить предложенные карты.",
+          "after": "Развивай науку и открой нужные ветки. Если карта не появилась сразу, продолжай исследования. Для достижения хватает первого завершения; технология также даёт победное очко и соответствующего придворного."
+        },
+        "englishGuide": {
+          "before": "Research the tier VIII Technology Economic Reform. It follows Fiscal Policy, costs 2000 Science, and cannot be gained as a free Technology. The first completion grants the achievement; each research also grants 1 Victory Point and a Merchant Courtier.",
+          "after": "Complete this late repeatable Technology. Prerequisites: Fiscal Policy. Its base cost is 2000 Science; check the actual cost in your game. Free acquisition is excluded."
+        },
+        "englishTactic": {
+          "before": "Advance through the economic branch to Fiscal Policy and maintain a high Science income. Once Economic Reform enters the Technology deck, research other cards until it appears. A Scholar leader can redraw offered cards once per year.",
+          "after": "Develop Science and unlock all required branches. If the card does not appear immediately, continue researching. The first completion is enough for the achievement; the Technology also grants a Victory Point and the corresponding Courtier."
+        }
+      }
+    },
+    {
+      "id": "a142",
+      "name": "Престиж военной службы",
+      "fields": {
+        "guide": {
+          "before": "Изучить технологию VIII уровня «Престиж военной службы». Для её открытия нужно изучить «Конский доспех», «Бронебойную стрелу» и «Когорты». Технология стоит 2000 науки и не может быть получена бесплатно. Первое завершение открывает достижение; каждое исследование также даёт 1 победное очко и придворного-воина.",
+          "after": "Завершить исследование этой поздней повторяемой технологии. Предпосылки: «Конский доспех», «Бронебойная стрела» и «Когорты». Базовая цена — 2000 науки; фактическую стоимость смотри в своей партии. Бесплатное получение исключено."
+        },
+        "tactic": {
+          "before": "Заранее развивай все три военные ветки, поскольку одной линии недостаточно. После изучения трёх требуемых технологий продолжай перебирать колоду, пока не появится «Престиж военной службы». Высокий доход науки и лидер-учёный с ежегодной заменой карт заметно ускоряют поиск.",
+          "after": "Развивай науку и открой нужные ветки. Если карта не появилась сразу, продолжай исследования. Для достижения хватает первого завершения; технология также даёт победное очко и соответствующего придворного."
+        },
+        "englishGuide": {
+          "before": "Research the tier VIII Technology Military Prestige. It requires Barding, Bodkin Arrow, and Cohorts, costs 2000 Science, and cannot be gained for free. The first completion grants the achievement; each research also grants 1 Victory Point and a Soldier Courtier.",
+          "after": "Complete this late repeatable Technology. Prerequisites: Barding, Bodkin Arrow, and Cohorts. Its base cost is 2000 Science; check the actual cost in your game. Free acquisition is excluded."
+        },
+        "englishTactic": {
+          "before": "Develop all three military branches because one line alone is insufficient. After researching the prerequisites, cycle through the Technology deck until Military Prestige appears. Strong Science income and a Scholar leader who can redraw cards each year help.",
+          "after": "Develop Science and unlock all required branches. If the card does not appear immediately, continue researching. The first completion is enough for the achievement; the Technology also grants a Victory Point and the corresponding Courtier."
+        }
+      }
+    },
+    {
+      "id": "a143",
+      "name": "Промышленный прогресс",
+      "fields": {
+        "guide": {
+          "before": "Изучить технологию VIII уровня «Промышленный прогресс». Для её открытия нужны «Цепной привод» и «Баллистика». Технология стоит 2000 науки и не может быть получена бесплатно. Первое завершение открывает достижение; каждое исследование также даёт 1 победное очко и придворного-министра.",
+          "after": "Завершить исследование этой поздней повторяемой технологии. Предпосылки: «Цепной привод» и «Баллистика». Базовая цена — 2000 науки; фактическую стоимость смотри в своей партии. Бесплатное получение исключено."
+        },
+        "tactic": {
+          "before": "Продвигайся параллельно к «Цепному приводу» и «Баллистике», затем продолжай исследовать доступные карты до появления «Промышленного прогресса». Накопи сильный доход науки к концу партии; лидер-учёный полезен благодаря ежегодной возможности заменить предложенные карты.",
+          "after": "Развивай науку и открой нужные ветки. Если карта не появилась сразу, продолжай исследования. Для достижения хватает первого завершения; технология также даёт победное очко и соответствующего придворного."
+        },
+        "englishGuide": {
+          "before": "Research the tier VIII Technology Industrial Progress. It requires Chain Drive and Ballistics, costs 2000 Science, and cannot be gained for free. The first completion grants the achievement; each research also grants 1 Victory Point and a Minister Courtier.",
+          "after": "Complete this late repeatable Technology. Prerequisites: Chain Drive and Ballistics. Its base cost is 2000 Science; check the actual cost in your game. Free acquisition is excluded."
+        },
+        "englishTactic": {
+          "before": "Advance toward Chain Drive and Ballistics in parallel, then continue researching available cards until Industrial Progress appears. Build strong Science income by the late game; a Scholar leader can redraw offered cards each year.",
+          "after": "Develop Science and unlock all required branches. If the card does not appear immediately, continue researching. The first completion is enough for the achievement; the Technology also grants a Victory Point and the corresponding Courtier."
+        }
+      }
+    },
+    {
+      "id": "a146",
+      "name": "Почитание",
+      "fields": {
+        "guide": {
+          "before": "Сделать мировую религию государственной, обучить её последователя и этим последователем основать теологию «Почитание». Технология не требуется; стоимость основания — 200 ед. соцкапитала.",
+          "after": "Основать «Почитание» последователем своей государственной религии. Ступень 1; стоимость — 200 соцкапитала. Дополнительная технология не нужна. Это первое учение религии."
+        },
+        "tactic": {
+          "before": "Прими нужную мировую религию как государственную, накопи не менее 200 ед. соцкапитала и заранее обучи последователя. Один последователь основывает одну теологию; «Почитание» относится к первому уровню и доступно без дополнительной технологии.",
+          "after": "Подготовь последователя и соцкапитал. Юнит расходуется при основании. Для других вариантов той же ступени используй другую религию или новую партию."
+        },
+        "englishGuide": {
+          "before": "Adopt a World Religion as your State Religion, train one of its Disciples, and use that Disciple to found the Veneration Theology. No Technology is required. Founding costs 200 Civics.",
+          "after": "Found Veneration using a Disciple of your State Religion. It is tier 1 and costs 200 Civics. No additional Technology is required. This is the religion's first Theology."
+        },
+        "englishTactic": {
+          "before": "Make the World Religion your State Religion first, save at least 200 Civics, and have a Disciple ready. One Disciple can found one Theology.",
+          "after": "Prepare a Disciple and Civics. The unit is consumed on founding. Use another religion or a new game for other options at the same tier."
+        },
+        "editor": {
+          "before": "Частично — редактор позволяет добавить религию в города, но это не считается её основанием. Для надёжного получения выполни условие основания религии в обычной игре.",
+          "after": "Частично — редактор может подготовить религию и ресурсы, но для получения заверши основание нужной теологии последователем в обычной игре; само добавление религии в город её не заменяет."
+        },
+        "englishEditor": {
+          "before": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay.",
+          "after": "Partly — the Editor can prepare a religion and resources, but found the required Theology with a Disciple through normal gameplay. Merely adding the religion to a city does not replace founding its Theology."
+        }
+      }
+    },
+    {
+      "id": "a147",
+      "name": "Прозрение",
+      "fields": {
+        "guide": {
+          "before": "Сделать мировую религию государственной, обучить её последователя и этим последователем основать теологию «Прозрение», предварительно изучив технологию «Рабочая сила». Стоимость основания — 400 ед. соцкапитала.",
+          "after": "Основать «Прозрение» последователем своей государственной религии. Ступень 2; стоимость — 400 соцкапитала. Нужна технология «Рабочая сила». В религии уже должно быть 1 учение; выбирается один вариант этой ступени."
+        },
+        "tactic": {
+          "before": "Сначала прими нужную мировую религию как государственную и изучи «Рабочую силу». Затем накопи не менее 400 ед. соцкапитала и держи последователя готовым: один последователь основывает одну теологию.",
+          "after": "Подготовь последователя и соцкапитал. Юнит расходуется при основании. Для других вариантов той же ступени используй другую религию или новую партию."
+        },
+        "englishGuide": {
+          "before": "Adopt a World Religion as your State Religion, train one of its Disciples, and use that Disciple to found the Revelation Theology. Research Labor Force first. Founding costs 400 Civics.",
+          "after": "Found Revelation using a Disciple of your State Religion. It is tier 2 and costs 400 Civics. Research Labor Force first. The religion must already have 1 Theology; choose one option at this tier."
+        },
+        "englishTactic": {
+          "before": "Make the World Religion your State Religion first, save at least 400 Civics, and have a Disciple ready. Research Labor Force before trying to found the Theology. One Disciple can found one Theology.",
+          "after": "Prepare a Disciple and Civics. The unit is consumed on founding. Use another religion or a new game for other options at the same tier."
+        },
+        "editor": {
+          "before": "Частично — редактор позволяет добавить религию в города, но это не считается её основанием. Для надёжного получения выполни условие основания религии в обычной игре.",
+          "after": "Частично — редактор может подготовить религию и ресурсы, но для получения заверши основание нужной теологии последователем в обычной игре; само добавление религии в город её не заменяет."
+        },
+        "englishEditor": {
+          "before": "Partly — the Game Editor can add a Religion to cities, but this does not count as founding it. Meet the founding conditions through normal gameplay.",
+          "after": "Partly — the Editor can prepare a religion and resources, but found the required Theology with a Disciple through normal gameplay. Merely adding the religion to a city does not replace founding its Theology."
+        }
+      }
+    },
+    {
+      "id": "a195",
+      "name": "Великий волхв",
+      "fields": {
+        "guide": {
+          "before": "Пройти цепочку событий об Остане из дополнения The Sacred and The Profane. В событии со слухами об Остане выбери отправку агентов на поиски; после завершения поисков прими найденную учёную ко двору. Следующее событие раскроет её как легендарного волхва и выдаст достижение.",
+          "after": "Пройти цепочку «Слухи об Остане» → «Поиски Остана» → «Легендарный маг»: выбрать поиск, принять найденного персонажа ко двору и дождаться события, раскрывающего его личность."
+        },
+        "tactic": {
+          "before": "Цепочка может начаться после 30-го хода, если в другой державе есть зороастризм с теологией «Мифология», а при твоём дворе не больше трёх придворных. Не запрещай труды Остана: выбери поиск и дождись продолжений цепочки.",
+          "after": "Начальная цепочка доступна не раньше 30-го хода, при не более чем трёх придворных и наличии зороастризма с «Мифологией» у другой державы. Не запрещай труды Остана; начало поиска не гарантирует немедленного достижения."
+        },
+        "englishGuide": {
+          "before": "Complete the Ostanes event chain from The Sacred and The Profane. When rumors of Ostanes arise, send agents to search for him; after the search, welcome the scholar they find to your court. A later event reveals her as the legendary Mage and grants the achievement.",
+          "after": "Follow the Ostanes rumors, search, and legendary Mage event chain. Choose to search, welcome the discovered character to your court, and wait for the event that reveals the character as the legendary Mage."
+        },
+        "englishTactic": {
+          "before": "The chain can begin after turn 30 if another Nation has Zoroastrianism with the Mythology Theology and you have no more than three Courtiers. Do not ban Ostanes’s writings: choose the search and await its follow-ups.",
+          "after": "The opening can occur no earlier than turn 30, with at most three Courtiers and another Nation having Zoroastrianism with Mythology. Do not ban the writings; starting the search does not grant the achievement immediately."
+        }
+      }
+    },
+    {
+      "id": "a198",
+      "name": "Слово божье",
+      "fields": {
+        "guide": {
+          "before": "Одновременно принять четыре закона: «Единобожие», «Догматизм», «Иконопись» и «Паломничество». Они находятся в разных парах законов, поэтому не исключают друг друга; достижение проверяется в начале следующего хода.",
+          "after": "Одновременно включить «Единобожие», «Догматизм», «Иконопись» и «Паломничество». Пары открывают «Монашество», «Доктрина», «Система сводов» и «Боевой кодекс»."
+        },
+        "tactic": {
+          "before": "Последовательно изучи «Монашество», «Доктрину», «Систему сводов» и «Боевой кодекс» — эти технологии открывают нужные пары законов. Накопи соцкапитал на принятие законов и учти, что у всех четырёх есть постоянные расходы.",
+          "after": "Подготовь соцкапитал и сохрани все четыре закона до проверки в начале нового хода."
+        },
+        "englishGuide": {
+          "before": "Have all four Laws active at once: Monotheism, Orthodoxy, Iconography, and Pilgrimage. They belong to different Law pairs, so they do not exclude one another. The achievement is checked at the start of the next turn.",
+          "after": "Have Monotheism, Orthodoxy, Iconography, and Pilgrimage active together. Monasticism, Doctrine, Vaulting, and Martial Code unlock their respective Law pairs."
+        },
+        "englishTactic": {
+          "before": "Research Monasticism, Doctrine, Vaulting, and Martial Code to unlock the relevant Law pairs. Save enough Civics to enact the Laws and account for their ongoing costs.",
+          "after": "Prepare Civics and retain all four Laws until the achievement check at the start of a new turn."
+        }
+      }
+    },
+    {
+      "id": "a260",
+      "name": "Паломничество",
+      "fields": {
+        "guide": {
+          "before": "Принять закон «Паломничество» и дождаться события, в котором придворный той же веры просит разрешения посетить священный город. Разреши поездку и дождись события о её завершении — тогда открывается достижение.",
+          "after": "Принять «Паломничество», в событии «Святые места» разрешить поездку персонажа и дождаться события завершения. Одно принятие закона достижение не даёт."
+        },
+        "tactic": {
+          "before": "Закон «Паломничество» открывается технологией «Боевой кодекс». Для начального события нужен не лидер, исповедующий религию со священным городом; этот священный город должен принадлежать другой державе, с которой заключён мир или перемирие. Не отзывай персонажа из поездки в промежуточных событиях.",
+          "after": "Нужен религиозный персонаж, не являющийся лидером; исключающая неблагочестивая черта мешает событию. Священный город его религии должен находиться у другой державы, с которой мир или перемирие. Не отзывай паломника в промежуточных событиях. Закон открывает «Боевой кодекс»."
+        },
+        "englishGuide": {
+          "before": "Enact the Pilgrimage Law and wait for an event in which a Courtier of the same faith asks to visit a Holy City. Allow the journey and wait for its completion event.",
+          "after": "Enact Pilgrimage, permit a character to travel in the Holy Places event, and wait for a completion event. Enacting the Law alone does not grant the achievement."
+        },
+        "englishTactic": {
+          "before": "Martial Code unlocks Pilgrimage. The initial event requires a non-ruler character following a Religion with a Holy City owned by another Nation with which you are at peace or under truce. Do not recall the pilgrim in follow-up events.",
+          "after": "A religious non-Leader character without the excluding impious Trait is required. The Holy City of that character's religion must belong to another Nation at peace or truce with you. Do not recall the pilgrim in follow-up Events. Martial Code unlocks the Law."
+        }
+      }
+    },
+    {
+      "id": "a287",
+      "name": "Патриарх святой Павел",
+      "fields": {
+        "guide": {
+          "before": "Получить Савла через событие «Полководец Савл», затем дождаться его обращения в христианство: после обращения он становится Павлом и входит в христианское духовенство. Достижение выдаётся, когда Павел становится главой христианства.",
+          "after": "Пригласить Савла через событие «Полководец Савл», дождаться обращения в христианство и переименования в Павла, затем его назначения главой христианства. Проверка запускается в начале нового хода; персонаж должен принадлежать твоей державе."
+        },
+        "tactic": {
+          "before": "Для начала цепочки христианство должно присутствовать в одном из твоих городов, но не быть государственной религией. Пригласи Савла ко двору, сохрани его в живых и поддержи обращение. После этого повышай его шансы возглавить религию: благочестивые персонажи получают преимущество, а смена главы происходит после освобождения этой должности.",
+          "after": "Для начального события христианство должно быть в одном из твоих городов, но не быть государственной религией. Сохрани Савла в живых. Вступление в духовенство ещё не означает назначения главой религии; немедленный выбор Павла не гарантирован."
+        },
+        "englishGuide": {
+          "before": "Receive Saul through the Saul the General event, then wait for his conversion to Christianity. He becomes Paul and joins the Christian Clergy. The achievement triggers when Paul becomes Patriarch of Christianity.",
+          "after": "Invite Saul through his General event, wait for his conversion to Christianity and renaming as Paul, and then for him to become Head of Christianity. The achievement is checked at the start of a new turn, and the character must belong to your Nation."
+        },
+        "englishTactic": {
+          "before": "Christianity must be present in one of your cities without being your State Religion to start the chain. Welcome Saul, keep him alive, and support his conversion. Pious characters have an advantage when the Patriarchate next becomes vacant.",
+          "after": "To start the chain, Christianity must be present in one of your cities without being your State Religion. Keep Saul alive. Joining the Clergy does not itself make him Religion Head, and his immediate selection is not guaranteed."
+        }
+      }
+    },
+    {
+      "id": "a295",
+      "name": "Хранители земли",
+      "fields": {
+        "guide": {
+          "before": "Можно выполнить в обычной партии с включённым контентом Wrath of Gods. Нужно одновременно контролировать трёх живых персонажей с чертой «Хранитель земли». Первый Хранитель не появляется автоматически после любого бедствия: его дают только определённые варианты редких событий, связанных с засухой или наводнением. Условие достижения проверяется в начале следующего хода.",
+          "after": "Одновременно иметь трёх живых персонажей своей державы с чертой «Хранитель земли». Подходит обычная партия с включённым Wrath of Gods; проверка — в начале нового хода."
+        },
+        "tactic": {
+          "before": "Первого Хранителя можно получить тремя способами: во время засухи в событии «Хранители земли» пригласить представителя дружественного племени; после засухи в событии «Поиск равновесия» назначить Хранителем губернатора с чертой «Любознательный» или «Продуктивный»; либо после наводнения в событии «Следы железа» выбрать ответ «Не будем трогать этот холм». Затем используй трёхлетнее задание «Обучить хранителя» на подростках или взрослых персонажах без этой черты. Оно стоит 100 ед. соцкапитала и 2 приказа, а вероятность успеха составляет 75%.",
+          "after": "Первого можно получить, пригласив племенного хранителя в «Хранителях земли», назначив подходящего губернатора в «Поиске равновесия» после засухи либо выбрав «Не будем трогать этот холм» в «Следах железа» после наводнения. Для губернатора подходят архетип «Ученый» либо черты «Образованный», «Умный», «Ловчий», «Земледелец», «Любитель природы» или «Раскопщик». Взрослый Хранитель может выполнить «Обучить хранителя» на подростке или взрослом без черты: базово 3 хода, 100 соцкапитала и 2 приказа, успех 75%. Сохраняй всех трёх в живых до проверки; бедствие само по себе не гарантирует нужное событие."
+        },
+        "englishGuide": {
+          "before": "This can be earned in a standard game with Wrath of Gods content enabled. Control 3 living characters with the Steward of the Land Trait at the same time. A first Steward does not appear after every disaster: only particular choices in rare drought or flood Events grant one. The achievement is checked at the start of the next turn.",
+          "after": "Control 3 living characters of your Nation with the Steward of the Land Trait at the same time. A standard game with Wrath of Gods enabled qualifies; the achievement is checked at the start of a new turn."
+        },
+        "englishTactic": {
+          "before": "Get the first Steward in one of three ways: invite a friendly Tribe member during the drought Event Stewards of the Land; make an Inquisitive or Productive Governor a Steward in Finding Balance after a drought; or choose “Perhaps this hill is better left as it is” in Iron Signs after a flood. Then use the three-year Impart Stewardship Mission on adolescent or adult characters without the Trait. It costs 100 Civics and 2 Orders, with a 75% success chance.",
+          "after": "Obtain the first Steward through a suitable drought or flood Event: invite a tribal Steward, appoint an eligible Governor after drought, or leave the hill untouched after flooding. The Governor needs Scholar, Educated, Intelligent, Pathfinder, Cultivator, Naturalist, or Delver. An adult Steward can use Impart Stewardship on an adolescent or adult without the Trait: base duration 3 turns, cost 100 Civics and 2 Orders, success chance 75%. Keep all three alive until the check; disasters do not guarantee the Event."
+        }
+      }
+    },
+    {
+      "id": "a401",
+      "name": "Религиозный раскол",
+      "fields": {
+        "guide": {
+          "before": "Добиться, чтобы в одном твоём городе одновременно действовали четыре проекта раскола: зороастрийский, иудейский, христианский и манихейский. Одного раскола каждой религии в разных городах недостаточно.",
+          "after": "В одном своём городе одновременно иметь четыре проекта раскола: зороастрийский, иудейский, христианский и манихейский. Расколы в разных городах не складываются; индуизм и буддизм не заменяют нужные религии."
+        },
+        "tactic": {
+          "before": "Сначала распространи все четыре мировые религии в один город. Затем опусти мнение каждой из них до уровня «Расстроенное» или ниже: в таком городе раскол может возникнуть случайно. Не выполняй миссию «Смягчить раскол» и проект «Подавить раскол», пока не появятся все четыре.",
+          "after": "Распространи нужные религии в один город и снизь их мнение до «Расстроенное» или ниже. События раскола случайны и требуют действующего главы религии. Не смягчай и не подавляй расколы до проверки в начале нового хода."
+        },
+        "englishGuide": {
+          "before": "Have four active Schism projects in one of your cities at the same time: Zoroastrian, Jewish, Christian, and Manichaean. A separate Schism for each Religion in different cities is not enough.",
+          "after": "Have the Zoroastrian, Jewish, Christian, and Manichaean Dissent projects active simultaneously in one city you own. Projects in different cities do not combine; Hinduism and Buddhism cannot replace the four required religions."
+        },
+        "englishTactic": {
+          "before": "Spread all four World Religions to one city. Lower each Religion’s opinion to Upset or worse so a Schism can occur there. Do not resolve or suppress the Schisms until all four coexist.",
+          "after": "Spread the four religions to one city and lower their opinions to Upset or worse. Dissent Events are random and require an existing Head of the relevant religion. Do not quell or suppress Dissent before the new-turn achievement check."
+        }
+      }
+    },
+    {
+      "id": "a402",
+      "name": "Пять культов",
+      "fields": {
+        "guide": {
+          "before": "Иметь одновременно пять культов — особых улучшений, которые появляются благодаря событиям дополнения The Sacred and The Profane. Счётчик достижения увеличивается, когда выбранный вариант события создаёт культ.",
+          "after": "Довести счётчик культов своей державы до 5 в одной партии. Его повышают определённые варианты событий, обычно создающие культовое улучшение; некоторые решения уменьшают счётчик. Код проверяет статистику, а не напрямую пять построек на карте."
+        },
+        "tactic": {
+          "before": "Чаще выбирай варианты событий, которые строят культовое улучшение в городе, и сохраняй уже созданные культы. После трёх культов могут начаться неблагоприятные события; не выбирай решения, удаляющие культ, пока счётчик не достигнет пяти.",
+          "after": "Выбирай события, создающие культы, и избегай решений, уменьшающих счётчик до достижения. Не считай любое святилище культовым действием; общий счёт сохраняется при смене правителя."
+        },
+        "editor": {
+          "before": "Частично — редактор может помочь подготовить религиозную обстановку, но пять культов должны быть получены и одновременно существовать в обычной партии.",
+          "after": "Частично — редактор может подготовить религиозную обстановку, но наличие пяти построек не заменяет событийный счётчик культов. Доведи его до пяти обычными игровыми событиями."
+        },
+        "englishGuide": {
+          "before": "Have five Cults simultaneously. These special Improvements arise from The Sacred and The Profane events, and each event choice that creates a Cult increases the count.",
+          "after": "Reach a Cult statistic of 5 in one game. Specific Event choices, usually creating Cult Improvements, increase this statistic; some choices decrease it. The code checks the statistic rather than directly counting five structures on the map."
+        },
+        "englishTactic": {
+          "before": "Choose event options that build Cult Improvements and preserve existing ones. Unfavorable events can begin after the third Cult; avoid choices that remove one until you reach five.",
+          "after": "Choose Cult-creating Event options and avoid choices that reduce the statistic before unlocking the achievement. An ordinary Shrine does not automatically count as a Cult action. The game-wide count survives changes of ruler."
+        },
+        "englishEditor": {
+          "before": "Partly — the Editor can prepare the religious setting, but five Cults must arise and coexist in a normal game.",
+          "after": "Partly — the Editor can prepare the religious setting, but five structures do not replace the Cult statistic. Reach five through normal game Events."
+        }
+      }
+    }
+  ]
+}

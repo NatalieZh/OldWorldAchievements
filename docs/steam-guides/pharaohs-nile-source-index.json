@@ -1,0 +1,973 @@
+{
+  "date": "2026-11-26",
+  "buildId": "26728102",
+  "count": 42,
+  "sourceRoot": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Old World",
+  "sourceSha256": {
+    "Reference/Source/Mods/Egypt1/Egypt1Game.cs": "aa5ebeaf4197a5afc600263de2e14774dfec934a5b42e84b103ffc3ff2d460e5",
+    "Reference/Source/Mods/Egypt2/Egypt2Game.cs": "20e9104cb58ae8b4e5ba90698506b4e5289dcd438cb52f4fd48d2ee0cc2551b9",
+    "Reference/Source/Mods/Egypt3/Egypt3Game.cs": "ae4cc30b3ddde378daffb69156cbcdfebe9d36c547577fbeaddcf6b8e6529d8b",
+    "Reference/Source/Mods/Egypt4/Egypt4Game.cs": "00b667e802217f60dcc7d3090c11c26821b8be6ae805d067d47ebfa63f26b560",
+    "Reference/Source/Mods/Egypt4/Egypt4Player.cs": "1e7b3da7973a8992d86b512da8502c6343a948781e3380564f94c54adad23ef4",
+    "Reference/Source/Mods/Egypt5/Egypt5Game.cs": "601cf52927ce9d53b97f588e65b03af88fc201a129e4e965fa5d2ecf44e01703",
+    "Reference/Source/Mods/Egypt5/Egypt5Player.cs": "323f8e90b4561ff68d88e6e9665173385e6f3ba0fab1799f9f585a2aed0b17f2",
+    "Reference/Source/Mods/Egypt6/Egypt6Game.cs": "d4f62d2685917ac788d0ba529120bddbc2c93d7d46dc20037d9645b61dfa9485",
+    "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml": "bdaf4efab0c91f33ab81dc186b9376c4314725c6a90134afacae4fc91f1492b0"
+  },
+  "records": [
+    {
+      "id": "a241",
+      "apiName": "ACHIEVEMENT_EGYPT1_MAJOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT1_MAJOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT1_MAJOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT1_MAJOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT1_MAJOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_1</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt1/Egypt1Game.cs",
+          "line": 581,
+          "context": "            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }\n\n        public VictoryType DoMajorVictory(bool buhenVictory)\n        {\n            DoMinorVictory(buhenVictory);\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT1_MAJOR_VICTORY\"), getThebesPlayer());\n            if (getThebesPlayer().getEgyptDifficulty() == Egypt1Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT1_PHARAOH_MAJOR_VICTORY\"), getThebesPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a321",
+      "apiName": "ACHIEVEMENT_EGYPT1_PHARAOH_MAJOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT1_PHARAOH_MAJOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT1_PHARAOH_MAJOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT1_PHARAOH_MAJOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT1_PHARAOH_MAJOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_1</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt1/Egypt1Game.cs",
+          "line": 584,
+          "context": "        public VictoryType DoMajorVictory(bool buhenVictory)\n        {\n            DoMinorVictory(buhenVictory);\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT1_MAJOR_VICTORY\"), getThebesPlayer());\n            if (getThebesPlayer().getEgyptDifficulty() == Egypt1Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT1_PHARAOH_MAJOR_VICTORY\"), getThebesPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n\n        public void DoMinorDefeat()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT1_DEFEAT\"), getThebesPlayer());"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a234",
+      "apiName": "ACHIEVEMENT_EGYPT1_MINOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT1_MINOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT1_MINOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT1_MINOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT1_MINOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_1</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt1/Egypt1Game.cs",
+          "line": 566,
+          "context": "            }\n            base.makeWinner(eWinnerTeam, eWinnerVictory);\n        }\n\n        public VictoryType DoMinorVictory(bool buhenVictory)\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT1_MINOR_VICTORY\"), getThebesPlayer());\n            if (getThebesPlayer().getEgyptDifficulty() == Egypt1Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT1_PHARAOH_MINOR_VICTORY\"), getThebesPlayer());\n            }\n            if (buhenVictory)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT1_BUHEN\"), getThebesPlayer());"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a322",
+      "apiName": "ACHIEVEMENT_EGYPT1_PHARAOH_MINOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT1_PHARAOH_MINOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT1_PHARAOH_MINOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT1_PHARAOH_MINOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT1_PHARAOH_MINOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_1</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt1/Egypt1Game.cs",
+          "line": 569,
+          "context": "\n        public VictoryType DoMinorVictory(bool buhenVictory)\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT1_MINOR_VICTORY\"), getThebesPlayer());\n            if (getThebesPlayer().getEgyptDifficulty() == Egypt1Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT1_PHARAOH_MINOR_VICTORY\"), getThebesPlayer());\n            }\n            if (buhenVictory)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT1_BUHEN\"), getThebesPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a240",
+      "apiName": "ACHIEVEMENT_EGYPT1_BUHEN",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT1_BUHEN",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT1_BUHEN</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT1_BUHEN_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT1_BUHEN</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt1/Egypt1Game.cs",
+          "line": 573,
+          "context": "            if (getThebesPlayer().getEgyptDifficulty() == Egypt1Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT1_PHARAOH_MINOR_VICTORY\"), getThebesPlayer());\n            }\n            if (buhenVictory)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT1_BUHEN\"), getThebesPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }\n\n        public VictoryType DoMajorVictory(bool buhenVictory)\n        {\n            DoMinorVictory(buhenVictory);"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a320",
+      "apiName": "ACHIEVEMENT_EGYPT1_MAJOR_DEFEAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT1_MAJOR_DEFEAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT1_MAJOR_DEFEAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT1_MAJOR_DEFEAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT1_MAJOR_DEFEAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt1/Egypt1Game.cs",
+          "line": 597,
+          "context": "            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT1_DEFEAT\"), getThebesPlayer());\n        }\n\n        public void DoMajorDefeat()\n        {\n            DoMinorDefeat();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT1_MAJOR_DEFEAT\"), getThebesPlayer());\n        }\n    }\n}"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a363",
+      "apiName": "ACHIEVEMENT_EGYPT1_DEFEAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT1_DEFEAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT1_DEFEAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT1_DEFEAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT1_DEFEAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt1/Egypt1Game.cs",
+          "line": 591,
+          "context": "            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n\n        public void DoMinorDefeat()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT1_DEFEAT\"), getThebesPlayer());\n        }\n\n        public void DoMajorDefeat()\n        {\n            DoMinorDefeat();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT1_MAJOR_DEFEAT\"), getThebesPlayer());\n        }"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a323",
+      "apiName": "ACHIEVEMENT_EGYPT2_DEFEAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT2_DEFEAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT2_DEFEAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT2_DEFEAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT2_DEFEAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt2/Egypt2Game.cs",
+          "line": 464,
+          "context": "            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n\n        public void DoMinorDefeat()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT2_DEFEAT\"), getKemetPlayer());\n        }\n\n        public void DoMajorDefeat()\n        {\n            DoMinorDefeat();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT2_MAJOR_DEFEAT\"), getKemetPlayer());\n        }"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a324",
+      "apiName": "ACHIEVEMENT_EGYPT2_MAJOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT2_MAJOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT2_MAJOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT2_MAJOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT2_MAJOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_2</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt2/Egypt2Game.cs",
+          "line": 454,
+          "context": "            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }\n\n        public VictoryType DoMajorVictory()\n        {\n            DoMinorVictory();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT2_MAJOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt2Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT2_PHARAOH_MAJOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a365",
+      "apiName": "ACHIEVEMENT_EGYPT2_PHARAOH_MAJOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT2_PHARAOH_MAJOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT2_PHARAOH_MAJOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT2_PHARAOH_MAJOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT2_PHARAOH_MAJOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_2</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt2/Egypt2Game.cs",
+          "line": 457,
+          "context": "        public VictoryType DoMajorVictory()\n        {\n            DoMinorVictory();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT2_MAJOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt2Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT2_PHARAOH_MAJOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n\n        public void DoMinorDefeat()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT2_DEFEAT\"), getKemetPlayer());"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a275",
+      "apiName": "ACHIEVEMENT_EGYPT2_MINOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT2_MINOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT2_MINOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT2_MINOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT2_MINOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_2</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt2/Egypt2Game.cs",
+          "line": 443,
+          "context": "            }\n            base.makeWinner(eWinnerTeam, eWinnerVictory);\n        }\n\n        public VictoryType DoMinorVictory()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT2_MINOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt2Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT2_PHARAOH_MINOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }\n"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a366",
+      "apiName": "ACHIEVEMENT_EGYPT2_PHARAOH_MINOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT2_PHARAOH_MINOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT2_PHARAOH_MINOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT2_PHARAOH_MINOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT2_PHARAOH_MINOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_2</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt2/Egypt2Game.cs",
+          "line": 446,
+          "context": "\n        public VictoryType DoMinorVictory()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT2_MINOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt2Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT2_PHARAOH_MINOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }\n\n        public VictoryType DoMajorVictory()\n        {\n            DoMinorVictory();"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a364",
+      "apiName": "ACHIEVEMENT_EGYPT2_MAJOR_DEFEAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT2_MAJOR_DEFEAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT2_MAJOR_DEFEAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT2_MAJOR_DEFEAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT2_MAJOR_DEFEAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt2/Egypt2Game.cs",
+          "line": 470,
+          "context": "            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT2_DEFEAT\"), getKemetPlayer());\n        }\n\n        public void DoMajorDefeat()\n        {\n            DoMinorDefeat();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT2_MAJOR_DEFEAT\"), getKemetPlayer());\n        }\n\n        protected override void checkGameOver()\n        {\n            bool b4KarnakComplete = getKemetPlayer().countQuestsFinished(infos().getType<GoalType>(\"GOAL_EGYPT2_FOUR_KARNAK\")) > 0;\n            bool b7KarnakComplete = getKemetPlayer().countQuestsFinished(infos().getType<GoalType>(\"GOAL_EGYPT2_SEVEN_KARNAK\")) > 0;\n            bool b6ReligionComplete = getKemetPlayer().countQuestsFinished(infos().getType<GoalType>(\"GOAL_EGYPT2_SIX_RELIGION_SPREAD\")) > 0;"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a367",
+      "apiName": "ACHIEVEMENT_EGYPT3_DEFEAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT3_DEFEAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT3_DEFEAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT3_DEFEAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT3_DEFEAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt3/Egypt3Game.cs",
+          "line": 742,
+          "context": "            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n\n        public void DoMinorDefeat()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT3_DEFEAT\"), getKemetPlayer());\n        }\n\n        public void DoMajorDefeat()\n        {\n            DoMinorDefeat();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT3_MAJOR_DEFEAT\"), getKemetPlayer());\n        }"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a301",
+      "apiName": "ACHIEVEMENT_EGYPT3_MAJOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT3_MAJOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT3_MAJOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT3_MAJOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT3_MAJOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_3</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt3/Egypt3Game.cs",
+          "line": 732,
+          "context": "            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }\n\n        public VictoryType DoMajorVictory()\n        {\n            DoMinorVictory();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT3_MAJOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt3Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT3_PHARAOH_MAJOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a368",
+      "apiName": "ACHIEVEMENT_EGYPT3_PHARAOH_MAJOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT3_PHARAOH_MAJOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT3_PHARAOH_MAJOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT3_PHARAOH_MAJOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT3_PHARAOH_MAJOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_3</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt3/Egypt3Game.cs",
+          "line": 735,
+          "context": "        public VictoryType DoMajorVictory()\n        {\n            DoMinorVictory();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT3_MAJOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt3Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT3_PHARAOH_MAJOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n\n        public void DoMinorDefeat()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT3_DEFEAT\"), getKemetPlayer());"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a325",
+      "apiName": "ACHIEVEMENT_EGYPT3_MAJOR_DEFEAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT3_MAJOR_DEFEAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT3_MAJOR_DEFEAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT3_MAJOR_DEFEAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT3_MAJOR_DEFEAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt3/Egypt3Game.cs",
+          "line": 748,
+          "context": "            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT3_DEFEAT\"), getKemetPlayer());\n        }\n\n        public void DoMajorDefeat()\n        {\n            DoMinorDefeat();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT3_MAJOR_DEFEAT\"), getKemetPlayer());\n        }\n\n        protected override void checkGameOver()\n        {\n            bool bFoundAkhetaten = getKemetPlayer().countQuestsFinished(infos().getType<GoalType>(\"GOAL_EGYPT3_FOUND_AKHETATEN\")) > 0;\n            bool bTempleAten = getKemetPlayer().countQuestsFinished(infos().getType<GoalType>(\"GOAL_EGYPT3_BUILD_TEMPLE_ATEN\")) > 0;\n            bool bSpreadAten = getKemetPlayer().countQuestsFinished(infos().getType<GoalType>(\"GOAL_EGYPT3_SPREAD_ATEN\")) > 0;"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a302",
+      "apiName": "ACHIEVEMENT_EGYPT3_MINOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT3_MINOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT3_MINOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT3_MINOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT3_MINOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_3</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt3/Egypt3Game.cs",
+          "line": 721,
+          "context": "            }\n            base.makeWinner(eWinnerTeam, eWinnerVictory);\n        }\n\n        public VictoryType DoMinorVictory()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT3_MINOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt3Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT3_PHARAOH_MINOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }\n"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a369",
+      "apiName": "ACHIEVEMENT_EGYPT3_PHARAOH_MINOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT3_PHARAOH_MINOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT3_PHARAOH_MINOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT3_PHARAOH_MINOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT3_PHARAOH_MINOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_3</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt3/Egypt3Game.cs",
+          "line": 724,
+          "context": "\n        public VictoryType DoMinorVictory()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT3_MINOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt3Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT3_PHARAOH_MINOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }\n\n        public VictoryType DoMajorVictory()\n        {\n            DoMinorVictory();"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a372",
+      "apiName": "ACHIEVEMENT_EGYPT4_MUWATALLI_DEFEAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT4_MUWATALLI_DEFEAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT4_MUWATALLI_DEFEAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT4_MUWATALLI_DEFEAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT4_MUWATALLI_DEFEAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt4/Egypt4Player.cs",
+          "line": 103,
+          "context": "                (game() as Egypt4Game).updateHattiTargets();\n                if ((game() as Egypt4Game).getHattiPlayer().isHuman())\n                {\n                    if ((game() as Egypt4Game).getMuwatalliDead())\n                    {\n                        (game() as Egypt4Game).getHattiPlayer().doEventTrigger(infos().getType<EventTriggerType>(\"EVENTTRIGGER_EGYPT4_MUWATALLI_DEAD_HATTI\"));\n                        game().doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT4_MUWATALLI_DEFEAT\"), (game() as Egypt4Game).getHattiPlayer());\n                    }\n                }\n            }\n            base.doTurn();\n            int iPlayer = -1;\n            if (getPlayer() == (game() as Egypt4Game).getKemetPlayer().getPlayer())\n            {"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a328",
+      "apiName": "ACHIEVEMENT_EGYPT4_RAMESSES_DEFEAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT4_RAMESSES_DEFEAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT4_RAMESSES_DEFEAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT4_RAMESSES_DEFEAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT4_RAMESSES_DEFEAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt4/Egypt4Player.cs",
+          "line": 62,
+          "context": "                            }\n                        }\n                    }\n                    if ((game() as Egypt4Game).getRamessesDead())\n                    {\n                        (game() as Egypt4Game).getKemetPlayer().doEventTrigger(infos().getType<EventTriggerType>(\"EVENTTRIGGER_EGYPT4_RAMESSES_DEAD_KEMET\"));\n                        game().doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT4_RAMESSES_DEFEAT\"), (game() as Egypt4Game).getKemetPlayer());\n                    }\n                    if ((game() as Egypt4Game).isScoutGoalActive())\n                    {\n                        if ((game() as Egypt4Game).getScoutDead())\n                        {\n                            (game() as Egypt4Game).getKemetPlayer().doEventTrigger(infos().getType<EventTriggerType>(\"EVENTTRIGGER_EGYPT4_SCOUT_DEAD\"));\n                            game().doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT4_SCOUT_DEFEAT\"), (game() as Egypt4Game).getKemetPlayer());"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a371",
+      "apiName": "ACHIEVEMENT_EGYPT4_MAJOR_DEFEAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT4_MAJOR_DEFEAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT4_MAJOR_DEFEAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT4_MAJOR_DEFEAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT4_MAJOR_DEFEAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt4/Egypt4Game.cs",
+          "line": 933,
+          "context": "            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT4_DEFEAT\"), getKemetPlayer());\n        }\n\n        public void DoMajorDefeat()\n        {\n            DoMinorDefeat();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT4_MAJOR_DEFEAT\"), getKemetPlayer());\n        }\n\n        public bool getSetupGenerals()\n        {\n            return ((Egypt4GameNetworkData)mpCurrentData).bSetupGenerals;\n        }\n"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a327",
+      "apiName": "ACHIEVEMENT_EGYPT4_MINOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT4_MINOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT4_MINOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT4_MINOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT4_MINOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_4</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt4/Egypt4Game.cs",
+          "line": 906,
+          "context": "            }\n            base.makeWinner(eWinnerTeam, eWinnerVictory);\n        }\n\n        public VictoryType DoMinorVictory()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT4_MINOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt4Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT4_PHARAOH_MINOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }\n"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a374",
+      "apiName": "ACHIEVEMENT_EGYPT4_PHARAOH_MINOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT4_PHARAOH_MINOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT4_PHARAOH_MINOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT4_PHARAOH_MINOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT4_PHARAOH_MINOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_4</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt4/Egypt4Game.cs",
+          "line": 909,
+          "context": "\n        public VictoryType DoMinorVictory()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT4_MINOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt4Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT4_PHARAOH_MINOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }\n\n        public VictoryType DoMajorVictory()\n        {\n            DoMinorVictory();"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a370",
+      "apiName": "ACHIEVEMENT_EGYPT4_DEFEAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT4_DEFEAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT4_DEFEAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT4_DEFEAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT4_DEFEAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt4/Egypt4Game.cs",
+          "line": 927,
+          "context": "            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n\n        public void DoMinorDefeat()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT4_DEFEAT\"), getKemetPlayer());\n        }\n\n        public void DoMajorDefeat()\n        {\n            DoMinorDefeat();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT4_MAJOR_DEFEAT\"), getKemetPlayer());\n        }"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a375",
+      "apiName": "ACHIEVEMENT_EGYPT4_SCOUT_DEFEAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT4_SCOUT_DEFEAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT4_SCOUT_DEFEAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT4_SCOUT_DEFEAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT4_SCOUT_DEFEAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt4/Egypt4Player.cs",
+          "line": 69,
+          "context": "                    }\n                    if ((game() as Egypt4Game).isScoutGoalActive())\n                    {\n                        if ((game() as Egypt4Game).getScoutDead())\n                        {\n                            (game() as Egypt4Game).getKemetPlayer().doEventTrigger(infos().getType<EventTriggerType>(\"EVENTTRIGGER_EGYPT4_SCOUT_DEAD\"));\n                            game().doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT4_SCOUT_DEFEAT\"), (game() as Egypt4Game).getKemetPlayer());\n                        }\n                    }\n                    if (game().isMultiplayer())\n                    {\n                        if (game().getTurn() == 2)\n                        {\n                            (game() as Egypt4Game).releasePtah();"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a326",
+      "apiName": "ACHIEVEMENT_EGYPT4_MAJOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT4_MAJOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT4_MAJOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT4_MAJOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT4_MAJOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_4</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt4/Egypt4Game.cs",
+          "line": 917,
+          "context": "            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }\n\n        public VictoryType DoMajorVictory()\n        {\n            DoMinorVictory();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT4_MAJOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt4Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT4_PHARAOH_MAJOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a373",
+      "apiName": "ACHIEVEMENT_EGYPT4_PHARAOH_MAJOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT4_PHARAOH_MAJOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT4_PHARAOH_MAJOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT4_PHARAOH_MAJOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT4_PHARAOH_MAJOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_4</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt4/Egypt4Game.cs",
+          "line": 920,
+          "context": "        public VictoryType DoMajorVictory()\n        {\n            DoMinorVictory();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT4_MAJOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt4Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT4_PHARAOH_MAJOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n\n        public void DoMinorDefeat()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT4_DEFEAT\"), getKemetPlayer());"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a377",
+      "apiName": "ACHIEVEMENT_EGYPT5_MAJOR_DEFEAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT5_MAJOR_DEFEAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT5_MAJOR_DEFEAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT5_MAJOR_DEFEAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT5_MAJOR_DEFEAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt5/Egypt5Game.cs",
+          "line": 529,
+          "context": "            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT5_DEFEAT\"), getKemetPlayer());\n        }\n\n        public void DoMajorDefeat()\n        {\n            DoMinorDefeat();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT5_MAJOR_DEFEAT\"), getKemetPlayer());\n        }\n\n        public int getDifficultyOutOfBalanceCount()\n        {\n            if ((getKemetPlayer() as EgyptPlayer).getEgyptDifficulty() == EgyptPlayer.EgyptDifficultyLevel.Pharaoh)\n            {\n                return PharaohOutOfBalanceCount;"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a376",
+      "apiName": "ACHIEVEMENT_EGYPT5_DEFEAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT5_DEFEAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT5_DEFEAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT5_DEFEAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT5_DEFEAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt5/Egypt5Game.cs",
+          "line": 523,
+          "context": "            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n\n        public void DoMinorDefeat()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT5_DEFEAT\"), getKemetPlayer());\n        }\n\n        public void DoMajorDefeat()\n        {\n            DoMinorDefeat();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT5_MAJOR_DEFEAT\"), getKemetPlayer());\n        }"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a378",
+      "apiName": "ACHIEVEMENT_EGYPT5_MAJOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT5_MAJOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT5_MAJOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT5_MAJOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT5_MAJOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_5</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt5/Egypt5Game.cs",
+          "line": 513,
+          "context": "            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }\n\n        public VictoryType DoMajorVictory()\n        {\n            DoMinorVictory();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT5_MAJOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt5Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT5_PHARAOH_MAJOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a379",
+      "apiName": "ACHIEVEMENT_EGYPT5_PHARAOH_MAJOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT5_PHARAOH_MAJOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT5_PHARAOH_MAJOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT5_PHARAOH_MAJOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT5_PHARAOH_MAJOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_5</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt5/Egypt5Game.cs",
+          "line": 516,
+          "context": "        public VictoryType DoMajorVictory()\n        {\n            DoMinorVictory();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT5_MAJOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt5Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT5_PHARAOH_MAJOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n\n        public void DoMinorDefeat()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT5_DEFEAT\"), getKemetPlayer());"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a329",
+      "apiName": "ACHIEVEMENT_EGYPT5_MINOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT5_MINOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT5_MINOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT5_MINOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT5_MINOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_5</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt5/Egypt5Game.cs",
+          "line": 502,
+          "context": "            }\n            base.makeWinner(eWinnerTeam, eWinnerVictory);\n        }\n\n        public VictoryType DoMinorVictory()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT5_MINOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt5Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT5_PHARAOH_MINOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }\n"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a380",
+      "apiName": "ACHIEVEMENT_EGYPT5_PHARAOH_MINOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT5_PHARAOH_MINOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT5_PHARAOH_MINOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT5_PHARAOH_MINOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT5_PHARAOH_MINOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_5</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt5/Egypt5Game.cs",
+          "line": 505,
+          "context": "\n        public VictoryType DoMinorVictory()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT5_MINOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt5Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT5_PHARAOH_MINOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }\n\n        public VictoryType DoMajorVictory()\n        {\n            DoMinorVictory();"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a384",
+      "apiName": "ACHIEVEMENT_EGYPT6_PHARAOH_MAJOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT6_PHARAOH_MAJOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT6_PHARAOH_MAJOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT6_PHARAOH_MAJOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT6_PHARAOH_MAJOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_6</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt6/Egypt6Game.cs",
+          "line": 630,
+          "context": "        public VictoryType DoMajorVictory()\n        {\n            DoMinorVictory();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT6_MAJOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt6Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT6_PHARAOH_MAJOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n\n        public void DoMinorDefeat()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT6_DEFEAT\"), getKemetPlayer());"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a381",
+      "apiName": "ACHIEVEMENT_EGYPT6_DEFEAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT6_DEFEAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT6_DEFEAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT6_DEFEAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT6_DEFEAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt6/Egypt6Game.cs",
+          "line": 637,
+          "context": "            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n\n        public void DoMinorDefeat()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT6_DEFEAT\"), getKemetPlayer());\n        }\n\n        public void DoMajorDefeat()\n        {\n            DoMinorDefeat();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT6_MAJOR_DEFEAT\"), getKemetPlayer());\n        }"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a330",
+      "apiName": "ACHIEVEMENT_EGYPT6_MINOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT6_MINOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT6_MINOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT6_MINOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT6_MINOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_6</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt6/Egypt6Game.cs",
+          "line": 615,
+          "context": "            }\n            base.makeWinner(eWinnerTeam, eWinnerVictory);\n        }\n\n        public VictoryType DoMinorVictory()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT6_MINOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt6Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT6_PHARAOH_MINOR_VICTORY\"), getKemetPlayer());\n            }\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT_CAMPAIGN_COMPLETED\"), getKemetPlayer());\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a385",
+      "apiName": "ACHIEVEMENT_EGYPT6_PHARAOH_MINOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT6_PHARAOH_MINOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT6_PHARAOH_MINOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT6_PHARAOH_MINOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT6_PHARAOH_MINOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_6</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt6/Egypt6Game.cs",
+          "line": 618,
+          "context": "\n        public VictoryType DoMinorVictory()\n        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT6_MINOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt6Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT6_PHARAOH_MINOR_VICTORY\"), getKemetPlayer());\n            }\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT_CAMPAIGN_COMPLETED\"), getKemetPlayer());\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }\n\n        public VictoryType DoMajorVictory()\n        {"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a382",
+      "apiName": "ACHIEVEMENT_EGYPT6_MAJOR_DEFEAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT6_MAJOR_DEFEAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT6_MAJOR_DEFEAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT6_MAJOR_DEFEAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT6_MAJOR_DEFEAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt6/Egypt6Game.cs",
+          "line": 643,
+          "context": "            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT6_DEFEAT\"), getKemetPlayer());\n        }\n\n        public void DoMajorDefeat()\n        {\n            DoMinorDefeat();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT6_MAJOR_DEFEAT\"), getKemetPlayer());\n        }\n\n        protected override void checkGameOver()\n        {\n            bool bWin = false;\n            if (city(0).getPlayer() != getKemetPlayer().getPlayer())\n            {"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a383",
+      "apiName": "ACHIEVEMENT_EGYPT6_MAJOR_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT6_MAJOR_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT6_MAJOR_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT6_MAJOR_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT6_MAJOR_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_6</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt6/Egypt6Game.cs",
+          "line": 627,
+          "context": "            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }\n\n        public VictoryType DoMajorVictory()\n        {\n            DoMinorVictory();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT6_MAJOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt6Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT6_PHARAOH_MAJOR_VICTORY\"), getKemetPlayer());\n            }\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MAJOR\");\n        }\n"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a331",
+      "apiName": "ACHIEVEMENT_EGYPT_CAMPAIGN_COMPLETED",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT_CAMPAIGN_COMPLETED",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT_CAMPAIGN_COMPLETED</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT_CAMPAIGN_COMPLETED_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT_CAMPAIGN_COMPLETED</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt6/Egypt6Game.cs",
+          "line": 620,
+          "context": "        {\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT6_MINOR_VICTORY\"), getKemetPlayer());\n            if (getKemetPlayer().getEgyptDifficulty() == Egypt6Player.EgyptDifficultyLevel.Pharaoh)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT6_PHARAOH_MINOR_VICTORY\"), getKemetPlayer());\n            }\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT_CAMPAIGN_COMPLETED\"), getKemetPlayer());\n            return infos().getType<VictoryType>(\"VICTORY_EGYPT_MINOR\");\n        }\n\n        public VictoryType DoMajorVictory()\n        {\n            DoMinorVictory();\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT6_MAJOR_VICTORY\"), getKemetPlayer());"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a386",
+      "apiName": "ACHIEVEMENT_EGYPT_EXODUS_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/EgyptCampaign/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_EGYPT_EXODUS_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EGYPT_EXODUS_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EGYPT_EXODUS_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EGYPT_EXODUS_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_EGYPT_5</Scenario>\n\t</Entry>\n"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Egypt5/Egypt5Player.cs",
+          "line": 212,
+          "context": "                                game().unit(iUnit).kill();\n                            }\n                        }\n                    }\n                    game().tile((game() as EgyptGame).getExodusTile()).setTerrain(infos().getType<TerrainType>(\"TERRAIN_WATER\"));\n                    game().tile((game() as EgyptGame).getExodusTile()).makeDrawDirty();\n                    game().doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_EGYPT_EXODUS_VICTORY\"), (game() as EgyptGame).getKemetPlayer());\n                    (game() as Egypt5Game).doExodusEnding();\n                }\n            }\n        }\n\n        protected override void doMission(MissionData pMission)\n        {"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    }
+  ],
+  "note": "Automated source index; not a gameplay test or complete verification of tactics. Human findings are in the review.",
+  "sharedSourceSha256": {
+    "Reference/Source/Base/Game/GameCore/Game.cs": "6f53b000279d14a9abb58c40269880b2d6385416cf8e4915996957b4417b6367",
+    "Reference/Source/Base/Game/GameCore/Player.cs": "b163e9bab5e496ca787e40e332749e27652bd68abfb896eab6aa1b880b8d3cda",
+    "Reference/Source/Base/Game/GameCore/PlayerGoal.cs": "c54e7b03ec71f2a4d17744ba558f0dcbff51796c44a8af5dcdde6e0889dacd54",
+    "Reference/Source/Base/Game/GameCore/PlayerEvent.cs": "6be1751b6a8fb606088eb1ba812170b6522a539e062c67cbb0bc972be843e356",
+    "Reference/Source/Base/Game/GameCore/Unit.cs": "744b943df9241c05115f0d6cdd03eec7a7dd0784b0689abd85ad5480530d3ad2",
+    "Reference/Source/Base/Game/GameCore/City.cs": "7b1fb548257e66f5407d0f7cf5eb471f06a4bac64dc56d584192d230b5d7badd",
+    "Reference/Source/Base/Game/GameCore/Tile.cs": "08fd9e13065d2a3a1747e45f24d8be2268e68b0ed58ee21666162e654ad273c0",
+    "Reference/Source/Base/Game/GameCore/Character.cs": "0b7c05e8467b30b76b6cbf6ff0dd423d629d8fd75584cc678ea6b0dd1c818419",
+    "Reference/Source/Mods/EgyptCampaign/EgyptCharacter.cs": "057d2830947a42af95ad387325f4f5503865db2430e72f1bd3cfc33c6a2f9385",
+    "Reference/Source/Mods/EgyptCampaign/EgyptClientUI.cs": "dfb435aaca12e9d620debe5a1a28bef2935a17a8cf6a161a23d47059235b7c27",
+    "Reference/Source/Mods/EgyptCampaign/EgyptEnums.cs": "2a4f00cd23b198c9399716bd3c05bd08aedb55909ae19c8c4a63c769d90ea099",
+    "Reference/Source/Mods/EgyptCampaign/EgyptGame.cs": "1df12159650e4d14e2208b6cb4ef489704fa70428058716324bed8284cd9c41a",
+    "Reference/Source/Mods/EgyptCampaign/EgyptHelpText.cs": "bbf974094ce20672cf53fd8f4fac39035a40e7cfacf764b41a8f7304bdb61c63",
+    "Reference/Source/Mods/EgyptCampaign/EgyptInfoHelpers.cs": "6805e008dcff5616dc19de7c5bf83b35fec7d2b5e3c2c0dbf37f5759c6c5f417",
+    "Reference/Source/Mods/EgyptCampaign/EgyptInfos.cs": "f1bc29472e9eff023ab2882d1f4757287bdd01973241c5a7450a288ac239b560",
+    "Reference/Source/Mods/EgyptCampaign/EgyptPharaohs.cs": "76ae7e035974081da056cce5421a8838d79c4a55f6bd01e4a87e8b303de5cf77",
+    "Reference/Source/Mods/EgyptCampaign/EgyptPlayer.cs": "f4df6a0e7e03bceb5ebf66a0c6460b74d36934b7e09f01e243626b747fe6b8f8",
+    "Reference/Source/Mods/Egypt1/Egypt1City.cs": "32114ca206d166b50a799a60a4bcc42d6eccae9bee6dc083fc4ac6633cd129ad",
+    "Reference/Source/Mods/Egypt1/Egypt1ClientRenderer.cs": "f50f9763e69bb0f87b40af3b92d43960739430ccb4ff4849d778bd0978101d3c",
+    "Reference/Source/Mods/Egypt1/Egypt1EntryPoint.cs": "c02d5365180dd4c9752dfe42120ec2a81e1e28ffaa7b1bd66ca4f927e59f3a81",
+    "Reference/Source/Mods/Egypt1/Egypt1Game.cs": "aa5ebeaf4197a5afc600263de2e14774dfec934a5b42e84b103ffc3ff2d460e5",
+    "Reference/Source/Mods/Egypt1/Egypt1GameFactory.cs": "4f2123680dd223b3d0d7edf19ea604af3c69da454e8cbdd56222bc96fe5e8db3",
+    "Reference/Source/Mods/Egypt1/Egypt1Player.cs": "20c54e0bf808f98e893afd1ed787802ddf92c4f260161a5ee9eb2247d7e0bab3",
+    "Reference/Source/Mods/Egypt1/Egypt1Tile.cs": "36b0135bc5c129f1fc6d344471fb31df01364990f6ee9b278ba4c6f5d2400d08",
+    "Reference/Source/Mods/Egypt1/Egypt1Unit.cs": "cf269af4c1acc2ccff858c1d387f437ac81cf278767d78f6afe157c06538e9e5",
+    "Reference/Source/Mods/Egypt2/Egypt2City.cs": "8c115322c857a532a73d48266e5eca3b3c2976a72e568409d35a67617ceffad6",
+    "Reference/Source/Mods/Egypt2/Egypt2ClientRenderer.cs": "02c95fefc2b753bfa974da4bc79267434f3bd394e8bf159ff04f7f72db188eeb",
+    "Reference/Source/Mods/Egypt2/Egypt2ClientUI.cs": "fdec66eef197bcad089a57ca300ac05e0d57682bfcc0891717c97db992214378",
+    "Reference/Source/Mods/Egypt2/Egypt2EntryPoint.cs": "6e2b9776539ce687895a22c52597b3d9dade82d38f255208291abd3bc8575fd5",
+    "Reference/Source/Mods/Egypt2/Egypt2Game.cs": "20e9104cb58ae8b4e5ba90698506b4e5289dcd438cb52f4fd48d2ee0cc2551b9",
+    "Reference/Source/Mods/Egypt2/Egypt2GameFactory.cs": "f5f44fe8fd9552cc0ca02567122a6ddb0c7650ce537c72d2b948f5b9be76c701",
+    "Reference/Source/Mods/Egypt2/Egypt2HelpText.cs": "2cb0bfef794f6fac53876e9d1cd5fafa1662dba285d912110edb5822da96e8b2",
+    "Reference/Source/Mods/Egypt2/Egypt2Player.cs": "9317cdddc424fb4b2f41b010f4b0cb70ff34f68ce5ef11ff4328550b6835adb3",
+    "Reference/Source/Mods/Egypt2/Egypt2Unit.cs": "ed599f1fc6fa25f71f80cb544d1f381d43241737760d353406d53cb11c0d7eeb",
+    "Reference/Source/Mods/Egypt3/Egypt3Character.cs": "5a443c5cc9d03e9cc2296591bcbdd7e8010234366df8904cf023e02290236523",
+    "Reference/Source/Mods/Egypt3/Egypt3City.cs": "a2c3273e245b1f18fbe61724659f6d8408318162baaade7778906501f52f9cff",
+    "Reference/Source/Mods/Egypt3/Egypt3ClientUI.cs": "d3dbb0ea801e93c226e789326560d3e5b07d69e7712ec84019a131b8713c0e3e",
+    "Reference/Source/Mods/Egypt3/Egypt3EntryPoint.cs": "e434f6d5ad94222ed16e5b2c16d2612756e19a5b7e524ec13942e11a9035a1db",
+    "Reference/Source/Mods/Egypt3/Egypt3Game.cs": "ae4cc30b3ddde378daffb69156cbcdfebe9d36c547577fbeaddcf6b8e6529d8b",
+    "Reference/Source/Mods/Egypt3/Egypt3GameFactory.cs": "d1d19912bd7c815251263e9da22e2a90b77db6534a17f9dd74bcb232e4d29999",
+    "Reference/Source/Mods/Egypt3/Egypt3HelpText.cs": "87ad93d0ab7cb7334dc7855dfb48709ec8aa328d38bc34862e0ff0cd07eac0f1",
+    "Reference/Source/Mods/Egypt3/Egypt3Player.cs": "5de754b6f5bc82a2ebe4d3165dc2c9e3ffc770f802d8d52474b0fe20dc39880a",
+    "Reference/Source/Mods/Egypt3/Egypt3Tile.cs": "93deb64c0f52d586a1560df2ea2c5ef0824b57dab0f8bd349cb10eb6b9ce88b5",
+    "Reference/Source/Mods/Egypt3/Egypt3Unit.cs": "978659d9f25e072515455733388150eaacd7df5a63157b7ea2a478002e67416a",
+    "Reference/Source/Mods/Egypt4/Egypt4Character.cs": "e334de77e90e262f95d6ded933fdebdf0fb3ec7951f535a05930e5a57da273a0",
+    "Reference/Source/Mods/Egypt4/Egypt4ClientRenderer.cs": "1fa396c84805b68c38bcf501d781387c562a975d78d9cc2f5e5fc1f09b052456",
+    "Reference/Source/Mods/Egypt4/Egypt4ClientUI.cs": "58ce97e3cb6f01928201535279b3c4440132ffdf9e7e2e52dbb0cb654b7f0f05",
+    "Reference/Source/Mods/Egypt4/Egypt4EntryPoint.cs": "e95542dfd87c38c698860bdba2c5ef263726e7b00868d80af8aa2c778430219f",
+    "Reference/Source/Mods/Egypt4/Egypt4Game.cs": "00b667e802217f60dcc7d3090c11c26821b8be6ae805d067d47ebfa63f26b560",
+    "Reference/Source/Mods/Egypt4/Egypt4GameFactory.cs": "f7a7261667ab9be1af5b3e032fd2f7a8737eed9c50dbff9fe0b35c8aa4102a36",
+    "Reference/Source/Mods/Egypt4/Egypt4Player.cs": "1e7b3da7973a8992d86b512da8502c6343a948781e3380564f94c54adad23ef4",
+    "Reference/Source/Mods/Egypt4/Egypt4Unit.cs": "2727c17b046920ab6f1eb51ef6e002673c3cdb5e6025b118d9fe0b45f265dede",
+    "Reference/Source/Mods/Egypt5/Egypt5City.cs": "700f00589bf01e7dc30341cdcd984e9617a5aabd933488397feda772e76e3e84",
+    "Reference/Source/Mods/Egypt5/Egypt5ClientRenderer.cs": "d79ab186219214ea6c4cdc8cd7c07f0ca12f870805902250f49c145b03e0f00f",
+    "Reference/Source/Mods/Egypt5/Egypt5ClientUI.cs": "6f748a1836239c831a9029228f314fe2429f443a167e3629b6db7844c3ee3be9",
+    "Reference/Source/Mods/Egypt5/Egypt5EntryPoint.cs": "393bf4ff7acd65301e53e4e52ffa4274d1c9d9af54a133a80db6baca84e61eee",
+    "Reference/Source/Mods/Egypt5/Egypt5Game.cs": "601cf52927ce9d53b97f588e65b03af88fc201a129e4e965fa5d2ecf44e01703",
+    "Reference/Source/Mods/Egypt5/Egypt5GameFactory.cs": "9249f4e897a82d034dbd7f24fee221a5a743aae4eeeb6fef001f85338a9587b3",
+    "Reference/Source/Mods/Egypt5/Egypt5HelpText.cs": "181400d16320121f55668971c4c2d028ae47d1048cb0ce04e1a8b2fae1d299c0",
+    "Reference/Source/Mods/Egypt5/Egypt5Player.cs": "323f8e90b4561ff68d88e6e9665173385e6f3ba0fab1799f9f585a2aed0b17f2",
+    "Reference/Source/Mods/Egypt5/Egypt5Tile.cs": "e691dd8f38ba8ec779476caffebe868a7fedaa2e47c7a84d8db8d3c72f01b5c9",
+    "Reference/Source/Mods/Egypt5/Egypt5Unit.cs": "92357a14ee63cd01fc6871a31110f95ffc6943dafd182fd8296e68f70ef96a0e",
+    "Reference/Source/Mods/Egypt6/Egypt6ClientUI.cs": "3bf6cfe19dbdbf416d607e4ad9903368f10b44ca385e0be9c8d57ee9c5b637fe",
+    "Reference/Source/Mods/Egypt6/Egypt6EntryPoint.cs": "3b5a00b2d582cca0d784bedcd2842149d3fe932a1af1148d80a6d42c241bf03f",
+    "Reference/Source/Mods/Egypt6/Egypt6Game.cs": "d4f62d2685917ac788d0ba529120bddbc2c93d7d46dc20037d9645b61dfa9485",
+    "Reference/Source/Mods/Egypt6/Egypt6GameFactory.cs": "1c4b47d221283439527b188fa91e475cd0a081b7929eb007db4c708815a4d744",
+    "Reference/Source/Mods/Egypt6/Egypt6Player.cs": "a284112a201001a169497b9eeada81ff0aebef0f94691c501923f31282ae7641",
+    "Reference/Source/Mods/Egypt6/Egypt6Unit.cs": "06911482dba27b4e89997cb7e0774c415a0cc4f2ba70a3b28293650fca58a321"
+  },
+  "humanFindings": "pharaohs-nile-review.md"
+}

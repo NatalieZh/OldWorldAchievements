@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-26",
+  "buildId": "26728102",
+  "count": 23,
+  "sourceRoot": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Old World",
+  "sourceSha256": {
+    "Reference/XML/Infos/achievement.xml": "63e0e16dedb35eb03ef5be426e9d2de23f69ede0bcfbfe57e48fbc7661d33a61"
+  },
+  "records": [
+    {
+      "id": "a247",
+      "apiName": "ACHIEVEMENT_NATION_AKSUM",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_NATION_AKSUM",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_NATION_AKSUM</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_NATION_AKSUM_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_NATION_AKSUM</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Nation>NATION_AKSUM</Nation>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a185",
+      "apiName": "ACHIEVEMENT_NATION_ASSYRIA",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_NATION_ASSYRIA",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_NATION_ASSYRIA</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_NATION_ASSYRIA_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_NATION_ASSYRIA</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Nation>NATION_ASSYRIA</Nation>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a055",
+      "apiName": "ACHIEVEMENT_NATION_BABYLONIA",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_NATION_BABYLONIA",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_NATION_BABYLONIA</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_NATION_BABYLONIA_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_NATION_BABYLONIA</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Nation>NATION_BABYLONIA</Nation>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a043",
+      "apiName": "ACHIEVEMENT_NATION_GREECE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_NATION_GREECE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_NATION_GREECE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_NATION_GREECE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_NATION_GREECE</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Nation>NATION_GREECE</Nation>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a030",
+      "apiName": "ACHIEVEMENT_NATION_EGYPT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_NATION_EGYPT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_NATION_EGYPT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_NATION_EGYPT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_NATION_EGYPT</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Nation>NATION_EGYPT</Nation>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a158",
+      "apiName": "ACHIEVEMENT_NATION_CARTHAGE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_NATION_CARTHAGE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_NATION_CARTHAGE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_NATION_CARTHAGE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_NATION_CARTHAGE</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Nation>NATION_CARTHAGE</Nation>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a217",
+      "apiName": "ACHIEVEMENT_NATION_KUSH",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_NATION_KUSH",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_NATION_KUSH</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_NATION_KUSH_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_NATION_KUSH</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Nation>NATION_KUSH</Nation>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a087",
+      "apiName": "ACHIEVEMENT_NATION_MAURYA",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_NATION_MAURYA",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_NATION_MAURYA</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_NATION_MAURYA_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_NATION_MAURYA</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Nation>NATION_MAURYA</Nation>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a078",
+      "apiName": "ACHIEVEMENT_NATION_PERSIA",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_NATION_PERSIA",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_NATION_PERSIA</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_NATION_PERSIA_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_NATION_PERSIA</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Nation>NATION_PERSIA</Nation>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a017",
+      "apiName": "ACHIEVEMENT_NATION_ROME",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_NATION_ROME",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_NATION_ROME</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_NATION_ROME_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_NATION_ROME</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Nation>NATION_ROME</Nation>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a344",
+      "apiName": "ACHIEVEMENT_NATION_TAMILAKAM",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_NATION_TAMILAKAM",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_NATION_TAMILAKAM</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_NATION_TAMILAKAM_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_NATION_TAMILAKAM</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Nation>NATION_TAMIL</Nation>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a033",
+      "apiName": "ACHIEVEMENT_NATION_HITTITE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_NATION_HITTITE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_NATION_HITTITE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_NATION_HITTITE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_NATION_HITTITE</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Nation>NATION_HITTITE</Nation>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a345",
+      "apiName": "ACHIEVEMENT_NATION_YUEZHI",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_NATION_YUEZHI",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_NATION_YUEZHI</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_NATION_YUEZHI_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_NATION_YUEZHI</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Nation>NATION_YUEZHI</Nation>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a016",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_CHAMPIONS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_FAMILYCLASS_CHAMPIONS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_FAMILYCLASS_CHAMPIONS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_FAMILYCLASS_CHAMPIONS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_FAMILYCLASS_CHAMPIONS</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<FamilyClass>FAMILYCLASS_CHAMPIONS</FamilyClass>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a076",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_RIDERS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_FAMILYCLASS_RIDERS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_FAMILYCLASS_RIDERS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_FAMILYCLASS_RIDERS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_FAMILYCLASS_RIDERS</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<FamilyClass>FAMILYCLASS_RIDERS</FamilyClass>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a029",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_LANDOWNERS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_FAMILYCLASS_LANDOWNERS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_FAMILYCLASS_LANDOWNERS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_FAMILYCLASS_LANDOWNERS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_FAMILYCLASS_LANDOWNERS</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<FamilyClass>FAMILYCLASS_LANDOWNERS</FamilyClass>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a052",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_ARTISANS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_FAMILYCLASS_ARTISANS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_FAMILYCLASS_ARTISANS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_FAMILYCLASS_ARTISANS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_FAMILYCLASS_ARTISANS</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<FamilyClass>FAMILYCLASS_ARTISANS</FamilyClass>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a042",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_SAGES",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_FAMILYCLASS_SAGES",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_FAMILYCLASS_SAGES</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_FAMILYCLASS_SAGES_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_FAMILYCLASS_SAGES</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<FamilyClass>FAMILYCLASS_SAGES</FamilyClass>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a075",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_HUNTERS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_FAMILYCLASS_HUNTERS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_FAMILYCLASS_HUNTERS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_FAMILYCLASS_HUNTERS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_FAMILYCLASS_HUNTERS</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<FamilyClass>FAMILYCLASS_HUNTERS</FamilyClass>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a041",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_PATRONS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_FAMILYCLASS_PATRONS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_FAMILYCLASS_PATRONS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_FAMILYCLASS_PATRONS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_FAMILYCLASS_PATRONS</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<FamilyClass>FAMILYCLASS_PATRONS</FamilyClass>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a077",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_STATESMEN",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_FAMILYCLASS_STATESMEN",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_FAMILYCLASS_STATESMEN</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_FAMILYCLASS_STATESMEN_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_FAMILYCLASS_STATESMEN</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<FamilyClass>FAMILYCLASS_STATESMEN</FamilyClass>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a156",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_CLERICS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_FAMILYCLASS_CLERICS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_FAMILYCLASS_CLERICS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_FAMILYCLASS_CLERICS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_FAMILYCLASS_CLERICS</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<FamilyClass>FAMILYCLASS_CLERICS</FamilyClass>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a053",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_TRADERS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_FAMILYCLASS_TRADERS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_FAMILYCLASS_TRADERS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_FAMILYCLASS_TRADERS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_FAMILYCLASS_TRADERS</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<FamilyClass>FAMILYCLASS_TRADERS</FamilyClass>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    }
+  ],
+  "note": "Automated source index; not a gameplay test or complete verification of tactics. Human findings are in the review.",
+  "sharedSourceSha256": {
+    "Reference/Source/Base/Game/GameCore/Game.cs": "6f53b000279d14a9abb58c40269880b2d6385416cf8e4915996957b4417b6367",
+    "Reference/Source/Base/Game/GameCore/Player.cs": "b163e9bab5e496ca787e40e332749e27652bd68abfb896eab6aa1b880b8d3cda",
+    "Reference/Source/Base/Game/GameCore/PlayerGoal.cs": "c54e7b03ec71f2a4d17744ba558f0dcbff51796c44a8af5dcdde6e0889dacd54",
+    "Reference/Source/Base/Game/GameCore/PlayerEvent.cs": "6be1751b6a8fb606088eb1ba812170b6522a539e062c67cbb0bc972be843e356",
+    "Reference/Source/Base/Game/GameCore/Unit.cs": "744b943df9241c05115f0d6cdd03eec7a7dd0784b0689abd85ad5480530d3ad2",
+    "Reference/Source/Base/Game/GameCore/City.cs": "7b1fb548257e66f5407d0f7cf5eb471f06a4bac64dc56d584192d230b5d7badd",
+    "Reference/Source/Base/Game/GameCore/Tile.cs": "08fd9e13065d2a3a1747e45f24d8be2268e68b0ed58ee21666162e654ad273c0",
+    "Reference/Source/Base/Game/GameCore/Character.cs": "0b7c05e8467b30b76b6cbf6ff0dd423d629d8fd75584cc678ea6b0dd1c818419"
+  },
+  "humanFindings": "civilizations-families-review.md"
+}

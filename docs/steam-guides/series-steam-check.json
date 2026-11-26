@@ -1,0 +1,3272 @@
+{
+  "date": "2026-11-26",
+  "url": "https://steamcommunity.com/stats/597180/achievements/?l=russian",
+  "language": "russian",
+  "count": 408,
+  "entries": [
+    {
+      "id": "a001",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HILL_FORT",
+      "steam": [
+        "Читторгарххом",
+        "Построить Читторгарх"
+      ]
+    },
+    {
+      "id": "a002",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_MONUMENTAL_BUDDHAS",
+      "steam": [
+        "Статуи Будды",
+        "Построить статуи Будды"
+      ]
+    },
+    {
+      "id": "a003",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_AL_KHAZNEH",
+      "steam": [
+        "Эль-Хазне",
+        "Построить Эль-Хазне"
+      ]
+    },
+    {
+      "id": "a004",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_BUDDHISM",
+      "steam": [
+        "Храм Махабодхи",
+        "Построить Храм Махабодхи"
+      ]
+    },
+    {
+      "id": "a005",
+      "apiName": "ACHIEVEMENT_UNIT_ARMOURED_ELEPHANT",
+      "steam": [
+        "Бронированный слон",
+        "Обучить бронированного слона"
+      ]
+    },
+    {
+      "id": "a006",
+      "apiName": "ACHIEVEMENT_THREAT_AVERTED",
+      "steam": [
+        "Угроза миновала",
+        "Вы уничтожили гуннов (Империи Инда)"
+      ]
+    },
+    {
+      "id": "a007",
+      "apiName": "ACHIEVEMENT_COGNOMEN_GRACIOUS",
+      "steam": [
+        "Обходительный",
+        "Стать Обходительным"
+      ]
+    },
+    {
+      "id": "a008",
+      "apiName": "ACHIEVEMENT_RELIGION_MANICHAEISM",
+      "steam": [
+        "Манихейство",
+        "Основать манихейство"
+      ]
+    },
+    {
+      "id": "a009",
+      "apiName": "ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER",
+      "steam": [
+        "Цареубийство",
+        "Убить лидера другой нации"
+      ]
+    },
+    {
+      "id": "a010",
+      "apiName": "ACHIEVEMENT_JUNGLE_OUT_THERE",
+      "steam": [
+        "Там снаружи настоящие джунгли",
+        "Вы вырубили джунгли (Империи Инда)"
+      ]
+    },
+    {
+      "id": "a011",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_THE_MAHAVIHARA",
+      "steam": [
+        "Махавихара",
+        "Построить Махавихару"
+      ]
+    },
+    {
+      "id": "a012",
+      "apiName": "ACHIEVEMENT_COGNOMEN_JUST",
+      "steam": [
+        "Справедливый",
+        "Стать Справедливым"
+      ]
+    },
+    {
+      "id": "a013",
+      "apiName": "ACHIEVEMENT_RELIGION_BUDDHISM",
+      "steam": [
+        "Буддизм",
+        "Основать буддизм"
+      ]
+    },
+    {
+      "id": "a014",
+      "apiName": "ACHIEVEMENT_COGNOMEN_WARRIOR",
+      "steam": [
+        "Воин",
+        "Стать Воином"
+      ]
+    },
+    {
+      "id": "a015",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_STUPA",
+      "steam": [
+        "Большая ступа",
+        "Построить Большую ступу"
+      ]
+    },
+    {
+      "id": "a016",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_CHAMPIONS",
+      "steam": [
+        "Воители",
+        "Одержать победу с воителями"
+      ]
+    },
+    {
+      "id": "a017",
+      "apiName": "ACHIEVEMENT_NATION_ROME",
+      "steam": [
+        "Рим",
+        "Одержать победу за Рим"
+      ]
+    },
+    {
+      "id": "a018",
+      "apiName": "ACHIEVEMENT_THEOLOGY_ENLIGHTENMENT",
+      "steam": [
+        "Просветление",
+        "Основать просветление"
+      ]
+    },
+    {
+      "id": "a019",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_CIRCUS_MAXIMUS",
+      "steam": [
+        "Большой цирк",
+        "Построить Большой цирк"
+      ]
+    },
+    {
+      "id": "a020",
+      "apiName": "ACHIEVEMENT_COGNOMEN_SAVIOR",
+      "steam": [
+        "Спаситель",
+        "Стать Спасителем"
+      ]
+    },
+    {
+      "id": "a021",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_ROME",
+      "steam": [
+        "Римское язычество",
+        "Основать римское язычество"
+      ]
+    },
+    {
+      "id": "a022",
+      "apiName": "ACHIEVEMENT_COGNOMEN_GATHERER",
+      "steam": [
+        "Собиратель",
+        "Стать Собирателем"
+      ]
+    },
+    {
+      "id": "a023",
+      "apiName": "ACHIEVEMENT_UNIT_LEGIONARY",
+      "steam": [
+        "Легионер",
+        "Подготовить легионера"
+      ]
+    },
+    {
+      "id": "a024",
+      "apiName": "ACHIEVEMENT_PACIFIST_LEADER",
+      "steam": [
+        "Мирный путь",
+        "Получить лидера с чертой «Пацифист» (Империи Инда)"
+      ]
+    },
+    {
+      "id": "a025",
+      "apiName": "ACHIEVEMENT_COGNOMEN_HOLY",
+      "steam": [
+        "Святой",
+        "Стать Святым"
+      ]
+    },
+    {
+      "id": "a026",
+      "apiName": "ACHIEVEMENT_COGNOMEN_DEVOUT",
+      "steam": [
+        "Набожный",
+        "Стать Набожным"
+      ]
+    },
+    {
+      "id": "a027",
+      "apiName": "ACHIEVEMENT_THEOLOGY_DUALISM",
+      "steam": [
+        "Дуализм",
+        "Основать дуализм"
+      ]
+    },
+    {
+      "id": "a028",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_ABLE",
+      "steam": [
+        "Уровень сложности «Способный»",
+        "Победить на уровне сложности «Способный»"
+      ]
+    },
+    {
+      "id": "a029",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_LANDOWNERS",
+      "steam": [
+        "Землевладельцы",
+        "Одержать победу с землевладельцами"
+      ]
+    },
+    {
+      "id": "a030",
+      "apiName": "ACHIEVEMENT_NATION_EGYPT",
+      "steam": [
+        "Египет",
+        "Одержать победу за Египет"
+      ]
+    },
+    {
+      "id": "a031",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_PYRAMIDS",
+      "steam": [
+        "Пирамиды",
+        "Построить Пирамиды"
+      ]
+    },
+    {
+      "id": "a032",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_JUST",
+      "steam": [
+        "Уровень сложности «Справедливый»",
+        "Победить на уровне сложности «Справедливый»"
+      ]
+    },
+    {
+      "id": "a033",
+      "apiName": "ACHIEVEMENT_NATION_HITTITE",
+      "steam": [
+        "Хетты",
+        "Победить, играя за хеттов"
+      ]
+    },
+    {
+      "id": "a034",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_COLOSSEUM",
+      "steam": [
+        "Колизей",
+        "Построить Колизей"
+      ]
+    },
+    {
+      "id": "a035",
+      "apiName": "ACHIEVEMENT_UNIT_HITTITE_CHARIOT",
+      "steam": [
+        "Колесница с тремя воинами",
+        "Подготовить колесницу с тремя воинами"
+      ]
+    },
+    {
+      "id": "a036",
+      "apiName": "ACHIEVEMENT_COGNOMEN_BELOVED",
+      "steam": [
+        "Возлюбленный",
+        "Стать Возлюбленным"
+      ]
+    },
+    {
+      "id": "a037",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_WHATS_THE_WORST_THAT_HAPPENS",
+      "steam": [
+        "Хуже уже не будет",
+        "Импульсивно объявить войну (Behind the Throne)"
+      ]
+    },
+    {
+      "id": "a038",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_ROYAL_LIBRARY",
+      "steam": [
+        "Царская библиотека",
+        "Построить Царскую библиотеку"
+      ]
+    },
+    {
+      "id": "a039",
+      "apiName": "ACHIEVEMENT_HITTITE_IRON",
+      "steam": [
+        "Хеттское железо",
+        "Построить рудник, играя за хеттов"
+      ]
+    },
+    {
+      "id": "a040",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_HITTITE",
+      "steam": [
+        "Хеттское язычество",
+        "Основать хеттское язычество"
+      ]
+    },
+    {
+      "id": "a041",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_PATRONS",
+      "steam": [
+        "Покровители",
+        "Одержать победу с покровителями"
+      ]
+    },
+    {
+      "id": "a042",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_SAGES",
+      "steam": [
+        "Мудрецы",
+        "Одержать победу с мудрецами"
+      ]
+    },
+    {
+      "id": "a043",
+      "apiName": "ACHIEVEMENT_NATION_GREECE",
+      "steam": [
+        "Греция",
+        "Одержать победу за Грецию"
+      ]
+    },
+    {
+      "id": "a044",
+      "apiName": "ACHIEVEMENT_ONE_TRUE_FAITH",
+      "steam": [
+        "Истинная вера",
+        "Иметь не менее 3 городов и распространить свою государственную религию на все свои города"
+      ]
+    },
+    {
+      "id": "a045",
+      "apiName": "ACHIEVEMENT_COGNOMEN_GREAT",
+      "steam": [
+        "Великий",
+        "Стать Великим"
+      ]
+    },
+    {
+      "id": "a046",
+      "apiName": "ACHIEVEMENT_COGNOMEN_MAGNIFICENT",
+      "steam": [
+        "Великолепный",
+        "Стать Великолепным"
+      ]
+    },
+    {
+      "id": "a047",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_THATS_MY_QUEUE",
+      "steam": [
+        "Теперь моя очередь!",
+        "Устранить великого визиря с помощью интриг (Behind the Throne)"
+      ]
+    },
+    {
+      "id": "a048",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_REFORMER",
+      "steam": [
+        "Реформатор",
+        "Завершить программу реформ великого визиря (Behind the Throne)"
+      ]
+    },
+    {
+      "id": "a049",
+      "apiName": "ACHIEVEMENT_THEOLOGY_GNOSTICISM",
+      "steam": [
+        "Гностицизм",
+        "Основать гностицизм"
+      ]
+    },
+    {
+      "id": "a050",
+      "apiName": "ACHIEVEMENT_THEOLOGY_MYTHOLOGY",
+      "steam": [
+        "Мифология",
+        "Основать мифологию"
+      ]
+    },
+    {
+      "id": "a051",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_APADANA",
+      "steam": [
+        "Ападана",
+        "Построить Ападану"
+      ]
+    },
+    {
+      "id": "a052",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_ARTISANS",
+      "steam": [
+        "Мастера",
+        "Одержать победу с мастерами"
+      ]
+    },
+    {
+      "id": "a053",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_TRADERS",
+      "steam": [
+        "Торговцы",
+        "Одержать победу с торговцами"
+      ]
+    },
+    {
+      "id": "a054",
+      "apiName": "ACHIEVEMENT_LBP1",
+      "steam": [
+        "Учимся играть 1 — Способный",
+        "Пройти «Учимся играть 1 — Способный»"
+      ]
+    },
+    {
+      "id": "a055",
+      "apiName": "ACHIEVEMENT_NATION_BABYLONIA",
+      "steam": [
+        "Вавилония",
+        "Одержать победу за Вавилонию"
+      ]
+    },
+    {
+      "id": "a056",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HAGIA_SOPHIA",
+      "steam": [
+        "Собор Святой Софии",
+        "Построить Собор Святой Софии"
+      ]
+    },
+    {
+      "id": "a057",
+      "apiName": "ACHIEVEMENT_STAT_SEVEN_WONDERS",
+      "steam": [
+        "Строительство чудес света",
+        "Построить семь чудес света в одной игре"
+      ]
+    },
+    {
+      "id": "a058",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_VIA_RECTA_SOUK",
+      "steam": [
+        "Сук на Виа Ректа",
+        "Построить Сук на Виа Ректа"
+      ]
+    },
+    {
+      "id": "a059",
+      "apiName": "ACHIEVEMENT_TRADE_CARAVAN",
+      "steam": [
+        "Торговый караван",
+        "Выполнить торговое соглашение с караваном"
+      ]
+    },
+    {
+      "id": "a060",
+      "apiName": "ACHIEVEMENT_UNIT_CIMMERIAN_ARCHER",
+      "steam": [
+        "Киммерийский лучник",
+        "Подготовить киммерийского лучника"
+      ]
+    },
+    {
+      "id": "a061",
+      "apiName": "ACHIEVEMENT_COGNOMEN_ENLIGHTENED",
+      "steam": [
+        "Просвещенный",
+        "Стать Просвещенным"
+      ]
+    },
+    {
+      "id": "a062",
+      "apiName": "ACHIEVEMENT_CULTURE_LEGENDARY",
+      "steam": [
+        "Легендарные города",
+        "Контролировать три легендарных города в одной игре"
+      ]
+    },
+    {
+      "id": "a063",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_CHRISTIANITY",
+      "steam": [
+        "Храм Гроба Господня",
+        "Построить Храм Гроба Господня"
+      ]
+    },
+    {
+      "id": "a064",
+      "apiName": "ACHIEVEMENT_COGNOMEN_LEARNED",
+      "steam": [
+        "Ученый",
+        "Стать Ученым"
+      ]
+    },
+    {
+      "id": "a065",
+      "apiName": "ACHIEVEMENT_POWER_TO_THE_PEOPLE",
+      "steam": [
+        "Власть народу",
+        "Сделать так, чтобы одновременно действовали законы «Свобода», «Конституция», «Свод законов» и «Терпимость»"
+      ]
+    },
+    {
+      "id": "a066",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_COLOSSUS",
+      "steam": [
+        "Колосс",
+        "Построить Колосс"
+      ]
+    },
+    {
+      "id": "a067",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_LIGHTHOUSE",
+      "steam": [
+        "Маяк",
+        "Построить Маяк"
+      ]
+    },
+    {
+      "id": "a068",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_ISHTAR_GATE",
+      "steam": [
+        "Ворота Иштар",
+        "Построить Ворота Иштар"
+      ]
+    },
+    {
+      "id": "a069",
+      "apiName": "ACHIEVEMENT_COGNOMEN_MASON",
+      "steam": [
+        "Каменщик",
+        "Стать Каменщиком"
+      ]
+    },
+    {
+      "id": "a070",
+      "apiName": "ACHIEVEMENT_COGNOMEN_GLORIOUS",
+      "steam": [
+        "Славный",
+        "Стать Славным"
+      ]
+    },
+    {
+      "id": "a071",
+      "apiName": "ACHIEVEMENT_COGNOMEN_WISE",
+      "steam": [
+        "Мудрый",
+        "Стать Мудрым"
+      ]
+    },
+    {
+      "id": "a072",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_BABYLONIA",
+      "steam": [
+        "Вавилонское язычество",
+        "Основать вавилонское язычество"
+      ]
+    },
+    {
+      "id": "a073",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_NEW",
+      "steam": [
+        "Новый уровень сложности",
+        "Победить на новом уровне сложности"
+      ]
+    },
+    {
+      "id": "a074",
+      "apiName": "ACHIEVEMENT_EVENTLEVEL_HIGH",
+      "steam": [
+        "Высокий уровень события",
+        "Одержать победу с высоким уровнем события"
+      ]
+    },
+    {
+      "id": "a075",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_HUNTERS",
+      "steam": [
+        "Охотники",
+        "Одержать победу с охотниками"
+      ]
+    },
+    {
+      "id": "a076",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_RIDERS",
+      "steam": [
+        "Всадники",
+        "Одержать победу с всадниками"
+      ]
+    },
+    {
+      "id": "a077",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_STATESMEN",
+      "steam": [
+        "Политики",
+        "Одержать победу с политиками"
+      ]
+    },
+    {
+      "id": "a078",
+      "apiName": "ACHIEVEMENT_NATION_PERSIA",
+      "steam": [
+        "Персия",
+        "Одержать победу за Персию"
+      ]
+    },
+    {
+      "id": "a079",
+      "apiName": "ACHIEVEMENT_VICTORY_DOUBLE",
+      "steam": [
+        "Двойная победа",
+        "Одержать двойную победу"
+      ]
+    },
+    {
+      "id": "a080",
+      "apiName": "ACHIEVEMENT_WIN_SINGLEPLAYER",
+      "steam": [
+        "Победить в одиночной игре",
+        "Победить в одиночной игре"
+      ]
+    },
+    {
+      "id": "a081",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_COTHON",
+      "steam": [
+        "Котон",
+        "Построить Котон"
+      ]
+    },
+    {
+      "id": "a082",
+      "apiName": "ACHIEVEMENT_CULTURE_STRONG",
+      "steam": [
+        "Сильные города",
+        "Контролировать четыре сильных города в одной игре"
+      ]
+    },
+    {
+      "id": "a083",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_NECROPOLIS",
+      "steam": [
+        "Некрополь",
+        "Построить Некрополь"
+      ]
+    },
+    {
+      "id": "a084",
+      "apiName": "ACHIEVEMENT_VICTORY_ROLE_PLAYING",
+      "steam": [
+        "Отыгрыш роли",
+        "Одержать победу с ролевыми событиями"
+      ]
+    },
+    {
+      "id": "a085",
+      "apiName": "ACHIEVEMENT_VICTORY_NO_UNDO",
+      "steam": [
+        "Без отмены",
+        "Одержать победу, не пользуясь отменой"
+      ]
+    },
+    {
+      "id": "a086",
+      "apiName": "ACHIEVEMENT_PANTHEON_OF_GODS",
+      "steam": [
+        "Пантеон богов",
+        "Сделать так, чтобы одновременно действовали законы «Многобожие», «Божественное правление» и «Священная война»"
+      ]
+    },
+    {
+      "id": "a087",
+      "apiName": "ACHIEVEMENT_NATION_MAURYA",
+      "steam": [
+        "Маурья",
+        "Одержать победу за Маурьев"
+      ]
+    },
+    {
+      "id": "a088",
+      "apiName": "ACHIEVEMENT_VICTORY_POINTS",
+      "steam": [
+        "Победа по ОП",
+        "Одержать победу по ОП"
+      ]
+    },
+    {
+      "id": "a089",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_PANTHEON",
+      "steam": [
+        "Пантеон",
+        "Построить Пантеон"
+      ]
+    },
+    {
+      "id": "a090",
+      "apiName": "ACHIEVEMENT_OLD_WORLD_ORDER",
+      "steam": [
+        "Старый мировой порядок",
+        "Сделать так, чтобы одновременно действовали законы «Эпос», «Рабство» и «Тирания»"
+      ]
+    },
+    {
+      "id": "a091",
+      "apiName": "ACHIEVEMENT_COGNOMEN_FOUNTAINHEAD",
+      "steam": [
+        "Первоисточник",
+        "Стать Первоисточником"
+      ]
+    },
+    {
+      "id": "a092",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_JEBEL_BARKAL",
+      "steam": [
+        "Джебель-Баркал",
+        "Построить Джебель-Баркал"
+      ]
+    },
+    {
+      "id": "a093",
+      "apiName": "ACHIEVEMENT_COGNOMEN_KEYSTONE",
+      "steam": [
+        "Основоположник",
+        "Стать Основоположником"
+      ]
+    },
+    {
+      "id": "a094",
+      "apiName": "ACHIEVEMENT_COGNOMEN_ABLE",
+      "steam": [
+        "Способный",
+        "Стать Способным"
+      ]
+    },
+    {
+      "id": "a095",
+      "apiName": "ACHIEVEMENT_CULTURE_DEVELOPING",
+      "steam": [
+        "Развивающиеся города",
+        "Контролировать пять развивающихся городов в одной игре"
+      ]
+    },
+    {
+      "id": "a096",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_JUDAISM",
+      "steam": [
+        "Храм Соломона",
+        "Построить Храм Соломона"
+      ]
+    },
+    {
+      "id": "a097",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_JERWAN_AQUEDUCT",
+      "steam": [
+        "Джерванский акведук",
+        "Построить Джерванский акведук"
+      ]
+    },
+    {
+      "id": "a098",
+      "apiName": "ACHIEVEMENT_THEOLOGY_REDEMPTION",
+      "steam": [
+        "Искупление",
+        "Основать искупление"
+      ]
+    },
+    {
+      "id": "a099",
+      "apiName": "ACHIEVEMENT_COGNOMEN_NOBLE",
+      "steam": [
+        "Благородный",
+        "Стать Благородным"
+      ]
+    },
+    {
+      "id": "a100",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_ACROPOLIS",
+      "steam": [
+        "Акрополь",
+        "Построить Акрополь"
+      ]
+    },
+    {
+      "id": "a101",
+      "apiName": "ACHIEVEMENT_COGNOMEN_GOOD",
+      "steam": [
+        "Добрый",
+        "Стать Добрым"
+      ]
+    },
+    {
+      "id": "a102",
+      "apiName": "ACHIEVEMENT_RELIGION_CHRISTIANITY",
+      "steam": [
+        "Христианство",
+        "Основать христианство"
+      ]
+    },
+    {
+      "id": "a103",
+      "apiName": "ACHIEVEMENT_COGNOMEN_BRILLIANT",
+      "steam": [
+        "Превосходный",
+        "Стать Превосходным"
+      ]
+    },
+    {
+      "id": "a104",
+      "apiName": "ACHIEVEMENT_COGNOMEN_VALIANT",
+      "steam": [
+        "Доблестный",
+        "Стать Доблестным"
+      ]
+    },
+    {
+      "id": "a105",
+      "apiName": "ACHIEVEMENT_COGNOMEN_ARCHITECT",
+      "steam": [
+        "Зодчий",
+        "Стать Зодчим"
+      ]
+    },
+    {
+      "id": "a106",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_ORACLE",
+      "steam": [
+        "Оракул",
+        "Построить Оракул"
+      ]
+    },
+    {
+      "id": "a107",
+      "apiName": "ACHIEVEMENT_THEOLOGY_LEGALISM",
+      "steam": [
+        "Формализм",
+        "Основать формализм"
+      ]
+    },
+    {
+      "id": "a108",
+      "apiName": "ACHIEVEMENT_RELIGION_ZOROASTRIANISM",
+      "steam": [
+        "Зороастризм",
+        "Основать зороастризм"
+      ]
+    },
+    {
+      "id": "a109",
+      "apiName": "ACHIEVEMENT_COGNOMEN_STRONG",
+      "steam": [
+        "Могучий",
+        "Стать Могучим"
+      ]
+    },
+    {
+      "id": "a110",
+      "apiName": "ACHIEVEMENT_RELIGION_JUDAISM",
+      "steam": [
+        "Иудаизм",
+        "Основать иудаизм"
+      ]
+    },
+    {
+      "id": "a111",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_GREAT_ZIGGURAT",
+      "steam": [
+        "Великий зиккурат",
+        "Построить Великий зиккурат"
+      ]
+    },
+    {
+      "id": "a112",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_CLERGY_COURT",
+      "steam": [
+        "Духовенство",
+        "Кто-нибудь из духовенства должен присоединиться ко двору (Божественное и мирское)"
+      ]
+    },
+    {
+      "id": "a113",
+      "apiName": "ACHIEVEMENT_STAT_TEN_LANDMARKS_NAME",
+      "steam": [
+        "Названия достопримечательностей",
+        "Дать названия десяти достопримечательностям в одной игре"
+      ]
+    },
+    {
+      "id": "a114",
+      "apiName": "ACHIEVEMENT_COGNOMEN_INTREPID",
+      "steam": [
+        "Бесстрашный",
+        "Стать Бесстрашным"
+      ]
+    },
+    {
+      "id": "a115",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_PERSIA",
+      "steam": [
+        "Персидское язычество",
+        "Основать персидское язычество"
+      ]
+    },
+    {
+      "id": "a116",
+      "apiName": "ACHIEVEMENT_BABYLON_HANGING_GARDENS",
+      "steam": [
+        "Висячие сады в Вавилоне",
+        "Построить Висячие сады в Вавилоне"
+      ]
+    },
+    {
+      "id": "a117",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HANGING_GARDENS",
+      "steam": [
+        "Висячие сады",
+        "Построить Висячие сады"
+      ]
+    },
+    {
+      "id": "a118",
+      "apiName": "ACHIEVEMENT_COGNOMEN_PIONEER",
+      "steam": [
+        "Первопроходец",
+        "Стать Первопроходцем"
+      ]
+    },
+    {
+      "id": "a119",
+      "apiName": "ACHIEVEMENT_COGNOMEN_EXPLORER",
+      "steam": [
+        "Исследователь",
+        "Стать Исследователем"
+      ]
+    },
+    {
+      "id": "a120",
+      "apiName": "ACHIEVEMENT_COGNOMEN_AMBITIOUS",
+      "steam": [
+        "Амбициозный",
+        "Стать Амбициозным"
+      ]
+    },
+    {
+      "id": "a121",
+      "apiName": "ACHIEVEMENT_FAMILY_FRIENDLY",
+      "steam": [
+        "Дружелюбная семья",
+        "Добиться максимального уровня мнения семьи о вас"
+      ]
+    },
+    {
+      "id": "a122",
+      "apiName": "ACHIEVEMENT_COGNOMEN_SETTLER",
+      "steam": [
+        "Поселенец",
+        "Стать Поселенцем"
+      ]
+    },
+    {
+      "id": "a123",
+      "apiName": "ACHIEVEMENT_PLAY_SINGLEPLAYER",
+      "steam": [
+        "Сыграть в одиночную игру",
+        "Сыграть в одиночную игру"
+      ]
+    },
+    {
+      "id": "a124",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_5",
+      "steam": [
+        "Учимся играть 5",
+        "Пройти 5-й сценарий из серии «Учимся играть»"
+      ]
+    },
+    {
+      "id": "a125",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_4",
+      "steam": [
+        "Учимся играть 4",
+        "Пройти 4-й сценарий из серии «Учимся играть»"
+      ]
+    },
+    {
+      "id": "a126",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_3",
+      "steam": [
+        "Учимся играть 3",
+        "Пройти 3-й сценарий из серии «Учимся играть»"
+      ]
+    },
+    {
+      "id": "a127",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_2",
+      "steam": [
+        "Учимся играть 2",
+        "Пройти 2-й сценарий из серии «Учимся играть»"
+      ]
+    },
+    {
+      "id": "a128",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_1",
+      "steam": [
+        "Учимся играть 1",
+        "Пройти 1-й сценарий из серии «Учимся играть»"
+      ]
+    },
+    {
+      "id": "a129",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_GREECE",
+      "steam": [
+        "Греческое язычество",
+        "Основать греческое язычество"
+      ]
+    },
+    {
+      "id": "a130",
+      "apiName": "ACHIEVEMENT_FAMILY_FURIOUS",
+      "steam": [
+        "Яростная семья",
+        "Добиться минимального уровня мнения семьи о вас"
+      ]
+    },
+    {
+      "id": "a131",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_EGYPT",
+      "steam": [
+        "Египетское язычество",
+        "Основать египетское язычество"
+      ]
+    },
+    {
+      "id": "a132",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_CARTHAGE",
+      "steam": [
+        "Карфагенское язычество",
+        "Основать карфагенское язычество"
+      ]
+    },
+    {
+      "id": "a133",
+      "apiName": "ACHIEVEMENT_COGNOMEN_BRAVE",
+      "steam": [
+        "Храбрый",
+        "Стать Храбрым"
+      ]
+    },
+    {
+      "id": "a134",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_MUSAEUM",
+      "steam": [
+        "Мусейон",
+        "Построить Мусейон"
+      ]
+    },
+    {
+      "id": "a135",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_MAUSOLEUM",
+      "steam": [
+        "Мавзолей",
+        "Построить Мавзолей"
+      ]
+    },
+    {
+      "id": "a136",
+      "apiName": "ACHIEVEMENT_COGNOMEN_CAPABLE",
+      "steam": [
+        "Способный",
+        "Стать Способным"
+      ]
+    },
+    {
+      "id": "a137",
+      "apiName": "ACHIEVEMENT_COGNOMEN_MIGHTY",
+      "steam": [
+        "Могучий",
+        "Стать Могучим"
+      ]
+    },
+    {
+      "id": "a138",
+      "apiName": "ACHIEVEMENT_COGNOMEN_READY",
+      "steam": [
+        "Муштрователь",
+        "Стать Муштрователем"
+      ]
+    },
+    {
+      "id": "a139",
+      "apiName": "ACHIEVEMENT_TECH_ECONOMIC_REFORM",
+      "steam": [
+        "Экономическая реформа",
+        "Изучить технологию «Экономическая реформа»"
+      ]
+    },
+    {
+      "id": "a140",
+      "apiName": "ACHIEVEMENT_COGNOMEN_VICTORIOUS",
+      "steam": [
+        "Победоносный",
+        "Стать Победоносным"
+      ]
+    },
+    {
+      "id": "a141",
+      "apiName": "ACHIEVEMENT_COGNOMEN_INTERCESSOR",
+      "steam": [
+        "Заступник",
+        "Стать Заступником"
+      ]
+    },
+    {
+      "id": "a142",
+      "apiName": "ACHIEVEMENT_TECH_MILITARY_PRESTIGE",
+      "steam": [
+        "Престиж военной службы",
+        "Изучить технологию «Престиж военной службы»"
+      ]
+    },
+    {
+      "id": "a143",
+      "apiName": "ACHIEVEMENT_TECH_INDUSTRIAL_PROGRESS",
+      "steam": [
+        "Промышленный прогресс",
+        "Изучить технологию «Промышленный прогресс»"
+      ]
+    },
+    {
+      "id": "a144",
+      "apiName": "ACHIEVEMENT_COGNOMEN_CONQUEROR",
+      "steam": [
+        "Завоеватель",
+        "Стать Завоевателем"
+      ]
+    },
+    {
+      "id": "a145",
+      "apiName": "ACHIEVEMENT_COGNOMEN_INVINCIBLE",
+      "steam": [
+        "Неуязвимый",
+        "Стать Неуязвимым"
+      ]
+    },
+    {
+      "id": "a146",
+      "apiName": "ACHIEVEMENT_THEOLOGY_VENERATION",
+      "steam": [
+        "Почитание",
+        "Основать почитание"
+      ]
+    },
+    {
+      "id": "a147",
+      "apiName": "ACHIEVEMENT_THEOLOGY_REVELATION",
+      "steam": [
+        "Прозрение",
+        "Основать прозрение"
+      ]
+    },
+    {
+      "id": "a148",
+      "apiName": "ACHIEVEMENT_COGNOMEN_LION",
+      "steam": [
+        "Лев",
+        "Стать Львом"
+      ]
+    },
+    {
+      "id": "a149",
+      "apiName": "ACHIEVEMENT_COGNOMEN_SUBJUGATOR",
+      "steam": [
+        "Подчиняющий",
+        "Стать Подчиняющим"
+      ]
+    },
+    {
+      "id": "a150",
+      "apiName": "ACHIEVEMENT_PLAY_NETWORK",
+      "steam": [
+        "Сыграть в многопользовательскую игру",
+        "Сыграть в многопользовательскую игру"
+      ]
+    },
+    {
+      "id": "a151",
+      "apiName": "ACHIEVEMENT_UNIT_PHALANGITE",
+      "steam": [
+        "Фалангит",
+        "Подготовить фалангита"
+      ]
+    },
+    {
+      "id": "a152",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_ASSYRIA",
+      "steam": [
+        "Ассирийское язычество",
+        "Основать ассирийское язычество"
+      ]
+    },
+    {
+      "id": "a153",
+      "apiName": "ACHIEVEMENT_ASSASSINATED_BY_HEIR",
+      "steam": [
+        "Трудный ребенок",
+        "Быть убитым собственным наследником"
+      ]
+    },
+    {
+      "id": "a154",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_GOOD",
+      "steam": [
+        "Уровень сложности «Добрый»",
+        "Победить на уровне сложности «Добрый»"
+      ]
+    },
+    {
+      "id": "a155",
+      "apiName": "ACHIEVEMENT_UNIT_KUSHITE_CAVALRY",
+      "steam": [
+        "Кушитский всадник",
+        "Подготовить кушитского всадника "
+      ]
+    },
+    {
+      "id": "a156",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_CLERICS",
+      "steam": [
+        "Священники",
+        "Одержать победу со священниками"
+      ]
+    },
+    {
+      "id": "a157",
+      "apiName": "ACHIEVEMENT_PLAY_FFA",
+      "steam": [
+        "Сыграть в режиме «Каждый за себя» (>2 игрока)",
+        "Сыграть в режиме «Каждый за себя» (>2 игрока)"
+      ]
+    },
+    {
+      "id": "a158",
+      "apiName": "ACHIEVEMENT_NATION_CARTHAGE",
+      "steam": [
+        "Карфаген",
+        "Одержать победу за Карфаген"
+      ]
+    },
+    {
+      "id": "a159",
+      "apiName": "ACHIEVEMENT_VICTORY_ALL_NATIONS",
+      "steam": [
+        "Все нации",
+        "Победить все нации"
+      ]
+    },
+    {
+      "id": "a160",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_ZOROASTRIANISM",
+      "steam": [
+        "Адур Бурзен-Михр",
+        "Построить Адур Бурзен-Михр"
+      ]
+    },
+    {
+      "id": "a161",
+      "apiName": "ACHIEVEMENT_UNIT_TURRETED_ELEPHANT",
+      "steam": [
+        "Боевой слон с башней",
+        "Подготовить боевого слона с башней"
+      ]
+    },
+    {
+      "id": "a162",
+      "apiName": "ACHIEVEMENT_BABYLON_ISHTAR_GATE",
+      "steam": [
+        "Ворота Иштар в Вавилоне",
+        "Построить Ворота Иштар в Вавилоне"
+      ]
+    },
+    {
+      "id": "a163",
+      "apiName": "ACHIEVEMENT_COGNOMEN_OLD",
+      "steam": [
+        "Старый",
+        "Стать Старым"
+      ]
+    },
+    {
+      "id": "a164",
+      "apiName": "ACHIEVEMENT_STAT_TEN_LEADERS",
+      "steam": [
+        "Количество лидеров",
+        "Иметь десять лидеров в одной игре"
+      ]
+    },
+    {
+      "id": "a165",
+      "apiName": "ACHIEVEMENT_UNIT_CATAPHRACT_ARCHER",
+      "steam": [
+        "Катафрактарий-лучник",
+        "Подготовить катафрактария-лучника"
+      ]
+    },
+    {
+      "id": "a166",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_YAZILIKAYA",
+      "steam": [
+        "Язылыкая",
+        "Построить Язылыкаю"
+      ]
+    },
+    {
+      "id": "a167",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_MANICHAEISM",
+      "steam": [
+        "Цаоань",
+        "Построить Цаоань"
+      ]
+    },
+    {
+      "id": "a168",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_STRONG",
+      "steam": [
+        "Уровень сложности «Сильный»",
+        "Победить на уровне сложности «Сильный»"
+      ]
+    },
+    {
+      "id": "a169",
+      "apiName": "ACHIEVEMENT_PLAY_MPTEAMS",
+      "steam": [
+        "Сыграть в командную сетевую игру",
+        "Сыграть в командную сетевую игру"
+      ]
+    },
+    {
+      "id": "a170",
+      "apiName": "ACHIEVEMENT_COGNOMEN_PEACEMAKER",
+      "steam": [
+        "Миротворец",
+        "Стать Миротворцем"
+      ]
+    },
+    {
+      "id": "a171",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_KUSH",
+      "steam": [
+        "Кушитское язычество",
+        "Основать кушитское язычество"
+      ]
+    },
+    {
+      "id": "a172",
+      "apiName": "ACHIEVEMENT_COGNOMEN_ANCIENT",
+      "steam": [
+        "Древний",
+        "Стать Древним"
+      ]
+    },
+    {
+      "id": "a173",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_POET_LEADER",
+      "steam": [
+        "Лидер и поэт",
+        "Получить лидера с чертой «Поэт» (Божественное и мирское)"
+      ]
+    },
+    {
+      "id": "a174",
+      "apiName": "ACHIEVEMENT_STAT_TEN_CITIES_CAPTURED",
+      "steam": [
+        "Захват городов",
+        "Захватить десять городов в одной игре"
+      ]
+    },
+    {
+      "id": "a175",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_JACKPOT",
+      "steam": [
+        "Джекпот",
+        "Выиграть в азартную игру (Behind the Throne)"
+      ]
+    },
+    {
+      "id": "a176",
+      "apiName": "ACHIEVEMENT_CARTHAGE_1",
+      "steam": [
+        "Карфаген — Воловья шкура",
+        "Пройти 1-й сценарий Карфагена"
+      ]
+    },
+    {
+      "id": "a177",
+      "apiName": "ACHIEVEMENT_UNIT_SIEGE_TOWER",
+      "steam": [
+        "Осадная башня",
+        "Подготовить осадную башню"
+      ]
+    },
+    {
+      "id": "a178",
+      "apiName": "ACHIEVEMENT_KUSHITE_PYRAMIDS",
+      "steam": [
+        "Кушитские пирамиды",
+        "Играя за Куш, построить кушитские пирамиды"
+      ]
+    },
+    {
+      "id": "a179",
+      "apiName": "ACHIEVEMENT_WASET_NECROPOLIS",
+      "steam": [
+        "Некрополь в Уасете",
+        "Построить Некрополь в Уасете"
+      ]
+    },
+    {
+      "id": "a180",
+      "apiName": "ACHIEVEMENT_CARTHAGE_1_BRONZE",
+      "steam": [
+        "Бронзовая победа (Карфаген 1)",
+        "Одержать бронзовую победу в 1-м сценарии Карфагена"
+      ]
+    },
+    {
+      "id": "a181",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_MYTHICAL_BEAST",
+      "steam": [
+        "Мифический зверь",
+        "Пойти по следу мифического зверя (Божественное и мирское)"
+      ]
+    },
+    {
+      "id": "a182",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_NOBLE",
+      "steam": [
+        "Уровень сложности «Благородный»",
+        "Победить на уровне сложности «Благородный»"
+      ]
+    },
+    {
+      "id": "a183",
+      "apiName": "ACHIEVEMENT_VICTORY_CONQUEST",
+      "steam": [
+        "Победа завоеванием",
+        "Одержать победу завоеванием"
+      ]
+    },
+    {
+      "id": "a184",
+      "apiName": "ACHIEVEMENT_CARTHAGE_1_SILVER",
+      "steam": [
+        "Серебряная победа (Карфаген 1)",
+        "Одержать серебряную победу в 1-м сценарии Карфагена"
+      ]
+    },
+    {
+      "id": "a185",
+      "apiName": "ACHIEVEMENT_NATION_ASSYRIA",
+      "steam": [
+        "Ассирия",
+        "Одержать победу за Ассирию"
+      ]
+    },
+    {
+      "id": "a186",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_DEPOSE_TRIBE",
+      "steam": [
+        "Обезглавленное племя",
+        "Помочь жрецу свергнуть лидера племени (Божественное и мирское)"
+      ]
+    },
+    {
+      "id": "a187",
+      "apiName": "ACHIEVEMENT_FIVE_ROUTS",
+      "steam": [
+        "Пять штурмов",
+        "Выполнить пять штурмов подряд одним юнитом за один ход"
+      ]
+    },
+    {
+      "id": "a188",
+      "apiName": "ACHIEVEMENT_CLEOPATRAS_LOVE",
+      "steam": [
+        "Любовь Клеопатры",
+        "Заключить брак с римлянином, играя за египетскую царицу"
+      ]
+    },
+    {
+      "id": "a189",
+      "apiName": "ACHIEVEMENT_FIRST_PEACE_TREATY",
+      "steam": [
+        "Вечное соглашение",
+        "Заключить мир с Египтом, играя за Хеттское царство"
+      ]
+    },
+    {
+      "id": "a190",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HELIOPOLIS",
+      "steam": [
+        "Гелиополис",
+        "Построить Гелиополис"
+      ]
+    },
+    {
+      "id": "a191",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_AKSUM",
+      "steam": [
+        "Аксумское язычество",
+        "Основать аксумское язычество"
+      ]
+    },
+    {
+      "id": "a192",
+      "apiName": "ACHIEVEMENT_MEMPHIS_PYRAMIDS",
+      "steam": [
+        "Пирамиды в Менефере",
+        "Построить Пирамиды в Менефере"
+      ]
+    },
+    {
+      "id": "a193",
+      "apiName": "ACHIEVEMENT_PLAY_1V1",
+      "steam": [
+        "Сыграть в режиме дуэли",
+        "Сыграть в режиме дуэли"
+      ]
+    },
+    {
+      "id": "a194",
+      "apiName": "ACHIEVEMENT_ROMA_CIRCUS_MAXIMUS",
+      "steam": [
+        "Большой цирк в Риме",
+        "Построить Большой цирк в Риме"
+      ]
+    },
+    {
+      "id": "a195",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_GREAT_MAGE",
+      "steam": [
+        "Великий волхв",
+        "Найти великого волхва (Божественное и мирское)"
+      ]
+    },
+    {
+      "id": "a196",
+      "apiName": "ACHIEVEMENT_GREECE1_RUN",
+      "steam": [
+        "Беги, Фидиппид, беги!",
+        "Добежать до Спарты (Герои Эгейи 1)"
+      ]
+    },
+    {
+      "id": "a197",
+      "apiName": "ACHIEVEMENT_ROMA_PANTHEON",
+      "steam": [
+        "Пантеон в Риме",
+        "Построить Пантеон в Риме"
+      ]
+    },
+    {
+      "id": "a198",
+      "apiName": "ACHIEVEMENT_THE_WORD_OF_GOD",
+      "steam": [
+        "Слово божье",
+        "Сделать так, чтобы одновременно действовали законы «Единобожие», «Догматизм», «Иконопись» и «Паломничество»"
+      ]
+    },
+    {
+      "id": "a199",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_GLORIOUS",
+      "steam": [
+        "Уровень сложности «Славный»",
+        "Победить на уровне сложности «Славный»"
+      ]
+    },
+    {
+      "id": "a200",
+      "apiName": "ACHIEVEMENT_GREECE1_WIN",
+      "steam": [
+        "Неникекамен",
+        "Пройти сценарий «Марафон» (Герои Эгейи 1)"
+      ]
+    },
+    {
+      "id": "a201",
+      "apiName": "ACHIEVEMENT_PERSEPOLIS_APADANA",
+      "steam": [
+        "Ападана в Пaрсе",
+        "Построить Ападану в Пaрсе"
+      ]
+    },
+    {
+      "id": "a202",
+      "apiName": "ACHIEVEMENT_CARTHAGE_1_GOLD",
+      "steam": [
+        "Золотая победа (Карфаген 1)",
+        "Одержать золотую победу в 1-м сценарии Карфагена"
+      ]
+    },
+    {
+      "id": "a203",
+      "apiName": "ACHIEVEMENT_CARTHAGE_2",
+      "steam": [
+        "Карфаген — Восхождение Карфагена",
+        "Пройти 2-й сценарий Карфагена"
+      ]
+    },
+    {
+      "id": "a204",
+      "apiName": "ACHIEVEMENT_CARTHAGE_2_BRONZE",
+      "steam": [
+        "Бронзовая победа (Карфаген 2)",
+        "Одержать бронзовую победу во 2-м сценарии Карфагена"
+      ]
+    },
+    {
+      "id": "a205",
+      "apiName": "ACHIEVEMENT_MACEDONIAN_WARS",
+      "steam": [
+        "Македонские войны",
+        "Уничтожить Грецию, играя за Рим"
+      ]
+    },
+    {
+      "id": "a206",
+      "apiName": "ACHIEVEMENT_UNIT_BEJA_ARCHER",
+      "steam": [
+        "Лучник беджа",
+        "Подготовить лучника беджа"
+      ]
+    },
+    {
+      "id": "a207",
+      "apiName": "ACHIEVEMENT_ASSASSINATED_HEIR",
+      "steam": [
+        "Цареубийство в перспективе",
+        "Убить своего наследника"
+      ]
+    },
+    {
+      "id": "a208",
+      "apiName": "ACHIEVEMENT_CARTHAGE_2_SILVER",
+      "steam": [
+        "Серебряная победа (Карфаген 2)",
+        "Одержать серебряную победу во 2-м сценарии Карфагена"
+      ]
+    },
+    {
+      "id": "a209",
+      "apiName": "ACHIEVEMENT_COGNOMEN_RESOURCEFUL",
+      "steam": [
+        "Находчивый",
+        "Стать Находчивым"
+      ]
+    },
+    {
+      "id": "a210",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_10",
+      "steam": [
+        "Хорошее начало",
+        "Убить 10 персидских юнитов при Фермопилах (Герои Эгейи 2)"
+      ]
+    },
+    {
+      "id": "a211",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_WIN",
+      "steam": [
+        "Скажи спартанцам",
+        "Пройти «Битву при Фермопилах» (Герои Эгейи 2)"
+      ]
+    },
+    {
+      "id": "a212",
+      "apiName": "ACHIEVEMENT_LBP2",
+      "steam": [
+        "Учимся играть 2 — Справедливый",
+        "Пройти «Учимся играть 2 — Справедливый»"
+      ]
+    },
+    {
+      "id": "a213",
+      "apiName": "ACHIEVEMENT_COGNOMEN_HUMANE",
+      "steam": [
+        "Гуманный",
+        "Стать Гуманным"
+      ]
+    },
+    {
+      "id": "a214",
+      "apiName": "ACHIEVEMENT_COGNOMEN_REBUILDER",
+      "steam": [
+        "Восстановитель",
+        "Стать Восстановителем"
+      ]
+    },
+    {
+      "id": "a215",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_MAGNIFICENT",
+      "steam": [
+        "Уровень сложности «Великолепный»",
+        "Победить на уровне сложности «Великолепный»"
+      ]
+    },
+    {
+      "id": "a216",
+      "apiName": "ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST",
+      "steam": [
+        "Мидо-вавилонское завоевание",
+        "Уничтожить Ассирию, играя за Вавилонию"
+      ]
+    },
+    {
+      "id": "a217",
+      "apiName": "ACHIEVEMENT_NATION_KUSH",
+      "steam": [
+        "Куш",
+        "Одержать победу за Куш"
+      ]
+    },
+    {
+      "id": "a218",
+      "apiName": "ACHIEVEMENT_PLAY_HOTSEAT",
+      "steam": [
+        "Сыграть в режиме Hotseat",
+        "Сыграть в режиме Hotseat"
+      ]
+    },
+    {
+      "id": "a219",
+      "apiName": "ACHIEVEMENT_PUNIC_WARS",
+      "steam": [
+        "Пунические войны",
+        "Уничтожить Карфаген, играя за Рим"
+      ]
+    },
+    {
+      "id": "a220",
+      "apiName": "ACHIEVEMENT_WIN_NETWORK",
+      "steam": [
+        "Победить в многопользовательской игре",
+        "Победить в многопользовательской игре"
+      ]
+    },
+    {
+      "id": "a221",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_PRAGMATIST",
+      "steam": [
+        "Прагматизм",
+        "Принять особого посланника (Behind the Throne)"
+      ]
+    },
+    {
+      "id": "a222",
+      "apiName": "ACHIEVEMENT_CARTHAGE_2_GOLD",
+      "steam": [
+        "Золотая победа (Карфаген 2)",
+        "Одержать золотую победу во 2-м сценарии Карфагена"
+      ]
+    },
+    {
+      "id": "a223",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_GREAT",
+      "steam": [
+        "Уровень сложности «Великий»",
+        "Победить на уровне сложности «Великий»"
+      ]
+    },
+    {
+      "id": "a224",
+      "apiName": "ACHIEVEMENT_ET_TU_BRUTUS",
+      "steam": [
+        "И ты, Брут?",
+        "При игре за Рим убить лидера другой римской семьей"
+      ]
+    },
+    {
+      "id": "a225",
+      "apiName": "ACHIEVEMENT_GREECE2_PLATAEA_WIN",
+      "steam": [
+        "Вон из Эллады",
+        "Выиграть битву при Платеях (Герои Эгейи 2)"
+      ]
+    },
+    {
+      "id": "a226",
+      "apiName": "ACHIEVEMENT_GREECE2_SALAMIS_WIN",
+      "steam": [
+        "Переломный момент",
+        "Выиграть битву при Саламине (Герои Эгейи 2)"
+      ]
+    },
+    {
+      "id": "a227",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_20",
+      "steam": [
+        "Словно лев",
+        "Убить 20 персидских юнитов при Фермопилах (Герои Эгейи 2)"
+      ]
+    },
+    {
+      "id": "a228",
+      "apiName": "ACHIEVEMENT_MORTALITY_REALISTIC",
+      "steam": [
+        "Реалистичная смертность",
+        "Одержать победу с реалистичной смертностью"
+      ]
+    },
+    {
+      "id": "a229",
+      "apiName": "ACHIEVEMENT_PLAY_LAN",
+      "steam": [
+        "Сыграть в игру по локальной сети",
+        "Сыграть в игру по локальной сети"
+      ]
+    },
+    {
+      "id": "a230",
+      "apiName": "ACHIEVEMENT_RELIGION_HINDUISM",
+      "steam": [
+        "Индуизм",
+        "Основать индуизм"
+      ]
+    },
+    {
+      "id": "a231",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA",
+      "steam": [
+        "Учитель Гипатия",
+        "Персонаж должен обучиться у Гипатии (Божественное и мирское)"
+      ]
+    },
+    {
+      "id": "a232",
+      "apiName": "ACHIEVEMENT_UNIT_SHOTELAI",
+      "steam": [
+        "Шотелай",
+        "Подготовить шотелая"
+      ]
+    },
+    {
+      "id": "a233",
+      "apiName": "ACHIEVEMENT_BATTLE_OF_OPIS",
+      "steam": [
+        "Битва при Описе",
+        "Уничтожить Вавилонию, играя за Персию"
+      ]
+    },
+    {
+      "id": "a234",
+      "apiName": "ACHIEVEMENT_EGYPT1_MINOR_VICTORY",
+      "steam": [
+        "Единое царство Кемет",
+        "Одержите обычную победу (Египет, сценарий 1)"
+      ]
+    },
+    {
+      "id": "a235",
+      "apiName": "ACHIEVEMENT_VICTORY_RANDOMIZE_LEADERS",
+      "steam": [
+        "Случайные лидеры",
+        "Одержать победу со случайными лидерами"
+      ]
+    },
+    {
+      "id": "a236",
+      "apiName": "ACHIEVEMENT_100_YEARS",
+      "steam": [
+        "Столетний",
+        "Иметь лидера, дожившего до 100 лет"
+      ]
+    },
+    {
+      "id": "a237",
+      "apiName": "ACHIEVEMENT_BLADE_OF_THE_MONKEY",
+      "steam": [
+        "Мартышкин труд",
+        "Быть убитым обезьяной"
+      ]
+    },
+    {
+      "id": "a238",
+      "apiName": "ACHIEVEMENT_CARTHAGE_3",
+      "steam": [
+        "Карфаген — Восхождение Рима",
+        "Пройти 3-й сценарий Карфагена"
+      ]
+    },
+    {
+      "id": "a239",
+      "apiName": "ACHIEVEMENT_CARTHAGE_3_BRONZE",
+      "steam": [
+        "Бронзовая победа (Карфаген 3)",
+        "Одержать бронзовую победу в 3-м сценарии Карфагена"
+      ]
+    },
+    {
+      "id": "a240",
+      "apiName": "ACHIEVEMENT_EGYPT1_BUHEN",
+      "steam": [
+        "Коптский Бухен",
+        "Быстро захватите Бухен (Египет, сценарий 1)"
+      ]
+    },
+    {
+      "id": "a241",
+      "apiName": "ACHIEVEMENT_EGYPT1_MAJOR_VICTORY",
+      "steam": [
+        "Великое царство Кемет",
+        "Одержите крупную победу (Египет, сценарий 1)"
+      ]
+    },
+    {
+      "id": "a242",
+      "apiName": "ACHIEVEMENT_GOTW",
+      "steam": [
+        "Игра недели",
+        "Выиграть игру недели"
+      ]
+    },
+    {
+      "id": "a243",
+      "apiName": "ACHIEVEMENT_GREECE3_OLYMPICS",
+      "steam": [
+        "Оливковый венок",
+        "Выиграть олимпийские скачки (Герои Эгейи 3)"
+      ]
+    },
+    {
+      "id": "a244",
+      "apiName": "ACHIEVEMENT_GREECE3_PAIONIA",
+      "steam": [
+        "Они мои",
+        "Отбить Пеонию (Герои Эгейи 3)"
+      ]
+    },
+    {
+      "id": "a245",
+      "apiName": "ACHIEVEMENT_GREECE3_THREE_WIVES",
+      "steam": [
+        "Третья лишняя",
+        "Иметь трех жен, играя за Филиппа (Герои Эгейи 3)"
+      ]
+    },
+    {
+      "id": "a246",
+      "apiName": "ACHIEVEMENT_LBP3",
+      "steam": [
+        "Учимся играть 3 — Добрый",
+        "Пройти «Учимся играть 3 — Добрый»"
+      ]
+    },
+    {
+      "id": "a247",
+      "apiName": "ACHIEVEMENT_NATION_AKSUM",
+      "steam": [
+        "Аксум",
+        "Одержать победу за Аксум"
+      ]
+    },
+    {
+      "id": "a248",
+      "apiName": "ACHIEVEMENT_PLAY_PLAYBYCLOUD",
+      "steam": [
+        "Сыграть в режиме «Игра через облако»",
+        "Сыграть в режиме «Игра через облако»"
+      ]
+    },
+    {
+      "id": "a249",
+      "apiName": "ACHIEVEMENT_VICTORY_RANDOMIZE_FAMILIES",
+      "steam": [
+        "Случайные семьи",
+        "Одержать победу со случайными семьями"
+      ]
+    },
+    {
+      "id": "a250",
+      "apiName": "ACHIEVEMENT_BARBARIAN_INVASION",
+      "steam": [
+        "Орда варваров",
+        "Пережить нападение орды варваров"
+      ]
+    },
+    {
+      "id": "a251",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_OPULENCE",
+      "steam": [
+        "Истинное изобилие",
+        "Завершить проект «Изобилие» с расточительным лидером (Behind the Throne)"
+      ]
+    },
+    {
+      "id": "a252",
+      "apiName": "ACHIEVEMENT_CARTHAGE_1_EPIC",
+      "steam": [
+        "Эпическая победа (Карфаген 1)",
+        "Одержать эпическую победу в 1-м сценарии Карфагена"
+      ]
+    },
+    {
+      "id": "a253",
+      "apiName": "ACHIEVEMENT_CARTHAGE_2_EPIC",
+      "steam": [
+        "Эпическая победа (Карфаген 2)",
+        "Одержать эпическую победу во 2-м сценарии Карфагена"
+      ]
+    },
+    {
+      "id": "a254",
+      "apiName": "ACHIEVEMENT_CARTHAGO_COTHON",
+      "steam": [
+        "Котон в Карфагене",
+        "Построить Котон в Карфагене"
+      ]
+    },
+    {
+      "id": "a255",
+      "apiName": "ACHIEVEMENT_FERTILE_CRESCENT",
+      "steam": [
+        "Битва за Плодородный полумесяц",
+        "Уничтожить две другие нации из трех, играя за Ассирию, Вавилонию или Персию"
+      ]
+    },
+    {
+      "id": "a256",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_30",
+      "steam": [
+        "Еще повоюем",
+        "Убить 30 персидских юнитов при Фермопилах (Герои Эгейи 2)"
+      ]
+    },
+    {
+      "id": "a257",
+      "apiName": "ACHIEVEMENT_GREECE3_THRACIANS",
+      "steam": [
+        "Как по-гречески «надменность»?",
+        "Назвать два города в свою честь (Герои Эгейи 3)"
+      ]
+    },
+    {
+      "id": "a258",
+      "apiName": "ACHIEVEMENT_LBP4",
+      "steam": [
+        "Учимся играть 4 — Сильный",
+        "Пройти «Учимся играть 4 — Сильный»"
+      ]
+    },
+    {
+      "id": "a259",
+      "apiName": "ACHIEVEMENT_ROMA_COLOSSEUM",
+      "steam": [
+        "Колизей в Риме",
+        "Построить Колизей в Риме"
+      ]
+    },
+    {
+      "id": "a260",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_PILGRIMAGE",
+      "steam": [
+        "Паломничество",
+        "Один из ваших персонажей должен совершить паломничество (Божественное и мирское)"
+      ]
+    },
+    {
+      "id": "a261",
+      "apiName": "ACHIEVEMENT_ALEXANDRIA_LIGHTHOUSE",
+      "steam": [
+        "Маяк в Александрии",
+        "Построить Маяк в Александрии"
+      ]
+    },
+    {
+      "id": "a262",
+      "apiName": "ACHIEVEMENT_ATHENS_ACROPOLIS",
+      "steam": [
+        "Акрополь в Афинах",
+        "Построить Акрополь в Афинах"
+      ]
+    },
+    {
+      "id": "a263",
+      "apiName": "ACHIEVEMENT_CARTHAGE_3_SILVER",
+      "steam": [
+        "Серебряная победа (Карфаген 3)",
+        "Одержать серебряную победу в 3-м сценарии Карфагена"
+      ]
+    },
+    {
+      "id": "a264",
+      "apiName": "ACHIEVEMENT_CARTHAGE_4",
+      "steam": [
+        "Карфаген — Молния",
+        "Пройти 4-й сценарий Карфагена"
+      ]
+    },
+    {
+      "id": "a265",
+      "apiName": "ACHIEVEMENT_CARTHAGE_4_BRONZE",
+      "steam": [
+        "Бронзовая победа (Карфаген 4)",
+        "Одержать бронзовую победу в 4-м сценарии Карфагена"
+      ]
+    },
+    {
+      "id": "a266",
+      "apiName": "ACHIEVEMENT_CARTHAGE_CAMPAIGN",
+      "steam": [
+        "Карфагенская кампания",
+        "Пройти кампанию Карфагена "
+      ]
+    },
+    {
+      "id": "a267",
+      "apiName": "ACHIEVEMENT_COGNOMEN_DESTROYER",
+      "steam": [
+        "Разрушитель",
+        "Стать Разрушителем"
+      ]
+    },
+    {
+      "id": "a268",
+      "apiName": "ACHIEVEMENT_WIN_MPTEAMS",
+      "steam": [
+        "Победить в командной сетевой игре",
+        "Победить в командной сетевой игре"
+      ]
+    },
+    {
+      "id": "a269",
+      "apiName": "ACHIEVEMENT_AKSUMITE_MAJOR_STELE",
+      "steam": [
+        "Аксумская большая стела",
+        "Играя за Аксум, воздвигнуть большую стелу"
+      ]
+    },
+    {
+      "id": "a270",
+      "apiName": "ACHIEVEMENT_ALEXANDRIA_MUSAEUM",
+      "steam": [
+        "Мусейон в Александрии",
+        "Построить Мусейон в Александрии"
+      ]
+    },
+    {
+      "id": "a271",
+      "apiName": "ACHIEVEMENT_CARTHAGE_3_GOLD",
+      "steam": [
+        "Золотая победа (Карфаген 3)",
+        "Одержать золотую победу в 3-м сценарии Карфагена"
+      ]
+    },
+    {
+      "id": "a272",
+      "apiName": "ACHIEVEMENT_CARTHAGE_4_GOLD",
+      "steam": [
+        "Золотая победа (Карфаген 4)",
+        "Одержать золотую победу в 4-м сценарии Карфагена"
+      ]
+    },
+    {
+      "id": "a273",
+      "apiName": "ACHIEVEMENT_CARTHAGE_4_SILVER",
+      "steam": [
+        "Серебряная победа (Карфаген 4)",
+        "Одержать серебряную победу в 4-м сценарии Карфагена"
+      ]
+    },
+    {
+      "id": "a274",
+      "apiName": "ACHIEVEMENT_DHARMIC_HEARTLAND",
+      "steam": [
+        "Вотчина дхармы",
+        "Вы основали индуизм и буддизм за одну игру (Империи Инда)"
+      ]
+    },
+    {
+      "id": "a275",
+      "apiName": "ACHIEVEMENT_EGYPT2_MINOR_VICTORY",
+      "steam": [
+        "Процветающий Кемет",
+        "Одержите обычную победу (Египет, сценарий 2)"
+      ]
+    },
+    {
+      "id": "a276",
+      "apiName": "ACHIEVEMENT_GREECE3_ATHENS",
+      "steam": [
+        "Теперь я — Архонт",
+        "Покорить Афины (Герои Эгейи 3)"
+      ]
+    },
+    {
+      "id": "a277",
+      "apiName": "ACHIEVEMENT_GREECE3_SPARTA",
+      "steam": [
+        "Если? Значит!",
+        "Покорить Спарту (Герои Эгейи 3)"
+      ]
+    },
+    {
+      "id": "a278",
+      "apiName": "ACHIEVEMENT_GREECE3_VICTORY",
+      "steam": [
+        "Незаконченные дела",
+        "Пройти сценарий Филиппа (Герои Эгейи 3)"
+      ]
+    },
+    {
+      "id": "a279",
+      "apiName": "ACHIEVEMENT_GREECE3_VICTORY_BRONZE",
+      "steam": [
+        "Бронзовая корона Филиппа",
+        "Достичь основных целей победы, играя за Филиппа (Герои Эгейи 3)"
+      ]
+    },
+    {
+      "id": "a280",
+      "apiName": "ACHIEVEMENT_GREECE3_VICTORY_SILVER",
+      "steam": [
+        "Серебряная корона Филиппа",
+        "Достичь двух необязательных целей победы, играя за Филиппа (Герои Эгейи 3)"
+      ]
+    },
+    {
+      "id": "a281",
+      "apiName": "ACHIEVEMENT_GREECE5_BUCEPHALUS_10_KILLS",
+      "steam": [
+        "Могучий Буцефал",
+        "Убить 10 юнитов, когда Александр воюет верхом на Буцефале (Герои Эгейи 5)"
+      ]
+    },
+    {
+      "id": "a282",
+      "apiName": "ACHIEVEMENT_GREECE5_GORDIAN_KNOT",
+      "steam": [
+        "Неожиданная развязка",
+        "Разрубить Гордиев узел (Герои Эгейи 5)"
+      ]
+    },
+    {
+      "id": "a283",
+      "apiName": "ACHIEVEMENT_GREECE5_TYRE",
+      "steam": [
+        "Осада Тира",
+        "Пройти «Осаду Тира» (Герои Эгейи 5)"
+      ]
+    },
+    {
+      "id": "a284",
+      "apiName": "ACHIEVEMENT_HATTUSA_YAZILIKAYA",
+      "steam": [
+        "Язылыкая в Хаттусе",
+        "Построить Язылыкаю в Хаттусе"
+      ]
+    },
+    {
+      "id": "a285",
+      "apiName": "ACHIEVEMENT_LAND_OF_LUXURY",
+      "steam": [
+        "Земля роскоши",
+        "В пределах ваших границ есть нефрит, шелк, черное дерево и пряности (Империи Инда)"
+      ]
+    },
+    {
+      "id": "a286",
+      "apiName": "ACHIEVEMENT_ROMAN_PAPACY",
+      "steam": [
+        "Римское папство",
+        "Основать христианство в Риме"
+      ]
+    },
+    {
+      "id": "a287",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_ST_PAUL",
+      "steam": [
+        "Патриарх святой Павел",
+        "Сделать святого Павла патриархом христианства (Божественное и мирское)"
+      ]
+    },
+    {
+      "id": "a288",
+      "apiName": "ACHIEVEMENT_UR_GREAT_ZIGGURAT",
+      "steam": [
+        "Великий зиккурат в Уре",
+        "Построить Великий зиккурат в Уре"
+      ]
+    },
+    {
+      "id": "a289",
+      "apiName": "ACHIEVEMENT_VICTORY_NO_CHARACTERS",
+      "steam": [
+        "Без персонажей",
+        "Одержать победу в режиме «Без персонажей»"
+      ]
+    },
+    {
+      "id": "a290",
+      "apiName": "ACHIEVEMENT_VICTORY_ONE_CITY_CHALLENGE",
+      "steam": [
+        "Испытание «Один город»",
+        "Одержать победу с испытанием «Один город»"
+      ]
+    },
+    {
+      "id": "a291",
+      "apiName": "ACHIEVEMENT_VICTORY_TIME",
+      "steam": [
+        "Победа по времени",
+        "Одержать победу по времени"
+      ]
+    },
+    {
+      "id": "a292",
+      "apiName": "ACHIEVEMENT_WIN_FFA",
+      "steam": [
+        "Победить в режиме «Каждый за себя» ({>2 игрока)",
+        "Победить в режиме «Каждый за себя» (>2 игрока)"
+      ]
+    },
+    {
+      "id": "a293",
+      "apiName": "ACHIEVEMENT_ALLIANCE_VICTORY",
+      "steam": [
+        "Победа союза",
+        "Помочь союзнику выиграть игру"
+      ]
+    },
+    {
+      "id": "a294",
+      "apiName": "ACHIEVEMENT_BEFORE_MONGOL_HORDE",
+      "steam": [
+        "Еще до монгольской орды",
+        "Одержать победу исключительно с помощью семейства всадников"
+      ]
+    },
+    {
+      "id": "a295",
+      "apiName": "ACHIEVEMENT_CALAMITIES_STEWARDS",
+      "steam": [
+        "Хранители земли",
+        "Контролировать троих хранителей земли (Wrath of Gods)"
+      ]
+    },
+    {
+      "id": "a296",
+      "apiName": "ACHIEVEMENT_CARTHAGE_3_EPIC",
+      "steam": [
+        "Эпическая победа (Карфаген 3)",
+        "Одержать эпическую победу в 3-м сценарии Карфагена"
+      ]
+    },
+    {
+      "id": "a297",
+      "apiName": "ACHIEVEMENT_CARTHAGE_4_EPIC",
+      "steam": [
+        "Эпическая победа (Карфаген 4)",
+        "Одержать эпическую победу в 4-м сценарии Карфагена"
+      ]
+    },
+    {
+      "id": "a298",
+      "apiName": "ACHIEVEMENT_COGNOMEN_AVENGER",
+      "steam": [
+        "Мститель",
+        "Стать Мстителем"
+      ]
+    },
+    {
+      "id": "a299",
+      "apiName": "ACHIEVEMENT_COGNOMEN_LAWGIVER",
+      "steam": [
+        "Законотворец",
+        "Стать Законотворцем"
+      ]
+    },
+    {
+      "id": "a300",
+      "apiName": "ACHIEVEMENT_COGNOMEN_WHITE_DEATH",
+      "steam": [
+        "Белая Смерть",
+        "Стать Белой Смертью"
+      ]
+    },
+    {
+      "id": "a301",
+      "apiName": "ACHIEVEMENT_EGYPT3_MAJOR_VICTORY",
+      "steam": [
+        "Во славу Атона",
+        "Одержите крупную победу (Египет, сценарий 3)"
+      ]
+    },
+    {
+      "id": "a302",
+      "apiName": "ACHIEVEMENT_EGYPT3_MINOR_VICTORY",
+      "steam": [
+        "Наследие Эхнатона",
+        "Одержите обычную победу (Египет, сценарий 3)"
+      ]
+    },
+    {
+      "id": "a303",
+      "apiName": "ACHIEVEMENT_GREECE1_LOSE",
+      "steam": [
+        "Куда воевать?",
+        "Проиграть сценарий «Марафон» (Герои Эгейи 1)"
+      ]
+    },
+    {
+      "id": "a304",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_40",
+      "steam": [
+        "Они не пройдут",
+        "Убить 40 персидских юнитов при Фермопилах (Герои Эгейи 2)"
+      ]
+    },
+    {
+      "id": "a305",
+      "apiName": "ACHIEVEMENT_GREECE3_ALEXANDER_KILL",
+      "steam": [
+        "Это только начало",
+        "Убить юнита, играя за Александра в роли генерала (Герои Эгейи 3)"
+      ]
+    },
+    {
+      "id": "a306",
+      "apiName": "ACHIEVEMENT_GREECE3_VICTORY_GOLD",
+      "steam": [
+        "Золотая корона Филиппа",
+        "Достичь всех необязательных целей победы, играя за Филиппа (Герои Эгейи 3)"
+      ]
+    },
+    {
+      "id": "a307",
+      "apiName": "ACHIEVEMENT_GREECE4_CITIES",
+      "steam": [
+        "Царица политики",
+        "Контролировать все города (Герои Эгейи 4)"
+      ]
+    },
+    {
+      "id": "a308",
+      "apiName": "ACHIEVEMENT_GREECE4_INTRIGUE",
+      "steam": [
+        "Царица интриг",
+        "Полностью пройти дерево интриг (Герои Эгейи 4)"
+      ]
+    },
+    {
+      "id": "a309",
+      "apiName": "ACHIEVEMENT_GREECE5_PERSIAN_GATE",
+      "steam": [
+        "Врата, ведущие к победе",
+        "Выиграть битву при Персидских воротах (Герои Эгейи 5)"
+      ]
+    },
+    {
+      "id": "a310",
+      "apiName": "ACHIEVEMENT_GREECE5_PHARAOH",
+      "steam": [
+        "Фараон",
+        "Сделать так, чтобы Александра признали фараоном (Герои Эгейи 5)"
+      ]
+    },
+    {
+      "id": "a311",
+      "apiName": "ACHIEVEMENT_GREECE5_VICTORY",
+      "steam": [
+        "Александр Посредственный",
+        "Победить Персидскую империю (Герои Эгейи 5)"
+      ]
+    },
+    {
+      "id": "a312",
+      "apiName": "ACHIEVEMENT_UNIT_KUSHAN_WARLORDS",
+      "steam": [
+        "Кушанский военачальник",
+        "Обучить кушанского военачальника"
+      ]
+    },
+    {
+      "id": "a313",
+      "apiName": "ACHIEVEMENT_ALEXANDER_THE_GREAT",
+      "steam": [
+        "Александр Великий",
+        "Уничтожить Персию, играя за Александра Македонского из Греции"
+      ]
+    },
+    {
+      "id": "a314",
+      "apiName": "ACHIEVEMENT_ALEXANDER_THE_WHO",
+      "steam": [
+        "Александр — какой?",
+        "Убить Александра еще до того, как он достигнет совершеннолетия"
+      ]
+    },
+    {
+      "id": "a315",
+      "apiName": "ACHIEVEMENT_ALLIES_WITH_BENEFITS",
+      "steam": [
+        "Союзники с преимуществами",
+        "Вы использовали задание вассализации племени при игре за юэчжи (Империи Инда)"
+      ]
+    },
+    {
+      "id": "a316",
+      "apiName": "ACHIEVEMENT_BARBARIAN_INVASION_MULTIPLAYER",
+      "steam": [
+        "Вместе против орды",
+        "Пережить нападение орды варваров с друзьями"
+      ]
+    },
+    {
+      "id": "a317",
+      "apiName": "ACHIEVEMENT_BYZANTIUM_HAGIA_SOPHIA",
+      "steam": [
+        "Собор Святой Софии в Византии",
+        "Построить Собор Святой Софии в Византии"
+      ]
+    },
+    {
+      "id": "a318",
+      "apiName": "ACHIEVEMENT_CALAMITIES_DROUGHT_ADEPT",
+      "steam": [
+        "Готовность к засухе",
+        "Обучить отряд, готовый к засухе (Wrath of Gods)"
+      ]
+    },
+    {
+      "id": "a319",
+      "apiName": "ACHIEVEMENT_DELPHI_ORACLE",
+      "steam": [
+        "Оракул в Дельфах",
+        "Построить Оракул в Дельфах"
+      ]
+    },
+    {
+      "id": "a320",
+      "apiName": "ACHIEVEMENT_EGYPT1_MAJOR_DEFEAT",
+      "steam": [
+        "Неприступный Сепат-Уасе",
+        "Потерпите неудачу при захвате Та-меху (Египет, сценарий 1)"
+      ]
+    },
+    {
+      "id": "a321",
+      "apiName": "ACHIEVEMENT_EGYPT1_PHARAOH_MAJOR_VICTORY",
+      "steam": [
+        "Великое царство Кемет (Фараон)",
+        "Одержите крупную победу на «Фараоне» (Египет, сценарий 1)"
+      ]
+    },
+    {
+      "id": "a322",
+      "apiName": "ACHIEVEMENT_EGYPT1_PHARAOH_MINOR_VICTORY",
+      "steam": [
+        "Единое царство Кемет (Фараон)",
+        "Одержите обчную победу на «Фараоне» (Египет, сценарий 1)"
+      ]
+    },
+    {
+      "id": "a323",
+      "apiName": "ACHIEVEMENT_EGYPT2_DEFEAT",
+      "steam": [
+        "Деревянный век",
+        "Потерпите неудачу в достижении Золотого века Египта (Египет, сценарий 2)"
+      ]
+    },
+    {
+      "id": "a324",
+      "apiName": "ACHIEVEMENT_EGYPT2_MAJOR_VICTORY",
+      "steam": [
+        "Золотой век Кеметского царства",
+        "Одержите крупную победу (Египет, сценарий 2)"
+      ]
+    },
+    {
+      "id": "a325",
+      "apiName": "ACHIEVEMENT_EGYPT3_MAJOR_DEFEAT",
+      "steam": [
+        "Какой такой Эхнатон?",
+        "Потерпите неудачу в достижении целей Эхнатона (Египет, сценарий 3)"
+      ]
+    },
+    {
+      "id": "a326",
+      "apiName": "ACHIEVEMENT_EGYPT4_MAJOR_VICTORY",
+      "steam": [
+        "Рамсес II Великий",
+        "Одержите крупную победу в битве при Кадеше (Египет, сценарий 4)"
+      ]
+    },
+    {
+      "id": "a327",
+      "apiName": "ACHIEVEMENT_EGYPT4_MINOR_VICTORY",
+      "steam": [
+        "Победа при Кадеше",
+        "Одержите обычную победу в битве при Кадеше (Египет, сценарий 4)"
+      ]
+    },
+    {
+      "id": "a328",
+      "apiName": "ACHIEVEMENT_EGYPT4_RAMESSES_DEFEAT",
+      "steam": [
+        "Гибель Рамсеса II",
+        "Играя за коптов, вы потеряли Рамсеса II в битве при Кадеше (Египет, сценарий 4)"
+      ]
+    },
+    {
+      "id": "a329",
+      "apiName": "ACHIEVEMENT_EGYPT5_MINOR_VICTORY",
+      "steam": [
+        "Хрупкое равновесие Маат",
+        "Вам удалось сохранить равновесие Маат, но в Сехет-Аару попали не все (Египет, сценарий 5)"
+      ]
+    },
+    {
+      "id": "a330",
+      "apiName": "ACHIEVEMENT_EGYPT6_MINOR_VICTORY",
+      "steam": [
+        "История повторяется",
+        "Вы сдержали натиск народов моря (Египет, сценарий 6)"
+      ]
+    },
+    {
+      "id": "a331",
+      "apiName": "ACHIEVEMENT_EGYPT_CAMPAIGN_COMPLETED",
+      "steam": [
+        "Египетская кампания",
+        "Вы прошли Египетскую кампанию"
+      ]
+    },
+    {
+      "id": "a332",
+      "apiName": "ACHIEVEMENT_GREECE2_SALAMIS_PERFECT",
+      "steam": [
+        "Без шансов",
+        "Не потерять ни одного корабля в битве при Саламине (Герои Эгейи 2)"
+      ]
+    },
+    {
+      "id": "a333",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_50",
+      "steam": [
+        "ЭТО СПАРТА!!",
+        "Убить 50 персидских юнитов при Фермопилах (Герои Эгейи 2)"
+      ]
+    },
+    {
+      "id": "a334",
+      "apiName": "ACHIEVEMENT_GREECE3_NO_WOUND",
+      "steam": [
+        "Ни царапины",
+        "Победить так, чтобы Филипп не потерял глаз (Герои Эгейи 3)"
+      ]
+    },
+    {
+      "id": "a335",
+      "apiName": "ACHIEVEMENT_GREECE4_WIN_OLYMPIAS_STORYLINE",
+      "steam": [
+        "Царица сплетен",
+        "Победить после того, как Филипп будет убит Олимпиадой (Герои Эгейи 4)"
+      ]
+    },
+    {
+      "id": "a336",
+      "apiName": "ACHIEVEMENT_GREECE4_WIN_PAUSANIAS_STORYLINE",
+      "steam": [
+        "Царица возможностей",
+        "Победить после того, как Филипп будет убит Павсанием (Герои Эгейи 4)"
+      ]
+    },
+    {
+      "id": "a337",
+      "apiName": "ACHIEVEMENT_GREECE4_WIN_PERSIA_STORYLINE",
+      "steam": [
+        "Царица войны",
+        "Победить после того, как Филипп будет убит персами (Герои Эгейи 4)"
+      ]
+    },
+    {
+      "id": "a338",
+      "apiName": "ACHIEVEMENT_GREECE5_VICTORY_BETTER",
+      "steam": [
+        "Александр Сносный",
+        "Победить Персидскую империю менее чем за 60 ходов (Герои Эгейи 5)"
+      ]
+    },
+    {
+      "id": "a339",
+      "apiName": "ACHIEVEMENT_GREECE6_MACEDONIA",
+      "steam": [
+        "Свержение гигантов",
+        "Пройти сценарий «Диадохи», играя за Кассандра из Македонии (Герои Эгейи 6)"
+      ]
+    },
+    {
+      "id": "a340",
+      "apiName": "ACHIEVEMENT_GREECE6_SELEUCUS",
+      "steam": [
+        "Восточная империя",
+        "Пройти сценарий «Диадохи», играя за Селевкидскую империю (Герои Эгейи 6)"
+      ]
+    },
+    {
+      "id": "a341",
+      "apiName": "ACHIEVEMENT_HALICARNASSUS_MAUSOLEUM",
+      "steam": [
+        "Мавзолей в Галикарнассе",
+        "Построить Мавзолей в Галикарнассе"
+      ]
+    },
+    {
+      "id": "a342",
+      "apiName": "ACHIEVEMENT_HARDCORE",
+      "steam": [
+        "Хардкор",
+        "Выиграть игру на уровне сложности «Великий» против всех наций, с высоким уровнем событий, реалистичной смертностью, заблокированными сохранениями, безжалостным ИИ и без отмен."
+      ]
+    },
+    {
+      "id": "a343",
+      "apiName": "ACHIEVEMENT_MERCHANTS_LEVANT",
+      "steam": [
+        "Торговцы Леванта",
+        "Выиграть игру в режиме «Один город» за семью торговцев"
+      ]
+    },
+    {
+      "id": "a344",
+      "apiName": "ACHIEVEMENT_NATION_TAMILAKAM",
+      "steam": [
+        "Тамилакам",
+        "Одержать победу за Тамилакам"
+      ]
+    },
+    {
+      "id": "a345",
+      "apiName": "ACHIEVEMENT_NATION_YUEZHI",
+      "steam": [
+        "Юэчжи",
+        "Одержать победу за юэчжей"
+      ]
+    },
+    {
+      "id": "a346",
+      "apiName": "ACHIEVEMENT_NINEVEH_ROYAL_LIBRARY",
+      "steam": [
+        "Царская библиотека в Ниневии",
+        "Построить Царскую библиотеку в Ниневии"
+      ]
+    },
+    {
+      "id": "a347",
+      "apiName": "ACHIEVEMENT_UNIT_ARCHER_ELEPHANT",
+      "steam": [
+        "Слон с лучниками",
+        "Обучить слона с лучниками"
+      ]
+    },
+    {
+      "id": "a348",
+      "apiName": "ACHIEVEMENT_WIN_1V1",
+      "steam": [
+        "Победить в режиме дуэли",
+        "Победить в режиме дуэли"
+      ]
+    },
+    {
+      "id": "a349",
+      "apiName": "ACHIEVEMENT_WIN_HOTSEAT",
+      "steam": [
+        "Победить в режиме Hotseat",
+        "Победить в режиме Hotseat"
+      ]
+    },
+    {
+      "id": "a350",
+      "apiName": "ACHIEVEMENT_WIN_LAN",
+      "steam": [
+        "Победить в игре по локальной сети",
+        "Победить в игре по локальной сети"
+      ]
+    },
+    {
+      "id": "a351",
+      "apiName": "ACHIEVEMENT_WIN_PLAYBYCLOUD",
+      "steam": [
+        "Победить в режиме «Игра через облако»",
+        "Победить в режиме «Игра через облако»"
+      ]
+    },
+    {
+      "id": "a352",
+      "apiName": "ACHIEVEMENT_WRATH_OF_GODS_PERFECT_STORM",
+      "steam": [
+        "Идеальный шторм",
+        "Пережить три бедствия одновременно (Wrath of Gods)"
+      ]
+    },
+    {
+      "id": "a353",
+      "apiName": "ACHIEVEMENT_BARBARIAN_INVASION_GREAT_RAGING",
+      "steam": [
+        "Великая орда варваров",
+        "Пережить нападение орды варваров на уровне сложности «Великий» с уровнем племен «Яростные»"
+      ]
+    },
+    {
+      "id": "a354",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY",
+      "steam": [
+        "Все равно он мне не нужен",
+        "Проиграть поставленный на кон город и одержать победу без него (Behind the Throne)"
+      ]
+    },
+    {
+      "id": "a355",
+      "apiName": "ACHIEVEMENT_COGNOMEN_FANATIC",
+      "steam": [
+        "Фанатик",
+        "Стать Фанатиком"
+      ]
+    },
+    {
+      "id": "a356",
+      "apiName": "ACHIEVEMENT_COGNOMEN_FAVORED",
+      "steam": [
+        "Одаренный",
+        "Стать Одаренным"
+      ]
+    },
+    {
+      "id": "a357",
+      "apiName": "ACHIEVEMENT_COGNOMEN_HUNTER",
+      "steam": [
+        "Охотник",
+        "Стать Охотником"
+      ]
+    },
+    {
+      "id": "a358",
+      "apiName": "ACHIEVEMENT_COGNOMEN_LIBERATOR",
+      "steam": [
+        "Освободитель",
+        "Стать Освободителем"
+      ]
+    },
+    {
+      "id": "a359",
+      "apiName": "ACHIEVEMENT_COGNOMEN_RESTORER",
+      "steam": [
+        "Восстановитель",
+        "Стать Восстановителем"
+      ]
+    },
+    {
+      "id": "a360",
+      "apiName": "ACHIEVEMENT_COGNOMEN_SCOURGE",
+      "steam": [
+        "Кара",
+        "Стать Карой"
+      ]
+    },
+    {
+      "id": "a361",
+      "apiName": "ACHIEVEMENT_COUNCIL_OF_MADNESS",
+      "steam": [
+        "Совет безумцев",
+        "Сделать так, чтобы все три советника были безумны"
+      ]
+    },
+    {
+      "id": "a362",
+      "apiName": "ACHIEVEMENT_DAMASCUS_VIA_RECTA_SOUK",
+      "steam": [
+        "Сук на Виа Ректа в Дамаске",
+        "Построить Сук на Виа Ректа в Дамаске"
+      ]
+    },
+    {
+      "id": "a363",
+      "apiName": "ACHIEVEMENT_EGYPT1_DEFEAT",
+      "steam": [
+        "Только Кем",
+        "Потерпите неудачу при захвате Та-шемау (Египет, сценарий 1)"
+      ]
+    },
+    {
+      "id": "a364",
+      "apiName": "ACHIEVEMENT_EGYPT2_MAJOR_DEFEAT",
+      "steam": [
+        "Худший Фараон",
+        "Потерпите неудачу в достижении Золотого века Египта (Египет, сценарий 2)"
+      ]
+    },
+    {
+      "id": "a365",
+      "apiName": "ACHIEVEMENT_EGYPT2_PHARAOH_MAJOR_VICTORY",
+      "steam": [
+        "Золотой век Кеметского царства (Фараон)",
+        "Одержите крупную победу на «Фараоне» (Египет, сценарий 2)"
+      ]
+    },
+    {
+      "id": "a366",
+      "apiName": "ACHIEVEMENT_EGYPT2_PHARAOH_MINOR_VICTORY",
+      "steam": [
+        "Процветающий Кемет (Фараон)",
+        "Одержите обычную победу на «Фараоне» (Египет, сценарий 2)"
+      ]
+    },
+    {
+      "id": "a367",
+      "apiName": "ACHIEVEMENT_EGYPT3_DEFEAT",
+      "steam": [
+        "Атон недоволен",
+        "Потерпите неудачу при установлении культа Атона (Египет, сценарий 3)"
+      ]
+    },
+    {
+      "id": "a368",
+      "apiName": "ACHIEVEMENT_EGYPT3_PHARAOH_MAJOR_VICTORY",
+      "steam": [
+        "Во славу Атона (Фараон)",
+        "Одержите крупную победу на «Фараоне» (Египет, сценарий 3)"
+      ]
+    },
+    {
+      "id": "a369",
+      "apiName": "ACHIEVEMENT_EGYPT3_PHARAOH_MINOR_VICTORY",
+      "steam": [
+        "Наследие Эхнатона (Фараон)",
+        "Одержите обычную победу на «Фараоне» (Египет, сценарий 3)"
+      ]
+    },
+    {
+      "id": "a370",
+      "apiName": "ACHIEVEMENT_EGYPT4_DEFEAT",
+      "steam": [
+        "Поражение при Кадеше",
+        "Потерпите поражение в битве при Кадеше (Египет, сценарий 4)"
+      ]
+    },
+    {
+      "id": "a371",
+      "apiName": "ACHIEVEMENT_EGYPT4_MAJOR_DEFEAT",
+      "steam": [
+        "Крах при Кадеше",
+        "Потерпите крупное поражение в битве при Кадеше (Египет, сценарий 4)"
+      ]
+    },
+    {
+      "id": "a372",
+      "apiName": "ACHIEVEMENT_EGYPT4_MUWATALLI_DEFEAT",
+      "steam": [
+        "Гибель Муваталли II",
+        "Играя за хеттов, вы потеряли Муваталли II в битве при Кадеше (Египет, сценарий 4)"
+      ]
+    },
+    {
+      "id": "a373",
+      "apiName": "ACHIEVEMENT_EGYPT4_PHARAOH_MAJOR_VICTORY",
+      "steam": [
+        "Рамсес II Великий (Фараон)",
+        "Одержите крупную победу в битве при Кадеше на «Фараоне» (Египет, сценарий 4)"
+      ]
+    },
+    {
+      "id": "a374",
+      "apiName": "ACHIEVEMENT_EGYPT4_PHARAOH_MINOR_VICTORY",
+      "steam": [
+        "Победа при Кадеше (Фараон)",
+        "Одержите обычную победу в битве при Кадеше на «Фараоне» (Египет, сценарий 4)"
+      ]
+    },
+    {
+      "id": "a375",
+      "apiName": "ACHIEVEMENT_EGYPT4_SCOUT_DEFEAT",
+      "steam": [
+        "Разделение армии",
+        "Разведчик погиб, не доставив сообщение соединениям «Птах» и «Сет» (Египет, сценарий 4)"
+      ]
+    },
+    {
+      "id": "a376",
+      "apiName": "ACHIEVEMENT_EGYPT5_DEFEAT",
+      "steam": [
+        "Потеря сердец Кемет",
+        "Вы не сумели вернуть себе расположение коптов (Египет, сценарий 5)"
+      ]
+    },
+    {
+      "id": "a377",
+      "apiName": "ACHIEVEMENT_EGYPT5_MAJOR_DEFEAT",
+      "steam": [
+        "Гибель Нетер",
+        "Вы потерпели сокрушительное поражение. Боги отвернулись от вашего мира, и он рухнул (Египет, сценарий 5)"
+      ]
+    },
+    {
+      "id": "a378",
+      "apiName": "ACHIEVEMENT_EGYPT5_MAJOR_VICTORY",
+      "steam": [
+        "Расположение Кемет",
+        "Вы сохранили идеальное равновесие Маат и завоевали доверие жителей царства Кемет (Египет, сценарий 5)"
+      ]
+    },
+    {
+      "id": "a379",
+      "apiName": "ACHIEVEMENT_EGYPT5_PHARAOH_MAJOR_VICTORY",
+      "steam": [
+        "Расположение Кемет (Фараон)",
+        "Вы сохранили идеальное равновесие Маат и завоевали доверие жителей царства Кемет на «Фараоне» (Египет, сценарий 5)"
+      ]
+    },
+    {
+      "id": "a380",
+      "apiName": "ACHIEVEMENT_EGYPT5_PHARAOH_MINOR_VICTORY",
+      "steam": [
+        "Хрупкое равновесие Маат (Фараон)",
+        "Вам удалось сохранить равновесие Маат на «Фараоне», но в Сехет-Аару попали не все (Египет, сценарий 5)"
+      ]
+    },
+    {
+      "id": "a381",
+      "apiName": "ACHIEVEMENT_EGYPT6_DEFEAT",
+      "steam": [
+        "Закат царства Кемет",
+        "Вы не справились с ситуацией (Египет, сценарий 6)"
+      ]
+    },
+    {
+      "id": "a382",
+      "apiName": "ACHIEVEMENT_EGYPT6_MAJOR_DEFEAT",
+      "steam": [
+        "Самая. Ужасная. Концовка.",
+        "Вы хоть пытались? (Египет, сценарий 6)"
+      ]
+    },
+    {
+      "id": "a383",
+      "apiName": "ACHIEVEMENT_EGYPT6_MAJOR_VICTORY",
+      "steam": [
+        "Это совсем другая история",
+        "Вы победили народы моря (Египет, сценарий 6)"
+      ]
+    },
+    {
+      "id": "a384",
+      "apiName": "ACHIEVEMENT_EGYPT6_PHARAOH_MAJOR_VICTORY",
+      "steam": [
+        "Величайший Фараон!",
+        "Вы победили народы моря на «Фараоне» (Египет, сценарий 6)"
+      ]
+    },
+    {
+      "id": "a385",
+      "apiName": "ACHIEVEMENT_EGYPT6_PHARAOH_MINOR_VICTORY",
+      "steam": [
+        "История повторяется (Фараон)",
+        "Вы сдержали натиск народов моря на «Фараоне» (Египет, сценарий 6)"
+      ]
+    },
+    {
+      "id": "a386",
+      "apiName": "ACHIEVEMENT_EGYPT_EXODUS_VICTORY",
+      "steam": [
+        "Рабы хека-кхасут",
+        "Вы прошли сюжет «Рабы хека-кхасут» в Египетской кампании"
+      ]
+    },
+    {
+      "id": "a387",
+      "apiName": "ACHIEVEMENT_ELEPHANTINE_ELEPHANT",
+      "steam": [
+        "Элефантинский элефант",
+        "Подготовить слона в Элефантине"
+      ]
+    },
+    {
+      "id": "a388",
+      "apiName": "ACHIEVEMENT_ETHNIC_DIVERSITY",
+      "steam": [
+        "Этническое разнообразие",
+        "Сделать так, чтобы ваш лидер имел корни во всех 7 народах"
+      ]
+    },
+    {
+      "id": "a389",
+      "apiName": "ACHIEVEMENT_GREECE1_ALTERNATE_WIN",
+      "steam": [
+        "Тоже неплохо",
+        "Найти другой способ пройти сценарий «Марафон» (Герои Эгейи 1)"
+      ]
+    },
+    {
+      "id": "a390",
+      "apiName": "ACHIEVEMENT_GREECE5_VICTORY_BEST",
+      "steam": [
+        "Александр Великий",
+        "Победить Персидскую империю и стать фараоном менее чем за 50 ходов (Герои Эгейи 5)"
+      ]
+    },
+    {
+      "id": "a391",
+      "apiName": "ACHIEVEMENT_GREECE6_ANTIGONID",
+      "steam": [
+        "Юность побеждает",
+        "Пройти сценарий «Диадохи», играя за Антигонидскую империю (Герои Эгейи 6)"
+      ]
+    },
+    {
+      "id": "a392",
+      "apiName": "ACHIEVEMENT_GREECE6_PTOLEMY",
+      "steam": [
+        "Правление фараонов",
+        "Пройти сценарий «Диадохи», играя за Птолемейское царство (Герои Эгейи 6)"
+      ]
+    },
+    {
+      "id": "a393",
+      "apiName": "ACHIEVEMENT_HELIOPOLIS_HELIOPOLIS",
+      "steam": [
+        "Гелиополис в Гелиополисе",
+        "Построить Гелиополис в Гелиополисе"
+      ]
+    },
+    {
+      "id": "a394",
+      "apiName": "ACHIEVEMENT_HORDE_WARFARE",
+      "steam": [
+        "Ордынская война",
+        "Вы управляете 10 степными всадниками (Империи Инда)"
+      ]
+    },
+    {
+      "id": "a395",
+      "apiName": "ACHIEVEMENT_JERWAN_JERWAN_AQUEDUCT",
+      "steam": [
+        "Джерванский акведук в Джерване",
+        "Построить Джерванский акведук в Джерване"
+      ]
+    },
+    {
+      "id": "a396",
+      "apiName": "ACHIEVEMENT_KNOWLEDGE_ANCIENTS",
+      "steam": [
+        "Знания древних",
+        "Построить библиотеку и Мусейон в тутмосидской (управляемой семьей мудрецов) Александрии"
+      ]
+    },
+    {
+      "id": "a397",
+      "apiName": "ACHIEVEMENT_NAPATA_JEBEL_BARKAL",
+      "steam": [
+        "Джебель-Баркал в Напате",
+        "Построить Джебель-Баркал в Напате"
+      ]
+    },
+    {
+      "id": "a398",
+      "apiName": "ACHIEVEMENT_ONE_TRUE_KING",
+      "steam": [
+        "Истинный царь",
+        "Одержана победа за Тамилакам без изменения превосходства семьи (Империи Инда)"
+      ]
+    },
+    {
+      "id": "a399",
+      "apiName": "ACHIEVEMENT_PETRA_AL_KHAZNEH",
+      "steam": [
+        "Эль-Хазне в Петре",
+        "Построить Эль-Хазне в Петре"
+      ]
+    },
+    {
+      "id": "a400",
+      "apiName": "ACHIEVEMENT_RHODES_COLOSSUS",
+      "steam": [
+        "Колосс на Родосе",
+        "Построить Колосс на Родосе"
+      ]
+    },
+    {
+      "id": "a401",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL",
+      "steam": [
+        "Религиозный раскол",
+        "Получить раскол во всех четырех мировых религиях одновременно (Божественное и мирское)"
+      ]
+    },
+    {
+      "id": "a402",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_FIVE_CULTS",
+      "steam": [
+        "Пять культов",
+        "Иметь пять культов (Божественное и мирское)"
+      ]
+    },
+    {
+      "id": "a403",
+      "apiName": "ACHIEVEMENT_THE_ROYAL_COUPLE",
+      "steam": [
+        "Царственная чета",
+        "Двое самых известных людей в Древнем мире заключают брак и правят вашей страной."
+      ]
+    },
+    {
+      "id": "a404",
+      "apiName": "ACHIEVEMENT_WRATH_OF_GODS",
+      "steam": [
+        "Гнев богов",
+        "Пережить гнев богов (Wrath of Gods)"
+      ]
+    },
+    {
+      "id": "a405",
+      "apiName": "ACHIEVEMENT_WRATH_OF_GODS_DIVINE_DEVOTEE",
+      "steam": [
+        "Служитель богов (Wrath of Gods)",
+        "Пережить гнев богов и одержать божественную победу на уровне сложности «Служитель» (Wrath of Gods)"
+      ]
+    },
+    {
+      "id": "a406",
+      "apiName": "ACHIEVEMENT_WRATH_OF_GODS_PLAYING_FAVORITES",
+      "steam": [
+        "В поисках милости",
+        "Выполнить пять требований одного божества подряд (Wrath of Gods)"
+      ]
+    },
+    {
+      "id": "a407",
+      "apiName": "ACHIEVEMENT_COGNOMEN_CHOSEN",
+      "steam": [
+        "Избранный",
+        "Стать Избранным"
+      ]
+    },
+    {
+      "id": "ambition-victory",
+      "apiName": "ACHIEVEMENT_VICTORY_AMBITION",
+      "steam": [
+        "Победа по амбициям",
+        "Одержать победу по амбициям"
+      ]
+    }
+  ]
+}

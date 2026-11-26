@@ -1,0 +1,1332 @@
+{
+  "date": "2026-11-26",
+  "buildId": "26728102",
+  "count": 56,
+  "sourceRoot": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Old World",
+  "sourceSha256": {
+    "Reference/XML/Infos/achievement.xml": "63e0e16dedb35eb03ef5be426e9d2de23f69ede0bcfbfe57e48fbc7661d33a61",
+    "Reference/XML/Infos/cognomen.xml": "fc42ea6cdce5a0553ea6c911b3d80092d4a5a760c85c266182dc3811be428b41",
+    "Reference/XML/Infos/eventStory.xml": "7acdccec32f6d6cfb8cf61fd56f5d75d0a2e9fd350def4df360dbfb4d9337f5c"
+  },
+  "records": [
+    {
+      "id": "a014",
+      "apiName": "ACHIEVEMENT_COGNOMEN_WARRIOR",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_WARRIOR",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_WARRIOR</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_WARRIOR_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_WARRIOR</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_WARRIOR",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_WARRIOR</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_WARRIOR</GenderedName>\n\t\t<iLegitimacy>10</iLegitimacy>\n\t\t<iMinValue>1000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_WARRIOR</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_LOST</zIndex>\n\t\t\t\t<iValue>-200</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a069",
+      "apiName": "ACHIEVEMENT_COGNOMEN_MASON",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_MASON",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_MASON</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_MASON_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_MASON</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_MASON",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_MASON</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_MASON</GenderedName>\n\t\t<iLegitimacy>10</iLegitimacy>\n\t\t<iMinValue>1000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_MASON</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WONDER_FINISHED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a120",
+      "apiName": "ACHIEVEMENT_COGNOMEN_AMBITIOUS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_AMBITIOUS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_AMBITIOUS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_AMBITIOUS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_AMBITIOUS</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_AMBITIOUS",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_AMBITIOUS</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_AMBITIOUS</GenderedName>\n\t\t<iLegitimacy>20</iLegitimacy>\n\t\t<iMinValue>2000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_AMBITIOUS</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_COURTIER_ADDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a214",
+      "apiName": "ACHIEVEMENT_COGNOMEN_REBUILDER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_REBUILDER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_REBUILDER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_REBUILDER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_REBUILDER</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_REBUILDER",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_REBUILDER</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_REBUILDER</GenderedName>\n\t\t<iLegitimacy>20</iLegitimacy>\n\t\t<iMinValue>2000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_REBUILDER</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a213",
+      "apiName": "ACHIEVEMENT_COGNOMEN_HUMANE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_HUMANE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_HUMANE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_HUMANE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_HUMANE</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_HUMANE",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_HUMANE</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_HUMANE</GenderedName>\n\t\t<iLegitimacy>20</iLegitimacy>\n\t\t<iMinValue>2000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_HUMANE</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CULTURE_LEVEL_INCREASED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_HAPPINESS_LEVEL_INCREASED</zIndex>\n\t\t\t\t<iValue>300</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_HEALED</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>-50</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a105",
+      "apiName": "ACHIEVEMENT_COGNOMEN_ARCHITECT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_ARCHITECT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_ARCHITECT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_ARCHITECT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_ARCHITECT</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_ARCHITECT",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_ARCHITECT</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_ARCHITECT</GenderedName>\n\t\t<iLegitimacy>20</iLegitimacy>\n\t\t<iMinValue>2000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_ARCHITECT</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WONDER_FINISHED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_COGNOMEN_ARCHITECT",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_COGNOMEN_ARCHITECT</zType>\n\t\t<Name>TEXT_EVENTSTORY_COGNOMEN_ARCHITECT_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_COGNOMEN_ARCHITECT</Text>\n\t\t<zBackgroundName>Builder</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"leader\">\n\t\t\t\t<Type>SUBJECT_LEADER_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"capital\">\n\t\t\t\t<Type>SUBJECT_CAPITAL_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal1\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_5</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_6</Any>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal2\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_3</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_25</Any>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<EventOptions>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_ARCHITECT_IRON</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal1</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_MONEY_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_ARCHITECT_SEVEN_CITIES</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal2</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_TRAINING_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_NO</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_EVENTOPTION_AMBITION_FINISHED_OPTION_NO</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t</EventOptions>\n\t\t<Class>EVENTCLASS_AMBITION</Class>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_ARCHITECT</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iProb>60</iProb>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a026",
+      "apiName": "ACHIEVEMENT_COGNOMEN_DEVOUT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_DEVOUT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_DEVOUT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_DEVOUT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_DEVOUT</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_DEVOUT",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_DEVOUT</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_DEVOUT</GenderedName>\n\t\t<iLegitimacy>20</iLegitimacy>\n\t\t<iMinValue>2000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_DEVOUT</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>\n\t\t\t\t<iValue>1500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RELIGION_SPREAD</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_COGNOMEN_DEVOUT",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_COGNOMEN_DEVOUT</zType>\n\t\t<Name>TEXT_EVENTSTORY_COGNOMEN_DEVOUT_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_COGNOMEN_DEVOUT</Text>\n\t\t<zBackgroundName>Religious_Leader</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"leader\">\n\t\t\t\t<Type>SUBJECT_LEADER_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"capital\">\n\t\t\t\t<Type>SUBJECT_CAPITAL_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal1\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_3</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_26</Any>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal2\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_1</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_12</Any>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<EventOptions>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_DEVOUT_POP</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal1</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_GROWTH_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_DEVOUT_COURTS</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal2</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_CIVICS_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_NO</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_EVENTOPTION_AMBITION_FINISHED_OPTION_NO</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t</EventOptions>\n\t\t<Class>EVENTCLASS_AMBITION</Class>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_DEVOUT</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a122",
+      "apiName": "ACHIEVEMENT_COGNOMEN_SETTLER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_SETTLER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_SETTLER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_SETTLER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_SETTLER</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_SETTLER",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_SETTLER</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_SETTLER</GenderedName>\n\t\t<iLegitimacy>20</iLegitimacy>\n\t\t<iMinValue>2000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_SETTLER</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_FOUNDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_COGNOMEN_SETTLER",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_COGNOMEN_SETTLER</zType>\n\t\t<Name>TEXT_EVENTSTORY_COGNOMEN_SETTLER_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_COGNOMEN_SETTLER</Text>\n\t\t<zBackgroundName>Builder</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"leader\">\n\t\t\t\t<Type>SUBJECT_LEADER_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"capital\">\n\t\t\t\t<Type>SUBJECT_CAPITAL_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal1\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Extra>SUBJECT_AMBITION_CLASS_19</Extra>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal2\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_10</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_27</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_29</Any>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<EventOptions>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_SETTLER_RANGED</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal1</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_TRAINING_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_DRILLMASTER_ENGINEERING</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal2</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>capital</First>\n\t\t\t\t\t\t<Second>BONUS_CULTURE_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_NO</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_EVENTOPTION_AMBITION_FINISHED_OPTION_NO</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t</EventOptions>\n\t\t<Class>EVENTCLASS_AMBITION</Class>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_SETTLER</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iImageSubject>0</iImageSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iProb>60</iProb>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a267",
+      "apiName": "ACHIEVEMENT_COGNOMEN_DESTROYER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_DESTROYER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_DESTROYER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_DESTROYER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_DESTROYER</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_DESTROYER",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_DESTROYER</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_DESTROYER</GenderedName>\n\t\t<iLegitimacy>20</iLegitimacy>\n\t\t<iMinValue>2000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_DESTROYER</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CLEARED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a022",
+      "apiName": "ACHIEVEMENT_COGNOMEN_GATHERER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_GATHERER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_GATHERER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_GATHERER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_GATHERER</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_GATHERER",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_GATHERER</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_GATHERER</GenderedName>\n\t\t<iLegitimacy>20</iLegitimacy>\n\t\t<iMinValue>2000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_GATHERER</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RESOURCE_HARVESTED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_VEGETATION_REMOVED</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a136",
+      "apiName": "ACHIEVEMENT_COGNOMEN_CAPABLE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_CAPABLE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_CAPABLE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_CAPABLE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_CAPABLE</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_CAPABLE",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_CAPABLE</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_CAPABLE</GenderedName>\n\t\t<iLegitimacy>20</iLegitimacy>\n\t\t<iMinValue>2000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_CAPABLE</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_TRAINED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_PROMOTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a064",
+      "apiName": "ACHIEVEMENT_COGNOMEN_LEARNED",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_LEARNED",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_LEARNED</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_LEARNED_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_LEARNED</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_LEARNED",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_LEARNED</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_LEARNED</GenderedName>\n\t\t<iLegitimacy>20</iLegitimacy>\n\t\t<iMinValue>2000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_LEARNED</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TECH_DISCOVERED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_CALENDAR_AND_SEASONS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_CALENDAR_AND_SEASONS</zType>\n\t\t<Name>TEXT_EVENTSTORY_CALENDAR_AND_SEASONS_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_CALENDAR_AND_SEASONS</Text>\n\t\t<zBackgroundName>Library</zBackgroundName>\n\t\t<zEventURL>https://en.wikipedia.org/wiki/Julian_calendar</zEventURL>\n\t\t<zCommunityContribution>And</zCommunityContribution>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_FESTIVITIES</zAudioTrigger>\n\t\t<zAuthor>Zorbaz</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_COURTIER_SCIENTIST</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_CALENDAR_AND_SEASONS_OPTION_0</zValue>\n\t\t\t<zValue>EVENTOPTION_CALENDAR_AND_SEASONS_OPTION_1</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_LEARNED</TriggerData>\n\t\t<iTriggerSubject>2</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a133",
+      "apiName": "ACHIEVEMENT_COGNOMEN_BRAVE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_BRAVE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_BRAVE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_BRAVE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_BRAVE</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_BRAVE",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_BRAVE</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_BRAVE</GenderedName>\n\t\t<iLegitimacy>20</iLegitimacy>\n\t\t<iMinValue>2000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_BRAVE</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_LOST</zIndex>\n\t\t\t\t<iValue>-200</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_COGNOMEN_DRILLMASTER",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_COGNOMEN_DRILLMASTER</zType>\n\t\t<Name>TEXT_EVENTSTORY_COGNOMEN_DRILLMASTER_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_COGNOMEN_DRILLMASTER</Text>\n\t\t<zBackgroundName>city approach</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"leader\">\n\t\t\t\t<Type>SUBJECT_LEADER_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"capital\">\n\t\t\t\t<Type>SUBJECT_CAPITAL_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal1\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Extra>SUBJECT_AMBITION_LEADER_RELIGION</Extra>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_15</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_28</Any>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal2\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_18</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_20</Any>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<EventOptions>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_DRILLMASTER_SHRINES</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal1</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>capital</First>\n\t\t\t\t\t\t<Second>BONUS_CULTURE_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_DRILLMASTER_STOCKPILE</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal2</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_CIVICS_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_NO</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_EVENTOPTION_AMBITION_FINISHED_OPTION_NO</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t</EventOptions>\n\t\t<Class>EVENTCLASS_AMBITION</Class>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_BRAVE</TriggerData>\n\t\t<TriggerSubjects>leader</TriggerSubjects>\n\t\t<iImageSubject>0</iImageSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iProb>60</iProb>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a104",
+      "apiName": "ACHIEVEMENT_COGNOMEN_VALIANT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_VALIANT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_VALIANT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_VALIANT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_VALIANT</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_VALIANT",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_VALIANT</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_VALIANT</GenderedName>\n\t\t<iLegitimacy>30</iLegitimacy>\n\t\t<iMinValue>3000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_VALIANT</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_LOST</zIndex>\n\t\t\t\t<iValue>-200</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a299",
+      "apiName": "ACHIEVEMENT_COGNOMEN_LAWGIVER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_LAWGIVER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_LAWGIVER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_LAWGIVER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_LAWGIVER</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_LAWGIVER",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_LAWGIVER</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_LAWGIVER</GenderedName>\n\t\t<iLegitimacy>30</iLegitimacy>\n\t\t<iMinValue>3000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_LAWGIVER</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LAW_ADOPTED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LAW_CHANGED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a141",
+      "apiName": "ACHIEVEMENT_COGNOMEN_INTERCESSOR",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_INTERCESSOR",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_INTERCESSOR</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_INTERCESSOR_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_INTERCESSOR</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_INTERCESSOR",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_INTERCESSOR</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_INTERCESSOR</GenderedName>\n\t\t<iLegitimacy>30</iLegitimacy>\n\t\t<iMinValue>3000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_INTERCESSOR</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_COGNOMEN_INTERCESSOR",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_COGNOMEN_INTERCESSOR</zType>\n\t\t<Name>TEXT_EVENTSTORY_COGNOMEN_INTERCESSOR_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_COGNOMEN_INTERCESSOR</Text>\n\t\t<zBackgroundName>BarbarianTruce</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"leader\">\n\t\t\t\t<Type>SUBJECT_LEADER_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"capital\">\n\t\t\t\t<Type>SUBJECT_CAPITAL_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal1\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_5</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_23</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_24</Any>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal2\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Extra>SUBJECT_AMBITION_CLASS_16</Extra>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<EventOptions>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_INTERCESSOR_CONVOYS</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal1</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>capital</First>\n\t\t\t\t\t\t<Second>BONUS_UNIT_CARAVAN</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_INTERCESSOR_TECH</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal2</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_SCIENCE_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_NO</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_EVENTOPTION_AMBITION_FINISHED_OPTION_NO</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t</EventOptions>\n\t\t<Class>EVENTCLASS_AMBITION</Class>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_INTERCESSOR</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iProb>60</iProb>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a119",
+      "apiName": "ACHIEVEMENT_COGNOMEN_EXPLORER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_EXPLORER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_EXPLORER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_EXPLORER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_EXPLORER</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_EXPLORER",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_EXPLORER</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_EXPLORER</GenderedName>\n\t\t<iLegitimacy>30</iLegitimacy>\n\t\t<iMinValue>3000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_EXPLORER</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CARAVAN_ARRIVED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_NAMED</zIndex>\n\t\t\t\t<iValue>300</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RUINS_EXPLORED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TILES_REVEALED</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_COGNOMEN_EXPLORER",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_COGNOMEN_EXPLORER</zType>\n\t\t<Name>TEXT_EVENTSTORY_COGNOMEN_EXPLORER_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_COGNOMEN_EXPLORER</Text>\n\t\t<zBackgroundName>Land_Exploration_Arid</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"leader\">\n\t\t\t\t<Type>SUBJECT_LEADER_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"capital\">\n\t\t\t\t<Type>SUBJECT_CAPITAL_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal1\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_14</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_24</Any>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal2\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_7</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_11</Any>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<EventOptions>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_EXPLORER_LUXURIES</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal1</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_TRAINING_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_EXPLORER_MINERS</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal2</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_MONEY_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_NO</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_EVENTOPTION_AMBITION_FINISHED_OPTION_NO</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t</EventOptions>\n\t\t<Class>EVENTCLASS_AMBITION</Class>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_EXPLORER</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iProb>60</iProb>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_TUTORIAL_LEGITIMACY",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_TUTORIAL_LEGITIMACY</zType>\n\t\t<Name>TEXT_EVENTSTORY_TUTORIAL_LEGITIMACY_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_TUTORIAL_LEGITIMACY</Text>\n\t\t<zAuthor>Soren Johnson</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_TUTORIAL_LEGITIMACY_OKAY</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_EXPLORER</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iPriority>10</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bTutorial>1</bTutorial>\n\t\t<bNoEventsValid>1</bNoEventsValid>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a138",
+      "apiName": "ACHIEVEMENT_COGNOMEN_READY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_READY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_READY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_READY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_READY</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_READY",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_READY</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_READY</GenderedName>\n\t\t<iLegitimacy>30</iLegitimacy>\n\t\t<iMinValue>3000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_READY</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_TRAINED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_PROMOTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_COGNOMEN_READY",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_COGNOMEN_READY</zType>\n\t\t<Name>TEXT_EVENTSTORY_COGNOMEN_READY_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_COGNOMEN_READY</Text>\n\t\t<zBackgroundName>Captured_Soldiers</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"leader\">\n\t\t\t\t<Type>SUBJECT_LEADER_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"capital\">\n\t\t\t\t<Type>SUBJECT_CAPITAL_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal1\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_4</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_17</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_25</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_32</Any>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal2\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_5</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_6</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_26</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_8</Any>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<EventOptions>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_DESTROYER_KILLS</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal1</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>capital</First>\n\t\t\t\t\t\t<Second>BONUS_TRAINING_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_DESTROYER_TECH</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal2</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_MONEY_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_NO</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_EVENTOPTION_AMBITION_FINISHED_OPTION_NO</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t</EventOptions>\n\t\t<Class>EVENTCLASS_AMBITION</Class>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_READY</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iProb>60</iProb>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a356",
+      "apiName": "ACHIEVEMENT_COGNOMEN_FAVORED",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_FAVORED",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_FAVORED</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_FAVORED_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_FAVORED</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_FAVORED",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_FAVORED</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_FAVORED</GenderedName>\n\t\t<iLegitimacy>30</iLegitimacy>\n\t\t<iMinValue>3000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_FAVORED</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_PAGAN_RELIGION_SPREAD</zIndex>\n\t\t\t\t<iValue>800</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CULTS</zIndex>\n\t\t\t\t<iValue>800</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CLERGY_ADDED</zIndex>\n\t\t\t\t<iValue>400</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a357",
+      "apiName": "ACHIEVEMENT_COGNOMEN_HUNTER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_HUNTER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_HUNTER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_HUNTER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_HUNTER</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_HUNTER",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_HUNTER</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_HUNTER</GenderedName>\n\t\t<iLegitimacy>30</iLegitimacy>\n\t\t<iMinValue>3000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_HUNTER</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_PILLAGED</zIndex>\n\t\t\t\t<iValue>600</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_ANY_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a094",
+      "apiName": "ACHIEVEMENT_COGNOMEN_ABLE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_ABLE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_ABLE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_ABLE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_ABLE</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_ABLE",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_ABLE</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_ABLE</GenderedName>\n\t\t<iLegitimacy>30</iLegitimacy>\n\t\t<iMinValue>30000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_ABLE</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_AMBITION_ACHIEVED</zIndex>\n\t\t\t\t<iValue>12000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LEGACY_ACHIEVED</zIndex>\n\t\t\t\t<iValue>6000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CLEARED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CARAVAN_ARRIVED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CAPITAL_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_FOUNDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_RECAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_LOST</zIndex>\n\t\t\t\t<iValue>-2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_COURTIER_ADDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_NAMED</zIndex>\n\t\t\t\t<iValue>300</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>\n\t\t\t\t<iValue>1500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RELIGION_SPREAD</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RUINS_EXPLORED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TECH_DISCOVERED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TILES_REVEALED</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_TRAINED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_PROMOTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_LOST</zIndex>\n\t\t\t\t<iValue>-200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WONDER_FINISHED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_YEARS_REIGNED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_TRAIT_ARTS_AND_SCIENCES",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_TRAIT_ARTS_AND_SCIENCES</zType>\n\t\t<Name>TEXT_EVENTSTORY_TRAIT_ARTS_AND_SCIENCES_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_TRAIT_ARTS_AND_SCIENCES</Text>\n\t\t<zBackgroundName>Library</zBackgroundName>\n\t\t<zAuthor>Andy Auseon</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PROSPEROUS</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_TRAIT_ARTS_AND_SCIENCES_OPTION_0</zValue>\n\t\t\t<zValue>EVENTOPTION_TRAIT_ARTS_AND_SCIENCES_OPTION_1</zValue>\n\t\t\t<zValue>EVENTOPTION_TRAIT_ARTS_AND_SCIENCES_OPTION_2</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_ABLE</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a359",
+      "apiName": "ACHIEVEMENT_COGNOMEN_RESTORER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_RESTORER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_RESTORER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_RESTORER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_RESTORER</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_RESTORER",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_RESTORER</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_RESTORER</GenderedName>\n\t\t<iLegitimacy>40</iLegitimacy>\n\t\t<iMinValue>4000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_RESTORER</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_RECAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a144",
+      "apiName": "ACHIEVEMENT_COGNOMEN_CONQUEROR",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_CONQUEROR",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_CONQUEROR</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_CONQUEROR_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_CONQUEROR</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_CONQUEROR",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_CONQUEROR</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_CONQUEROR</GenderedName>\n\t\t<iLegitimacy>40</iLegitimacy>\n\t\t<iMinValue>4000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_CONQUEROR</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CAPITAL_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_COGNOMEN_CONQUERER",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_COGNOMEN_CONQUERER</zType>\n\t\t<Name>TEXT_EVENTSTORY_COGNOMEN_CONQUERER_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_COGNOMEN_CONQUERER</Text>\n\t\t<zBackgroundName>Horse_Rider</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"leader\">\n\t\t\t\t<Type>SUBJECT_LEADER_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"capital\">\n\t\t\t\t<Type>SUBJECT_CAPITAL_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal1\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Extra>SUBJECT_AMBITION_LEADER_RELIGION</Extra>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_2</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_15</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_28</Any>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal2\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Extra>SUBJECT_AMBITION_CLASS_31</Extra>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<EventOptions>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_CONQUERER_HOLY_WAR</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal1</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>capital</First>\n\t\t\t\t\t\t<Second>BONUS_CULTURE_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_CONQUERER_TOWERS</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal2</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_TRAINING_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_NO</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_EVENTOPTION_AMBITION_FINISHED_OPTION_NO</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t</EventOptions>\n\t\t<Class>EVENTCLASS_AMBITION</Class>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_CONQUEROR</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iProb>60</iProb>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a137",
+      "apiName": "ACHIEVEMENT_COGNOMEN_MIGHTY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_MIGHTY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_MIGHTY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_MIGHTY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_MIGHTY</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_MIGHTY",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_MIGHTY</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_MIGHTY</GenderedName>\n\t\t<iLegitimacy>40</iLegitimacy>\n\t\t<iMinValue>4000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_MIGHTY</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_LOST</zIndex>\n\t\t\t\t<iValue>-200</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_COGNOMEN_MIGHTY",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_COGNOMEN_MIGHTY</zType>\n\t\t<Name>TEXT_EVENTSTORY_COGNOMEN_MIGHTY_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_COGNOMEN_MIGHTY</Text>\n\t\t<zBackgroundName>Battle</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"leader\">\n\t\t\t\t<Type>SUBJECT_LEADER_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"capital\">\n\t\t\t\t<Type>SUBJECT_CAPITAL_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal1\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_1</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_9</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_10</Any>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal2\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_12</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_18</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_21</Any>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<EventOptions>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_MIGHTY_LAWS</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal1</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>capital</First>\n\t\t\t\t\t\t<Second>BONUS_CULTURE_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_MIGHTY_SPECIALISTS</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal2</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_CIVICS_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_NO</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_EVENTOPTION_AMBITION_FINISHED_OPTION_NO</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t</EventOptions>\n\t\t<Class>EVENTCLASS_AMBITION</Class>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_MIGHTY</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iProb>60</iProb>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a298",
+      "apiName": "ACHIEVEMENT_COGNOMEN_AVENGER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_AVENGER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_AVENGER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_AVENGER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_AVENGER</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_AVENGER",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_AVENGER</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_AVENGER</GenderedName>\n\t\t<iLegitimacy>40</iLegitimacy>\n\t\t<iMinValue>4000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_AVENGER</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CLEARED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_COGNOMEN_AVENGER",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_COGNOMEN_AVENGER</zType>\n\t\t<Name>TEXT_EVENTSTORY_COGNOMEN_AVENGER_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_COGNOMEN_AVENGER</Text>\n\t\t<zBackgroundName>BarbarianTruce</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"leader\">\n\t\t\t\t<Type>SUBJECT_LEADER_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"capital\">\n\t\t\t\t<Type>SUBJECT_CAPITAL_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal1\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_14</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_26</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_10</Any>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal2\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_25</Any>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<EventOptions>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_AVENGER_PEACE</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal1</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>capital</First>\n\t\t\t\t\t\t<Second>BONUS_CULTURE_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_AVENGER_CITIES</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal2</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_TRAINING_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_NO</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_EVENTOPTION_AMBITION_FINISHED_OPTION_NO</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t</EventOptions>\n\t\t<Class>EVENTCLASS_AMBITION</Class>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_AVENGER</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iProb>60</iProb>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a209",
+      "apiName": "ACHIEVEMENT_COGNOMEN_RESOURCEFUL",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_RESOURCEFUL",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_RESOURCEFUL</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_RESOURCEFUL_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_RESOURCEFUL</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_RESOURCEFUL",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_RESOURCEFUL</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_RESOURCEFUL</GenderedName>\n\t\t<iLegitimacy>40</iLegitimacy>\n\t\t<iMinValue>4000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_RESOURCEFUL</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RESOURCE_HARVESTED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_VEGETATION_REMOVED</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a007",
+      "apiName": "ACHIEVEMENT_COGNOMEN_GRACIOUS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_GRACIOUS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_GRACIOUS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_GRACIOUS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_GRACIOUS</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_GRACIOUS",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_GRACIOUS</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_GRACIOUS</GenderedName>\n\t\t<iLegitimacy>40</iLegitimacy>\n\t\t<iMinValue>4000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_GRACIOUS</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CULTURE_LEVEL_INCREASED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_HAPPINESS_LEVEL_INCREASED</zIndex>\n\t\t\t\t<iValue>300</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_HEALED</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>-50</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a093",
+      "apiName": "ACHIEVEMENT_COGNOMEN_KEYSTONE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_KEYSTONE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_KEYSTONE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_KEYSTONE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_KEYSTONE</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_KEYSTONE",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_KEYSTONE</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_KEYSTONE</GenderedName>\n\t\t<iLegitimacy>40</iLegitimacy>\n\t\t<iMinValue>4000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_KEYSTONE</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WONDER_FINISHED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_COGNOMEN_KEYSTONE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_COGNOMEN_KEYSTONE</zType>\n\t\t<Name>TEXT_EVENTSTORY_COGNOMEN_KEYSTONE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_COGNOMEN_KEYSTONE</Text>\n\t\t<zBackgroundName>Farming</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"leader\">\n\t\t\t\t<Type>SUBJECT_LEADER_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"capital\">\n\t\t\t\t<Type>SUBJECT_CAPITAL_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal1\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_12</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_21</Any>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal2\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_4</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_17</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_25</Any>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<EventOptions>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_SPECIALISTS</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal1</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_MONEY_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_TECH</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal2</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_TRAINING_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_NO</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_EVENTOPTION_AMBITION_FINISHED_OPTION_NO</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t</EventOptions>\n\t\t<Class>EVENTCLASS_AMBITION</Class>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_KEYSTONE</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iProb>60</iProb>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a118",
+      "apiName": "ACHIEVEMENT_COGNOMEN_PIONEER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_PIONEER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_PIONEER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_PIONEER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_PIONEER</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_PIONEER",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_PIONEER</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_PIONEER</GenderedName>\n\t\t<iLegitimacy>40</iLegitimacy>\n\t\t<iMinValue>4000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_PIONEER</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_FOUNDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a103",
+      "apiName": "ACHIEVEMENT_COGNOMEN_BRILLIANT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_BRILLIANT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_BRILLIANT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_BRILLIANT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_BRILLIANT</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_BRILLIANT",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_BRILLIANT</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_BRILLIANT</GenderedName>\n\t\t<iLegitimacy>40</iLegitimacy>\n\t\t<iMinValue>4000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_BRILLIANT</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_COURTIER_ADDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_COGNOMEN_BRILLIANT",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_COGNOMEN_BRILLIANT</zType>\n\t\t<Name>TEXT_EVENTSTORY_COGNOMEN_BRILLIANT_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_COGNOMEN_BRILLIANT</Text>\n\t\t<zBackgroundName>CothonOfCarthage</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"leader\">\n\t\t\t\t<Type>SUBJECT_LEADER_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"capital\">\n\t\t\t\t<Type>SUBJECT_CAPITAL_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal1\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_9</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_10</Any>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal2\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_8</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_13</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_29</Any>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<EventOptions>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_WONDERS</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal1</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>capital</First>\n\t\t\t\t\t\t<Second>BONUS_CULTURE_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_LEGENDARY</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal2</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_CIVICS_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_NO</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_EVENTOPTION_AMBITION_FINISHED_OPTION_NO</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t</EventOptions>\n\t\t<Class>EVENTCLASS_AMBITION</Class>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_BRILLIANT</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iProb>60</iProb>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a061",
+      "apiName": "ACHIEVEMENT_COGNOMEN_ENLIGHTENED",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_ENLIGHTENED",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_ENLIGHTENED</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_ENLIGHTENED_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_ENLIGHTENED</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_ENLIGHTENED",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_ENLIGHTENED</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_ENLIGHTENED</GenderedName>\n\t\t<iLegitimacy>40</iLegitimacy>\n\t\t<iMinValue>4000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_ENLIGHTENED</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TECH_DISCOVERED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_COGNOMEN_ENLIGHTENED",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_COGNOMEN_ENLIGHTENED</zType>\n\t\t<Name>TEXT_EVENTSTORY_COGNOMEN_ENLIGHTENED_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_COGNOMEN_ENLIGHTENED</Text>\n\t\t<zBackgroundName>mysterious pillar</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"leader\">\n\t\t\t\t<Type>SUBJECT_LEADER_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"capital\">\n\t\t\t\t<Type>SUBJECT_CAPITAL_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal1\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_21</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_12</Any>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal2\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Extra>SUBJECT_AMBITION_LEADER_RELIGION</Extra>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_34</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_22</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_16</Any>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<EventOptions>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_ENLIGHTENED_COURTIERS</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal1</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>capital</First>\n\t\t\t\t\t\t<Second>BONUS_CULTURE_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_EXPLORER_REVEAL</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal2</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_CIVICS_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_NO</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_EVENTOPTION_AMBITION_FINISHED_OPTION_NO</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t</EventOptions>\n\t\t<Class>EVENTCLASS_AMBITION</Class>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_ENLIGHTENED</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iImageSubject>0</iImageSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iProb>60</iProb>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a025",
+      "apiName": "ACHIEVEMENT_COGNOMEN_HOLY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_HOLY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_HOLY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_HOLY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_HOLY</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_HOLY",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_HOLY</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_HOLY</GenderedName>\n\t\t<iLegitimacy>40</iLegitimacy>\n\t\t<iMinValue>4000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_HOLY</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>\n\t\t\t\t<iValue>1500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RELIGION_SPREAD</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a012",
+      "apiName": "ACHIEVEMENT_COGNOMEN_JUST",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_JUST",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_JUST</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_JUST_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_JUST</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_JUST",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_JUST</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_JUST</GenderedName>\n\t\t<iLegitimacy>40</iLegitimacy>\n\t\t<iMinValue>40000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_JUST</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_AMBITION_ACHIEVED</zIndex>\n\t\t\t\t<iValue>12000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LEGACY_ACHIEVED</zIndex>\n\t\t\t\t<iValue>6000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CLEARED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CARAVAN_ARRIVED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CAPITAL_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_FOUNDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_RECAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_LOST</zIndex>\n\t\t\t\t<iValue>-2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_COURTIER_ADDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_NAMED</zIndex>\n\t\t\t\t<iValue>300</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>\n\t\t\t\t<iValue>1500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RELIGION_SPREAD</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RUINS_EXPLORED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TECH_DISCOVERED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TILES_REVEALED</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_TRAINED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_PROMOTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_LOST</zIndex>\n\t\t\t\t<iValue>-200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WONDER_FINISHED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_YEARS_REIGNED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a163",
+      "apiName": "ACHIEVEMENT_COGNOMEN_OLD",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_OLD",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_OLD</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_OLD_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_OLD</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_OLD",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_OLD</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_OLD</GenderedName>\n\t\t<iLegitimacy>40</iLegitimacy>\n\t\t<iMinValue>4000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_OLD</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_YEARS_REIGNED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a355",
+      "apiName": "ACHIEVEMENT_COGNOMEN_FANATIC",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_FANATIC",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_FANATIC</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_FANATIC_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_FANATIC</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_FANATIC",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_FANATIC</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_FANATIC</GenderedName>\n\t\t<iLegitimacy>40</iLegitimacy>\n\t\t<iMinValue>4000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_FANATIC</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RELIGION_PURGED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a114",
+      "apiName": "ACHIEVEMENT_COGNOMEN_INTREPID",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_INTREPID",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_INTREPID</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_INTREPID_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_INTREPID</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_INTREPID",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_INTREPID</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_INTREPID</GenderedName>\n\t\t<iLegitimacy>50</iLegitimacy>\n\t\t<iMinValue>5000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_INTREPID</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CARAVAN_ARRIVED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_NAMED</zIndex>\n\t\t\t\t<iValue>300</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RUINS_EXPLORED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TILES_REVEALED</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_COGNOMEN_INTREPID",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_COGNOMEN_INTREPID</zType>\n\t\t<Name>TEXT_EVENTSTORY_COGNOMEN_INTREPID_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_COGNOMEN_INTREPID</Text>\n\t\t<zBackgroundName>Sea_Exploration</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"leader\">\n\t\t\t\t<Type>SUBJECT_LEADER_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"capital\">\n\t\t\t\t<Type>SUBJECT_CAPITAL_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal1\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_8</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_10</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_27</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_13</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_29</Any>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal2\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Extra>SUBJECT_AMBITION_LEADER_RELIGION</Extra>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_15</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_28</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_2</Any>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<EventOptions>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_INTREPID_URBAN</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal1</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>capital</First>\n\t\t\t\t\t\t<Second>BONUS_CULTURE_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_INTREPID_RELIGION</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal2</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_CIVICS_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_NO</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_EVENTOPTION_AMBITION_FINISHED_OPTION_NO</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t</EventOptions>\n\t\t<Class>EVENTCLASS_AMBITION</Class>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_INTREPID</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iImageSubject>0</iImageSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iProb>60</iProb>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a101",
+      "apiName": "ACHIEVEMENT_COGNOMEN_GOOD",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_GOOD",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_GOOD</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_GOOD_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_GOOD</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_GOOD",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_GOOD</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_GOOD</GenderedName>\n\t\t<iLegitimacy>50</iLegitimacy>\n\t\t<iMinValue>50000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_GOOD</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_AMBITION_ACHIEVED</zIndex>\n\t\t\t\t<iValue>12000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LEGACY_ACHIEVED</zIndex>\n\t\t\t\t<iValue>6000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CLEARED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CARAVAN_ARRIVED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CAPITAL_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_FOUNDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_RECAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_LOST</zIndex>\n\t\t\t\t<iValue>-2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_COURTIER_ADDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_NAMED</zIndex>\n\t\t\t\t<iValue>300</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>\n\t\t\t\t<iValue>1500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RELIGION_SPREAD</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RUINS_EXPLORED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TECH_DISCOVERED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TILES_REVEALED</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_TRAINED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_PROMOTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_LOST</zIndex>\n\t\t\t\t<iValue>-200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WONDER_FINISHED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_YEARS_REIGNED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a172",
+      "apiName": "ACHIEVEMENT_COGNOMEN_ANCIENT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_ANCIENT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_ANCIENT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_ANCIENT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_ANCIENT</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_ANCIENT",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_ANCIENT</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_ANCIENT</GenderedName>\n\t\t<iLegitimacy>50</iLegitimacy>\n\t\t<iMinValue>5000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_ANCIENT</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_YEARS_REIGNED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_CHARACTER_RULER_FOR_LIFE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_CHARACTER_RULER_FOR_LIFE</zType>\n\t\t<Name>TEXT_EVENTSTORY_CHARACTER_RULER_FOR_LIFE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_CHARACTER_RULER_FOR_LIFE</Text>\n\t\t<zBackgroundName>decree</zBackgroundName>\n\t\t<zAuthor>Andy Auseon</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_MAX_ANGRY</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_OLD</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_CHARACTER_RULER_FOR_LIFE_OPTION_0</zValue>\n\t\t\t<zValue>EVENTOPTION_CHARACTER_RULER_FOR_LIFE_OPTION_1</zValue>\n\t\t\t<zValue>EVENTOPTION_CHARACTER_RULER_FOR_LIFE_OPTION_2</zValue>\n\t\t\t<zValue>EVENTOPTION_CHARACTER_RULER_FOR_LIFE_OPTION_3</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_ANCIENT</TriggerData>\n\t\t<iTriggerSubject>1</iTriggerSubject>\n\t\t<iWeight>2</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a407",
+      "apiName": "ACHIEVEMENT_COGNOMEN_CHOSEN",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_CHOSEN",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_CHOSEN</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_CHOSEN_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_CHOSEN</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_CHOSEN",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_CHOSEN</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_CHOSEN</GenderedName>\n\t\t<iLegitimacy>50</iLegitimacy>\n\t\t<iMinValue>5000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_CHOSEN</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_PAGAN_RELIGION_SPREAD</zIndex>\n\t\t\t\t<iValue>800</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CULTS</zIndex>\n\t\t\t\t<iValue>800</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CLERGY_ADDED</zIndex>\n\t\t\t\t<iValue>400</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a360",
+      "apiName": "ACHIEVEMENT_COGNOMEN_SCOURGE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_SCOURGE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_SCOURGE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_SCOURGE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_SCOURGE</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_SCOURGE",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_SCOURGE</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_SCOURGE</GenderedName>\n\t\t<iLegitimacy>50</iLegitimacy>\n\t\t<iMinValue>5000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_SCOURGE</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_PILLAGED</zIndex>\n\t\t\t\t<iValue>600</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_ANY_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a170",
+      "apiName": "ACHIEVEMENT_COGNOMEN_PEACEMAKER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_PEACEMAKER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_PEACEMAKER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_PEACEMAKER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_PEACEMAKER</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_PEACEMAKER",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_PEACEMAKER</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_PEACEMAKER</GenderedName>\n\t\t<iLegitimacy>50</iLegitimacy>\n\t\t<iMinValue>5000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_PEACEMAKER</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a140",
+      "apiName": "ACHIEVEMENT_COGNOMEN_VICTORIOUS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_VICTORIOUS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_VICTORIOUS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_VICTORIOUS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_VICTORIOUS</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_VICTORIOUS",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_VICTORIOUS</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_VICTORIOUS</GenderedName>\n\t\t<iLegitimacy>50</iLegitimacy>\n\t\t<iMinValue>5000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_VICTORIOUS</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_LOST</zIndex>\n\t\t\t\t<iValue>-200</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a300",
+      "apiName": "ACHIEVEMENT_COGNOMEN_WHITE_DEATH",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_WHITE_DEATH",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_WHITE_DEATH</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_WHITE_DEATH_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_WHITE_DEATH</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_WHITE_DEATH",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_WHITE_DEATH</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_WHITE_DEATH</GenderedName>\n\t\t<iLegitimacy>60</iLegitimacy>\n\t\t<iMinValue>6000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_WHITE_DEATH</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CLEARED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a036",
+      "apiName": "ACHIEVEMENT_COGNOMEN_BELOVED",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_BELOVED",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_BELOVED</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_BELOVED_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_BELOVED</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_BELOVED",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_BELOVED</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_BELOVED</GenderedName>\n\t\t<iLegitimacy>60</iLegitimacy>\n\t\t<iMinValue>6000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_BELOVED</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_COURTIER_ADDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_LAW_A_SINGULAR_VISION",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_LAW_A_SINGULAR_VISION</zType>\n\t\t<Name>TEXT_EVENTSTORY_LAW_A_SINGULAR_VISION_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_LAW_A_SINGULAR_VISION</Text>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SCATTERING_DUST</zAudioTrigger>\n\t\t<zAuthor>Andy Auseon</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_FAMILY_HEAD_US</zValue>\n\t\t\t<zValue>SUBJECT_FAMILY_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_LAW_TYRANNY</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_MALE</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_ADULT</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_VILLAINOUS</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECTRELATION_FAMILY_SAME</Second>\n\t\t\t\t<Third>0</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_LAW_A_SINGULAR_VISION_OPTION_1</zValue>\n\t\t\t<zValue>EVENTOPTION_LAW_A_SINGULAR_VISION_OPTION_0</zValue>\n\t\t\t<zValue>EVENTOPTION_LAW_A_SINGULAR_VISION_OPTION_2</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_BELOVED</TriggerData>\n\t\t<iTriggerSubject>2</iTriggerSubject>\n\t\t<iWeight>2</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a148",
+      "apiName": "ACHIEVEMENT_COGNOMEN_LION",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_LION",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_LION</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_LION_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_LION</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_LION",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_LION</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_LION</GenderedName>\n\t\t<iLegitimacy>60</iLegitimacy>\n\t\t<iMinValue>6000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_LION</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_LOST</zIndex>\n\t\t\t\t<iValue>-200</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a109",
+      "apiName": "ACHIEVEMENT_COGNOMEN_STRONG",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_STRONG",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_STRONG</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_STRONG_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_STRONG</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_STRONG",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_STRONG</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_STRONG</GenderedName>\n\t\t<iLegitimacy>60</iLegitimacy>\n\t\t<iMinValue>60000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_STRONG</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_AMBITION_ACHIEVED</zIndex>\n\t\t\t\t<iValue>12000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LEGACY_ACHIEVED</zIndex>\n\t\t\t\t<iValue>6000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CLEARED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CARAVAN_ARRIVED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CAPITAL_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_FOUNDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_RECAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_LOST</zIndex>\n\t\t\t\t<iValue>-2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_COURTIER_ADDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_NAMED</zIndex>\n\t\t\t\t<iValue>300</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>\n\t\t\t\t<iValue>1500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RELIGION_SPREAD</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RUINS_EXPLORED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TECH_DISCOVERED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TILES_REVEALED</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_TRAINED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_PROMOTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_LOST</zIndex>\n\t\t\t\t<iValue>-200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WONDER_FINISHED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_YEARS_REIGNED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_COGNOMEN_STRONG",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_COGNOMEN_STRONG</zType>\n\t\t<Name>TEXT_EVENTSTORY_COGNOMEN_STRONG_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_COGNOMEN_STRONG</Text>\n\t\t<zBackgroundName>BarbarianBattle</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"leader\">\n\t\t\t\t<Type>SUBJECT_LEADER_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"capital\">\n\t\t\t\t<Type>SUBJECT_CAPITAL_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal1\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_11</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_12</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_14</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_21</Any>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"goal2\">\n\t\t\t\t<Type>SUBJECT_AMBITION</Type>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_5</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_6</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_7</Any>\n\t\t\t\t<Any>SUBJECT_AMBITION_CLASS_8</Any>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<EventOptions>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_STRONG_GENERALS</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal1</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_CIVICS_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_STRONG_YIELDS</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>goal2</First>\n\t\t\t\t\t\t<Second>BONUS_ADD_AMBITION</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_MONEY_GAIN_SMALL</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t\t<EventOption>\n\t\t\t\t<Text>TEXT_EVENTOPTION_COGNOMEN_NO</Text>\n\t\t\t\t<SubjectBonuses>\n\t\t\t\t\t<Pair>\n\t\t\t\t\t\t<First>leader</First>\n\t\t\t\t\t\t<Second>BONUS_EVENTOPTION_AMBITION_FINISHED_OPTION_NO</Second>\n\t\t\t\t\t</Pair>\n\t\t\t\t</SubjectBonuses>\n\t\t\t</EventOption>\n\t\t</EventOptions>\n\t\t<Class>EVENTCLASS_AMBITION</Class>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_STRONG</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iImageSubject>0</iImageSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iProb>30</iProb>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a071",
+      "apiName": "ACHIEVEMENT_COGNOMEN_WISE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_WISE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_WISE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_WISE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_WISE</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_WISE",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_WISE</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_WISE</GenderedName>\n\t\t<iLegitimacy>60</iLegitimacy>\n\t\t<iMinValue>6000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_WISE</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TECH_DISCOVERED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_LEADER_BIOGRAPHY",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_LEADER_BIOGRAPHY</zType>\n\t\t<Name>TEXT_EVENTSTORY_LEADER_BIOGRAPHY_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_LEADER_BIOGRAPHY</Text>\n\t\t<zBackgroundName>Library</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_FAR_AWAY_STORY</zAudioTrigger>\n\t\t<zAuthor>Andy Auseon</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_OLD</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_LEADER_BIOGRAPHY_OPTION_0</zValue>\n\t\t\t<zValue>EVENTOPTION_LEADER_BIOGRAPHY_OPTION_1</zValue>\n\t\t\t<zValue>EVENTOPTION_LEADER_BIOGRAPHY_OPTION_2</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_WISE</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>2</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a358",
+      "apiName": "ACHIEVEMENT_COGNOMEN_LIBERATOR",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_LIBERATOR",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_LIBERATOR</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_LIBERATOR_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_LIBERATOR</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_LIBERATOR",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_LIBERATOR</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_LIBERATOR</GenderedName>\n\t\t<iLegitimacy>60</iLegitimacy>\n\t\t<iMinValue>6000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_LIBERATOR</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_RECAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a091",
+      "apiName": "ACHIEVEMENT_COGNOMEN_FOUNTAINHEAD",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_FOUNTAINHEAD",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_FOUNTAINHEAD</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_FOUNTAINHEAD_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_FOUNTAINHEAD</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_FOUNTAINHEAD",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_FOUNTAINHEAD</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_FOUNTAINHEAD</GenderedName>\n\t\t<iLegitimacy>60</iLegitimacy>\n\t\t<iMinValue>6000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_FOUNTAINHEAD</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WONDER_FINISHED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a149",
+      "apiName": "ACHIEVEMENT_COGNOMEN_SUBJUGATOR",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_SUBJUGATOR",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_SUBJUGATOR</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_SUBJUGATOR_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_SUBJUGATOR</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_SUBJUGATOR",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_SUBJUGATOR</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_SUBJUGATOR</GenderedName>\n\t\t<iLegitimacy>60</iLegitimacy>\n\t\t<iMinValue>6000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_SUBJUGATOR</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CAPITAL_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a020",
+      "apiName": "ACHIEVEMENT_COGNOMEN_SAVIOR",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_SAVIOR",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_SAVIOR</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_SAVIOR_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_SAVIOR</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_SAVIOR",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_SAVIOR</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_SAVIOR</GenderedName>\n\t\t<iLegitimacy>60</iLegitimacy>\n\t\t<iMinValue>6000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_SAVIOR</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CULTURE_LEVEL_INCREASED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_HAPPINESS_LEVEL_INCREASED</zIndex>\n\t\t\t\t<iValue>300</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_HEALED</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>-50</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a099",
+      "apiName": "ACHIEVEMENT_COGNOMEN_NOBLE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_NOBLE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_NOBLE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_NOBLE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_NOBLE</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_NOBLE",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_NOBLE</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_NOBLE</GenderedName>\n\t\t<iLegitimacy>70</iLegitimacy>\n\t\t<iMinValue>70000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_NOBLE</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_AMBITION_ACHIEVED</zIndex>\n\t\t\t\t<iValue>12000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LEGACY_ACHIEVED</zIndex>\n\t\t\t\t<iValue>6000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CLEARED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CARAVAN_ARRIVED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CAPITAL_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_FOUNDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_RECAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_LOST</zIndex>\n\t\t\t\t<iValue>-2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_COURTIER_ADDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_NAMED</zIndex>\n\t\t\t\t<iValue>300</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>\n\t\t\t\t<iValue>1500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RELIGION_SPREAD</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RUINS_EXPLORED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TECH_DISCOVERED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TILES_REVEALED</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_TRAINED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_PROMOTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_LOST</zIndex>\n\t\t\t\t<iValue>-200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WONDER_FINISHED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_YEARS_REIGNED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a145",
+      "apiName": "ACHIEVEMENT_COGNOMEN_INVINCIBLE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_INVINCIBLE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_INVINCIBLE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_INVINCIBLE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_INVINCIBLE</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_INVINCIBLE",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_INVINCIBLE</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_INVINCIBLE</GenderedName>\n\t\t<iLegitimacy>70</iLegitimacy>\n\t\t<iMinValue>7000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_INVINCIBLE</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_LOST</zIndex>\n\t\t\t\t<iValue>-200</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a070",
+      "apiName": "ACHIEVEMENT_COGNOMEN_GLORIOUS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_GLORIOUS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_GLORIOUS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_GLORIOUS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_GLORIOUS</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_GLORIOUS",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_GLORIOUS</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_GLORIOUS</GenderedName>\n\t\t<iLegitimacy>80</iLegitimacy>\n\t\t<iMinValue>80000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_GLORIOUS</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_AMBITION_ACHIEVED</zIndex>\n\t\t\t\t<iValue>12000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LEGACY_ACHIEVED</zIndex>\n\t\t\t\t<iValue>6000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CLEARED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CARAVAN_ARRIVED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CAPITAL_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_FOUNDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_RECAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_LOST</zIndex>\n\t\t\t\t<iValue>-2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_COURTIER_ADDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_NAMED</zIndex>\n\t\t\t\t<iValue>300</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>\n\t\t\t\t<iValue>1500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RELIGION_SPREAD</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RUINS_EXPLORED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TECH_DISCOVERED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TILES_REVEALED</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_TRAINED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_PROMOTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_LOST</zIndex>\n\t\t\t\t<iValue>-200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WONDER_FINISHED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_YEARS_REIGNED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a046",
+      "apiName": "ACHIEVEMENT_COGNOMEN_MAGNIFICENT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_MAGNIFICENT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_MAGNIFICENT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_MAGNIFICENT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_MAGNIFICENT</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_MAGNIFICENT",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_MAGNIFICENT</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_MAGNIFICENT</GenderedName>\n\t\t<iLegitimacy>90</iLegitimacy>\n\t\t<iMinValue>90000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_MAGNIFICENT</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_AMBITION_ACHIEVED</zIndex>\n\t\t\t\t<iValue>12000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LEGACY_ACHIEVED</zIndex>\n\t\t\t\t<iValue>6000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CLEARED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CARAVAN_ARRIVED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CAPITAL_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_FOUNDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_RECAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_LOST</zIndex>\n\t\t\t\t<iValue>-2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_COURTIER_ADDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_NAMED</zIndex>\n\t\t\t\t<iValue>300</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>\n\t\t\t\t<iValue>1500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RELIGION_SPREAD</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RUINS_EXPLORED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TECH_DISCOVERED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TILES_REVEALED</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_TRAINED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_PROMOTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_LOST</zIndex>\n\t\t\t\t<iValue>-200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WONDER_FINISHED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_YEARS_REIGNED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a045",
+      "apiName": "ACHIEVEMENT_COGNOMEN_GREAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COGNOMEN_GREAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COGNOMEN_GREAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COGNOMEN_GREAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COGNOMEN_GREAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/cognomen.xml",
+          "type": "COGNOMEN_GREAT",
+          "xml": "<Entry>\n\t\t<zType>COGNOMEN_GREAT</zType>\n\t\t<GenderedName>GENDERED_TEXT_COGNOMEN_GREAT</GenderedName>\n\t\t<iLegitimacy>100</iLegitimacy>\n\t\t<iMinValue>100000</iMinValue>\n\t\t<Achievement>ACHIEVEMENT_COGNOMEN_GREAT</Achievement>\n\t\t<aiStatValue>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_AMBITION_ACHIEVED</zIndex>\n\t\t\t\t<iValue>12000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LEGACY_ACHIEVED</zIndex>\n\t\t\t\t<iValue>6000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_CLEARED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TRIBE_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_CONTACTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_PEACE</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TEAM_ALLIANCE</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CARAVAN_ARRIVED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CAPITAL_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_FOUNDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_CAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_RECAPTURED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_LOST</zIndex>\n\t\t\t\t<iValue>-2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_COURTIER_ADDED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_FINISHED</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_IMPROVEMENT_REPAIRED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_NAMED</zIndex>\n\t\t\t\t<iValue>300</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_LANDMARK_DISCOVERED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WORLD_RELIGION_FOUNDED</zIndex>\n\t\t\t\t<iValue>1500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RELIGION_SPREAD</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_RUINS_EXPLORED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_SPECIALIST_PRODUCED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TECH_DISCOVERED</zIndex>\n\t\t\t\t<iValue>500</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_THEOLOGY_ESTABLISHED</zIndex>\n\t\t\t\t<iValue>1000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_TILES_REVEALED</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_TRAINED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_PROMOTED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_MILITARY_KILLED_GENERAL</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_UNIT_LOST</zIndex>\n\t\t\t\t<iValue>-200</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_WONDER_FINISHED</zIndex>\n\t\t\t\t<iValue>2000</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_YEARS_REIGNED</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiStatValue>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_THE_GREAT_AMBITION",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_THE_GREAT_AMBITION</zType>\n\t\t<Name>TEXT_EVENTSTORY_THE_GREAT_AMBITION_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_THE_GREAT_AMBITION</Text>\n\t\t<zAuthor>Soren Johnson</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_MAX_TWO_ACTIVE_AMBITIONS</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_NEW_AMBITION</zValue>\n\t\t\t<zValue>EVENTOPTION_NEW_AMBITION</zValue>\n\t\t\t<zValue>EVENTOPTION_NEW_AMBITION</zValue>\n\t\t\t<zValue>EVENTOPTION_NO_AMBITION</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_COGNOMEN</Trigger>\n\t\t<TriggerData>COGNOMEN_GREAT</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>0</iRepeatTurns>\n\t\t<bAllOptions>1</bAllOptions>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    }
+  ],
+  "note": "Automated source index; not a gameplay test or complete verification of tactics. Human findings are in the review.",
+  "sharedSourceSha256": {
+    "Reference/Source/Base/Game/GameCore/Game.cs": "6f53b000279d14a9abb58c40269880b2d6385416cf8e4915996957b4417b6367",
+    "Reference/Source/Base/Game/GameCore/Player.cs": "b163e9bab5e496ca787e40e332749e27652bd68abfb896eab6aa1b880b8d3cda",
+    "Reference/Source/Base/Game/GameCore/PlayerGoal.cs": "c54e7b03ec71f2a4d17744ba558f0dcbff51796c44a8af5dcdde6e0889dacd54",
+    "Reference/Source/Base/Game/GameCore/PlayerEvent.cs": "6be1751b6a8fb606088eb1ba812170b6522a539e062c67cbb0bc972be843e356",
+    "Reference/Source/Base/Game/GameCore/Unit.cs": "744b943df9241c05115f0d6cdd03eec7a7dd0784b0689abd85ad5480530d3ad2",
+    "Reference/Source/Base/Game/GameCore/City.cs": "7b1fb548257e66f5407d0f7cf5eb471f06a4bac64dc56d584192d230b5d7badd",
+    "Reference/Source/Base/Game/GameCore/Tile.cs": "08fd9e13065d2a3a1747e45f24d8be2268e68b0ed58ee21666162e654ad273c0",
+    "Reference/Source/Base/Game/GameCore/Character.cs": "0b7c05e8467b30b76b6cbf6ff0dd423d629d8fd75584cc678ea6b0dd1c818419"
+  },
+  "humanFindings": "cognomens-review.md"
+}

@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-26",
+  "count": 5,
+  "scope": "Learning and Horde guide corrections; RU and EN; no general Hotseat rule; preserves pre-existing edits",
+  "baselineSha256": {
+    "data/achievements.json": "566e7c53832e293c1e01a5ac2b8a1602b3b04ffb470025f913c96eb52eec5ffe",
+    "data/achievements.js": "aabb58d3303907c75f17b6ec8fbd1653f117763d717ebf34181649a2c8ccf4cd"
+  },
+  "changes": [
+    {
+      "id": "a124",
+      "name": "Учимся играть 5",
+      "summary": "Добавлен вариант завершения пятого обучения до полного уничтожения Рима; обычный выход через меню отделён от завершающего события.",
+      "fields": {
+        "guide": {
+          "before": "В меню обучения пройти сценарий «Обучение 5: Полемос» за Грецию. Нужно выполнить военную цепочку целей и завершить поход против Рима; достижение выдаётся при успешном окончании сценария.",
+          "after": "В группе «Учимся играть» пройти «Обучение 5: Полемос» за Грецию. Полное уничтожение Рима не обязательно: на завершающем этапе завоевания, когда у противника остаётся менее двух городов, событие «Конец заданий из серии „Учимся играть“!» предлагает закончить обучение или продолжить. Вариант «Закончить и вернуться в главное меню.» также выдаёт достижение."
+        },
+        "tactic": {
+          "before": "Последовательно подготовь требуемые войска, разведай римскую территорию и собери армию перед наступлением. Не атакуй города одиночными юнитами: сначала уничтожай защитников, затем окружай цель несколькими отрядами. Сохраняй подкрепления и приказы для финального завоевания Рима.",
+          "after": "Подготовь требуемые войска и выполняй военные учебные цели по порядку. Для зачёта можно выбрать завершение в предложенном событии либо продолжить завоевание Рима. Обычный выход через меню не заменяет вариант завершения обучения."
+        },
+        "englishGuide": {
+          "before": "Complete Tutorial 5: Polemos as Greece. Finish its military objective chain and the campaign against Rome; the achievement comes with successful scenario completion.",
+          "after": "Complete Tutorial 5: Polemos as Greece. Destroying Rome completely is optional: during the final conquest stage, when the opponent has fewer than two cities, a tutorial event offers to finish or continue. Choosing “Finish now and return to the Main Menu.” also awards the achievement."
+        },
+        "englishTactic": {
+          "before": "Train the requested troops, scout Roman territory, and assemble an army before advancing. Clear defenders before surrounding a city, and save reinforcements and Orders for the final conquest of Rome.",
+          "after": "Train the requested troops and follow the military tutorial objectives in order. Finish through the offered event or continue conquering Rome. Quitting through the normal menu does not replace the tutorial completion choice."
+        }
+      }
+    },
+    {
+      "id": "a250",
+      "name": "Орда варваров",
+      "summary": "Уточнён счётчик всех юнитов племени налётчиков; исправлен совет о 120 ходах и убрано обещание универсальной лёгкости организации «Разбросанные».",
+      "fields": {
+        "guide": {
+          "before": "Запустить отдельный сценарий «Орда варваров», пережить начало восстания и уничтожить всех появившихся налётчиков орды. Победа сценария и достижение срабатывают, когда счётчик оставшихся налётчиков опускается до нуля.",
+          "after": "Победить в отдельном сценарии «Орда варваров». После начала вторжения нужно уничтожить всех налётчиков: проверяется нулевое число юнитов племени налётчиков на всей карте. Уничтожение всех городов и отрядов остальных племён для этой проверки не требуется. Обычное нападение варваров в случайной партии не заменяет этот сценарий."
+        },
+        "tactic": {
+          "before": "Для первого прохождения выбери долгую подготовку — 120 ходов — и организацию племени «Разбросанные». До восстания развивай производство войск, укрепляй пограничные направления и держи мобильный резерв для поиска последних отрядов.",
+          "after": "До вторжения развивай производство армии и готовь оборону на нескольких направлениях; после основных боёв ищи оставшихся налётчиков мобильными отрядами. Подготовка на 120 ходов даёт больше времени на развитие, но увеличивает размер вторжения. Организация племён меняет их размещение; «Разбросанные» не подтверждены как универсально самый лёгкий вариант."
+        },
+        "englishGuide": {
+          "before": "Start the separate Barbarian Horde scenario, survive the uprising, and eliminate every Horde raider. The scenario victory and achievement trigger when the remaining-raider counter reaches zero.",
+          "after": "Win the separate Barbarian Horde scenario. After the invasion begins, eliminate every Raider: the game requires zero units belonging to the Raiders tribe anywhere on the map. Other tribes do not need to lose all their cities or units for this check. An ordinary barbarian attack in a random game does not replace the scenario."
+        },
+        "englishTactic": {
+          "before": "For a first attempt, choose 120 turns of preparation and the Scattered Tribe organization. Build military production, fortify likely approaches, and keep mobile troops to find the last raiders.",
+          "after": "Build military production and prepare defenses on several approaches before the invasion. Use mobile troops to find remaining Raiders afterward. Choosing 120 preparation turns gives more development time but also increases the invasion size. Tribal organization changes placement; Scattered has not been established as universally easiest."
+        }
+      }
+    },
+    {
+      "id": "a258",
+      "name": "Учимся играть 4 — Сильный",
+      "summary": "Указаны группа «Учебные партии», подзаголовок «Рим Могучий» и различие между термином игры и официальным названием Steam; уточнено отсутствие требования конкретного вида победы.",
+      "fields": {
+        "guide": {
+          "before": "В разделе сценариев выбрать «Учимся играть 4» за Рим на уровне сложности «Сильный» и завершить партию победой. Используется фиксированная средняя карта с лиственными лесами.",
+          "after": "В группе «Учебные партии» выбрать «Учимся играть 4», подзаголовок «Рим Могучий», и победить в этой фиксированной партии за Рим. В названии достижения Steam используется «Сильный», а в русской локализации игры соответствующий набор сложности называется «Могучий». Конкретный вид победы для достижения не задан."
+        },
+        "tactic": {
+          "before": "На этой сложности важен уверенный старт: используй леса как источник ресурсов, своевременно развивай военное производство и не растягивай армию по нескольким фронтам. Сначала обеспечь безопасные границы и устойчивую экономику, затем последовательно двигайся к одной выбранной победе.",
+          "after": "Заранее обеспечь военное производство и защиту направлений расширения. Не распыляй армию по нескольким фронтам. После укрепления экономики последовательно выполняй условия выбранной победы."
+        },
+        "englishGuide": {
+          "before": "Choose Learn By Playing 4 as Rome on Strong difficulty and win the game. This is a full game on a fixed medium deciduous-forest map, not a short Tutorial scenario.",
+          "after": "Win the fixed Learn By Playing 4 scenario as Rome on Strong difficulty. This is a full game in the Learn By Playing group, separate from Tutorial 4. No particular victory type is required."
+        },
+        "englishTactic": {
+          "before": "Use forests as a resource source, develop military production, and avoid spreading the army across several fronts. Secure borders and a stable economy before pursuing one victory.",
+          "after": "Prepare military production and defend your expansion routes. Avoid spreading the army across several fronts. Once the economy is stable, work steadily toward your chosen victory."
+        }
+      }
+    },
+    {
+      "id": "a316",
+      "name": "Вместе против орды",
+      "summary": "Разделены командное событие и отдельная выдача первому живому человеку; добавлен рост вторжения с числом участников и сохранён вопрос о зачёте всем слотам Hotseat.",
+      "fields": {
+        "guide": {
+          "before": "Победить в сценарии «Орда варваров» в многопользовательской партии: пережить восстание и совместно уничтожить всех налётчиков орды. Все участвующие люди должны играть в одной команде.",
+          "after": "Победить в многопользовательском сценарии «Орда варваров»: после начала вторжения уничтожить всех налётчиков на карте. Для совместного зачёта событие победы проверяет другого человека в той же команде. Помимо этого, игра отдельно запрашивает достижение для первого живого человеческого игрока; требование одной команды не является общим ограничением всех путей выдачи."
+        },
+        "tactic": {
+          "before": "Выбери долгую подготовку и заранее раздели обязанности: один игрок укрепляет фронт, второй развивает мобильные войска и помогает добивать разрозненные отряды. Победа наступает только после уничтожения последнего налётчика.",
+          "after": "Для совместного прохождения выберите сетевую партию с людьми в одной команде и распределите оборону и мобильные подкрепления. Размер вторжения растёт с числом участников, а долгая подготовка также увеличивает Орду. После победы проверьте зачёт у каждого участника: выдача всем слотам Hotseat пока не подтверждена игровой проверкой."
+        },
+        "englishGuide": {
+          "before": "Win the Barbarian Horde scenario in a multiplayer game: survive the uprising and jointly eliminate every Horde raider. All human participants must be on the same team.",
+          "after": "Win the multiplayer Barbarian Horde scenario by eliminating all Raiders on the map after the invasion starts. The shared victory event checks for another human on the same team. The game also separately requests the achievement for the first living human player, so a single shared team is not a universal restriction on every award path."
+        },
+        "englishTactic": {
+          "before": "Choose a long preparation period and divide responsibilities. One player can hold the front while another builds mobile forces to hunt stragglers. Victory comes only after the final raider dies.",
+          "after": "For a cooperative attempt, use a network game with humans on the same team and divide defense and mobile support duties. More participants increase the invasion size, and longer preparation also increases the Horde. Check each participant’s unlock after victory: awarding it to every Hotseat slot has not been confirmed by a gameplay test."
+        }
+      }
+    },
+    {
+      "id": "a353",
+      "name": "Великая орда варваров",
+      "summary": "Сохранены нижние границы «Великий»/«Яростные»; уточнён нулевой счётчик налётчиков и исправлены советы об облегчении настроек.",
+      "fields": {
+        "guide": {
+          "before": "Победить в сценарии «Орда варваров» при сложности не ниже «Великий» и уровне племён не ниже «Яростные»: пережить восстание и уничтожить всех налётчиков орды.",
+          "after": "Победить в сценарии «Орда варваров» при сложности не ниже «Великий» и уровне племён не ниже «Яростные». После начала вторжения число юнитов племени налётчиков на всей карте должно опуститься до нуля. Обе настройки проверяются как нижние границы; обычная случайная партия не заменяет сценарий."
+        },
+        "tactic": {
+          "before": "При настройке дважды проверь «Великий» и «Яростные». Остальные параметры можно облегчить: выбери долгую подготовку и «Разбросанную» организацию; заранее создай несколько укреплённых рубежей и большой резерв приказов.",
+          "after": "Перед стартом проверь «Великий» и «Яростные». Готовь несколько направлений обороны и резерв приказов. Подготовка на 120 ходов увеличивает и время на развитие, и размер вторжения; её нельзя считать безусловным облегчением. Организацию племён выбирай с учётом их размещения."
+        },
+        "englishGuide": {
+          "before": "Win the Barbarian Horde scenario on at least The Great difficulty and at least Raging Tribe level: survive the uprising and eliminate all Horde raiders.",
+          "after": "Win the Barbarian Horde scenario on at least The Great difficulty and at least Raging Tribe level. After the invasion begins, reduce the total number of Raiders tribe units on the map to zero. Both settings are minimum requirements; a normal random game does not replace the scenario."
+        },
+        "englishTactic": {
+          "before": "Double-check The Great and Raging in setup. You can ease other settings with long preparation and Scattered organization. Build fortified lines and save a large Orders reserve.",
+          "after": "Check The Great and Raging before starting. Prepare defenses on several approaches and keep an Orders reserve. Choosing 120 preparation turns increases both development time and invasion size, so it is not an unconditional reduction in difficulty. Choose tribal organization with placement in mind."
+        }
+      }
+    }
+  ]
+}
