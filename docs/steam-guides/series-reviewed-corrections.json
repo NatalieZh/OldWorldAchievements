@@ -1,0 +1,1124 @@
+{
+  "a079": {
+    "reason": "Исправлена механика двойной победы: очки, а не два разных условия.",
+    "fields": {
+      "guide": "Одержать двойную победу: набрать не меньше половины обычного целевого порога ОП и одновременно как минимум вдвое больше ОП, чем каждая другая живая команда. Этот тип победы должен быть включён; выполнение двух разных победных условий не требуется.",
+      "tactic": "Развивай города, повышай культуру и строй чудеса, следя одновременно за своим порогом и очками сильнейшего соперника. При росте его ОП порог двойной победы тоже растёт.",
+      "englishGuide": "Win a Double Victory: reach at least half the normal target VP and at least twice the VP of every other living team. Double Victory must be enabled; completing two different victory conditions is not required.",
+      "englishTactic": "Develop cities, raise Culture, and build Wonders while watching both your target and the strongest opponent’s VP. Their progress can raise your Double Victory target."
+    }
+  },
+  "a183": {
+    "reason": "Завоевание учитывает капитуляцию и союз; убрано слишком широкое исключение режима.",
+    "fields": {
+      "guide": "Одержать победу завоеванием: остальные команды должны быть уничтожены или капитулировать. При включённой победе союза живая союзная команда также не препятствует этому условию. Племена не считаются отдельными командами держав.",
+      "tactic": "Сосредоточься на городах и армиях оставшихся противников; при доступной капитуляции проверь, позволяет ли она завершить войну и выполнить условие. Племенные лагеря сами по себе не мешают победе.",
+      "englishGuide": "Win a Conquest Victory: other teams must be eliminated or have surrendered. When Alliance Victory is enabled, a living allied team also does not block this condition. Tribes are not nation teams.",
+      "englishTactic": "Focus on the remaining opponents’ cities and armies. If surrender is available, check whether accepting it completes the victory condition. Tribal camps alone do not block Conquest Victory."
+    }
+  },
+  "a291": {
+    "reason": "Проверка времени допускает равенство ОП; не обещается уникальный лидер при ничьей.",
+    "fields": {
+      "guide": "При включённой победе по времени дойти до 200-го хода и иметь не меньше ОП, чем любая другая команда. Проверка допускает равенство, но порядок выбора победителя при ничьей здесь не установлен. Для надёжного результата выйди вперёд по очкам.",
+      "tactic": "До последнего хода создай запас ОП над ближайшим соперником. Учитывай более ранние победы по очкам, амбициям и двойную победу: они могут закончить партию до проверки времени.",
+      "englishGuide": "With Time Victory enabled, reach turn 200 with at least as many VP as every other team. The check allows a tie, but the winner-selection order in a tie is not established here. Take a clear lead for a reliable result.",
+      "englishTactic": "Build a VP lead before the final turn. Earlier Points, Ambition, or Double Victories can end the game before the Time Victory check."
+    }
+  },
+  "a168": {
+    "reason": "Термин сложности сверён с русской локализацией. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "Одержать победу в партии на уровне сложности «Могучий» или выше. Подходит любой включённый тип победы; победа на более высокой сложности одновременно засчитывает достижения всех пройденных нижних уровней. Официальное название достижения Steam использует «Сильный».",
+      "englishGuide": "Win a game on the Strong difficulty or higher. Any enabled victory type counts; winning on a higher level also awards the achievements for lower levels.",
+      "condition": "Победить на уровне сложности «Сильный»"
+    }
+  },
+  "a294": {
+    "reason": "Считаются текущие семьи при победе, не неизменная история основания.",
+    "fields": {
+      "guide": "Победить, имея действующую семью класса «Всадники» и не больше одной текущей семьи. Проверка выполняется при победе и считает текущие семьи; отдельного запрета когда-либо основывать вторую семью в записи нет.",
+      "tactic": "Начни с семьи класса «Всадники» и доведи партию до победы с одной действующей семьёй. Не рассчитывай на исчезновение лишних семей без отдельной проверки выбранного способа.",
+      "englishGuide": "Win with an active Riders family and no more than one current family. The victory check counts current families; the achievement record does not separately forbid ever founding a second family.",
+      "englishTactic": "Start with a Riders family and finish the game with one active family. Do not rely on removing extra families without checking the chosen method."
+    }
+  },
+  "a218": {
+    "reason": "Для Hotseat требуется многопользовательский признак: минимум два человеческих слота.",
+    "fields": {
+      "guide": "Начать партию в Hotseat как минимум с двумя человеческими слотами. Для этой проверки Hotseat с одним человеком и ИИ считается одиночной игрой и не подходит. Доигрывать или побеждать не требуется.",
+      "tactic": "Перед стартом назначь людьми минимум две стороны. Одного выбора пункта Hotseat с одним человеческим слотом недостаточно.",
+      "englishGuide": "Start a game in Hotseat with at least two human slots. For this check, Hotseat with one human and AI players counts as single-player and does not qualify. Finishing or winning is not required.",
+      "englishTactic": "Assign at least two sides to humans before starting. Selecting Hotseat with only one human slot is insufficient."
+    }
+  },
+  "a349": {
+    "reason": "Для Hotseat требуется многопользовательский признак: минимум два человеческих слота.",
+    "fields": {
+      "guide": "Победить в Hotseat как минимум с двумя человеческими слотами. Для этой проверки Hotseat с одним человеком и ИИ считается одиночной игрой и не подходит. Засчитывается победа доступного типа.",
+      "tactic": "Перед стартом назначь людьми минимум две стороны. Одного выбора пункта Hotseat с одним человеческим слотом недостаточно.",
+      "englishGuide": "Win in Hotseat with at least two human slots. For this check, Hotseat with one human and AI players counts as single-player and does not qualify. Any available victory type can count.",
+      "englishTactic": "Assign at least two sides to humans before starting. Selecting Hotseat with only one human slot is insufficient."
+    }
+  },
+  "a193": {
+    "reason": "Уточнён признак соревновательного мультиплеера; исправлено обещание дуэли против ИИ.",
+    "fields": {
+      "guide": "Начать партию в соревновательной многопользовательской дуэли ровно с двумя сторонами. Нужны люди в разных командах; Hotseat с одним человеком и ИИ не проходит проверку соревновательного мультиплеера.",
+      "tactic": "Для этой цели удобно выбрать сетевую партию с людьми в разных командах. Достижение проверяется при старте, завершать партию не требуется.",
+      "englishGuide": "Start a competitive multiplayer game with exactly two players. Humans must be on opposing teams; Hotseat with one human and AI does not pass the competitive multiplayer check.",
+      "englishTactic": "Use a network game with humans on opposing teams. The achievement is checked at the start; finishing is unnecessary."
+    }
+  },
+  "a348": {
+    "reason": "Уточнён признак соревновательного мультиплеера; исправлено обещание дуэли против ИИ.",
+    "fields": {
+      "guide": "Победить в соревновательной многопользовательской дуэли ровно с двумя сторонами. Нужны люди в разных командах; Hotseat с одним человеком и ИИ не проходит проверку соревновательного мультиплеера.",
+      "tactic": "Для этой цели удобно выбрать сетевую партию с людьми в разных командах. Доведи её до победы.",
+      "englishGuide": "Win a competitive multiplayer game with exactly two players. Humans must be on opposing teams; Hotseat with one human and AI does not pass the competitive multiplayer check.",
+      "englishTactic": "Use a network game with humans on opposing teams. Finish with a victory."
+    }
+  },
+  "a157": {
+    "reason": "Уточнён признак соревновательного мультиплеера; исправлено обещание дуэли против ИИ.",
+    "fields": {
+      "guide": "Начать партию в соревновательной многопользовательской партии с тремя или более сторонами, каждая в отдельной команде. Нужны люди в разных командах; Hotseat с одним человеком и ИИ не проходит проверку соревновательного мультиплеера.",
+      "tactic": "Для этой цели удобно выбрать сетевую партию с людьми в разных командах. Достижение проверяется при старте, завершать партию не требуется.",
+      "englishGuide": "Start a competitive multiplayer game with at least three players, each on a separate team. Humans must be on opposing teams; Hotseat with one human and AI does not pass the competitive multiplayer check.",
+      "englishTactic": "Use a network game with humans on opposing teams. The achievement is checked at the start; finishing is unnecessary."
+    }
+  },
+  "a292": {
+    "reason": "Уточнён признак соревновательного мультиплеера; исправлено обещание дуэли против ИИ. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "Победить в соревновательной многопользовательской партии с тремя или более сторонами, каждая в отдельной команде. Нужны люди в разных командах; Hotseat с одним человеком и ИИ не проходит проверку соревновательного мультиплеера.",
+      "tactic": "Для этой цели удобно выбрать сетевую партию с людьми в разных командах. Доведи её до победы.",
+      "englishGuide": "Win a competitive multiplayer game with at least three players, each on a separate team. Humans must be on opposing teams; Hotseat with one human and AI does not pass the competitive multiplayer check.",
+      "englishTactic": "Use a network game with humans on opposing teams. Finish with a victory.",
+      "name": "Победить в режиме «Каждый за себя» ({>2 игрока)"
+    }
+  },
+  "a169": {
+    "reason": "У командной игры есть численный фильтр: команд не больше половины числа игроков.",
+    "fields": {
+      "guide": "Начать партию в многопользовательской командной игре. Число команд должно быть не больше целой половины числа игроков: например, две команды при четырёх игроках. Проверка не сводится к наличию хотя бы одной пары союзников.",
+      "tactic": "Для понятной настройки выбери две команды по два участника. Зачёт проверяется при начале партии.",
+      "englishGuide": "Start a multiplayer team game. The number of teams must not exceed half the player count, rounded down: for example, two teams with four players. Merely having one allied pair is insufficient.",
+      "englishTactic": "Use two teams of two participants for a straightforward setup. Credit is checked when the game starts."
+    }
+  },
+  "a268": {
+    "reason": "У командной игры есть численный фильтр: команд не больше половины числа игроков.",
+    "fields": {
+      "guide": "Победить в многопользовательской командной игре. Число команд должно быть не больше целой половины числа игроков: например, две команды при четырёх игроках. Проверка не сводится к наличию хотя бы одной пары союзников.",
+      "tactic": "Для понятной настройки выбери две команды по два участника. Доведи свою команду до победы.",
+      "englishGuide": "Win a multiplayer team game. The number of teams must not exceed half the player count, rounded down: for example, two teams with four players. Merely having one allied pair is insufficient.",
+      "englishTactic": "Use two teams of two participants for a straightforward setup. Lead your team to victory."
+    }
+  },
+  "a252": {
+    "reason": "Эпический ранг требует 12 выполненных целей, а не неопределённого «все». Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В сценарии 1 Карфагенской кампании выполнить не меньше 12 сценарных целей и получить эпическую победу. Вместе с ней код выдаёт достижения за бронзовый, серебряный и золотой ранги этого сценария.",
+      "tactic": "Перед завершением сценария проверь счётчик выполненных целей. Сохраняйся перед необратимыми решениями и не принимай более раннее завершение, если ещё добираешь 12 целей.",
+      "englishGuide": "Complete at least 12 scenario goals in Carthage scenario 1 and achieve an Epic Victory. The code also awards that scenario’s Bronze, Silver, and Gold achievements.",
+      "englishTactic": "Check the completed-goal counter before ending the scenario. Save before irreversible decisions and avoid an earlier ending while still working toward 12 goals.",
+      "condition": "Одержать эпическую победу в 1-м сценарии Карфагена"
+    }
+  },
+  "a253": {
+    "reason": "Эпический ранг требует 12 выполненных целей, а не неопределённого «все». Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В сценарии 2 Карфагенской кампании выполнить не меньше 12 сценарных целей и получить эпическую победу. Вместе с ней код выдаёт достижения за бронзовый, серебряный и золотой ранги этого сценария.",
+      "tactic": "Перед завершением сценария проверь счётчик выполненных целей. Сохраняйся перед необратимыми решениями и не принимай более раннее завершение, если ещё добираешь 12 целей.",
+      "englishGuide": "Complete at least 12 scenario goals in Carthage scenario 2 and achieve an Epic Victory. The code also awards that scenario’s Bronze, Silver, and Gold achievements.",
+      "englishTactic": "Check the completed-goal counter before ending the scenario. Save before irreversible decisions and avoid an earlier ending while still working toward 12 goals.",
+      "condition": "Одержать эпическую победу во 2-м сценарии Карфагена"
+    }
+  },
+  "a296": {
+    "reason": "Эпический ранг требует 12 выполненных целей, а не неопределённого «все». Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В сценарии 3 Карфагенской кампании выполнить не меньше 12 сценарных целей и получить эпическую победу. Вместе с ней код выдаёт достижения за бронзовый, серебряный и золотой ранги этого сценария.",
+      "tactic": "Перед завершением сценария проверь счётчик выполненных целей. Сохраняйся перед необратимыми решениями и не принимай более раннее завершение, если ещё добираешь 12 целей.",
+      "englishGuide": "Complete at least 12 scenario goals in Carthage scenario 3 and achieve an Epic Victory. The code also awards that scenario’s Bronze, Silver, and Gold achievements.",
+      "englishTactic": "Check the completed-goal counter before ending the scenario. Save before irreversible decisions and avoid an earlier ending while still working toward 12 goals.",
+      "condition": "Одержать эпическую победу в 3-м сценарии Карфагена"
+    }
+  },
+  "a297": {
+    "reason": "Эпический ранг требует 12 выполненных целей, а не неопределённого «все». Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В сценарии 4 Карфагенской кампании выполнить не меньше 12 сценарных целей и получить эпическую победу. Вместе с ней код выдаёт достижения за бронзовый, серебряный и золотой ранги этого сценария.",
+      "tactic": "Перед завершением сценария проверь счётчик выполненных целей. Сохраняйся перед необратимыми решениями и не принимай более раннее завершение, если ещё добираешь 12 целей.",
+      "englishGuide": "Complete at least 12 scenario goals in Carthage scenario 4 and achieve an Epic Victory. The code also awards that scenario’s Bronze, Silver, and Gold achievements.",
+      "englishTactic": "Check the completed-goal counter before ending the scenario. Save before irreversible decisions and avoid an earlier ending while still working toward 12 goals.",
+      "condition": "Одержать эпическую победу в 4-м сценарии Карфагена"
+    }
+  },
+  "a266": {
+    "reason": "Достижение кампании входит в награды четвёртого сценария; отдельного пересчёта четырёх побед в выдаче нет. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "Завершить четвёртый сценарий Карфагенской кампании победой. Достижение включено в список наград этого финального сценария; обычный путь — последовательно пройти все четыре главы. Отдельная проверка четырёх предыдущих побед в самом вызове выдачи не задана.",
+      "tactic": "Проходи кампанию по порядку и сохрани финальную партию перед её завершением. Эпический ранг для достижения кампании не требуется.",
+      "englishGuide": "Finish the fourth Carthage scenario with a victory. The achievement is included in that final scenario’s award list; the normal route is to play all four chapters in order. The award call itself does not separately recount four prior wins.",
+      "englishTactic": "Play the campaign in order and keep a save before the final scenario ends. Epic rank is not required for the campaign achievement.",
+      "condition": "Пройти кампанию Карфагена "
+    }
+  },
+  "a279": {
+    "reason": "Ранги корон Филиппа сверены с Greece3Game.doVictoryLevel; брак и Олимпиада в этот счётчик не входят. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В третьем сценарии «Героев Эгейи» победить в сценарии, чтобы получить бронзовую корону Филиппа. Ранги накопительные: более высокий результат выдаёт также нижние достижения. Брак с фессалийкой и Олимпийские игры не являются тремя критериями этого счётчика.",
+      "tactic": "Перед завершением основной цепочки проверь выполненные цели Спарты и Иллирии и состояние фракийского племени. Не подменяй цель занятия Иллирии отдельной целью её окончательной зачистки.",
+      "englishGuide": "In Heroes of the Aegean scenario 3, win the scenario to earn this crown. Higher ranks also award lower-rank achievements. The Thessalian marriage and Olympic Games are not criteria in this rank counter.",
+      "englishTactic": "Before finishing the main story, check the Sparta and Illyria goals and whether the Thracian tribe has been eliminated. The Take Illyria goal is distinct from its later final-clearance goal.",
+      "condition": "Достичь основных целей победы, играя за Филиппа (Герои Эгейи 3)"
+    }
+  },
+  "a280": {
+    "reason": "Ранги корон Филиппа сверены с Greece3Game.doVictoryLevel; брак и Олимпиада в этот счётчик не входят. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В третьем сценарии «Героев Эгейи» победить и выполнить хотя бы одно из трёх условий: завершить цель подчинения Спарты, завершить цель занятия Иллирии или уничтожить фракийское племя, чтобы получить серебряную корону Филиппа. Ранги накопительные: более высокий результат выдаёт также нижние достижения. Брак с фессалийкой и Олимпийские игры не являются тремя критериями этого счётчика.",
+      "tactic": "Перед завершением основной цепочки проверь выполненные цели Спарты и Иллирии и состояние фракийского племени. Не подменяй цель занятия Иллирии отдельной целью её окончательной зачистки.",
+      "englishGuide": "In Heroes of the Aegean scenario 3, win and meet at least one of three conditions: finish the Dominate Sparta goal, finish the Take Illyria goal, or eliminate the Thracian tribe to earn this crown. Higher ranks also award lower-rank achievements. The Thessalian marriage and Olympic Games are not criteria in this rank counter.",
+      "englishTactic": "Before finishing the main story, check the Sparta and Illyria goals and whether the Thracian tribe has been eliminated. The Take Illyria goal is distinct from its later final-clearance goal.",
+      "condition": "Достичь двух необязательных целей победы, играя за Филиппа (Герои Эгейи 3)"
+    }
+  },
+  "a306": {
+    "reason": "Ранги корон Филиппа сверены с Greece3Game.doVictoryLevel; брак и Олимпиада в этот счётчик не входят. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В третьем сценарии «Героев Эгейи» победить и выполнить хотя бы два из трёх условий: завершить цель подчинения Спарты, завершить цель занятия Иллирии или уничтожить фракийское племя, чтобы получить золотую корону Филиппа. Ранги накопительные: более высокий результат выдаёт также нижние достижения. Брак с фессалийкой и Олимпийские игры не являются тремя критериями этого счётчика.",
+      "tactic": "Перед завершением основной цепочки проверь выполненные цели Спарты и Иллирии и состояние фракийского племени. Не подменяй цель занятия Иллирии отдельной целью её окончательной зачистки.",
+      "englishGuide": "In Heroes of the Aegean scenario 3, win and meet at least two of three conditions: finish the Dominate Sparta goal, finish the Take Illyria goal, or eliminate the Thracian tribe to earn this crown. Higher ranks also award lower-rank achievements. The Thessalian marriage and Olympic Games are not criteria in this rank counter.",
+      "englishTactic": "Before finishing the main story, check the Sparta and Illyria goals and whether the Thracian tribe has been eliminated. The Take Illyria goal is distinct from its later final-clearance goal.",
+      "condition": "Достичь всех необязательных целей победы, играя за Филиппа (Герои Эгейи 3)"
+    }
+  },
+  "a257": {
+    "reason": "Проверяются ID двух городов и владение; переименование не является условием. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В третьем сценарии «Героев Эгейи» владеть обоими фракийскими городами Крениды и Эвмолпия. Проверка выполняется в начале хода по двум заданным городам; отдельного требования переименовать их нет.",
+      "tactic": "Захвати и удержи оба города до начала следующего хода. Ручное переименование другого города не заменяет владение нужными городами.",
+      "englishGuide": "Own both Thracian cities, Krenides and Eumolpias, in Heroes of the Aegean scenario 3. The new-turn check uses two fixed city IDs; renaming is not a separate requirement.",
+      "englishTactic": "Capture and hold both cities until the next turn starts. Renaming another city cannot replace owning the required cities.",
+      "condition": "Назвать два города в свою честь (Герои Эгейи 3)"
+    }
+  },
+  "a243": {
+    "reason": "Достижение привязано к завершению цели Олимпийских игр, без отдельной проверки победы в скачках. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В третьем сценарии «Героев Эгейи» завершить цель «Провести Олимпийские игры». Её XML требует один проект Олимпийских игр; завершение цели запускает выдачу достижения. Отдельная проверка победы в скачках в этом источнике не задана.",
+      "tactic": "Выполни доступную цель и проект до завершения сценария. Ориентируйся на отметку выполнения цели, а не на исход отдельного состязания.",
+      "englishGuide": "Complete the Hold Olympic Games goal in Heroes of the Aegean scenario 3. Its XML requires one Olympics project; finishing the goal triggers the achievement. This award source has no separate horse-race victory check.",
+      "englishTactic": "Complete the available goal and project before the scenario ends. Follow the goal-completion mark rather than a separate contest result.",
+      "condition": "Выиграть олимпийские скачки (Герои Эгейи 3)"
+    }
+  },
+  "a338": {
+    "reason": "Исправлена включительная граница срока: 60-й ход подходит. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "Победить в пятом сценарии «Героев Эгейи» не позднее 60-го хода включительно. Дополнительная черта фараона для этого среднего ранга не требуется.",
+      "tactic": "Планируй захват ключевых городов так, чтобы победная проверка произошла на ходу 60 или раньше; не расходуй весь запас времени на необязательные ветки.",
+      "englishGuide": "Win Heroes of the Aegean scenario 5 on turn 60 or earlier, inclusive. The Pharaoh trait is not required for this middle rank.",
+      "englishTactic": "Plan key-city captures so the victory check happens by turn 60. Avoid spending the entire time margin on optional branches.",
+      "condition": "Победить Персидскую империю менее чем за 60 ходов (Герои Эгейи 5)"
+    }
+  },
+  "a390": {
+    "reason": "Исправлена включительная граница срока: победить до конца 50-го хода с чертой фараона. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "Победить в пятом сценарии «Героев Эгейи» не позднее 50-го хода включительно, причём у Александра к проверке должна быть черта фараона, получаемая через Сиву. Одного посещения Сивы до этого срока недостаточно: в него должна уложиться сама победа.",
+      "tactic": "Совмести египетскую ветку с быстрым завершением похода. Проверь наличие черты до финальной победы; 50-й ход ещё входит в допустимый срок.",
+      "englishGuide": "Win Heroes of the Aegean scenario 5 on turn 50 or earlier, inclusive, with Alexander bearing the Pharaoh trait obtained through Siwa. Visiting Siwa by the deadline alone is insufficient: the victory itself must occur by then.",
+      "englishTactic": "Combine the Egyptian branch with a fast campaign finish. Check the trait before the final victory; turn 50 is still within the deadline.",
+      "condition": "Победить Персидскую империю и стать фараоном менее чем за 50 ходов (Герои Эгейи 5)"
+    }
+  },
+  "a282": {
+    "reason": "Награда выдана бонусом события Гордиона до выбора ответа; разрубание не отдельный фильтр. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В пятом сценарии «Героев Эгейи» дойти до события о Гордиевом узле при владении Гордионом. Достижение находится в общем бонусе самого события; отдельного требования выбрать ответ о разрубании узла в выдаче нет.",
+      "tactic": "Возьми Гордион и дождись соответствующего события в начале хода. Не путай сюжетный вариант ответа с отдельным условием выдачи.",
+      "englishGuide": "Reach the Gordian Knot event while owning Gordium in Heroes of the Aegean scenario 5. The achievement belongs to the event’s shared bonus; choosing an answer about cutting the knot is not a separate award requirement.",
+      "englishTactic": "Take Gordium and wait for the associated new-turn event. A story response is distinct from a separate achievement requirement.",
+      "condition": "Разрубить Гордиев узел (Герои Эгейи 5)"
+    }
+  },
+  "a234": {
+    "reason": "Крупная победа тоже выдаёт обычное достижение. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В первом сценарии «Фараонов Нила» получить обычную или крупную победу. Обычная возможна после изгнания гиксосов при выполнении одной из двух последующих целей: быстрого захвата Бухена либо разгрома Кермы. Крупная победа требует обе цели и также выдаёт это достижение.",
+      "tactic": "Выполни цель гиксосов в её срок, затем обеспечь хотя бы одну успешную южную цель. Для обеих победных наград выполни и Бухен, и Керму.",
+      "englishGuide": "Earn a Minor or Major Victory in Pharaohs of the Nile scenario 1. After defeating the Hyksos, a Minor Victory is possible by completing either the rapid Buhen capture or the Kerma defeat goal. A Major Victory requires both and also awards this achievement.",
+      "englishTactic": "Complete the Hyksos goal within its deadline, then secure at least one successful southern goal. Complete both Buhen and Kerma for both victory awards.",
+      "condition": "Одержите обычную победу (Египет, сценарий 1)"
+    }
+  },
+  "a240": {
+    "reason": "Награда Бухена вызывается при победном результате, а не немедленно при занятии клетки. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В первом сценарии «Фараонов Нила» успешно завершить цель быстрого захвата Бухена и довести сценарий до победного результата с выполненной этой целью. Выдача вызывается вместе с обычной либо крупной победой, а не просто в момент занятия города.",
+      "tactic": "После гиксосов сосредоточь силы на быстром захвате Бухена. Сохрани успешную цель и продолжай до заключительного события сценария.",
+      "englishGuide": "Complete the rapid capture of Buhen goal in Pharaohs of the Nile scenario 1, then reach a victory outcome with that goal completed. The achievement is awarded with a Minor or Major Victory rather than merely upon occupying the city.",
+      "englishTactic": "After defeating the Hyksos, concentrate on taking Buhen quickly. Preserve the completed goal and continue to the scenario’s concluding event.",
+      "condition": "Быстро захватите Бухен (Египет, сценарий 1)"
+    }
+  },
+  "a363": {
+    "reason": "Обычное поражение также выдаётся вложенно при крупном. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В первом сценарии «Фараонов Нила» получить обычное или крупное поражение. Обычный поздний путь — успешно изгнать гиксосов, затем провалить и цель Бухена, и цель Кермы. Крупное поражение также вызывает выдачу этой награды.",
+      "tactic": "Для отдельной попытки сохранись после изгнания гиксосов и пропусти обе южные цели. Если Бухен выполнен, один провал Кермы вместо поражения может дать обычную победу.",
+      "englishGuide": "Receive a Minor or Major Defeat in Pharaohs of the Nile scenario 1. The later Minor Defeat route is to defeat the Hyksos, then fail both the Buhen and Kerma goals. A Major Defeat also awards this achievement.",
+      "englishTactic": "For a separate attempt, save after defeating the Hyksos and fail both southern goals. If Buhen is completed, failing Kerma alone can instead produce a Minor Victory.",
+      "condition": "Потерпите неудачу при захвате Та-шемау (Египет, сценарий 1)"
+    }
+  },
+  "a364": {
+    "reason": "Крупное поражение второй главы требует провала всех пяти базовых направлений. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "Во втором сценарии «Фараонов Нила» к итоговой проверке после лимита ходов не завершить ни одну из пяти базовых целей: заупокойный храм, четыре сооружения Карнака, шесть распространений религии, пять караванов и уничтожение гиксосов. Код требует отсутствие всех пяти отметок выполнения.",
+      "tactic": "Используй отдельное сохранение для поражения и следи, чтобы ни одна базовая цель не выполнилась случайно. Частичный успех ведёт к обычному поражению вместо этого исхода.",
+      "englishGuide": "At the final check after the turn limit in Pharaohs of the Nile scenario 2, have none of the five basic goals completed: the mortuary, four Karnak structures, six religion spreads, five caravans, and defeating the Hyksos. The code requires all five completion marks to be absent.",
+      "englishTactic": "Use a separate defeat save and avoid accidentally completing any basic goal. Partial success leads to Minor Defeat instead.",
+      "condition": "Потерпите неудачу в достижении Золотого века Египта (Египет, сценарий 2)"
+    }
+  },
+  "a302": {
+    "reason": "Обычная победа Эхнатона требует превосходства по городам после всех пяти целей. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В третьем сценарии «Фараонов Нила» к финальной проверке завершить все пять религиозных целей и иметь больше городов, чем сторона культа Амона. Полное уничтожение этой стороны до лимита даёт крупную победу и также выдаёт обычное достижение.",
+      "tactic": "Выполни последовательные цели реформ в срок и следи за числом городов обеих сторон. Равенства городов для обычной победы недостаточно.",
+      "englishGuide": "At the final check in Pharaohs of the Nile scenario 3, complete all five religious goals and own more cities than the Amun side. Eliminating that side before the limit gives a Major Victory and also awards this achievement.",
+      "englishTactic": "Complete the reform goals within their individual deadlines and watch both sides’ city counts. A tie in cities is insufficient for a Minor Victory.",
+      "condition": "Одержите обычную победу (Египет, сценарий 3)"
+    }
+  },
+  "a369": {
+    "reason": "Уточнены городское превосходство и накопительная выдача на сложности «Фараон». Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "На сложности «Фараон» получить обычную или крупную победу в третьем сценарии. Для обычной к итоговой проверке нужны все пять религиозных целей и больше городов, чем у культа Амона; крупная также выдаёт эту награду.",
+      "tactic": "До финала проверь обе вещи: завершение целей и превосходство по городам. Одного принятия культа Атона недостаточно.",
+      "englishGuide": "Earn a Minor or Major Victory on Pharaoh difficulty in scenario 3. A Minor Victory requires all five religious goals and more cities than the Amun side at the final check; a Major Victory also awards this achievement.",
+      "englishTactic": "Before the finale, check both goal completion and your city lead. Adopting Aten alone is insufficient.",
+      "condition": "Одержите обычную победу на «Фараоне» (Египет, сценарий 3)"
+    }
+  },
+  "a367": {
+    "reason": "Разделены два источника обычного поражения и вложенная выдача крупного. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В третьем сценарии «Фараонов Нила» получить обычное или крупное поражение. При всех пяти выполненных религиозных целях, но без превосходства по городам над культом Амона к финалу получается обычное поражение. Если к окончательной проверке не выполнена хотя бы одна из пяти целей, вызывается крупное поражение, которое также выдаёт эту награду.",
+      "tactic": "Для позднего обычного поражения закончи реформы, но не выходи вперёд по городам. Для крупного используй отдельную попытку с незавершённой обязательной целью.",
+      "englishGuide": "Receive a Minor or Major Defeat in Pharaohs of the Nile scenario 3. Completing all five religious goals without leading the Amun side in cities at the finale produces Minor Defeat. Missing any of the five at the final check produces Major Defeat, which also awards this achievement.",
+      "englishTactic": "For the later Minor Defeat, finish the reforms without taking the city lead. For Major Defeat, use a separate attempt with an unfinished required goal.",
+      "condition": "Потерпите неудачу при установлении культа Атона (Египет, сценарий 3)"
+    }
+  },
+  "a325": {
+    "reason": "Достаточно одной незавершённой обязательной цели при финальной проверке. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В третьем сценарии «Фараонов Нила» к итоговой проверке после лимита ходов оставить незавершённой хотя бы одну из пяти обязательных целей: Ахетатен, храм Атона, распространение религии, «Монотеизм» или государственная религия. Не требуется провалить несколько целей одновременно.",
+      "tactic": "Планируй отдельную попытку поражения и оставь одну обязательную цель невыполненной. Дождись сценарного исхода; простой выход из партии не подходит.",
+      "englishGuide": "At the final check after the turn limit in Pharaohs of the Nile scenario 3, leave at least one of the five required goals unfinished: Akhetaten, Aten’s temple, religion spread, Monotheism, or the state religion. Failing multiple goals is unnecessary.",
+      "englishTactic": "Use a separate defeat attempt and leave one required goal unfinished. Wait for the scenario outcome; quitting the game does not count.",
+      "condition": "Потерпите неудачу в достижении целей Эхнатона (Египет, сценарий 3)"
+    }
+  },
+  "a327": {
+    "reason": "При Кадеше крупная победа включает обычную; отношение считается по всем юнитам сторон. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В четвёртом сценарии «Фараонов Нила» получить обычную или крупную победу за Египет. При проверке соотношения численности целочисленный показатель 100 × число египетских юнитов / число хеттских должен превысить 200. Египетский отряд в Кадеше повышает такой результат до крупной победы, которая также выдаёт обычную награду.",
+      "tactic": "Сохраняй свои отряды и сокращай число хеттских, обеспечив запас сверх соотношения два к одному. Для совмещения наград держи египетский отряд в Кадеше к победной проверке.",
+      "englishGuide": "Earn a Minor or Major Victory for Egypt in scenario 4. In the unit-ratio check, the integer value 100 × Egyptian unit count / Hittite unit count must exceed 200. An Egyptian unit at Qadesh upgrades that outcome to Major Victory, which also awards the Minor achievement.",
+      "englishTactic": "Preserve your units and reduce Hittite numbers, leaving a margin beyond two to one. Hold Qadesh with an Egyptian unit at the victory check to combine the awards.",
+      "condition": "Одержите обычную победу в битве при Кадеше (Египет, сценарий 4)"
+    }
+  },
+  "a374": {
+    "reason": "При Кадеше крупная победа включает обычную; отношение считается по всем юнитам сторон. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "На сложности «Фараон» в четвёртом сценарии «Фараонов Нила» получить обычную или крупную победу за Египет. При проверке соотношения численности целочисленный показатель 100 × число египетских юнитов / число хеттских должен превысить 200. Египетский отряд в Кадеше повышает такой результат до крупной победы, которая также выдаёт обычную награду.",
+      "tactic": "Сохраняй свои отряды и сокращай число хеттских, обеспечив запас сверх соотношения два к одному. Для совмещения наград держи египетский отряд в Кадеше к победной проверке.",
+      "englishGuide": "On Pharaoh difficulty, earn a Minor or Major Victory for Egypt in scenario 4. In the unit-ratio check, the integer value 100 × Egyptian unit count / Hittite unit count must exceed 200. An Egyptian unit at Qadesh upgrades that outcome to Major Victory, which also awards the Minor achievement.",
+      "englishTactic": "Preserve your units and reduce Hittite numbers, leaving a margin beyond two to one. Hold Qadesh with an Egyptian unit at the victory check to combine the awards.",
+      "condition": "Одержите обычную победу в битве при Кадеше на «Фараоне» (Египет, сценарий 4)"
+    }
+  },
+  "a326": {
+    "reason": "Уточнены строгая целочисленная граница и египетское занятие Кадеша. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В одиночном четвёртом сценарии получить крупную победу за Египет: довести целочисленное отношение 100 × свои юниты / хеттские юниты выше 200 и иметь египетский отряд на клетке Кадеша при проверке. Результат два к одному без превышения границы недостаточен.",
+      "tactic": "Перед последними добиваниями займи Кадеш своим отрядом и держи его там. Добейся заметного преимущества в числе юнитов, а не точного равенства порогу.",
+      "englishGuide": "Earn a Major Victory for Egypt in single-player scenario 4: raise the integer ratio 100 × Egyptian units / Hittite units above 200 and have an Egyptian unit on Qadesh at the check. Exactly two to one does not exceed the threshold.",
+      "englishTactic": "Occupy Qadesh with an Egyptian unit before the final kills and keep it there. Build a clear unit-count advantage rather than stopping exactly at the threshold.",
+      "condition": "Одержите крупную победу в битве при Кадеше (Египет, сценарий 4)"
+    }
+  },
+  "a373": {
+    "reason": "Уточнены строгая целочисленная граница и египетское занятие Кадеша. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "На сложности «Фараон» в одиночном четвёртом сценарии получить крупную победу за Египет: довести целочисленное отношение 100 × свои юниты / хеттские юниты выше 200 и иметь египетский отряд на клетке Кадеша при проверке. Результат два к одному без превышения границы недостаточен.",
+      "tactic": "Перед последними добиваниями займи Кадеш своим отрядом и держи его там. Добейся заметного преимущества в числе юнитов, а не точного равенства порогу.",
+      "englishGuide": "On Pharaoh difficulty, earn a Major Victory for Egypt in single-player scenario 4: raise the integer ratio 100 × Egyptian units / Hittite units above 200 and have an Egyptian unit on Qadesh at the check. Exactly two to one does not exceed the threshold.",
+      "englishTactic": "Occupy Qadesh with an Egyptian unit before the final kills and keep it there. Build a clear unit-count advantage rather than stopping exactly at the threshold.",
+      "condition": "Одержите крупную победу в битве при Кадеше на «Фараоне» (Египет, сценарий 4)"
+    }
+  },
+  "a371": {
+    "reason": "Потеря Кадеша и лагеря в одиночной ветке даёт обычное поражение; крупное проверяет отношение и Кадеш. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В одиночном четвёртом сценарии получить крупное поражение за Египет. В проверке соотношения численности показатель 100 × египетские юниты / хеттские юниты должен стать меньше 50, а на клетке Кадеша должен стоять хеттский отряд. Одновременная потеря Кадеша и лагеря отдельно запускает обычное поражение и сама по себе не заменяет этот крупный исход.",
+      "tactic": "Сделай отдельное сохранение и доведи армию Египта до явного численного меньшинства, сохранив хеттский отряд в Кадеше. Не считай одну потерю лагеря гарантией крупного поражения.",
+      "englishGuide": "Receive a Major Defeat for Egypt in single-player scenario 4. The ratio check must give 100 × Egyptian units / Hittite units below 50, with a Hittite unit on Qadesh. Losing both Qadesh and the camp separately triggers Minor Defeat and does not by itself replace this Major outcome.",
+      "englishTactic": "Use a separate save, reduce Egypt to a clear unit-count minority, and keep a Hittite unit at Qadesh. Losing the camp alone does not guarantee Major Defeat.",
+      "condition": "Потерпите крупное поражение в битве при Кадеше (Египет, сценарий 4)"
+    }
+  },
+  "a370": {
+    "reason": "Обычное поражение не требует исключать крупное и имеет дополнительную ветку потери позиций. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В одиночном четвёртом сценарии получить обычное или крупное поражение за Египет. Обычная ветка вызывается при численном отношении ниже 50 без условия крупного результата либо при занятии хеттами Кадеша и египетского лагеря, пока Рамсес жив. Крупное поражение также выдаёт эту награду.",
+      "tactic": "Используй отдельную попытку для поражения и дождись сценарного итогового события. Не нужно специально избегать крупного исхода ради обычного достижения.",
+      "englishGuide": "Receive a Minor or Major Defeat for Egypt in single-player scenario 4. Minor Defeat can follow a unit ratio below 50 without the Major condition, or Hittite occupation of both Qadesh and the Egyptian camp while Ramesses is alive. Major Defeat also awards this achievement.",
+      "englishTactic": "Use a separate defeat attempt and wait for the scenario outcome. Avoiding a Major Defeat is unnecessary for the Minor achievement.",
+      "condition": "Потерпите поражение в битве при Кадеше (Египет, сценарий 4)"
+    }
+  },
+  "a378": {
+    "reason": "Крупная победа Маат имеет альтернативу через окончание Исхода. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В пятом сценарии получить крупную победу: к итоговой проверке закончить с Маат ровно 50 либо довести цепочку Исхода до завершающей стадии. При обычном ходе сценария необходимо сохранять Уасет и Мен-нефер и не допускать раннего катастрофического исхода.",
+      "tactic": "Для пути через Маат удерживай показатель около центра и выровняй его до 50 перед финалом. Альтернативную цепочку Исхода планируй с начала кампании; крупная победа также выдаёт обычную награду.",
+      "englishGuide": "Earn a Major Victory in scenario 5 by finishing with Maat exactly 50 at the final check or reaching the final Exodus stage. On the normal route, keep Thebes and Memphis and avoid an earlier catastrophic outcome.",
+      "englishTactic": "For the Maat route, stay near the center and adjust to 50 before the finale. Plan the alternative Exodus chain from the start of the campaign. Major Victory also awards the Minor achievement.",
+      "condition": "Вы сохранили идеальное равновесие Маат и завоевали доверие жителей царства Кемет (Египет, сценарий 5)"
+    }
+  },
+  "a379": {
+    "reason": "Крупная победа Маат имеет альтернативу через окончание Исхода. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "На сложности «Фараон» в пятом сценарии получить крупную победу: к итоговой проверке закончить с Маат ровно 50 либо довести цепочку Исхода до завершающей стадии. При обычном ходе сценария необходимо сохранять Уасет и Мен-нефер и не допускать раннего катастрофического исхода.",
+      "tactic": "Для пути через Маат удерживай показатель около центра и выровняй его до 50 перед финалом. Альтернативную цепочку Исхода планируй с начала кампании; крупная победа также выдаёт обычную награду.",
+      "englishGuide": "On Pharaoh difficulty, earn a Major Victory in scenario 5 by finishing with Maat exactly 50 at the final check or reaching the final Exodus stage. On the normal route, keep Thebes and Memphis and avoid an earlier catastrophic outcome.",
+      "englishTactic": "For the Maat route, stay near the center and adjust to 50 before the finale. Plan the alternative Exodus chain from the start of the campaign. Major Victory also awards the Minor achievement.",
+      "condition": "Вы сохранили идеальное равновесие Маат и завоевали доверие жителей царства Кемет на «Фараоне» (Египет, сценарий 5)"
+    }
+  },
+  "a329": {
+    "reason": "Уточнены включительный диапазон 45–55 и вложенная выдача при крупной победе. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В пятом сценарии получить обычную или крупную победу. При итоговой проверке Маат от 45 до 55 включительно даёт победу: ровно 50 — крупную, остальные значения диапазона — обычную. Крупная победа также выдаёт это достижение; специально избегать центра не нужно.",
+      "tactic": "Сохрани ключевые города и подведи Маат к диапазону 45–55 перед финалом. Выбор 50 позволяет совместить обычную и крупную награды.",
+      "englishGuide": "Earn a Minor or Major Victory in scenario 5. At the final check, Maat from 45 through 55 inclusive wins: exactly 50 gives Major Victory, other values in the range give Minor Victory. Major Victory also awards this achievement; avoiding the center is unnecessary.",
+      "englishTactic": "Keep the key cities and bring Maat into the 45–55 range before the finale. Finishing at 50 combines the Minor and Major awards.",
+      "condition": "Вам удалось сохранить равновесие Маат, но в Сехет-Аару попали не все (Египет, сценарий 5)"
+    }
+  },
+  "a380": {
+    "reason": "Уточнены включительный диапазон 45–55 и вложенная выдача при крупной победе. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "На сложности «Фараон» в пятом сценарии получить обычную или крупную победу. При итоговой проверке Маат от 45 до 55 включительно даёт победу: ровно 50 — крупную, остальные значения диапазона — обычную. Крупная победа также выдаёт это достижение; специально избегать центра не нужно.",
+      "tactic": "Сохрани ключевые города и подведи Маат к диапазону 45–55 перед финалом. Выбор 50 позволяет совместить обычную и крупную награды.",
+      "englishGuide": "On Pharaoh difficulty, earn a Minor or Major Victory in scenario 5. At the final check, Maat from 45 through 55 inclusive wins: exactly 50 gives Major Victory, other values in the range give Minor Victory. Major Victory also awards this achievement; avoiding the center is unnecessary.",
+      "englishTactic": "Keep the key cities and bring Maat into the 45–55 range before the finale. Finishing at 50 combines the Minor and Major awards.",
+      "condition": "Вам удалось сохранить равновесие Маат на «Фараоне», но в Сехет-Аару попали не все (Египет, сценарий 5)"
+    }
+  },
+  "a376": {
+    "reason": "Убрана самостоятельная непроверенная проверка доверия; указаны Маат и вложенное поражение. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В пятом сценарии получить обычное или крупное поражение. Позднее обычное поражение вызывается, если после лимита ходов Маат находится вне 45–55. Крупное поражение также выдаёт эту награду; отдельного счётчика доверия в этой проверке нет.",
+      "tactic": "Для отдельной попытки поражения оставь Маат вне победного диапазона к финалу и дождись результата. Не требуется избегать крупного поражения ради этого достижения.",
+      "englishGuide": "Receive a Minor or Major Defeat in scenario 5. The later Minor Defeat occurs when Maat is outside 45–55 after the turn limit. Major Defeat also awards this achievement; this check has no separate public-trust counter.",
+      "englishTactic": "For a separate defeat attempt, finish outside the winning Maat range and wait for the outcome. Avoiding a Major Defeat is unnecessary.",
+      "condition": "Вы не сумели вернуть себе расположение коптов (Египет, сценарий 5)"
+    }
+  },
+  "a377": {
+    "reason": "Дополнены ранние условия катастрофы: край шкалы и длительный дисбаланс. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В пятом сценарии получить крупное поражение: потерять Уасет или Мен-нефер, довести Маат до 0 или 100 либо накопить допустимый для выбранной сложности предел выходов из равновесия. Этот исход также выдаёт обычное достижение поражения.",
+      "tactic": "Используй отдельное сохранение для катастрофического исхода. Следи за Маат и предупреждениями о дисбалансе: крупное поражение может наступить до последнего хода.",
+      "englishGuide": "Receive a Major Defeat in scenario 5 by losing Thebes or Memphis, reaching Maat 0 or 100, or reaching the difficulty-dependent out-of-balance limit. This outcome also awards the Minor Defeat achievement.",
+      "englishTactic": "Use a separate save for a catastrophic outcome. Watch Maat and imbalance warnings: Major Defeat can occur before the final turn.",
+      "condition": "Вы потерпели сокрушительное поражение. Боги отвернулись от вашего мира, и он рухнул (Египет, сценарий 5)"
+    }
+  },
+  "a330": {
+    "reason": "Проверяется счётчик запущенных волн >4/>8; зачистка последнего отряда волны не требуется. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В шестом сценарии сохранить Уасет и довести счётчик запущенных вторжений до 5. Код выдаёт обычную победную награду при значении больше 4; это происходит с запуском 5-й волны, а не после обязательной зачистки всех отрядов предыдущей. После обычной награды можно продолжить оборону ради крупной.",
+      "tactic": "Защищай Уасет, сохраняй производство подкреплений и ориентируйся на сценарное сообщение о награде. Уничтожение всех захватчиков не является отдельным условием этой проверки.",
+      "englishGuide": "Keep Thebes and bring the launched-invasion counter to 5 in scenario 6. The code awards the Minor victory achievement when the count exceeds 4: at the launch of wave 5, without separately requiring every unit of the previous wave to be killed. You may continue defending after the Minor award to pursue Major Victory.",
+      "englishTactic": "Defend Thebes, maintain reinforcements, and follow the scenario’s award message. Eliminating every invader is not a separate requirement of this check.",
+      "condition": "Вы сдержали натиск народов моря (Египет, сценарий 6)"
+    }
+  },
+  "a385": {
+    "reason": "Проверяется счётчик запущенных волн >4/>8; зачистка последнего отряда волны не требуется. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "На сложности «Фараон» в шестом сценарии сохранить Уасет и довести счётчик запущенных вторжений до 5. Код выдаёт обычную победную награду при значении больше 4; это происходит с запуском 5-й волны, а не после обязательной зачистки всех отрядов предыдущей. После обычной награды можно продолжить оборону ради крупной.",
+      "tactic": "Защищай Уасет, сохраняй производство подкреплений и ориентируйся на сценарное сообщение о награде. Уничтожение всех захватчиков не является отдельным условием этой проверки.",
+      "englishGuide": "On Pharaoh difficulty, Keep Thebes and bring the launched-invasion counter to 5 in scenario 6. The code awards the Minor victory achievement when the count exceeds 4: at the launch of wave 5, without separately requiring every unit of the previous wave to be killed. You may continue defending after the Minor award to pursue Major Victory.",
+      "englishTactic": "Defend Thebes, maintain reinforcements, and follow the scenario’s award message. Eliminating every invader is not a separate requirement of this check.",
+      "condition": "Вы сдержали натиск народов моря на «Фараоне» (Египет, сценарий 6)"
+    }
+  },
+  "a383": {
+    "reason": "Проверяется счётчик запущенных волн >4/>8; зачистка последнего отряда волны не требуется. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В шестом сценарии сохранить Уасет и довести счётчик запущенных вторжений до 9. Код выдаёт крупную победную награду при значении больше 8; это происходит с запуском 9-й волны, а не после обязательной зачистки всех отрядов предыдущей. Крупная награда также включает обычную.",
+      "tactic": "Защищай Уасет, сохраняй производство подкреплений и ориентируйся на сценарное сообщение о награде. Уничтожение всех захватчиков не является отдельным условием этой проверки.",
+      "englishGuide": "Keep Thebes and bring the launched-invasion counter to 9 in scenario 6. The code awards the Major victory achievement when the count exceeds 8: at the launch of wave 9, without separately requiring every unit of the previous wave to be killed. Major Victory also awards the Minor achievement.",
+      "englishTactic": "Defend Thebes, maintain reinforcements, and follow the scenario’s award message. Eliminating every invader is not a separate requirement of this check.",
+      "condition": "Вы победили народы моря (Египет, сценарий 6)"
+    }
+  },
+  "a384": {
+    "reason": "Проверяется счётчик запущенных волн >4/>8; зачистка последнего отряда волны не требуется. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "На сложности «Фараон» в шестом сценарии сохранить Уасет и довести счётчик запущенных вторжений до 9. Код выдаёт крупную победную награду при значении больше 8; это происходит с запуском 9-й волны, а не после обязательной зачистки всех отрядов предыдущей. Крупная награда также включает обычную.",
+      "tactic": "Защищай Уасет, сохраняй производство подкреплений и ориентируйся на сценарное сообщение о награде. Уничтожение всех захватчиков не является отдельным условием этой проверки.",
+      "englishGuide": "On Pharaoh difficulty, Keep Thebes and bring the launched-invasion counter to 9 in scenario 6. The code awards the Major victory achievement when the count exceeds 8: at the launch of wave 9, without separately requiring every unit of the previous wave to be killed. Major Victory also awards the Minor achievement.",
+      "englishTactic": "Defend Thebes, maintain reinforcements, and follow the scenario’s award message. Eliminating every invader is not a separate requirement of this check.",
+      "condition": "Вы победили народы моря на «Фараоне» (Египет, сценарий 6)"
+    }
+  },
+  "a331": {
+    "reason": "Награда кампании вызывается при обычной победе шестой главы без пересчёта первых пяти. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "Получить обычную или крупную победную награду в шестом сценарии «Фараонов Нила». Вызов достижения кампании находится в обычной победе этой главы, а крупная вызывает её повторно. Отдельная проверка побед во всех предыдущих сценариях в этом источнике отсутствует; обычный путь прохождения — кампания по порядку.",
+      "tactic": "Проходи главы последовательно и сохрани Уасет до первой победной награды финальной главы. Продолжение до крупной победы для достижения кампании не обязательно.",
+      "englishGuide": "Earn the Minor or Major victory award in Pharaohs of the Nile scenario 6. The campaign achievement is called by that chapter’s Minor Victory function, which Major Victory also invokes. This source does not separately check wins in all earlier chapters; the normal route is to play the campaign in order.",
+      "englishTactic": "Play the chapters in order and keep Thebes until the final chapter’s first victory award. Continuing to Major Victory is unnecessary for the campaign achievement.",
+      "condition": "Вы прошли Египетскую кампанию"
+    }
+  },
+  "a381": {
+    "reason": "Проверка потери Уасета использует счётчик волн 3–4; крупный исход также выдаёт обычное. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В шестом сценарии потерять Уасет и получить обычное или крупное поражение. В коде обычная ветка потери города проверяется при счётчике волн 3 или 4; при значении не выше 2 вызывается крупное поражение, которое тоже выдаёт это достижение.",
+      "tactic": "Сделай отдельное сохранение для проигрыша. Для обычной ветки продержись до счётчика волн 3–4, затем допусти потерю Уасета и дождись исхода.",
+      "englishGuide": "Lose Thebes and receive a Minor or Major Defeat in scenario 6. The Minor city-loss branch checks for wave count 3 or 4; count 2 or lower gives Major Defeat, which also awards this achievement.",
+      "englishTactic": "Use a separate defeat save. For the Minor branch, reach wave count 3–4 before losing Thebes and waiting for the outcome.",
+      "condition": "Вы не справились с ситуацией (Египет, сценарий 6)"
+    }
+  },
+  "a382": {
+    "reason": "Вместо расплывчатого раннего поражения указан точный счётчик волн. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В шестом сценарии потерять Уасет, пока счётчик запущенных волн не превышает 2. Это вызывает крупное поражение и одновременно выдаёт обычное достижение поражения.",
+      "tactic": "Используй отдельную попытку и допусти потерю Уасета до перехода счётчика к 3. Обычный выход из игры не заменяет потерю города.",
+      "englishGuide": "Lose Thebes in scenario 6 while the launched-wave count is 2 or lower. This triggers Major Defeat and also awards the Minor Defeat achievement.",
+      "englishTactic": "Use a separate attempt and lose Thebes before the counter reaches 3. Quitting does not replace losing the city.",
+      "condition": "Вы хоть пытались? (Египет, сценарий 6)"
+    }
+  },
+  "a342": {
+    "reason": "Шесть соперников являются нижней границей, а не точным числом.",
+    "fields": {
+      "guide": "Выиграть партию на сложности «Великий» с минимум шестью соперниками, высокой частотой событий, реалистичной смертностью и включёнными «Заблокированными сохранениями», «Без отмены» и «Безжалостным ИИ». Проверка числа соперников использует нижнюю границу 6; добавлять все нации из дополнений не требуется.",
+      "englishGuide": "Win on The Great difficulty with at least six opponents, High Event level, Realistic Mortality, Locked Saves, No Undo, and Ruthless AI. The opponent check is a minimum of six; including every DLC nation is unnecessary."
+    }
+  },
+  "a308": {
+    "reason": "Зачёт дерева интриг проверяет доступность единственной возвращаемой конечной карты, не её бесконечное прохождение. Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "guide": "В четвёртом сценарии «Героев Эгейи» развить дерево интриг до состояния, когда после исследования остаётся ровно одна доступная технология и она является возвращаемой конечной картой. Именно это состояние проверяет код выдачи; требование многократно исследовать конечную карту не задано.",
+      "tactic": "Последовательно открывай ветви дерева и проверяй оставшиеся доступные исследования. Не откладывай зачёт в ожидании исчерпания повторяемой конечной карты.",
+      "englishGuide": "In Heroes of the Aegean scenario 4, develop the intrigue tree until completing a research leaves exactly one available technology, which is the returning final card. This is the award check; repeatedly researching the final card is not required.",
+      "englishTactic": "Work through the tree branches and watch which research cards remain available. Do not wait to exhaust the repeatable final card.",
+      "condition": "Полностью пройти дерево интриг (Герои Эгейи 4)"
+    }
+  },
+  "a005": {
+    "reason": "Исправлено требование Empires of the Indus и дополнены предпосылки города.",
+    "fields": {
+      "guide": "С Empires of the Indus играть за Маурьев и обучить бронированного слона. Нужны город с культурой не ниже «Развитая», Цитадель и городской доступ к слонам. У юнита нет отдельного требования технологии; технологии для строительства необходимых сооружений проверяются отдельно.",
+      "tactic": "Подготовь город со слонами, развей культуру до «Развитая» и построй Цитадель. Затем заверши обучение бронированного слона; указание основной игры в прежней метке DLC было ошибочным.",
+      "englishGuide": "With Empires of the Indus, train an Armoured Elephant as Maurya. The city needs at least Strong Culture, a Citadel, and access to Elephants. The unit has no direct Technology prerequisite; prerequisites for its required buildings are separate.",
+      "englishTactic": "Prepare a city with Elephants, reach Strong Culture, and build a Citadel, then finish training an Armoured Elephant. The previous Base Game DLC label was incorrect.",
+      "dlc": "Empires of the Indus",
+      "dlcName": "Empires of the Indus"
+    }
+  },
+  "a035": {
+    "reason": "Хеттская нация требует Heroes of the Aegean, хотя у юнита нет собственного GameContentRequired.",
+    "fields": {
+      "guide": "С Heroes of the Aegean играть за Хеттов и обучить колесницу с тремя воинами. Нужны город с культурой не ниже «Развитая», Цитадель и доступ к лошадям. У самого юнита нет отдельного требования технологии.",
+      "tactic": "Подготовь лошадей, культуру «Развитая» и Цитадель в хеттском городе. Заверши обучение нужной национальной колесницы; обычная колесница другой нации не заменяет её.",
+      "englishGuide": "With Heroes of the Aegean, train a Three-Man Chariot as Hatti. The city needs at least Strong Culture, a Citadel, and access to Horses. The unit itself has no direct Technology prerequisite.",
+      "englishTactic": "Prepare Horses, Strong Culture, and a Citadel in a Hatti city, then train the required national Chariot. Another nation’s ordinary Chariot does not replace it.",
+      "dlc": "Heroes of the Aegean",
+      "dlcName": "Heroes of the Aegean"
+    }
+  },
+  "a187": {
+    "reason": "Счётчик цепочки включает завершающую атаку после разгрома; пять убийств — достаточный способ, а не буквальная проверка.",
+    "fields": {
+      "guide": "Одним юнитом развить цепочку механики «Разгром» до значения не меньше 5 за один ход. Код увеличивает счётчик при разгромах и при завершающей атаке из состояния после разгрома; это не отдельная статистика пяти обязательных убийств. В официальном названии Steam сохранено «Пять штурмов».",
+      "tactic": "Надёжный по условиям способ — заранее ослабить пять целей и добивать их одним юнитом с «Разгромом», не завершая ход. Оставь запас приказов и доступ к следующей цели; короткий маршрут с последней недобивающей атакой отдельно в игре не проверен.",
+      "englishGuide": "Reach a Rout chain value of at least 5 with one unit in one turn. The code increments the chain on Routs and on the final attack from Rout cooldown; it is not a separate counter requiring five kills.",
+      "englishTactic": "A sufficient route is to weaken five targets and finish them with one Rout-capable unit without ending the turn. Keep enough Orders and access to the next target. A shorter route using a final nonlethal attack has not been playtested."
+    }
+  },
+  "a314": {
+    "reason": "Исправлено ошибочное «до воцарения»; отложенный игровой тест не объявлен выполненным.",
+    "fields": {
+      "guide": "Добиться смерти своего Александра от убийства, совершённого персонажем своей державы, причём Александр должен ранее побывать правителем. В начале хода проверяются конкретный Александр, признак бывшего правителя и связь с убийцей. Убийство наследника, который ещё не правил, не подходит; русское условие Steam про «до воцарения» противоречит этой проверке.",
+      "tactic": "Обычная миссия «Убить» исключает действующего лидера. Возможный путь через отречение Александра и покушение после него согласуется с фильтрами, но ещё не подтверждён игровой попыткой. Не считай этот маршрут гарантированным; проверку автора сохраняем открытой.",
+      "englishGuide": "Have your Alexander killed by one of your nation’s characters after he has served as ruler. The new-turn check requires the specific Alexander, prior ruler status, and the relationship identifying his assassin. Killing an heir who has never ruled does not qualify.",
+      "englishTactic": "The ordinary Assassinate mission excludes the current ruler. A possible route through Alexander’s abdication and a later assassination matches the filters but has not been confirmed by gameplay. Treat it as an open author test rather than a guaranteed route."
+    }
+  },
+  "a009": {
+    "reason": "Убрано предложение обычного задания против действующего лидера; выдача связана с конкретными бонусами событий.",
+    "fields": {
+      "guide": "Убить другого лидера через сюжетный исход, выдающий достижение «Цареубийство». В XML есть несколько таких бонусов: они одновременно убивают выбранного персонажа и выдают достижение. Обычное задание «Убить» не выбирает действующего лидера, поэтому назначение главы шпионов само по себе не открывает прямой маршрут к этой цели.",
+      "tactic": "Ищи событийные цепочки с исходом убийства чужого лидера и проверяй предложенный результат. Подтверждённый в XML вариант события надёжнее, чем попытка направить обычное задание на недоступную цель.",
+      "englishGuide": "Kill another ruler through a story outcome that awards Regicide. Several XML bonuses both kill the selected character and grant the achievement. The ordinary Assassinate mission cannot target a current ruler, so appointing a Spymaster alone does not create a direct route.",
+      "englishTactic": "Look for story chains with an outcome that kills another ruler and check the offered result. Use an identified event outcome rather than trying to target an ineligible ruler with the ordinary mission."
+    }
+  },
+  "a207": {
+    "reason": "Проверка привязана к событийномy результату задания на собственного наследника.",
+    "fields": {
+      "guide": "Завершить задание на убийство собственного действующего наследника с событийным результатом покушения. Скрытое событие проверяет цель-наследника и результат MISSIONRESULT_ASSASSINATE_EVENT; обычная смерть наследника вне этого задания не заменяет проверку.",
+      "tactic": "Выбери доступного для задания собственного наследника и выполни покушение. Сохранись перед попыткой: не все результаты задания запускают нужный событийный исход.",
+      "englishGuide": "Complete an assassination mission targeting your current heir with the assassination-event result. The hidden event checks the heir target and MISSIONRESULT_ASSASSINATE_EVENT; an unrelated death does not replace this check.",
+      "englishTactic": "Choose your own heir when eligible for the mission and attempt the assassination. Save beforehand: not every mission result triggers the required event outcome."
+    }
+  },
+  "a394": {
+    "reason": "В скрытой проверке нет обязательной державы Юэчжи; она лишь удобный путь получения степных всадников.",
+    "fields": {
+      "guide": "С Empires of the Indus одновременно иметь десять своих юнитов «Степной всадник» и начать следующий ход. Скрытое событие перечисляет десять юнитов нужного типа; отдельного условия играть за Юэчжи в нём нет.",
+      "tactic": "Юэчжи — удобный выбор для получения степных всадников. Сохраняй десять таких юнитов одновременно и не улучшай их до другого типа перед началом следующего хода.",
+      "englishGuide": "With Empires of the Indus, own ten Steppe Riders simultaneously and start the next turn. The hidden event lists ten units of the required type; it does not separately require playing as Yuezhi.",
+      "englishTactic": "Yuezhi is a convenient choice for obtaining Steppe Riders. Keep ten units of that exact type alive together and avoid upgrading them before the next turn.",
+      "playerCivs": [],
+      "affinityCivs": [
+        "Юэчжи"
+      ]
+    }
+  },
+  "a313": {
+    "reason": "Нужно наличие конкретного живого Александра, а не обязательно его текущее правление.",
+    "fields": {
+      "guide": "Дождаться уничтожения Персии, имея в своей державе живого Александра из династии Филиппа либо стартового Александра. Скрытые события проверяют конкретного персонажа у игрока и погибшую Персию; отдельное условие, что Александр в этот момент действующий лидер, в этих двух событиях отсутствует.",
+      "tactic": "Для обычного маршрута выбери Грецию с династией Филиппа или стартом за Александра и добавь Персию в партию. Сохрани Александра живым до устранения Персии; лично захватывать её последний город эта проверка не требует.",
+      "englishGuide": "Have Persia eliminated while your nation has the living Alexander from Philip’s dynasty or the starting Alexander. The two hidden events check the specific character in your nation and a dead Persia; neither separately requires Alexander to be the current ruler.",
+      "englishTactic": "For the normal route, choose Greece with Philip’s dynasty or starting Alexander and include Persia. Keep Alexander alive until Persia is eliminated; this check does not require you personally to capture its last city.",
+      "playerCivs": [],
+      "affinityCivs": [
+        "Греция"
+      ]
+    }
+  },
+  "a286": {
+    "reason": "Проверяется святое место христианства в столице, не самостоятельное основание религии.",
+    "fields": {
+      "guide": "Играя за Рим, иметь в своей столице завершённое христианское святое место и начать следующий ход. Скрытое событие проверяет римскую державу, её текущую столицу и соответствующее улучшение в городе. Самостоятельное основание христианства и имя столицы «Рим» отдельно не требуются.",
+      "tactic": "Обеспечь возможность строительства христианского святого места в столице и заверши его обычным способом. Одного христианского святого города без самого улучшения недостаточно.",
+      "englishGuide": "As Rome, have a completed Christian Holy Site in your capital and start the next turn. The hidden event checks the Roman nation, its current capital, and the required city Improvement. Founding Christianity yourself or naming the capital Rome is not separately required.",
+      "englishTactic": "Make the Christian Holy Site available in your capital and complete it normally. A Christian Holy City without the actual Improvement is insufficient.",
+      "editor": "Частично — редактор может подготовить столицу и условия строительства. Для надёжного маршрута заверши христианское святое место в столице и дождись начала следующего хода.",
+      "englishEditor": "Partly — the Editor can prepare the capital and construction prerequisites. For a reliable route, complete the Christian Holy Site in the capital and wait for the next turn."
+    }
+  },
+  "a274": {
+    "reason": "Второй священный город может быть приобретён: история основателя второй религии не проверяется.",
+    "fields": {
+      "guide": "Основать индуизм или буддизм в своей державе, одновременно владея священным городом другой из этих двух религий. Проверка запускается при собственном основании религии; священные города могут совпадать. Для другой религии проверяется текущее владение её священным городом, а не то, кто был её основателем.",
+      "tactic": "Проще самостоятельно основать обе религии. Возможный альтернативный маршрут — сначала получить священный город уже основанной религии, затем основать вторую; этот вариант следует отличать от простого захвата двух готовых священных городов без нового основания.",
+      "englishGuide": "Found Hinduism or Buddhism in your nation while owning the Holy City of the other religion. The check runs on your religion-founding event; the two Holy Cities may be the same city. For the other religion, it checks current Holy City ownership rather than the identity of its original founder.",
+      "englishTactic": "Founding both religions yourself is a straightforward route. An alternative is to acquire one existing Holy City before founding the other religion; merely capturing two already-founded Holy Cities does not trigger this founding check."
+    }
+  },
+  "a343": {
+    "reason": "Проверяется текущая семья торговцев при победе, а не принадлежность столицы при основании.",
+    "fields": {
+      "guide": "Одержать победу с включённым испытанием «Один город», имея действующую семью класса «Торговцы». Проверка относится к текущему наличию семьи при победе; отдельного требования, что столица была основана именно этой семьёй, в записи достижения нет.",
+      "tactic": "Для понятного маршрута выбери торговую семью первой и сохрани её до победы. Само включение режима «Один город» без такой действующей семьи недостаточно.",
+      "englishGuide": "Win with One City Challenge enabled and an active Traders family. The check concerns current family presence at victory; it does not separately require the capital to have been founded by that family.",
+      "englishTactic": "Choose a Traders family first and keep it active until victory for a straightforward route. Enabling One City Challenge without that active family is insufficient."
+    }
+  },
+  "a386": {
+    "reason": "Прослежены три межсценарных флага и завершающая погоня Исхода.",
+    "fields": {
+      "guide": "В кампании «Фараоны Нила» сохранить три сюжетных флага: в первой главе позволить хека-кхасут остаться, во второй вернуть их в Хут-Уарет, в третьей признать Эля и Атона одним богом. В пятой главе продолжить историю Моше, отказывать в освобождении, затем выбрать погоню. Заверши её колесницей или лёгкой колесницей на отмеченной клетке переправы и подтверди заключительное событие; его бонус выдаёт достижение.",
+      "tactic": "Сохраняй решения между главами в одной кампании. В пятой главе прими Моше, затем выбери три отказа отпустить его народ и согласись возглавить погоню. Держи подходящую колесницу для движения к переправе. Цепочка проверена по коду/XML, но заново полностью в игре не пройдена.",
+      "englishGuide": "In Pharaohs of the Nile, preserve three campaign flags: let the Hekau Khasut stay in chapter 1, return them to Hut-Waret in chapter 2, and identify El with Aten in chapter 3. In chapter 5, continue Moshe’s story, refuse release, and choose pursuit. Finish by moving a Chariot or Light Chariot onto the marked crossing tile and confirming the final event; its bonus awards the achievement.",
+      "englishTactic": "Carry the story decisions through the same campaign. In chapter 5, welcome Moshe, refuse his people’s release three times, then lead the pursuit. Keep a suitable Chariot for the crossing objective. This chain is checked in code/XML but has not been replayed end to end."
+    }
+  },
+  "a006": {
+    "reason": "Уничтожение гуннского племени не требует отдельного сценария Орды.",
+    "fields": {
+      "guide": "С Empires of the Indus добиться полного уничтожения гуннского племени. Скрытое событие проверяет устранённое племя гуннов при событии уничтожения племени; отдельного требования сценария «Орда варваров» в нём нет.",
+      "tactic": "Найди гуннские позиции, подготовь армию и доведи их устранение до сообщения игры об уничтожении племени. Отбитый рейд сам по себе не заменяет полное устранение.",
+      "englishGuide": "With Empires of the Indus, have the Huns tribe completely eliminated. The hidden event checks for the dead Huns tribe on tribe elimination; it does not separately require the Barbarian Horde scenario.",
+      "englishTactic": "Find the Huns’ positions, prepare an army, and continue until the game reports the tribe eliminated. Repelling a raid alone does not replace full elimination."
+    }
+  },
+  "a028": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Победить на уровне сложности «Способный»"
+    }
+  },
+  "a032": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Победить на уровне сложности «Справедливый»"
+    }
+  },
+  "a033": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Победить, играя за хеттов"
+    }
+  },
+  "a047": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "name": "Теперь моя очередь!"
+    }
+  },
+  "a154": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Победить на уровне сложности «Добрый»"
+    }
+  },
+  "a161": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Подготовить боевого слона с башней"
+    }
+  },
+  "a176": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Пройти 1-й сценарий Карфагена"
+    }
+  },
+  "a180": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержать бронзовую победу в 1-м сценарии Карфагена"
+    }
+  },
+  "a182": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Победить на уровне сложности «Благородный»"
+    }
+  },
+  "a184": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержать серебряную победу в 1-м сценарии Карфагена"
+    }
+  },
+  "a196": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Добежать до Спарты (Герои Эгейи 1)"
+    }
+  },
+  "a199": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Победить на уровне сложности «Славный»"
+    }
+  },
+  "a200": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Пройти сценарий «Марафон» (Герои Эгейи 1)"
+    }
+  },
+  "a201": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Построить Ападану в Пaрсе",
+      "name": "Ападана в Пaрсе"
+    }
+  },
+  "a202": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержать золотую победу в 1-м сценарии Карфагена"
+    }
+  },
+  "a203": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Пройти 2-й сценарий Карфагена"
+    }
+  },
+  "a204": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержать бронзовую победу во 2-м сценарии Карфагена"
+    }
+  },
+  "a208": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержать серебряную победу во 2-м сценарии Карфагена"
+    }
+  },
+  "a210": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Убить 10 персидских юнитов при Фермопилах (Герои Эгейи 2)"
+    }
+  },
+  "a211": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Пройти «Битву при Фермопилах» (Герои Эгейи 2)"
+    }
+  },
+  "a215": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Победить на уровне сложности «Великолепный»"
+    }
+  },
+  "a222": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержать золотую победу во 2-м сценарии Карфагена"
+    }
+  },
+  "a224": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "При игре за Рим убить лидера другой римской семьей"
+    }
+  },
+  "a225": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Выиграть битву при Платеях (Герои Эгейи 2)"
+    }
+  },
+  "a226": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Выиграть битву при Саламине (Герои Эгейи 2)"
+    }
+  },
+  "a227": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Убить 20 персидских юнитов при Фермопилах (Герои Эгейи 2)"
+    }
+  },
+  "a238": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Пройти 3-й сценарий Карфагена"
+    }
+  },
+  "a239": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержать бронзовую победу в 3-м сценарии Карфагена"
+    }
+  },
+  "a241": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержите крупную победу (Египет, сценарий 1)"
+    }
+  },
+  "a244": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Отбить Пеонию (Герои Эгейи 3)"
+    }
+  },
+  "a245": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Иметь трех жен, играя за Филиппа (Герои Эгейи 3)"
+    }
+  },
+  "a256": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Убить 30 персидских юнитов при Фермопилах (Герои Эгейи 2)"
+    }
+  },
+  "a263": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержать серебряную победу в 3-м сценарии Карфагена"
+    }
+  },
+  "a264": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Пройти 4-й сценарий Карфагена"
+    }
+  },
+  "a265": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержать бронзовую победу в 4-м сценарии Карфагена"
+    }
+  },
+  "a271": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержать золотую победу в 3-м сценарии Карфагена"
+    }
+  },
+  "a272": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержать золотую победу в 4-м сценарии Карфагена"
+    }
+  },
+  "a273": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержать серебряную победу в 4-м сценарии Карфагена"
+    }
+  },
+  "a275": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержите обычную победу (Египет, сценарий 2)"
+    }
+  },
+  "a276": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Покорить Афины (Герои Эгейи 3)"
+    }
+  },
+  "a277": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Покорить Спарту (Герои Эгейи 3)"
+    }
+  },
+  "a278": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Пройти сценарий Филиппа (Герои Эгейи 3)"
+    }
+  },
+  "a281": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Убить 10 юнитов, когда Александр воюет верхом на Буцефале (Герои Эгейи 5)"
+    }
+  },
+  "a283": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Пройти «Осаду Тира» (Герои Эгейи 5)"
+    }
+  },
+  "a301": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержите крупную победу (Египет, сценарий 3)"
+    }
+  },
+  "a303": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Проиграть сценарий «Марафон» (Герои Эгейи 1)"
+    }
+  },
+  "a304": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Убить 40 персидских юнитов при Фермопилах (Герои Эгейи 2)"
+    }
+  },
+  "a305": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Убить юнита, играя за Александра в роли генерала (Герои Эгейи 3)"
+    }
+  },
+  "a307": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Контролировать все города (Герои Эгейи 4)"
+    }
+  },
+  "a309": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Выиграть битву при Персидских воротах (Герои Эгейи 5)"
+    }
+  },
+  "a310": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Сделать так, чтобы Александра признали фараоном (Герои Эгейи 5)"
+    }
+  },
+  "a311": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Победить Персидскую империю (Герои Эгейи 5)"
+    }
+  },
+  "a315": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Вы использовали задание вассализации племени при игре за юэчжи (Империи Инда)"
+    }
+  },
+  "a320": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Потерпите неудачу при захвате Та-меху (Египет, сценарий 1)"
+    }
+  },
+  "a321": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержите крупную победу на «Фараоне» (Египет, сценарий 1)"
+    }
+  },
+  "a322": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержите обчную победу на «Фараоне» (Египет, сценарий 1)"
+    }
+  },
+  "a323": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Потерпите неудачу в достижении Золотого века Египта (Египет, сценарий 2)"
+    }
+  },
+  "a324": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержите крупную победу (Египет, сценарий 2)"
+    }
+  },
+  "a328": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Играя за коптов, вы потеряли Рамсеса II в битве при Кадеше (Египет, сценарий 4)"
+    }
+  },
+  "a332": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Не потерять ни одного корабля в битве при Саламине (Герои Эгейи 2)"
+    }
+  },
+  "a333": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Убить 50 персидских юнитов при Фермопилах (Герои Эгейи 2)"
+    }
+  },
+  "a334": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Победить так, чтобы Филипп не потерял глаз (Герои Эгейи 3)"
+    }
+  },
+  "a335": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Победить после того, как Филипп будет убит Олимпиадой (Герои Эгейи 4)"
+    }
+  },
+  "a336": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Победить после того, как Филипп будет убит Павсанием (Герои Эгейи 4)"
+    }
+  },
+  "a337": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Победить после того, как Филипп будет убит персами (Герои Эгейи 4)"
+    }
+  },
+  "a339": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Пройти сценарий «Диадохи», играя за Кассандра из Македонии (Герои Эгейи 6)"
+    }
+  },
+  "a340": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Пройти сценарий «Диадохи», играя за Селевкидскую империю (Герои Эгейи 6)"
+    }
+  },
+  "a365": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержите крупную победу на «Фараоне» (Египет, сценарий 2)"
+    }
+  },
+  "a366": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержите обычную победу на «Фараоне» (Египет, сценарий 2)"
+    }
+  },
+  "a368": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Одержите крупную победу на «Фараоне» (Египет, сценарий 3)"
+    }
+  },
+  "a372": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Играя за хеттов, вы потеряли Муваталли II в битве при Кадеше (Египет, сценарий 4)"
+    }
+  },
+  "a375": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Разведчик погиб, не доставив сообщение соединениям «Птах» и «Сет» (Египет, сценарий 4)"
+    }
+  },
+  "a387": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Подготовить слона в Элефантине"
+    }
+  },
+  "a389": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Найти другой способ пройти сценарий «Марафон» (Герои Эгейи 1)"
+    }
+  },
+  "a391": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Пройти сценарий «Диадохи», играя за Антигонидскую империю (Герои Эгейи 6)"
+    }
+  },
+  "a392": {
+    "reason": "Официальные русские название/условие сверены с текущим Steam; механические уточнения остаются в пояснении.",
+    "fields": {
+      "condition": "Пройти сценарий «Диадохи», играя за Птолемейское царство (Герои Эгейи 6)"
+    }
+  }
+}

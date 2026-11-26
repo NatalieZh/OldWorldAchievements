@@ -1,0 +1,384 @@
+{
+  "date": "2026-11-26",
+  "buildId": "26728102",
+  "sourceRoot": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Old World",
+  "count": 12,
+  "sourceSha256": {
+    "Reference/Source/Base/Game/GameCore/Game.cs": "6f53b000279d14a9abb58c40269880b2d6385416cf8e4915996957b4417b6367",
+    "Reference/Source/Mods/Barbarian/BarbarianBarbarian.cs": "3566e55ed9321244e256a9d89e4ba9d6bc4e329e58690ca1540d550a0abcb26b",
+    "Reference/Source/Mods/Barbarian/BarbarianCharacter.cs": "529a98715078827f81f8a5955ed24b7ade33cf92bee9f2999da4b1c6bde3595f",
+    "Reference/Source/Mods/Barbarian/BarbarianCity.cs": "9da8589f8b23fc08157f8ab28030069988cc6c1cd79553398dbf9c9045c9662b",
+    "Reference/Source/Mods/Barbarian/BarbarianClientUI.cs": "888495c87813fb6628414262ff852c0c7eee191d554f0d70427c38ac344420c2",
+    "Reference/Source/Mods/Barbarian/BarbarianEntryPoint.cs": "5984b90903111d25679ab7358f655c0fa8d73664b5229b9e5a288e72d1e00e9d",
+    "Reference/Source/Mods/Barbarian/BarbarianGame.cs": "5ae5223e665f6065aa5594ffe97ebab4a575aac67475f37545775b93ff811140",
+    "Reference/Source/Mods/Barbarian/BarbarianGameFactory.cs": "d3865f8aeafdc1057c44c9cacab84a03491b6244ead3a76c6183745f83c603a9",
+    "Reference/Source/Mods/Barbarian/BarbarianInfoHelpers.cs": "fadf66620f62844d44de531ec1d9a042e2237f0ce4c3a3473b976be5d4aa9bca",
+    "Reference/Source/Mods/Barbarian/BarbarianInfos.cs": "7ab4e7fe8fa59c5ab3a0b9bbb0e6d0e8e9ad5803d7f9b3ff730aa792d8ed87dc",
+    "Reference/Source/Mods/Barbarian/BarbarianPlayer.cs": "c8ec5cd78d82f810aeb97709901debca7889178d269dbbb8ab7f45ea02122dbe",
+    "Reference/Source/Mods/Barbarian/BarbarianTile.cs": "345805532d79af98a1a59c6a73e28ac22d41c51e77e6a66a46d373fecce42666",
+    "Reference/Source/Mods/Barbarian/BarbarianUnit.cs": "6eab0be9c2d59393f19395272c87cdeb3e5a9f8562c7c6f99c61805c63ff4f50",
+    "Reference/Source/Mods/LearnToPlay1/LearnToPlay1ClientManager.cs": "f680791102fca18ef640de3000df5203a2c6c1ab81dbbd6655227c1977acffb2",
+    "Reference/Source/Mods/LearnToPlay1/LearnToPlay1ClientRenderer.cs": "fcd366e1735b25ef1c2c6f0e2d5b8e029b13a841cbe7fa0d2ebcf2c0ab0b40f2",
+    "Reference/Source/Mods/LearnToPlay1/LearnToPlay1ClientUI.cs": "aac259b038b8759cf014cdf57feb0d0d30e08a817ca1fe1b2df6c1b571f17bdb",
+    "Reference/Source/Mods/LearnToPlay1/LearnToPlay1EntryPoint.cs": "91cb7d6070bb4e5b2c20930bd6409a4dbd32f05e733f54bd27bf86ef70fdbaf6",
+    "Reference/Source/Mods/LearnToPlay1/LearnToPlay1Game.cs": "00a4a2c0528e0118e0454acbf217e92e180853990d62db010697b714f52a4cfe",
+    "Reference/Source/Mods/LearnToPlay1/LearnToPlay1GameFactory.cs": "6ae52ab7cae795274f703165ceb5233e69813390e1177eb33debf5766b10603f",
+    "Reference/Source/Mods/LearnToPlay1/LearnToPlay1HelpText.cs": "6fd154c65b70a0b75854f2c49d8bb1e6de10cabbc7c312a5dd7484c98e2d5acf",
+    "Reference/Source/Mods/LearnToPlay1/LearnToPlay1Player.cs": "646f7b6f6b0e782dd9584830c6df8f46237af862329128e1a7dda880e86fd590",
+    "Reference/Source/Mods/LearnToPlay1/LearnToPlay1Tile.cs": "e229af7f2f258c0ea06f877fa529a5fd3a1efcbb19a868ebf54aef5df659e89e",
+    "Reference/Source/Mods/LearnToPlay1/LearnToPlay1Unit.cs": "262c45a3f9dfe4206488cb2428cc495de5bda99ace3c371510208b9a8678b905",
+    "Reference/Source/Mods/LearnToPlay2/LearnToPlay2Character.cs": "d96cfe25eb250af6f75b4ce8e6aa1a1b8d30f8f741fea45edf0ed7b2915f49ae",
+    "Reference/Source/Mods/LearnToPlay2/LearnToPlay2City.cs": "013e92cfa8949c2c7f701adcdacc136d632efd0a3b3a26f333e6b1aa9ad95e3e",
+    "Reference/Source/Mods/LearnToPlay2/LearnToPlay2ClientManager.cs": "3f1b4d29dcefa723020e27055d1ade235c1c4a966cc17b07bad2b0f9651b1377",
+    "Reference/Source/Mods/LearnToPlay2/LearnToPlay2ClientRenderer.cs": "93c2039161c8e253fc889ecf364446216a8a5c0636cf4ac4a5714f84d1c160fa",
+    "Reference/Source/Mods/LearnToPlay2/LearnToPlay2ClientUI.cs": "cb2a3f6b149c005be1afd5571525c274e49ec95679b7c6fa50d9f7d23a64d1eb",
+    "Reference/Source/Mods/LearnToPlay2/LearnToPlay2EntryPoint.cs": "c2becee412b2b9516703b94b9fdc688c77476dcd4a49aa29a8b6b021e4d5ab8b",
+    "Reference/Source/Mods/LearnToPlay2/LearnToPlay2Game.cs": "5ceabb87be14f242cfc1a11c220f208453df721c6f689472cd84836804469ae4",
+    "Reference/Source/Mods/LearnToPlay2/LearnToPlay2GameFactory.cs": "332ea2f8a45594b03299225f8cd771e126a47d7bbeeeddba396c76706c2abf20",
+    "Reference/Source/Mods/LearnToPlay2/LearnToPlay2HelpText.cs": "407faa70c0ec71e61d58b617162615983e0b440922b7ec9b1544787b37718b41",
+    "Reference/Source/Mods/LearnToPlay2/LearnToPlay2Player.cs": "4d9759dc3a081e2b6db59fde51352498d9ccb7dcca11a25a6438fdbd3491ed48",
+    "Reference/Source/Mods/LearnToPlay2/LearnToPlay2Tile.cs": "463c678ddfc32c5a05984915f29030d1db31614b326d4e54462430cc1a2abe78",
+    "Reference/Source/Mods/LearnToPlay2/LearnToPlay2Unit.cs": "226ce236305d1d03d70214993a9329fc3c070909769731194aaf43592e7240b3",
+    "Reference/Source/Mods/LearnToPlay3/LearnToPlay3Character.cs": "c83a3fe13535b6e3017434d0055fa40ab16449baa6ed4b49229dc8c4e1612e32",
+    "Reference/Source/Mods/LearnToPlay3/LearnToPlay3City.cs": "d1b2ff509013eadb5b31c6088b8a26d7f1455da45118840acbc5238632993c4f",
+    "Reference/Source/Mods/LearnToPlay3/LearnToPlay3ClientUI.cs": "24a653fc8d91799b1399292a57b6997a3caa5799cbcea6428ee441b25cb2d0a8",
+    "Reference/Source/Mods/LearnToPlay3/LearnToPlay3EntryPoint.cs": "e42539e18498e34e6bf0a199575f9d8cdf54112f9330379a58fc58f3c4762797",
+    "Reference/Source/Mods/LearnToPlay3/LearnToPlay3Game.cs": "1a13ea2743dc41c06ae9791089ff334660066ee033337b8c25e4839c4dc01ce1",
+    "Reference/Source/Mods/LearnToPlay3/LearnToPlay3GameFactory.cs": "b88e044bc1a8349b0ff7d2ea0656779c3a163dc3ee00da9f8220e9d09519e8d5",
+    "Reference/Source/Mods/LearnToPlay3/LearnToPlay3HelpText.cs": "19084c554fb45b1ec2a3332022c58ae6ac11342dd65d317550ea337be2f60f14",
+    "Reference/Source/Mods/LearnToPlay3/LearnToPlay3InfoBase.cs": "34da239ec5dec65b72759ac5d0aafdf4d94b51a318330185e6fc73262051e886",
+    "Reference/Source/Mods/LearnToPlay3/LearnToPlay3Player.cs": "a46016c4a251cb08905122e25194511abf094b399713bb0ffe4fad898b8e705b",
+    "Reference/Source/Mods/LearnToPlay3/LearnToPlay3Unit.cs": "545df9eafd5aca57832f2508f531a4333de27b266c1dddecb523b96f32dbf37a",
+    "Reference/Source/Mods/LearnToPlay4/LearnToPlay4Character.cs": "48f06e49f50796cbb4dc2811b106b85a8bb7a3ec1d8e2d6b1bcd1b44611dc9c2",
+    "Reference/Source/Mods/LearnToPlay4/LearnToPlay4City.cs": "07a029a4094ca5e15190a5ff6b2f143c53295efe7932f29f1aedbcab6fa912ac",
+    "Reference/Source/Mods/LearnToPlay4/LearnToPlay4ClientRenderer.cs": "32390082daf704535d54c65f2289f57fb713c869a01243f10f0d7b752ec1f3f8",
+    "Reference/Source/Mods/LearnToPlay4/LearnToPlay4ClientUI.cs": "7fd9ce78d6c3137a2889b1dab5745c1763136404ea4203ebe7353dd91f9343ff",
+    "Reference/Source/Mods/LearnToPlay4/LearnToPlay4EntryPoint.cs": "d7b4e421832b565930966b4f1d7276242dbf524fdaa595e4adda109b3402eab2",
+    "Reference/Source/Mods/LearnToPlay4/LearnToPlay4Game.cs": "dc0c719d675f59a3f495f77510fdc06f4505fa3a1b058659223bb5e99b301e8c",
+    "Reference/Source/Mods/LearnToPlay4/LearnToPlay4GameFactory.cs": "96101e99b750e331da0e574a4d370407d3fcdf41fe547a8d2af4dd1fa1347549",
+    "Reference/Source/Mods/LearnToPlay4/LearnToPlay4HelpText.cs": "705d2d4c5a784006f37e273998f6fafea24fd29087702c82d1d9225e4634c5e6",
+    "Reference/Source/Mods/LearnToPlay4/LearnToPlay4InfoBase.cs": "e59c4af7a872426b8e3c6d63fed54e123121d49a2550941ee4af6a9e4eb0d4c7",
+    "Reference/Source/Mods/LearnToPlay4/LearnToPlay4Player.cs": "13c1c6e36b3988e099d71f4850dc6d2d176d414f50c9d06875a240e05a493c0a",
+    "Reference/Source/Mods/LearnToPlay4/LearnToPlay4PlayerAI.cs": "38ee99762302e91cf3d56842757ea2d576d9ab924497def41bb0ef8de78fc449",
+    "Reference/Source/Mods/LearnToPlay4/LearnToPlay4Tile.cs": "7301d957f8b541fb580ee04c68050a079dd5d035e2020203d1cdb7b24af90521",
+    "Reference/Source/Mods/LearnToPlay4/LearnToPlay4Tribe.cs": "aa5e9624997330694c697882559be1dda7babb697323b0f742f1aa9515b833f4",
+    "Reference/Source/Mods/LearnToPlay4/LearnToPlay4Unit.cs": "b55bee1461825e126acecf2e617a205f0a450a23ec54b55d12b7e850d9e740cb",
+    "Reference/Source/Mods/LearnToPlay5/LearnToPlay5City.cs": "6b13a668ad97e6f0b818b105ad6421c0a0b16419f3d983beb72d3b11580b7662",
+    "Reference/Source/Mods/LearnToPlay5/LearnToPlay5ClientRenderer.cs": "be61ce522a0cf6217399fd7c3024df0b18ef10ba7c1737f2789b5cf5f8513656",
+    "Reference/Source/Mods/LearnToPlay5/LearnToPlay5ClientUI.cs": "c2edbea22d4d7792ac5bd30a85954b554936ad8dbd339615a259bd7c6b9d6989",
+    "Reference/Source/Mods/LearnToPlay5/LearnToPlay5EntryPoint.cs": "818fded2d90310e31689fe158a75f2675fb2ead8dfe3d302064a57987b9012c9",
+    "Reference/Source/Mods/LearnToPlay5/LearnToPlay5Game.cs": "ce0e65c78a64c8d59d70403c3e0e65a3682aca12d396cce220ec5579f5374130",
+    "Reference/Source/Mods/LearnToPlay5/LearnToPlay5GameFactory.cs": "0bb595e14eeabaef135d77ad1914896e9f8a557cc24271cda4606c99232085f0",
+    "Reference/Source/Mods/LearnToPlay5/LearnToPlay5HelpText.cs": "ce84b83ef4561267829742e89dae4151481d66d41c0eeca1ae4183833076059c",
+    "Reference/Source/Mods/LearnToPlay5/LearnToPlay5Player.cs": "6e5f79589b3ada7f3f04d52e9a79226b808885b50825a7a740b64f9b20fc4b04",
+    "Reference/Source/Mods/LearnToPlay5/LearnToPlay5Tile.cs": "c6e81c2dd03fc36a202045d310f45a72eb4a2c776d35a41f10d5547463fae1d2",
+    "Reference/Source/Mods/LearnToPlay5/LearnToPlay5UnitAI.cs": "ac764052bb600c5c4771a1bae5d5493ebe0bc194534d0d87344b021beba812f0",
+    "Reference/XML/Infos/achievement.xml": "63e0e16dedb35eb03ef5be426e9d2de23f69ede0bcfbfe57e48fbc7661d33a61",
+    "Reference/XML/Infos/difficultyMode.xml": "8e64b020b870d8bf12f77ee92f185e6d77268362cac075e73c20986f66f27b54",
+    "Reference/XML/Infos/scenario.xml": "b8e25120dd142232bf7eae7fd2e28d95eda41ed4247aac54a3f523e537673e87",
+    "Reference/XML/Infos/subject.xml": "0fe5daa8d702d340a81e59ff1cf0568d676b9ebddb1dc6585a4eb54251410ba7",
+    "Reference/XML/Infos/text-infos.xml": "f74736a9a0dc5ed0c94552b6dadff73196b279fa36d8800b5b613d16415b2aba",
+    "Reference/XML/Mods/Barbarian/Infos/bonus-event-add.xml": "5e0263dee9e97405cb72bcad6a33fe99c6d10652ec4132306082c5411bb2fe55",
+    "Reference/XML/Mods/Barbarian/Infos/concept-add.xml": "fd19c2fde89aa2f1b890c4cdc37e97b80248263afe502981f3d0096f27a569bd",
+    "Reference/XML/Mods/Barbarian/Infos/council-change.xml": "a1a68c2bafb7cb9b995002cae9ad58c32308caf2b1c11cd38771ef646c0f2590",
+    "Reference/XML/Mods/Barbarian/Infos/difficulty-change.xml": "b8c1eb80a851d2ee1151bd304602226017b63be091596b9cf57ee7069af3e144",
+    "Reference/XML/Mods/Barbarian/Infos/difficultyModification.xml": "f244c6d160b68c8630f706677ef310018347b8b5780f8e94878ac908cfb7cd7f",
+    "Reference/XML/Mods/Barbarian/Infos/effectCity-change.xml": "d9b608f82e009103a31097c6626be455ada8b4c5be977b09e5d9117ed9688f64",
+    "Reference/XML/Mods/Barbarian/Infos/eventLink-add.xml": "914f5881c6fdbdd91add5bba8dd34c404230e6dbf57b0a8527f1d24a87207d3a",
+    "Reference/XML/Mods/Barbarian/Infos/eventOption-add.xml": "c7ccf120626a99ed4735a89b9f961511a7507367e711e95d0a5bc21b1d560e3c",
+    "Reference/XML/Mods/Barbarian/Infos/eventStory-add.xml": "6e99bfd2604ecaac50b013f9a4ca2c113b5d238a9821dde892b5f05fb7d20da8",
+    "Reference/XML/Mods/Barbarian/Infos/eventStory-change.xml": "1e0adb957f30ae9c9dc60decced1bf02327de47557c500344fcf5f5e82ad0982",
+    "Reference/XML/Mods/Barbarian/Infos/eventTrigger-add.xml": "97e3128ec36c0b2402e6f9da6b7c93fff562771ef3c882eec3dfc804290af8ba",
+    "Reference/XML/Mods/Barbarian/Infos/genderedText-add.xml": "a987cb4c60d0864268f5e2d4afc95f126152e9c0ea50c0deec039b1c3484b67d",
+    "Reference/XML/Mods/Barbarian/Infos/globalsInt-add.xml": "6983a362302d8124acf8842ea10ae23ac36b79f8b756ca075dbd496db1c4e6b4",
+    "Reference/XML/Mods/Barbarian/Infos/globalsInt-change.xml": "70d3fe22ba20a68f9d4ca7e0633b57e8e46f561d9d40c8fa3efd5b99b04145c0",
+    "Reference/XML/Mods/Barbarian/Infos/globalsType-change.xml": "038c452b5c487f5643785208604435406cfbd29d354086705cac3172d4c68548",
+    "Reference/XML/Mods/Barbarian/Infos/improvement-change.xml": "51d03eed1a2f0ef760f12f456d7ff018cf6a6f8a028df1dd41f744a694a4d0f5",
+    "Reference/XML/Mods/Barbarian/Infos/mapOption-add.xml": "24650e50f50e7692eb57d47c2d5b3ef3f2c54b8824f67d1b981423a767174406",
+    "Reference/XML/Mods/Barbarian/Infos/mapOptionsMulti-add.xml": "ff7a91a2fff8c76452790810a1165c1889180179eb145f0519e1e0bfd0dd4815",
+    "Reference/XML/Mods/Barbarian/Infos/mapOptionsMulti-change.xml": "7674ae2bf870db5b9ce8a9a77492204a6670a107b52159f209eeb0493ba09bb7",
+    "Reference/XML/Mods/Barbarian/Infos/memory-family-add.xml": "df194739adf355668aa081f0318bcae2bb1e028779abfd838476de2892e18bff",
+    "Reference/XML/Mods/Barbarian/Infos/memory-religion-add.xml": "3d287147cc41585476b45eea03be7e311c0a186d03e69e68b7fdfb824f07b56d",
+    "Reference/XML/Mods/Barbarian/Infos/memory-tribe-add.xml": "1826fb70eb1ad04d777d30a43bf850d7148f02874ae40f1fcc806fd12dc86bea",
+    "Reference/XML/Mods/Barbarian/Infos/mission-change.xml": "9b6df9cb990bf12fdf8506c2d2f884c171e2884439bac335f33ee935bba33eda",
+    "Reference/XML/Mods/Barbarian/Infos/preload-text-add.xml": "f6a9fa1349e1fa82cd8791ca87ec4e23203c8ed721bb5b93f66d8dba37c3806b",
+    "Reference/XML/Mods/Barbarian/Infos/religion-change.xml": "81d640ddc746373dc52d510063e538e643caa3b1436d6d6c8821de18d71a0030",
+    "Reference/XML/Mods/Barbarian/Infos/text-barbarian-misc.xml": "543ec9c5a762cad14e06cdfe2d7de137ef431a57643ed0adf7d2cec016543af5",
+    "Reference/XML/Mods/Barbarian/Infos/text-eventOption-add.xml": "3ade6d1f188f813d5d9d1268d80778e95e245245eac74d6cb6b48f83616bc3b4",
+    "Reference/XML/Mods/Barbarian/Infos/text-eventOption-change.xml": "599d6967202ce9087b0f75a5385d536980adfae1d2b4b551c215f9cfb4c47269",
+    "Reference/XML/Mods/Barbarian/Infos/text-eventStory-add.xml": "1257361bf918b46fec65c63396958ed528d28602da36c3aac2e9d11a3d916028",
+    "Reference/XML/Mods/Barbarian/Infos/text-eventStoryTitle-add.xml": "c4476387fdddccee7ec3725ff6e639495ab4f2428831794464ec0baef74705fc",
+    "Reference/XML/Mods/Barbarian/Infos/text-eventStoryTitle-change.xml": "af7aa41fadd27e0b5b130bc3a3d4fd2b9d75f82f5f0bbfc69c83cfba8b44cb3a",
+    "Reference/XML/Mods/Barbarian/Infos/tribalOrganization.xml": "4a4d2ee19cd231b517377eeb938b0104ce0c7340d4336883778f788d4305fc5f",
+    "Reference/XML/Mods/Barbarian/Infos/tribe-change.xml": "9d7310936ad557545841f13c7e1661daae7bf6af42fc770948256c6f8c48fc45",
+    "Reference/XML/Mods/Barbarian/Infos/tribeLevel-change.xml": "69a6b951b3136cc3582c59b95d603ee519d21ed6d1909883ebda6b9f7958e844",
+    "Reference/XML/Mods/Barbarian/Infos/tribeLevelModification.xml": "408786410b48664d0c796df271624ae2e37fa307dfe9d2ec6d16c8374651e70a",
+    "Reference/XML/Mods/Barbarian/Infos/uprisingTime.xml": "c724295e8b4bbfbc2b9e93b5af88a6fee8436acacb373864d054c51f3db85852",
+    "Reference/XML/Mods/Barbarian/Infos/victory-add.xml": "cfbb5831ece4883b6a3d4477f3d15f5f0fc6c75a45938d3cfea95a178525f21f",
+    "Reference/XML/Mods/Barbarian/ModInfo.xml": "b79593256a97c90ed934cfd7d66ee3ae9984a78d1a46c54ef01ffaa53615117c",
+    "Reference/XML/Mods/LearnByPlaying1/Maps/LBP-BabylonTheAble.xml": "82222e0f2e6a5f0129f46f026a81b0ebc4b7b42b819804a363dcbaa8320fa092",
+    "Reference/XML/Mods/LearnByPlaying1/ModInfo.xml": "738d673437d0aabbbb48a6894e696c54b2ad7aea4a510ae64c204fceb7252f15",
+    "Reference/XML/Mods/LearnByPlaying2/Maps/LBP-EgyptTheJust.xml": "bb497d53802d1578d2afff2e39f8e50dc26f0fbe20c827736b29fbc6cc2a9a50",
+    "Reference/XML/Mods/LearnByPlaying2/ModInfo.xml": "175d56ccff265469b25a2831fd81e7f08a5b86db49358363e3b969221573dd10",
+    "Reference/XML/Mods/LearnByPlaying3/Maps/LBP-PersiaTheGood.xml": "6ed4ca99ec7fba4c0573cc8e833adef720214703447145e33aa64e4f4ae47f65",
+    "Reference/XML/Mods/LearnByPlaying3/ModInfo.xml": "98a62a27db8f08afad3bc945e82b8debf64d32efbb7051baedd1324ae3ef1fce",
+    "Reference/XML/Mods/LearnByPlaying4/Maps/LBP-RomeTheStrong.xml": "2e6b1f5ddb44e24d8e2d5f50ca9f70e4426f93e334a5b4251930b907fa5d2aeb",
+    "Reference/XML/Mods/LearnByPlaying4/ModInfo.xml": "0ab9b34e0e217638cce7bcd7b43a9504d8e40498320c9d416efc892117268b1b",
+    "Reference/XML/Mods/LearnToPlay1/Infos/bonus-event-add.xml": "fcca31c9e02474f6809a742da0cd619fadce44c8769c82eb20fcda19d12fe45c",
+    "Reference/XML/Mods/LearnToPlay1/Infos/eventClass-add.xml": "cd1c31dd7acc8fd88c00fa4d10ca63b481fd322ad95c653ceb5a8121c4b58806",
+    "Reference/XML/Mods/LearnToPlay1/Infos/eventLink-add.xml": "647313b568ef974f2448c3f89c53cb7b43129838254ac2720f35c7cea59e0497",
+    "Reference/XML/Mods/LearnToPlay1/Infos/eventOption-add.xml": "17a694885038c29de6aa7091aec80f5a9e9139ed13b9ae41537ad9055a5c0996",
+    "Reference/XML/Mods/LearnToPlay1/Infos/eventStory-add.xml": "5f4ab4ab60f312704b3ea1b4c7cc62a00d7d2aaee9776d07ec27d2caed0cc7bf",
+    "Reference/XML/Mods/LearnToPlay1/Infos/eventTrigger-add.xml": "2fc59be30ad5a7c40c9013f7c7db002ca9f8451e5806207f37473d5457306073",
+    "Reference/XML/Mods/LearnToPlay1/Infos/globalsAI-change.xml": "6a7094312a158c2e12f8fccbb26bea95cbb1f5078f916382d109062aafec0a2c",
+    "Reference/XML/Mods/LearnToPlay1/Infos/globalsInt-change.xml": "60ba3d55e5c4c42d0b6fd88fd164583cdc429d1d2124bde84b543bcb6e1d24ea",
+    "Reference/XML/Mods/LearnToPlay1/Infos/goal-add.xml": "dbadf216f3a735dcb97a8c7dceb36cfa8528bbb1a28ebe420a4024ed10c3b983",
+    "Reference/XML/Mods/LearnToPlay1/Infos/subject-add.xml": "15724ab7624e3b37da59d44ac1d33a11a1712e8984f0c0baf0c51de9637c7f86",
+    "Reference/XML/Mods/LearnToPlay1/Infos/text-learnToPlay1.xml": "3327b7247f1aaa2c676b7f64df06e1f5214beb88336f4930c8415c9ccb78b479",
+    "Reference/XML/Mods/LearnToPlay1/Infos/unit-change.xml": "926a84bf796be0efa2e01754f90a6af564dc2a44faa76cfc7a17e1bfbd86122c",
+    "Reference/XML/Mods/LearnToPlay1/ModInfo.xml": "5eee3f07536f46c8b28409e0abf5aa37f363d005d4e100c42156d9915849bf4d",
+    "Reference/XML/Mods/LearnToPlay2/Infos/bonus-change.xml": "146bfca6e18765d63f212d9ae255dbad483e2665ccf96d506ce4e85dc21a31a6",
+    "Reference/XML/Mods/LearnToPlay2/Infos/bonus-event-add.xml": "e9fe0e6c3cd4d4f3eca184fd7daa2ed74e4d18967d9e499a82dfcc21e3152f7a",
+    "Reference/XML/Mods/LearnToPlay2/Infos/eventClass-add.xml": "cd1c31dd7acc8fd88c00fa4d10ca63b481fd322ad95c653ceb5a8121c4b58806",
+    "Reference/XML/Mods/LearnToPlay2/Infos/eventLink-add.xml": "a5fc7b56488e693e2e8a02d0bdf493efe74b96aa4202a941b6eb4cee25b05127",
+    "Reference/XML/Mods/LearnToPlay2/Infos/eventOption-add.xml": "9684e0925a31efc093c827506a25b6659ae5d41e19762549f10b7e7b3a632b3b",
+    "Reference/XML/Mods/LearnToPlay2/Infos/eventStory-add.xml": "4f0f8e2aa9479ce4273c31434760ce4d8269ea56844db3fb27291c7c1b669eaf",
+    "Reference/XML/Mods/LearnToPlay2/Infos/eventTrigger-add.xml": "cbb9f51f8e470c3e34033945615493079eba5ff4427e8e86f0e0fa5fb231e9e4",
+    "Reference/XML/Mods/LearnToPlay2/Infos/familyClass-change.xml": "78b7cf818e5c5db3f12d93b37ec091c1a1af110d4ac88ecced8081e3f9f377d8",
+    "Reference/XML/Mods/LearnToPlay2/Infos/globalsAI-change.xml": "6a7094312a158c2e12f8fccbb26bea95cbb1f5078f916382d109062aafec0a2c",
+    "Reference/XML/Mods/LearnToPlay2/Infos/globalsInt-change.xml": "f276d6fb6db28e4d77b275b4d9fb85409c8c8e1cb87b990ad66df1e1ea7db28c",
+    "Reference/XML/Mods/LearnToPlay2/Infos/goal-add.xml": "9b08f99af6f8a444c2b9b34e39efe5402c65d0932e2025e917aec4bc1e32e78d",
+    "Reference/XML/Mods/LearnToPlay2/Infos/mission-change.xml": "2414192bf202a9453d4a6b4ea818f3ae9b3c277e1a378e15a92f4c46896705c9",
+    "Reference/XML/Mods/LearnToPlay2/Infos/nation-change.xml": "682170e2cfdaf22eb4bb07c53f1e4464f7970eeeaf8ebd3bbcdd3c5007ae0280",
+    "Reference/XML/Mods/LearnToPlay2/Infos/tech-change.xml": "c903b7a6d96c65a708efd9789e4e1198e6e304adcaa0b88efa1d0d93af3b859f",
+    "Reference/XML/Mods/LearnToPlay2/Infos/text-learnToPlay2.xml": "369eab660b6fe9bf4a1036af42154eedc4a28501529f60a8111935c22a4aec92",
+    "Reference/XML/Mods/LearnToPlay2/Infos/unit-change.xml": "b031f0a2d60bda68a65956fcbd02a574ed76263566ebda82d57e25a1a387edd0",
+    "Reference/XML/Mods/LearnToPlay2/ModInfo.xml": "b56795fe4dfa08fd377eb88c48641b7c1591057c64750b9184b4699e8c37f186",
+    "Reference/XML/Mods/LearnToPlay3/Infos/bonus-change.xml": "a04a33854313122ac4b9c1d807fa74bc83f023467309e8b197b151acbb908097",
+    "Reference/XML/Mods/LearnToPlay3/Infos/bonus-event-add.xml": "bd89d97fb3f01c46433c3fb1c8735728b639778629b8aa3705b0f0230309e4ce",
+    "Reference/XML/Mods/LearnToPlay3/Infos/eventClass-add.xml": "cd1c31dd7acc8fd88c00fa4d10ca63b481fd322ad95c653ceb5a8121c4b58806",
+    "Reference/XML/Mods/LearnToPlay3/Infos/eventOption-add.xml": "06e5703caa4d7dcfe18b6880050203b04e434c697383f41b04f330d0cf0973ca",
+    "Reference/XML/Mods/LearnToPlay3/Infos/eventStory-add.xml": "577c2c6eb459e990662c11f9fa4a32c66b2621508eb9eba835c82d3497f6e9fd",
+    "Reference/XML/Mods/LearnToPlay3/Infos/eventTrigger-add.xml": "30bb61c903e38f6f6b8a359a956049e2f46b53b3981e15b70885c5d6015d058e",
+    "Reference/XML/Mods/LearnToPlay3/Infos/globalsAI-change.xml": "6a7094312a158c2e12f8fccbb26bea95cbb1f5078f916382d109062aafec0a2c",
+    "Reference/XML/Mods/LearnToPlay3/Infos/globalsInt-change.xml": "f6138ca6434dda11fec18e2706ced80dd1cc0c6afc90021a6fd8edd6dd4c3739",
+    "Reference/XML/Mods/LearnToPlay3/Infos/globalsType-add.xml": "d08d412b236d1a444bbb535262ff893bcb1ca8c78d0b4fbf85a67d04a9055fea",
+    "Reference/XML/Mods/LearnToPlay3/Infos/goal-add.xml": "1654f3d591c20794e9448550518a97b4aef4570a6cee0b0d3da5c7d5658a4e4c",
+    "Reference/XML/Mods/LearnToPlay3/Infos/mission-change.xml": "1dad84e1459e89e187fa4d46bcc835993b3a66ffe82c24857e0ba8eaf3a93873",
+    "Reference/XML/Mods/LearnToPlay3/Infos/nation-change.xml": "682170e2cfdaf22eb4bb07c53f1e4464f7970eeeaf8ebd3bbcdd3c5007ae0280",
+    "Reference/XML/Mods/LearnToPlay3/Infos/stat-add.xml": "f22e47a4b1f6b43faf2dc19b3b752d863290b67ff6025c25700953bd79da906a",
+    "Reference/XML/Mods/LearnToPlay3/Infos/subject-add.xml": "40257a3ac30fcf49b9075af1b9316e1f1991303507e70b2ba768245470e71a07",
+    "Reference/XML/Mods/LearnToPlay3/Infos/text-learnToPlay3.xml": "0e970e2bd3656db351c3e80a4ea87f11a01a54466c1f994ff327fd070540b7f5",
+    "Reference/XML/Mods/LearnToPlay3/Infos/trait-change.xml": "095043f01cf5b82eac5f213f32c2f480794f089d4dce2566570a1979fca75e7c",
+    "Reference/XML/Mods/LearnToPlay3/ModInfo.xml": "6279b16e3f2e8a2d917183ed4eadd06b1dac6bc1494de099a48dc29ceb6cfa11",
+    "Reference/XML/Mods/LearnToPlay4/Infos/bonus-event-add.xml": "505ad12a943ebe48d487b7c0f8a07d206afb72c4c7facf7041ae03ccd99bbca4",
+    "Reference/XML/Mods/LearnToPlay4/Infos/eventClass-add.xml": "cd1c31dd7acc8fd88c00fa4d10ca63b481fd322ad95c653ceb5a8121c4b58806",
+    "Reference/XML/Mods/LearnToPlay4/Infos/eventLink-add.xml": "9b1535284ae9f4f01d0a4850e15200e61bd2b17d0d5c36aed6c2c6ef45d17736",
+    "Reference/XML/Mods/LearnToPlay4/Infos/eventOption-add.xml": "c800952e17101529d67a72dff875cf1623d1b2ca887c490b35951fa86a6a6936",
+    "Reference/XML/Mods/LearnToPlay4/Infos/eventStory-add.xml": "14f6fc213b691c5475d88dd57ad98bd14a0a95693e05dba4fb5bea2b8eaa02ce",
+    "Reference/XML/Mods/LearnToPlay4/Infos/eventTrigger-add.xml": "b0ce4655ea76cf937f44ccb595e3e26efb66123b72d5d942314aa5a29057f2f2",
+    "Reference/XML/Mods/LearnToPlay4/Infos/globalsAI-change.xml": "6a7094312a158c2e12f8fccbb26bea95cbb1f5078f916382d109062aafec0a2c",
+    "Reference/XML/Mods/LearnToPlay4/Infos/globalsInt-change.xml": "c1a785c563454d95d55d7d42d9fdfb852c4c7d46f490dcbb61d82e2413a958d8",
+    "Reference/XML/Mods/LearnToPlay4/Infos/globalsType-add.xml": "014b498e981be86271ff9f82fd7754c8f403f6ed43a8ad924a8862761f411903",
+    "Reference/XML/Mods/LearnToPlay4/Infos/goal-add.xml": "8939e36ba2424a22169505a91fc305134d6248f3cf4cc5cdb60a0d3e24ea9abd",
+    "Reference/XML/Mods/LearnToPlay4/Infos/mission-change.xml": "2414192bf202a9453d4a6b4ea818f3ae9b3c277e1a378e15a92f4c46896705c9",
+    "Reference/XML/Mods/LearnToPlay4/Infos/nation-change.xml": "682170e2cfdaf22eb4bb07c53f1e4464f7970eeeaf8ebd3bbcdd3c5007ae0280",
+    "Reference/XML/Mods/LearnToPlay4/Infos/preload-text-add.xml": "0df71d9200aedf6867a2caa2a78bde4e8f8fa1145a0a6185346886adec6705dc",
+    "Reference/XML/Mods/LearnToPlay4/Infos/stat-add.xml": "dcfc62036b51430ba6cabc77d937d7deb4d09ad3ddcd1aef147c845076c53730",
+    "Reference/XML/Mods/LearnToPlay4/Infos/subject-add.xml": "d4189c21dc46b2f784eda530e79a99f6a1514d38448832af397620b84be81bcd",
+    "Reference/XML/Mods/LearnToPlay4/Infos/tech-change.xml": "647ea12d64f757999a8a15e2a4d61f7b05d550eed12d7f40bfb0528397a8f4d9",
+    "Reference/XML/Mods/LearnToPlay4/Infos/text-learnToPlay4.xml": "895b153b96a151f12aab72464567339051e97c2ea7d807d4845e84472b2c816d",
+    "Reference/XML/Mods/LearnToPlay4/Infos/unit-change.xml": "f3e16326186a0f69a216564f141ccd04ee4a55730690152e8404e445b419b8ec",
+    "Reference/XML/Mods/LearnToPlay4/ModInfo.xml": "dac59c71cbc44e0a5142f933a22a4bebe8631e503824225edca04e0353389793",
+    "Reference/XML/Mods/LearnToPlay5/Infos/bonus-event-add.xml": "5578d602f889877271461a26b23ec9af1c23b76377e4d0512c48c2d5c505d78a",
+    "Reference/XML/Mods/LearnToPlay5/Infos/eventLink-add.xml": "2e024c17d3f19274747d79986e7d5d1b82801778558cc1f48e845efcdef789c4",
+    "Reference/XML/Mods/LearnToPlay5/Infos/eventOption-add.xml": "1a087f326e25745037b8eeb8aa97798bfa10ce69c1c59a98b8f4b5c3221994a8",
+    "Reference/XML/Mods/LearnToPlay5/Infos/eventStory-add.xml": "10543c7a0e4ce3c7bd75d0625f36e8f5966d6fe1a19f01a8e3b520cf5ec4ddf3",
+    "Reference/XML/Mods/LearnToPlay5/Infos/eventTrigger-add.xml": "7cf06d293ae23d63aa5b7ef04f97d7c27861db99ce58d46a41e9a5f1549e54ae",
+    "Reference/XML/Mods/LearnToPlay5/Infos/globalsAI-change.xml": "6a7094312a158c2e12f8fccbb26bea95cbb1f5078f916382d109062aafec0a2c",
+    "Reference/XML/Mods/LearnToPlay5/Infos/globalsInt-change.xml": "1e364ceeb8431bff25ebd9127844256bc1555a8dc79946d5f7ab3189071cde10",
+    "Reference/XML/Mods/LearnToPlay5/Infos/goal-add.xml": "65380c375edd57b77607f8399c44fed54c658326971e5ceffd49a58f521a255e",
+    "Reference/XML/Mods/LearnToPlay5/Infos/improvement-change.xml": "13d69ee3eff8a83b31035cc84a84fc608b6f498c0d03267b2f94984c2ebdc55c",
+    "Reference/XML/Mods/LearnToPlay5/Infos/mission-change.xml": "2414192bf202a9453d4a6b4ea818f3ae9b3c277e1a378e15a92f4c46896705c9",
+    "Reference/XML/Mods/LearnToPlay5/Infos/nation-change.xml": "682170e2cfdaf22eb4bb07c53f1e4464f7970eeeaf8ebd3bbcdd3c5007ae0280",
+    "Reference/XML/Mods/LearnToPlay5/Infos/preload-text-add.xml": "f19342ad497e8d9900f3f7f491736c3e154a089519ecaa1ac9bc5b9a7d3526ec",
+    "Reference/XML/Mods/LearnToPlay5/Infos/text-learnToPlay5.xml": "16457943f784a866374e093207fae2b82a5b47e8b0b4c8c270f2f438e0f4d43f",
+    "Reference/XML/Mods/LearnToPlay5/Infos/unit-change.xml": "da262f6d8df0db5c08e540c08d11a541cc5987b9cdcb85f257995523aac54743",
+    "Reference/XML/Mods/LearnToPlay5/ModInfo.xml": "e224df275e4c00696f865b1d15ed18150531560a63a063b9aee5e0c40f2e3a59"
+  },
+  "records": [
+    {
+      "id": "a128",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_1",
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LEARNTOPLAY_1"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay1/Infos/bonus-event-add.xml",
+          "type": "BONUS_EVENTOPTION_LEARNTOPLAY1_9"
+        }
+      ],
+      "markedObtainedInAuthorExport": true,
+      "verification": "installed XML and source; no new gameplay test"
+    },
+    {
+      "id": "a127",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_2",
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LEARNTOPLAY_2"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay2/Infos/bonus-event-add.xml",
+          "type": "BONUS_EVENTOPTION_LEARNTOPLAY2_VICTORY"
+        }
+      ],
+      "markedObtainedInAuthorExport": true,
+      "verification": "installed XML and source; no new gameplay test"
+    },
+    {
+      "id": "a126",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_3",
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LEARNTOPLAY_3"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay3/Infos/bonus-event-add.xml",
+          "type": "BONUS_EVENTOPTION_LEARNTOPLAY3_VICTORY"
+        }
+      ],
+      "markedObtainedInAuthorExport": true,
+      "verification": "installed XML and source; no new gameplay test"
+    },
+    {
+      "id": "a125",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_4",
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LEARNTOPLAY_4"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay4/Infos/bonus-event-add.xml",
+          "type": "BONUS_EVENTOPTION_LEARNTOPLAY4_VICTORY"
+        }
+      ],
+      "markedObtainedInAuthorExport": true,
+      "verification": "installed XML and source; no new gameplay test"
+    },
+    {
+      "id": "a124",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_5",
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LEARNTOPLAY_5"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay5/Infos/bonus-event-add.xml",
+          "type": "BONUS_EVENTOPTION_LEARNTOPLAY5_EARLY_OUT"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay5/Infos/bonus-event-add.xml",
+          "type": "BONUS_EVENTOPTION_LEARNTOPLAY5_VICTORY"
+        }
+      ],
+      "markedObtainedInAuthorExport": true,
+      "verification": "installed XML and source; no new gameplay test"
+    },
+    {
+      "id": "a054",
+      "apiName": "ACHIEVEMENT_LBP1",
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LBP_ABLE"
+        }
+      ],
+      "markedObtainedInAuthorExport": true,
+      "verification": "installed XML and source; no new gameplay test"
+    },
+    {
+      "id": "a212",
+      "apiName": "ACHIEVEMENT_LBP2",
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LBP_JUST"
+        }
+      ],
+      "markedObtainedInAuthorExport": false,
+      "verification": "installed XML and source; no new gameplay test"
+    },
+    {
+      "id": "a246",
+      "apiName": "ACHIEVEMENT_LBP3",
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LBP_GOOD"
+        }
+      ],
+      "markedObtainedInAuthorExport": false,
+      "verification": "installed XML and source; no new gameplay test"
+    },
+    {
+      "id": "a258",
+      "apiName": "ACHIEVEMENT_LBP4",
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LBP_STRONG"
+        }
+      ],
+      "markedObtainedInAuthorExport": false,
+      "verification": "installed XML and source; no new gameplay test"
+    },
+    {
+      "id": "a353",
+      "apiName": "ACHIEVEMENT_BARBARIAN_INVASION_GREAT_RAGING",
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Barbarian/Infos/bonus-event-add.xml",
+          "type": "BONUS_BH_VICTORY_GREAT_RAGING"
+        }
+      ],
+      "markedObtainedInAuthorExport": false,
+      "verification": "installed XML and source; no new gameplay test"
+    },
+    {
+      "id": "a316",
+      "apiName": "ACHIEVEMENT_BARBARIAN_INVASION_MULTIPLAYER",
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Barbarian/Infos/bonus-event-add.xml",
+          "type": "BONUS_BH_VICTORY_MULTIPLAYER"
+        }
+      ],
+      "markedObtainedInAuthorExport": false,
+      "verification": "installed XML and source; no new gameplay test"
+    },
+    {
+      "id": "a250",
+      "apiName": "ACHIEVEMENT_BARBARIAN_INVASION",
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Barbarian/Infos/bonus-event-add.xml",
+          "type": "BONUS_BH_VICTORY"
+        }
+      ],
+      "markedObtainedInAuthorExport": false,
+      "verification": "installed XML and source; no new gameplay test"
+    }
+  ],
+  "limitations": [
+    "No new gameplay run.",
+    "Hotseat award for every participating slot is not established.",
+    "Tactical advice does not imply a playtested optimal route."
+  ]
+}

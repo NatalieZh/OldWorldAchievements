@@ -1,0 +1,351 @@
+{
+  "date": "2026-11-25",
+  "url": "https://steamcommunity.com/stats/597180/achievements/?l=russian",
+  "language": "russian",
+  "entries": [
+    {
+      "id": "a008",
+      "apiName": "ACHIEVEMENT_RELIGION_MANICHAEISM",
+      "steam": [
+        "Манихейство",
+        "Основать манихейство"
+      ]
+    },
+    {
+      "id": "a013",
+      "apiName": "ACHIEVEMENT_RELIGION_BUDDHISM",
+      "steam": [
+        "Буддизм",
+        "Основать буддизм"
+      ]
+    },
+    {
+      "id": "a018",
+      "apiName": "ACHIEVEMENT_THEOLOGY_ENLIGHTENMENT",
+      "steam": [
+        "Просветление",
+        "Основать просветление"
+      ]
+    },
+    {
+      "id": "a021",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_ROME",
+      "steam": [
+        "Римское язычество",
+        "Основать римское язычество"
+      ]
+    },
+    {
+      "id": "a027",
+      "apiName": "ACHIEVEMENT_THEOLOGY_DUALISM",
+      "steam": [
+        "Дуализм",
+        "Основать дуализм"
+      ]
+    },
+    {
+      "id": "a040",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_HITTITE",
+      "steam": [
+        "Хеттское язычество",
+        "Основать хеттское язычество"
+      ]
+    },
+    {
+      "id": "a044",
+      "apiName": "ACHIEVEMENT_ONE_TRUE_FAITH",
+      "steam": [
+        "Истинная вера",
+        "Иметь не менее 3 городов и распространить свою государственную религию на все свои города"
+      ]
+    },
+    {
+      "id": "a049",
+      "apiName": "ACHIEVEMENT_THEOLOGY_GNOSTICISM",
+      "steam": [
+        "Гностицизм",
+        "Основать гностицизм"
+      ]
+    },
+    {
+      "id": "a050",
+      "apiName": "ACHIEVEMENT_THEOLOGY_MYTHOLOGY",
+      "steam": [
+        "Мифология",
+        "Основать мифологию"
+      ]
+    },
+    {
+      "id": "a062",
+      "apiName": "ACHIEVEMENT_CULTURE_LEGENDARY",
+      "steam": [
+        "Легендарные города",
+        "Контролировать три легендарных города в одной игре"
+      ]
+    },
+    {
+      "id": "a065",
+      "apiName": "ACHIEVEMENT_POWER_TO_THE_PEOPLE",
+      "steam": [
+        "Власть народу",
+        "Сделать так, чтобы одновременно действовали законы «Свобода», «Конституция», «Свод законов» и «Терпимость»"
+      ]
+    },
+    {
+      "id": "a072",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_BABYLONIA",
+      "steam": [
+        "Вавилонское язычество",
+        "Основать вавилонское язычество"
+      ]
+    },
+    {
+      "id": "a082",
+      "apiName": "ACHIEVEMENT_CULTURE_STRONG",
+      "steam": [
+        "Сильные города",
+        "Контролировать четыре сильных города в одной игре"
+      ]
+    },
+    {
+      "id": "a086",
+      "apiName": "ACHIEVEMENT_PANTHEON_OF_GODS",
+      "steam": [
+        "Пантеон богов",
+        "Сделать так, чтобы одновременно действовали законы «Многобожие», «Божественное правление» и «Священная война»"
+      ]
+    },
+    {
+      "id": "a090",
+      "apiName": "ACHIEVEMENT_OLD_WORLD_ORDER",
+      "steam": [
+        "Старый мировой порядок",
+        "Сделать так, чтобы одновременно действовали законы «Эпос», «Рабство» и «Тирания»"
+      ]
+    },
+    {
+      "id": "a095",
+      "apiName": "ACHIEVEMENT_CULTURE_DEVELOPING",
+      "steam": [
+        "Развивающиеся города",
+        "Контролировать пять развивающихся городов в одной игре"
+      ]
+    },
+    {
+      "id": "a098",
+      "apiName": "ACHIEVEMENT_THEOLOGY_REDEMPTION",
+      "steam": [
+        "Искупление",
+        "Основать искупление"
+      ]
+    },
+    {
+      "id": "a102",
+      "apiName": "ACHIEVEMENT_RELIGION_CHRISTIANITY",
+      "steam": [
+        "Христианство",
+        "Основать христианство"
+      ]
+    },
+    {
+      "id": "a107",
+      "apiName": "ACHIEVEMENT_THEOLOGY_LEGALISM",
+      "steam": [
+        "Формализм",
+        "Основать формализм"
+      ]
+    },
+    {
+      "id": "a108",
+      "apiName": "ACHIEVEMENT_RELIGION_ZOROASTRIANISM",
+      "steam": [
+        "Зороастризм",
+        "Основать зороастризм"
+      ]
+    },
+    {
+      "id": "a110",
+      "apiName": "ACHIEVEMENT_RELIGION_JUDAISM",
+      "steam": [
+        "Иудаизм",
+        "Основать иудаизм"
+      ]
+    },
+    {
+      "id": "a112",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_CLERGY_COURT",
+      "steam": [
+        "Духовенство",
+        "Кто-нибудь из духовенства должен присоединиться ко двору (Божественное и мирское)"
+      ]
+    },
+    {
+      "id": "a113",
+      "apiName": "ACHIEVEMENT_STAT_TEN_LANDMARKS_NAME",
+      "steam": [
+        "Названия достопримечательностей",
+        "Дать названия десяти достопримечательностям в одной игре"
+      ]
+    },
+    {
+      "id": "a115",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_PERSIA",
+      "steam": [
+        "Персидское язычество",
+        "Основать персидское язычество"
+      ]
+    },
+    {
+      "id": "a129",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_GREECE",
+      "steam": [
+        "Греческое язычество",
+        "Основать греческое язычество"
+      ]
+    },
+    {
+      "id": "a131",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_EGYPT",
+      "steam": [
+        "Египетское язычество",
+        "Основать египетское язычество"
+      ]
+    },
+    {
+      "id": "a132",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_CARTHAGE",
+      "steam": [
+        "Карфагенское язычество",
+        "Основать карфагенское язычество"
+      ]
+    },
+    {
+      "id": "a139",
+      "apiName": "ACHIEVEMENT_TECH_ECONOMIC_REFORM",
+      "steam": [
+        "Экономическая реформа",
+        "Изучить технологию «Экономическая реформа»"
+      ]
+    },
+    {
+      "id": "a142",
+      "apiName": "ACHIEVEMENT_TECH_MILITARY_PRESTIGE",
+      "steam": [
+        "Престиж военной службы",
+        "Изучить технологию «Престиж военной службы»"
+      ]
+    },
+    {
+      "id": "a143",
+      "apiName": "ACHIEVEMENT_TECH_INDUSTRIAL_PROGRESS",
+      "steam": [
+        "Промышленный прогресс",
+        "Изучить технологию «Промышленный прогресс»"
+      ]
+    },
+    {
+      "id": "a146",
+      "apiName": "ACHIEVEMENT_THEOLOGY_VENERATION",
+      "steam": [
+        "Почитание",
+        "Основать почитание"
+      ]
+    },
+    {
+      "id": "a147",
+      "apiName": "ACHIEVEMENT_THEOLOGY_REVELATION",
+      "steam": [
+        "Прозрение",
+        "Основать прозрение"
+      ]
+    },
+    {
+      "id": "a152",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_ASSYRIA",
+      "steam": [
+        "Ассирийское язычество",
+        "Основать ассирийское язычество"
+      ]
+    },
+    {
+      "id": "a171",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_KUSH",
+      "steam": [
+        "Кушитское язычество",
+        "Основать кушитское язычество"
+      ]
+    },
+    {
+      "id": "a191",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_AKSUM",
+      "steam": [
+        "Аксумское язычество",
+        "Основать аксумское язычество"
+      ]
+    },
+    {
+      "id": "a195",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_GREAT_MAGE",
+      "steam": [
+        "Великий волхв",
+        "Найти великого волхва (Божественное и мирское)"
+      ]
+    },
+    {
+      "id": "a198",
+      "apiName": "ACHIEVEMENT_THE_WORD_OF_GOD",
+      "steam": [
+        "Слово божье",
+        "Сделать так, чтобы одновременно действовали законы «Единобожие», «Догматизм», «Иконопись» и «Паломничество»"
+      ]
+    },
+    {
+      "id": "a230",
+      "apiName": "ACHIEVEMENT_RELIGION_HINDUISM",
+      "steam": [
+        "Индуизм",
+        "Основать индуизм"
+      ]
+    },
+    {
+      "id": "a260",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_PILGRIMAGE",
+      "steam": [
+        "Паломничество",
+        "Один из ваших персонажей должен совершить паломничество (Божественное и мирское)"
+      ]
+    },
+    {
+      "id": "a287",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_ST_PAUL",
+      "steam": [
+        "Патриарх святой Павел",
+        "Сделать святого Павла патриархом христианства (Божественное и мирское)"
+      ]
+    },
+    {
+      "id": "a295",
+      "apiName": "ACHIEVEMENT_CALAMITIES_STEWARDS",
+      "steam": [
+        "Хранители земли",
+        "Контролировать троих хранителей земли (Wrath of Gods)"
+      ]
+    },
+    {
+      "id": "a401",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL",
+      "steam": [
+        "Религиозный раскол",
+        "Получить раскол во всех четырех мировых религиях одновременно (Божественное и мирское)"
+      ]
+    },
+    {
+      "id": "a402",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_FIVE_CULTS",
+      "steam": [
+        "Пять культов",
+        "Иметь пять культов (Божественное и мирское)"
+      ]
+    }
+  ]
+}

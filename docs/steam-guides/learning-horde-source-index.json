@@ -1,0 +1,448 @@
+{
+  "date": "2026-11-26",
+  "buildId": "26728102",
+  "count": 12,
+  "sourceRoot": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Old World",
+  "sourceSha256": {
+    "Reference/Source/Mods/Barbarian/BarbarianGame.cs": "5ae5223e665f6065aa5594ffe97ebab4a575aac67475f37545775b93ff811140",
+    "Reference/Source/Mods/LearnToPlay1/LearnToPlay1Game.cs": "00a4a2c0528e0118e0454acbf217e92e180853990d62db010697b714f52a4cfe",
+    "Reference/Source/Mods/LearnToPlay2/LearnToPlay2Game.cs": "5ceabb87be14f242cfc1a11c220f208453df721c6f689472cd84836804469ae4",
+    "Reference/Source/Mods/LearnToPlay3/LearnToPlay3Game.cs": "1a13ea2743dc41c06ae9791089ff334660066ee033337b8c25e4839c4dc01ce1",
+    "Reference/Source/Mods/LearnToPlay4/LearnToPlay4Game.cs": "dc0c719d675f59a3f495f77510fdc06f4505fa3a1b058659223bb5e99b301e8c",
+    "Reference/Source/Mods/LearnToPlay5/LearnToPlay5Game.cs": "ce0e65c78a64c8d59d70403c3e0e65a3682aca12d396cce220ec5579f5374130",
+    "Reference/XML/Infos/achievement.xml": "63e0e16dedb35eb03ef5be426e9d2de23f69ede0bcfbfe57e48fbc7661d33a61",
+    "Reference/XML/Infos/scenario.xml": "b8e25120dd142232bf7eae7fd2e28d95eda41ed4247aac54a3f523e537673e87",
+    "Reference/XML/Mods/Barbarian/Infos/bonus-event-add.xml": "5e0263dee9e97405cb72bcad6a33fe99c6d10652ec4132306082c5411bb2fe55",
+    "Reference/XML/Mods/Barbarian/Infos/eventStory-add.xml": "6e99bfd2604ecaac50b013f9a4ca2c113b5d238a9821dde892b5f05fb7d20da8",
+    "Reference/XML/Mods/LearnToPlay1/Infos/bonus-event-add.xml": "fcca31c9e02474f6809a742da0cd619fadce44c8769c82eb20fcda19d12fe45c",
+    "Reference/XML/Mods/LearnToPlay1/Infos/eventOption-add.xml": "17a694885038c29de6aa7091aec80f5a9e9139ed13b9ae41537ad9055a5c0996",
+    "Reference/XML/Mods/LearnToPlay1/Infos/eventStory-add.xml": "5f4ab4ab60f312704b3ea1b4c7cc62a00d7d2aaee9776d07ec27d2caed0cc7bf",
+    "Reference/XML/Mods/LearnToPlay2/Infos/bonus-event-add.xml": "e9fe0e6c3cd4d4f3eca184fd7daa2ed74e4d18967d9e499a82dfcc21e3152f7a",
+    "Reference/XML/Mods/LearnToPlay2/Infos/eventOption-add.xml": "9684e0925a31efc093c827506a25b6659ae5d41e19762549f10b7e7b3a632b3b",
+    "Reference/XML/Mods/LearnToPlay2/Infos/eventStory-add.xml": "4f0f8e2aa9479ce4273c31434760ce4d8269ea56844db3fb27291c7c1b669eaf",
+    "Reference/XML/Mods/LearnToPlay3/Infos/bonus-event-add.xml": "bd89d97fb3f01c46433c3fb1c8735728b639778629b8aa3705b0f0230309e4ce",
+    "Reference/XML/Mods/LearnToPlay3/Infos/eventOption-add.xml": "06e5703caa4d7dcfe18b6880050203b04e434c697383f41b04f330d0cf0973ca",
+    "Reference/XML/Mods/LearnToPlay3/Infos/eventStory-add.xml": "577c2c6eb459e990662c11f9fa4a32c66b2621508eb9eba835c82d3497f6e9fd",
+    "Reference/XML/Mods/LearnToPlay4/Infos/bonus-event-add.xml": "505ad12a943ebe48d487b7c0f8a07d206afb72c4c7facf7041ae03ccd99bbca4",
+    "Reference/XML/Mods/LearnToPlay4/Infos/eventOption-add.xml": "c800952e17101529d67a72dff875cf1623d1b2ca887c490b35951fa86a6a6936",
+    "Reference/XML/Mods/LearnToPlay4/Infos/eventStory-add.xml": "14f6fc213b691c5475d88dd57ad98bd14a0a95693e05dba4fb5bea2b8eaa02ce",
+    "Reference/XML/Mods/LearnToPlay5/Infos/bonus-event-add.xml": "5578d602f889877271461a26b23ec9af1c23b76377e4d0512c48c2d5c505d78a",
+    "Reference/XML/Mods/LearnToPlay5/Infos/eventOption-add.xml": "1a087f326e25745037b8eeb8aa97798bfa10ce69c1c59a98b8f4b5c3221994a8",
+    "Reference/XML/Mods/LearnToPlay5/Infos/eventStory-add.xml": "10543c7a0e4ce3c7bd75d0625f36e8f5966d6fe1a19f01a8e3b520cf5ec4ddf3"
+  },
+  "records": [
+    {
+      "id": "a128",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_1",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_LEARNTOPLAY_1",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_LEARNTOPLAY_1</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_LEARNTOPLAY_1_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_LEARNTOPLAY_1</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_LEARNTOPLAY_1</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LEARNTOPLAY_1",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_LEARNTOPLAY_1</zType>\n\t\t<Name>TEXT_SCENARIO_LEARNTOPLAY_1</Name>\n\t\t<SubTitle>TEXT_SCENARIO_LEARNTOPLAY_1_SUB</SubTitle>\n\t\t<ScenarioClass>SCENARIOCLASS_LEARNTOPLAY</ScenarioClass>\n\t\t<zIcon>HowToPlay_Thumbnail</zIcon>\n\t\t<zMapFile>Learn To Play One</zMapFile>\n\t\t<zModName>LearnToPlay1</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_LEARNTOPLAY_1</zValue>\n\t\t</azAchievements>\n\t\t<Nation>NATION_GREECE</Nation>\n\t\t<TeamNation>TEAMNATION_GAME_UNIQUE</TeamNation>\n\t\t<Difficulty>DIFFICULTY_ABLE</Difficulty>\n\t\t<TurnScale>TURNSCALE_YEAR</TurnScale>\n\t\t<TurnStyle>TURNSTYLE_STRICT</TurnStyle>\n\t\t<TurnTimer>TURNTIMER_NONE</TurnTimer>\n\t\t<OpponentLevel>OPPONENTLEVEL_PASSIVE</OpponentLevel>\n\t\t<DevelopmentLevel>DEVELOPMENT_NONE</DevelopmentLevel>\n\t\t<AdvantageLevel>ADVANTAGE_NONE</AdvantageLevel>\n\t\t<TribeLevel>TRIBELEVEL_NORMAL</TribeLevel>\n\t\t<SuccessionGender>SUCCESSIONGENDER_ABSOLUTE_COGNATIC</SuccessionGender>\n\t\t<SuccessionOrder>SUCCESSIONORDER_PRIMOGENITURE</SuccessionOrder>\n\t\t<MortalityLevel>MORTALITY_STANDARD</MortalityLevel>\n\t\t<EventLevel>EVENTLEVEL_LOW</EventLevel>\n\t\t<DisableOptions>1</DisableOptions>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay1/Infos/bonus-event-add.xml",
+          "type": "BONUS_EVENTOPTION_LEARNTOPLAY1_9",
+          "xml": "<Entry>\n\t\t<zType>BONUS_EVENTOPTION_LEARNTOPLAY1_9</zType>\n\t\t<Achievement>ACHIEVEMENT_LEARNTOPLAY_1</Achievement>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/LearnToPlay1/Infos/eventOption-add.xml",
+          "type": "EVENTOPTION_LEARNTOPLAY1_9_OKAY",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_LEARNTOPLAY1_9_OKAY</zType>\n\t\t<Text>TEXT_EVENTOPTION_LEARNTOPLAY1_9_OKAY</Text>\n\t\t<HelpText>TEXT_EVENTOPTION_LEARNTOPLAY1_9_HELP</HelpText>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_EVENTOPTION_LEARNTOPLAY1_9</zValue>\n\t\t</aeBonuses>\n\t\t<bMainMenu>1</bMainMenu>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay1/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_LEARNTOPLAY1_9",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_LEARNTOPLAY1_9</zType>\n\t\t<Name>TEXT_EVENTSTORY_LEARNTOPLAY1_9_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_LEARNTOPLAY1_9</Text>\n\t\t<zBackgroundName>Battle</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_TO_THE_VICTOR_STINGER</zAudioTrigger>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_LEARNTOPLAY1_9_OKAY</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_LEARNTOPLAY</Class>\n\t\t<Trigger>EVENTTRIGGER_GOAL_LEARNTOPLAY1_6</Trigger>\n\t\t<iPriority>10</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bIgnoreOptions>1</bIgnoreOptions>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bForceChoice>1</bForceChoice>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/LearnToPlay1/LearnToPlay1Game.cs",
+          "line": 363,
+          "context": "        public override bool isValidAchievement(AchievementType eAchievement, Player pPlayer, bool bHotseatCheck)\n        {\n            if (!base.isValidAchievement(eAchievement, pPlayer, bHotseatCheck))\n            {\n                return false;\n            }\n            if (infos().achievement(eAchievement).mzType != \"ACHIEVEMENT_LEARNTOPLAY_1\")\n            {\n                return false;\n            }\n            return true;\n        }\n\n        protected override void writeGameXML(XmlWriter pWriter, bool bMapOnly)"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a127",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_2",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_LEARNTOPLAY_2",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_LEARNTOPLAY_2</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_LEARNTOPLAY_2_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_LEARNTOPLAY_2</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_LEARNTOPLAY_2</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LEARNTOPLAY_2",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_LEARNTOPLAY_2</zType>\n\t\t<Name>TEXT_SCENARIO_LEARNTOPLAY_2</Name>\n\t\t<SubTitle>TEXT_SCENARIO_LEARNTOPLAY_2_SUB</SubTitle>\n\t\t<ScenarioClass>SCENARIOCLASS_LEARNTOPLAY</ScenarioClass>\n\t\t<zIcon>HowToPlay_Thumbnail</zIcon>\n\t\t<zMapFile>Learn To Play Two</zMapFile>\n\t\t<zModName>LearnToPlay2</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_LEARNTOPLAY_2</zValue>\n\t\t</azAchievements>\n\t\t<Nation>NATION_GREECE</Nation>\n\t\t<TeamNation>TEAMNATION_GAME_UNIQUE</TeamNation>\n\t\t<Difficulty>DIFFICULTY_ABLE</Difficulty>\n\t\t<TurnScale>TURNSCALE_YEAR</TurnScale>\n\t\t<TurnStyle>TURNSTYLE_STRICT</TurnStyle>\n\t\t<TurnTimer>TURNTIMER_NONE</TurnTimer>\n\t\t<OpponentLevel>OPPONENTLEVEL_PASSIVE</OpponentLevel>\n\t\t<DevelopmentLevel>DEVELOPMENT_NONE</DevelopmentLevel>\n\t\t<AdvantageLevel>ADVANTAGE_NONE</AdvantageLevel>\n\t\t<TribeLevel>TRIBELEVEL_NORMAL</TribeLevel>\n\t\t<SuccessionGender>SUCCESSIONGENDER_ABSOLUTE_COGNATIC</SuccessionGender>\n\t\t<SuccessionOrder>SUCCESSIONORDER_PRIMOGENITURE</SuccessionOrder>\n\t\t<MortalityLevel>MORTALITY_STANDARD</MortalityLevel>\n\t\t<EventLevel>EVENTLEVEL_LOW</EventLevel>\n\t\t<DisableOptions>1</DisableOptions>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay2/Infos/bonus-event-add.xml",
+          "type": "BONUS_EVENTOPTION_LEARNTOPLAY2_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>BONUS_EVENTOPTION_LEARNTOPLAY2_VICTORY</zType>\n\t\t<Achievement>ACHIEVEMENT_LEARNTOPLAY_2</Achievement>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/LearnToPlay2/Infos/eventOption-add.xml",
+          "type": "EVENTOPTION_LEARNTOPLAY2_VICTORY_OKAY",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_LEARNTOPLAY2_VICTORY_OKAY</zType>\n\t\t<Text>TEXT_EVENTOPTION_LEARNTOPLAY2_VICTORY_OKAY</Text>\n\t\t<HelpText>TEXT_EVENTOPTION_LEARNTOPLAY2_VICTORY_HELP</HelpText>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_EVENTOPTION_LEARNTOPLAY2_VICTORY</zValue>\n\t\t</aeBonuses>\n\t\t<bMainMenu>1</bMainMenu>\n\t</Entry>\n"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay2/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_LEARNTOPLAY2_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_LEARNTOPLAY2_VICTORY</zType>\n\t\t<Name>TEXT_EVENTSTORY_LEARNTOPLAY2_VICTORY_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_LEARNTOPLAY2_VICTORY</Text>\n\t\t<zBackgroundName>Victory_Male</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_TO_THE_VICTOR_STINGER</zAudioTrigger>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_LEARNTOPLAY2_VICTORY_OKAY</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_LEARNTOPLAY</Class>\n\t\t<Trigger>EVENTTRIGGER_GOAL_LEARNTOPLAY2_VICTORY</Trigger>\n\t\t<iPriority>10</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bIgnoreOptions>1</bIgnoreOptions>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bForceChoice>1</bForceChoice>\n\t</Entry>\n"
+        }
+      ],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/LearnToPlay2/LearnToPlay2Game.cs",
+          "line": 621,
+          "context": "        public override bool isValidAchievement(AchievementType eAchievement, Player pPlayer, bool bHotseatCheck)\n        {\n            if (!base.isValidAchievement(eAchievement, pPlayer, bHotseatCheck))\n            {\n                return false;\n            }\n            if (infos().achievement(eAchievement).mzType != \"ACHIEVEMENT_LEARNTOPLAY_2\")\n            {\n                return false;\n            }\n            return true;\n        }\n\n        protected override void writeGameXML(XmlWriter pWriter, bool bMapOnly)"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a126",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_3",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_LEARNTOPLAY_3",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_LEARNTOPLAY_3</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_LEARNTOPLAY_3_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_LEARNTOPLAY_3</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_LEARNTOPLAY_3</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LEARNTOPLAY_3",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_LEARNTOPLAY_3</zType>\n\t\t<Name>TEXT_SCENARIO_LEARNTOPLAY_3</Name>\n\t\t<SubTitle>TEXT_SCENARIO_LEARNTOPLAY_3_SUB</SubTitle>\n\t\t<ScenarioClass>SCENARIOCLASS_LEARNTOPLAY</ScenarioClass>\n\t\t<zIcon>HowToPlay_Thumbnail</zIcon>\n\t\t<zMapFile>Learn To Play Three</zMapFile>\n\t\t<zModName>LearnToPlay3</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_LEARNTOPLAY_3</zValue>\n\t\t</azAchievements>\n\t\t<Nation>NATION_GREECE</Nation>\n\t\t<TeamNation>TEAMNATION_GAME_UNIQUE</TeamNation>\n\t\t<Difficulty>DIFFICULTY_ABLE</Difficulty>\n\t\t<TurnScale>TURNSCALE_YEAR</TurnScale>\n\t\t<TurnStyle>TURNSTYLE_STRICT</TurnStyle>\n\t\t<TurnTimer>TURNTIMER_NONE</TurnTimer>\n\t\t<OpponentLevel>OPPONENTLEVEL_PASSIVE</OpponentLevel>\n\t\t<DevelopmentLevel>DEVELOPMENT_NONE</DevelopmentLevel>\n\t\t<AdvantageLevel>ADVANTAGE_NONE</AdvantageLevel>\n\t\t<TribeLevel>TRIBELEVEL_NORMAL</TribeLevel>\n\t\t<SuccessionGender>SUCCESSIONGENDER_ABSOLUTE_COGNATIC</SuccessionGender>\n\t\t<SuccessionOrder>SUCCESSIONORDER_PRIMOGENITURE</SuccessionOrder>\n\t\t<MortalityLevel>MORTALITY_STANDARD</MortalityLevel>\n\t\t<EventLevel>EVENTLEVEL_LOW</EventLevel>\n\t\t<DisableOptions>1</DisableOptions>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay3/Infos/bonus-event-add.xml",
+          "type": "BONUS_EVENTOPTION_LEARNTOPLAY3_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>BONUS_EVENTOPTION_LEARNTOPLAY3_VICTORY</zType>\n\t\t<Achievement>ACHIEVEMENT_LEARNTOPLAY_3</Achievement>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/LearnToPlay3/Infos/eventOption-add.xml",
+          "type": "EVENTOPTION_LEARNTOPLAY3_VICTORY_OKAY",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_LEARNTOPLAY3_VICTORY_OKAY</zType>\n\t\t<Text>TEXT_EVENTOPTION_LEARNTOPLAY3_VICTORY_OKAY</Text>\n\t\t<HelpText>TEXT_EVENTOPTION_LEARNTOPLAY3_VICTORY_HELP</HelpText>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_EVENTOPTION_LEARNTOPLAY3_VICTORY</zValue>\n\t\t</aeBonuses>\n\t\t<bMainMenu>1</bMainMenu>\n\t</Entry>\n"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay3/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_LEARNTOPLAY3_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_LEARNTOPLAY3_VICTORY</zType>\n\t\t<Name>TEXT_EVENTSTORY_LEARNTOPLAY3_VICTORY_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_LEARNTOPLAY3_VICTORY</Text>\n\t\t<zBackgroundName>Victory_Male</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_TO_THE_VICTOR_STINGER</zAudioTrigger>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_LEARNTOPLAY3_VICTORY_OKAY</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_LEARNTOPLAY</Class>\n\t\t<Trigger>EVENTTRIGGER_GOAL_LEARNTOPLAY3_VICTORY</Trigger>\n\t\t<iPriority>10</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bIgnoreOptions>1</bIgnoreOptions>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bForceChoice>1</bForceChoice>\n\t</Entry>\n\n\t"
+        }
+      ],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/LearnToPlay3/LearnToPlay3Game.cs",
+          "line": 486,
+          "context": "        public override bool isValidAchievement(AchievementType eAchievement, Player pPlayer, bool bHotseatCheck)\n        {\n            if (!base.isValidAchievement(eAchievement, pPlayer, bHotseatCheck))\n            {\n                return false;\n            }\n            if (infos().achievement(eAchievement).mzType != \"ACHIEVEMENT_LEARNTOPLAY_3\")\n            {\n                return false;\n            }\n            return true;\n        }\n\n        protected override void writeGameXML(XmlWriter pWriter, bool bMapOnly)"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a125",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_4",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_LEARNTOPLAY_4",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_LEARNTOPLAY_4</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_LEARNTOPLAY_4_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_LEARNTOPLAY_4</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_LEARNTOPLAY_4</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LEARNTOPLAY_4",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_LEARNTOPLAY_4</zType>\n\t\t<Name>TEXT_SCENARIO_LEARNTOPLAY_4</Name>\n\t\t<SubTitle>TEXT_SCENARIO_LEARNTOPLAY_4_SUB</SubTitle>\n\t\t<ScenarioClass>SCENARIOCLASS_LEARNTOPLAY</ScenarioClass>\n\t\t<zIcon>HowToPlay_Thumbnail</zIcon>\n\t\t<zMapFile>Learn To Play Four</zMapFile>\n\t\t<zModName>LearnToPlay4</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_LEARNTOPLAY_4</zValue>\n\t\t</azAchievements>\n\t\t<Nation>NATION_GREECE</Nation>\n\t\t<TeamNation>TEAMNATION_GAME_UNIQUE</TeamNation>\n\t\t<Difficulty>DIFFICULTY_ABLE</Difficulty>\n\t\t<TurnScale>TURNSCALE_YEAR</TurnScale>\n\t\t<TurnStyle>TURNSTYLE_STRICT</TurnStyle>\n\t\t<TurnTimer>TURNTIMER_NONE</TurnTimer>\n\t\t<OpponentLevel>OPPONENTLEVEL_PASSIVE</OpponentLevel>\n\t\t<DevelopmentLevel>DEVELOPMENT_NONE</DevelopmentLevel>\n\t\t<AdvantageLevel>ADVANTAGE_NONE</AdvantageLevel>\n\t\t<TribeLevel>TRIBELEVEL_NORMAL</TribeLevel>\n\t\t<SuccessionGender>SUCCESSIONGENDER_ABSOLUTE_COGNATIC</SuccessionGender>\n\t\t<SuccessionOrder>SUCCESSIONORDER_PRIMOGENITURE</SuccessionOrder>\n\t\t<MortalityLevel>MORTALITY_STANDARD</MortalityLevel>\n\t\t<EventLevel>EVENTLEVEL_LOW</EventLevel>\n\t\t<DisableOptions>1</DisableOptions>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay4/Infos/bonus-event-add.xml",
+          "type": "BONUS_EVENTOPTION_LEARNTOPLAY4_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>BONUS_EVENTOPTION_LEARNTOPLAY4_VICTORY</zType>\n\t\t<Achievement>ACHIEVEMENT_LEARNTOPLAY_4</Achievement>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/LearnToPlay4/Infos/eventOption-add.xml",
+          "type": "EVENTOPTION_LEARNTOPLAY4_VICTORY_OKAY",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_LEARNTOPLAY4_VICTORY_OKAY</zType>\n\t\t<Text>TEXT_EVENTOPTION_LEARNTOPLAY4_VICTORY_OKAY</Text>\n\t\t<HelpText>TEXT_EVENTOPTION_LEARNTOPLAY4_VICTORY_HELP</HelpText>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_EVENTOPTION_LEARNTOPLAY4_VICTORY</zValue>\n\t\t</aeBonuses>\n\t\t<bMainMenu>1</bMainMenu>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay4/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_LEARNTOPLAY4_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_LEARNTOPLAY4_VICTORY</zType>\n\t\t<Name>TEXT_EVENTSTORY_LEARNTOPLAY4_VICTORY_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_LEARNTOPLAY4_VICTORY</Text>\n\t\t<zBackgroundName>Victory_Male</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_TO_THE_VICTOR_STINGER</zAudioTrigger>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_LEARNTOPLAY4_VICTORY_OKAY</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_LEARNTOPLAY</Class>\n\t\t<Trigger>EVENTTRIGGER_GOAL_LEARNTOPLAY4_VICTORY</Trigger>\n\t\t<iPriority>10</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bIgnoreOptions>1</bIgnoreOptions>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bForceChoice>1</bForceChoice>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/LearnToPlay4/LearnToPlay4Game.cs",
+          "line": 675,
+          "context": "        public override bool isValidAchievement(AchievementType eAchievement, Player pPlayer, bool bHotseatCheck)\n        {\n            if (!base.isValidAchievement(eAchievement, pPlayer, bHotseatCheck))\n            {\n                return false;\n            }\n            if (infos().achievement(eAchievement).mzType != \"ACHIEVEMENT_LEARNTOPLAY_4\")\n            {\n                return false;\n            }\n            return true;\n        }\n    }\n}"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a124",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_5",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_LEARNTOPLAY_5",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_LEARNTOPLAY_5</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_LEARNTOPLAY_5_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_LEARNTOPLAY_5</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_LEARNTOPLAY_5</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LEARNTOPLAY_5",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_LEARNTOPLAY_5</zType>\n\t\t<Name>TEXT_SCENARIO_LEARNTOPLAY_5</Name>\n\t\t<SubTitle>TEXT_SCENARIO_LEARNTOPLAY_5_SUB</SubTitle>\n\t\t<ScenarioClass>SCENARIOCLASS_LEARNTOPLAY</ScenarioClass>\n\t\t<zIcon>HowToPlay_Thumbnail</zIcon>\n\t\t<zMapFile>Learn To Play Five</zMapFile>\n\t\t<zModName>LearnToPlay5</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_LEARNTOPLAY_5</zValue>\n\t\t</azAchievements>\n\t\t<Nation>NATION_GREECE</Nation>\n\t\t<TeamNation>TEAMNATION_GAME_UNIQUE</TeamNation>\n\t\t<Difficulty>DIFFICULTY_ABLE</Difficulty>\n\t\t<TurnScale>TURNSCALE_YEAR</TurnScale>\n\t\t<TurnStyle>TURNSTYLE_STRICT</TurnStyle>\n\t\t<TurnTimer>TURNTIMER_NONE</TurnTimer>\n\t\t<OpponentLevel>OPPONENTLEVEL_PASSIVE</OpponentLevel>\n\t\t<DevelopmentLevel>DEVELOPMENT_NONE</DevelopmentLevel>\n\t\t<AdvantageLevel>ADVANTAGE_NONE</AdvantageLevel>\n\t\t<TribeLevel>TRIBELEVEL_NORMAL</TribeLevel>\n\t\t<SuccessionGender>SUCCESSIONGENDER_ABSOLUTE_COGNATIC</SuccessionGender>\n\t\t<SuccessionOrder>SUCCESSIONORDER_PRIMOGENITURE</SuccessionOrder>\n\t\t<MortalityLevel>MORTALITY_STANDARD</MortalityLevel>\n\t\t<EventLevel>EVENTLEVEL_LOW</EventLevel>\n\t\t<DisableOptions>1</DisableOptions>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay5/Infos/bonus-event-add.xml",
+          "type": "BONUS_EVENTOPTION_LEARNTOPLAY5_EARLY_OUT",
+          "xml": "<Entry>\n\t\t<zType>BONUS_EVENTOPTION_LEARNTOPLAY5_EARLY_OUT</zType>\n\t\t<Victory>VICTORY_CONQUEST</Victory>\n\t\t<Achievement>ACHIEVEMENT_LEARNTOPLAY_5</Achievement>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay5/Infos/bonus-event-add.xml",
+          "type": "BONUS_EVENTOPTION_LEARNTOPLAY5_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>BONUS_EVENTOPTION_LEARNTOPLAY5_VICTORY</zType>\n\t\t<Achievement>ACHIEVEMENT_LEARNTOPLAY_5</Achievement>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/LearnToPlay5/Infos/eventOption-add.xml",
+          "type": "EVENTOPTION_LEARNTOPLAY5_EARLY_OUT_1",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_LEARNTOPLAY5_EARLY_OUT_1</zType>\n\t\t<Text>TEXT_EVENTOPTION_LEARNTOPLAY5_EARLY_OUT_1_OKAY</Text>\n\t\t<HelpText>TEXT_EVENTOPTION_LEARNTOPLAY5_EARLY_OUT_1_HELP</HelpText>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_EVENTOPTION_LEARNTOPLAY5_EARLY_OUT</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay5/Infos/eventOption-add.xml",
+          "type": "EVENTOPTION_LEARNTOPLAY5_VICTORY_OKAY",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_LEARNTOPLAY5_VICTORY_OKAY</zType>\n\t\t<Text>TEXT_EVENTOPTION_LEARNTOPLAY5_VICTORY_OKAY</Text>\n\t\t<HelpText>TEXT_EVENTOPTION_LEARNTOPLAY5_VICTORY_HELP</HelpText>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_EVENTOPTION_LEARNTOPLAY5_VICTORY</zValue>\n\t\t</aeBonuses>\n\t\t<bMainMenu>1</bMainMenu>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay5/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_LEARNTOPLAY5_EARLY_OUT",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_LEARNTOPLAY5_EARLY_OUT</zType>\n\t\t<Name>TEXT_EVENTSTORY_LEARNTOPLAY5_EARLY_OUT_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_LEARNTOPLAY5_EARLY_OUT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_LEARNTOPLAY5_EARLY_OUT_1</zValue>\n\t\t\t<zValue>EVENTOPTION_LEARNTOPLAY5_EARLY_OUT_2</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_GOAL_LEARNTOPLAY5_EARLY_OUT</Trigger>\n\t\t<iPriority>10</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bIgnoreOptions>1</bIgnoreOptions>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bForceChoice>1</bForceChoice>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/LearnToPlay5/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_LEARNTOPLAY5_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_LEARNTOPLAY5_VICTORY</zType>\n\t\t<Name>TEXT_EVENTSTORY_LEARNTOPLAY5_VICTORY_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_LEARNTOPLAY5_VICTORY</Text>\n\t\t<zBackgroundName>Victory_Male</zBackgroundName>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_LEARNTOPLAY5_VICTORY_OKAY</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_WIN_GAME</Trigger>\n\t\t<TriggerData>VICTORY_AMBITION</TriggerData>\n\t\t<iPriority>10</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bIgnoreOptions>1</bIgnoreOptions>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bForceChoice>1</bForceChoice>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/LearnToPlay5/LearnToPlay5Game.cs",
+          "line": 646,
+          "context": "        public override bool isValidAchievement(AchievementType eAchievement, Player pPlayer, bool bHotseatCheck)\n        {\n            if (!base.isValidAchievement(eAchievement, pPlayer, bHotseatCheck))\n            {\n                return false;\n            }\n            if (infos().achievement(eAchievement).mzType != \"ACHIEVEMENT_LEARNTOPLAY_5\")\n            {\n                return false;\n            }\n            return true;\n        }\n    }\n}"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a054",
+      "apiName": "ACHIEVEMENT_LBP1",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_LBP1",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_LBP1</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_LBP1_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_LBP1</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_LBP_ABLE</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LBP_ABLE",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_LBP_ABLE</zType>\n\t\t<Name>TEXT_SCENARIO_LBP_ABLE</Name>\n\t\t<SubTitle>TEXT_SCENARIO_LBP_ABLE_SUB</SubTitle>\n\t\t<ScenarioClass>SCENARIOCLASS_LBP</ScenarioClass>\n\t\t<zIcon>Learn_by_playing</zIcon>\n\t\t<zMapFile>LBP-BabylonTheAble</zMapFile>\n\t\t<zModName>LearnByPlaying1</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_LBP1</zValue>\n\t\t</azAchievements>\n\t\t<Nation>NATION_BABYLONIA</Nation>\n\t\t<TeamNation>TEAMNATION_GAME_UNIQUE</TeamNation>\n\t\t<Difficulty>DIFFICULTY_ABLE</Difficulty>\n\t\t<TurnScale>TURNSCALE_YEAR</TurnScale>\n\t\t<OpponentLevel>OPPONENTLEVEL_PASSIVE</OpponentLevel>\n\t\t<DevelopmentLevel>DEVELOPMENT_NONE</DevelopmentLevel>\n\t\t<AdvantageLevel>ADVANTAGE_PENALTY_MODERATE</AdvantageLevel>\n\t\t<TribeLevel>TRIBELEVEL_PASSIVE</TribeLevel>\n\t\t<EventLevel>EVENTLEVEL_LOW</EventLevel>\n\t\t<DisableOptions>1</DisableOptions>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a212",
+      "apiName": "ACHIEVEMENT_LBP2",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_LBP2",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_LBP2</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_LBP2_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_LBP2</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_LBP_JUST</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LBP_JUST",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_LBP_JUST</zType>\n\t\t<Name>TEXT_SCENARIO_LBP_JUST</Name>\n\t\t<SubTitle>TEXT_SCENARIO_LBP_JUST_SUB</SubTitle>\n\t\t<ScenarioClass>SCENARIOCLASS_LBP</ScenarioClass>\n\t\t<zIcon>Learn_by_playing</zIcon>\n\t\t<zMapFile>LBP-EgyptTheJust</zMapFile>\n\t\t<zModName>LearnByPlaying2</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_LBP2</zValue>\n\t\t</azAchievements>\n\t\t<Nation>NATION_EGYPT</Nation>\n\t\t<TeamNation>TEAMNATION_GAME_UNIQUE</TeamNation>\n\t\t<Difficulty>DIFFICULTY_GOOD</Difficulty>\n\t\t<TurnScale>TURNSCALE_YEAR</TurnScale>\n\t\t<OpponentLevel>OPPONENTLEVEL_PEACEFUL</OpponentLevel>\n\t\t<DevelopmentLevel>DEVELOPMENT_NONE</DevelopmentLevel>\n\t\t<AdvantageLevel>ADVANTAGE_PENALTY_SMALL</AdvantageLevel>\n\t\t<TribeLevel>TRIBELEVEL_WEAK</TribeLevel>\n\t\t<EventLevel>EVENTLEVEL_LOW</EventLevel>\n\t\t<DisableOptions>1</DisableOptions>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a246",
+      "apiName": "ACHIEVEMENT_LBP3",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_LBP3",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_LBP3</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_LBP3_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_LBP3</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_LBP_GOOD</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LBP_GOOD",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_LBP_GOOD</zType>\n\t\t<Name>TEXT_SCENARIO_LBP_GOOD</Name>\n\t\t<SubTitle>TEXT_SCENARIO_LBP_GOOD_SUB</SubTitle>\n\t\t<ScenarioClass>SCENARIOCLASS_LBP</ScenarioClass>\n\t\t<zIcon>Learn_by_playing</zIcon>\n\t\t<zMapFile>LBP-PersiaTheGood</zMapFile>\n\t\t<zModName>LearnByPlaying3</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_LBP3</zValue>\n\t\t</azAchievements>\n\t\t<Nation>NATION_PERSIA</Nation>\n\t\t<TeamNation>TEAMNATION_GAME_UNIQUE</TeamNation>\n\t\t<Difficulty>DIFFICULTY_GOOD</Difficulty>\n\t\t<TurnScale>TURNSCALE_YEAR</TurnScale>\n\t\t<OpponentLevel>OPPONENTLEVEL_PEACEFUL</OpponentLevel>\n\t\t<DevelopmentLevel>DEVELOPMENT_FLEDGLING</DevelopmentLevel>\n\t\t<AdvantageLevel>ADVANTAGE_NONE</AdvantageLevel>\n\t\t<TribeLevel>TRIBELEVEL_WEAK</TribeLevel>\n\t\t<DisableOptions>1</DisableOptions>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a258",
+      "apiName": "ACHIEVEMENT_LBP4",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_LBP4",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_LBP4</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_LBP4_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_LBP4</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_LBP_STRONG</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_LBP_STRONG",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_LBP_STRONG</zType>\n\t\t<Name>TEXT_SCENARIO_LBP_STRONG</Name>\n\t\t<SubTitle>TEXT_SCENARIO_LBP_STRONG_SUB</SubTitle>\n\t\t<ScenarioClass>SCENARIOCLASS_LBP</ScenarioClass>\n\t\t<zIcon>Learn_by_playing</zIcon>\n\t\t<zMapFile>LBP-RomeTheStrong</zMapFile>\n\t\t<zModName>LearnByPlaying4</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_LBP4</zValue>\n\t\t</azAchievements>\n\t\t<Nation>NATION_ROME</Nation>\n\t\t<TeamNation>TEAMNATION_GAME_UNIQUE</TeamNation>\n\t\t<Difficulty>DIFFICULTY_STRONG</Difficulty>\n\t\t<TurnScale>TURNSCALE_YEAR</TurnScale>\n\t\t<OpponentLevel>OPPONENTLEVEL_NORMAL</OpponentLevel>\n\t\t<DevelopmentLevel>DEVELOPMENT_FLEDGLING</DevelopmentLevel>\n\t\t<AdvantageLevel>ADVANTAGE_NONE</AdvantageLevel>\n\t\t<TribeLevel>TRIBELEVEL_NORMAL</TribeLevel>\n\t\t<DisableOptions>1</DisableOptions>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a353",
+      "apiName": "ACHIEVEMENT_BARBARIAN_INVASION_GREAT_RAGING",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_BARBARIAN_INVASION_GREAT_RAGING",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_BARBARIAN_INVASION_GREAT_RAGING</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_BARBARIAN_INVASION_GREAT_RAGING_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_BARBARIAN_INVASION_GREAT_RAGING</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_BARBARIAN</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Barbarian/Infos/bonus-event-add.xml",
+          "type": "BONUS_BH_VICTORY_GREAT_RAGING",
+          "xml": "<Entry>\n\t\t<zType>BONUS_BH_VICTORY_GREAT_RAGING</zType>\n\t\t<Achievement>ACHIEVEMENT_BARBARIAN_INVASION_GREAT_RAGING</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Barbarian/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_BARBARIAN_INVASION_GREAT_RAGING",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_BARBARIAN_INVASION_GREAT_RAGING</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Brodie Frehlich</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_BH_VICTORY_GREAT_RAGING</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_WIN_GAME</Trigger>\n\t\t<TriggerData>VICTORY_BARBARIAN_HORDE</TriggerData>\n\t\t<MinTribeLevel>TRIBELEVEL_RAGING</MinTribeLevel>\n\t\t<MinDifficulty>DIFFICULTY_GREAT</MinDifficulty>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a316",
+      "apiName": "ACHIEVEMENT_BARBARIAN_INVASION_MULTIPLAYER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_BARBARIAN_INVASION_MULTIPLAYER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_BARBARIAN_INVASION_MULTIPLAYER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_BARBARIAN_INVASION_MULTIPLAYER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_BARBARIAN_INVASION_MULTIPLAYER</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_BARBARIAN</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Barbarian/Infos/bonus-event-add.xml",
+          "type": "BONUS_BH_VICTORY_MULTIPLAYER",
+          "xml": "<Entry>\n\t\t<zType>BONUS_BH_VICTORY_MULTIPLAYER</zType>\n\t\t<Achievement>ACHIEVEMENT_BARBARIAN_INVASION_MULTIPLAYER</Achievement>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Barbarian/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_BARBARIAN_INVASION_MULTIPLAYER",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_BARBARIAN_INVASION_MULTIPLAYER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Brodie Frehlich</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_SAME_TEAM_HUMAN</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_BH_VICTORY_MULTIPLAYER</zValue>\n\t\t\t<zValue />\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_WIN_GAME</Trigger>\n\t\t<TriggerData>VICTORY_BARBARIAN_HORDE</TriggerData>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n"
+        }
+      ],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Barbarian/BarbarianGame.cs",
+          "line": 441,
+          "context": "                if (!isInitialTurn() && (getRaiderUnitCountTotal() <= getVictoryTargetNumberOfRemainingRaiders()) && isBarbarianInvasion())\n                {\n                    if (getHumanPlayer() != null)\n                    {\n                        if (!isSinglePlayer())\n                        {\n                            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_BARBARIAN_INVASION_MULTIPLAYER\"), getHumanPlayer(), !isMultiplayerHotseat());\n                        }\n                        makeWinner(getHumanPlayer().getTeam(), infos().getType<VictoryType>(\"VICTORY_BARBARIAN_HORDE\"));\n                    }\n                }\n            }\n        }\n"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a250",
+      "apiName": "ACHIEVEMENT_BARBARIAN_INVASION",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_BARBARIAN_INVASION",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_BARBARIAN_INVASION</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_BARBARIAN_INVASION_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_BARBARIAN_INVASION</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_BARBARIAN</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Barbarian/Infos/bonus-event-add.xml",
+          "type": "BONUS_BH_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>BONUS_BH_VICTORY</zType>\n\t\t<Achievement>ACHIEVEMENT_BARBARIAN_INVASION</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Barbarian/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_BARBARIAN_INVASION",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_BARBARIAN_INVASION</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Brodie Frehlich</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_BH_VICTORY</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_WIN_GAME</Trigger>\n\t\t<TriggerData>VICTORY_BARBARIAN_HORDE</TriggerData>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    }
+  ],
+  "note": "Automated source index; not a gameplay test or complete verification of tactics. Human findings are in the review.",
+  "sharedSourceSha256": {
+    "Reference/Source/Base/Game/GameCore/Game.cs": "6f53b000279d14a9abb58c40269880b2d6385416cf8e4915996957b4417b6367",
+    "Reference/Source/Base/Game/GameCore/Player.cs": "b163e9bab5e496ca787e40e332749e27652bd68abfb896eab6aa1b880b8d3cda",
+    "Reference/Source/Base/Game/GameCore/PlayerGoal.cs": "c54e7b03ec71f2a4d17744ba558f0dcbff51796c44a8af5dcdde6e0889dacd54",
+    "Reference/Source/Base/Game/GameCore/PlayerEvent.cs": "6be1751b6a8fb606088eb1ba812170b6522a539e062c67cbb0bc972be843e356",
+    "Reference/Source/Base/Game/GameCore/Unit.cs": "744b943df9241c05115f0d6cdd03eec7a7dd0784b0689abd85ad5480530d3ad2",
+    "Reference/Source/Base/Game/GameCore/City.cs": "7b1fb548257e66f5407d0f7cf5eb471f06a4bac64dc56d584192d230b5d7badd",
+    "Reference/Source/Base/Game/GameCore/Tile.cs": "08fd9e13065d2a3a1747e45f24d8be2268e68b0ed58ee21666162e654ad273c0",
+    "Reference/Source/Base/Game/GameCore/Character.cs": "0b7c05e8467b30b76b6cbf6ff0dd423d629d8fd75584cc678ea6b0dd1c818419"
+  },
+  "humanFindings": "learning-horde-review.md"
+}

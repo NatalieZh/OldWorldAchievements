@@ -1,0 +1,3272 @@
+{
+  "date": "2026-11-26",
+  "url": "https://steamcommunity.com/stats/597180/achievements/?l=english",
+  "language": "english",
+  "count": 408,
+  "entries": [
+    {
+      "id": "a001",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HILL_FORT",
+      "steam": [
+        "The Chittorgarh",
+        "Build the Chittorgarh"
+      ]
+    },
+    {
+      "id": "a002",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_MONUMENTAL_BUDDHAS",
+      "steam": [
+        "The Monumental Buddhas",
+        "Build the Monumental Buddhas"
+      ]
+    },
+    {
+      "id": "a003",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_AL_KHAZNEH",
+      "steam": [
+        "Al Khazneh",
+        "Build the Al Khazneh"
+      ]
+    },
+    {
+      "id": "a004",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_BUDDHISM",
+      "steam": [
+        "The Mahabodhi Temple",
+        "Build the Mahabodhi Temple"
+      ]
+    },
+    {
+      "id": "a005",
+      "apiName": "ACHIEVEMENT_UNIT_ARMOURED_ELEPHANT",
+      "steam": [
+        "Armored Elephant",
+        "Train an Armored Elephant"
+      ]
+    },
+    {
+      "id": "a006",
+      "apiName": "ACHIEVEMENT_THREAT_AVERTED",
+      "steam": [
+        "Threat Averted",
+        "Eliminate the Huns (Empires of the Indus)"
+      ]
+    },
+    {
+      "id": "a007",
+      "apiName": "ACHIEVEMENT_COGNOMEN_GRACIOUS",
+      "steam": [
+        "Gracious",
+        "Become the Gracious"
+      ]
+    },
+    {
+      "id": "a008",
+      "apiName": "ACHIEVEMENT_RELIGION_MANICHAEISM",
+      "steam": [
+        "Manichaeism",
+        "Found Manichaeism"
+      ]
+    },
+    {
+      "id": "a009",
+      "apiName": "ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER",
+      "steam": [
+        "Regicide",
+        "Assassinate another nation's Leader"
+      ]
+    },
+    {
+      "id": "a010",
+      "apiName": "ACHIEVEMENT_JUNGLE_OUT_THERE",
+      "steam": [
+        "It's a Jungle Out There",
+        "Cut Jungle vegetation (Empires of the Indus)"
+      ]
+    },
+    {
+      "id": "a011",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_THE_MAHAVIHARA",
+      "steam": [
+        "The Mahavihara",
+        "Build the Mahavihara"
+      ]
+    },
+    {
+      "id": "a012",
+      "apiName": "ACHIEVEMENT_COGNOMEN_JUST",
+      "steam": [
+        "Just",
+        "Become the Just"
+      ]
+    },
+    {
+      "id": "a013",
+      "apiName": "ACHIEVEMENT_RELIGION_BUDDHISM",
+      "steam": [
+        "Buddhism",
+        "Found Buddhism"
+      ]
+    },
+    {
+      "id": "a014",
+      "apiName": "ACHIEVEMENT_COGNOMEN_WARRIOR",
+      "steam": [
+        "Warrior",
+        "Become the Warrior"
+      ]
+    },
+    {
+      "id": "a015",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_STUPA",
+      "steam": [
+        "The Great Stupa",
+        "Build the Great Stupa"
+      ]
+    },
+    {
+      "id": "a016",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_CHAMPIONS",
+      "steam": [
+        "Champions",
+        "Win with Champions"
+      ]
+    },
+    {
+      "id": "a017",
+      "apiName": "ACHIEVEMENT_NATION_ROME",
+      "steam": [
+        "Rome",
+        "Win as Rome"
+      ]
+    },
+    {
+      "id": "a018",
+      "apiName": "ACHIEVEMENT_THEOLOGY_ENLIGHTENMENT",
+      "steam": [
+        "Enlightenment",
+        "Establish Enlightenment"
+      ]
+    },
+    {
+      "id": "a019",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_CIRCUS_MAXIMUS",
+      "steam": [
+        "Circus Maximus",
+        "Build the Circus Maximus"
+      ]
+    },
+    {
+      "id": "a020",
+      "apiName": "ACHIEVEMENT_COGNOMEN_SAVIOR",
+      "steam": [
+        "Savior",
+        "Become the Savior"
+      ]
+    },
+    {
+      "id": "a021",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_ROME",
+      "steam": [
+        "Roman Paganism",
+        "Found Roman Paganism"
+      ]
+    },
+    {
+      "id": "a022",
+      "apiName": "ACHIEVEMENT_COGNOMEN_GATHERER",
+      "steam": [
+        "Gatherer",
+        "Become the Gatherer"
+      ]
+    },
+    {
+      "id": "a023",
+      "apiName": "ACHIEVEMENT_UNIT_LEGIONARY",
+      "steam": [
+        "Legionary",
+        "Train a Legionary"
+      ]
+    },
+    {
+      "id": "a024",
+      "apiName": "ACHIEVEMENT_PACIFIST_LEADER",
+      "steam": [
+        "A Peaceful Path",
+        "Have a Leader with the Pacifist Trait (Empires of the Indus)"
+      ]
+    },
+    {
+      "id": "a025",
+      "apiName": "ACHIEVEMENT_COGNOMEN_HOLY",
+      "steam": [
+        "Holy",
+        "Become the Holy"
+      ]
+    },
+    {
+      "id": "a026",
+      "apiName": "ACHIEVEMENT_COGNOMEN_DEVOUT",
+      "steam": [
+        "Devout",
+        "Become the Devout"
+      ]
+    },
+    {
+      "id": "a027",
+      "apiName": "ACHIEVEMENT_THEOLOGY_DUALISM",
+      "steam": [
+        "Dualism",
+        "Establish Dualism"
+      ]
+    },
+    {
+      "id": "a028",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_ABLE",
+      "steam": [
+        "Able Difficulty",
+        "Win on Able Difficulty"
+      ]
+    },
+    {
+      "id": "a029",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_LANDOWNERS",
+      "steam": [
+        "Landowners",
+        "Win with Landowners"
+      ]
+    },
+    {
+      "id": "a030",
+      "apiName": "ACHIEVEMENT_NATION_EGYPT",
+      "steam": [
+        "Egypt",
+        "Win as Egypt"
+      ]
+    },
+    {
+      "id": "a031",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_PYRAMIDS",
+      "steam": [
+        "Pyramids",
+        "Build the Pyramids"
+      ]
+    },
+    {
+      "id": "a032",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_JUST",
+      "steam": [
+        "Just Difficulty",
+        "Win on Just Difficulty"
+      ]
+    },
+    {
+      "id": "a033",
+      "apiName": "ACHIEVEMENT_NATION_HITTITE",
+      "steam": [
+        "Hatti",
+        "Win as Hatti"
+      ]
+    },
+    {
+      "id": "a034",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_COLOSSEUM",
+      "steam": [
+        "Colosseum",
+        "Build the Colosseum"
+      ]
+    },
+    {
+      "id": "a035",
+      "apiName": "ACHIEVEMENT_UNIT_HITTITE_CHARIOT",
+      "steam": [
+        "Three Man Chariot",
+        "Train a Three Man Chariot"
+      ]
+    },
+    {
+      "id": "a036",
+      "apiName": "ACHIEVEMENT_COGNOMEN_BELOVED",
+      "steam": [
+        "Beloved",
+        "Become the Beloved"
+      ]
+    },
+    {
+      "id": "a037",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_WHATS_THE_WORST_THAT_HAPPENS",
+      "steam": [
+        "What's the Worst That Happens?",
+        "Declare war impulsively (Behind the Throne)"
+      ]
+    },
+    {
+      "id": "a038",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_ROYAL_LIBRARY",
+      "steam": [
+        "Royal Library",
+        "Build the Royal Library"
+      ]
+    },
+    {
+      "id": "a039",
+      "apiName": "ACHIEVEMENT_HITTITE_IRON",
+      "steam": [
+        "Hittite Iron",
+        "As Hatti, build a mine"
+      ]
+    },
+    {
+      "id": "a040",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_HITTITE",
+      "steam": [
+        "Hittite Paganism",
+        "Found Hittite Paganism"
+      ]
+    },
+    {
+      "id": "a041",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_PATRONS",
+      "steam": [
+        "Patrons",
+        "Win with Patrons"
+      ]
+    },
+    {
+      "id": "a042",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_SAGES",
+      "steam": [
+        "Sages",
+        "Win with Sages"
+      ]
+    },
+    {
+      "id": "a043",
+      "apiName": "ACHIEVEMENT_NATION_GREECE",
+      "steam": [
+        "Greece",
+        "Win as Greece"
+      ]
+    },
+    {
+      "id": "a044",
+      "apiName": "ACHIEVEMENT_ONE_TRUE_FAITH",
+      "steam": [
+        "One True Faith",
+        "Have at least 3 cities and spread your State Religion to all of your cities"
+      ]
+    },
+    {
+      "id": "a045",
+      "apiName": "ACHIEVEMENT_COGNOMEN_GREAT",
+      "steam": [
+        "Great",
+        "Become the Great"
+      ]
+    },
+    {
+      "id": "a046",
+      "apiName": "ACHIEVEMENT_COGNOMEN_MAGNIFICENT",
+      "steam": [
+        "Magnificent",
+        "Become the Magnificent"
+      ]
+    },
+    {
+      "id": "a047",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_THATS_MY_QUEUE",
+      "steam": [
+        "That's My Queue!",
+        "Remove a Grand Vizier with a scheming mission (Behind the Throne)"
+      ]
+    },
+    {
+      "id": "a048",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_REFORMER",
+      "steam": [
+        "Reformer",
+        "Complete a Grand Vizier's reform program (Behind the Throne)"
+      ]
+    },
+    {
+      "id": "a049",
+      "apiName": "ACHIEVEMENT_THEOLOGY_GNOSTICISM",
+      "steam": [
+        "Gnosticism",
+        "Establish Gnosticism"
+      ]
+    },
+    {
+      "id": "a050",
+      "apiName": "ACHIEVEMENT_THEOLOGY_MYTHOLOGY",
+      "steam": [
+        "Mythology",
+        "Establish Mythology"
+      ]
+    },
+    {
+      "id": "a051",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_APADANA",
+      "steam": [
+        "Apadana",
+        "Build the Apadana"
+      ]
+    },
+    {
+      "id": "a052",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_ARTISANS",
+      "steam": [
+        "Artisans",
+        "Win with Artisans"
+      ]
+    },
+    {
+      "id": "a053",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_TRADERS",
+      "steam": [
+        "Traders",
+        "Win with Traders"
+      ]
+    },
+    {
+      "id": "a054",
+      "apiName": "ACHIEVEMENT_LBP1",
+      "steam": [
+        "Learn By Playing 1 - Able",
+        "Complete Learn By Playing 1 - Able"
+      ]
+    },
+    {
+      "id": "a055",
+      "apiName": "ACHIEVEMENT_NATION_BABYLONIA",
+      "steam": [
+        "Babylonia",
+        "Win as Babylonia"
+      ]
+    },
+    {
+      "id": "a056",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HAGIA_SOPHIA",
+      "steam": [
+        "Hagia Sophia",
+        "Build the Hagia Sophia"
+      ]
+    },
+    {
+      "id": "a057",
+      "apiName": "ACHIEVEMENT_STAT_SEVEN_WONDERS",
+      "steam": [
+        "Building Wonders",
+        "Build seven Wonders (One Game)"
+      ]
+    },
+    {
+      "id": "a058",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_VIA_RECTA_SOUK",
+      "steam": [
+        "Via Recta Souk",
+        "Build the Via Recta Souk"
+      ]
+    },
+    {
+      "id": "a059",
+      "apiName": "ACHIEVEMENT_TRADE_CARAVAN",
+      "steam": [
+        "Trade Caravan",
+        "Complete a caravan trade mission"
+      ]
+    },
+    {
+      "id": "a060",
+      "apiName": "ACHIEVEMENT_UNIT_CIMMERIAN_ARCHER",
+      "steam": [
+        "Cimmerian Archer",
+        "Train a Cimmerian Archer"
+      ]
+    },
+    {
+      "id": "a061",
+      "apiName": "ACHIEVEMENT_COGNOMEN_ENLIGHTENED",
+      "steam": [
+        "Enlightened",
+        "Become the Enlightened"
+      ]
+    },
+    {
+      "id": "a062",
+      "apiName": "ACHIEVEMENT_CULTURE_LEGENDARY",
+      "steam": [
+        "Legendary Cities",
+        "Have three Legendary Cities (One Game)"
+      ]
+    },
+    {
+      "id": "a063",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_CHRISTIANITY",
+      "steam": [
+        "Church of the Holy Sepulchre",
+        "Build the Church of the Holy Sepulchre"
+      ]
+    },
+    {
+      "id": "a064",
+      "apiName": "ACHIEVEMENT_COGNOMEN_LEARNED",
+      "steam": [
+        "Learned",
+        "Become the Learned"
+      ]
+    },
+    {
+      "id": "a065",
+      "apiName": "ACHIEVEMENT_POWER_TO_THE_PEOPLE",
+      "steam": [
+        "Power to the People",
+        "Have Freedom, Constitution, Legal Code, and Tolerance laws active at the same time"
+      ]
+    },
+    {
+      "id": "a066",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_COLOSSUS",
+      "steam": [
+        "Colossus",
+        "Build the Colossus"
+      ]
+    },
+    {
+      "id": "a067",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_LIGHTHOUSE",
+      "steam": [
+        "Lighthouse",
+        "Build the Lighthouse"
+      ]
+    },
+    {
+      "id": "a068",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_ISHTAR_GATE",
+      "steam": [
+        "Ishtar Gate",
+        "Build the Ishtar Gate"
+      ]
+    },
+    {
+      "id": "a069",
+      "apiName": "ACHIEVEMENT_COGNOMEN_MASON",
+      "steam": [
+        "Mason",
+        "Become the Mason"
+      ]
+    },
+    {
+      "id": "a070",
+      "apiName": "ACHIEVEMENT_COGNOMEN_GLORIOUS",
+      "steam": [
+        "Glorious",
+        "Become the Glorious"
+      ]
+    },
+    {
+      "id": "a071",
+      "apiName": "ACHIEVEMENT_COGNOMEN_WISE",
+      "steam": [
+        "Wise",
+        "Become the Wise"
+      ]
+    },
+    {
+      "id": "a072",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_BABYLONIA",
+      "steam": [
+        "Babylonian Paganism",
+        "Found Babylonian Paganism"
+      ]
+    },
+    {
+      "id": "a073",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_NEW",
+      "steam": [
+        "New Difficulty",
+        "Win on New Difficulty"
+      ]
+    },
+    {
+      "id": "a074",
+      "apiName": "ACHIEVEMENT_EVENTLEVEL_HIGH",
+      "steam": [
+        "Event Level High",
+        "Win a game with Event Level High"
+      ]
+    },
+    {
+      "id": "a075",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_HUNTERS",
+      "steam": [
+        "Hunters",
+        "Win with Hunters"
+      ]
+    },
+    {
+      "id": "a076",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_RIDERS",
+      "steam": [
+        "Riders",
+        "Win with Riders"
+      ]
+    },
+    {
+      "id": "a077",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_STATESMEN",
+      "steam": [
+        "Statesmen",
+        "Win with Statesmen"
+      ]
+    },
+    {
+      "id": "a078",
+      "apiName": "ACHIEVEMENT_NATION_PERSIA",
+      "steam": [
+        "Persia",
+        "Win as Persia"
+      ]
+    },
+    {
+      "id": "a079",
+      "apiName": "ACHIEVEMENT_VICTORY_DOUBLE",
+      "steam": [
+        "Double Victory",
+        "Win a Double Victory"
+      ]
+    },
+    {
+      "id": "a080",
+      "apiName": "ACHIEVEMENT_WIN_SINGLEPLAYER",
+      "steam": [
+        "Win a Single Player Game",
+        "Win a Single Player Game"
+      ]
+    },
+    {
+      "id": "a081",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_COTHON",
+      "steam": [
+        "Cothon",
+        "Build the Cothon"
+      ]
+    },
+    {
+      "id": "a082",
+      "apiName": "ACHIEVEMENT_CULTURE_STRONG",
+      "steam": [
+        "Strong Cities",
+        "Have four Strong Cities (One Game)"
+      ]
+    },
+    {
+      "id": "a083",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_NECROPOLIS",
+      "steam": [
+        "Necropolis",
+        "Build the Necropolis"
+      ]
+    },
+    {
+      "id": "a084",
+      "apiName": "ACHIEVEMENT_VICTORY_ROLE_PLAYING",
+      "steam": [
+        "Role-Playing",
+        "Win a game with Role-Playing"
+      ]
+    },
+    {
+      "id": "a085",
+      "apiName": "ACHIEVEMENT_VICTORY_NO_UNDO",
+      "steam": [
+        "No Undo",
+        "Win a game with No Undo"
+      ]
+    },
+    {
+      "id": "a086",
+      "apiName": "ACHIEVEMENT_PANTHEON_OF_GODS",
+      "steam": [
+        "Pantheon of Gods",
+        "Have Polytheism, Divine Rule, and Holy War laws active at the same time"
+      ]
+    },
+    {
+      "id": "a087",
+      "apiName": "ACHIEVEMENT_NATION_MAURYA",
+      "steam": [
+        "Maurya",
+        "Win as Maurya"
+      ]
+    },
+    {
+      "id": "a088",
+      "apiName": "ACHIEVEMENT_VICTORY_POINTS",
+      "steam": [
+        "Points Victory",
+        "Win a Points Victory"
+      ]
+    },
+    {
+      "id": "a089",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_PANTHEON",
+      "steam": [
+        "Pantheon",
+        "Build the Pantheon"
+      ]
+    },
+    {
+      "id": "a090",
+      "apiName": "ACHIEVEMENT_OLD_WORLD_ORDER",
+      "steam": [
+        "Old World Order",
+        "Have Epics, Slavery, and Tyranny laws active at the same time"
+      ]
+    },
+    {
+      "id": "a091",
+      "apiName": "ACHIEVEMENT_COGNOMEN_FOUNTAINHEAD",
+      "steam": [
+        "Fountainhead",
+        "Become the Fountainhead"
+      ]
+    },
+    {
+      "id": "a092",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_JEBEL_BARKAL",
+      "steam": [
+        "Jebel Barkal",
+        "Build the Jebel Barkal"
+      ]
+    },
+    {
+      "id": "a093",
+      "apiName": "ACHIEVEMENT_COGNOMEN_KEYSTONE",
+      "steam": [
+        "Keystone",
+        "Become the Keystone"
+      ]
+    },
+    {
+      "id": "a094",
+      "apiName": "ACHIEVEMENT_COGNOMEN_ABLE",
+      "steam": [
+        "Able",
+        "Become the Able"
+      ]
+    },
+    {
+      "id": "a095",
+      "apiName": "ACHIEVEMENT_CULTURE_DEVELOPING",
+      "steam": [
+        "Developing Cities",
+        "Have five Developing Cities (One Game)"
+      ]
+    },
+    {
+      "id": "a096",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_JUDAISM",
+      "steam": [
+        "Temple of Solomon",
+        "Build the Temple of Solomon"
+      ]
+    },
+    {
+      "id": "a097",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_JERWAN_AQUEDUCT",
+      "steam": [
+        "Jerwan Aqueduct",
+        "Build the Jerwan Aqueduct"
+      ]
+    },
+    {
+      "id": "a098",
+      "apiName": "ACHIEVEMENT_THEOLOGY_REDEMPTION",
+      "steam": [
+        "Redemption",
+        "Establish Redemption"
+      ]
+    },
+    {
+      "id": "a099",
+      "apiName": "ACHIEVEMENT_COGNOMEN_NOBLE",
+      "steam": [
+        "Noble",
+        "Become the Noble"
+      ]
+    },
+    {
+      "id": "a100",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_ACROPOLIS",
+      "steam": [
+        "Acropolis",
+        "Build the Acropolis"
+      ]
+    },
+    {
+      "id": "a101",
+      "apiName": "ACHIEVEMENT_COGNOMEN_GOOD",
+      "steam": [
+        "Good",
+        "Become the Good"
+      ]
+    },
+    {
+      "id": "a102",
+      "apiName": "ACHIEVEMENT_RELIGION_CHRISTIANITY",
+      "steam": [
+        "Christianity",
+        "Found Christianity"
+      ]
+    },
+    {
+      "id": "a103",
+      "apiName": "ACHIEVEMENT_COGNOMEN_BRILLIANT",
+      "steam": [
+        "Brilliant",
+        "Become the Brilliant"
+      ]
+    },
+    {
+      "id": "a104",
+      "apiName": "ACHIEVEMENT_COGNOMEN_VALIANT",
+      "steam": [
+        "Valiant",
+        "Become the Valiant"
+      ]
+    },
+    {
+      "id": "a105",
+      "apiName": "ACHIEVEMENT_COGNOMEN_ARCHITECT",
+      "steam": [
+        "Architect",
+        "Become the Architect"
+      ]
+    },
+    {
+      "id": "a106",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_ORACLE",
+      "steam": [
+        "Oracle",
+        "Build the Oracle"
+      ]
+    },
+    {
+      "id": "a107",
+      "apiName": "ACHIEVEMENT_THEOLOGY_LEGALISM",
+      "steam": [
+        "Legalism",
+        "Establish Legalism"
+      ]
+    },
+    {
+      "id": "a108",
+      "apiName": "ACHIEVEMENT_RELIGION_ZOROASTRIANISM",
+      "steam": [
+        "Zoroastrianism",
+        "Found Zoroastrianism"
+      ]
+    },
+    {
+      "id": "a109",
+      "apiName": "ACHIEVEMENT_COGNOMEN_STRONG",
+      "steam": [
+        "Strong",
+        "Become the Strong"
+      ]
+    },
+    {
+      "id": "a110",
+      "apiName": "ACHIEVEMENT_RELIGION_JUDAISM",
+      "steam": [
+        "Judaism",
+        "Found Judaism"
+      ]
+    },
+    {
+      "id": "a111",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_GREAT_ZIGGURAT",
+      "steam": [
+        "Great Ziggurat",
+        "Build the Great Ziggurat"
+      ]
+    },
+    {
+      "id": "a112",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_CLERGY_COURT",
+      "steam": [
+        "The Clergy",
+        "Have a member of the Clergy join the Court (The Sacred and The Profane)"
+      ]
+    },
+    {
+      "id": "a113",
+      "apiName": "ACHIEVEMENT_STAT_TEN_LANDMARKS_NAME",
+      "steam": [
+        "Naming Landmarks",
+        "Name ten Landmarks (One Game)"
+      ]
+    },
+    {
+      "id": "a114",
+      "apiName": "ACHIEVEMENT_COGNOMEN_INTREPID",
+      "steam": [
+        "Intrepid",
+        "Become the Intrepid"
+      ]
+    },
+    {
+      "id": "a115",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_PERSIA",
+      "steam": [
+        "Persian Paganism",
+        "Found Persian Paganism"
+      ]
+    },
+    {
+      "id": "a116",
+      "apiName": "ACHIEVEMENT_BABYLON_HANGING_GARDENS",
+      "steam": [
+        "Hanging Gardens in Babylon",
+        "Build the Hanging Gardens in Babylon"
+      ]
+    },
+    {
+      "id": "a117",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HANGING_GARDENS",
+      "steam": [
+        "Hanging Gardens",
+        "Build the Hanging Gardens"
+      ]
+    },
+    {
+      "id": "a118",
+      "apiName": "ACHIEVEMENT_COGNOMEN_PIONEER",
+      "steam": [
+        "Pioneer",
+        "Become the Pioneer"
+      ]
+    },
+    {
+      "id": "a119",
+      "apiName": "ACHIEVEMENT_COGNOMEN_EXPLORER",
+      "steam": [
+        "Explorer",
+        "Become the Explorer"
+      ]
+    },
+    {
+      "id": "a120",
+      "apiName": "ACHIEVEMENT_COGNOMEN_AMBITIOUS",
+      "steam": [
+        "Ambitious",
+        "Become the Ambitious"
+      ]
+    },
+    {
+      "id": "a121",
+      "apiName": "ACHIEVEMENT_FAMILY_FRIENDLY",
+      "steam": [
+        "Friendly Family",
+        "Reach highest family opinion of you"
+      ]
+    },
+    {
+      "id": "a122",
+      "apiName": "ACHIEVEMENT_COGNOMEN_SETTLER",
+      "steam": [
+        "Settler",
+        "Become the Settler"
+      ]
+    },
+    {
+      "id": "a123",
+      "apiName": "ACHIEVEMENT_PLAY_SINGLEPLAYER",
+      "steam": [
+        "Play a Single Player Game",
+        "Play a Single Player Game"
+      ]
+    },
+    {
+      "id": "a124",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_5",
+      "steam": [
+        "Learn to Play 5",
+        "Complete Learn to Play scenario 5"
+      ]
+    },
+    {
+      "id": "a125",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_4",
+      "steam": [
+        "Learn to Play 4",
+        "Complete Learn to Play scenario 4"
+      ]
+    },
+    {
+      "id": "a126",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_3",
+      "steam": [
+        "Learn to Play 3",
+        "Complete Learn to Play scenario 3"
+      ]
+    },
+    {
+      "id": "a127",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_2",
+      "steam": [
+        "Learn to Play 2",
+        "Complete Learn to Play scenario 2"
+      ]
+    },
+    {
+      "id": "a128",
+      "apiName": "ACHIEVEMENT_LEARNTOPLAY_1",
+      "steam": [
+        "Learn to Play 1",
+        "Complete Learn to Play scenario 1"
+      ]
+    },
+    {
+      "id": "a129",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_GREECE",
+      "steam": [
+        "Greek Paganism",
+        "Found Greek Paganism"
+      ]
+    },
+    {
+      "id": "a130",
+      "apiName": "ACHIEVEMENT_FAMILY_FURIOUS",
+      "steam": [
+        "Furious Family",
+        "Reach lowest family opinion of you"
+      ]
+    },
+    {
+      "id": "a131",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_EGYPT",
+      "steam": [
+        "Egyptian Paganism",
+        "Found Egyptian Paganism"
+      ]
+    },
+    {
+      "id": "a132",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_CARTHAGE",
+      "steam": [
+        "Carthaginian Paganism",
+        "Found Carthaginian Paganism"
+      ]
+    },
+    {
+      "id": "a133",
+      "apiName": "ACHIEVEMENT_COGNOMEN_BRAVE",
+      "steam": [
+        "Drillmaster",
+        "Become the Drillmaster"
+      ]
+    },
+    {
+      "id": "a134",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_MUSAEUM",
+      "steam": [
+        "Musaeum",
+        "Build the Musaeum"
+      ]
+    },
+    {
+      "id": "a135",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_MAUSOLEUM",
+      "steam": [
+        "Mausoleum",
+        "Build the Mausoleum"
+      ]
+    },
+    {
+      "id": "a136",
+      "apiName": "ACHIEVEMENT_COGNOMEN_CAPABLE",
+      "steam": [
+        "Capable",
+        "Become the Capable"
+      ]
+    },
+    {
+      "id": "a137",
+      "apiName": "ACHIEVEMENT_COGNOMEN_MIGHTY",
+      "steam": [
+        "Mighty",
+        "Become the Mighty"
+      ]
+    },
+    {
+      "id": "a138",
+      "apiName": "ACHIEVEMENT_COGNOMEN_READY",
+      "steam": [
+        "Ready",
+        "Become the Ready"
+      ]
+    },
+    {
+      "id": "a139",
+      "apiName": "ACHIEVEMENT_TECH_ECONOMIC_REFORM",
+      "steam": [
+        "Economic Reform",
+        "Research Economic Reform"
+      ]
+    },
+    {
+      "id": "a140",
+      "apiName": "ACHIEVEMENT_COGNOMEN_VICTORIOUS",
+      "steam": [
+        "Victorious",
+        "Become the Victorious"
+      ]
+    },
+    {
+      "id": "a141",
+      "apiName": "ACHIEVEMENT_COGNOMEN_INTERCESSOR",
+      "steam": [
+        "Intercessor",
+        "Become the Intercessor"
+      ]
+    },
+    {
+      "id": "a142",
+      "apiName": "ACHIEVEMENT_TECH_MILITARY_PRESTIGE",
+      "steam": [
+        "Military Prestige",
+        "Research Military Prestige"
+      ]
+    },
+    {
+      "id": "a143",
+      "apiName": "ACHIEVEMENT_TECH_INDUSTRIAL_PROGRESS",
+      "steam": [
+        "Industrial Progress",
+        "Research Industrial Progress"
+      ]
+    },
+    {
+      "id": "a144",
+      "apiName": "ACHIEVEMENT_COGNOMEN_CONQUEROR",
+      "steam": [
+        "Conqueror",
+        "Become the Conqueror"
+      ]
+    },
+    {
+      "id": "a145",
+      "apiName": "ACHIEVEMENT_COGNOMEN_INVINCIBLE",
+      "steam": [
+        "Invincible",
+        "Become the Invincible"
+      ]
+    },
+    {
+      "id": "a146",
+      "apiName": "ACHIEVEMENT_THEOLOGY_VENERATION",
+      "steam": [
+        "Veneration",
+        "Establish Veneration"
+      ]
+    },
+    {
+      "id": "a147",
+      "apiName": "ACHIEVEMENT_THEOLOGY_REVELATION",
+      "steam": [
+        "Revelation",
+        "Establish Revelation"
+      ]
+    },
+    {
+      "id": "a148",
+      "apiName": "ACHIEVEMENT_COGNOMEN_LION",
+      "steam": [
+        "Lion",
+        "Become the Lion"
+      ]
+    },
+    {
+      "id": "a149",
+      "apiName": "ACHIEVEMENT_COGNOMEN_SUBJUGATOR",
+      "steam": [
+        "Subjugator",
+        "Become the Subjugator"
+      ]
+    },
+    {
+      "id": "a150",
+      "apiName": "ACHIEVEMENT_PLAY_NETWORK",
+      "steam": [
+        "Play a Network Game",
+        "Play a Network Game"
+      ]
+    },
+    {
+      "id": "a151",
+      "apiName": "ACHIEVEMENT_UNIT_PHALANGITE",
+      "steam": [
+        "Phalangite",
+        "Train a Phalangite"
+      ]
+    },
+    {
+      "id": "a152",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_ASSYRIA",
+      "steam": [
+        "Assyrian Paganism",
+        "Found Assyrian Paganism"
+      ]
+    },
+    {
+      "id": "a153",
+      "apiName": "ACHIEVEMENT_ASSASSINATED_BY_HEIR",
+      "steam": [
+        "Bad Heir Day",
+        "Be assassinated by your Heir"
+      ]
+    },
+    {
+      "id": "a154",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_GOOD",
+      "steam": [
+        "Good Difficulty",
+        "Win on Good Difficulty"
+      ]
+    },
+    {
+      "id": "a155",
+      "apiName": "ACHIEVEMENT_UNIT_KUSHITE_CAVALRY",
+      "steam": [
+        "Mounted Lancer",
+        "Train a Mounted Lancer"
+      ]
+    },
+    {
+      "id": "a156",
+      "apiName": "ACHIEVEMENT_FAMILYCLASS_CLERICS",
+      "steam": [
+        "Clerics",
+        "Win with Clerics"
+      ]
+    },
+    {
+      "id": "a157",
+      "apiName": "ACHIEVEMENT_PLAY_FFA",
+      "steam": [
+        "Play a Free-For-All Game (>2 Players)",
+        "Play a Free-For-All Game (>2 Players)"
+      ]
+    },
+    {
+      "id": "a158",
+      "apiName": "ACHIEVEMENT_NATION_CARTHAGE",
+      "steam": [
+        "Carthage",
+        "Win as Carthage"
+      ]
+    },
+    {
+      "id": "a159",
+      "apiName": "ACHIEVEMENT_VICTORY_ALL_NATIONS",
+      "steam": [
+        "All Nations",
+        "Win against all nations"
+      ]
+    },
+    {
+      "id": "a160",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_ZOROASTRIANISM",
+      "steam": [
+        "Adur Burzen-Mihr",
+        "Build the Adur Burzen-Mihr"
+      ]
+    },
+    {
+      "id": "a161",
+      "apiName": "ACHIEVEMENT_UNIT_TURRETED_ELEPHANT",
+      "steam": [
+        "Turreted Elephant",
+        "Train a Turreted Elephant"
+      ]
+    },
+    {
+      "id": "a162",
+      "apiName": "ACHIEVEMENT_BABYLON_ISHTAR_GATE",
+      "steam": [
+        "Ishtar Gate in Babylon",
+        "Build the Ishtar Gate in Babylon"
+      ]
+    },
+    {
+      "id": "a163",
+      "apiName": "ACHIEVEMENT_COGNOMEN_OLD",
+      "steam": [
+        "Old",
+        "Become the Old"
+      ]
+    },
+    {
+      "id": "a164",
+      "apiName": "ACHIEVEMENT_STAT_TEN_LEADERS",
+      "steam": [
+        "Ten Crowns",
+        "Have ten Leaders (One Game)"
+      ]
+    },
+    {
+      "id": "a165",
+      "apiName": "ACHIEVEMENT_UNIT_CATAPHRACT_ARCHER",
+      "steam": [
+        "Cataphract Archer",
+        "Train a Cataphract Archer"
+      ]
+    },
+    {
+      "id": "a166",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_YAZILIKAYA",
+      "steam": [
+        "Yazilikaya",
+        "Build the Yazilikaya"
+      ]
+    },
+    {
+      "id": "a167",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_MANICHAEISM",
+      "steam": [
+        "Cao'an",
+        "Build the Cao'an"
+      ]
+    },
+    {
+      "id": "a168",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_STRONG",
+      "steam": [
+        "Strong Difficulty",
+        "Win on Strong Difficulty"
+      ]
+    },
+    {
+      "id": "a169",
+      "apiName": "ACHIEVEMENT_PLAY_MPTEAMS",
+      "steam": [
+        "Play a MP Teams Game",
+        "Play a MP Teams Game"
+      ]
+    },
+    {
+      "id": "a170",
+      "apiName": "ACHIEVEMENT_COGNOMEN_PEACEMAKER",
+      "steam": [
+        "Peacemaker",
+        "Become the Peacemaker"
+      ]
+    },
+    {
+      "id": "a171",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_KUSH",
+      "steam": [
+        "Kushite Paganism",
+        "Found Kushite Paganism"
+      ]
+    },
+    {
+      "id": "a172",
+      "apiName": "ACHIEVEMENT_COGNOMEN_ANCIENT",
+      "steam": [
+        "Ancient",
+        "Become the Ancient"
+      ]
+    },
+    {
+      "id": "a173",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_POET_LEADER",
+      "steam": [
+        "Poetic Leader",
+        "Have a Leader with the Poet trait (The Sacred and The Profane)"
+      ]
+    },
+    {
+      "id": "a174",
+      "apiName": "ACHIEVEMENT_STAT_TEN_CITIES_CAPTURED",
+      "steam": [
+        "Capturing Cities",
+        "Capture ten Cities (One Game)"
+      ]
+    },
+    {
+      "id": "a175",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_JACKPOT",
+      "steam": [
+        "Jackpot",
+        "Win at the gamble mission (Behind the Throne)"
+      ]
+    },
+    {
+      "id": "a176",
+      "apiName": "ACHIEVEMENT_CARTHAGE_1",
+      "steam": [
+        "Carthage - Ox Hide",
+        "Win Carthage scenario 1"
+      ]
+    },
+    {
+      "id": "a177",
+      "apiName": "ACHIEVEMENT_UNIT_SIEGE_TOWER",
+      "steam": [
+        "Siege Tower",
+        "Train a Siege Tower"
+      ]
+    },
+    {
+      "id": "a178",
+      "apiName": "ACHIEVEMENT_KUSHITE_PYRAMIDS",
+      "steam": [
+        "Kushite Pyramids",
+        "As Kush, build Kushite Pyramids"
+      ]
+    },
+    {
+      "id": "a179",
+      "apiName": "ACHIEVEMENT_WASET_NECROPOLIS",
+      "steam": [
+        "Necropolis in Waset",
+        "Build the Necropolis in Waset"
+      ]
+    },
+    {
+      "id": "a180",
+      "apiName": "ACHIEVEMENT_CARTHAGE_1_BRONZE",
+      "steam": [
+        "Bronze Victory (Carthage 1)",
+        "Win a Bronze Victory in Carthage scenario 1"
+      ]
+    },
+    {
+      "id": "a181",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_MYTHICAL_BEAST",
+      "steam": [
+        "The Mythical Beast",
+        "Follow the trail of a Mythical Beast (The Sacred and The Profane)"
+      ]
+    },
+    {
+      "id": "a182",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_NOBLE",
+      "steam": [
+        "Noble Difficulty",
+        "Win on Noble Difficulty"
+      ]
+    },
+    {
+      "id": "a183",
+      "apiName": "ACHIEVEMENT_VICTORY_CONQUEST",
+      "steam": [
+        "Conquest Victory",
+        "Win a Conquest Victory"
+      ]
+    },
+    {
+      "id": "a184",
+      "apiName": "ACHIEVEMENT_CARTHAGE_1_SILVER",
+      "steam": [
+        "Silver Victory (Carthage 1)",
+        "Win a Silver Victory in Carthage scenario 1"
+      ]
+    },
+    {
+      "id": "a185",
+      "apiName": "ACHIEVEMENT_NATION_ASSYRIA",
+      "steam": [
+        "Assyria",
+        "Win as Assyria"
+      ]
+    },
+    {
+      "id": "a186",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_DEPOSE_TRIBE",
+      "steam": [
+        "Deposed Tribe",
+        "Help a Priest depose a Tribal Leader (The Sacred and The Profane)"
+      ]
+    },
+    {
+      "id": "a187",
+      "apiName": "ACHIEVEMENT_FIVE_ROUTS",
+      "steam": [
+        "Five Routs",
+        "Perform five routs in a row with a single unit in the same turn"
+      ]
+    },
+    {
+      "id": "a188",
+      "apiName": "ACHIEVEMENT_CLEOPATRAS_LOVE",
+      "steam": [
+        "Cleopatra's Love",
+        "As Egyptian Queen marry a Roman"
+      ]
+    },
+    {
+      "id": "a189",
+      "apiName": "ACHIEVEMENT_FIRST_PEACE_TREATY",
+      "steam": [
+        "The Eternal Treaty",
+        "As Hatti, make Peace with Egypt"
+      ]
+    },
+    {
+      "id": "a190",
+      "apiName": "ACHIEVEMENT_IMPROVEMENT_HELIOPOLIS",
+      "steam": [
+        "Heliopolis",
+        "Build the Heliopolis"
+      ]
+    },
+    {
+      "id": "a191",
+      "apiName": "ACHIEVEMENT_RELIGION_PAGAN_AKSUM",
+      "steam": [
+        "Aksumite Paganism",
+        "Found Aksumite Paganism"
+      ]
+    },
+    {
+      "id": "a192",
+      "apiName": "ACHIEVEMENT_MEMPHIS_PYRAMIDS",
+      "steam": [
+        "Pyramids in Menefer",
+        "Build the Pyramids in Menefer"
+      ]
+    },
+    {
+      "id": "a193",
+      "apiName": "ACHIEVEMENT_PLAY_1V1",
+      "steam": [
+        "Play a 1-v-1 Game",
+        "Play a 1-v-1 Game"
+      ]
+    },
+    {
+      "id": "a194",
+      "apiName": "ACHIEVEMENT_ROMA_CIRCUS_MAXIMUS",
+      "steam": [
+        "Circus Maximus in Roma",
+        "Build the Circus Maximus in Roma"
+      ]
+    },
+    {
+      "id": "a195",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_GREAT_MAGE",
+      "steam": [
+        "The Great Mage",
+        "Find a Great Mage (The Sacred and The Profane)"
+      ]
+    },
+    {
+      "id": "a196",
+      "apiName": "ACHIEVEMENT_GREECE1_RUN",
+      "steam": [
+        "Run, Pheidippides, Run!",
+        "Complete the run to Sparta (Heroes of the Aegean 1)"
+      ]
+    },
+    {
+      "id": "a197",
+      "apiName": "ACHIEVEMENT_ROMA_PANTHEON",
+      "steam": [
+        "Pantheon in Roma",
+        "Build the Pantheon in Roma"
+      ]
+    },
+    {
+      "id": "a198",
+      "apiName": "ACHIEVEMENT_THE_WORD_OF_GOD",
+      "steam": [
+        "Word of God",
+        "Have Monotheism, Orthodoxy, Iconography, and Pilgrimage laws active at the same time"
+      ]
+    },
+    {
+      "id": "a199",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_GLORIOUS",
+      "steam": [
+        "Glorious Difficulty",
+        "Win on Glorious Difficulty"
+      ]
+    },
+    {
+      "id": "a200",
+      "apiName": "ACHIEVEMENT_GREECE1_WIN",
+      "steam": [
+        "Nenikekamen",
+        "Win the Marathon scenario (Heroes of the Aegean 1)"
+      ]
+    },
+    {
+      "id": "a201",
+      "apiName": "ACHIEVEMENT_PERSEPOLIS_APADANA",
+      "steam": [
+        "Apadana in Parsa",
+        "Build the Apadana in Parsa"
+      ]
+    },
+    {
+      "id": "a202",
+      "apiName": "ACHIEVEMENT_CARTHAGE_1_GOLD",
+      "steam": [
+        "Gold Victory (Carthage 1)",
+        "Win a Gold Victory in Carthage scenario 1"
+      ]
+    },
+    {
+      "id": "a203",
+      "apiName": "ACHIEVEMENT_CARTHAGE_2",
+      "steam": [
+        "Carthage - Riches and Influence",
+        "Win Carthage scenario 2"
+      ]
+    },
+    {
+      "id": "a204",
+      "apiName": "ACHIEVEMENT_CARTHAGE_2_BRONZE",
+      "steam": [
+        "Bronze Victory (Carthage 2)",
+        "Win a Bronze Victory in Carthage scenario 2"
+      ]
+    },
+    {
+      "id": "a205",
+      "apiName": "ACHIEVEMENT_MACEDONIAN_WARS",
+      "steam": [
+        "Macedonian Wars",
+        "Eliminate Greece as Rome"
+      ]
+    },
+    {
+      "id": "a206",
+      "apiName": "ACHIEVEMENT_UNIT_BEJA_ARCHER",
+      "steam": [
+        "Beja Archer",
+        "Train a Beja Archer"
+      ]
+    },
+    {
+      "id": "a207",
+      "apiName": "ACHIEVEMENT_ASSASSINATED_HEIR",
+      "steam": [
+        "Future Regicide",
+        "Assassinate your Heir"
+      ]
+    },
+    {
+      "id": "a208",
+      "apiName": "ACHIEVEMENT_CARTHAGE_2_SILVER",
+      "steam": [
+        "Silver Victory (Carthage 2)",
+        "Win a Silver Victory in Carthage scenario 2"
+      ]
+    },
+    {
+      "id": "a209",
+      "apiName": "ACHIEVEMENT_COGNOMEN_RESOURCEFUL",
+      "steam": [
+        "Resourceful",
+        "Become the Resourceful"
+      ]
+    },
+    {
+      "id": "a210",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_10",
+      "steam": [
+        "A Good Start",
+        "Kill 10 Persian units at Thermopylae (Heroes of the Aegean 2)"
+      ]
+    },
+    {
+      "id": "a211",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_WIN",
+      "steam": [
+        "Tell the Spartans",
+        "Complete the Battle of Thermopylae (Heroes of the Aegean 2)"
+      ]
+    },
+    {
+      "id": "a212",
+      "apiName": "ACHIEVEMENT_LBP2",
+      "steam": [
+        "Learn By Playing 2 - Just",
+        "Complete Learn By Playing 2 - Just"
+      ]
+    },
+    {
+      "id": "a213",
+      "apiName": "ACHIEVEMENT_COGNOMEN_HUMANE",
+      "steam": [
+        "Humane",
+        "Become the Humane"
+      ]
+    },
+    {
+      "id": "a214",
+      "apiName": "ACHIEVEMENT_COGNOMEN_REBUILDER",
+      "steam": [
+        "Rebuilder",
+        "Become the Rebuilder"
+      ]
+    },
+    {
+      "id": "a215",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_MAGNIFICENT",
+      "steam": [
+        "Magnificent Difficulty",
+        "Win on Magnificent Difficulty"
+      ]
+    },
+    {
+      "id": "a216",
+      "apiName": "ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST",
+      "steam": [
+        "Medo-Babylonian Conquest",
+        "Eliminate Assyria as Babylonia"
+      ]
+    },
+    {
+      "id": "a217",
+      "apiName": "ACHIEVEMENT_NATION_KUSH",
+      "steam": [
+        "Kush",
+        "Win as Kush"
+      ]
+    },
+    {
+      "id": "a218",
+      "apiName": "ACHIEVEMENT_PLAY_HOTSEAT",
+      "steam": [
+        "Play a Hotseat Game",
+        "Play a Hotseat Game"
+      ]
+    },
+    {
+      "id": "a219",
+      "apiName": "ACHIEVEMENT_PUNIC_WARS",
+      "steam": [
+        "Punic Wars",
+        "Eliminate Carthage as Rome"
+      ]
+    },
+    {
+      "id": "a220",
+      "apiName": "ACHIEVEMENT_WIN_NETWORK",
+      "steam": [
+        "Win a Network Game",
+        "Win a Network Game"
+      ]
+    },
+    {
+      "id": "a221",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_PRAGMATIST",
+      "steam": [
+        "Pragmatist",
+        "Welcome the Special Ambassador (Behind the Throne)"
+      ]
+    },
+    {
+      "id": "a222",
+      "apiName": "ACHIEVEMENT_CARTHAGE_2_GOLD",
+      "steam": [
+        "Gold Victory (Carthage 2)",
+        "Win a Gold Victory in Carthage scenario 2"
+      ]
+    },
+    {
+      "id": "a223",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_GREAT",
+      "steam": [
+        "Great Difficulty",
+        "Win on Great Difficulty"
+      ]
+    },
+    {
+      "id": "a224",
+      "apiName": "ACHIEVEMENT_ET_TU_BRUTUS",
+      "steam": [
+        "Et tu Brutus?",
+        "As Rome have Leader assassinated by another Roman family"
+      ]
+    },
+    {
+      "id": "a225",
+      "apiName": "ACHIEVEMENT_GREECE2_PLATAEA_WIN",
+      "steam": [
+        "Get the Hellas Out",
+        "Win the Battle of Plataea (Heroes of the Aegean 2)"
+      ]
+    },
+    {
+      "id": "a226",
+      "apiName": "ACHIEVEMENT_GREECE2_SALAMIS_WIN",
+      "steam": [
+        "The Turning Point",
+        "Win the Battle of Salamis (Heroes of the Aegean 2)"
+      ]
+    },
+    {
+      "id": "a227",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_20",
+      "steam": [
+        "Like a Lion",
+        "Kill 20 Persian units at Thermopylae (Heroes of the Aegean 2)"
+      ]
+    },
+    {
+      "id": "a228",
+      "apiName": "ACHIEVEMENT_MORTALITY_REALISTIC",
+      "steam": [
+        "Realistic Mortality",
+        "Win a game with Realistic Mortality"
+      ]
+    },
+    {
+      "id": "a229",
+      "apiName": "ACHIEVEMENT_PLAY_LAN",
+      "steam": [
+        "Play a LAN Game",
+        "Play a LAN Game"
+      ]
+    },
+    {
+      "id": "a230",
+      "apiName": "ACHIEVEMENT_RELIGION_HINDUISM",
+      "steam": [
+        "Hinduism",
+        "Found Hinduism"
+      ]
+    },
+    {
+      "id": "a231",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA",
+      "steam": [
+        "Hypatia the Teacher",
+        "Tutor a character with Hypatia (The Sacred and The Profane)"
+      ]
+    },
+    {
+      "id": "a232",
+      "apiName": "ACHIEVEMENT_UNIT_SHOTELAI",
+      "steam": [
+        "Shotelai",
+        "Train a Shotelai"
+      ]
+    },
+    {
+      "id": "a233",
+      "apiName": "ACHIEVEMENT_BATTLE_OF_OPIS",
+      "steam": [
+        "Battle of Opis",
+        "Eliminate Babylonia as Persia"
+      ]
+    },
+    {
+      "id": "a234",
+      "apiName": "ACHIEVEMENT_EGYPT1_MINOR_VICTORY",
+      "steam": [
+        "Kmt Unified",
+        "Minor Victory (Egypt scenario 1)"
+      ]
+    },
+    {
+      "id": "a235",
+      "apiName": "ACHIEVEMENT_VICTORY_RANDOMIZE_LEADERS",
+      "steam": [
+        "Randomized Leaders",
+        "Win a game with Randomized Leaders"
+      ]
+    },
+    {
+      "id": "a236",
+      "apiName": "ACHIEVEMENT_100_YEARS",
+      "steam": [
+        "Centenarian",
+        "Have a leader survive to 100 years of age"
+      ]
+    },
+    {
+      "id": "a237",
+      "apiName": "ACHIEVEMENT_BLADE_OF_THE_MONKEY",
+      "steam": [
+        "Blade of the Monkey",
+        "Be assassinated by a monkey"
+      ]
+    },
+    {
+      "id": "a238",
+      "apiName": "ACHIEVEMENT_CARTHAGE_3",
+      "steam": [
+        "Carthage - Rise of Rome",
+        "Win Carthage scenario 3"
+      ]
+    },
+    {
+      "id": "a239",
+      "apiName": "ACHIEVEMENT_CARTHAGE_3_BRONZE",
+      "steam": [
+        "Bronze Victory (Carthage 3)",
+        "Win a Bronze Victory in Carthage scenario 3"
+      ]
+    },
+    {
+      "id": "a240",
+      "apiName": "ACHIEVEMENT_EGYPT1_BUHEN",
+      "steam": [
+        "Rmt n Kmt Buhen",
+        "Capture Buhen quickly (Egypt scenario 1)"
+      ]
+    },
+    {
+      "id": "a241",
+      "apiName": "ACHIEVEMENT_EGYPT1_MAJOR_VICTORY",
+      "steam": [
+        "Greater Kmt Unified",
+        "Major Victory (Egypt scenario 1)"
+      ]
+    },
+    {
+      "id": "a242",
+      "apiName": "ACHIEVEMENT_GOTW",
+      "steam": [
+        "Game of the Week",
+        "Win a Game of the Week"
+      ]
+    },
+    {
+      "id": "a243",
+      "apiName": "ACHIEVEMENT_GREECE3_OLYMPICS",
+      "steam": [
+        "The Olive Wreath",
+        "Win an Olympic race (Heroes of the Aegean 3)"
+      ]
+    },
+    {
+      "id": "a244",
+      "apiName": "ACHIEVEMENT_GREECE3_PAIONIA",
+      "steam": [
+        "Those Were Mine",
+        "Retake Paionia (Heroes of the Aegean 3)"
+      ]
+    },
+    {
+      "id": "a245",
+      "apiName": "ACHIEVEMENT_GREECE3_THREE_WIVES",
+      "steam": [
+        "Three's a Crowd",
+        "Have three wives as Philip (Heroes of the Aegean 3)"
+      ]
+    },
+    {
+      "id": "a246",
+      "apiName": "ACHIEVEMENT_LBP3",
+      "steam": [
+        "Learn By Playing 3 - Good",
+        "Complete Learn By Playing 3 - Good"
+      ]
+    },
+    {
+      "id": "a247",
+      "apiName": "ACHIEVEMENT_NATION_AKSUM",
+      "steam": [
+        "Aksum",
+        "Win as Aksum"
+      ]
+    },
+    {
+      "id": "a248",
+      "apiName": "ACHIEVEMENT_PLAY_PLAYBYCLOUD",
+      "steam": [
+        "Play a Play-By-Cloud Game",
+        "Play a Play-By-Cloud Game"
+      ]
+    },
+    {
+      "id": "a249",
+      "apiName": "ACHIEVEMENT_VICTORY_RANDOMIZE_FAMILIES",
+      "steam": [
+        "Randomized Families",
+        "Win a game with Randomized Families"
+      ]
+    },
+    {
+      "id": "a250",
+      "apiName": "ACHIEVEMENT_BARBARIAN_INVASION",
+      "steam": [
+        "Barbarian Horde",
+        "Survive the Barbarian Horde"
+      ]
+    },
+    {
+      "id": "a251",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_OPULENCE",
+      "steam": [
+        "True Opulence",
+        "Complete opulence project with an extravagant leader (Behind the Throne)"
+      ]
+    },
+    {
+      "id": "a252",
+      "apiName": "ACHIEVEMENT_CARTHAGE_1_EPIC",
+      "steam": [
+        "Epic Victory (Carthage 1)",
+        "Win an Epic Victory in Carthage scenario 1"
+      ]
+    },
+    {
+      "id": "a253",
+      "apiName": "ACHIEVEMENT_CARTHAGE_2_EPIC",
+      "steam": [
+        "Epic Victory (Carthage 2)",
+        "Win an Epic Victory in Carthage scenario 2"
+      ]
+    },
+    {
+      "id": "a254",
+      "apiName": "ACHIEVEMENT_CARTHAGO_COTHON",
+      "steam": [
+        "Cothon in Carthago",
+        "Build the Cothon in Carthago"
+      ]
+    },
+    {
+      "id": "a255",
+      "apiName": "ACHIEVEMENT_FERTILE_CRESCENT",
+      "steam": [
+        "Battle of the Fertile Crescent",
+        "As either Assyria, Babylonia, or Persia defeat the other two"
+      ]
+    },
+    {
+      "id": "a256",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_30",
+      "steam": [
+        "Still Fighting",
+        "Kill 30 Persian units at Thermopylae (Heroes of the Aegean 2)"
+      ]
+    },
+    {
+      "id": "a257",
+      "apiName": "ACHIEVEMENT_GREECE3_THRACIANS",
+      "steam": [
+        "What's 'hubris' in Greek?",
+        "Name two cities after yourself (Heroes of the Aegean 3)"
+      ]
+    },
+    {
+      "id": "a258",
+      "apiName": "ACHIEVEMENT_LBP4",
+      "steam": [
+        "Learn By Playing 4 - Strong",
+        "Complete Learn By Playing 4 - Strong"
+      ]
+    },
+    {
+      "id": "a259",
+      "apiName": "ACHIEVEMENT_ROMA_COLOSSEUM",
+      "steam": [
+        "Colosseum in Roma",
+        "Build the Colosseum in Roma"
+      ]
+    },
+    {
+      "id": "a260",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_PILGRIMAGE",
+      "steam": [
+        "Pilgrimage",
+        "Have a character finish a Pilgrimage (The Sacred and The Profane)"
+      ]
+    },
+    {
+      "id": "a261",
+      "apiName": "ACHIEVEMENT_ALEXANDRIA_LIGHTHOUSE",
+      "steam": [
+        "Lighthouse in Alexandria",
+        "Build the Lighthouse in Alexandria"
+      ]
+    },
+    {
+      "id": "a262",
+      "apiName": "ACHIEVEMENT_ATHENS_ACROPOLIS",
+      "steam": [
+        "Acropolis in Athenai",
+        "Build the Acropolis in Athenai"
+      ]
+    },
+    {
+      "id": "a263",
+      "apiName": "ACHIEVEMENT_CARTHAGE_3_SILVER",
+      "steam": [
+        "Silver Victory (Carthage 3)",
+        "Win a Silver Victory in Carthage scenario 3"
+      ]
+    },
+    {
+      "id": "a264",
+      "apiName": "ACHIEVEMENT_CARTHAGE_4",
+      "steam": [
+        "Carthage - Seizing Destiny",
+        "Win Carthage scenario 4"
+      ]
+    },
+    {
+      "id": "a265",
+      "apiName": "ACHIEVEMENT_CARTHAGE_4_BRONZE",
+      "steam": [
+        "Bronze Victory (Carthage 4)",
+        "Win a Bronze Victory in Carthage scenario 4"
+      ]
+    },
+    {
+      "id": "a266",
+      "apiName": "ACHIEVEMENT_CARTHAGE_CAMPAIGN",
+      "steam": [
+        "Carthage Campaign",
+        "Complete the Carthage Campaign"
+      ]
+    },
+    {
+      "id": "a267",
+      "apiName": "ACHIEVEMENT_COGNOMEN_DESTROYER",
+      "steam": [
+        "Destroyer",
+        "Become the Destroyer"
+      ]
+    },
+    {
+      "id": "a268",
+      "apiName": "ACHIEVEMENT_WIN_MPTEAMS",
+      "steam": [
+        "Win a MP Teams Game",
+        "Win a MP Teams Game"
+      ]
+    },
+    {
+      "id": "a269",
+      "apiName": "ACHIEVEMENT_AKSUMITE_MAJOR_STELE",
+      "steam": [
+        "Legendary Stele",
+        "As Aksum, erect a Legendary Stele"
+      ]
+    },
+    {
+      "id": "a270",
+      "apiName": "ACHIEVEMENT_ALEXANDRIA_MUSAEUM",
+      "steam": [
+        "Musaeum in Alexandria",
+        "Build the Musaeum in Alexandria"
+      ]
+    },
+    {
+      "id": "a271",
+      "apiName": "ACHIEVEMENT_CARTHAGE_3_GOLD",
+      "steam": [
+        "Gold Victory (Carthage 3)",
+        "Win a Gold Victory in Carthage scenario 3"
+      ]
+    },
+    {
+      "id": "a272",
+      "apiName": "ACHIEVEMENT_CARTHAGE_4_GOLD",
+      "steam": [
+        "Gold Victory (Carthage 4)",
+        "Win a Gold Victory in Carthage scenario 4"
+      ]
+    },
+    {
+      "id": "a273",
+      "apiName": "ACHIEVEMENT_CARTHAGE_4_SILVER",
+      "steam": [
+        "Silver Victory (Carthage 4)",
+        "Win a Silver Victory in Carthage scenario 4"
+      ]
+    },
+    {
+      "id": "a274",
+      "apiName": "ACHIEVEMENT_DHARMIC_HEARTLAND",
+      "steam": [
+        "Dharmic Heartland",
+        "Found Hinduism and Buddhism in the same game (Empires of the Indus)"
+      ]
+    },
+    {
+      "id": "a275",
+      "apiName": "ACHIEVEMENT_EGYPT2_MINOR_VICTORY",
+      "steam": [
+        "Prosperous Kmt",
+        "Minor Victory (Egypt scenario 2)"
+      ]
+    },
+    {
+      "id": "a276",
+      "apiName": "ACHIEVEMENT_GREECE3_ATHENS",
+      "steam": [
+        "I am the Archon Now",
+        "Subjugate Athens (Heroes of the Aegean 3)"
+      ]
+    },
+    {
+      "id": "a277",
+      "apiName": "ACHIEVEMENT_GREECE3_SPARTA",
+      "steam": [
+        "If? Then!",
+        "Subjugate Sparta (Heroes of the Aegean 3)"
+      ]
+    },
+    {
+      "id": "a278",
+      "apiName": "ACHIEVEMENT_GREECE3_VICTORY",
+      "steam": [
+        "Unfinished Business",
+        "Win Philip's scenario (Heroes of the Aegean 3)"
+      ]
+    },
+    {
+      "id": "a279",
+      "apiName": "ACHIEVEMENT_GREECE3_VICTORY_BRONZE",
+      "steam": [
+        "Philip's Bronze Crown",
+        "Complete the main victory goals as Philip (Heroes of the Aegean 3)"
+      ]
+    },
+    {
+      "id": "a280",
+      "apiName": "ACHIEVEMENT_GREECE3_VICTORY_SILVER",
+      "steam": [
+        "Philip's Silver Crown",
+        "Complete two optional victory goals as Philip (Heroes of the Aegean 3)"
+      ]
+    },
+    {
+      "id": "a281",
+      "apiName": "ACHIEVEMENT_GREECE5_BUCEPHALUS_10_KILLS",
+      "steam": [
+        "Mighty Bucephalus",
+        "Kill 10 units with Alexander on Bucephalus (Heroes of the Aegean 5)"
+      ]
+    },
+    {
+      "id": "a282",
+      "apiName": "ACHIEVEMENT_GREECE5_GORDIAN_KNOT",
+      "steam": [
+        "Knot So Hard",
+        "Cut the Gordian Knot (Heroes of the Aegean 5)"
+      ]
+    },
+    {
+      "id": "a283",
+      "apiName": "ACHIEVEMENT_GREECE5_TYRE",
+      "steam": [
+        "A Tyresome Siege",
+        "Complete the Siege of Tyre (Heroes of the Aegean 5)"
+      ]
+    },
+    {
+      "id": "a284",
+      "apiName": "ACHIEVEMENT_HATTUSA_YAZILIKAYA",
+      "steam": [
+        "Yazilikaya in Hattusa",
+        "Build the Yazilikaya in Hattusa"
+      ]
+    },
+    {
+      "id": "a285",
+      "apiName": "ACHIEVEMENT_LAND_OF_LUXURY",
+      "steam": [
+        "Land of Luxury",
+        "Have Jade, Silk, Ebony, and Spices resources within your borders (Empires of the Indus)"
+      ]
+    },
+    {
+      "id": "a286",
+      "apiName": "ACHIEVEMENT_ROMAN_PAPACY",
+      "steam": [
+        "Roman Papacy",
+        "As Rome, build Christianity Holy Site in Roma"
+      ]
+    },
+    {
+      "id": "a287",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_ST_PAUL",
+      "steam": [
+        "Patriarch St Paul",
+        "Have St Paul as Patriarch of Christianity (The Sacred and The Profane)"
+      ]
+    },
+    {
+      "id": "a288",
+      "apiName": "ACHIEVEMENT_UR_GREAT_ZIGGURAT",
+      "steam": [
+        "Great Ziggurat in Ur",
+        "Build the Great Ziggurat in Ur"
+      ]
+    },
+    {
+      "id": "a289",
+      "apiName": "ACHIEVEMENT_VICTORY_NO_CHARACTERS",
+      "steam": [
+        "No Characters",
+        "Win a game with No Characters"
+      ]
+    },
+    {
+      "id": "a290",
+      "apiName": "ACHIEVEMENT_VICTORY_ONE_CITY_CHALLENGE",
+      "steam": [
+        "One City Challenge",
+        "Win a game with One City Challenge"
+      ]
+    },
+    {
+      "id": "a291",
+      "apiName": "ACHIEVEMENT_VICTORY_TIME",
+      "steam": [
+        "Time Victory",
+        "Win a Time Victory"
+      ]
+    },
+    {
+      "id": "a292",
+      "apiName": "ACHIEVEMENT_WIN_FFA",
+      "steam": [
+        "Win a Free-For-All Game (>2 Players)",
+        "Win a Free-For-All Game (>2 Players)"
+      ]
+    },
+    {
+      "id": "a293",
+      "apiName": "ACHIEVEMENT_ALLIANCE_VICTORY",
+      "steam": [
+        "Alliance Victory",
+        "Help an ally win a game"
+      ]
+    },
+    {
+      "id": "a294",
+      "apiName": "ACHIEVEMENT_BEFORE_MONGOL_HORDE",
+      "steam": [
+        "Before the Mongol Horde",
+        "Win a game using only Riders family"
+      ]
+    },
+    {
+      "id": "a295",
+      "apiName": "ACHIEVEMENT_CALAMITIES_STEWARDS",
+      "steam": [
+        "Stewards of the Land",
+        "Control Three Stewards of the Land (Wrath of Gods)"
+      ]
+    },
+    {
+      "id": "a296",
+      "apiName": "ACHIEVEMENT_CARTHAGE_3_EPIC",
+      "steam": [
+        "Epic Victory (Carthage 3)",
+        "Win an Epic Victory in Carthage scenario 3"
+      ]
+    },
+    {
+      "id": "a297",
+      "apiName": "ACHIEVEMENT_CARTHAGE_4_EPIC",
+      "steam": [
+        "Epic Victory (Carthage 4)",
+        "Win an Epic Victory in Carthage scenario 4"
+      ]
+    },
+    {
+      "id": "a298",
+      "apiName": "ACHIEVEMENT_COGNOMEN_AVENGER",
+      "steam": [
+        "Avenger",
+        "Become the Avenger"
+      ]
+    },
+    {
+      "id": "a299",
+      "apiName": "ACHIEVEMENT_COGNOMEN_LAWGIVER",
+      "steam": [
+        "Lawgiver",
+        "Become the Lawgiver"
+      ]
+    },
+    {
+      "id": "a300",
+      "apiName": "ACHIEVEMENT_COGNOMEN_WHITE_DEATH",
+      "steam": [
+        "White Death",
+        "Become the White Death"
+      ]
+    },
+    {
+      "id": "a301",
+      "apiName": "ACHIEVEMENT_EGYPT3_MAJOR_VICTORY",
+      "steam": [
+        "Glory to The Aten",
+        "Major Victory (Egypt scenario 3)"
+      ]
+    },
+    {
+      "id": "a302",
+      "apiName": "ACHIEVEMENT_EGYPT3_MINOR_VICTORY",
+      "steam": [
+        "Akhenaten's Legacy",
+        "Minor Victory (Egypt scenario 3)"
+      ]
+    },
+    {
+      "id": "a303",
+      "apiName": "ACHIEVEMENT_GREECE1_LOSE",
+      "steam": [
+        "Defend Where?",
+        "Lose the Marathon scenario (Heroes of the Aegean 1)"
+      ]
+    },
+    {
+      "id": "a304",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_40",
+      "steam": [
+        "They Shall Not Pass",
+        "Kill 40 Persian units at Thermopylae (Heroes of the Aegean 2)"
+      ]
+    },
+    {
+      "id": "a305",
+      "apiName": "ACHIEVEMENT_GREECE3_ALEXANDER_KILL",
+      "steam": [
+        "Shape of Things to Come",
+        "Kill a unit with young Alexander as general (Heroes of the Aegean 3)"
+      ]
+    },
+    {
+      "id": "a306",
+      "apiName": "ACHIEVEMENT_GREECE3_VICTORY_GOLD",
+      "steam": [
+        "Philip's Golden Crown",
+        "Complete all the optional victory goals as Philip (Heroes of the Aegean 3)"
+      ]
+    },
+    {
+      "id": "a307",
+      "apiName": "ACHIEVEMENT_GREECE4_CITIES",
+      "steam": [
+        "Queen of Politics",
+        "Gain Control of all Cities (Heroes of the Aegean 4)"
+      ]
+    },
+    {
+      "id": "a308",
+      "apiName": "ACHIEVEMENT_GREECE4_INTRIGUE",
+      "steam": [
+        "Queen of Intrigue",
+        "Complete the Intrigue Tree (Heroes of the Aegean 4)"
+      ]
+    },
+    {
+      "id": "a309",
+      "apiName": "ACHIEVEMENT_GREECE5_PERSIAN_GATE",
+      "steam": [
+        "Gate to Victory",
+        "Win the Battle of Persian Gate (Heroes of the Aegean 5)"
+      ]
+    },
+    {
+      "id": "a310",
+      "apiName": "ACHIEVEMENT_GREECE5_PHARAOH",
+      "steam": [
+        "Pharaoh",
+        "Get Alexander recognized as Pharaoh (Heroes of the Aegean 5)"
+      ]
+    },
+    {
+      "id": "a311",
+      "apiName": "ACHIEVEMENT_GREECE5_VICTORY",
+      "steam": [
+        "Alexander the Mediocre",
+        "Defeat the Persian Empire (Heroes of the Aegean 5)"
+      ]
+    },
+    {
+      "id": "a312",
+      "apiName": "ACHIEVEMENT_UNIT_KUSHAN_WARLORDS",
+      "steam": [
+        "Kushan Warlord",
+        "Train a Kushan Warlord"
+      ]
+    },
+    {
+      "id": "a313",
+      "apiName": "ACHIEVEMENT_ALEXANDER_THE_GREAT",
+      "steam": [
+        "Alexander the Great",
+        "Eliminate Persia as Alexander The Great of Greece"
+      ]
+    },
+    {
+      "id": "a314",
+      "apiName": "ACHIEVEMENT_ALEXANDER_THE_WHO",
+      "steam": [
+        "Alexander the who?",
+        "Assassinate Alexander as Leader with one of your characters"
+      ]
+    },
+    {
+      "id": "a315",
+      "apiName": "ACHIEVEMENT_ALLIES_WITH_BENEFITS",
+      "steam": [
+        "Allies with Benefits",
+        "As the Yuezhi, use the Vassalize Tribe Mission (Empires of the Indus)"
+      ]
+    },
+    {
+      "id": "a316",
+      "apiName": "ACHIEVEMENT_BARBARIAN_INVASION_MULTIPLAYER",
+      "steam": [
+        "United Against The Horde",
+        "Survive the Barbarian Horde with friends"
+      ]
+    },
+    {
+      "id": "a317",
+      "apiName": "ACHIEVEMENT_BYZANTIUM_HAGIA_SOPHIA",
+      "steam": [
+        "Hagia Sophia in Byzantion",
+        "Build the Hagia Sophia in Byzantion"
+      ]
+    },
+    {
+      "id": "a318",
+      "apiName": "ACHIEVEMENT_CALAMITIES_DROUGHT_ADEPT",
+      "steam": [
+        "Drought Adept",
+        "Train a Drought Adept unit (Wrath of Gods)"
+      ]
+    },
+    {
+      "id": "a319",
+      "apiName": "ACHIEVEMENT_DELPHI_ORACLE",
+      "steam": [
+        "Oracle in Delphi",
+        "Build the Oracle in Delphi"
+      ]
+    },
+    {
+      "id": "a320",
+      "apiName": "ACHIEVEMENT_EGYPT1_MAJOR_DEFEAT",
+      "steam": [
+        "Sepat Wase Forever",
+        "Fail to capture Ta-mehu (Egypt scenario 1)"
+      ]
+    },
+    {
+      "id": "a321",
+      "apiName": "ACHIEVEMENT_EGYPT1_PHARAOH_MAJOR_VICTORY",
+      "steam": [
+        "Pharaonic Greater Kmt Unified",
+        "Major Victory on Pharaoh (Egypt scenario 1)"
+      ]
+    },
+    {
+      "id": "a322",
+      "apiName": "ACHIEVEMENT_EGYPT1_PHARAOH_MINOR_VICTORY",
+      "steam": [
+        "Pharaonic Kmt Unified",
+        "Minor Victory on Pharaoh (Egypt scenario 1)"
+      ]
+    },
+    {
+      "id": "a323",
+      "apiName": "ACHIEVEMENT_EGYPT2_DEFEAT",
+      "steam": [
+        "Golden Age-less",
+        "Fail to achieve Egypt's Golden Age (Egypt scenario 2)"
+      ]
+    },
+    {
+      "id": "a324",
+      "apiName": "ACHIEVEMENT_EGYPT2_MAJOR_VICTORY",
+      "steam": [
+        "Kmt Golden Age",
+        "Major Victory (Egypt scenario 2)"
+      ]
+    },
+    {
+      "id": "a325",
+      "apiName": "ACHIEVEMENT_EGYPT3_MAJOR_DEFEAT",
+      "steam": [
+        "Akhen-who?",
+        "Fail to achieve Akhenaten's Goals (Egypt scenario 3)"
+      ]
+    },
+    {
+      "id": "a326",
+      "apiName": "ACHIEVEMENT_EGYPT4_MAJOR_VICTORY",
+      "steam": [
+        "Ramesses II The Great",
+        "Major Victory at Battle of Qadesh (Egypt scenario 4)"
+      ]
+    },
+    {
+      "id": "a327",
+      "apiName": "ACHIEVEMENT_EGYPT4_MINOR_VICTORY",
+      "steam": [
+        "Qadesh Victory",
+        "Minor Victory at Battle of Qadesh (Egypt scenario 4)"
+      ]
+    },
+    {
+      "id": "a328",
+      "apiName": "ACHIEVEMENT_EGYPT4_RAMESSES_DEFEAT",
+      "steam": [
+        "Ramesses II KIA",
+        "As Kmt, Ramesses II killed in action at Battle of Qadesh (Egypt scenario 4)"
+      ]
+    },
+    {
+      "id": "a329",
+      "apiName": "ACHIEVEMENT_EGYPT5_MINOR_VICTORY",
+      "steam": [
+        "Partly Balanced Ma'at",
+        "Kept Ma'at in balance, but not all reach Sekhet A'Aru (Egypt scenario 5)"
+      ]
+    },
+    {
+      "id": "a330",
+      "apiName": "ACHIEVEMENT_EGYPT6_MINOR_VICTORY",
+      "steam": [
+        "History Repeats",
+        "Held against the Sea People (Egypt scenario 6)"
+      ]
+    },
+    {
+      "id": "a331",
+      "apiName": "ACHIEVEMENT_EGYPT_CAMPAIGN_COMPLETED",
+      "steam": [
+        "Egypt Campaign",
+        "Completed the Egypt Campaign"
+      ]
+    },
+    {
+      "id": "a332",
+      "apiName": "ACHIEVEMENT_GREECE2_SALAMIS_PERFECT",
+      "steam": [
+        "Not a Chance",
+        "Do not lose any ships in the Battle of Salamis (Heroes of the Aegean 2)"
+      ]
+    },
+    {
+      "id": "a333",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_50",
+      "steam": [
+        "THIS IS SPARTA!!",
+        "Kill 50 Persian units at Thermopylae (Heroes of the Aegean 2)"
+      ]
+    },
+    {
+      "id": "a334",
+      "apiName": "ACHIEVEMENT_GREECE3_NO_WOUND",
+      "steam": [
+        "Not a Scratch",
+        "Win without Philip losing an eye (Heroes of the Aegean 3)"
+      ]
+    },
+    {
+      "id": "a335",
+      "apiName": "ACHIEVEMENT_GREECE4_WIN_OLYMPIAS_STORYLINE",
+      "steam": [
+        "Queen of Lies",
+        "Win after Philip killed by Olympias (Heroes of the Aegean 4)"
+      ]
+    },
+    {
+      "id": "a336",
+      "apiName": "ACHIEVEMENT_GREECE4_WIN_PAUSANIAS_STORYLINE",
+      "steam": [
+        "Queen of Opportunity",
+        "Win after Philip killed by Pausanias (Heroes of the Aegean 4)"
+      ]
+    },
+    {
+      "id": "a337",
+      "apiName": "ACHIEVEMENT_GREECE4_WIN_PERSIA_STORYLINE",
+      "steam": [
+        "Queen of War",
+        "Win after Philip killed by Persians (Heroes of the Aegean 4)"
+      ]
+    },
+    {
+      "id": "a338",
+      "apiName": "ACHIEVEMENT_GREECE5_VICTORY_BETTER",
+      "steam": [
+        "Alexander the Alright",
+        "Defeat the Persian Empire in under 60 turns (Heroes of the Aegean 5)"
+      ]
+    },
+    {
+      "id": "a339",
+      "apiName": "ACHIEVEMENT_GREECE6_MACEDONIA",
+      "steam": [
+        "Toppling the Giants",
+        "Win the Diadochi scenario as Cassander of Macedonia (Heroes of the Aegean 6)"
+      ]
+    },
+    {
+      "id": "a340",
+      "apiName": "ACHIEVEMENT_GREECE6_SELEUCUS",
+      "steam": [
+        "The Eastern Empire",
+        "Win the Diadochi scenario as the Seleucid Empire (Heroes of the Aegean 6)"
+      ]
+    },
+    {
+      "id": "a341",
+      "apiName": "ACHIEVEMENT_HALICARNASSUS_MAUSOLEUM",
+      "steam": [
+        "Mausoleum in Halicarnassus",
+        "Build the Mausoleum in Halicarnassus"
+      ]
+    },
+    {
+      "id": "a342",
+      "apiName": "ACHIEVEMENT_HARDCORE",
+      "steam": [
+        "Hardcore",
+        "Win a game on the Great difficulty against all nations with High Event Level, Realistic Mortality, Locked Save, Ruthless AI and No Undo."
+      ]
+    },
+    {
+      "id": "a343",
+      "apiName": "ACHIEVEMENT_MERCHANTS_LEVANT",
+      "steam": [
+        "Merchants of the Levant",
+        "Win a OCC using Traders family"
+      ]
+    },
+    {
+      "id": "a344",
+      "apiName": "ACHIEVEMENT_NATION_TAMILAKAM",
+      "steam": [
+        "Tamilakam",
+        "Win as Tamilakam"
+      ]
+    },
+    {
+      "id": "a345",
+      "apiName": "ACHIEVEMENT_NATION_YUEZHI",
+      "steam": [
+        "Yuezhi",
+        "Win as Yuezhi"
+      ]
+    },
+    {
+      "id": "a346",
+      "apiName": "ACHIEVEMENT_NINEVEH_ROYAL_LIBRARY",
+      "steam": [
+        "Royal Library in Nineveh",
+        "Build the Royal Library in Nineveh"
+      ]
+    },
+    {
+      "id": "a347",
+      "apiName": "ACHIEVEMENT_UNIT_ARCHER_ELEPHANT",
+      "steam": [
+        "Elephant Archer",
+        "Train an Elephant Archer"
+      ]
+    },
+    {
+      "id": "a348",
+      "apiName": "ACHIEVEMENT_WIN_1V1",
+      "steam": [
+        "Win a 1-v-1 Game",
+        "Win a 1-v-1 Game"
+      ]
+    },
+    {
+      "id": "a349",
+      "apiName": "ACHIEVEMENT_WIN_HOTSEAT",
+      "steam": [
+        "Win a Hotseat Game",
+        "Win a Hotseat Game"
+      ]
+    },
+    {
+      "id": "a350",
+      "apiName": "ACHIEVEMENT_WIN_LAN",
+      "steam": [
+        "Win a LAN Game",
+        "Win a LAN Game"
+      ]
+    },
+    {
+      "id": "a351",
+      "apiName": "ACHIEVEMENT_WIN_PLAYBYCLOUD",
+      "steam": [
+        "Win a Play-By-Cloud Game",
+        "Win a Play-By-Cloud Game"
+      ]
+    },
+    {
+      "id": "a352",
+      "apiName": "ACHIEVEMENT_WRATH_OF_GODS_PERFECT_STORM",
+      "steam": [
+        "A Perfect Storm",
+        "Have three Calamities active at once (Wrath of Gods Scenario)"
+      ]
+    },
+    {
+      "id": "a353",
+      "apiName": "ACHIEVEMENT_BARBARIAN_INVASION_GREAT_RAGING",
+      "steam": [
+        "The Great Raging Horde",
+        "Survive the Barbarian Horde on The Great difficulty against Raging tribes"
+      ]
+    },
+    {
+      "id": "a354",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY",
+      "steam": [
+        "Didn't Need it Anyway",
+        "Lose a bet, win the game without that city (Behind the Throne)"
+      ]
+    },
+    {
+      "id": "a355",
+      "apiName": "ACHIEVEMENT_COGNOMEN_FANATIC",
+      "steam": [
+        "Fanatic",
+        "Become the Fanatic"
+      ]
+    },
+    {
+      "id": "a356",
+      "apiName": "ACHIEVEMENT_COGNOMEN_FAVORED",
+      "steam": [
+        "Favored",
+        "Become the Favored"
+      ]
+    },
+    {
+      "id": "a357",
+      "apiName": "ACHIEVEMENT_COGNOMEN_HUNTER",
+      "steam": [
+        "Hunter",
+        "Become the Hunter"
+      ]
+    },
+    {
+      "id": "a358",
+      "apiName": "ACHIEVEMENT_COGNOMEN_LIBERATOR",
+      "steam": [
+        "Liberator",
+        "Become the Liberator"
+      ]
+    },
+    {
+      "id": "a359",
+      "apiName": "ACHIEVEMENT_COGNOMEN_RESTORER",
+      "steam": [
+        "Restorer",
+        "Become the Restorer"
+      ]
+    },
+    {
+      "id": "a360",
+      "apiName": "ACHIEVEMENT_COGNOMEN_SCOURGE",
+      "steam": [
+        "Scourge",
+        "Become the Scourge"
+      ]
+    },
+    {
+      "id": "a361",
+      "apiName": "ACHIEVEMENT_COUNCIL_OF_MADNESS",
+      "steam": [
+        "Council of Madness",
+        "Have all three Councilors insane"
+      ]
+    },
+    {
+      "id": "a362",
+      "apiName": "ACHIEVEMENT_DAMASCUS_VIA_RECTA_SOUK",
+      "steam": [
+        "Via Recta Souk in Damascus",
+        "Build the Via Recta Souk in Damascus"
+      ]
+    },
+    {
+      "id": "a363",
+      "apiName": "ACHIEVEMENT_EGYPT1_DEFEAT",
+      "steam": [
+        "Only Kem",
+        "Fail to capture Ta-shemau (Egypt scenario 1)"
+      ]
+    },
+    {
+      "id": "a364",
+      "apiName": "ACHIEVEMENT_EGYPT2_MAJOR_DEFEAT",
+      "steam": [
+        "Worst Pharaoh Ever",
+        "Fail to achieve any goals (Egypt scenario 2)"
+      ]
+    },
+    {
+      "id": "a365",
+      "apiName": "ACHIEVEMENT_EGYPT2_PHARAOH_MAJOR_VICTORY",
+      "steam": [
+        "Pharaonic Kmt Golden Age",
+        "Major Victory on Pharaoh (Egypt scenario 2)"
+      ]
+    },
+    {
+      "id": "a366",
+      "apiName": "ACHIEVEMENT_EGYPT2_PHARAOH_MINOR_VICTORY",
+      "steam": [
+        "Prosperous Pharaonic Kmt",
+        "Minor Victory on Pharaoh (Egypt scenario 2)"
+      ]
+    },
+    {
+      "id": "a367",
+      "apiName": "ACHIEVEMENT_EGYPT3_DEFEAT",
+      "steam": [
+        "Failed the Aten",
+        "Fail to establish Atenism (Egypt scenario 3)"
+      ]
+    },
+    {
+      "id": "a368",
+      "apiName": "ACHIEVEMENT_EGYPT3_PHARAOH_MAJOR_VICTORY",
+      "steam": [
+        "Pharaonic Glory to The Aten",
+        "Major Victory on Pharaoh (Egypt scenario 3)"
+      ]
+    },
+    {
+      "id": "a369",
+      "apiName": "ACHIEVEMENT_EGYPT3_PHARAOH_MINOR_VICTORY",
+      "steam": [
+        "Akhenaten's Pharaonic Legacy",
+        "Minor Victory on Pharaoh (Egypt scenario 3)"
+      ]
+    },
+    {
+      "id": "a370",
+      "apiName": "ACHIEVEMENT_EGYPT4_DEFEAT",
+      "steam": [
+        "Qadesh Defeat",
+        "Loss at Battle of Qadesh (Egypt scenario 4)"
+      ]
+    },
+    {
+      "id": "a371",
+      "apiName": "ACHIEVEMENT_EGYPT4_MAJOR_DEFEAT",
+      "steam": [
+        "Destruction at Qadesh",
+        "Major Loss at Battle of Qadesh (Egypt scenario 4)"
+      ]
+    },
+    {
+      "id": "a372",
+      "apiName": "ACHIEVEMENT_EGYPT4_MUWATALLI_DEFEAT",
+      "steam": [
+        "Muwatalli II KIA",
+        "As Hatti, Muwatalli II killed in action at Battle of Qadesh (Egypt scenario 4)"
+      ]
+    },
+    {
+      "id": "a373",
+      "apiName": "ACHIEVEMENT_EGYPT4_PHARAOH_MAJOR_VICTORY",
+      "steam": [
+        "Pharaonic Ramesses II The Great",
+        "Major Victory at Battle of Qadesh on Pharaoh (Egypt scenario 4)"
+      ]
+    },
+    {
+      "id": "a374",
+      "apiName": "ACHIEVEMENT_EGYPT4_PHARAOH_MINOR_VICTORY",
+      "steam": [
+        "Pharaonic Qadesh Victory",
+        "Minor Victory at Battle of Qadesh on Pharaoh (Egypt scenario 4)"
+      ]
+    },
+    {
+      "id": "a375",
+      "apiName": "ACHIEVEMENT_EGYPT4_SCOUT_DEFEAT",
+      "steam": [
+        "Split the Army",
+        "Scout killed before getting message to Ptah and Set Divisions (Egypt scenario 4)"
+      ]
+    },
+    {
+      "id": "a376",
+      "apiName": "ACHIEVEMENT_EGYPT5_DEFEAT",
+      "steam": [
+        "Lost the Hearts of Kmt",
+        "Failed to win the Hearts of Kmt (Egypt scenario 5)"
+      ]
+    },
+    {
+      "id": "a377",
+      "apiName": "ACHIEVEMENT_EGYPT5_MAJOR_DEFEAT",
+      "steam": [
+        "The Neter Collapsed",
+        "Failed so badly, the Neter collapsed and the universe stopped existing (Egypt scenario 5)"
+      ]
+    },
+    {
+      "id": "a378",
+      "apiName": "ACHIEVEMENT_EGYPT5_MAJOR_VICTORY",
+      "steam": [
+        "Won the Hearts of Kmt",
+        "Kept Ma'at in perfect balance and won the Hearts of Kmt (Egypt scenario 5)"
+      ]
+    },
+    {
+      "id": "a379",
+      "apiName": "ACHIEVEMENT_EGYPT5_PHARAOH_MAJOR_VICTORY",
+      "steam": [
+        "Won the Pharaonic Hearts of Kmt",
+        "Kept Ma'at in perfect balance on Pharaoh and won the Hearts of Kmt (Egypt scenario 5)"
+      ]
+    },
+    {
+      "id": "a380",
+      "apiName": "ACHIEVEMENT_EGYPT5_PHARAOH_MINOR_VICTORY",
+      "steam": [
+        "Pharaonic Partly Balanced Ma'at",
+        "Kept Ma'at in balance on Pharaoh, but not all reach Sekhet A'Aru (Egypt scenario 5)"
+      ]
+    },
+    {
+      "id": "a381",
+      "apiName": "ACHIEVEMENT_EGYPT6_DEFEAT",
+      "steam": [
+        "Kmt's Sunset",
+        "Couldn't handle the pressure (Egypt scenario 6)"
+      ]
+    },
+    {
+      "id": "a382",
+      "apiName": "ACHIEVEMENT_EGYPT6_MAJOR_DEFEAT",
+      "steam": [
+        "Worst.Ending.Possible.",
+        "Like you didn't even try (Egypt scenario 6)"
+      ]
+    },
+    {
+      "id": "a383",
+      "apiName": "ACHIEVEMENT_EGYPT6_MAJOR_VICTORY",
+      "steam": [
+        "Re-writing History",
+        "Smashed the Sea People (Egypt scenario 6)"
+      ]
+    },
+    {
+      "id": "a384",
+      "apiName": "ACHIEVEMENT_EGYPT6_PHARAOH_MAJOR_VICTORY",
+      "steam": [
+        "The Greatest Pharaoh!",
+        "Smashed the Sea People on Pharaoh (Egypt scenario 6)"
+      ]
+    },
+    {
+      "id": "a385",
+      "apiName": "ACHIEVEMENT_EGYPT6_PHARAOH_MINOR_VICTORY",
+      "steam": [
+        "Pharaonic History Repeats",
+        "Held against the Sea People on Pharaoh (Egypt scenario 6)"
+      ]
+    },
+    {
+      "id": "a386",
+      "apiName": "ACHIEVEMENT_EGYPT_EXODUS_VICTORY",
+      "steam": [
+        "The Hekau Khasut Slaves",
+        "Completed the Hekau Khasut Slaves Storyline in the Egypt Campaign"
+      ]
+    },
+    {
+      "id": "a387",
+      "apiName": "ACHIEVEMENT_ELEPHANTINE_ELEPHANT",
+      "steam": [
+        "Elephant in Elephantine",
+        "Train an elephant in Elephantine"
+      ]
+    },
+    {
+      "id": "a388",
+      "apiName": "ACHIEVEMENT_ETHNIC_DIVERSITY",
+      "steam": [
+        "Ethnic Diversity",
+        "Have a Leader with all 7 ethnicities"
+      ]
+    },
+    {
+      "id": "a389",
+      "apiName": "ACHIEVEMENT_GREECE1_ALTERNATE_WIN",
+      "steam": [
+        "That Also Works",
+        "Find another way to win the Marathon scenario (Heroes of the Aegean 1)"
+      ]
+    },
+    {
+      "id": "a390",
+      "apiName": "ACHIEVEMENT_GREECE5_VICTORY_BEST",
+      "steam": [
+        "Alexander the Great",
+        "Defeat the Persian Empire and become Pharaoh in under 50 turns (Heroes of the Aegean 5)"
+      ]
+    },
+    {
+      "id": "a391",
+      "apiName": "ACHIEVEMENT_GREECE6_ANTIGONID",
+      "steam": [
+        "Youth Prevails",
+        "Win the Diadochi scenario as the Antigonid Empire (Heroes of the Aegean 6)"
+      ]
+    },
+    {
+      "id": "a392",
+      "apiName": "ACHIEVEMENT_GREECE6_PTOLEMY",
+      "steam": [
+        "Rule of Pharaohs",
+        "Win the Diadochi scenario as the Ptolemaic Kingdom (Heroes of the Aegean 6)"
+      ]
+    },
+    {
+      "id": "a393",
+      "apiName": "ACHIEVEMENT_HELIOPOLIS_HELIOPOLIS",
+      "steam": [
+        "Heliopolis in Heliopolis",
+        "Build the Heliopolis in Heliopolis"
+      ]
+    },
+    {
+      "id": "a394",
+      "apiName": "ACHIEVEMENT_HORDE_WARFARE",
+      "steam": [
+        "Horde Warfare",
+        "Control 10 Steppe Riders (Empires of the Indus)"
+      ]
+    },
+    {
+      "id": "a395",
+      "apiName": "ACHIEVEMENT_JERWAN_JERWAN_AQUEDUCT",
+      "steam": [
+        "Jerwan Aqueduct in Jerwan",
+        "Build the Jerwan Aqueduct in Jerwan"
+      ]
+    },
+    {
+      "id": "a396",
+      "apiName": "ACHIEVEMENT_KNOWLEDGE_ANCIENTS",
+      "steam": [
+        "Knowledge of the Ancients",
+        "Build a Library and The Musaeum in Thutmosid (Sages) Alexandria"
+      ]
+    },
+    {
+      "id": "a397",
+      "apiName": "ACHIEVEMENT_NAPATA_JEBEL_BARKAL",
+      "steam": [
+        "Jebel Barkal in Napata",
+        "Build the Jebel Barkal in Napata"
+      ]
+    },
+    {
+      "id": "a398",
+      "apiName": "ACHIEVEMENT_ONE_TRUE_KING",
+      "steam": [
+        "One True King",
+        "Win a game as Tamilakam without changing Family Supremacy (Empires of the Indus)"
+      ]
+    },
+    {
+      "id": "a399",
+      "apiName": "ACHIEVEMENT_PETRA_AL_KHAZNEH",
+      "steam": [
+        "Al Khazneh in Petra",
+        "Build the Al Khazneh in Petra"
+      ]
+    },
+    {
+      "id": "a400",
+      "apiName": "ACHIEVEMENT_RHODES_COLOSSUS",
+      "steam": [
+        "Colossus in Rhodes",
+        "Build the Colossus in Rhodes"
+      ]
+    },
+    {
+      "id": "a401",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_DISSENT_ALL",
+      "steam": [
+        "Religious Dissent",
+        "Have dissent from all four world religions at the same time (The Sacred and The Profane)"
+      ]
+    },
+    {
+      "id": "a402",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_FIVE_CULTS",
+      "steam": [
+        "Five Cults",
+        "Have Five Cults (The Sacred and The Profane)"
+      ]
+    },
+    {
+      "id": "a403",
+      "apiName": "ACHIEVEMENT_THE_ROYAL_COUPLE",
+      "steam": [
+        "The Royal Couple",
+        "Have Old World's two most famous faces married and ruling your nation."
+      ]
+    },
+    {
+      "id": "a404",
+      "apiName": "ACHIEVEMENT_WRATH_OF_GODS",
+      "steam": [
+        "Wrath of Gods",
+        "Survive the Wrath of Gods (Wrath of Gods Scenario)"
+      ]
+    },
+    {
+      "id": "a405",
+      "apiName": "ACHIEVEMENT_WRATH_OF_GODS_DIVINE_DEVOTEE",
+      "steam": [
+        "The Divine Devotee Wrath of Gods",
+        "Survive the Wrath of Gods and complete a Divine Victory on Devotee difficulty (Wrath of Gods Scenario)"
+      ]
+    },
+    {
+      "id": "a406",
+      "apiName": "ACHIEVEMENT_WRATH_OF_GODS_PLAYING_FAVORITES",
+      "steam": [
+        "Playing Favorites",
+        "Fulfill five Demands in a row for a single god (Wrath of Gods Scenario)"
+      ]
+    },
+    {
+      "id": "a407",
+      "apiName": "ACHIEVEMENT_COGNOMEN_CHOSEN",
+      "steam": [
+        "Chosen",
+        "Become the Chosen"
+      ]
+    },
+    {
+      "id": "ambition-victory",
+      "apiName": "ACHIEVEMENT_VICTORY_AMBITION",
+      "steam": [
+        "Ambition Victory",
+        "Win an Ambition Victory"
+      ]
+    }
+  ]
+}

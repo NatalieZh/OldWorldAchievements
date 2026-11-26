@@ -1,7 +1,6 @@
 {
-  "guide": "cognomens-draft.md",
-  "achievementCount": 56,
-  "achievementIds": [
+  "count": 56,
+  "ids": [
     "a007",
     "a012",
     "a014",

@@ -1,0 +1,403 @@
+{
+  "date": "2026-11-26",
+  "buildId": "26728102",
+  "count": 21,
+  "sourceRoot": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Old World",
+  "sourceSha256": {
+    "Reference/XML/Infos/achievement.xml": "63e0e16dedb35eb03ef5be426e9d2de23f69ede0bcfbfe57e48fbc7661d33a61",
+    "Reference/XML/Infos/scenario.xml": "b8e25120dd142232bf7eae7fd2e28d95eda41ed4247aac54a3f523e537673e87",
+    "Reference/XML/Mods/Carthage3/Infos/bonus-event-add.xml": "f29ca36e0df69d997a5b4098542b091a1b7d1e4ff1d6bf4e3da22db474e1b1bf",
+    "Reference/XML/Mods/Carthage3/Infos/eventStory-add.xml": "5e74908bb4820c8a75df8631a92300f857c9eb3edbdb657d31468c6bc7c52174",
+    "Reference/XML/Mods/Carthage4/Infos/bonus-event-add.xml": "5763f5bc125f00996a307500701cd5e6880473c4aea049293c7f02710efd2e84",
+    "Reference/XML/Mods/Carthage4/Infos/eventStory-add.xml": "be28476dfe12ab3c21a92f8739ff9ef9f56f7db3b133ff65df0236fa897ebfa8"
+  },
+  "records": [
+    {
+      "id": "a180",
+      "apiName": "ACHIEVEMENT_CARTHAGE_1_BRONZE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_1_BRONZE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_1_BRONZE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_1_BRONZE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_1_BRONZE</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_1</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a202",
+      "apiName": "ACHIEVEMENT_CARTHAGE_1_GOLD",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_1_GOLD",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_1_GOLD</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_1_GOLD_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_1_GOLD</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_1</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a176",
+      "apiName": "ACHIEVEMENT_CARTHAGE_1",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_1",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_1</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_1_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_1</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_1</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_CARTHAGE_1",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_CARTHAGE_1</zType>\n\t\t<Name>TEXT_SCENARIO_CARTHAGE_1</Name>\n\t\t<SubTitle>TEXT_SCENARIO_CARTHAGE_1_SUB</SubTitle>\n\t\t<VictoryPopup>TEXT_SCENARIO_CARTHAGE_1_RULES</VictoryPopup>\n\t\t<ScenarioClass>SCENARIOCLASS_CARTHAGE</ScenarioClass>\n\t\t<zIcon>CarthageThumbnail</zIcon>\n\t\t<zBackgroundName>Sprites/Events/Ox-hide-Dido</zBackgroundName>\n\t\t<zMapFile>Carthage Campaign Game One</zMapFile>\n\t\t<zModName>Carthage1</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_CARTHAGE_1</zValue>\n\t\t</azAchievements>\n\t\t<Nation>NATION_CARTHAGE</Nation>\n\t\t<Difficulty>DIFFICULTY_CARTHAGE_MEDIUM</Difficulty>\n\t\t<TurnScale>TURNSCALE_YEAR</TurnScale>\n\t\t<TribeLevel>TRIBELEVEL_NORMAL</TribeLevel>\n\t\t<DifficultyDisabled>\n\t\t\t<zValue>DIFFICULTY_ABLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GOOD</zValue>\n\t\t\t<zValue>DIFFICULTY_GREAT</zValue>\n\t\t\t<zValue>DIFFICULTY_STRONG</zValue>\n\t\t\t<zValue>DIFFICULTY_NOBLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GLORIOUS</zValue>\n\t\t\t<zValue>DIFFICULTY_MAGNIFICENT</zValue>\n\t\t</DifficultyDisabled>\n\t\t<ParametersInvalid>\n\t\t\t<zValue>NumPlayers</zValue>\n\t\t\t<zValue>NumTeams</zValue>\n\t\t\t<zValue>Nation</zValue>\n\t\t\t<zValue>Archetype</zValue>\n\t\t\t<zValue>Dynasty</zValue>\n\t\t\t<zValue>OpponentLevel</zValue>\n\t\t\t<zValue>Advantage</zValue>\n\t\t\t<zValue>SuccessionGender</zValue>\n\t\t\t<zValue>SuccessionOrder</zValue>\n\t\t\t<zValue>Mortality</zValue>\n\t\t\t<zValue>TurnScale</zValue>\n\t\t\t<zValue>ForceMarch</zValue>\n\t\t\t<zValue>EventLevel</zValue>\n\t\t\t<zValue>Development</zValue>\n\t\t\t<zValue>MapSize</zValue>\n\t\t\t<zValue>MapOptions</zValue>\n\t\t\t<zValue>ModOptions</zValue>\n\t\t\t<zValue>DifficultyMode</zValue>\n\t\t\t<zValue>MapClass</zValue>\n\t\t\t<zValue>MapPath</zValue>\n\t\t</ParametersInvalid>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a184",
+      "apiName": "ACHIEVEMENT_CARTHAGE_1_SILVER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_1_SILVER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_1_SILVER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_1_SILVER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_1_SILVER</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_1</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a252",
+      "apiName": "ACHIEVEMENT_CARTHAGE_1_EPIC",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_1_EPIC",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_1_EPIC</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_1_EPIC_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_1_EPIC</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_1</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a204",
+      "apiName": "ACHIEVEMENT_CARTHAGE_2_BRONZE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_2_BRONZE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_2_BRONZE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_2_BRONZE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_2_BRONZE</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_2</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a222",
+      "apiName": "ACHIEVEMENT_CARTHAGE_2_GOLD",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_2_GOLD",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_2_GOLD</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_2_GOLD_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_2_GOLD</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_2</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a203",
+      "apiName": "ACHIEVEMENT_CARTHAGE_2",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_2",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_2</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_2_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_2</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_2</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_CARTHAGE_2",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_CARTHAGE_2</zType>\n\t\t<Name>TEXT_SCENARIO_CARTHAGE_2</Name>\n\t\t<SubTitle>TEXT_SCENARIO_CARTHAGE_2_SUB</SubTitle>\n\t\t<VictoryPopup>TEXT_POPUP_VICTORY_SCENARIO_INFO</VictoryPopup>\n\t\t<ScenarioClass>SCENARIOCLASS_CARTHAGE</ScenarioClass>\n\t\t<zIcon>CarthageThumbnail</zIcon>\n\t\t<zBackgroundName>Sprites/Events/CothonOfCarthage</zBackgroundName>\n\t\t<zMapFile>Carthage Campaign Game Two</zMapFile>\n\t\t<zModName>Carthage2</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_CARTHAGE_2</zValue>\n\t\t</azAchievements>\n\t\t<Prereq>SCENARIO_CARTHAGE_1</Prereq>\n\t\t<Nation>NATION_CARTHAGE</Nation>\n\t\t<Difficulty>DIFFICULTY_CARTHAGE_MEDIUM</Difficulty>\n\t\t<TurnScale>TURNSCALE_YEAR</TurnScale>\n\t\t<TribeLevel>TRIBELEVEL_NORMAL</TribeLevel>\n\t\t<DifficultyDisabled>\n\t\t\t<zValue>DIFFICULTY_ABLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GOOD</zValue>\n\t\t\t<zValue>DIFFICULTY_GREAT</zValue>\n\t\t\t<zValue>DIFFICULTY_STRONG</zValue>\n\t\t\t<zValue>DIFFICULTY_NOBLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GLORIOUS</zValue>\n\t\t\t<zValue>DIFFICULTY_MAGNIFICENT</zValue>\n\t\t</DifficultyDisabled>\n\t\t<ParametersInvalid>\n\t\t\t<zValue>NumPlayers</zValue>\n\t\t\t<zValue>NumTeams</zValue>\n\t\t\t<zValue>Nation</zValue>\n\t\t\t<zValue>Archetype</zValue>\n\t\t\t<zValue>Dynasty</zValue>\n\t\t\t<zValue>OpponentLevel</zValue>\n\t\t\t<zValue>Advantage</zValue>\n\t\t\t<zValue>SuccessionGender</zValue>\n\t\t\t<zValue>SuccessionOrder</zValue>\n\t\t\t<zValue>Mortality</zValue>\n\t\t\t<zValue>TurnScale</zValue>\n\t\t\t<zValue>ForceMarch</zValue>\n\t\t\t<zValue>EventLevel</zValue>\n\t\t\t<zValue>Development</zValue>\n\t\t\t<zValue>MapSize</zValue>\n\t\t\t<zValue>MapOptions</zValue>\n\t\t\t<zValue>ModOptions</zValue>\n\t\t\t<zValue>DifficultyMode</zValue>\n\t\t\t<zValue>MapClass</zValue>\n\t\t\t<zValue>MapPath</zValue>\n\t\t</ParametersInvalid>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a208",
+      "apiName": "ACHIEVEMENT_CARTHAGE_2_SILVER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_2_SILVER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_2_SILVER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_2_SILVER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_2_SILVER</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_2</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a253",
+      "apiName": "ACHIEVEMENT_CARTHAGE_2_EPIC",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_2_EPIC",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_2_EPIC</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_2_EPIC_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_2_EPIC</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_2</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a239",
+      "apiName": "ACHIEVEMENT_CARTHAGE_3_BRONZE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_3_BRONZE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_3_BRONZE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_3_BRONZE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_3_BRONZE</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_3</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a271",
+      "apiName": "ACHIEVEMENT_CARTHAGE_3_GOLD",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_3_GOLD",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_3_GOLD</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_3_GOLD_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_3_GOLD</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_3</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a238",
+      "apiName": "ACHIEVEMENT_CARTHAGE_3",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_3",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_3</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_3_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_3</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_3</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_CARTHAGE_3",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_CARTHAGE_3</zType>\n\t\t<Name>TEXT_SCENARIO_CARTHAGE_3</Name>\n\t\t<SubTitle>TEXT_SCENARIO_CARTHAGE_3_SUB</SubTitle>\n\t\t<VictoryPopup>TEXT_POPUP_VICTORY_SCENARIO_INFO</VictoryPopup>\n\t\t<ScenarioClass>SCENARIOCLASS_CARTHAGE</ScenarioClass>\n\t\t<zIcon>CarthageThumbnail</zIcon>\n\t\t<zBackgroundName>Sprites/Events/NavalBattle</zBackgroundName>\n\t\t<zMapFile>Carthage Campaign Game Three</zMapFile>\n\t\t<zModName>Carthage3</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_CARTHAGE_3</zValue>\n\t\t</azAchievements>\n\t\t<Prereq>SCENARIO_CARTHAGE_2</Prereq>\n\t\t<Nation>NATION_CARTHAGE</Nation>\n\t\t<Difficulty>DIFFICULTY_CARTHAGE_MEDIUM</Difficulty>\n\t\t<TurnScale>TURNSCALE_SEMESTER</TurnScale>\n\t\t<TribeLevel>TRIBELEVEL_NORMAL</TribeLevel>\n\t\t<DifficultyDisabled>\n\t\t\t<zValue>DIFFICULTY_ABLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GOOD</zValue>\n\t\t\t<zValue>DIFFICULTY_GREAT</zValue>\n\t\t\t<zValue>DIFFICULTY_STRONG</zValue>\n\t\t\t<zValue>DIFFICULTY_NOBLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GLORIOUS</zValue>\n\t\t\t<zValue>DIFFICULTY_MAGNIFICENT</zValue>\n\t\t</DifficultyDisabled>\n\t\t<ParametersInvalid>\n\t\t\t<zValue>NumPlayers</zValue>\n\t\t\t<zValue>NumTeams</zValue>\n\t\t\t<zValue>Nation</zValue>\n\t\t\t<zValue>Archetype</zValue>\n\t\t\t<zValue>Dynasty</zValue>\n\t\t\t<zValue>OpponentLevel</zValue>\n\t\t\t<zValue>Advantage</zValue>\n\t\t\t<zValue>SuccessionGender</zValue>\n\t\t\t<zValue>SuccessionOrder</zValue>\n\t\t\t<zValue>Mortality</zValue>\n\t\t\t<zValue>TurnScale</zValue>\n\t\t\t<zValue>ForceMarch</zValue>\n\t\t\t<zValue>EventLevel</zValue>\n\t\t\t<zValue>Development</zValue>\n\t\t\t<zValue>MapSize</zValue>\n\t\t\t<zValue>MapOptions</zValue>\n\t\t\t<zValue>ModOptions</zValue>\n\t\t\t<zValue>DifficultyMode</zValue>\n\t\t\t<zValue>MapClass</zValue>\n\t\t\t<zValue>MapPath</zValue>\n\t\t</ParametersInvalid>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a263",
+      "apiName": "ACHIEVEMENT_CARTHAGE_3_SILVER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_3_SILVER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_3_SILVER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_3_SILVER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_3_SILVER</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_3</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a296",
+      "apiName": "ACHIEVEMENT_CARTHAGE_3_EPIC",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_3_EPIC",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_3_EPIC</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_3_EPIC_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_3_EPIC</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_3</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Carthage3/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_CARTHAGE3_EPIC",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_CARTHAGE3_EPIC</zType>\n\t\t<Achievement>ACHIEVEMENT_CARTHAGE_3_EPIC</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Carthage3/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_CARTHAGE3_VICTORY_EPIC",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_CARTHAGE3_VICTORY_EPIC</zType>\n\t\t<Name>TEXT_EVENTSTORY_CARTHAGE3_VICTORY_EPIC_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_CARTHAGE3_VICTORY_EPIC</Text>\n\t\t<zFrameType>FRAME_CARTHAGE</zFrameType>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_THEM</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_ROME</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_CARTHAGE3_EPIC</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_VICTORY_TIMELINE</zValue>\n\t\t\t<zValue>EVENTOPTION_VICTORY_RECORDS</zValue>\n\t\t\t<zValue>EVENTOPTION_CAMPAIGN_VICTORY_CONTINUE</zValue>\n\t\t\t<zValue>EVENTOPTION_CAMPAIGN_VICTORY_MAIN_MENU</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_WIN_GAME</Trigger>\n\t\t<TriggerData>VICTORY_CAMPAIGN_EPIC</TriggerData>\n\t\t<iWeight>1</iWeight>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a265",
+      "apiName": "ACHIEVEMENT_CARTHAGE_4_BRONZE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_4_BRONZE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_4_BRONZE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_4_BRONZE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_4_BRONZE</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_4</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a272",
+      "apiName": "ACHIEVEMENT_CARTHAGE_4_GOLD",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_4_GOLD",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_4_GOLD</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_4_GOLD_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_4_GOLD</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_4</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a264",
+      "apiName": "ACHIEVEMENT_CARTHAGE_4",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_4",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_4</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_4_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_4</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_4</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_CARTHAGE_4",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_CARTHAGE_4</zType>\n\t\t<Name>TEXT_SCENARIO_CARTHAGE_4</Name>\n\t\t<SubTitle>TEXT_SCENARIO_CARTHAGE_4_SUB</SubTitle>\n\t\t<VictoryPopup>TEXT_POPUP_VICTORY_SCENARIO_INFO</VictoryPopup>\n\t\t<ScenarioClass>SCENARIOCLASS_CARTHAGE</ScenarioClass>\n\t\t<zIcon>CarthageThumbnail</zIcon>\n\t\t<zBackgroundName>Sprites/Events/Hannibal_Barca</zBackgroundName>\n\t\t<zMapFile>Carthage Campaign Game Four</zMapFile>\n\t\t<zModName>Carthage4</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_CARTHAGE_4</zValue>\n\t\t\t<zValue>ACHIEVEMENT_CARTHAGE_CAMPAIGN</zValue>\n\t\t</azAchievements>\n\t\t<Prereq>SCENARIO_CARTHAGE_3</Prereq>\n\t\t<Nation>NATION_CARTHAGE</Nation>\n\t\t<Difficulty>DIFFICULTY_CARTHAGE_MEDIUM</Difficulty>\n\t\t<TurnScale>TURNSCALE_SEASON</TurnScale>\n\t\t<TribeLevel>TRIBELEVEL_NORMAL</TribeLevel>\n\t\t<DifficultyDisabled>\n\t\t\t<zValue>DIFFICULTY_ABLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GOOD</zValue>\n\t\t\t<zValue>DIFFICULTY_GREAT</zValue>\n\t\t\t<zValue>DIFFICULTY_STRONG</zValue>\n\t\t\t<zValue>DIFFICULTY_NOBLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GLORIOUS</zValue>\n\t\t\t<zValue>DIFFICULTY_MAGNIFICENT</zValue>\n\t\t</DifficultyDisabled>\n\t\t<ParametersInvalid>\n\t\t\t<zValue>NumPlayers</zValue>\n\t\t\t<zValue>NumTeams</zValue>\n\t\t\t<zValue>Nation</zValue>\n\t\t\t<zValue>Archetype</zValue>\n\t\t\t<zValue>Dynasty</zValue>\n\t\t\t<zValue>OpponentLevel</zValue>\n\t\t\t<zValue>Advantage</zValue>\n\t\t\t<zValue>SuccessionGender</zValue>\n\t\t\t<zValue>SuccessionOrder</zValue>\n\t\t\t<zValue>Mortality</zValue>\n\t\t\t<zValue>TurnScale</zValue>\n\t\t\t<zValue>ForceMarch</zValue>\n\t\t\t<zValue>EventLevel</zValue>\n\t\t\t<zValue>Development</zValue>\n\t\t\t<zValue>MapSize</zValue>\n\t\t\t<zValue>MapOptions</zValue>\n\t\t\t<zValue>ModOptions</zValue>\n\t\t\t<zValue>DifficultyMode</zValue>\n\t\t\t<zValue>MapClass</zValue>\n\t\t\t<zValue>MapPath</zValue>\n\t\t</ParametersInvalid>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a273",
+      "apiName": "ACHIEVEMENT_CARTHAGE_4_SILVER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_4_SILVER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_4_SILVER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_4_SILVER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_4_SILVER</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_4</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a297",
+      "apiName": "ACHIEVEMENT_CARTHAGE_4_EPIC",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_4_EPIC",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_4_EPIC</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_4_EPIC_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_4_EPIC</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_CARTHAGE_4</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Carthage4/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_CARTHAGE_4_EPIC",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_CARTHAGE_4_EPIC</zType>\n\t\t<Achievement>ACHIEVEMENT_CARTHAGE_4_EPIC</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Carthage4/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_CARTHAGE4_ROME_ELIMINATED",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_CARTHAGE4_ROME_ELIMINATED</zType>\n\t\t<Name>TEXT_EVENTSTORY_CARTHAGE4_ROME_ELIMINATED_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_CARTHAGE4_ROME_ELIMINATED</Text>\n\t\t<zFrameType>FRAME_CARTHAGE</zFrameType>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SHATTERING_PRESENCE</zAudioTrigger>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_THEM_DEAD</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_ROME_DEAD</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_CARTHAGE_4_EPIC</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_CARTHAGE4_ROME_ELIMINATED_OK</zValue>\n\t\t\t<zValue>EVENTOPTION_VICTORY_TIMELINE</zValue>\n\t\t\t<zValue>EVENTOPTION_VICTORY_RECORDS</zValue>\n\t\t\t<zValue>EVENTOPTION_CAMPAIGN_VICTORY_CONTINUE</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_ELIMINATED</Trigger>\n\t\t<iTriggerSubject>1</iTriggerSubject>\n\t\t<iPriority>10</iPriority>\n\t\t<iWeight>1</iWeight>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a266",
+      "apiName": "ACHIEVEMENT_CARTHAGE_CAMPAIGN",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CARTHAGE_CAMPAIGN",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CARTHAGE_CAMPAIGN</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CARTHAGE_CAMPAIGN_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CARTHAGE_CAMPAIGN</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/scenario.xml",
+          "type": "SCENARIO_CARTHAGE_4",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_CARTHAGE_4</zType>\n\t\t<Name>TEXT_SCENARIO_CARTHAGE_4</Name>\n\t\t<SubTitle>TEXT_SCENARIO_CARTHAGE_4_SUB</SubTitle>\n\t\t<VictoryPopup>TEXT_POPUP_VICTORY_SCENARIO_INFO</VictoryPopup>\n\t\t<ScenarioClass>SCENARIOCLASS_CARTHAGE</ScenarioClass>\n\t\t<zIcon>CarthageThumbnail</zIcon>\n\t\t<zBackgroundName>Sprites/Events/Hannibal_Barca</zBackgroundName>\n\t\t<zMapFile>Carthage Campaign Game Four</zMapFile>\n\t\t<zModName>Carthage4</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_CARTHAGE_4</zValue>\n\t\t\t<zValue>ACHIEVEMENT_CARTHAGE_CAMPAIGN</zValue>\n\t\t</azAchievements>\n\t\t<Prereq>SCENARIO_CARTHAGE_3</Prereq>\n\t\t<Nation>NATION_CARTHAGE</Nation>\n\t\t<Difficulty>DIFFICULTY_CARTHAGE_MEDIUM</Difficulty>\n\t\t<TurnScale>TURNSCALE_SEASON</TurnScale>\n\t\t<TribeLevel>TRIBELEVEL_NORMAL</TribeLevel>\n\t\t<DifficultyDisabled>\n\t\t\t<zValue>DIFFICULTY_ABLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GOOD</zValue>\n\t\t\t<zValue>DIFFICULTY_GREAT</zValue>\n\t\t\t<zValue>DIFFICULTY_STRONG</zValue>\n\t\t\t<zValue>DIFFICULTY_NOBLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GLORIOUS</zValue>\n\t\t\t<zValue>DIFFICULTY_MAGNIFICENT</zValue>\n\t\t</DifficultyDisabled>\n\t\t<ParametersInvalid>\n\t\t\t<zValue>NumPlayers</zValue>\n\t\t\t<zValue>NumTeams</zValue>\n\t\t\t<zValue>Nation</zValue>\n\t\t\t<zValue>Archetype</zValue>\n\t\t\t<zValue>Dynasty</zValue>\n\t\t\t<zValue>OpponentLevel</zValue>\n\t\t\t<zValue>Advantage</zValue>\n\t\t\t<zValue>SuccessionGender</zValue>\n\t\t\t<zValue>SuccessionOrder</zValue>\n\t\t\t<zValue>Mortality</zValue>\n\t\t\t<zValue>TurnScale</zValue>\n\t\t\t<zValue>ForceMarch</zValue>\n\t\t\t<zValue>EventLevel</zValue>\n\t\t\t<zValue>Development</zValue>\n\t\t\t<zValue>MapSize</zValue>\n\t\t\t<zValue>MapOptions</zValue>\n\t\t\t<zValue>ModOptions</zValue>\n\t\t\t<zValue>DifficultyMode</zValue>\n\t\t\t<zValue>MapClass</zValue>\n\t\t\t<zValue>MapPath</zValue>\n\t\t</ParametersInvalid>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    }
+  ],
+  "note": "Automated source index; not a gameplay test or complete verification of tactics. Human findings are in the review.",
+  "sharedSourceSha256": {
+    "Reference/Source/Base/Game/GameCore/Game.cs": "6f53b000279d14a9abb58c40269880b2d6385416cf8e4915996957b4417b6367",
+    "Reference/Source/Base/Game/GameCore/Player.cs": "b163e9bab5e496ca787e40e332749e27652bd68abfb896eab6aa1b880b8d3cda",
+    "Reference/Source/Base/Game/GameCore/PlayerGoal.cs": "c54e7b03ec71f2a4d17744ba558f0dcbff51796c44a8af5dcdde6e0889dacd54",
+    "Reference/Source/Base/Game/GameCore/PlayerEvent.cs": "6be1751b6a8fb606088eb1ba812170b6522a539e062c67cbb0bc972be843e356",
+    "Reference/Source/Base/Game/GameCore/Unit.cs": "744b943df9241c05115f0d6cdd03eec7a7dd0784b0689abd85ad5480530d3ad2",
+    "Reference/Source/Base/Game/GameCore/City.cs": "7b1fb548257e66f5407d0f7cf5eb471f06a4bac64dc56d584192d230b5d7badd",
+    "Reference/Source/Base/Game/GameCore/Tile.cs": "08fd9e13065d2a3a1747e45f24d8be2268e68b0ed58ee21666162e654ad273c0",
+    "Reference/Source/Base/Game/GameCore/Character.cs": "0b7c05e8467b30b76b6cbf6ff0dd423d629d8fd75584cc678ea6b0dd1c818419",
+    "Reference/Source/Mods/CarthageCampaign/CarthageCampaignClientUI.cs": "a911a989b7d47c5bbfa4a1cfe1c8977f82cf5df0efe2901c1bcdedbfc0cc0d6d",
+    "Reference/Source/Mods/CarthageCampaign/CarthageCampaignGame.cs": "a53e5360b027c5d9481fa9e44c585a194fbaa16b10320fd10e662931475e0fbc",
+    "Reference/Source/Mods/CarthageCampaign/CarthageCampaignHelpText.cs": "fc8659866f887973bab9fb7d9d2dca494b5547a6493176168f701d8e3a126b01",
+    "Reference/Source/Mods/CarthageCampaign/CarthageCampaignPlayer.cs": "771dce0a3339cf301f1366d1a954a460375ed42d1a5da9d19e7d05bc1b76764a",
+    "Reference/Source/Mods/CarthageCampaign/CarthageCampaignUnitAI.cs": "e60af6cd45da44a700dbd309ab1f7c241a4c4930d27b6fcee377f3d3629f6d3c",
+    "Reference/Source/Mods/CarthageCampaign/CarthageCampaignUnitRoleManager.cs": "1d3b7ad93378162bb52cdf062bc02c9d4e008fb795983f53a485ff4d020307e9"
+  },
+  "humanFindings": "carthage-review.md"
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-26",
+  "guideCount": 11,
+  "achievementCount": 408,
+  "duplicateAssignments": 0,
+  "changedCardCount": 144,
+  "missingInstalledAwardSources": [
+    "a406",
+    "a404",
+    "a352",
+    "a405"
+  ],
+  "checks": [
+    "coverage matches plan and data",
+    "official RU/EN text",
+    "all local draft/review links",
+    "JSON/JS equality",
+    "reported changes restore both baseline SHA-256 hashes"
+  ],
+  "limits": "No new gameplay tests; unresolved source/route questions are recorded in series-review.md."
+}

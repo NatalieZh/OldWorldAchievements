@@ -1,0 +1,722 @@
+{
+  "date": "2026-11-26",
+  "buildId": "26728102",
+  "count": 44,
+  "sourceRoot": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Old World",
+  "sourceSha256": {
+    "Reference/XML/Infos/achievement.xml": "63e0e16dedb35eb03ef5be426e9d2de23f69ede0bcfbfe57e48fbc7661d33a61",
+    "Reference/XML/Infos/bonus-event-btt.xml": "75cab2b0a61f6041c01385630d11abffc76640a22cbb03d35a523597f8df7eec",
+    "Reference/XML/Infos/eventStory-btt.xml": "de362429f124205563e24671633ef5ecc844924437fb40939ce6e83c768a772d"
+  },
+  "records": [
+    {
+      "id": "a080",
+      "apiName": "ACHIEVEMENT_WIN_SINGLEPLAYER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_WIN_SINGLEPLAYER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_WIN_SINGLEPLAYER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_WIN_SINGLEPLAYER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_WIN_SINGLEPLAYER</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<bAnyVictory>1</bAnyVictory>\n\t\t<GameMode>SINGLE_PLAYER</GameMode>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a123",
+      "apiName": "ACHIEVEMENT_PLAY_SINGLEPLAYER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_PLAY_SINGLEPLAYER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_PLAY_SINGLEPLAYER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_PLAY_SINGLEPLAYER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_PLAY_SINGLEPLAYER</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t\t<GameMode>SINGLE_PLAYER</GameMode>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a079",
+      "apiName": "ACHIEVEMENT_VICTORY_DOUBLE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_VICTORY_DOUBLE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_VICTORY_DOUBLE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_VICTORY_DOUBLE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_VICTORY_DOUBLE</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Victory>VICTORY_DOUBLE</Victory>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a183",
+      "apiName": "ACHIEVEMENT_VICTORY_CONQUEST",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_VICTORY_CONQUEST",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_VICTORY_CONQUEST</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_VICTORY_CONQUEST_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_VICTORY_CONQUEST</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Victory>VICTORY_CONQUEST</Victory>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "ambition-victory",
+      "apiName": "ACHIEVEMENT_VICTORY_AMBITION",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_VICTORY_AMBITION",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_VICTORY_AMBITION</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_VICTORY_AMBITION_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_VICTORY_AMBITION</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Victory>VICTORY_AMBITION</Victory>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a291",
+      "apiName": "ACHIEVEMENT_VICTORY_TIME",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_VICTORY_TIME",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_VICTORY_TIME</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_VICTORY_TIME_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_VICTORY_TIME</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Victory>VICTORY_TIME</Victory>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a088",
+      "apiName": "ACHIEVEMENT_VICTORY_POINTS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_VICTORY_POINTS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_VICTORY_POINTS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_VICTORY_POINTS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_VICTORY_POINTS</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Victory>VICTORY_POINTS</Victory>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a293",
+      "apiName": "ACHIEVEMENT_ALLIANCE_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_ALLIANCE_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_ALLIANCE_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_ALLIANCE_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_ALLIANCE_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Victory>VICTORY_ALLIANCE</Victory>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a073",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_NEW",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_DIFFICULTY_NEW",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_DIFFICULTY_NEW</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_DIFFICULTY_NEW_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_DIFFICULTY_NEW</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Difficulty>DIFFICULTYMODE_NEW</Difficulty>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a182",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_NOBLE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_DIFFICULTY_NOBLE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_DIFFICULTY_NOBLE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_DIFFICULTY_NOBLE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_DIFFICULTY_NOBLE</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Difficulty>DIFFICULTYMODE_NOBLE</Difficulty>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a223",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_GREAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_DIFFICULTY_GREAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_DIFFICULTY_GREAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_DIFFICULTY_GREAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_DIFFICULTY_GREAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Difficulty>DIFFICULTYMODE_GREAT</Difficulty>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a215",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_MAGNIFICENT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_DIFFICULTY_MAGNIFICENT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_DIFFICULTY_MAGNIFICENT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_DIFFICULTY_MAGNIFICENT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_DIFFICULTY_MAGNIFICENT</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Difficulty>DIFFICULTYMODE_MAGNIFICENT</Difficulty>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a154",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_GOOD",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_DIFFICULTY_GOOD",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_DIFFICULTY_GOOD</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_DIFFICULTY_GOOD_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_DIFFICULTY_GOOD</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Difficulty>DIFFICULTYMODE_GOOD</Difficulty>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a168",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_STRONG",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_DIFFICULTY_STRONG",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_DIFFICULTY_STRONG</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_DIFFICULTY_STRONG_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_DIFFICULTY_STRONG</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Difficulty>DIFFICULTYMODE_STRONG</Difficulty>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a199",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_GLORIOUS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_DIFFICULTY_GLORIOUS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_DIFFICULTY_GLORIOUS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_DIFFICULTY_GLORIOUS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_DIFFICULTY_GLORIOUS</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Difficulty>DIFFICULTYMODE_GLORIOUS</Difficulty>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a028",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_ABLE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_DIFFICULTY_ABLE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_DIFFICULTY_ABLE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_DIFFICULTY_ABLE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_DIFFICULTY_ABLE</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Difficulty>DIFFICULTYMODE_ABLE</Difficulty>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a032",
+      "apiName": "ACHIEVEMENT_DIFFICULTY_JUST",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_DIFFICULTY_JUST",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_DIFFICULTY_JUST</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_DIFFICULTY_JUST_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_DIFFICULTY_JUST</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Difficulty>DIFFICULTYMODE_JUST</Difficulty>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a085",
+      "apiName": "ACHIEVEMENT_VICTORY_NO_UNDO",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_VICTORY_NO_UNDO",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_VICTORY_NO_UNDO</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_VICTORY_NO_UNDO_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_VICTORY_NO_UNDO</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<aeGameOptions>\n\t\t\t<zValue>GAMEOPTION_NO_UNDO</zValue>\n\t\t</aeGameOptions>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a289",
+      "apiName": "ACHIEVEMENT_VICTORY_NO_CHARACTERS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_VICTORY_NO_CHARACTERS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_VICTORY_NO_CHARACTERS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_VICTORY_NO_CHARACTERS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_VICTORY_NO_CHARACTERS</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<aeGameOptions>\n\t\t\t<zValue>GAMEOPTION_NO_CHARACTERS</zValue>\n\t\t</aeGameOptions>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a159",
+      "apiName": "ACHIEVEMENT_VICTORY_ALL_NATIONS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_VICTORY_ALL_NATIONS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_VICTORY_ALL_NATIONS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_VICTORY_ALL_NATIONS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_VICTORY_ALL_NATIONS</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<iNumOpponents>6</iNumOpponents>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a354",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-btt.xml",
+          "type": "BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY</zType>\n\t\t<Achievement>ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-btt.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY_CONQUEST",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY_CONQUEST</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Jeri Roys</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CITY_THEM</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_REMOVE_PROJECT_DEPORTATIONS_FROM_BET</zValue>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_WIN_GAME</Trigger>\n\t\t<TriggerData>VICTORY_CONQUEST</TriggerData>\n\t\t<iPriority>2</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>0</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-btt.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY_TIME",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY_TIME</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Jeri Roys</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CITY_THEM</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_REMOVE_PROJECT_DEPORTATIONS_FROM_BET</zValue>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_WIN_GAME</Trigger>\n\t\t<TriggerData>VICTORY_TIME</TriggerData>\n\t\t<iPriority>2</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>0</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-btt.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY_AMBITIONS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY_AMBITIONS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Jeri Roys</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CITY_THEM</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_REMOVE_PROJECT_DEPORTATIONS_FROM_BET</zValue>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_WIN_GAME</Trigger>\n\t\t<TriggerData>VICTORY_AMBITION</TriggerData>\n\t\t<iPriority>2</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>0</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-btt.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY_POINTS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY_POINTS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Jeri Roys</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CITY_THEM</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_REMOVE_PROJECT_DEPORTATIONS_FROM_BET</zValue>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_WIN_GAME</Trigger>\n\t\t<TriggerData>VICTORY_POINTS</TriggerData>\n\t\t<iPriority>2</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>0</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-btt.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY_DOUBLE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY_DOUBLE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Jeri Roys</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CITY_THEM</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_REMOVE_PROJECT_DEPORTATIONS_FROM_BET</zValue>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_WIN_GAME</Trigger>\n\t\t<TriggerData>VICTORY_DOUBLE</TriggerData>\n\t\t<iPriority>2</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>0</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-btt.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY_ALLIANCE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY_ALLIANCE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Jeri Roys</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CITY_THEM</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_ALLIANCE</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_REMOVE_PROJECT_DEPORTATIONS_FROM_BET</zValue>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_DIDNT_NEED_IT_ANYWAY</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_WIN_GAME</Trigger>\n\t\t<TriggerData>VICTORY_ALLIANCE</TriggerData>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>0</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a074",
+      "apiName": "ACHIEVEMENT_EVENTLEVEL_HIGH",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_EVENTLEVEL_HIGH",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_EVENTLEVEL_HIGH</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_EVENTLEVEL_HIGH_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_EVENTLEVEL_HIGH</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<EventLevel>EVENTLEVEL_HIGH</EventLevel>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a294",
+      "apiName": "ACHIEVEMENT_BEFORE_MONGOL_HORDE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_BEFORE_MONGOL_HORDE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_BEFORE_MONGOL_HORDE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_BEFORE_MONGOL_HORDE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_BEFORE_MONGOL_HORDE</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t\t<FamilyClass>FAMILYCLASS_RIDERS</FamilyClass>\n\t\t<iNumFamilies>1</iNumFamilies>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a242",
+      "apiName": "ACHIEVEMENT_GOTW",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_GOTW",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GOTW</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GOTW_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GOTW</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<bGOTW>1</bGOTW>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a290",
+      "apiName": "ACHIEVEMENT_VICTORY_ONE_CITY_CHALLENGE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_VICTORY_ONE_CITY_CHALLENGE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_VICTORY_ONE_CITY_CHALLENGE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_VICTORY_ONE_CITY_CHALLENGE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_VICTORY_ONE_CITY_CHALLENGE</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<aeGameOptions>\n\t\t\t<zValue>GAMEOPTION_ONE_CITY_CHALLENGE</zValue>\n\t\t</aeGameOptions>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a084",
+      "apiName": "ACHIEVEMENT_VICTORY_ROLE_PLAYING",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_VICTORY_ROLE_PLAYING",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_VICTORY_ROLE_PLAYING</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_VICTORY_ROLE_PLAYING_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_VICTORY_ROLE_PLAYING</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<aeGameOptions>\n\t\t\t<zValue>GAMEOPTION_ROLE_PLAYING</zValue>\n\t\t</aeGameOptions>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a228",
+      "apiName": "ACHIEVEMENT_MORTALITY_REALISTIC",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_MORTALITY_REALISTIC",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_MORTALITY_REALISTIC</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_MORTALITY_REALISTIC_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_MORTALITY_REALISTIC</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Mortality>MORTALITY_REALISTIC</Mortality>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a235",
+      "apiName": "ACHIEVEMENT_VICTORY_RANDOMIZE_LEADERS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_VICTORY_RANDOMIZE_LEADERS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_VICTORY_RANDOMIZE_LEADERS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_VICTORY_RANDOMIZE_LEADERS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_VICTORY_RANDOMIZE_LEADERS</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<Archetype>TRAIT_RANDOM_ARCHETYPE</Archetype>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a249",
+      "apiName": "ACHIEVEMENT_VICTORY_RANDOMIZE_FAMILIES",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_VICTORY_RANDOMIZE_FAMILIES",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_VICTORY_RANDOMIZE_FAMILIES</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_VICTORY_RANDOMIZE_FAMILIES_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_VICTORY_RANDOMIZE_FAMILIES</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<aeGameOptions>\n\t\t\t<zValue>GAMEOPTION_RANDOMIZE_FAMILIES</zValue>\n\t\t</aeGameOptions>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a350",
+      "apiName": "ACHIEVEMENT_WIN_LAN",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_WIN_LAN",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_WIN_LAN</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_WIN_LAN_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_WIN_LAN</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<bAnyVictory>1</bAnyVictory>\n\t\t<GameMode>LAN</GameMode>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a268",
+      "apiName": "ACHIEVEMENT_WIN_MPTEAMS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_WIN_MPTEAMS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_WIN_MPTEAMS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_WIN_MPTEAMS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_WIN_MPTEAMS</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<bAnyVictory>1</bAnyVictory>\n\t\t<GameMode>MPTEAMS</GameMode>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a220",
+      "apiName": "ACHIEVEMENT_WIN_NETWORK",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_WIN_NETWORK",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_WIN_NETWORK</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_WIN_NETWORK_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_WIN_NETWORK</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<bAnyVictory>1</bAnyVictory>\n\t\t<GameMode>NETWORK</GameMode>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a292",
+      "apiName": "ACHIEVEMENT_WIN_FFA",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_WIN_FFA",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_WIN_FFA</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_WIN_FFA_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_WIN_FFA</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<bAnyVictory>1</bAnyVictory>\n\t\t<GameMode>FFA</GameMode>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a348",
+      "apiName": "ACHIEVEMENT_WIN_1V1",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_WIN_1V1",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_WIN_1V1</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_WIN_1V1_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_WIN_1V1</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<bAnyVictory>1</bAnyVictory>\n\t\t<GameMode>ONE_V_ONE</GameMode>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a229",
+      "apiName": "ACHIEVEMENT_PLAY_LAN",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_PLAY_LAN",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_PLAY_LAN</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_PLAY_LAN_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_PLAY_LAN</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t\t<GameMode>LAN</GameMode>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a169",
+      "apiName": "ACHIEVEMENT_PLAY_MPTEAMS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_PLAY_MPTEAMS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_PLAY_MPTEAMS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_PLAY_MPTEAMS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_PLAY_MPTEAMS</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t\t<GameMode>MPTEAMS</GameMode>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a150",
+      "apiName": "ACHIEVEMENT_PLAY_NETWORK",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_PLAY_NETWORK",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_PLAY_NETWORK</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_PLAY_NETWORK_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_PLAY_NETWORK</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t\t<GameMode>NETWORK</GameMode>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a157",
+      "apiName": "ACHIEVEMENT_PLAY_FFA",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_PLAY_FFA",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_PLAY_FFA</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_PLAY_FFA_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_PLAY_FFA</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t\t<GameMode>FFA</GameMode>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a193",
+      "apiName": "ACHIEVEMENT_PLAY_1V1",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_PLAY_1V1",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_PLAY_1V1</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_PLAY_1V1_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_PLAY_1V1</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t\t<GameMode>ONE_V_ONE</GameMode>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a351",
+      "apiName": "ACHIEVEMENT_WIN_PLAYBYCLOUD",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_WIN_PLAYBYCLOUD",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_WIN_PLAYBYCLOUD</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_WIN_PLAYBYCLOUD_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_WIN_PLAYBYCLOUD</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<bAnyVictory>1</bAnyVictory>\n\t\t<GameMode>PLAY_BY_CLOUD</GameMode>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a349",
+      "apiName": "ACHIEVEMENT_WIN_HOTSEAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_WIN_HOTSEAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_WIN_HOTSEAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_WIN_HOTSEAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_WIN_HOTSEAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<bAnyVictory>1</bAnyVictory>\n\t\t<GameMode>HOTSEAT</GameMode>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a248",
+      "apiName": "ACHIEVEMENT_PLAY_PLAYBYCLOUD",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_PLAY_PLAYBYCLOUD",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_PLAY_PLAYBYCLOUD</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_PLAY_PLAYBYCLOUD_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_PLAY_PLAYBYCLOUD</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t\t<GameMode>PLAY_BY_CLOUD</GameMode>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a218",
+      "apiName": "ACHIEVEMENT_PLAY_HOTSEAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_PLAY_HOTSEAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_PLAY_HOTSEAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_PLAY_HOTSEAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_PLAY_HOTSEAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t\t<GameMode>HOTSEAT</GameMode>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a342",
+      "apiName": "ACHIEVEMENT_HARDCORE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_HARDCORE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_HARDCORE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_HARDCORE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_HARDCORE</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t\t<EventLevel>EVENTLEVEL_HIGH</EventLevel>\n\t\t<Mortality>MORTALITY_REALISTIC</Mortality>\n\t\t<Difficulty>DIFFICULTYMODE_GREAT</Difficulty>\n\t\t<aeGameOptions>\n\t\t\t<zValue>GAMEOPTION_NO_UNDO</zValue>\n\t\t\t<zValue>GAMEOPTION_LOCKED_SAVE</zValue>\n\t\t\t<zValue>GAMEOPTION_PLAY_TO_WIN</zValue>\n\t\t</aeGameOptions>\n\t\t<iNumOpponents>6</iNumOpponents>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    }
+  ],
+  "note": "Automated source index; not a gameplay test or complete verification of tactics. Human findings are in the review.",
+  "sharedSourceSha256": {
+    "Reference/Source/Base/Game/GameCore/Game.cs": "6f53b000279d14a9abb58c40269880b2d6385416cf8e4915996957b4417b6367",
+    "Reference/Source/Base/Game/GameCore/Player.cs": "b163e9bab5e496ca787e40e332749e27652bd68abfb896eab6aa1b880b8d3cda",
+    "Reference/Source/Base/Game/GameCore/PlayerGoal.cs": "c54e7b03ec71f2a4d17744ba558f0dcbff51796c44a8af5dcdde6e0889dacd54",
+    "Reference/Source/Base/Game/GameCore/PlayerEvent.cs": "6be1751b6a8fb606088eb1ba812170b6522a539e062c67cbb0bc972be843e356",
+    "Reference/Source/Base/Game/GameCore/Unit.cs": "744b943df9241c05115f0d6cdd03eec7a7dd0784b0689abd85ad5480530d3ad2",
+    "Reference/Source/Base/Game/GameCore/City.cs": "7b1fb548257e66f5407d0f7cf5eb471f06a4bac64dc56d584192d230b5d7badd",
+    "Reference/Source/Base/Game/GameCore/Tile.cs": "08fd9e13065d2a3a1747e45f24d8be2268e68b0ed58ee21666162e654ad273c0",
+    "Reference/Source/Base/Game/GameCore/Character.cs": "0b7c05e8467b30b76b6cbf6ff0dd423d629d8fd75584cc678ea6b0dd1c818419"
+  },
+  "humanFindings": "victories-modes-review.md"
+}

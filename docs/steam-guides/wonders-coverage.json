@@ -1,7 +1,6 @@
 {
-  "guide": "wonders-draft.md",
-  "achievementCount": 62,
-  "achievementIds": [
+  "count": 62,
+  "ids": [
     "a100",
     "a262",
     "a051",

@@ -1,0 +1,896 @@
+{
+  "date": "2026-11-26",
+  "buildId": "26728102",
+  "count": 30,
+  "sourceRoot": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Old World",
+  "sourceSha256": {
+    "Reference/XML/Infos/achievement.xml": "63e0e16dedb35eb03ef5be426e9d2de23f69ede0bcfbfe57e48fbc7661d33a61",
+    "Reference/XML/Infos/bonus-event-btt.xml": "75cab2b0a61f6041c01385630d11abffc76640a22cbb03d35a523597f8df7eec",
+    "Reference/XML/Infos/bonus-event-eoti.xml": "29f8d0b347c24983aadee470e7f9ac125810f8e00ed19ad80a19ac8cc81a7c35",
+    "Reference/XML/Infos/bonus-event-wog.xml": "9aebe29fb4dba9b137c29d497aaf70c3febce4184bae944bcb91fde0d7e0454f",
+    "Reference/XML/Infos/bonus-event.xml": "9f035d807e2550c9f8cc883eb56bb3a047eee816cfc35ba26c5207c00bd215e8",
+    "Reference/XML/Infos/bonus.xml": "2e73176de5a897a6914b0a113db202b7250f79ad7ced908662b9c86beb693f52",
+    "Reference/XML/Infos/eventOption-btt.xml": "fd23d3e41f3c3fa5edbc1aa7ea24b3d67a1d728d6f5c8e919a77863146e41a01",
+    "Reference/XML/Infos/eventOption.xml": "377a667461b6b508d2227617956857c6d11adb9a0cf3629833dbf4ad844e08e2",
+    "Reference/XML/Infos/eventStory-btt.xml": "de362429f124205563e24671633ef5ecc844924437fb40939ce6e83c768a772d",
+    "Reference/XML/Infos/eventStory-eoti.xml": "54894a8affe61189d20d676e31c0b5614d7273b83e3e03c6e29bdaf3d5eada87",
+    "Reference/XML/Infos/eventStory-wog.xml": "2826acf881b32c692c64f2c0e5deb9b75fa695ae77595ee90eb63263317282b3",
+    "Reference/XML/Infos/eventStory.xml": "7acdccec32f6d6cfb8cf61fd56f5d75d0a2e9fd350def4df360dbfb4d9337f5c",
+    "Reference/XML/Infos/unit.xml": "472661625a5641f30108cf2253bc26cb6d11e937933b95f1eb582e7f27f903b2",
+    "Reference/XML/Mods/Greece3/Infos/eventStory-add.xml": "23de263e90f0d840d52c714320cd44b5c5d2b0d0b8f56c693081a81dc6386bd4",
+    "Reference/XML/Mods/Greece6/Infos/unit-add.xml": "555b1d3e8b443f36f6b52a957c6591bee9801c8bf790b62fd812a7dcdb7578c4"
+  },
+  "records": [
+    {
+      "id": "a161",
+      "apiName": "ACHIEVEMENT_UNIT_TURRETED_ELEPHANT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_UNIT_TURRETED_ELEPHANT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_UNIT_TURRETED_ELEPHANT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_UNIT_TURRETED_ELEPHANT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_UNIT_TURRETED_ELEPHANT</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/unit.xml",
+          "type": "UNIT_TURRETED_ELEPHANT",
+          "xml": "<Entry>\n\t\t<zType>UNIT_TURRETED_ELEPHANT</zType>\n\t\t<Name>TEXT_UNIT_TURRETED_ELEPHANT</Name>\n\t\t<zIconName>UNIT_TURRETED_ELEPHANT</zIconName>\n\t\t<zPortraitName>UNIT_TURRETED_ELEPHANT</zPortraitName>\n\t\t<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>\n\t\t<zAudioSelectionType>ELEPHANT</zAudioSelectionType>\n\t\t<zAudioMovementType>ANIMATED</zAudioMovementType>\n\t\t<zAudioAttackType>ANIMATED</zAudioAttackType>\n\t\t<zAudioDamagedByProjectileType>combo_flesh_metal</zAudioDamagedByProjectileType>\n\t\t<aeFormations>\n\t\t\t<zValue>FORMATION_TURRETED_ELEPHANT</zValue>\n\t\t\t<zValue>FORMATION_DEFAULT_WATER</zValue>\n\t\t</aeFormations>\n\t\t<Achievement>ACHIEVEMENT_UNIT_TURRETED_ELEPHANT</Achievement>\n\t\t<UnitCycle>UNITCYCLE_MILITARY_MOUNTED</UnitCycle>\n\t\t<NationPrereq>NATION_CARTHAGE</NationPrereq>\n\t\t<CulturePrereq>CULTURE_STRONG</CulturePrereq>\n\t\t<EffectCityPrereq>EFFECTCITY_RESOURCE_ELEPHANT</EffectCityPrereq>\n\t\t<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>\n\t\t<ProductionType>YIELD_TRAINING</ProductionType>\n\t\t<iMovement>2</iMovement>\n\t\t<iVision>4</iVision>\n\t\t<iFatigue>3</iFatigue>\n\t\t<iStrength>80</iStrength>\n\t\t<iHPMax>20</iHPMax>\n\t\t<iProduction>160</iProduction>\n\t\t<iUpgradeCost>160</iUpgradeCost>\n\t\t<fAttackDuration>2.5</fAttackDuration>\n\t\t<fAnimNormalMoveDuration>2.5</fAnimNormalMoveDuration>\n\t\t<fAnimNormalMoveSpeed>2</fAnimNormalMoveSpeed>\n\t\t<fAnimIntermediateMoveDuration>1.5</fAnimIntermediateMoveDuration>\n\t\t<fAnimIntermediateMoveSpeed>3</fAnimIntermediateMoveSpeed>\n\t\t<fAnimFastMoveDuration>.75</fAnimFastMoveDuration>\n\t\t<fAnimFastMoveSpeed>4</fAnimFastMoveSpeed>\n\t\t<bMelee>1</bMelee>\n\t\t<bOutsideOpinion>1</bOutsideOpinion>\n\t\t<bBlocks>1</bBlocks>\n\t\t<bPillage>1</bPillage>\n\t\t<bGeneral>1</bGeneral>\n\t\t<bRegular>1</bRegular>\n\t\t<aiYieldCost>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_WOOD</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldCost>\n\t\t<aiYieldConsumption>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_TRAINING</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>6</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldConsumption>\n\t\t<aeUnitTrait>\n\t\t\t<zValue>UNITTRAIT_MELEE</zValue>\n\t\t\t<zValue>UNITTRAIT_MOUNTED</zValue>\n\t\t\t<zValue>UNITTRAIT_ELEPHANT</zValue>\n\t\t\t<zValue>UNITTRAIT_PROMOTABLE</zValue>\n\t\t</aeUnitTrait>\n\t\t<aeEffectUnit>\n\t\t\t<zValue>EFFECTUNIT_ROUT</zValue>\n\t\t\t<zValue>EFFECTUNIT_PANIC</zValue>\n\t\t</aeEffectUnit>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a005",
+      "apiName": "ACHIEVEMENT_UNIT_ARMOURED_ELEPHANT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_UNIT_ARMOURED_ELEPHANT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_UNIT_ARMOURED_ELEPHANT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_UNIT_ARMOURED_ELEPHANT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_UNIT_ARMOURED_ELEPHANT</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/unit.xml",
+          "type": "UNIT_ARMOURED_ELEPHANT",
+          "xml": "<Entry>\n\t\t<zType>UNIT_ARMOURED_ELEPHANT</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<Name>TEXT_UNIT_ARMOURED_ELEPHANT</Name>\n\t\t<zIconName>UNIT_ARMOURED_ELEPHANT</zIconName>\n\t\t<zPortraitName>UNIT_ARMOURED_ELEPHANT</zPortraitName>\n\t\t<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>\n\t\t<zAudioSelectionType>ELEPHANT</zAudioSelectionType>\n\t\t<zAudioMovementType>ANIMATED</zAudioMovementType>\n\t\t<zAudioAttackType>ANIMATED</zAudioAttackType>\n\t\t<zAudioDamagedByProjectileType>combo_flesh_metal</zAudioDamagedByProjectileType>\n\t\t<aeFormations>\n\t\t\t<zValue>FORMATION_ARMOURED_ELEPHANT</zValue>\n\t\t\t<zValue>FORMATION_DEFAULT_WATER</zValue>\n\t\t</aeFormations>\n\t\t<Achievement>ACHIEVEMENT_UNIT_ARMOURED_ELEPHANT</Achievement>\n\t\t<UnitCycle>UNITCYCLE_MILITARY_MOUNTED</UnitCycle>\n\t\t<NationPrereq>NATION_MAURYA</NationPrereq>\n\t\t<CulturePrereq>CULTURE_STRONG</CulturePrereq>\n\t\t<EffectCityPrereq>EFFECTCITY_RESOURCE_ELEPHANT</EffectCityPrereq>\n\t\t<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>\n\t\t<ProductionType>YIELD_TRAINING</ProductionType>\n\t\t<iMovement>2</iMovement>\n\t\t<iVision>4</iVision>\n\t\t<iFatigue>3</iFatigue>\n\t\t<iStrength>80</iStrength>\n\t\t<iHPMax>20</iHPMax>\n\t\t<iProduction>160</iProduction>\n\t\t<iUpgradeCost>160</iUpgradeCost>\n\t\t<fAttackDuration>2.5</fAttackDuration>\n\t\t<fAnimNormalMoveDuration>2.5</fAnimNormalMoveDuration>\n\t\t<fAnimNormalMoveSpeed>2</fAnimNormalMoveSpeed>\n\t\t<fAnimIntermediateMoveDuration>1.5</fAnimIntermediateMoveDuration>\n\t\t<fAnimIntermediateMoveSpeed>3</fAnimIntermediateMoveSpeed>\n\t\t<fAnimFastMoveDuration>.75</fAnimFastMoveDuration>\n\t\t<fAnimFastMoveSpeed>4</fAnimFastMoveSpeed>\n\t\t<bMelee>1</bMelee>\n\t\t<bOutsideOpinion>1</bOutsideOpinion>\n\t\t<bBlocks>1</bBlocks>\n\t\t<bPillage>1</bPillage>\n\t\t<bGeneral>1</bGeneral>\n\t\t<bRegular>1</bRegular>\n\t\t<aiYieldCost>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldCost>\n\t\t<aiYieldConsumption>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_TRAINING</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>4</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldConsumption>\n\t\t<aeUnitTrait>\n\t\t\t<zValue>UNITTRAIT_MELEE</zValue>\n\t\t\t<zValue>UNITTRAIT_MOUNTED</zValue>\n\t\t\t<zValue>UNITTRAIT_ELEPHANT</zValue>\n\t\t\t<zValue>UNITTRAIT_PROMOTABLE</zValue>\n\t\t</aeUnitTrait>\n\t\t<aeEffectUnit>\n\t\t\t<zValue>EFFECTUNIT_ASSAULT</zValue>\n\t\t\t<zValue>EFFECTUNIT_PANIC</zValue>\n\t\t</aeEffectUnit>\n\t</Entry>\n\t\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a318",
+      "apiName": "ACHIEVEMENT_CALAMITIES_DROUGHT_ADEPT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CALAMITIES_DROUGHT_ADEPT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CALAMITIES_DROUGHT_ADEPT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CALAMITIES_DROUGHT_ADEPT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CALAMITIES_DROUGHT_ADEPT</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-wog.xml",
+          "type": "BONUS_ACHIEVEMENT_CALAMITIES_DROUGHT_ADEPT",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_CALAMITIES_DROUGHT_ADEPT</zType>\n\t\t<Achievement>ACHIEVEMENT_CALAMITIES_DROUGHT_ADEPT</Achievement>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-wog.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_CALAMITIES_DROUGHT_ADEPT",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_CALAMITIES_DROUGHT_ADEPT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Brodie Frehlich</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t\t<zValue>SUBJECT_UNIT_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CITY_DROUGHT_TRAINING</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectAny>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_UNIT_INFANTRY</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_UNIT_MOUNTED</Second>\n\t\t\t</Pair>\n\t\t</SubjectAny>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_CALAMITIES_DROUGHT_ADEPT</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PRODUCTION_UNIT</Trigger>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iTriggerExtra>1</iTriggerExtra>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bIgnoreTriggerData>1</bIgnoreTriggerData>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a165",
+      "apiName": "ACHIEVEMENT_UNIT_CATAPHRACT_ARCHER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_UNIT_CATAPHRACT_ARCHER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_UNIT_CATAPHRACT_ARCHER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_UNIT_CATAPHRACT_ARCHER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_UNIT_CATAPHRACT_ARCHER</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/unit.xml",
+          "type": "UNIT_CATAPHRACT_ARCHER",
+          "xml": "<Entry>\n\t\t<zType>UNIT_CATAPHRACT_ARCHER</zType>\n\t\t<Name>TEXT_UNIT_CATAPHRACT_ARCHER</Name>\n\t\t<zIconName>UNIT_CATAPHRACT_ARCHER</zIconName>\n\t\t<zPortraitName>UNIT_CATAPHRACT_ARCHER</zPortraitName>\n\t\t<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>\n\t\t<zAudioSelectionType>CATAPHRACT_ARCHER</zAudioSelectionType>\n\t\t<zAudioMovementType>ANIMATED</zAudioMovementType>\n\t\t<zAudioAttackType>ANIMATED</zAudioAttackType>\n\t\t<zAudioDamagedByProjectileType>combo_flesh_metal</zAudioDamagedByProjectileType>\n\t\t<aeFormations>\n\t\t\t<zValue>FORMATION_CATAPHRACT_ARCHER</zValue>\n\t\t\t<zValue>FORMATION_DEFAULT_WATER</zValue>\n\t\t</aeFormations>\n\t\t<Achievement>ACHIEVEMENT_UNIT_CATAPHRACT_ARCHER</Achievement>\n\t\t<UnitCycle>UNITCYCLE_MILITARY_MOUNTED</UnitCycle>\n\t\t<NationPrereq>NATION_PERSIA</NationPrereq>\n\t\t<CulturePrereq>CULTURE_STRONG</CulturePrereq>\n\t\t<EffectCityPrereq>EFFECTCITY_RESOURCE_HORSE</EffectCityPrereq>\n\t\t<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>\n\t\t<ProductionType>YIELD_TRAINING</ProductionType>\n\t\t<iMovement>3</iMovement>\n\t\t<iVision>4</iVision>\n\t\t<iFatigue>3</iFatigue>\n\t\t<iStrength>80</iStrength>\n\t\t<iRangeMax>1</iRangeMax>\n\t\t<iHPMax>20</iHPMax>\n\t\t<iProduction>160</iProduction>\n\t\t<iUpgradeCost>160</iUpgradeCost>\n\t\t<fAttackDuration>2</fAttackDuration>\n\t\t<bOutsideOpinion>1</bOutsideOpinion>\n\t\t<bIgnoreZOC>1</bIgnoreZOC>\n\t\t<bBlocks>1</bBlocks>\n\t\t<bPillage>1</bPillage>\n\t\t<bGeneral>1</bGeneral>\n\t\t<bRegular>1</bRegular>\n\t\t<aiYieldCost>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldCost>\n\t\t<aiYieldConsumption>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_TRAINING</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>4</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldConsumption>\n\t\t<aeUnitTrait>\n\t\t\t<zValue>UNITTRAIT_RANGED</zValue>\n\t\t\t<zValue>UNITTRAIT_MOUNTED</zValue>\n\t\t\t<zValue>UNITTRAIT_HORSE</zValue>\n\t\t\t<zValue>UNITTRAIT_PROMOTABLE</zValue>\n\t\t</aeUnitTrait>\n\t\t<aeEffectUnit>\n\t\t\t<zValue>EFFECTUNIT_ROUT</zValue>\n\t\t</aeEffectUnit>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a060",
+      "apiName": "ACHIEVEMENT_UNIT_CIMMERIAN_ARCHER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_UNIT_CIMMERIAN_ARCHER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_UNIT_CIMMERIAN_ARCHER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_UNIT_CIMMERIAN_ARCHER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_UNIT_CIMMERIAN_ARCHER</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/unit.xml",
+          "type": "UNIT_CIMMERIAN_ARCHER",
+          "xml": "<Entry>\n\t\t<zType>UNIT_CIMMERIAN_ARCHER</zType>\n\t\t<Name>TEXT_UNIT_CIMMERIAN_ARCHER</Name>\n\t\t<zIconName>UNIT_CIMMERIAN_ARCHER</zIconName>\n\t\t<zPortraitName>UNIT_CIMMERIAN_ARCHER</zPortraitName>\n\t\t<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>\n\t\t<zAudioSelectionType>BOW</zAudioSelectionType>\n\t\t<zAudioMovementType>ANIMATED</zAudioMovementType>\n\t\t<zAudioAttackType>ANIMATED</zAudioAttackType>\n\t\t<zAudioDamagedByProjectileType>combo_flesh_metal</zAudioDamagedByProjectileType>\n\t\t<aeFormations>\n\t\t\t<zValue>FORMATION_CIMMERIAN_ARCHER</zValue>\n\t\t\t<zValue>FORMATION_DEFAULT_WATER</zValue>\n\t\t</aeFormations>\n\t\t<Achievement>ACHIEVEMENT_UNIT_CIMMERIAN_ARCHER</Achievement>\n\t\t<UnitCycle>UNITCYCLE_MILITARY_RANGED</UnitCycle>\n\t\t<NationPrereq>NATION_BABYLONIA</NationPrereq>\n\t\t<CulturePrereq>CULTURE_STRONG</CulturePrereq>\n\t\t<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>\n\t\t<ProductionType>YIELD_TRAINING</ProductionType>\n\t\t<iMovement>2</iMovement>\n\t\t<iVision>4</iVision>\n\t\t<iFatigue>3</iFatigue>\n\t\t<iStrength>80</iStrength>\n\t\t<iRangeMax>3</iRangeMax>\n\t\t<iHPMax>20</iHPMax>\n\t\t<iProduction>160</iProduction>\n\t\t<iUpgradeCost>160</iUpgradeCost>\n\t\t<fAttackDuration>2</fAttackDuration>\n\t\t<bOutsideOpinion>1</bOutsideOpinion>\n\t\t<bZOC>1</bZOC>\n\t\t<bBlocks>1</bBlocks>\n\t\t<bPillage>1</bPillage>\n\t\t<bGeneral>1</bGeneral>\n\t\t<bRegular>1</bRegular>\n\t\t<aiYieldCost>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_WOOD</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldCost>\n\t\t<aiYieldConsumption>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_TRAINING</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_WOOD</zIndex>\n\t\t\t\t<iValue>4</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldConsumption>\n\t\t<aeUnitTrait>\n\t\t\t<zValue>UNITTRAIT_RANGED</zValue>\n\t\t\t<zValue>UNITTRAIT_INFANTRY</zValue>\n\t\t\t<zValue>UNITTRAIT_PROMOTABLE</zValue>\n\t\t</aeUnitTrait>\n\t\t<aeEffectUnit>\n\t\t\t<zValue>EFFECTUNIT_SPLASH1</zValue>\n\t\t</aeEffectUnit>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a035",
+      "apiName": "ACHIEVEMENT_UNIT_HITTITE_CHARIOT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_UNIT_HITTITE_CHARIOT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_UNIT_HITTITE_CHARIOT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_UNIT_HITTITE_CHARIOT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_UNIT_HITTITE_CHARIOT</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/unit.xml",
+          "type": "UNIT_HITTITE_CHARIOT_2",
+          "xml": "<Entry>\n\t\t<zType>UNIT_HITTITE_CHARIOT_2</zType>\n\t\t<Name>TEXT_UNIT_HITTITE_CHARIOT_2</Name>\n\t\t<zIconName>UNIT_HEAVY_CHARIOT</zIconName>\n\t\t<zPortraitName>UNIT_HEAVY_CHARIOT</zPortraitName>\n\t\t<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>\n\t\t<zAudioSelectionType>NOMAD_MARAUDER</zAudioSelectionType>\n\t\t<zAudioMovementType>ANIMATED</zAudioMovementType>\n\t\t<zAudioAttackType>ANIMATED</zAudioAttackType>\n\t\t<zAudioDamagedByProjectileType>flesh</zAudioDamagedByProjectileType>\n\t\t<aeFormations>\n\t\t\t<zValue>FORMATION_HITTITE_CHARIOT_2</zValue>\n\t\t\t<zValue>FORMATION_DEFAULT_WATER</zValue>\n\t\t</aeFormations>\n\t\t<Achievement>ACHIEVEMENT_UNIT_HITTITE_CHARIOT</Achievement>\n\t\t<UnitCycle>UNITCYCLE_MILITARY_MOUNTED</UnitCycle>\n\t\t<NationPrereq>NATION_HITTITE</NationPrereq>\n\t\t<CulturePrereq>CULTURE_STRONG</CulturePrereq>\n\t\t<EffectCityPrereq>EFFECTCITY_RESOURCE_HORSE</EffectCityPrereq>\n\t\t<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>\n\t\t<ProductionType>YIELD_TRAINING</ProductionType>\n\t\t<iMovement>3</iMovement>\n\t\t<iVision>4</iVision>\n\t\t<iFatigue>3</iFatigue>\n\t\t<iStrength>80</iStrength>\n\t\t<iHPMax>20</iHPMax>\n\t\t<iProduction>160</iProduction>\n\t\t<iUpgradeCost>160</iUpgradeCost>\n\t\t<fAttackDuration>2</fAttackDuration>\n\t\t<bMelee>1</bMelee>\n\t\t<bOutsideOpinion>1</bOutsideOpinion>\n\t\t<bIgnoreZOC>1</bIgnoreZOC>\n\t\t<bBlocks>1</bBlocks>\n\t\t<bPillage>1</bPillage>\n\t\t<bGeneral>1</bGeneral>\n\t\t<bRegular>1</bRegular>\n\t\t<aiYieldCost>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_WOOD</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldCost>\n\t\t<aiYieldConsumption>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_TRAINING</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>6</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldConsumption>\n\t\t<aeUnitTrait>\n\t\t\t<zValue>UNITTRAIT_MELEE</zValue>\n\t\t\t<zValue>UNITTRAIT_MOUNTED</zValue>\n\t\t\t<zValue>UNITTRAIT_HORSE</zValue>\n\t\t\t<zValue>UNITTRAIT_CHARIOT</zValue>\n\t\t\t<zValue>UNITTRAIT_PROMOTABLE</zValue>\n\t\t</aeUnitTrait>\n\t\t<aeEffectUnit>\n\t\t\t<zValue>EFFECTUNIT_ROUT</zValue>\n\t\t\t<zValue>EFFECTUNIT_CIRCLE</zValue>\n\t\t</aeEffectUnit>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a312",
+      "apiName": "ACHIEVEMENT_UNIT_KUSHAN_WARLORDS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_UNIT_KUSHAN_WARLORDS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_UNIT_KUSHAN_WARLORDS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_UNIT_KUSHAN_WARLORDS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_UNIT_KUSHAN_WARLORDS</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/unit.xml",
+          "type": "UNIT_KUSHAN_WARLORDS",
+          "xml": "<Entry>\n\t\t<zType>UNIT_KUSHAN_WARLORDS</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<Name>TEXT_UNIT_KUSHAN_WARLORDS</Name>\n\t\t<zIconName>UNIT_KUSHAN_WARLORD</zIconName>\n\t\t<zPortraitName>UNIT_KUSHAN_WARLORD</zPortraitName>\n\t\t<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>\n\t\t<zAudioSelectionType>CATAPHRACT</zAudioSelectionType>\n\t\t<zAudioMovementType>ANIMATED</zAudioMovementType>\n\t\t<zAudioAttackType>ANIMATED</zAudioAttackType>\n\t\t<zAudioDamagedByProjectileType>combo_flesh_metal</zAudioDamagedByProjectileType>\n\t\t<aeFormations>\n\t\t\t<zValue>FORMATION_KUSHAN_WARLORDS</zValue>\n\t\t\t<zValue>FORMATION_DEFAULT_WATER</zValue>\n\t\t</aeFormations>\n\t\t<Achievement>ACHIEVEMENT_UNIT_KUSHAN_WARLORDS</Achievement>\n\t\t<UnitCycle>UNITCYCLE_MILITARY_MOUNTED</UnitCycle>\n\t\t<NationPrereq>NATION_YUEZHI</NationPrereq>\n\t\t<CulturePrereq>CULTURE_STRONG</CulturePrereq>\n\t\t<EffectCityPrereq>EFFECTCITY_RESOURCE_HORSE</EffectCityPrereq>\n\t\t<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>\n\t\t<ProductionType>YIELD_TRAINING</ProductionType>\n\t\t<iMovement>3</iMovement>\n\t\t<iVision>4</iVision>\n\t\t<iFatigue>3</iFatigue>\n\t\t<iStrength>80</iStrength>\n\t\t<iHPMax>20</iHPMax>\n\t\t<iProduction>160</iProduction>\n\t\t<iUpgradeCost>160</iUpgradeCost>\n\t\t<fAttackDuration>2</fAttackDuration>\n\t\t<bMelee>1</bMelee>\n\t\t<bOutsideOpinion>1</bOutsideOpinion>\n\t\t<bIgnoreZOC>1</bIgnoreZOC>\n\t\t<bBlocks>1</bBlocks>\n\t\t<bPillage>1</bPillage>\n\t\t<bGeneral>1</bGeneral>\n\t\t<bRegular>1</bRegular>\n\t\t<bBarbCity>1</bBarbCity>\n\t\t<aiYieldCost>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldCost>\n\t\t<aiYieldConsumption>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_TRAINING</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>4</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldConsumption>\n\t\t<aeUnitTrait>\n\t\t\t<zValue>UNITTRAIT_MELEE</zValue>\n\t\t\t<zValue>UNITTRAIT_MOUNTED</zValue>\n\t\t\t<zValue>UNITTRAIT_HORSE</zValue>\n\t\t\t<zValue>UNITTRAIT_PROMOTABLE</zValue>\n\t\t</aeUnitTrait>\n\t\t<aeEffectUnit>\n\t\t\t<zValue>EFFECTUNIT_ROUT</zValue>\n\t\t\t<zValue>EFFECTUNIT_SHOCK_CAVALRY</zValue>\n\t\t</aeEffectUnit>\n\t</Entry>\n\t\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a155",
+      "apiName": "ACHIEVEMENT_UNIT_KUSHITE_CAVALRY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_UNIT_KUSHITE_CAVALRY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_UNIT_KUSHITE_CAVALRY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_UNIT_MOUNTED_LANCER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_UNIT_MOUNTED_LANCER</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/unit.xml",
+          "type": "UNIT_MOUNTED_LANCER",
+          "xml": "<Entry>\n\t\t<zType>UNIT_MOUNTED_LANCER</zType>\n\t\t<Name>TEXT_UNIT_MOUNTED_LANCER</Name>\n\t\t<zIconName>UNIT_KUSHITE_CAVALRY</zIconName>\n\t\t<zPortraitName>UNIT_KUSHITE_CAVALRY</zPortraitName>\n\t\t<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>\n\t\t<zAudioSelectionType>NOMAD_MARAUDER</zAudioSelectionType>\n\t\t<zAudioMovementType>ANIMATED</zAudioMovementType>\n\t\t<zAudioAttackType>ANIMATED</zAudioAttackType>\n\t\t<zAudioDamagedByProjectileType>flesh</zAudioDamagedByProjectileType>\n\t\t<aeFormations>\n\t\t\t<zValue>FORMATION_KUSHITE_CAVALRY</zValue>\n\t\t\t<zValue>FORMATION_DEFAULT_WATER</zValue>\n\t\t</aeFormations>\n\t\t<Achievement>ACHIEVEMENT_UNIT_KUSHITE_CAVALRY</Achievement>\n\t\t<UnitCycle>UNITCYCLE_MILITARY_MOUNTED</UnitCycle>\n\t\t<NationPrereq>NATION_EGYPT</NationPrereq>\n\t\t<CulturePrereq>CULTURE_STRONG</CulturePrereq>\n\t\t<EffectCityPrereq>EFFECTCITY_RESOURCE_HORSE</EffectCityPrereq>\n\t\t<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>\n\t\t<ProductionType>YIELD_TRAINING</ProductionType>\n\t\t<iMovement>4</iMovement>\n\t\t<iVision>4</iVision>\n\t\t<iFatigue>3</iFatigue>\n\t\t<iStrength>80</iStrength>\n\t\t<iRangeMax>2</iRangeMax>\n\t\t<iHPMax>20</iHPMax>\n\t\t<iProduction>160</iProduction>\n\t\t<iUpgradeCost>160</iUpgradeCost>\n\t\t<fAttackDuration>2</fAttackDuration>\n\t\t<bOutsideOpinion>1</bOutsideOpinion>\n\t\t<bIgnoreZOC>1</bIgnoreZOC>\n\t\t<bBlocks>1</bBlocks>\n\t\t<bPillage>1</bPillage>\n\t\t<bGeneral>1</bGeneral>\n\t\t<bRegular>1</bRegular>\n\t\t<aiYieldCost>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_WOOD</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldCost>\n\t\t<aiYieldConsumption>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_TRAINING</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>6</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldConsumption>\n\t\t<aeUnitTrait>\n\t\t\t<zValue>UNITTRAIT_RANGED</zValue>\n\t\t\t<zValue>UNITTRAIT_MOUNTED</zValue>\n\t\t\t<zValue>UNITTRAIT_HORSE</zValue>\n\t\t\t<zValue>UNITTRAIT_PROMOTABLE</zValue>\n\t\t</aeUnitTrait>\n\t\t<aeEffectUnit>\n\t\t\t<zValue>EFFECTUNIT_EXTRA_VISION</zValue>\n\t\t</aeEffectUnit>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a023",
+      "apiName": "ACHIEVEMENT_UNIT_LEGIONARY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_UNIT_LEGIONARY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_UNIT_LEGIONARY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_UNIT_LEGIONARY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_UNIT_LEGIONARY</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/unit.xml",
+          "type": "UNIT_LEGIONARY",
+          "xml": "<Entry>\n\t\t<zType>UNIT_LEGIONARY</zType>\n\t\t<Name>TEXT_UNIT_LEGIONARY</Name>\n\t\t<zIconName>UNIT_LEGIONARY</zIconName>\n\t\t<zPortraitName>UNIT_LEGIONARY</zPortraitName>\n\t\t<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>\n\t\t<zAudioSelectionType>LEGIONARY</zAudioSelectionType>\n\t\t<zAudioMovementType>ANIMATED</zAudioMovementType>\n\t\t<zAudioAttackType>ANIMATED</zAudioAttackType>\n\t\t<zAudioDamagedByProjectileType>combo_flesh_metal</zAudioDamagedByProjectileType>\n\t\t<aeFormations>\n\t\t\t<zValue>FORMATION_LEGIONARY</zValue>\n\t\t\t<zValue>FORMATION_DEFAULT_WATER</zValue>\n\t\t</aeFormations>\n\t\t<Achievement>ACHIEVEMENT_UNIT_LEGIONARY</Achievement>\n\t\t<UnitCycle>UNITCYCLE_MILITARY_INFANTRY</UnitCycle>\n\t\t<NationPrereq>NATION_ROME</NationPrereq>\n\t\t<CulturePrereq>CULTURE_STRONG</CulturePrereq>\n\t\t<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>\n\t\t<ProductionType>YIELD_TRAINING</ProductionType>\n\t\t<iMovement>2</iMovement>\n\t\t<iVision>4</iVision>\n\t\t<iFatigue>3</iFatigue>\n\t\t<iStrength>80</iStrength>\n\t\t<iHPMax>20</iHPMax>\n\t\t<iProduction>160</iProduction>\n\t\t<iUpgradeCost>160</iUpgradeCost>\n\t\t<fAttackDuration>2</fAttackDuration>\n\t\t<bMelee>1</bMelee>\n\t\t<bOutsideOpinion>1</bOutsideOpinion>\n\t\t<bZOC>1</bZOC>\n\t\t<bBlocks>1</bBlocks>\n\t\t<bFortify>1</bFortify>\n\t\t<bPillage>1</bPillage>\n\t\t<bGeneral>1</bGeneral>\n\t\t<bRegular>1</bRegular>\n\t\t<aiYieldCost>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldCost>\n\t\t<aiYieldConsumption>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_TRAINING</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>4</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldConsumption>\n\t\t<aeUnitTrait>\n\t\t\t<zValue>UNITTRAIT_MELEE</zValue>\n\t\t\t<zValue>UNITTRAIT_INFANTRY</zValue>\n\t\t\t<zValue>UNITTRAIT_PROMOTABLE</zValue>\n\t\t</aeUnitTrait>\n\t\t<aeEffectUnit>\n\t\t\t<zValue>EFFECTUNIT_CENTURION</zValue>\n\t\t\t<zValue>EFFECTUNIT_TESTUDO</zValue>\n\t\t</aeEffectUnit>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a206",
+      "apiName": "ACHIEVEMENT_UNIT_BEJA_ARCHER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_UNIT_BEJA_ARCHER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_UNIT_BEJA_ARCHER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_UNIT_BEJA_ARCHER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_UNIT_BEJA_ARCHER</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/unit.xml",
+          "type": "UNIT_BEJA_ARCHER",
+          "xml": "<Entry>\n\t\t<zType>UNIT_BEJA_ARCHER</zType>\n\t\t<Name>TEXT_UNIT_BEJA_ARCHER</Name>\n\t\t<zIconName>UNIT_MEROITIC_ARCHER</zIconName>\n\t\t<zPortraitName>UNIT_MEROITIC_ARCHER</zPortraitName>\n\t\t<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>\n\t\t<zAudioSelectionType>BOW</zAudioSelectionType>\n\t\t<zAudioMovementType>ANIMATED</zAudioMovementType>\n\t\t<zAudioAttackType>ANIMATED</zAudioAttackType>\n\t\t<zAudioDamagedByProjectileType>combo_flesh_metal</zAudioDamagedByProjectileType>\n\t\t<aeFormations>\n\t\t\t<zValue>FORMATION_BEJA_ARCHER</zValue>\n\t\t\t<zValue>FORMATION_DEFAULT_WATER</zValue>\n\t\t</aeFormations>\n\t\t<Achievement>ACHIEVEMENT_UNIT_BEJA_ARCHER</Achievement>\n\t\t<UnitCycle>UNITCYCLE_MILITARY_RANGED</UnitCycle>\n\t\t<NationPrereq>NATION_KUSH</NationPrereq>\n\t\t<CulturePrereq>CULTURE_STRONG</CulturePrereq>\n\t\t<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>\n\t\t<ProductionType>YIELD_TRAINING</ProductionType>\n\t\t<iMovement>2</iMovement>\n\t\t<iVision>4</iVision>\n\t\t<iFatigue>3</iFatigue>\n\t\t<iStrength>80</iStrength>\n\t\t<iRangeMax>3</iRangeMax>\n\t\t<iHPMax>20</iHPMax>\n\t\t<iProduction>160</iProduction>\n\t\t<iUpgradeCost>160</iUpgradeCost>\n\t\t<fAttackDuration>2</fAttackDuration>\n\t\t<bOutsideOpinion>1</bOutsideOpinion>\n\t\t<bZOC>1</bZOC>\n\t\t<bBlocks>1</bBlocks>\n\t\t<bPillage>1</bPillage>\n\t\t<bGeneral>1</bGeneral>\n\t\t<bRegular>1</bRegular>\n\t\t<aiYieldCost>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_WOOD</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldCost>\n\t\t<aiYieldConsumption>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_TRAINING</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_WOOD</zIndex>\n\t\t\t\t<iValue>4</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldConsumption>\n\t\t<aeUnitTrait>\n\t\t\t<zValue>UNITTRAIT_RANGED</zValue>\n\t\t\t<zValue>UNITTRAIT_INFANTRY</zValue>\n\t\t\t<zValue>UNITTRAIT_PROMOTABLE</zValue>\n\t\t</aeUnitTrait>\n\t\t<aeEffectUnit>\n\t\t\t<zValue>EFFECTUNIT_VOLLEY</zValue>\n\t\t</aeEffectUnit>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a177",
+      "apiName": "ACHIEVEMENT_UNIT_SIEGE_TOWER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_UNIT_SIEGE_TOWER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_UNIT_SIEGE_TOWER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_UNIT_SIEGE_TOWER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_UNIT_SIEGE_TOWER</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/unit.xml",
+          "type": "UNIT_SIEGE_TOWER",
+          "xml": "<Entry>\n\t\t<zType>UNIT_SIEGE_TOWER</zType>\n\t\t<Name>TEXT_UNIT_SIEGE_TOWER</Name>\n\t\t<zIconName>UNIT_SIEGE_TOWER</zIconName>\n\t\t<zPortraitName>UNIT_SIEGE_TOWER</zPortraitName>\n\t\t<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>\n\t\t<zAudioSelectionType>SIEGE_TOWER</zAudioSelectionType>\n\t\t<zAudioMovementType>SIEGE_WOOD_LARGE</zAudioMovementType>\n\t\t<zAudioAttackType>ANIMATED</zAudioAttackType>\n\t\t<zAudioDamagedByProjectileType>combo_metal_wood</zAudioDamagedByProjectileType>\n\t\t<aeFormations>\n\t\t\t<zValue>FORMATION_SIEGE_TOWER</zValue>\n\t\t\t<zValue>FORMATION_DEFAULT_WATER</zValue>\n\t\t</aeFormations>\n\t\t<Achievement>ACHIEVEMENT_UNIT_SIEGE_TOWER</Achievement>\n\t\t<UnitCycle>UNITCYCLE_MILITARY_SIEGE</UnitCycle>\n\t\t<NationPrereq>NATION_ASSYRIA</NationPrereq>\n\t\t<CulturePrereq>CULTURE_STRONG</CulturePrereq>\n\t\t<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>\n\t\t<ProductionType>YIELD_TRAINING</ProductionType>\n\t\t<iMovement>1</iMovement>\n\t\t<iVision>4</iVision>\n\t\t<iFatigue>3</iFatigue>\n\t\t<iStrength>80</iStrength>\n\t\t<iHPMax>20</iHPMax>\n\t\t<iProduction>160</iProduction>\n\t\t<iUpgradeCost>160</iUpgradeCost>\n\t\t<fAttackDuration>2</fAttackDuration>\n\t\t<fAnimNormalMoveDuration>.7</fAnimNormalMoveDuration>\n\t\t<fAnimNormalMoveSpeed>1</fAnimNormalMoveSpeed>\n\t\t<fAnimIntermediateMoveDuration>.5</fAnimIntermediateMoveDuration>\n\t\t<fAnimIntermediateMoveSpeed>1.2</fAnimIntermediateMoveSpeed>\n\t\t<fAnimFastMoveDuration>.3</fAnimFastMoveDuration>\n\t\t<fAnimFastMoveSpeed>2</fAnimFastMoveSpeed>\n\t\t<bMelee>1</bMelee>\n\t\t<bOutsideOpinion>1</bOutsideOpinion>\n\t\t<bBlocks>1</bBlocks>\n\t\t<bPillage>1</bPillage>\n\t\t<bGeneral>1</bGeneral>\n\t\t<bRegular>1</bRegular>\n\t\t<aiYieldCost>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_WOOD</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldCost>\n\t\t<aiYieldConsumption>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_TRAINING</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_WOOD</zIndex>\n\t\t\t\t<iValue>4</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldConsumption>\n\t\t<aeUnitTrait>\n\t\t\t<zValue>UNITTRAIT_MELEE</zValue>\n\t\t\t<zValue>UNITTRAIT_SIEGE</zValue>\n\t\t\t<zValue>UNITTRAIT_PROMOTABLE</zValue>\n\t\t</aeUnitTrait>\n\t\t<aeEffectUnit>\n\t\t\t<zValue>EFFECTUNIT_ASSAULT</zValue>\n\t\t</aeEffectUnit>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a347",
+      "apiName": "ACHIEVEMENT_UNIT_ARCHER_ELEPHANT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_UNIT_ARCHER_ELEPHANT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_UNIT_ARCHER_ELEPHANT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_UNIT_ARCHER_ELEPHANT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_UNIT_ARCHER_ELEPHANT</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/unit.xml",
+          "type": "UNIT_ARCHER_ELEPHANT",
+          "xml": "<Entry>\n\t\t<zType>UNIT_ARCHER_ELEPHANT</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<Name>TEXT_UNIT_ARCHER_ELEPHANT</Name>\n\t\t<zIconName>UNIT_ARCHER_ELEPHANT</zIconName>\n\t\t<zPortraitName>UNIT_ARCHER_ELEPHANT</zPortraitName>\n\t\t<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>\n\t\t<zAudioSelectionType>ELEPHANT</zAudioSelectionType>\n\t\t<zAudioMovementType>ANIMATED</zAudioMovementType>\n\t\t<zAudioAttackType>ANIMATED</zAudioAttackType>\n\t\t<zAudioDamagedByProjectileType>combo_flesh_metal</zAudioDamagedByProjectileType>\n\t\t<aeFormations>\n\t\t\t<zValue>FORMATION_ARCHER_ELEPHANT</zValue>\n\t\t\t<zValue>FORMATION_DEFAULT_WATER</zValue>\n\t\t</aeFormations>\n\t\t<Achievement>ACHIEVEMENT_UNIT_ARCHER_ELEPHANT</Achievement>\n\t\t<UnitCycle>UNITCYCLE_MILITARY_MOUNTED</UnitCycle>\n\t\t<NationPrereq>NATION_TAMIL</NationPrereq>\n\t\t<CulturePrereq>CULTURE_STRONG</CulturePrereq>\n\t\t<EffectCityPrereq>EFFECTCITY_RESOURCE_ELEPHANT</EffectCityPrereq>\n\t\t<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>\n\t\t<ProductionType>YIELD_TRAINING</ProductionType>\n\t\t<iMovement>2</iMovement>\n\t\t<iVision>4</iVision>\n\t\t<iFatigue>3</iFatigue>\n\t\t<iStrength>80</iStrength>\n\t\t<iRangeMax>1</iRangeMax>\n\t\t<iHPMax>20</iHPMax>\n\t\t<iProduction>160</iProduction>\n\t\t<iUpgradeCost>160</iUpgradeCost>\n\t\t<fAttackDuration>2.5</fAttackDuration>\n\t\t<fAnimNormalMoveDuration>2.5</fAnimNormalMoveDuration>\n\t\t<fAnimNormalMoveSpeed>2</fAnimNormalMoveSpeed>\n\t\t<fAnimIntermediateMoveDuration>1.5</fAnimIntermediateMoveDuration>\n\t\t<fAnimIntermediateMoveSpeed>3</fAnimIntermediateMoveSpeed>\n\t\t<fAnimFastMoveDuration>.75</fAnimFastMoveDuration>\n\t\t<fAnimFastMoveSpeed>4</fAnimFastMoveSpeed>\n\t\t<bRangeFlat>1</bRangeFlat>\n\t\t<bOutsideOpinion>1</bOutsideOpinion>\n\t\t<bBlocks>1</bBlocks>\n\t\t<bPillage>1</bPillage>\n\t\t<bGeneral>1</bGeneral>\n\t\t<bRegular>1</bRegular>\n\t\t<aiYieldCost>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_WOOD</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldCost>\n\t\t<aiYieldConsumption>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_TRAINING</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_WOOD</zIndex>\n\t\t\t\t<iValue>4</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldConsumption>\n\t\t<aeUnitTrait>\n\t\t\t<zValue>UNITTRAIT_RANGED</zValue>\n\t\t\t<zValue>UNITTRAIT_MOUNTED</zValue>\n\t\t\t<zValue>UNITTRAIT_ELEPHANT</zValue>\n\t\t\t<zValue>UNITTRAIT_PROMOTABLE</zValue>\n\t\t</aeUnitTrait>\n\t\t<aeEffectUnit>\n\t\t\t<zValue>EFFECTUNIT_PANIC</zValue>\n\t\t\t<zValue>EFFECTUNIT_CLEAVE1</zValue>\n\t\t\t<zValue>EFFECTUNIT_FORMIDABLE</zValue>\n\t\t</aeEffectUnit>\n\t</Entry>\n\t\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a151",
+      "apiName": "ACHIEVEMENT_UNIT_PHALANGITE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_UNIT_PHALANGITE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_UNIT_PHALANGITE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_UNIT_PHALANGITE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_UNIT_PHALANGITE</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/unit.xml",
+          "type": "UNIT_PHALANGITE",
+          "xml": "<Entry>\n\t\t<zType>UNIT_PHALANGITE</zType>\n\t\t<Name>TEXT_UNIT_PHALANGITE</Name>\n\t\t<zIconName>UNIT_PHALANGITE</zIconName>\n\t\t<zPortraitName>UNIT_PHALANGITE</zPortraitName>\n\t\t<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>\n\t\t<zAudioSelectionType>PHALANGITE</zAudioSelectionType>\n\t\t<zAudioMovementType>ANIMATED</zAudioMovementType>\n\t\t<zAudioAttackType>ANIMATED</zAudioAttackType>\n\t\t<zAudioDamagedByProjectileType>combo_flesh_metal</zAudioDamagedByProjectileType>\n\t\t<aeFormations>\n\t\t\t<zValue>FORMATION_PHALANGITE</zValue>\n\t\t\t<zValue>FORMATION_DEFAULT_WATER</zValue>\n\t\t</aeFormations>\n\t\t<Achievement>ACHIEVEMENT_UNIT_PHALANGITE</Achievement>\n\t\t<UnitCycle>UNITCYCLE_MILITARY_INFANTRY</UnitCycle>\n\t\t<NationPrereq>NATION_GREECE</NationPrereq>\n\t\t<CulturePrereq>CULTURE_STRONG</CulturePrereq>\n\t\t<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>\n\t\t<ProductionType>YIELD_TRAINING</ProductionType>\n\t\t<iMovement>2</iMovement>\n\t\t<iVision>4</iVision>\n\t\t<iFatigue>3</iFatigue>\n\t\t<iStrength>80</iStrength>\n\t\t<iHPMax>20</iHPMax>\n\t\t<iProduction>160</iProduction>\n\t\t<iUpgradeCost>160</iUpgradeCost>\n\t\t<fAttackDuration>2</fAttackDuration>\n\t\t<bMelee>1</bMelee>\n\t\t<bOutsideOpinion>1</bOutsideOpinion>\n\t\t<bZOC>1</bZOC>\n\t\t<bBlocks>1</bBlocks>\n\t\t<bFortify>1</bFortify>\n\t\t<bPillage>1</bPillage>\n\t\t<bGeneral>1</bGeneral>\n\t\t<bRegular>1</bRegular>\n\t\t<aiYieldCost>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_WOOD</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldCost>\n\t\t<aiYieldConsumption>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_TRAINING</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>4</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldConsumption>\n\t\t<aeUnitTrait>\n\t\t\t<zValue>UNITTRAIT_MELEE</zValue>\n\t\t\t<zValue>UNITTRAIT_INFANTRY</zValue>\n\t\t\t<zValue>UNITTRAIT_POLEARM</zValue>\n\t\t\t<zValue>UNITTRAIT_PROMOTABLE</zValue>\n\t\t</aeUnitTrait>\n\t\t<aeEffectUnit>\n\t\t\t<zValue>EFFECTUNIT_FORMATION</zValue>\n\t\t\t<zValue>EFFECTUNIT_ANTIMOUNTED2</zValue>\n\t\t\t<zValue>EFFECTUNIT_PIERCE1</zValue>\n\t\t</aeEffectUnit>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/Greece6/Infos/unit-add.xml",
+          "type": "UNIT_PHALANGITE_PTOLEMY",
+          "xml": "<Entry>\n\t\t<zType>UNIT_PHALANGITE_PTOLEMY</zType>\n\t\t<Name>TEXT_UNIT_PHALANGITE</Name>\n\t\t<zIconName>UNIT_PHALANGITE</zIconName>\n\t\t<zPortraitName>UNIT_PHALANGITE</zPortraitName>\n\t\t<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>\n\t\t<zAudioSelectionType>PHALANGITE</zAudioSelectionType>\n\t\t<zAudioMovementType>ANIMATED</zAudioMovementType>\n\t\t<zAudioAttackType>ANIMATED</zAudioAttackType>\n\t\t<zAudioDamagedByProjectileType>combo_flesh_metal</zAudioDamagedByProjectileType>\n\t\t<aeFormations>\n\t\t\t<zValue>FORMATION_PHALANGITE</zValue>\n\t\t\t<zValue>FORMATION_DEFAULT_WATER</zValue>\n\t\t</aeFormations>\n\t\t<Achievement>ACHIEVEMENT_UNIT_PHALANGITE</Achievement>\n\t\t<UnitCycle>UNITCYCLE_MILITARY_INFANTRY</UnitCycle>\n\t\t<NationPrereq>NATION_PTOLEMY</NationPrereq>\n\t\t<CulturePrereq>CULTURE_STRONG</CulturePrereq>\n\t\t<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>\n\t\t<ProductionType>YIELD_TRAINING</ProductionType>\n\t\t<iMovement>2</iMovement>\n\t\t<iVision>4</iVision>\n\t\t<iFatigue>3</iFatigue>\n\t\t<iStrength>80</iStrength>\n\t\t<iHPMax>20</iHPMax>\n\t\t<iProduction>160</iProduction>\n\t\t<iUpgradeCost>160</iUpgradeCost>\n\t\t<fAttackDuration>2</fAttackDuration>\n\t\t<bMelee>1</bMelee>\n\t\t<bOutsideOpinion>1</bOutsideOpinion>\n\t\t<bZOC>1</bZOC>\n\t\t<bBlocks>1</bBlocks>\n\t\t<bFortify>1</bFortify>\n\t\t<bPillage>1</bPillage>\n\t\t<bGeneral>1</bGeneral>\n\t\t<bRegular>1</bRegular>\n\t\t<aiYieldCost>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_WOOD</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldCost>\n\t\t<aiYieldConsumption>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_TRAINING</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>4</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldConsumption>\n\t\t<aeUnitTrait>\n\t\t\t<zValue>UNITTRAIT_MELEE</zValue>\n\t\t\t<zValue>UNITTRAIT_INFANTRY</zValue>\n\t\t\t<zValue>UNITTRAIT_POLEARM</zValue>\n\t\t\t<zValue>UNITTRAIT_PROMOTABLE</zValue>\n\t\t</aeUnitTrait>\n\t\t<aeEffectUnit>\n\t\t\t<zValue>EFFECTUNIT_FORMATION</zValue>\n\t\t\t<zValue>EFFECTUNIT_ANTIMOUNTED2</zValue>\n\t\t\t<zValue>EFFECTUNIT_PIERCE1</zValue>\n\t\t</aeEffectUnit>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/Greece6/Infos/unit-add.xml",
+          "type": "UNIT_PHALANGITE_SELEUCUS",
+          "xml": "<Entry>\n\t\t<zType>UNIT_PHALANGITE_SELEUCUS</zType>\n\t\t<Name>TEXT_UNIT_PHALANGITE</Name>\n\t\t<zIconName>UNIT_PHALANGITE</zIconName>\n\t\t<zPortraitName>UNIT_PHALANGITE</zPortraitName>\n\t\t<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>\n\t\t<zAudioSelectionType>PHALANGITE</zAudioSelectionType>\n\t\t<zAudioMovementType>ANIMATED</zAudioMovementType>\n\t\t<zAudioAttackType>ANIMATED</zAudioAttackType>\n\t\t<zAudioDamagedByProjectileType>combo_flesh_metal</zAudioDamagedByProjectileType>\n\t\t<aeFormations>\n\t\t\t<zValue>FORMATION_PHALANGITE</zValue>\n\t\t\t<zValue>FORMATION_DEFAULT_WATER</zValue>\n\t\t</aeFormations>\n\t\t<Achievement>ACHIEVEMENT_UNIT_PHALANGITE</Achievement>\n\t\t<UnitCycle>UNITCYCLE_MILITARY_INFANTRY</UnitCycle>\n\t\t<NationPrereq>NATION_SELEUCUS</NationPrereq>\n\t\t<CulturePrereq>CULTURE_STRONG</CulturePrereq>\n\t\t<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>\n\t\t<ProductionType>YIELD_TRAINING</ProductionType>\n\t\t<iMovement>2</iMovement>\n\t\t<iVision>4</iVision>\n\t\t<iFatigue>3</iFatigue>\n\t\t<iStrength>80</iStrength>\n\t\t<iHPMax>20</iHPMax>\n\t\t<iProduction>160</iProduction>\n\t\t<iUpgradeCost>160</iUpgradeCost>\n\t\t<fAttackDuration>2</fAttackDuration>\n\t\t<bMelee>1</bMelee>\n\t\t<bOutsideOpinion>1</bOutsideOpinion>\n\t\t<bZOC>1</bZOC>\n\t\t<bBlocks>1</bBlocks>\n\t\t<bFortify>1</bFortify>\n\t\t<bPillage>1</bPillage>\n\t\t<bGeneral>1</bGeneral>\n\t\t<bRegular>1</bRegular>\n\t\t<aiYieldCost>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_WOOD</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldCost>\n\t\t<aiYieldConsumption>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_TRAINING</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>4</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldConsumption>\n\t\t<aeUnitTrait>\n\t\t\t<zValue>UNITTRAIT_MELEE</zValue>\n\t\t\t<zValue>UNITTRAIT_INFANTRY</zValue>\n\t\t\t<zValue>UNITTRAIT_POLEARM</zValue>\n\t\t\t<zValue>UNITTRAIT_PROMOTABLE</zValue>\n\t\t</aeUnitTrait>\n\t\t<aeEffectUnit>\n\t\t\t<zValue>EFFECTUNIT_FORMATION</zValue>\n\t\t\t<zValue>EFFECTUNIT_ANTIMOUNTED2</zValue>\n\t\t\t<zValue>EFFECTUNIT_PIERCE1</zValue>\n\t\t</aeEffectUnit>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/Greece6/Infos/unit-add.xml",
+          "type": "UNIT_PHALANGITE_ANTIGONUS",
+          "xml": "<Entry>\n\t\t<zType>UNIT_PHALANGITE_ANTIGONUS</zType>\n\t\t<Name>TEXT_UNIT_PHALANGITE</Name>\n\t\t<zIconName>UNIT_PHALANGITE</zIconName>\n\t\t<zPortraitName>UNIT_PHALANGITE</zPortraitName>\n\t\t<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>\n\t\t<zAudioSelectionType>PHALANGITE</zAudioSelectionType>\n\t\t<zAudioMovementType>ANIMATED</zAudioMovementType>\n\t\t<zAudioAttackType>ANIMATED</zAudioAttackType>\n\t\t<zAudioDamagedByProjectileType>combo_flesh_metal</zAudioDamagedByProjectileType>\n\t\t<aeFormations>\n\t\t\t<zValue>FORMATION_PHALANGITE</zValue>\n\t\t\t<zValue>FORMATION_DEFAULT_WATER</zValue>\n\t\t</aeFormations>\n\t\t<Achievement>ACHIEVEMENT_UNIT_PHALANGITE</Achievement>\n\t\t<UnitCycle>UNITCYCLE_MILITARY_INFANTRY</UnitCycle>\n\t\t<NationPrereq>NATION_ANTIGONUS</NationPrereq>\n\t\t<CulturePrereq>CULTURE_STRONG</CulturePrereq>\n\t\t<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>\n\t\t<ProductionType>YIELD_TRAINING</ProductionType>\n\t\t<iMovement>2</iMovement>\n\t\t<iVision>4</iVision>\n\t\t<iFatigue>3</iFatigue>\n\t\t<iStrength>80</iStrength>\n\t\t<iHPMax>20</iHPMax>\n\t\t<iProduction>160</iProduction>\n\t\t<iUpgradeCost>160</iUpgradeCost>\n\t\t<fAttackDuration>2</fAttackDuration>\n\t\t<bMelee>1</bMelee>\n\t\t<bOutsideOpinion>1</bOutsideOpinion>\n\t\t<bZOC>1</bZOC>\n\t\t<bBlocks>1</bBlocks>\n\t\t<bFortify>1</bFortify>\n\t\t<bPillage>1</bPillage>\n\t\t<bGeneral>1</bGeneral>\n\t\t<bRegular>1</bRegular>\n\t\t<aiYieldCost>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_WOOD</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>100</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldCost>\n\t\t<aiYieldConsumption>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_TRAINING</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>4</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldConsumption>\n\t\t<aeUnitTrait>\n\t\t\t<zValue>UNITTRAIT_MELEE</zValue>\n\t\t\t<zValue>UNITTRAIT_INFANTRY</zValue>\n\t\t\t<zValue>UNITTRAIT_POLEARM</zValue>\n\t\t\t<zValue>UNITTRAIT_PROMOTABLE</zValue>\n\t\t</aeUnitTrait>\n\t\t<aeEffectUnit>\n\t\t\t<zValue>EFFECTUNIT_FORMATION</zValue>\n\t\t\t<zValue>EFFECTUNIT_ANTIMOUNTED2</zValue>\n\t\t\t<zValue>EFFECTUNIT_PIERCE1</zValue>\n\t\t</aeEffectUnit>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE3_PHALANGITE_BUILT",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE3_PHALANGITE_BUILT</zType>\n\t\t<Name>TEXT_EVENTSTORY_GREECE3_PHALANGITE_BUILT_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_GREECE3_PHALANGITE_BUILT</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t\t<zValue>SUBJECT_UNIT_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_GREECE3_PHALANGITE_BUILT_OK</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PRODUCTION_UNIT</Trigger>\n\t\t<TriggerData>UNIT_PHALANGITE</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iTriggerExtra>1</iTriggerExtra>\n\t\t<iPriority>20</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a232",
+      "apiName": "ACHIEVEMENT_UNIT_SHOTELAI",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_UNIT_SHOTELAI",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_UNIT_SHOTELAI</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_UNIT_SHOTELAI_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_UNIT_SHOTELAI</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/unit.xml",
+          "type": "UNIT_SHOTELAI",
+          "xml": "<Entry>\n\t\t<zType>UNIT_SHOTELAI</zType>\n\t\t<Name>TEXT_UNIT_SHOTELAI</Name>\n\t\t<zIconName>UNIT_SHOTELAI</zIconName>\n\t\t<zPortraitName>UNIT_SHOTELAI</zPortraitName>\n\t\t<zBackgroundName>GenericUnitAttackBackground</zBackgroundName>\n\t\t<zAudioSelectionType>SWORD</zAudioSelectionType>\n\t\t<zAudioMovementType>ANIMATED</zAudioMovementType>\n\t\t<zAudioAttackType>ANIMATED</zAudioAttackType>\n\t\t<zAudioDamagedByProjectileType>combo_flesh_metal</zAudioDamagedByProjectileType>\n\t\t<aeFormations>\n\t\t\t<zValue>FORMATION_SHOTELAI</zValue>\n\t\t\t<zValue>FORMATION_DEFAULT_WATER</zValue>\n\t\t</aeFormations>\n\t\t<Achievement>ACHIEVEMENT_UNIT_SHOTELAI</Achievement>\n\t\t<UnitCycle>UNITCYCLE_MILITARY_INFANTRY</UnitCycle>\n\t\t<NationPrereq>NATION_AKSUM</NationPrereq>\n\t\t<CulturePrereq>CULTURE_STRONG</CulturePrereq>\n\t\t<ImprovementPrereq>IMPROVEMENT_GARRISON_3</ImprovementPrereq>\n\t\t<ProductionType>YIELD_TRAINING</ProductionType>\n\t\t<iMovement>2</iMovement>\n\t\t<iVision>4</iVision>\n\t\t<iFatigue>3</iFatigue>\n\t\t<iStrength>80</iStrength>\n\t\t<iHPMax>20</iHPMax>\n\t\t<iProduction>160</iProduction>\n\t\t<iUpgradeCost>160</iUpgradeCost>\n\t\t<fAttackDuration>2</fAttackDuration>\n\t\t<bMelee>1</bMelee>\n\t\t<bOutsideOpinion>1</bOutsideOpinion>\n\t\t<bZOC>1</bZOC>\n\t\t<bBlocks>1</bBlocks>\n\t\t<bFortify>1</bFortify>\n\t\t<bPillage>1</bPillage>\n\t\t<bGeneral>1</bGeneral>\n\t\t<bRegular>1</bRegular>\n\t\t<aiYieldCost>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>200</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldCost>\n\t\t<aiYieldConsumption>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_TRAINING</zIndex>\n\t\t\t\t<iValue>2</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_FOOD</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_IRON</zIndex>\n\t\t\t\t<iValue>4</iValue>\n\t\t\t</Pair>\n\t\t</aiYieldConsumption>\n\t\t<aeUnitTrait>\n\t\t\t<zValue>UNITTRAIT_MELEE</zValue>\n\t\t\t<zValue>UNITTRAIT_INFANTRY</zValue>\n\t\t\t<zValue>UNITTRAIT_PROMOTABLE</zValue>\n\t\t</aeUnitTrait>\n\t\t<aeEffectUnit>\n\t\t\t<zValue>EFFECTUNIT_DISARM</zValue>\n\t\t</aeEffectUnit>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a387",
+      "apiName": "ACHIEVEMENT_ELEPHANTINE_ELEPHANT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_ELEPHANTINE_ELEPHANT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_ELEPHANTINE_ELEPHANT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_ELEPHANTINE_ELEPHANT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_ELEPHANTINE_ELEPHANT</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_ELEPHANTINE_ELEPHANT",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_ELEPHANTINE_ELEPHANT</zType>\n\t\t<Achievement>ACHIEVEMENT_ELEPHANTINE_ELEPHANT</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_ELEPHANTINE_ELEPHANT",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_ELEPHANTINE_ELEPHANT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t\t<zValue>SUBJECT_UNIT_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CITY_ELEPHANTINE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ELEPHANTINE_ELEPHANT</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PRODUCTION_UNIT</Trigger>\n\t\t<TriggerData>UNIT_WAR_ELEPHANT</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iTriggerExtra>1</iTriggerExtra>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a174",
+      "apiName": "ACHIEVEMENT_STAT_TEN_CITIES_CAPTURED",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_STAT_TEN_CITIES_CAPTURED",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_STAT_TEN_CITIES_CAPTURED</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_STAT_TEN_CITIES_CAPTURED_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_STAT_TEN_CITIES_CAPTURED</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t\t<aiStatCount>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CITY_CAPTURED</zIndex>\n\t\t\t\t<iValue>10</iValue>\n\t\t\t</Pair>\n\t\t</aiStatCount>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a394",
+      "apiName": "ACHIEVEMENT_HORDE_WARFARE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_HORDE_WARFARE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_HORDE_WARFARE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_HORDE_WARFARE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_HORDE_WARFARE</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-eoti.xml",
+          "type": "BONUS_ACHIEVEMENT_HORDE_WARFARE",
+          "xml": "<Entry>\n        <zType>BONUS_ACHIEVEMENT_HORDE_WARFARE</zType>\n        <Achievement>ACHIEVEMENT_HORDE_WARFARE</Achievement>\n    </Entry>\n    "
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-eoti.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_HORDE_WARFARE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_HORDE_WARFARE</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_UNIT_US</Type>\n\t\t\t\t<Extra>SUBJECT_STEPPE_RIDER</Extra>\n\t\t\t</Subject>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_UNIT_US</Type>\n\t\t\t\t<Extra>SUBJECT_STEPPE_RIDER</Extra>\n\t\t\t</Subject>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_UNIT_US</Type>\n\t\t\t\t<Extra>SUBJECT_STEPPE_RIDER</Extra>\n\t\t\t</Subject>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_UNIT_US</Type>\n\t\t\t\t<Extra>SUBJECT_STEPPE_RIDER</Extra>\n\t\t\t</Subject>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_UNIT_US</Type>\n\t\t\t\t<Extra>SUBJECT_STEPPE_RIDER</Extra>\n\t\t\t</Subject>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_UNIT_US</Type>\n\t\t\t\t<Extra>SUBJECT_STEPPE_RIDER</Extra>\n\t\t\t</Subject>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_UNIT_US</Type>\n\t\t\t\t<Extra>SUBJECT_STEPPE_RIDER</Extra>\n\t\t\t</Subject>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_UNIT_US</Type>\n\t\t\t\t<Extra>SUBJECT_STEPPE_RIDER</Extra>\n\t\t\t</Subject>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_UNIT_US</Type>\n\t\t\t\t<Extra>SUBJECT_STEPPE_RIDER</Extra>\n\t\t\t</Subject>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_UNIT_US</Type>\n\t\t\t\t<Extra>SUBJECT_STEPPE_RIDER</Extra>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_HORDE_WARFARE</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a187",
+      "apiName": "ACHIEVEMENT_FIVE_ROUTS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_FIVE_ROUTS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_FIVE_ROUTS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_FIVE_ROUTS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_FIVE_ROUTS</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t\t<iMaxRoutChain>5</iMaxRoutChain>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a006",
+      "apiName": "ACHIEVEMENT_THREAT_AVERTED",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_THREAT_AVERTED",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_THREAT_AVERTED</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_THREAT_AVERTED_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_THREAT_AVERTED</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-eoti.xml",
+          "type": "BONUS_ACHIEVEMENT_THREAT_AVERTED",
+          "xml": "<Entry>\n        <zType>BONUS_ACHIEVEMENT_THREAT_AVERTED</zType>\n        <Achievement>ACHIEVEMENT_THREAT_AVERTED</Achievement>\n    </Entry>\n    "
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-eoti.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_THREAT_AVERTED",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_THREAT_AVERTED</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"tribeSite\">\n\t\t\t\t<Type>SUBJECT_TILE</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"tribe\">\n\t\t\t\t<Type>SUBJECT_TRIBE_HUNS_DEAD</Type>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_THREAT_AVERTED</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_TRIBE_ELIMINATED</Trigger>\n\t\t<TriggerSubjects>0,-1,1</TriggerSubjects>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a037",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_WHATS_THE_WORST_THAT_HAPPENS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_BEHIND_THE_THRONE_WHATS_THE_WORST_THAT_HAPPENS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_BEHIND_THE_THRONE_WHATS_THE_WORST_THAT_HAPPENS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_BEHIND_THE_THRONE_WHATS_THE_WORST_THAT_HAPPENS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_BEHIND_THE_THRONE_WHATS_THE_WORST_THAT_HAPPENS</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-btt.xml",
+          "type": "BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_WHATS_THE_WORST_THAT_HAPPENS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_WHATS_THE_WORST_THAT_HAPPENS</zType>\n\t\t<Achievement>ACHIEVEMENT_BEHIND_THE_THRONE_WHATS_THE_WORST_THAT_HAPPENS</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventOption-btt.xml",
+          "type": "EVENTOPTION_PLAYER_DECLARE_WAR_YES_IMPULSIVE",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_PLAYER_DECLARE_WAR_YES_IMPULSIVE</zType>\n\t\t<Text>TEXT_EVENTOPTION_PLAYER_DECLARE_WAR_YES_IMPULSIVE</Text>\n\t\t<zIcon>icon(DIPLOMACY_WAR)</zIcon>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_DECLARE_WAR_PLAYER</zValue>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_WHATS_THE_WORST_THAT_HAPPENS</zValue>\n\t\t</aeBonuses>\n\t\t<LeaderSubject>SUBJECT_IMPULSIVE</LeaderSubject>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-btt.xml",
+          "type": "EVENTSTORY_REVELRY_I_DID_WHAT",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_REVELRY_I_DID_WHAT</zType>\n\t\t<GameContentRequired>EVENTPACK_SCANDAL</GameContentRequired>\n\t\t<Name>TEXT_EVENTSTORY_REVELRY_I_DID_WHAT_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_REVELRY_I_DID_WHAT</Text>\n\t\t<zBackgroundName>Uncover_Scandals</zBackgroundName>\n\t\t<zFrameType>FRAME_SCANDAL</zFrameType>\n\t\t<zAuthor>Jeri Roys</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_TRUCE</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_MAX_NEAR</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_MAX_UPSET</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectNotExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_ALLIANCE</Second>\n\t\t\t</Pair>\t\t\t\n\t\t</SubjectNotExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_DECLARE_WAR_PLAYER</zValue>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_WHATS_THE_WORST_THAT_HAPPENS</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_REVELRY_I_DID_WHAT_OPTION_0</zValue>\n\t\t\t<zValue>EVENTOPTION_REVELRY_I_DID_WHAT_OPTION_1</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_MISSION_FINISHED</Trigger>\n\t\t<TriggerData>MISSIONRESULT_REVEL_EVENT</TriggerData>\n\t\t<iImageSubject>0</iImageSubject>\n\t\t<iPriority>1</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidePrereqs>1</bHidePrereqs>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-btt.xml",
+          "type": "EVENTSTORY_PLAYER_DECLARE_WAR_IMPULSIVE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_PLAYER_DECLARE_WAR_IMPULSIVE</zType>\n\t\t<GameContentRequired>EVENTPACK_SCANDAL</GameContentRequired>\n\t\t<Name>TEXT_EVENTSTORY_PLAYER_DECLARE_WAR_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_PLAYER_DECLARE_WAR</Text>\n\t\t<zFrameType>FRAME_SCANDAL</zFrameType>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_TO_WAR</zAudioTrigger>\n\t\t<zAuthor>Soren Johnson/Jeri Roys</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_PEACE_OR_TRUCE</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_IMPULSIVE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_PLAYER_DECLARE_WAR_YES_IMPULSIVE</zValue>\n\t\t\t<zValue>EVENTOPTION_PLAYER_DECLARE_WAR_NO_IMPULSIVE</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_MISSION_FINISHED</Trigger>\n\t\t<TriggerData>MISSIONRESULT_PLAYER_DECLARE_WAR_EVENT</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<MinDifficulty>DIFFICULTY_STRONG</MinDifficulty>\n\t\t<iPriority>2</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>0</iRepeatTurns>\n\t\t<bSinglePlayer>1</bSinglePlayer>\n\t\t<bIgnoreOptions>1</bIgnoreOptions>\t\t\n\t\t<aeGameOptionInvalid>\n\t\t\t<zValue>GAMEOPTION_COMPETITIVE_EVENTS</zValue>\n\t\t</aeGameOptionInvalid>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a313",
+      "apiName": "ACHIEVEMENT_ALEXANDER_THE_GREAT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_ALEXANDER_THE_GREAT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_ALEXANDER_THE_GREAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_ALEXANDER_THE_GREAT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_ALEXANDER_THE_GREAT</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_ALEXANDER_THE_GREAT",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_ALEXANDER_THE_GREAT</zType>\n\t\t<Achievement>ACHIEVEMENT_ALEXANDER_THE_GREAT</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_ALEXANDER_THE_GREAT",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_ALEXANDER_THE_GREAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_PERSIA_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_ALEXANDER</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ALEXANDER_THE_GREAT</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_ELIMINATED</Trigger>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_ALEXANDER_DYNASTY_THE_GREAT",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_ALEXANDER_DYNASTY_THE_GREAT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_PERSIA_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_ALEXANDER_LEADER</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ALEXANDER_THE_GREAT</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_ELIMINATED</Trigger>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a255",
+      "apiName": "ACHIEVEMENT_FERTILE_CRESCENT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_FERTILE_CRESCENT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_FERTILE_CRESCENT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_FERTILE_CRESCENT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_FERTILE_CRESCENT</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_FERTILE_CRESCENT",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_FERTILE_CRESCENT</zType>\n\t\t<Achievement>ACHIEVEMENT_FERTILE_CRESCENT</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_FERTILE_CRESCENT_ASSYRIA1",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_FERTILE_CRESCENT_ASSYRIA1</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_BABYLONIA_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_PERSIA_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_ASSYRIA</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_FERTILE_CRESCENT</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_ELIMINATED</Trigger>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_FERTILE_CRESCENT_ASSYRIA2",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_FERTILE_CRESCENT_ASSYRIA2</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_BABYLONIA_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_PERSIA_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_ASSYRIA</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_FERTILE_CRESCENT</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_ELIMINATED</Trigger>\n\t\t<iTriggerSubject>1</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_FERTILE_CRESCENT_BABYLONIA1",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_FERTILE_CRESCENT_BABYLONIA1</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_ASSYRIA_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_PERSIA_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_BABYLONIA</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_FERTILE_CRESCENT</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_ELIMINATED</Trigger>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_FERTILE_CRESCENT_BABYLONIA2",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_FERTILE_CRESCENT_BABYLONIA2</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_ASSYRIA_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_PERSIA_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_BABYLONIA</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_FERTILE_CRESCENT</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_ELIMINATED</Trigger>\n\t\t<iTriggerSubject>1</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_FERTILE_CRESCENT_PERSIA1",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_FERTILE_CRESCENT_PERSIA1</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_ASSYRIA_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_BABYLONIA_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_PERSIA</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_FERTILE_CRESCENT</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_ELIMINATED</Trigger>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_FERTILE_CRESCENT_PERSIA2",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_FERTILE_CRESCENT_PERSIA2</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_ASSYRIA_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_BABYLONIA_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_PERSIA</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_FERTILE_CRESCENT</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_ELIMINATED</Trigger>\n\t\t<iTriggerSubject>1</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a233",
+      "apiName": "ACHIEVEMENT_BATTLE_OF_OPIS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_BATTLE_OF_OPIS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_BATTLE_OF_OPIS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_BATTLE_OF_OPIS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_BATTLE_OF_OPIS</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_BATTLE_OF_OPIS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_BATTLE_OF_OPIS</zType>\n\t\t<Achievement>ACHIEVEMENT_BATTLE_OF_OPIS</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_BATTLE_OF_OPIS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_BATTLE_OF_OPIS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_BABYLONIA_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_PERSIA</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BATTLE_OF_OPIS</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_ELIMINATED</Trigger>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a205",
+      "apiName": "ACHIEVEMENT_MACEDONIAN_WARS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_MACEDONIAN_WARS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_MACEDONIAN_WARS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_MACEDONIAN_WARS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_MACEDONIAN_WARS</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_MACEDONIAN_WARS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_MACEDONIAN_WARS</zType>\n\t\t<Achievement>ACHIEVEMENT_MACEDONIAN_WARS</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_MACEDONIAN_WARS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_MACEDONIAN_WARS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_GREECE_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_ROME</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_MACEDONIAN_WARS</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_ELIMINATED</Trigger>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a216",
+      "apiName": "ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST</zType>\n\t\t<Achievement>ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_ASSYRIA_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_BABYLONIA</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_ELIMINATED</Trigger>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a219",
+      "apiName": "ACHIEVEMENT_PUNIC_WARS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_PUNIC_WARS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_PUNIC_WARS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_PUNIC_WARS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_PUNIC_WARS</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_PUNIC_WARS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_PUNIC_WARS</zType>\n\t\t<Achievement>ACHIEVEMENT_PUNIC_WARS</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_PUNIC_WARS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_PUNIC_WARS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_CARTHAGE_DEAD</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_ROME</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_PUNIC_WARS</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_ELIMINATED</Trigger>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a314",
+      "apiName": "ACHIEVEMENT_ALEXANDER_THE_WHO",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_ALEXANDER_THE_WHO",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_ALEXANDER_THE_WHO</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_ALEXANDER_THE_WHO_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_ALEXANDER_THE_WHO</HelpText>\n\t\t<IconName>ACHIEVEMENT_MISSION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_ALEXANDER_THE_WHO",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_ALEXANDER_THE_WHO</zType>\n\t\t<Achievement>ACHIEVEMENT_ALEXANDER_THE_WHO</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_ALEXANDER_THE_WHO",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_ALEXANDER_THE_WHO</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CHARACTER_DEAD_US</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_ALEXANDER</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_WAS_LEADER_DEAD_US</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECTRELATION_ASSASSINATED_BY</Second>\n\t\t\t\t<Third>1</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ALEXANDER_THE_WHO</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a224",
+      "apiName": "ACHIEVEMENT_ET_TU_BRUTUS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_ET_TU_BRUTUS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_ET_TU_BRUTUS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_ET_TU_BRUTUS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_ET_TU_BRUTUS</HelpText>\n\t\t<IconName>ACHIEVEMENT_MISSION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_ET_TU_BRUTUS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_ET_TU_BRUTUS</zType>\n\t\t<Name>TEXT_EVENTSTORY_ET_TU_BRUTUS_TITLE</Name>\n\t\t<Achievement>ACHIEVEMENT_ET_TU_BRUTUS</Achievement>\n\t\t<bKillCharacter>1</bKillCharacter>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ET_TU_BRUTUS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ET_TU_BRUTUS</zType>\n\t\t<Name>TEXT_EVENTSTORY_ET_TU_BRUTUS_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_ET_TU_BRUTUS</Text>\n\t\t<zBackgroundName>Dagger_Assasin</zBackgroundName>\n\t\t<zEventURL>https://en.wikipedia.org/wiki/Assassination_of_Julius_Caesar</zEventURL>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_DESPAIR</zAudioTrigger>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_FAMILY_HEAD_US</zValue>\n\t\t\t<zValue>SUBJECT_FAMILY_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_ROME</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectAny>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_VENGEFUL_AGAINST_LEADER</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PLOTTING_AGAINST_LEADER</Second>\n\t\t\t</Pair>\n\t\t</SubjectAny>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECTRELATION_FAMILY_SAME</Second>\n\t\t\t\t<Third>1</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue />\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ET_TU_BRUTUS</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ET_TU_BRUTUS</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_RARE_EVENTS</Class>\n\t\t<iMinLeader>2</iMinLeader>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a009",
+      "apiName": "ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER</HelpText>\n\t\t<IconName>ACHIEVEMENT_MISSION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event.xml",
+          "type": "BONUS_EVENTOPTION_TRAIT_DUEL_OF_FATES_VICTORIOUS_OPTION_0_CHARACTER_2",
+          "xml": "<Entry>\n\t\t<zType>BONUS_EVENTOPTION_TRAIT_DUEL_OF_FATES_VICTORIOUS_OPTION_0_CHARACTER_2</zType>\n\t\t<Name>TEXT_EVENTSTORY_TRAIT_DUEL_OF_FATES_VICTORIOUS_TITLE</Name>\n\t\t<Achievement>ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER</Achievement>\n\t\t<bKillCharacter>1</bKillCharacter>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/bonus-event.xml",
+          "type": "BONUS_EVENTOPTION_CHARACTER_DEADLY_INHERITANCE_OPTION_2_CHARACTER_1",
+          "xml": "<Entry>\n\t\t<zType>BONUS_EVENTOPTION_CHARACTER_DEADLY_INHERITANCE_OPTION_2_CHARACTER_1</zType>\n\t\t<Name>TEXT_EVENTSTORY_CHARACTER_DEADLY_INHERITANCE_TITLE</Name>\n\t\t<Achievement>ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER</Achievement>\n\t\t<bKillCharacter>1</bKillCharacter>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/bonus-event.xml",
+          "type": "BONUS_EVENTOPTION_TRAIT_SECRET_STRIKE_OPTION_1_CHARACTER_1",
+          "xml": "<Entry>\n\t\t<zType>BONUS_EVENTOPTION_TRAIT_SECRET_STRIKE_OPTION_1_CHARACTER_1</zType>\n\t\t<Name>TEXT_EVENTSTORY_TRAIT_SECRET_STRIKE_TITLE</Name>\n\t\t<Achievement>ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER</Achievement>\n\t\t<bKillCharacter>1</bKillCharacter>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/bonus-event.xml",
+          "type": "BONUS_EVENTSTORY_RELATIONSHIP_VENGEANCE_FROM_AFAR_CHARACTER_0",
+          "xml": "<Entry>\n\t\t<zType>BONUS_EVENTSTORY_RELATIONSHIP_VENGEANCE_FROM_AFAR_CHARACTER_0</zType>\n\t\t<Name>TEXT_EVENTSTORY_RELATIONSHIP_VENGEANCE_FROM_AFAR_TITLE</Name>\n\t\t<Achievement>ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER</Achievement>\n\t\t<bKillCharacter>1</bKillCharacter>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_KILL_CHARACTER_LEADER",
+          "xml": "<Entry>\n\t\t<zType>BONUS_KILL_CHARACTER_LEADER</zType>\n\t\t<Name>TEXT_CHARACTER_KILLED</Name>\n\t\t<Achievement>ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER</Achievement>\n\t\t<bKillCharacter>1</bKillCharacter>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER</zType>\n\t\t<Achievement>ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_TRAIT_DUEL_OF_FATES_VICTORIOUS_OPTION_0",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_TRAIT_DUEL_OF_FATES_VICTORIOUS_OPTION_0</zType>\n\t\t<Text>TEXT_EVENTOPTION_TRAIT_DUEL_OF_FATES_VICTORIOUS_OPTION_0</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_EVENTOPTION_TRAIT_DUEL_OF_FATES_VICTORIOUS_OPTION_0</zValue>\n\t\t\t<zValue>BONUS_EVENTOPTION_TRAIT_DUEL_OF_FATES_VICTORIOUS_OPTION_0_CHARACTER_2</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_I_LOVE_IT_WHEN_A_PLAN_COMES_TOGETHER_OPTION_0",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_I_LOVE_IT_WHEN_A_PLAN_COMES_TOGETHER_OPTION_0</zType>\n\t\t<Text>TEXT_EVENTOPTION_I_LOVE_IT_WHEN_A_PLAN_COMES_TOGETHER_OPTION_0</Text>\n\t\t<zIcon>icon(DIPLOMACY_ALLIANCE)</zIcon>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_EVENTOPTION_CHARACTER_DEADLY_INHERITANCE_OPTION_2_CHARACTER_0</zValue>\n\t\t\t<zValue>BONUS_EVENTOPTION_CHARACTER_DEADLY_INHERITANCE_OPTION_2_CHARACTER_1</zValue>\n\t\t\t<zValue>BONUS_PLAYER_ALLIANCE</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_REAPING_THE_WHIRLWIND_OPTION_0",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_REAPING_THE_WHIRLWIND_OPTION_0</zType>\n\t\t<Text>TEXT_EVENTOPTION_REAPING_THE_WHIRLWIND_OPTION_0</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_KILL_CHARACTER</zValue>\n\t\t\t<zValue>BONUS_EVENTOPTION_CHARACTER_DEADLY_INHERITANCE_OPTION_2_CHARACTER_1</zValue>\n\t\t\t<zValue />\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_TRAIT_SECRET_STRIKE_OPTION_1",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_TRAIT_SECRET_STRIKE_OPTION_1</zType>\n\t\t<Text>TEXT_EVENTOPTION_TRAIT_SECRET_STRIKE_OPTION_1</Text>\n\t\t<zIcon>icon(DIPLOMACY_WAR)</zIcon>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_EVENTOPTION_TRAIT_SECRET_STRIKE_OPTION_1_CHARACTER_1</zValue>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_EVENTOPTION_TRAIT_SECRET_STRIKE_OPTION_1_PLAYER_1</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_TRAIT_SECRET_STRIKE_LOSE_RIGHTEOUS",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_TRAIT_SECRET_STRIKE_LOSE_RIGHTEOUS</zType>\n\t\t<Text>TEXT_EVENTOPTION_TRAIT_SECRET_STRIKE_OPTION_1</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_LOSE_RIGHTEOUS_GAIN_CUNNING</zValue>\n\t\t\t<zValue>BONUS_EVENTOPTION_TRAIT_SECRET_STRIKE_OPTION_1_CHARACTER_1</zValue>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_EVENTOPTION_TRAIT_SECRET_STRIKE_OPTION_1_PLAYER_1</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_RELATIONSHIP_VENGEANCE_FROM_AFAR",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_RELATIONSHIP_VENGEANCE_FROM_AFAR</zType>\n\t\t<Name>TEXT_EVENTSTORY_RELATIONSHIP_VENGEANCE_FROM_AFAR_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_RELATIONSHIP_VENGEANCE_FROM_AFAR</Text>\n\t\t<zBackgroundName>Funeral</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_OPEN_THE_TOMB</zAudioTrigger>\n\t\t<zAuthor>Andy Auseon</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_THEM</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_SPOUSE_OF_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_HEIR_THEM</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_EVENTSTORY_RELATIONSHIP_VENGEANCE_FROM_AFAR_CHARACTER_0</zValue>\n\t\t\t<zValue />\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_LEADER_SUSPICIOUS_OF</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_RELATIONSHIP_VENGEANCE_FROM_AFAR_OPTION_0</zValue>\n\t\t\t<zValue>EVENTOPTION_RELATIONSHIP_VENGEANCE_FROM_AFAR_OPTION_1</zValue>\n\t\t\t<zValue>EVENTOPTION_RELATIONSHIP_VENGEANCE_FROM_AFAR_OPTION_2</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iImageSubject>3</iImageSubject>\n\t\t<EventLinkPrereq>EVENTLINK_RELATIONSHIP_PALACE_INTRUDER</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iProb>30</iProb>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_A_TIME_TO_KILL_FAST",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_A_TIME_TO_KILL_FAST</zType>\n\t\t<Name>TEXT_EVENTSTORY_A_TIME_TO_KILL_FAST_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_A_TIME_TO_KILL_FAST</Text>\n\t\t<zBackgroundName>Assasins</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_INTRIGUE</zAudioTrigger>\n\t\t<zAuthor>David Ballantyne</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_MAX_DISTANT</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_THEM</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECTRELATION_PLAYER_SAME</Second>\n\t\t\t\t<Third>2</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_KILL_CHARACTER_LEADER</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_A_TIME_TO_KILL_FAST_RESULTS</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<EventLinkPrereq>EVENTLINK_A_TIME_TO_KILL_FAST</EventLinkPrereq>\n\t\t<iEventLinkTurns>10</iEventLinkTurns>\n\t\t<iWeight>1</iWeight>\n\t\t<iProb>50</iProb>\n\t\t<iRepeatTurns>0</iRepeatTurns>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_A_TIME_TO_KILL_SAFE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_A_TIME_TO_KILL_SAFE</zType>\n\t\t<Name>TEXT_EVENTSTORY_A_TIME_TO_KILL_SAFE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_A_TIME_TO_KILL_SAFE</Text>\n\t\t<zBackgroundName>Assasins</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_INTRIGUE</zAudioTrigger>\n\t\t<zAuthor>David Ballantyne</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_MAX_DISTANT</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_THEM</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECTRELATION_PLAYER_SAME</Second>\n\t\t\t\t<Third>2</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_KILL_CHARACTER_LEADER</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_A_TIME_TO_KILL_SAFE_RESULTS</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<EventLinkPrereq>A_TIME_TO_KILL_SAFE</EventLinkPrereq>\n\t\t<iEventLinkTurns>10</iEventLinkTurns>\n\t\t<iWeight>1</iWeight>\n\t\t<iProb>20</iProb>\n\t\t<iRepeatTurns>0</iRepeatTurns>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_THEM</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_MISSION_FINISHED</Trigger>\n\t\t<TriggerData>MISSIONRESULT_ASSASSINATE_EVENT</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_TRAIT_DUEL_OF_FATES_VICTORIOUS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_TRAIT_DUEL_OF_FATES_VICTORIOUS</zType>\n\t\t<Name>TEXT_EVENTSTORY_TRAIT_DUEL_OF_FATES_VICTORIOUS_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_TRAIT_DUEL_OF_FATES_VICTORIOUS</Text>\n\t\t<zAuthor>Andy Auseon</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_THEM</zValue>\n\t\t</aeSubjects>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_TRAIT_DUEL_OF_FATES_VICTORIOUS_OPTION_0</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<EventLinkPrereq>EVENTLINK_DUEL_OF_FATES</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>0</iRepeatTurns>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_I_LOVE_IT_WHEN_A_PLAN_COMES_TOGETHER",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_I_LOVE_IT_WHEN_A_PLAN_COMES_TOGETHER</zType>\n\t\t<Name>TEXT_EVENTSTORY_I_LOVE_IT_WHEN_A_PLAN_COMES_TOGETHER_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_I_LOVE_IT_WHEN_A_PLAN_COMES_TOGETHER</Text>\n\t\t<zBackgroundName>Smuggling</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_OMINOUS_ENCOUNTER</zAudioTrigger>\n\t\t<zAuthor>Velociryx</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_PEACE_OR_TRUCE</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_THEM</zValue>\n\t\t\t<zValue>SUBJECT_HEIR_THEM</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_ADULT</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_ADULT</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>3</First>\n\t\t\t\t<Second>SUBJECT_TEENAGER_OR_ADULT</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECTRELATION_PLAYER_SAME</Second>\n\t\t\t\t<Third>0</Third>\n\t\t\t</Triple>\n\t\t\t<Triple>\n\t\t\t\t<First>3</First>\n\t\t\t\t<Second>SUBJECTRELATION_PLAYER_SAME</Second>\n\t\t\t\t<Third>2</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_I_LOVE_IT_WHEN_A_PLAN_COMES_TOGETHER_OPTION_0</zValue>\n\t\t</aeOptions>\n\t\t<iImageSubject>2</iImageSubject>\n\t\t<iImageExtra>3</iImageExtra>\n\t\t<EventLinkPrereq>EVENTLINK_CHARACTER_DEADLY_INHERITANCE</EventLinkPrereq>\n\t\t<iWeight>7</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<aeGameOptionInvalid>\n\t\t\t<zValue>GAMEOPTION_COMPETITIVE_EVENTS</zValue>\n\t\t</aeGameOptionInvalid>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_REAPING_THE_WHIRLWIND",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_REAPING_THE_WHIRLWIND</zType>\n\t\t<Name>TEXT_EVENTSTORY_REAPING_THE_WHIRLWIND_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_REAPING_THE_WHIRLWIND</Text>\n\t\t<zBackgroundName>Smuggling</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_OMINOUS_ENCOUNTER</zAudioTrigger>\n\t\t<zAuthor>Velociryx</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_PEACE_OR_TRUCE</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_THEM</zValue>\n\t\t\t<zValue>SUBJECT_HEIR_THEM</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_ADULT</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_ADULT</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>3</First>\n\t\t\t\t<Second>SUBJECT_TEENAGER_OR_ADULT</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECTRELATION_PLAYER_SAME</Second>\n\t\t\t\t<Third>0</Third>\n\t\t\t</Triple>\n\t\t\t<Triple>\n\t\t\t\t<First>3</First>\n\t\t\t\t<Second>SUBJECTRELATION_PLAYER_SAME</Second>\n\t\t\t\t<Third>2</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_REAPING_THE_WHIRLWIND_OPTION_0</zValue>\n\t\t</aeOptions>\n\t\t<iImageSubject>2</iImageSubject>\n\t\t<iImageExtra>3</iImageExtra>\n\t\t<EventLinkPrereq>EVENTLINK_CHARACTER_DEADLY_INHERITANCE</EventLinkPrereq>\n\t\t<iWeight>2</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<aiMortalitySkipProb>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>MORTALITY_LONG</zIndex>\n\t\t\t\t<iValue>90</iValue>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>MORTALITY_STANDARD</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t</aiMortalitySkipProb>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_TRAIT_SECRET_STRIKE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_TRAIT_SECRET_STRIKE</zType>\n\t\t<Name>TEXT_EVENTSTORY_TRAIT_SECRET_STRIKE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_TRAIT_SECRET_STRIKE</Text>\n\t\t<zBackgroundName>MudFight</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_WEARY_TRAVELER</zAudioTrigger>\n\t\t<zAuthor>Andy Auseon</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_PEACE_OR_TRUCE</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_THEM</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_THEM</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CUNNING</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>3</First>\n\t\t\t\t<Second>SUBJECTRELATION_PLAYER_SAME</Second>\n\t\t\t\t<Third>1</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_TRAIT_SECRET_STRIKE_OPTION_0</zValue>\n\t\t\t<zValue>EVENTOPTION_TRAIT_SECRET_STRIKE_OPTION_1</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_WAR_OFFER</Trigger>\n\t\t<iTriggerSubject>3</iTriggerSubject>\n\t\t<iImageSubject>1</iImageSubject>\n\t\t<iLookAtSubject>3</iLookAtSubject>\n\t\t<iWeight>4</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<aeEventStoryRepeatTurns>\n\t\t\t<zValue>EVENTSTORY_TRAIT_SECRET_STRIKE</zValue>\n\t\t\t<zValue>EVENTSTORY_TRAIT_SECRET_STRIKE_TRAIT_RIGHTEOUS</zValue>\n\t\t</aeEventStoryRepeatTurns>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_TRAIT_SECRET_STRIKE_TRAIT_RIGHTEOUS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_TRAIT_SECRET_STRIKE_TRAIT_RIGHTEOUS</zType>\n\t\t<Name>TEXT_EVENTSTORY_TRAIT_SECRET_STRIKE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_TRAIT_SECRET_STRIKE</Text>\n\t\t<zBackgroundName>MudFight</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_WEARY_TRAVELER</zAudioTrigger>\n\t\t<zAuthor>Andy Auseon</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_PEACE_OR_TRUCE</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_THEM</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_THEM</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_RIGHTEOUS</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECTRELATION_PLAYER_SAME</Second>\n\t\t\t\t<Third>3</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_TRAIT_SECRET_STRIKE_LOSE_RIGHTEOUS</zValue>\n\t\t\t<zValue>EVENTOPTION_TRAIT_SECRET_STRIKE_OPTION_2</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_WAR_OFFER</Trigger>\n\t\t<iTriggerSubject>3</iTriggerSubject>\n\t\t<iImageSubject>1</iImageSubject>\n\t\t<iLookAtSubject>3</iLookAtSubject>\n\t\t<iWeight>4</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidePrereqs>1</bHidePrereqs>\n\t\t<aeEventStoryRepeatTurns>\n\t\t\t<zValue>EVENTSTORY_TRAIT_SECRET_STRIKE</zValue>\n\t\t\t<zValue>EVENTSTORY_TRAIT_SECRET_STRIKE_TRAIT_RIGHTEOUS</zValue>\n\t\t</aeEventStoryRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a207",
+      "apiName": "ACHIEVEMENT_ASSASSINATED_HEIR",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_ASSASSINATED_HEIR",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_ASSASSINATED_HEIR</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_ASSASSINATED_HEIR_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_ASSASSINATED_HEIR</HelpText>\n\t\t<IconName>ACHIEVEMENT_MISSION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_ASSASSINATED_HEIR",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_ASSASSINATED_HEIR</zType>\n\t\t<Achievement>ACHIEVEMENT_ASSASSINATED_HEIR</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_ASSASSINATED_HEIR",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_ASSASSINATED_HEIR</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_HEIR_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ASSASSINATED_HEIR</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_MISSION_FINISHED</Trigger>\n\t\t<TriggerData>MISSIONRESULT_ASSASSINATE_EVENT</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    }
+  ],
+  "note": "Automated source index; not a gameplay test or complete verification of tactics. Human findings are in the review.",
+  "sharedSourceSha256": {
+    "Reference/Source/Base/Game/GameCore/Game.cs": "6f53b000279d14a9abb58c40269880b2d6385416cf8e4915996957b4417b6367",
+    "Reference/Source/Base/Game/GameCore/Player.cs": "b163e9bab5e496ca787e40e332749e27652bd68abfb896eab6aa1b880b8d3cda",
+    "Reference/Source/Base/Game/GameCore/PlayerGoal.cs": "c54e7b03ec71f2a4d17744ba558f0dcbff51796c44a8af5dcdde6e0889dacd54",
+    "Reference/Source/Base/Game/GameCore/PlayerEvent.cs": "6be1751b6a8fb606088eb1ba812170b6522a539e062c67cbb0bc972be843e356",
+    "Reference/Source/Base/Game/GameCore/Unit.cs": "744b943df9241c05115f0d6cdd03eec7a7dd0784b0689abd85ad5480530d3ad2",
+    "Reference/Source/Base/Game/GameCore/City.cs": "7b1fb548257e66f5407d0f7cf5eb471f06a4bac64dc56d584192d230b5d7badd",
+    "Reference/Source/Base/Game/GameCore/Tile.cs": "08fd9e13065d2a3a1747e45f24d8be2268e68b0ed58ee21666162e654ad273c0",
+    "Reference/Source/Base/Game/GameCore/Character.cs": "0b7c05e8467b30b76b6cbf6ff0dd423d629d8fd75584cc678ea6b0dd1c818419"
+  },
+  "humanFindings": "warfare-review.md"
+}

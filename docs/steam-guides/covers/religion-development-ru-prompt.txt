@@ -1,0 +1,11 @@
+Tool: built-in image_gen
+Date: 2026-11-26
+
+Use case: ads-marketing. Asset type: square cover for the Russian Steam Community achievement guide "Old World: религия и развитие державы".
+Create one polished square image, approximately 1024x1024, in an established antique guide-cover series. Near-black warm charcoal background with very subtle texture; thin double aged-gold square border inset with generous safe margins. Huge elegant Roman serif OLD WORLD at the top in textured antique gold. Central dominant illustration: an ancient stone ceremonial altar bearing a small sacred flame, an open antique scroll and a simple carved relief tablet; behind it a restrained silhouette of an ancient walled city and a small columned shrine, symbolizing religion, laws and development. Etched gold engraving / richly detailed antique illustration, dramatic gold highlights on black, warm ivory accents, no bright modern colors. A single coherent central scene, not a collage of icons. Strong readable silhouette at 195px thumbnail size. Keep the same cover composition and solemn ancient-strategy aesthetic as a black-and-gold cover with a classical temple, gold OLD WORLD title at top and large ivory Cyrillic title below.
+Bottom title in large balanced warm-ivory Roman-style serif, exactly these three lines:
+РЕЛИГИЯ
+И РАЗВИТИЕ
+ДЕРЖАВЫ
+All Cyrillic letters must be correctly spelled and highly readable. Prioritize title readability and series consistency. The middle line can be slightly smaller to fit. Leave clear separation between illustration and text. Exact top text: OLD WORLD. No other text. No Steam logo, no watermark, no mockup, no modern religious emblems, no UI. Opaque background.
+

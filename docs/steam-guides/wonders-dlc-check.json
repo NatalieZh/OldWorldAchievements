@@ -1,0 +1,360 @@
+{
+  "date": "2026-11-26",
+  "scope": "Direct required content from improvement/nation XML; no new gameplay test",
+  "requirements": [
+    {
+      "id": "a100",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a051",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a015",
+      "gameContentRequired": [
+        "EMPIRES_OF_THE_INDUS"
+      ],
+      "cardDlc": "Empires of the Indus"
+    },
+    {
+      "id": "a019",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a111",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a117",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a068",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a190",
+      "gameContentRequired": [
+        "WONDERS_DYNASTIES"
+      ],
+      "cardDlc": "Wonders and Dynasties"
+    },
+    {
+      "id": "a092",
+      "gameContentRequired": [
+        "WONDERS_DYNASTIES"
+      ],
+      "cardDlc": "Wonders and Dynasties"
+    },
+    {
+      "id": "a097",
+      "gameContentRequired": [
+        "WONDERS_DYNASTIES"
+      ],
+      "cardDlc": "Wonders and Dynasties"
+    },
+    {
+      "id": "a034",
+      "gameContentRequired": [
+        "WONDERS_DYNASTIES"
+      ],
+      "cardDlc": "Wonders and Dynasties"
+    },
+    {
+      "id": "a066",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a081",
+      "gameContentRequired": [
+        "WONDERS_DYNASTIES"
+      ],
+      "cardDlc": "Wonders and Dynasties"
+    },
+    {
+      "id": "a135",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a011",
+      "gameContentRequired": [
+        "EMPIRES_OF_THE_INDUS"
+      ],
+      "cardDlc": "Empires of the Indus"
+    },
+    {
+      "id": "a067",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a134",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a083",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a106",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a089",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a031",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a056",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a002",
+      "gameContentRequired": [
+        "EMPIRES_OF_THE_INDUS"
+      ],
+      "cardDlc": "Empires of the Indus"
+    },
+    {
+      "id": "a058",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a038",
+      "gameContentRequired": [
+        "WONDERS_DYNASTIES"
+      ],
+      "cardDlc": "Wonders and Dynasties"
+    },
+    {
+      "id": "a001",
+      "gameContentRequired": [
+        "EMPIRES_OF_THE_INDUS"
+      ],
+      "cardDlc": "Empires of the Indus"
+    },
+    {
+      "id": "a003",
+      "gameContentRequired": [
+        "WONDERS_DYNASTIES"
+      ],
+      "cardDlc": "Wonders and Dynasties"
+    },
+    {
+      "id": "a166",
+      "gameContentRequired": [
+        "WONDERS_DYNASTIES"
+      ],
+      "cardDlc": "Wonders and Dynasties"
+    },
+    {
+      "id": "a262",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a201",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a194",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a288",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a116",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a162",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a393",
+      "gameContentRequired": [
+        "WONDERS_DYNASTIES"
+      ],
+      "cardDlc": "Wonders and Dynasties"
+    },
+    {
+      "id": "a397",
+      "gameContentRequired": [
+        "WONDERS_DYNASTIES"
+      ],
+      "cardDlc": "Wonders and Dynasties"
+    },
+    {
+      "id": "a395",
+      "gameContentRequired": [
+        "WONDERS_DYNASTIES"
+      ],
+      "cardDlc": "Wonders and Dynasties"
+    },
+    {
+      "id": "a259",
+      "gameContentRequired": [
+        "WONDERS_DYNASTIES"
+      ],
+      "cardDlc": "Wonders and Dynasties"
+    },
+    {
+      "id": "a400",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a254",
+      "gameContentRequired": [
+        "WONDERS_DYNASTIES"
+      ],
+      "cardDlc": "Wonders and Dynasties"
+    },
+    {
+      "id": "a341",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a261",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a270",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a179",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a319",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a197",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a192",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a317",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a362",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a346",
+      "gameContentRequired": [
+        "WONDERS_DYNASTIES"
+      ],
+      "cardDlc": "Wonders and Dynasties"
+    },
+    {
+      "id": "a399",
+      "gameContentRequired": [
+        "WONDERS_DYNASTIES"
+      ],
+      "cardDlc": "Wonders and Dynasties"
+    },
+    {
+      "id": "a284",
+      "gameContentRequired": [
+        "WONDERS_DYNASTIES"
+      ],
+      "cardDlc": "Wonders and Dynasties"
+    },
+    {
+      "id": "a396",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a057",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a160",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a269",
+      "gameContentRequired": [
+        "AKSUM"
+      ],
+      "cardDlc": "Wrath of Gods"
+    },
+    {
+      "id": "a178",
+      "gameContentRequired": [],
+      "cardDlc": "Pharaohs of the Nile"
+    },
+    {
+      "id": "a039",
+      "gameContentRequired": [],
+      "cardDlc": "Heroes of the Aegean"
+    },
+    {
+      "id": "a063",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a004",
+      "gameContentRequired": [
+        "EMPIRES_OF_THE_INDUS"
+      ],
+      "cardDlc": "Empires of the Indus"
+    },
+    {
+      "id": "a096",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    },
+    {
+      "id": "a167",
+      "gameContentRequired": [],
+      "cardDlc": "Основная игра"
+    }
+  ]
+}

@@ -1,0 +1,1215 @@
+{
+  "date": "2026-11-26",
+  "buildId": "26728102",
+  "count": 42,
+  "sourceRoot": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Old World",
+  "sourceSha256": {
+    "Reference/Source/Mods/Greece2/Greece2Game.cs": "4ed0466ca302e3d8824f385eabdf5fe2e2af8b0dc6eec66601d840c86d08b0b3",
+    "Reference/Source/Mods/Greece3/Greece3Game.cs": "ba31be053507c1d788de582908a0c4b3ab92c69a3960e96246d113866a06f3b6",
+    "Reference/Source/Mods/Greece3/Greece3Unit.cs": "6fde4aaf3e8f18301b3489ac7620dbc9c5f8a639894e5e39616db5d5ae242372",
+    "Reference/Source/Mods/Greece4/Greece4Player.cs": "367f13cd01c30a498ec8fbaaf8f2701694e0c20cb254a33c5e2ed406dd7d5737",
+    "Reference/Source/Mods/Greece5/Greece5Game.cs": "1678332d67f802eb21ef3d9042e51f945ac0aadb1564c3fb6bdca4d55a3f14e6",
+    "Reference/XML/Mods/Greece1/Infos/achievement-add.xml": "b22e5ab6ac2e5cc56555ddc0f34b697abf8dc861bfd62caf2ed106722abd895b",
+    "Reference/XML/Mods/Greece1/Infos/bonus-event-add.xml": "0958134faaf39181d1b88a1849c50cd95d71a39f159319a33d6dbe3438668f35",
+    "Reference/XML/Mods/Greece1/Infos/eventOption-add.xml": "17f7a0e5c772f8228e69cbaab6af87e203f8ffe89e7502308b3d3cea0a4811aa",
+    "Reference/XML/Mods/Greece1/Infos/eventStory-add.xml": "b1c6f224c660c54bfebefc169146e257ac692ab261c0463c32232e30cc2b97f6",
+    "Reference/XML/Mods/Greece1/Infos/scenario-add.xml": "5f60418eaf015bab512e465e0de720e4b42869ae64cdc9dd0e95f9809578e9fb",
+    "Reference/XML/Mods/Greece2/Infos/achievement-add.xml": "9a75a6464a775c112a1cd7ba6e6bb754bae3161c61f9e34ba5af5843fa5f42fe",
+    "Reference/XML/Mods/Greece2/Infos/scenario-add.xml": "9a1aa58115a340538f73196970c035a944314df1fc82849df57720661de4e755",
+    "Reference/XML/Mods/Greece3/Infos/achievement-add.xml": "e4eb790cb39e1206f6dae1a4399e2653ef63bc2fa9804a00ff7309b7bdb09b9e",
+    "Reference/XML/Mods/Greece3/Infos/bonus-event-add.xml": "0d5768135d270945560001079c311048aaf49f8dce5c890cce74527a77730976",
+    "Reference/XML/Mods/Greece3/Infos/eventOption-add.xml": "7b92e5b359b6f09f4cbbd6f6c18e9e2b25baebe887100f8739d5456df87f9c08",
+    "Reference/XML/Mods/Greece3/Infos/eventStory-add.xml": "23de263e90f0d840d52c714320cd44b5c5d2b0d0b8f56c693081a81dc6386bd4",
+    "Reference/XML/Mods/Greece3/Infos/scenario-add.xml": "8eb9091a54b762cf16e70b51a3ff6e09a37c1c8c85bf5aa619e74424424cf9d6",
+    "Reference/XML/Mods/Greece4/Infos/achievement-add.xml": "a1a7f6db9fc3d8c54f60e7b37acd228c47d26b99824a0b80535c30044e462828",
+    "Reference/XML/Mods/Greece4/Infos/bonus-add.xml": "a175cd2add3200570faf195548421b6944bbbf08406be567381aaf1ac8677767",
+    "Reference/XML/Mods/Greece4/Infos/eventStory-add.xml": "a4f2a3c97fef7c3cd8242b84833ad1bcdc6e44c4cc28bbee18dc033aab6514d0",
+    "Reference/XML/Mods/Greece5/Infos/achievement-add.xml": "ec810c32d247d150780b961ff4d0344e85f45ce2bbfbc5c03ba441a64bbda95e",
+    "Reference/XML/Mods/Greece5/Infos/bonus-event-add.xml": "588714c0949cf1fdd7d97d2eb57b4df493221adeb309d60046dd3d4fe6305580",
+    "Reference/XML/Mods/Greece5/Infos/eventStory-add.xml": "9fe8e1c828da15ca6920eedb2888db8f54b8c58e25a87edf4e2e65d7adb59483",
+    "Reference/XML/Mods/Greece5/Infos/scenario-add.xml": "441a35fb94a2932dae6f5e8f166222686f564772bb979e0a606a4aa5b195dd46",
+    "Reference/XML/Mods/Greece6/Infos/achievement-add.xml": "5ef2440f2fbda14310eef9a56f2bcfd82c73cbccc338b035d6f3ce791510f38e",
+    "Reference/XML/Mods/Greece6/Infos/bonus-event-add.xml": "ebb0343fbc61546ad8af2c58a68e64c2aef31a31d69b22f9f57d5fbdb7c04a58",
+    "Reference/XML/Mods/Greece6/Infos/eventStory-add.xml": "f89a4015635742d9fe47626a1c968c3b17d44e2b3daff6934956b653f126e333"
+  },
+  "records": [
+    {
+      "id": "a196",
+      "apiName": "ACHIEVEMENT_GREECE1_RUN",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece1/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE1_RUN",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE1_RUN</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE1_RUN_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE1_RUN</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece1/Infos/bonus-event-add.xml",
+          "type": "BONUS_MARATHON_RUN",
+          "xml": "<Entry>\n\t\t<zType>BONUS_MARATHON_RUN</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE1_RUN</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a303",
+      "apiName": "ACHIEVEMENT_GREECE1_LOSE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece1/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE1_LOSE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE1_LOSE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE1_LOSE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE1_LOSE</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece1/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_LOSE",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_LOSE</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE1_LOSE</Achievement>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece1/Infos/eventOption-add.xml",
+          "type": "EVENTOPTION_GREECE1_BATTLE_FAILED_OK",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_GREECE1_BATTLE_FAILED_OK</zType>\n\t\t<Text>TEXT_EVENTOPTION_GREECE1_BATTLE_FAILED_OK</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_LOSE</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/Greece1/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE1_BATTLE_FAILED",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE1_BATTLE_FAILED</zType>\n\t\t<Name>TEXT_EVENTSTORY_GREECE1_BATTLE_FAILED_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_GREECE1_BATTLE_FAILED</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_THEM</zValue>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_PERSIA</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_GREECE1_BATTLE_FAILED_OK</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_GREECE1</Class>\n\t\t<Trigger>EVENTTRIGGER_GOAL_FAILED</Trigger>\n\t\t<TriggerData>GOAL_WIN_MARATHON</TriggerData>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/Greece1/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE1_LOSS_FALLBACK",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE1_LOSS_FALLBACK</zType>\n\t\t<Name>TEXT_EVENTSTORY_GREECE1_BATTLE_FAILED_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_GREECE1_LOSS_FALLBACK</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_THEM</zValue>\n\t\t\t<zValue>SUBJECT_CITY_TRIBE</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_PERSIA</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_GREECE1_BATTLE_FAILED_OK</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_GREECE1</Class>\n\t\t<Trigger>EVENTTRIGGER_LOSE_GAME</Trigger>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bEndGame>1</bEndGame>\n\t</Entry>\n"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a200",
+      "apiName": "ACHIEVEMENT_GREECE1_WIN",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece1/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE1_WIN",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE1_WIN</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE1_WIN_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE1_WIN</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_1</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece1/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_WIN",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_WIN</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE1_WIN</Achievement>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/Greece1/Infos/scenario-add.xml",
+          "type": "SCENARIO_GREECE_1",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_GREECE_1</zType>\n\t\t<Name>TEXT_SCENARIO_GREECE_1</Name>\n\t\t<SubTitle>TEXT_SCENARIO_GREECE_1_SUB</SubTitle>\n\t\t<VictoryPopup>TEXT_POPUP_VICTORY_SCENARIO_INFO</VictoryPopup>\n\t\t<ScenarioClass>SCENARIOCLASS_GREECE</ScenarioClass>\n\t\t<zIcon>Greece_Thumbnail</zIcon>\n\t\t<zBackgroundName>Sprites/Events/Pheidippides_Marathon</zBackgroundName>\n\t\t<zMapFile>Greece1Map</zMapFile>\n\t\t<zModName>Greece1</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_GREECE1_WIN</zValue>\n\t\t</azAchievements>\n\t\t<Nation>NATION_GREECE</Nation>\n\t\t<Difficulty>DIFFICULTY_GREECE_MEDIUM</Difficulty>\n\t\t<TurnScale>TURNSCALE_DAY</TurnScale>\n\t\t<DifficultyDisabled>\n\t\t\t<zValue>DIFFICULTY_ABLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GOOD</zValue>\n\t\t\t<zValue>DIFFICULTY_GREAT</zValue>\n\t\t\t<zValue>DIFFICULTY_STRONG</zValue>\n\t\t\t<zValue>DIFFICULTY_NOBLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GLORIOUS</zValue>\n\t\t\t<zValue>DIFFICULTY_MAGNIFICENT</zValue>\n\t\t</DifficultyDisabled>\n\t\t<ParametersInvalid>\n\t\t\t<zValue>NumPlayers</zValue>\n\t\t\t<zValue>NumTeams</zValue>\n\t\t\t<zValue>Nation</zValue>\n\t\t\t<zValue>Archetype</zValue>\n\t\t\t<zValue>Dynasty</zValue>\n\t\t\t<zValue>OpponentLevel</zValue>\n\t\t\t<zValue>TribeLevel</zValue>\n\t\t\t<zValue>Advantage</zValue>\n\t\t\t<zValue>SuccessionGender</zValue>\n\t\t\t<zValue>SuccessionOrder</zValue>\n\t\t\t<zValue>Mortality</zValue>\n\t\t\t<zValue>TurnScale</zValue>\n\t\t\t<zValue>ForceMarch</zValue>\n\t\t\t<zValue>EventLevel</zValue>\n\t\t\t<zValue>Development</zValue>\n\t\t\t<zValue>MapSize</zValue>\n\t\t\t<zValue>MapOptions</zValue>\n\t\t\t<zValue>ModOptions</zValue>\n\t\t\t<zValue>DifficultyMode</zValue>\n\t\t\t<zValue>MapClass</zValue>\n\t\t\t<zValue>MapPath</zValue>\n\t\t</ParametersInvalid>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece1/Infos/eventOption-add.xml",
+          "type": "EVENTOPTION_GREECE1_WIN_OK",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_GREECE1_WIN_OK</zType>\n\t\t<Text>TEXT_EVENTOPTION_GREECE1_WIN_OK</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_WIN</zValue>\n\t\t</aeBonuses>\n\t\t<bMainMenu>1</bMainMenu>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/Greece1/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE1_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE1_VICTORY</zType>\n\t\t<Name>TEXT_EVENTSTORY_GREECE1_VICTORY_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_GREECE1_VICTORY</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_THEM</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_THEM</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_PERSIA</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_PHEIDIPPIDES</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>4</First>\n\t\t\t\t<Second>SUBJECT_CYNAEGIRUS</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>3</First>\n\t\t\t\t<Second>SUBJECTRELATION_PLAYER_SAME</Second>\n\t\t\t\t<Third>1</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_GREECE1_WIN_OK</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_GREECE1</Class>\n\t\t<Trigger>EVENTTRIGGER_WIN_GAME</Trigger>\n\t\t<TriggerData>VICTORY_CONQUEST</TriggerData>\n\t\t<iImageSubject>2</iImageSubject>\n\t\t<iImageExtra>3</iImageExtra>\n\t\t<iPriority>19</iPriority>\n\t\t<iWeight>1</iWeight>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a389",
+      "apiName": "ACHIEVEMENT_GREECE1_ALTERNATE_WIN",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece1/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE1_ALTERNATE_WIN",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE1_ALTERNATE_WIN</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE1_ALTERNATE_WIN_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE1_ALTERNATE_WIN</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_1</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece1/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_ALTERNATE_WIN",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_ALTERNATE_WIN</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE1_ALTERNATE_WIN</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece1/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE1_VICTORY_ALTERNATE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE1_VICTORY_ALTERNATE</zType>\n\t\t<Name>TEXT_EVENTSTORY_GREECE1_VICTORY_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_GREECE1_VICTORY_ALTERNATE</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_THEM</zValue>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_GREECE_ALTERNATE_PATH</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_PERSIA</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ALTERNATE_WIN</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_GREECE1_WIN_ALTERNATE_OK</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_GREECE1</Class>\n\t\t<Trigger>EVENTTRIGGER_WIN_GAME</Trigger>\n\t\t<TriggerData>VICTORY_CONQUEST</TriggerData>\n\t\t<iPriority>20</iPriority>\n\t\t<iWeight>1</iWeight>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a332",
+      "apiName": "ACHIEVEMENT_GREECE2_SALAMIS_PERFECT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece2/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE2_SALAMIS_PERFECT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE2_SALAMIS_PERFECT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE2_SALAMIS_PERFECT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE2_SALAMIS_PERFECT</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece2/Greece2Game.cs",
+          "line": 589,
+          "context": "                    \n                    greecePlayer.doEventTrigger(infos().getType<EventTriggerType>(\"EVENTTRIGGER_SALAMIS_WON\"));\n                    doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_SALAMIS_WIN\"), greecePlayer);\n                    \n                    if (iStartingShips == iGreekShipsAlive)\n                    {\n                        doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_SALAMIS_PERFECT\"), greecePlayer);\n                    }\n                    if (isMultiplayerGameMode())\n                    {\n                        persiaPlayer.doEventTrigger(infos().getType<EventTriggerType>(\"EVENTTRIGGER_SALAMIS_LOST_MP\"));\n                    }\n\n                    initPlataea();"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a225",
+      "apiName": "ACHIEVEMENT_GREECE2_PLATAEA_WIN",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece2/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE2_PLATAEA_WIN",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE2_PLATAEA_WIN</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE2_PLATAEA_WIN_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE2_PLATAEA_WIN</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_2</Scenario>\n\t</Entry>\n"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece2/Infos/scenario-add.xml",
+          "type": "SCENARIO_GREECE_2",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_GREECE_2</zType>\n\t\t<Name>TEXT_SCENARIO_GREECE_2</Name>\n\t\t<SubTitle>TEXT_SCENARIO_GREECE_2_SUB</SubTitle>\n\t\t<VictoryPopup>TEXT_POPUP_VICTORY_SCENARIO_INFO</VictoryPopup>\n\t\t<ScenarioClass>SCENARIOCLASS_GREECE</ScenarioClass>\n\t\t<zIcon>Greece_Thumbnail</zIcon>\n\t\t<zBackgroundName>Sprites/Events/The_300_Spartans</zBackgroundName>\n\t\t<zMapFile>Greece2Map</zMapFile>\n\t\t<zModName>Greece2</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_GREECE2_PLATAEA_WIN</zValue>\n\t\t</azAchievements>\n\t\t<Prereq>SCENARIO_GREECE_1</Prereq>\n\t\t<Nation>NATION_GREECE</Nation>\n\t\t<TeamNation>TEAMNATION_GAME_UNIQUE</TeamNation>\n\t\t<Difficulty>DIFFICULTY_GREECE_MEDIUM</Difficulty>\n\t\t<TurnScale>TURNSCALE_DAY</TurnScale>\n\t\t<DifficultyDisabled>\n\t\t\t<zValue>DIFFICULTY_ABLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GOOD</zValue>\n\t\t\t<zValue>DIFFICULTY_GREAT</zValue>\n\t\t\t<zValue>DIFFICULTY_STRONG</zValue>\n\t\t\t<zValue>DIFFICULTY_NOBLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GLORIOUS</zValue>\n\t\t\t<zValue>DIFFICULTY_MAGNIFICENT</zValue>\n\t\t</DifficultyDisabled>\n\t\t<ParametersInvalid>\n\t\t\t<zValue>NumPlayers</zValue>\n\t\t\t<zValue>NumTeams</zValue>\n\t\t\t<zValue>Nation</zValue>\n\t\t\t<zValue>Archetype</zValue>\n\t\t\t<zValue>Dynasty</zValue>\n\t\t\t<zValue>OpponentLevel</zValue>\n\t\t\t<zValue>TribeLevel</zValue>\n\t\t\t<zValue>Advantage</zValue>\n\t\t\t<zValue>SuccessionGender</zValue>\n\t\t\t<zValue>SuccessionOrder</zValue>\n\t\t\t<zValue>Mortality</zValue>\n\t\t\t<zValue>TurnScale</zValue>\n\t\t\t<zValue>ForceMarch</zValue>\n\t\t\t<zValue>EventLevel</zValue>\n\t\t\t<zValue>Development</zValue>\n\t\t\t<zValue>MapSize</zValue>\n\t\t\t<zValue>MapOptions</zValue>\n\t\t\t<zValue>ModOptions</zValue>\n\t\t\t<zValue>DifficultyMode</zValue>\n\t\t\t<zValue>MapClass</zValue>\n\t\t\t<zValue>MapPath</zValue>\n\t\t</ParametersInvalid>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece2/Greece2Game.cs",
+          "line": 606,
+          "context": "            else if (getStage() == ScenarioStage.Plataea)\n            {\n                if (pUnit.player().countMilitaryUnits() == 1)\n                {\n                    if (pUnit.player() == persiaPlayer)\n                    {\n                        doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_PLATAEA_WIN\"), greecePlayer);\n                        makeWinner(greecePlayer.getTeam(), infos().Globals.CONQUEST_VICTORY);\n                    }\n                    else if (pUnit.player() == greecePlayer)\n                    {\n                        makeWinner(persiaPlayer.getTeam(), infos().Globals.CONQUEST_VICTORY);\n                    }\n                }"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a256",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_30",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece2/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE2_THERMOPYLAE_30",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE2_THERMOPYLAE_30</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE2_THERMOPYLAE_30_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE2_THERMOPYLAE_30</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece2/Greece2Game.cs",
+          "line": 507,
+          "context": "            else if (iKills == 40)\n            {\n                eAchievement = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_THERMOPYLAE_40\");\n            }\n            else if (iKills == 30)\n            {\n                eAchievement = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_THERMOPYLAE_30\");\n            }\n            else if (iKills == 20)\n            {\n                eAchievement = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_THERMOPYLAE_20\");\n            }\n            else if (iKills == 10)\n            {"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a304",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_40",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece2/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE2_THERMOPYLAE_40",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE2_THERMOPYLAE_40</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE2_THERMOPYLAE_40_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE2_THERMOPYLAE_40</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece2/Greece2Game.cs",
+          "line": 503,
+          "context": "            if (iKills == 50)\n            {\n                eAchievement = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_THERMOPYLAE_50\");\n            }\n            else if (iKills == 40)\n            {\n                eAchievement = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_THERMOPYLAE_40\");\n            }\n            else if (iKills == 30)\n            {\n                eAchievement = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_THERMOPYLAE_30\");\n            }\n            else if (iKills == 20)\n            {"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a226",
+      "apiName": "ACHIEVEMENT_GREECE2_SALAMIS_WIN",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece2/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE2_SALAMIS_WIN",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE2_SALAMIS_WIN</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE2_SALAMIS_WIN_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE2_SALAMIS_WIN</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece2/Greece2Game.cs",
+          "line": 585,
+          "context": "                if (pUnit.player() == persiaPlayer && persiaPlayer.countMilitaryUnits() == 1)\n                {\n                    int iStartingShips = countStartingGreekShips();\n                    int iGreekShipsAlive = greecePlayer.countShipsAlive();\n                    \n                    greecePlayer.doEventTrigger(infos().getType<EventTriggerType>(\"EVENTTRIGGER_SALAMIS_WON\"));\n                    doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_SALAMIS_WIN\"), greecePlayer);\n                    \n                    if (iStartingShips == iGreekShipsAlive)\n                    {\n                        doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_SALAMIS_PERFECT\"), greecePlayer);\n                    }\n                    if (isMultiplayerGameMode())\n                    {"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a211",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_WIN",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece2/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE2_THERMOPYLAE_WIN",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE2_THERMOPYLAE_WIN</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE2_THERMOPYLAE_WIN_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE2_THERMOPYLAE_WIN</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece2/Greece2Game.cs",
+          "line": 545,
+          "context": "                {\n                    greecePlayer.prepareThemistocles();\n                    \n                    greecePlayer.doEventTrigger(infos().getType<EventTriggerType>(\"EVENTTRIGGER_THERMOPYLAE_OVER\"));\n                    persiaPlayer.doEventTrigger(infos().getType<EventTriggerType>(\"EVENTTRIGGER_THERMOPYLAE_OVER\"));\n                    \n                    doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_THERMOPYLAE_WIN\"), greecePlayer);\n\n                    return true;\n                }\n            }\n\n            if (getStage() == ScenarioStage.Salamis)\n            {"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a227",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_20",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece2/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE2_THERMOPYLAE_20",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE2_THERMOPYLAE_20</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE2_THERMOPYLAE_20_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE2_THERMOPYLAE_20</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece2/Greece2Game.cs",
+          "line": 511,
+          "context": "            else if (iKills == 30)\n            {\n                eAchievement = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_THERMOPYLAE_30\");\n            }\n            else if (iKills == 20)\n            {\n                eAchievement = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_THERMOPYLAE_20\");\n            }\n            else if (iKills == 10)\n            {\n                eAchievement = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_THERMOPYLAE_10\");\n            }\n\n            if (eAchievement != AchievementType.NONE)"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a210",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_10",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece2/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE2_THERMOPYLAE_10",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE2_THERMOPYLAE_10</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE2_THERMOPYLAE_10_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE2_THERMOPYLAE_10</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece2/Greece2Game.cs",
+          "line": 515,
+          "context": "            else if (iKills == 20)\n            {\n                eAchievement = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_THERMOPYLAE_20\");\n            }\n            else if (iKills == 10)\n            {\n                eAchievement = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_THERMOPYLAE_10\");\n            }\n\n            if (eAchievement != AchievementType.NONE)\n            {\n                doAchievement(eAchievement, greecePlayer);\n            }\n        }"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a333",
+      "apiName": "ACHIEVEMENT_GREECE2_THERMOPYLAE_50",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece2/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE2_THERMOPYLAE_50",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE2_THERMOPYLAE_50</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE2_THERMOPYLAE_50_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE2_THERMOPYLAE_50</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece2/Greece2Game.cs",
+          "line": 499,
+          "context": "\n        private void updateThermopylaeAchievement(int iKills)\n        {\n            AchievementType eAchievement = AchievementType.NONE;\n            if (iKills == 50)\n            {\n                eAchievement = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_THERMOPYLAE_50\");\n            }\n            else if (iKills == 40)\n            {\n                eAchievement = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE2_THERMOPYLAE_40\");\n            }\n            else if (iKills == 30)\n            {"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a279",
+      "apiName": "ACHIEVEMENT_GREECE3_VICTORY_BRONZE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE3_VICTORY_BRONZE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE3_VICTORY_BRONZE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE3_VICTORY_BRONZE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE3_VICTORY_BRONZE</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_3</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece3/Greece3Game.cs",
+          "line": 362,
+          "context": "            {\n\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE3_VICTORY_SILVER\"), macedoniaPlayer);\n\n            }\n\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE3_VICTORY_BRONZE\"), macedoniaPlayer);\n\n        }\n\n        public override bool canAddTrait(TraitType eTrait, Character pCharacter, CharacterType eCharacter, bool bTestPrereqs = false, bool bNoFallback = true, bool bSetArchetype = false)\n        {\n            if (!base.canAddTrait(eTrait, pCharacter, eCharacter, bTestPrereqs: bTestPrereqs, bNoFallback: bNoFallback, bSetArchetype: bSetArchetype))\n            {"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a277",
+      "apiName": "ACHIEVEMENT_GREECE3_SPARTA",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE3_SPARTA",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE3_SPARTA</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE3_SPARTA_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE3_SPARTA</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_SPARTA",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_SPARTA</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE3_SPARTA</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE3_ACHIEVEMENT_SPARTA",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE3_ACHIEVEMENT_SPARTA</zType>\n\t\t<Name>TEXT_DUMMY</Name>\n\t\t<Text>TEXT_DUMMY</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_SPARTA</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_DUMMY</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_GOAL_FINISHED</Trigger>\n\t\t<TriggerData>GOAL_DOMINATE_SPARTA</TriggerData>\n\t\t<iPriority>15</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a306",
+      "apiName": "ACHIEVEMENT_GREECE3_VICTORY_GOLD",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE3_VICTORY_GOLD",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE3_VICTORY_GOLD</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE3_VICTORY_GOLD_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE3_VICTORY_GOLD</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_3</Scenario>\n\t</Entry>\n"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece3/Greece3Game.cs",
+          "line": 348,
+          "context": "\n\n            if (bGoldVictory)\n\n            {\n\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE3_VICTORY_GOLD\"), macedoniaPlayer);\n\n            }\n\n\n\n            if (bSilverVictory)\n"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a257",
+      "apiName": "ACHIEVEMENT_GREECE3_THRACIANS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE3_THRACIANS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE3_THRACIANS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE3_THRACIANS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE3_THRACIANS</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_THRACIANS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_THRACIANS</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE3_THRACIANS</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE3_ACHIEVEMENT_THRACE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE3_ACHIEVEMENT_THRACE</zType>\n\t\t<Name>TEXT_DUMMY</Name>\n\t\t<Text>TEXT_DUMMY</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_CITY_KRENIDES</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_CITY_EUMOLPIAS</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_THRACIANS</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_DUMMY</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iPriority>10</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a278",
+      "apiName": "ACHIEVEMENT_GREECE3_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE3_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE3_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE3_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE3_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_3</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/scenario-add.xml",
+          "type": "SCENARIO_GREECE_3",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_GREECE_3</zType>\n\t\t<Name>TEXT_SCENARIO_GREECE_3</Name>\n\t\t<SubTitle>TEXT_SCENARIO_GREECE_3_SUB</SubTitle>\n\t\t<VictoryPopup>TEXT_POPUP_VICTORY_SCENARIO_INFO</VictoryPopup>\n\t\t<ScenarioClass>SCENARIOCLASS_GREECE</ScenarioClass>\n\t\t<zIcon>Greece_Thumbnail</zIcon>\n\t\t<zBackgroundName>Sprites/Events/Macedonian-phalanx</zBackgroundName>\n\t\t<zMapFile>Greece3Map</zMapFile>\n\t\t<zModName>Greece3</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_GREECE3_VICTORY</zValue>\n\t\t</azAchievements>\n\t\t<Prereq>SCENARIO_GREECE_2</Prereq>\n\t\t<Nation>NATION_GREECE</Nation>\n\t\t<Difficulty>DIFFICULTY_GREECE_MEDIUM</Difficulty>\n\t\t<TurnScale>TURNSCALE_SEASON</TurnScale>\n\t\t<TribeLevel>TRIBELEVEL_STRONG</TribeLevel>\n\t\t<DifficultyDisabled>\n\t\t\t<zValue>DIFFICULTY_ABLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GOOD</zValue>\n\t\t\t<zValue>DIFFICULTY_GREAT</zValue>\n\t\t\t<zValue>DIFFICULTY_STRONG</zValue>\n\t\t\t<zValue>DIFFICULTY_NOBLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GLORIOUS</zValue>\n\t\t\t<zValue>DIFFICULTY_MAGNIFICENT</zValue>\n\t\t</DifficultyDisabled>\n\t\t<ParametersInvalid>\n\t\t\t<zValue>NumPlayers</zValue>\n\t\t\t<zValue>NumTeams</zValue>\n\t\t\t<zValue>Nation</zValue>\n\t\t\t<zValue>Archetype</zValue>\n\t\t\t<zValue>Dynasty</zValue>\n\t\t\t<zValue>OpponentLevel</zValue>\n\t\t\t<zValue>TribeLevel</zValue>\n\t\t\t<zValue>Advantage</zValue>\n\t\t\t<zValue>SuccessionGender</zValue>\n\t\t\t<zValue>SuccessionOrder</zValue>\n\t\t\t<zValue>Mortality</zValue>\n\t\t\t<zValue>TurnScale</zValue>\n\t\t\t<zValue>ForceMarch</zValue>\n\t\t\t<zValue>EventLevel</zValue>\n\t\t\t<zValue>Development</zValue>\n\t\t\t<zValue>MapSize</zValue>\n\t\t\t<zValue>MapOptions</zValue>\n\t\t\t<zValue>ModOptions</zValue>\n\t\t\t<zValue>DifficultyMode</zValue>\n\t\t\t<zValue>MapClass</zValue>\n\t\t\t<zValue>MapPath</zValue>\n\t\t</ParametersInvalid>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece3/Greece3Game.cs",
+          "line": 272,
+          "context": "            base.makeWinner(eWinnerTeam, eWinnerVictory);\n\n            if (eWinnerTeam == macedoniaPlayer.getTeam())\n\n            {\n\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE3_VICTORY\"), macedoniaPlayer);\n\n\n\n                if (!macedoniaPlayer.leader().isTrait(infos().getType<TraitType>(\"TRAIT_SCARRED\")))\n\n                {\n"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a334",
+      "apiName": "ACHIEVEMENT_GREECE3_NO_WOUND",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE3_NO_WOUND",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE3_NO_WOUND</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE3_NO_WOUND_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE3_NO_WOUND</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_3</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece3/Greece3Game.cs",
+          "line": 280,
+          "context": "\n\n                if (!macedoniaPlayer.leader().isTrait(infos().getType<TraitType>(\"TRAIT_SCARRED\")))\n\n                {\n\n                    doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE3_NO_WOUND\"), macedoniaPlayer);\n\n                }\n\n\n\n                doVictoryLevel();\n"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a243",
+      "apiName": "ACHIEVEMENT_GREECE3_OLYMPICS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE3_OLYMPICS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE3_OLYMPICS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE3_OLYMPICS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE3_OLYMPICS</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_OLYMPICS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_OLYMPICS</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE3_OLYMPICS</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE3_ACHIEVEMENT_OLYMPICS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE3_ACHIEVEMENT_OLYMPICS</zType>\n\t\t<Name>TEXT_DUMMY</Name>\n\t\t<Text>TEXT_DUMMY</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_OLYMPICS</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_DUMMY</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_GOAL_FINISHED</Trigger>\n\t\t<TriggerData>GOAL_HOLD_OLYMPIC_GAMES</TriggerData>\n\t\t<iPriority>15</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a244",
+      "apiName": "ACHIEVEMENT_GREECE3_PAIONIA",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE3_PAIONIA",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE3_PAIONIA</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE3_PAIONIA_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE3_PAIONIA</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_PAIONIA",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_PAIONIA</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE3_PAIONIA</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE3_ACHIEVEMENT_PAIONIA",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE3_ACHIEVEMENT_PAIONIA</zType>\n\t\t<Name>TEXT_DUMMY</Name>\n\t\t<Text>TEXT_DUMMY</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_PAIONIA</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_DUMMY</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_GOAL_FINISHED</Trigger>\n\t\t<TriggerData>GOAL_TAKE_PAIONIA</TriggerData>\n\t\t<iPriority>10</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a280",
+      "apiName": "ACHIEVEMENT_GREECE3_VICTORY_SILVER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE3_VICTORY_SILVER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE3_VICTORY_SILVER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE3_VICTORY_SILVER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE3_VICTORY_SILVER</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_3</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece3/Greece3Game.cs",
+          "line": 358,
+          "context": "\n\n            if (bSilverVictory)\n\n            {\n\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE3_VICTORY_SILVER\"), macedoniaPlayer);\n\n            }\n\n            doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE3_VICTORY_BRONZE\"), macedoniaPlayer);\n\n        }\n"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a276",
+      "apiName": "ACHIEVEMENT_GREECE3_ATHENS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE3_ATHENS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE3_ATHENS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE3_ATHENS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE3_ATHENS</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/bonus-event-add.xml",
+          "type": "BONUS_FINISH_GOAL_DOMINATE_ATHENS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_FINISH_GOAL_DOMINATE_ATHENS</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE3_ATHENS</Achievement>\n\t\t<Memory>MEMORYPLAYER_DEFEATED_ATHENS</Memory>\n\t\t<FinishGoal>GOAL_DOMINATE_ATHENS</FinishGoal>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_ATHENS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_ATHENS</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE3_ATHENS</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/eventOption-add.xml",
+          "type": "EVENTOPTION_GREECE3_ATHENS_DEFEATED_ELIMINATED_OK",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_GREECE3_ATHENS_DEFEATED_ELIMINATED_OK</zType>\n\t\t<Text>TEXT_EVENTOPTION_GREECE3_ATHENS_DEFEATED_OK</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_FINISH_GOAL_DOMINATE_ATHENS</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE3_ACHIEVEMENT_ATHENS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE3_ACHIEVEMENT_ATHENS</zType>\n\t\t<Name>TEXT_DUMMY</Name>\n\t\t<Text>TEXT_DUMMY</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ATHENS</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_DUMMY</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_GOAL_FINISHED</Trigger>\n\t\t<TriggerData>GOAL_DOMINATE_ATHENS</TriggerData>\n\t\t<iPriority>15</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE3_ATHENS_DEFEATED_ELIMINATED",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE3_ATHENS_DEFEATED_ELIMINATED</zType>\n\t\t<Name>TEXT_EVENTSTORY_GREECE3_ATHENS_DEFEATED_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_GREECE3_ATHENS_DEFEATED_ELIMINATED</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_THEM</zValue>\n\t\t\t<zValue>SUBJECT_CAPITAL_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_ATHENS</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_GREECE3_ATHENS_DEFEATED_ELIMINATED_OK</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_ELIMINATED</Trigger>\n\t\t<iTriggerSubject>1</iTriggerSubject>\n\t\t<iTriggerExtra>0</iTriggerExtra>\n\t\t<iPriority>9</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a245",
+      "apiName": "ACHIEVEMENT_GREECE3_THREE_WIVES",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE3_THREE_WIVES",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE3_THREE_WIVES</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE3_THREE_WIVES_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE3_THREE_WIVES</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_THREE_WIVES",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_THREE_WIVES</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE3_THREE_WIVES</Achievement>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE3_ACHIEVEMENT_THREE_WIVES",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE3_ACHIEVEMENT_THREE_WIVES</zType>\n\t\t<Name>TEXT_DUMMY</Name>\n\t\t<Text>TEXT_DUMMY</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_SPOUSE_OF_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_SPOUSE_OF_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_SPOUSE_OF_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_THREE_WIVES</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_DUMMY</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iPriority>10</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a305",
+      "apiName": "ACHIEVEMENT_GREECE3_ALEXANDER_KILL",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece3/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE3_ALEXANDER_KILL",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE3_ALEXANDER_KILL</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE3_ALEXANDER_KILL_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE3_ALEXANDER_KILL</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece3/Greece3Unit.cs",
+          "line": 22,
+          "context": "            }\n            AttackOutcome iResult = base.attackUnit(pToUnit, pFromTile, bTargetTile, iPercent, bCritical, pActingPlayer, azTileTexts);\n            if (isHuman() && hasGeneral() && !pToUnit.isAlive())\n            {\n                if (general().hasCharacter() && general().character().mzType == \"CHARACTER_GREECE3_ALEXANDER\")\n                {\n                    game().doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE3_ALEXANDER_KILL\"), player());\n                }\n            }\n            return iResult;\n        }\n\n        public override bool canReleaseGeneral(Player pActingPlayer, bool bTestEnabled = true)\n        {"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a336",
+      "apiName": "ACHIEVEMENT_GREECE4_WIN_PAUSANIAS_STORYLINE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece4/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE4_WIN_PAUSANIAS_STORYLINE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE4_WIN_PAUSANIAS_STORYLINE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE4_WIN_PAUSANIAS_STORYLINE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE4_WIN_PAUSANIAS_STORYLINE</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_4</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece4/Infos/bonus-add.xml",
+          "type": "BONUS_ACHIEVEMENT_WIN_PAUSANIAS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_WIN_PAUSANIAS</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE4_WIN_PAUSANIAS_STORYLINE</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece4/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE4_ACHIEVEMENT_VICTORY_PAUSANIAS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE4_ACHIEVEMENT_VICTORY_PAUSANIAS</zType>\n\t\t<Name>TEXT_DUMMY</Name>\n\t\t<Text>TEXT_DUMMY</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_PAUSANIAS_STORYLINE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_WIN_PAUSANIAS</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_DUMMY</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_GREECE4_MAIN</Class>\n\t\t<Trigger>EVENTTRIGGER_WIN_GAME</Trigger>\n\t\t<TriggerData>VICTORY_CONQUEST</TriggerData>\n\t\t<iPriority>10</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a337",
+      "apiName": "ACHIEVEMENT_GREECE4_WIN_PERSIA_STORYLINE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece4/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE4_WIN_PERSIA_STORYLINE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE4_WIN_PERSIA_STORYLINE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE4_WIN_PERSIA_STORYLINE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE4_WIN_PERSIA_STORYLINE</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_4</Scenario>\n\t</Entry>\n"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece4/Infos/bonus-add.xml",
+          "type": "BONUS_ACHIEVEMENT_WIN_PERSIA",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_WIN_PERSIA</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE4_WIN_PERSIA_STORYLINE</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece4/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE4_ACHIEVEMENT_VICTORY_PERSIA",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE4_ACHIEVEMENT_VICTORY_PERSIA</zType>\n\t\t<Name>TEXT_DUMMY</Name>\n\t\t<Text>TEXT_DUMMY</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_PERSIANS_STORYLINE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_WIN_PERSIA</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_DUMMY</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_GREECE4_MAIN</Class>\n\t\t<Trigger>EVENTTRIGGER_WIN_GAME</Trigger>\n\t\t<TriggerData>VICTORY_CONQUEST</TriggerData>\n\t\t<iPriority>10</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a308",
+      "apiName": "ACHIEVEMENT_GREECE4_INTRIGUE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece4/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE4_INTRIGUE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE4_INTRIGUE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE4_INTRIGUE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE4_INTRIGUE</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece4/Infos/bonus-add.xml",
+          "type": "BONUS_ACHIEVEMENT_INTRIGUE",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_INTRIGUE</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE4_INTRIGUE</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece4/Greece4Player.cs",
+          "line": 296,
+          "context": "                {\n                    if (isTechAvailable(eTech))\n                    {\n                        bool bFinalTech = infos().tech(eTech).mbReturn;\n                        if (bFinalTech)\n                        {\n                            game().doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE4_INTRIGUE\"), this);           \n                        }\n                    }\n                }\n            }\n        }\n    }\n}"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a307",
+      "apiName": "ACHIEVEMENT_GREECE4_CITIES",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece4/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE4_CITIES",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE4_CITIES</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE4_CITIES_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE4_CITIES</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece4/Infos/bonus-add.xml",
+          "type": "BONUS_ACHIEVEMENT_CITIES",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_CITIES</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE4_CITIES</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece4/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE4_ALL_CITIES_OURS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE4_ALL_CITIES_OURS</zType>\n\t\t<Name>TEXT_EVENTSTORY_GREECE4_ALL_CITIES_OURS_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_GREECE4_ALL_CITIES_OURS</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_FAMILY_OLYMPIAS</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_GREECE4_ANTIPATER</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_DEMOSTHENES</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>NONE</zValue>\n\t\t\t<zValue>NONE</zValue>\n\t\t\t<zValue>NONE</zValue>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_CITIES</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_GREECE4_ALL_CITIES_OURS_OK</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_GREECE4_MAIN</Class>\n\t\t<Trigger>EVENTTRIGGER_INFLUENCE_COMPLETE</Trigger>\n\t\t<iPriority>10</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/Greece4/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE4_ALL_CITIES_OURS_ANTIPATER_DEAD",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE4_ALL_CITIES_OURS_ANTIPATER_DEAD</zType>\n\t\t<Name>TEXT_EVENTSTORY_GREECE4_ALL_CITIES_OURS_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_GREECE4_ALL_CITIES_OURS_ANTIPATER_DEAD</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_FAMILY_OLYMPIAS</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_DEAD_US</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_GREECE4_ANTIPATER</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_DEMOSTHENES</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>NONE</zValue>\n\t\t\t<zValue>NONE</zValue>\n\t\t\t<zValue>NONE</zValue>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_CITIES</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_GREECE4_ALL_CITIES_OURS_ANTIPATER_DEAD_OK</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_GREECE4_MAIN</Class>\n\t\t<Trigger>EVENTTRIGGER_INFLUENCE_COMPLETE</Trigger>\n\t\t<iPriority>9</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a335",
+      "apiName": "ACHIEVEMENT_GREECE4_WIN_OLYMPIAS_STORYLINE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece4/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE4_WIN_OLYMPIAS_STORYLINE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE4_WIN_OLYMPIAS_STORYLINE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE4_WIN_OLYMPIAS_STORYLINE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE4_WIN_OLYMPIAS_STORYLINE</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_4</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece4/Infos/bonus-add.xml",
+          "type": "BONUS_ACHIEVEMENT_WIN_OLYMPIAS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_WIN_OLYMPIAS</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE4_WIN_OLYMPIAS_STORYLINE</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece4/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE4_ACHIEVEMENT_VICTORY_OLYMPIAS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE4_ACHIEVEMENT_VICTORY_OLYMPIAS</zType>\n\t\t<Name>TEXT_DUMMY</Name>\n\t\t<Text>TEXT_DUMMY</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_OLYMPIAS_STORYLINE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_WIN_OLYMPIAS</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_DUMMY</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_GREECE4_MAIN</Class>\n\t\t<Trigger>EVENTTRIGGER_WIN_GAME</Trigger>\n\t\t<TriggerData>VICTORY_CONQUEST</TriggerData>\n\t\t<iPriority>10</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a390",
+      "apiName": "ACHIEVEMENT_GREECE5_VICTORY_BEST",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE5_VICTORY_BEST",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE5_VICTORY_BEST</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE5_VICTORY_BEST_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE5_VICTORY_BEST</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_5</Scenario>\n\t</Entry>\n"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_GREECE5_VICTORY_BEST",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_GREECE5_VICTORY_BEST</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE5_VICTORY_BEST</Achievement>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece5/Greece5Game.cs",
+          "line": 962,
+          "context": "        }\n\n        private void doVictoryAchievement()\n        {\n            AchievementType eVictory = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE5_VICTORY\");\n            AchievementType eVictoryBetter = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE5_VICTORY_BETTER\");\n            AchievementType eVictoryBest = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE5_VICTORY_BEST\");\n            \n            doAchievement(eVictory, greecePlayer);\n            if (getTurn() <= 60)\n            {\n                doAchievement(eVictoryBetter, greecePlayer);\n            }\n"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a311",
+      "apiName": "ACHIEVEMENT_GREECE5_VICTORY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE5_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE5_VICTORY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE5_VICTORY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE5_VICTORY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_5</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_GREECE5_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_GREECE5_VICTORY</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE5_VICTORY</Achievement>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/scenario-add.xml",
+          "type": "SCENARIO_GREECE_5",
+          "xml": "<Entry>\n\t\t<zType>SCENARIO_GREECE_5</zType>\n\t\t<Name>TEXT_SCENARIO_GREECE_5</Name>\n\t\t<SubTitle>TEXT_SCENARIO_GREECE_5_SUB</SubTitle>\n\t\t<VictoryPopup>TEXT_POPUP_VICTORY_SCENARIO_INFO</VictoryPopup>\n\t\t<ScenarioClass>SCENARIOCLASS_GREECE</ScenarioClass>\n\t\t<zIcon>Greece_Thumbnail</zIcon>\n\t\t<zBackgroundName>Sprites/Events/Persepolis-burning</zBackgroundName>\n\t\t<zMapFile>Greece5Map</zMapFile>\n\t\t<zModName>Greece5</zModName>\n\t\t<azAchievements>\n\t\t\t<zValue>ACHIEVEMENT_GREECE5_VICTORY</zValue>\n\t\t</azAchievements>\n\t\t<Prereq>SCENARIO_GREECE_3</Prereq>\n\t\t<Nation>NATION_GREECE</Nation>\n\t\t<Difficulty>DIFFICULTY_GREECE_MEDIUM</Difficulty>\n\t\t<TurnScale>TURNSCALE_SEASON</TurnScale>\n\t\t<DifficultyDisabled>\n\t\t\t<zValue>DIFFICULTY_ABLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GOOD</zValue>\n\t\t\t<zValue>DIFFICULTY_GREAT</zValue>\n\t\t\t<zValue>DIFFICULTY_STRONG</zValue>\n\t\t\t<zValue>DIFFICULTY_NOBLE</zValue>\n\t\t\t<zValue>DIFFICULTY_GLORIOUS</zValue>\n\t\t\t<zValue>DIFFICULTY_MAGNIFICENT</zValue>\n\t\t</DifficultyDisabled>\n\t\t<ParametersInvalid>\n\t\t\t<zValue>NumPlayers</zValue>\n\t\t\t<zValue>NumTeams</zValue>\n\t\t\t<zValue>Nation</zValue>\n\t\t\t<zValue>Archetype</zValue>\n\t\t\t<zValue>Dynasty</zValue>\n\t\t\t<zValue>OpponentLevel</zValue>\n\t\t\t<zValue>TribeLevel</zValue>\n\t\t\t<zValue>Advantage</zValue>\n\t\t\t<zValue>SuccessionGender</zValue>\n\t\t\t<zValue>SuccessionOrder</zValue>\n\t\t\t<zValue>Mortality</zValue>\n\t\t\t<zValue>TurnScale</zValue>\n\t\t\t<zValue>ForceMarch</zValue>\n\t\t\t<zValue>EventLevel</zValue>\n\t\t\t<zValue>Development</zValue>\n\t\t\t<zValue>MapSize</zValue>\n\t\t\t<zValue>MapOptions</zValue>\n\t\t\t<zValue>ModOptions</zValue>\n\t\t\t<zValue>DifficultyMode</zValue>\n\t\t\t<zValue>MapClass</zValue>\n\t\t\t<zValue>MapPath</zValue>\n\t\t</ParametersInvalid>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE5_PERSEPOLIS_TAKEN",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE5_PERSEPOLIS_TAKEN</zType>\n\t\t<Name>TEXT_EVENTSTORY_GREECE5_PERSEPOLIS_TAKEN_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_GREECE5_PERSEPOLIS_TAKEN</Text>\n\t\t<zBackgroundName>Persepolis-burning</zBackgroundName>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_CITY_GREECE5_PERSEPOLIS</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_GREECE5_VICTORY</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_GREECE5_PERSEPOLIS_TAKEN_OK</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iImageSubject>1</iImageSubject>\n\t\t<iPriority>20</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE5_PERSEPOLIS_TAKEN_NO_GOAL_FALLBACK",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE5_PERSEPOLIS_TAKEN_NO_GOAL_FALLBACK</zType>\n\t\t<Name>TEXT_EVENTSTORY_GREECE5_PERSEPOLIS_TAKEN_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_GREECE5_PERSEPOLIS_TAKEN</Text>\n\t\t<zBackgroundName>Persepolis-burning</zBackgroundName>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_CITY_GREECE5_PERSEPOLIS</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_GREECE5_VICTORY</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_GREECE5_PERSEPOLIS_TAKEN_FALLBACK_OK</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iImageSubject>1</iImageSubject>\n\t\t<iPriority>10</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<aeEventStoryRepeatTurns>\n\t\t\t<zValue>EVENTSTORY_GREECE5_PERSEPOLIS_TAKEN</zValue>\n\t\t</aeEventStoryRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece5/Greece5Game.cs",
+          "line": 960,
+          "context": "                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE5_BUCEPHALUS_10_KILLS\"), greecePlayer);\n            }\n        }\n\n        private void doVictoryAchievement()\n        {\n            AchievementType eVictory = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE5_VICTORY\");\n            AchievementType eVictoryBetter = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE5_VICTORY_BETTER\");\n            AchievementType eVictoryBest = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE5_VICTORY_BEST\");\n            \n            doAchievement(eVictory, greecePlayer);\n            if (getTurn() <= 60)\n            {\n                doAchievement(eVictoryBetter, greecePlayer);"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a338",
+      "apiName": "ACHIEVEMENT_GREECE5_VICTORY_BETTER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE5_VICTORY_BETTER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE5_VICTORY_BETTER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE5_VICTORY_BETTER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE5_VICTORY_BETTER</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_5</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_GREECE5_VICTORY_BETTER",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_GREECE5_VICTORY_BETTER</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE5_VICTORY_BETTER</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece5/Greece5Game.cs",
+          "line": 961,
+          "context": "            }\n        }\n\n        private void doVictoryAchievement()\n        {\n            AchievementType eVictory = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE5_VICTORY\");\n            AchievementType eVictoryBetter = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE5_VICTORY_BETTER\");\n            AchievementType eVictoryBest = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE5_VICTORY_BEST\");\n            \n            doAchievement(eVictory, greecePlayer);\n            if (getTurn() <= 60)\n            {\n                doAchievement(eVictoryBetter, greecePlayer);\n            }"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a309",
+      "apiName": "ACHIEVEMENT_GREECE5_PERSIAN_GATE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE5_PERSIAN_GATE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE5_PERSIAN_GATE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE5_PERSIAN_GATE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE5_PERSIAN_GATE</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_PERSIAN_GATE",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_PERSIAN_GATE</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE5_PERSIAN_GATE</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE5_PERSIAN_GATE_VICTORY",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE5_PERSIAN_GATE_VICTORY</zType>\n\t\t<Name>TEXT_EVENTSTORY_GREECE5_PERSIAN_GATE_VICTORY_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_GREECE5_PERSIAN_GATE_VICTORY</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_PERSIAN_GATE</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_GREECE5_PERSIAN_GATE_VICTORY_OK</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PERSIAN_GATE_VICTORY</Trigger>\n\t\t<iPriority>20</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a281",
+      "apiName": "ACHIEVEMENT_GREECE5_BUCEPHALUS_10_KILLS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE5_BUCEPHALUS_10_KILLS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE5_BUCEPHALUS_10_KILLS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE5_BUCEPHALUS_10_KILLS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE5_BUCEPHALUS_10_KILLS</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_BUCEPHALUS_10_KILLS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_BUCEPHALUS_10_KILLS</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE5_BUCEPHALUS_10_KILLS</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [
+        {
+          "file": "Reference/Source/Mods/Greece5/Greece5Game.cs",
+          "line": 954,
+          "context": "        public void checkBucephalusAchievement()\n        {\n            StatType eStat = infos().getType<StatType>(\"STAT_BUCEPHALUS_KILLS\");\n            int iKills = greecePlayer.leader().getStat(eStat);\n            if (iKills == 10)\n            {\n                doAchievement(infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE5_BUCEPHALUS_10_KILLS\"), greecePlayer);\n            }\n        }\n\n        private void doVictoryAchievement()\n        {\n            AchievementType eVictory = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE5_VICTORY\");\n            AchievementType eVictoryBetter = infos().getType<AchievementType>(\"ACHIEVEMENT_GREECE5_VICTORY_BETTER\");"
+        }
+      ],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a282",
+      "apiName": "ACHIEVEMENT_GREECE5_GORDIAN_KNOT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE5_GORDIAN_KNOT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE5_GORDIAN_KNOT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE5_GORDIAN_KNOT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE5_GORDIAN_KNOT</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_GORDIAN_KNOT",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_GORDIAN_KNOT</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE5_GORDIAN_KNOT</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE5_GORDIAN_KNOT",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE5_GORDIAN_KNOT</zType>\n\t\t<Name>TEXT_EVENTSTORY_GREECE5_GORDIAN_KNOT_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_GREECE5_GORDIAN_KNOT</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_CITY_GORDIUM</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_GORDIAN_KNOT</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_GREECE5_GORDIAN_KNOT_OK</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iImageSubject>2</iImageSubject>\n\t\t<iImageExtra>3</iImageExtra>\n\t\t<iPriority>20</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a283",
+      "apiName": "ACHIEVEMENT_GREECE5_TYRE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE5_TYRE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE5_TYRE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE5_TYRE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE5_TYRE</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_TYRE",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_TYRE</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE5_TYRE</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE5_ACHIEVEMENT_TYRE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE5_ACHIEVEMENT_TYRE</zType>\n\t\t<Name>TEXT_DUMMY</Name>\n\t\t<Text>TEXT_DUMMY</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_CITY_TRIBE</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_CITY_TYRE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_TYRE</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_DUMMY</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iPriority>20</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a310",
+      "apiName": "ACHIEVEMENT_GREECE5_PHARAOH",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE5_PHARAOH",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE5_PHARAOH</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE5_PHARAOH_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE5_PHARAOH</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_GREECE5_PHARAOH",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_GREECE5_PHARAOH</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE5_PHARAOH</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece5/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE5_SIWA_OASIS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE5_SIWA_OASIS</zType>\n\t\t<Name>TEXT_EVENTSTORY_GREECE5_SIWA_OASIS_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_GREECE5_SIWA_OASIS</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_GREECE5_PHARAOH</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_GREECE5_SIWA_OASIS_OK</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_SIWA_OASIS</Trigger>\n\t\t<iPriority>20</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a340",
+      "apiName": "ACHIEVEMENT_GREECE6_SELEUCUS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece6/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE6_SELEUCUS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE6_SELEUCUS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE6_SELEUCUS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE6_SELEUCUS</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_6</Scenario>\n\t</Entry>\n"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece6/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_SELEUCUS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_SELEUCUS</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE6_SELEUCUS</Achievement>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece6/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE6_VICTORY_SELEUCUS_ACHIEVEMENT",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE6_VICTORY_SELEUCUS_ACHIEVEMENT</zType>\n\t\t<Name>TEXT_EVENTSTORY_GREECE6_VICTORY_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_GREECE6_VICTORY_PTOLEMY</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_SELEUCUS</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_SELEUCUS</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_GREECE6_RULES_OK</zValue>\n\t\t</aeOptions>\n\t\t<EventLinkPrereq>EVENTLINK_GREECE6_VICTORY_ACHIEVEMENT</EventLinkPrereq>\n\t\t<iPriority>20</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a392",
+      "apiName": "ACHIEVEMENT_GREECE6_PTOLEMY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece6/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE6_PTOLEMY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE6_PTOLEMY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE6_PTOLEMY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE6_PTOLEMY</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_6</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece6/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_PTOLEMY",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_PTOLEMY</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE6_PTOLEMY</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece6/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE6_VICTORY_PTOLEMY_ACHIEVEMENT",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE6_VICTORY_PTOLEMY_ACHIEVEMENT</zType>\n\t\t<Name>TEXT_EVENTSTORY_GREECE6_VICTORY_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_GREECE6_VICTORY_PTOLEMY</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_PTOLEMY</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_PTOLEMY</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_GREECE6_RULES_OK</zValue>\n\t\t</aeOptions>\n\t\t<EventLinkPrereq>EVENTLINK_GREECE6_VICTORY_ACHIEVEMENT</EventLinkPrereq>\n\t\t<iPriority>20</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a339",
+      "apiName": "ACHIEVEMENT_GREECE6_MACEDONIA",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece6/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE6_MACEDONIA",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE6_MACEDONIA</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE6_MACEDONIA_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE6_MACEDONIA</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_6</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece6/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_MACEDONIA",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_MACEDONIA</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE6_MACEDONIA</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece6/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE6_VICTORY_CASSANDER_ACHIEVEMENT",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE6_VICTORY_CASSANDER_ACHIEVEMENT</zType>\n\t\t<Name>TEXT_EVENTSTORY_GREECE6_VICTORY_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_GREECE6_VICTORY_CASSANDER</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_CASSANDER</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_MACEDONIA</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_GREECE6_RULES_OK</zValue>\n\t\t</aeOptions>\n\t\t<EventLinkPrereq>EVENTLINK_GREECE6_VICTORY_ACHIEVEMENT</EventLinkPrereq>\n\t\t<iPriority>20</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a391",
+      "apiName": "ACHIEVEMENT_GREECE6_ANTIGONID",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece6/Infos/achievement-add.xml",
+          "type": "ACHIEVEMENT_GREECE6_ANTIGONID",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_GREECE6_ANTIGONID</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_GREECE6_ANTIGONID_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_GREECE6_ANTIGONID</HelpText>\n\t\t<IconName>ACHIEVEMENT_CAMPAIGN</IconName>\n\t\t<Scenario>SCENARIO_GREECE_6</Scenario>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Mods/Greece6/Infos/bonus-event-add.xml",
+          "type": "BONUS_ACHIEVEMENT_ANTIGONID",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_ANTIGONID</zType>\n\t\t<Achievement>ACHIEVEMENT_GREECE6_ANTIGONID</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Mods/Greece6/Infos/eventStory-add.xml",
+          "type": "EVENTSTORY_GREECE6_VICTORY_ANTIGONUS_ACHIEVEMENT",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_GREECE6_VICTORY_ANTIGONUS_ACHIEVEMENT</zType>\n\t\t<Name>TEXT_EVENTSTORY_GREECE6_VICTORY_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_GREECE6_VICTORY_PTOLEMY</Text>\n\t\t<zFrameType>FRAME_GREECE</zFrameType>\n\t\t<zAuthor>Solver</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_ANTIGONUS</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ANTIGONID</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_GREECE6_RULES_OK</zValue>\n\t\t</aeOptions>\n\t\t<EventLinkPrereq>EVENTLINK_GREECE6_VICTORY_ACHIEVEMENT</EventLinkPrereq>\n\t\t<iPriority>20</iPriority>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    }
+  ],
+  "note": "Automated source index; not a gameplay test or complete verification of tactics. Human findings are in the review.",
+  "sharedSourceSha256": {
+    "Reference/Source/Base/Game/GameCore/Game.cs": "6f53b000279d14a9abb58c40269880b2d6385416cf8e4915996957b4417b6367",
+    "Reference/Source/Base/Game/GameCore/Player.cs": "b163e9bab5e496ca787e40e332749e27652bd68abfb896eab6aa1b880b8d3cda",
+    "Reference/Source/Base/Game/GameCore/PlayerGoal.cs": "c54e7b03ec71f2a4d17744ba558f0dcbff51796c44a8af5dcdde6e0889dacd54",
+    "Reference/Source/Base/Game/GameCore/PlayerEvent.cs": "6be1751b6a8fb606088eb1ba812170b6522a539e062c67cbb0bc972be843e356",
+    "Reference/Source/Base/Game/GameCore/Unit.cs": "744b943df9241c05115f0d6cdd03eec7a7dd0784b0689abd85ad5480530d3ad2",
+    "Reference/Source/Base/Game/GameCore/City.cs": "7b1fb548257e66f5407d0f7cf5eb471f06a4bac64dc56d584192d230b5d7badd",
+    "Reference/Source/Base/Game/GameCore/Tile.cs": "08fd9e13065d2a3a1747e45f24d8be2268e68b0ed58ee21666162e654ad273c0",
+    "Reference/Source/Base/Game/GameCore/Character.cs": "0b7c05e8467b30b76b6cbf6ff0dd423d629d8fd75584cc678ea6b0dd1c818419",
+    "Reference/Source/Mods/Greece1/Greece1Character.cs": "7c66b74c42916b9652a233f35b68de5366289bc59f1e192d0005d6d63661e7e2",
+    "Reference/Source/Mods/Greece1/Greece1City.cs": "a9777a908dca935daf7fdd17694cb186b9272169c1a3d4c2ba37ddf2acc37608",
+    "Reference/Source/Mods/Greece1/Greece1ClientRenderer.cs": "be4b565b8eab506301276c1c1a280cbd6fe7110e131ba021439f6ffe5da02394",
+    "Reference/Source/Mods/Greece1/Greece1ClientUI.cs": "d9d6865653da2eea91aa02aae976403bb688d4cf556b432b471ff1bfdc7df118",
+    "Reference/Source/Mods/Greece1/Greece1EntryPoint.cs": "fc111e2407ece35543dd8567f659aa17e5a9d4675e6e600c7144f0dcc88b2246",
+    "Reference/Source/Mods/Greece1/Greece1Game.cs": "c5467216fb317cf2b8803a7ed7f46a8b5be0f133dd67cb6a94d384e69b1ff887",
+    "Reference/Source/Mods/Greece1/Greece1GameFactory.cs": "17d36bafb9bff8aff092650c37c987aebca950f9b38f2753c4459abde132ec0d",
+    "Reference/Source/Mods/Greece1/Greece1InfoHelpers.cs": "4254522640a19b118212884dd8985e15018ec4aa259d8606b109e3d576d47dec",
+    "Reference/Source/Mods/Greece1/Greece1Player.cs": "3cb51a6ef947b9da2007057c8a70a716c80f635d8c54c9319cc2b098f6d25949",
+    "Reference/Source/Mods/Greece1/Greece1Unit.cs": "b0362767ea0add83140d707b7a1b37126516828bb5d756af2f04e7d33f7ba0a6",
+    "Reference/Source/Mods/Greece2/Greece2Character.cs": "2e2854572eb9240a89b85cbb4347ed47da44fdd4f73572f1730c3f50e0b8bd88",
+    "Reference/Source/Mods/Greece2/Greece2City.cs": "f662e0f4e604d07fcb8e0c339cef0595341e15eb103218d5d7abbb4e206f33bc",
+    "Reference/Source/Mods/Greece2/Greece2ClientRenderer.cs": "b2fcf41e12951ae134eb419246160d0f838c4bb916a66cba9c221f612cf2f4a9",
+    "Reference/Source/Mods/Greece2/Greece2ClientUI.cs": "59cbb476a2147030c6e2f75d53abc0eed59d23714adfa8428de66e112f81eac7",
+    "Reference/Source/Mods/Greece2/Greece2EntryPoint.cs": "7eff8ef5959894c37978431e4a4cdf17bb7fbb551caae8c5a7d3f54cff144653",
+    "Reference/Source/Mods/Greece2/Greece2Game.cs": "4ed0466ca302e3d8824f385eabdf5fe2e2af8b0dc6eec66601d840c86d08b0b3",
+    "Reference/Source/Mods/Greece2/Greece2GameFactory.cs": "313671a07f856ac50df2b2c6e3ecee49b4d0d6a50ddfdb2d0c371ca56fd4a539",
+    "Reference/Source/Mods/Greece2/Greece2Player.cs": "e921094a932e7b8287ff024d2082bf1e31e4b05a54ab26b4c20c1dfe64489032",
+    "Reference/Source/Mods/Greece2/Greece2Tile.cs": "fb29e567e86edbfd35c7d52a11dbbeff225b7547eb854c6ea83cf4be82dcc201",
+    "Reference/Source/Mods/Greece2/Greece2TradeNetworkSolver.cs": "e83809e95491f2de33d0bf65d3186361903d7b5a515c6a31d1f40c5761f85bbd",
+    "Reference/Source/Mods/Greece2/Greece2Unit.cs": "6cc78b46c813054c889ff86e76974ed7d694f9bf7773fd0c020c8482689044c3",
+    "Reference/Source/Mods/Greece2/Greece2UnitRoleManager.cs": "6954aab0830318f884134075648f0c41bfea401b3ec897d77ce03e05fc5bfce3",
+    "Reference/Source/Mods/Greece3/Greece3City.cs": "7c119496ef73aa1366a1480971607167ee22eb2f947c5269ad2edfe4d93c20f4",
+    "Reference/Source/Mods/Greece3/Greece3ClientUI.cs": "2ac6e87be08481294c47e1e8a5a38a4a921dcc60d64bb9e513b93f37ce63fbb8",
+    "Reference/Source/Mods/Greece3/Greece3EntryPoint.cs": "30052859b0e43bda08be701e357663522dc610239e95fc9b1bcf289fbe7bb05f",
+    "Reference/Source/Mods/Greece3/Greece3Game.cs": "ba31be053507c1d788de582908a0c4b3ab92c69a3960e96246d113866a06f3b6",
+    "Reference/Source/Mods/Greece3/Greece3GameFactory.cs": "5ee35f0c996298c26e997a606051c6042f6295c588cb13a4b45cf2f8d3a6692b",
+    "Reference/Source/Mods/Greece3/Greece3InfoHelpers.cs": "d4652ed330fff2e30e99c425f5d0c5bb423a8b0fa196d200e5ee3faa1d448ecc",
+    "Reference/Source/Mods/Greece3/Greece3Player.cs": "b6834dd510658b768c9675e849cecab36ce4370020fdb00bc03cc3194d47398f",
+    "Reference/Source/Mods/Greece3/Greece3Unit.cs": "6fde4aaf3e8f18301b3489ac7620dbc9c5f8a639894e5e39616db5d5ae242372",
+    "Reference/Source/Mods/Greece4/Greece4ActionData.cs": "e65e258c45c34e695ae818d701fef06ca4564d9841edb599611a7fce6cd1a1f1",
+    "Reference/Source/Mods/Greece4/Greece4Character.cs": "ed40acb13b161edd8d3382e285878adadce34c4c3ad3d8e70ce9f2607802aa7e",
+    "Reference/Source/Mods/Greece4/Greece4City.cs": "6b13e6518aeea55f73159f2a71caff6c6a3480a8553288fdabfbf0347fbd28dd",
+    "Reference/Source/Mods/Greece4/Greece4ClientManager.cs": "c925a407e54b84a27a150b4fe038eccba8c7fa49b7d3a6f125e399fca5098d42",
+    "Reference/Source/Mods/Greece4/Greece4ClientUI.cs": "cf0c19b0ff7af04a71a6271f8531ffd613446d4cec66da56fba653c99b262756",
+    "Reference/Source/Mods/Greece4/Greece4EntryPoint.cs": "6bd3ffa0bc94f67fba97f14b0ccd1feee158ca7b2967ef37677d97e4db8e6442",
+    "Reference/Source/Mods/Greece4/Greece4Enums.cs": "631caa63f78783f5dafc4ce861fca770effd514df0c4c4d2b23ae693ce563aa7",
+    "Reference/Source/Mods/Greece4/Greece4Game.cs": "c6bb05ce5b02bd0b8a191e69e3def8260de29f9475f11f26ab289b6102126286",
+    "Reference/Source/Mods/Greece4/Greece4GameFactory.cs": "0869301de25f52341856e6908d1f8084df031aa7684350afd7d1fec1800a7ec6",
+    "Reference/Source/Mods/Greece4/Greece4HelpText.cs": "4027487a61e90fea9f443af095add9a02b4dccc591b99e4e776ee871c5491749",
+    "Reference/Source/Mods/Greece4/Greece4Infos.cs": "4cd508025c4ec6f1e2fb6bc5958c88e83506ca4e9ac3c0249288aad863d2d9a5",
+    "Reference/Source/Mods/Greece4/Greece4Player.cs": "367f13cd01c30a498ec8fbaaf8f2701694e0c20cb254a33c5e2ed406dd7d5737",
+    "Reference/Source/Mods/Greece4/Greece4Unit.cs": "2e87d49a51b09db06e6945662db491fd3ee7db087613b53d2f702aae46093169",
+    "Reference/Source/Mods/Greece5/Greece5Character.cs": "26c68cf2d040a149c9860a1cdd57632990b5b82850d2829957e665a10a6cc0b4",
+    "Reference/Source/Mods/Greece5/Greece5City.cs": "17174b7aece2d5c25bcbf67f6665e8cce833959c7f5e41435de0efe682ab80f6",
+    "Reference/Source/Mods/Greece5/Greece5ClientRenderer.cs": "96ca83843d0afe0630d57c790787c134161c6794aec87ab387dff0e4e2a20e6e",
+    "Reference/Source/Mods/Greece5/Greece5ClientUI.cs": "d547a9cbc3ebcf8f35720a679478f0d8259adf14e59dab04d9359e7c8cb5e1c8",
+    "Reference/Source/Mods/Greece5/Greece5EntryPoint.cs": "886280cb51791fe7bedce011961dbc35246af435a9f98f54b694d0b5a0f9fa80",
+    "Reference/Source/Mods/Greece5/Greece5Game.cs": "1678332d67f802eb21ef3d9042e51f945ac0aadb1564c3fb6bdca4d55a3f14e6",
+    "Reference/Source/Mods/Greece5/Greece5GameFactory.cs": "f3f6b8dabc73f7db5359f1c8dad62579df34f02db3ce6b9df5a8ad0dffaa307f",
+    "Reference/Source/Mods/Greece5/Greece5Player.cs": "1506fa6fd93a2a8b6cd76ddc5f460784ed01d6165559fe66bb5821aaafbe229d",
+    "Reference/Source/Mods/Greece5/Greece5Tile.cs": "a4ff3bce10e2258e4f22f53c53ba9f1708e062c1de3dff70a5ed468a986c7e44",
+    "Reference/Source/Mods/Greece5/Greece5Unit.cs": "3673c5b91a0d62cc5db809925773ecb156f54d966a7ef8335ab7e98ea3173391",
+    "Reference/Source/Mods/Greece6/Greece6Character.cs": "8694d579b9c0cbbce953ca2fce3fd86caf11b83de78454d168d9103ceb79bc71",
+    "Reference/Source/Mods/Greece6/Greece6ClientRenderer.cs": "65c65f0b41f3dabec82fd37e4a1b05b654589a8bae3c1079e8467c542f8654d0",
+    "Reference/Source/Mods/Greece6/Greece6ClientUI.cs": "ce28d4239895321e6f62ad67dec032f60c3bcb1efe81877ce118d60107ef722b",
+    "Reference/Source/Mods/Greece6/Greece6EntryPoint.cs": "232302db188c42690f34cd14b88e508990c0d1ea0c33850313dd9220d176bcff",
+    "Reference/Source/Mods/Greece6/Greece6Game.cs": "7f330808a46b3f06849a25e1a0db95892f1404dc40d8c0fba543b1c30eed95a1",
+    "Reference/Source/Mods/Greece6/Greece6GameFactory.cs": "470b0abdccc9f2602c628ced46db3b8bb66641e5f5f410c14510b6b15274bcf2",
+    "Reference/Source/Mods/Greece6/Greece6Player.cs": "a824ae528992502b92bc5fc8b0d7ca9b693c4bd71091d1f12a355d7b780e2600"
+  },
+  "humanFindings": "heroes-aegean-review.md"
+}

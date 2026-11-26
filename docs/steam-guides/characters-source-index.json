@@ -1,0 +1,1053 @@
+{
+  "date": "2026-11-26",
+  "buildId": "26728102",
+  "count": 33,
+  "sourceRoot": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Old World",
+  "sourceSha256": {
+    "Reference/XML/Infos/achievement.xml": "63e0e16dedb35eb03ef5be426e9d2de23f69ede0bcfbfe57e48fbc7661d33a61",
+    "Reference/XML/Infos/bonus-event-btt.xml": "75cab2b0a61f6041c01385630d11abffc76640a22cbb03d35a523597f8df7eec",
+    "Reference/XML/Infos/bonus-event-eoti.xml": "29f8d0b347c24983aadee470e7f9ac125810f8e00ed19ad80a19ac8cc81a7c35",
+    "Reference/XML/Infos/bonus-event-sap.xml": "a413478d555eaee04e20de8f1300a14f5cf0217c6b1113bf9789d1c0248f986d",
+    "Reference/XML/Infos/bonus-event.xml": "9f035d807e2550c9f8cc883eb56bb3a047eee816cfc35ba26c5207c00bd215e8",
+    "Reference/XML/Infos/bonus.xml": "2e73176de5a897a6914b0a113db202b7250f79ad7ced908662b9c86beb693f52",
+    "Reference/XML/Infos/eventOption-btt.xml": "fd23d3e41f3c3fa5edbc1aa7ea24b3d67a1d728d6f5c8e919a77863146e41a01",
+    "Reference/XML/Infos/eventOption-sap.xml": "b9eb04f18db65488303bcebfa02c667d4b1be6d9d801553afe793ebe69a8e611",
+    "Reference/XML/Infos/eventOption-wd.xml": "2e5509742bca969c7d0cfb36dfec01d8964d5a9c2d9bc6510255396e6e190bcf",
+    "Reference/XML/Infos/eventOption.xml": "377a667461b6b508d2227617956857c6d11adb9a0cf3629833dbf4ad844e08e2",
+    "Reference/XML/Infos/eventStory-btt.xml": "de362429f124205563e24671633ef5ecc844924437fb40939ce6e83c768a772d",
+    "Reference/XML/Infos/eventStory-eoti.xml": "54894a8affe61189d20d676e31c0b5614d7273b83e3e03c6e29bdaf3d5eada87",
+    "Reference/XML/Infos/eventStory-sap.xml": "0205250af3a85a022cbf181d19534713240ce3b815a93ebe53e86866533f9b66",
+    "Reference/XML/Infos/eventStory-wd.xml": "e03bcfc28119ed7905535a2abd15f621b2b41651bea21f5de851cf5a536d1a36",
+    "Reference/XML/Infos/eventStory.xml": "7acdccec32f6d6cfb8cf61fd56f5d75d0a2e9fd350def4df360dbfb4d9337f5c"
+  },
+  "records": [
+    {
+      "id": "a173",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_POET_LEADER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_SACRED_PROFANE_POET_LEADER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_SACRED_PROFANE_POET_LEADER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_SACRED_PROFANE_POET_LEADER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_SACRED_PROFANE_POET_LEADER</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t\t<LeaderTrait>TRAIT_POET</LeaderTrait>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a024",
+      "apiName": "ACHIEVEMENT_PACIFIST_LEADER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_PACIFIST_LEADER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_PACIFIST_LEADER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_PACIFIST_LEADER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_PACIFIST_LEADER</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t\t<LeaderTrait>TRAIT_PACIFIST</LeaderTrait>\n\t</Entry>\n"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a388",
+      "apiName": "ACHIEVEMENT_ETHNIC_DIVERSITY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_ETHNIC_DIVERSITY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_ETHNIC_DIVERSITY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_ETHNIC_DIVERSITY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_ETHNIC_DIVERSITY</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a189",
+      "apiName": "ACHIEVEMENT_FIRST_PEACE_TREATY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_FIRST_PEACE_TREATY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_FIRST_PEACE_TREATY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_FIRST_PEACE_TREATY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_FIRST_PEACE_TREATY</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_FIRST_PEACE_TREATY",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_FIRST_PEACE_TREATY</zType>\n\t\t<Achievement>ACHIEVEMENT_FIRST_PEACE_TREATY</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_FIRST_PEACE_TREATY",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_FIRST_PEACE_TREATY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_PEACE</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_EGYPT</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_HITTITE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_ACHIEVEMENT_FIRST_PEACE_TREATY</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a188",
+      "apiName": "ACHIEVEMENT_CLEOPATRAS_LOVE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_CLEOPATRAS_LOVE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_CLEOPATRAS_LOVE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_CLEOPATRAS_LOVE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_CLEOPATRAS_LOVE</HelpText>\n\t\t<IconName>ACHIEVEMENT_MISSION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_CLEOPATRAS_LOVE",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_CLEOPATRAS_LOVE</zType>\n\t\t<Achievement>ACHIEVEMENT_CLEOPATRAS_LOVE</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_CLEOPATRAS_LOVE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_CLEOPATRAS_LOVE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_THEM</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_FEMALE</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_EGYPT</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_ROME</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>3</First>\n\t\t\t\t<Second>SUBJECTRELATION_NATION_ETHNICITY</Second>\n\t\t\t\t<Third>2</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_CLEOPATRAS_LOVE</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_MARRIAGE</Trigger>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iTriggerExtra>3</iTriggerExtra>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a315",
+      "apiName": "ACHIEVEMENT_ALLIES_WITH_BENEFITS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_ALLIES_WITH_BENEFITS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_ALLIES_WITH_BENEFITS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_ALLIES_WITH_BENEFITS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_ALLIES_WITH_BENEFITS</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-eoti.xml",
+          "type": "BONUS_ACHIEVEMENT_ALLIES_WITH_BENEFITS",
+          "xml": "<Entry>\n        <zType>BONUS_ACHIEVEMENT_ALLIES_WITH_BENEFITS</zType>\n        <Achievement>ACHIEVEMENT_ALLIES_WITH_BENEFITS</Achievement>\n    </Entry>\n    "
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-eoti.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_ALLIES_WITH_BENEFITS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_ALLIES_WITH_BENEFITS</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"player\">\n\t\t\t\t<Type>SUBJECT_PLAYER_US</Type>\n\t\t\t\t<Extra>SUBJECT_PLAYER_YUEZHI</Extra>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ALLIES_WITH_BENEFITS</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_MISSION_FINISHED</Trigger>\n\t\t<TriggerData>MISSIONRESULT_VASSALIZE_TRIBE_EVENT</TriggerData>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a059",
+      "apiName": "ACHIEVEMENT_TRADE_CARAVAN",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_TRADE_CARAVAN",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_TRADE_CARAVAN</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TRADE_CARAVAN_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_TRADE_CARAVAN</HelpText>\n\t\t<IconName>ACHIEVEMENT_MISSION</IconName>\n\t\t<aiStatCount>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>STAT_CARAVAN_ARRIVED</zIndex>\n\t\t\t\t<iValue>1</iValue>\n\t\t\t</Pair>\n\t\t</aiStatCount>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a403",
+      "apiName": "ACHIEVEMENT_THE_ROYAL_COUPLE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_THE_ROYAL_COUPLE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_THE_ROYAL_COUPLE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_THE_ROYAL_COUPLE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_THE_ROYAL_COUPLE</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t\t<aeRoyalCouplePortraits>\n\t\t\t<zValue>CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_12</zValue>\n\t\t\t<zValue>CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_05</zValue>\n\t\t</aeRoyalCouplePortraits>\n\t</Entry>\n\t\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a121",
+      "apiName": "ACHIEVEMENT_FAMILY_FRIENDLY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_FAMILY_FRIENDLY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_FAMILY_FRIENDLY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_FAMILY_FRIENDLY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_FAMILY_FRIENDLY</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_FAMILY_FRIENDLY",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_FAMILY_FRIENDLY</zType>\n\t\t<Achievement>ACHIEVEMENT_FAMILY_FRIENDLY</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_FAMILY_FRIENDLY",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_FAMILY_FRIENDLY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_FAMILY_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_FAMILY_MIN_FRIENDLY</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_FAMILY_FRIENDLY</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a164",
+      "apiName": "ACHIEVEMENT_STAT_TEN_LEADERS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_STAT_TEN_LEADERS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_STAT_TEN_LEADERS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_STAT_TEN_LEADERS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_STAT_TEN_LEADERS</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_TEN_CROWNS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_TEN_CROWNS</zType>\n\t\t<Achievement>ACHIEVEMENT_STAT_TEN_LEADERS</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_TEN_CROWNS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_TEN_CROWNS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_TEN_CROWNS</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_SUCCESSION_US</Trigger>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iMinLeader>10</iMinLeader>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a237",
+      "apiName": "ACHIEVEMENT_BLADE_OF_THE_MONKEY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_BLADE_OF_THE_MONKEY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_BLADE_OF_THE_MONKEY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_BLADE_OF_THE_MONKEY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_BLADE_OF_THE_MONKEY</HelpText>\n\t\t<IconName>ACHIEVEMENT_MISSION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_BLADE_OF_THE_MONKEY",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_BLADE_OF_THE_MONKEY</zType>\n\t\t<Achievement>ACHIEVEMENT_BLADE_OF_THE_MONKEY</Achievement>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_BLADE_OF_THE_MONKEY_KILL",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_BLADE_OF_THE_MONKEY_KILL</zType>\n\t\t<Name>TEXT_EVENTSTORY_EYES_OF_THE_MONKEY_TITLE</Name>\n\t\t<Achievement>ACHIEVEMENT_BLADE_OF_THE_MONKEY</Achievement>\n\t\t<bKillCharacter>1</bKillCharacter>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_EXOTIC_PETS_MONKEY_GRUDGE_REVERSAL",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_EXOTIC_PETS_MONKEY_GRUDGE_REVERSAL</zType>\n\t\t<Name>TEXT_EVENTSTORY_EXOTIC_PETS_MONKEY_GRUDGE_REVERSAL_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_EXOTIC_PETS_MONKEY_GRUDGE_REVERSAL</Text>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_DESPAIR</zAudioTrigger>\n\t\t<zAuthor>Leyla Johnson</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_THEM</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_MONKEY_ASSASSIN</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BLADE_OF_THE_MONKEY</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_EXOTIC_PETS_MONKEY_GRUDGE_REVERSAL_OK</zValue>\n\t\t</aeOptions>\n\t\t<EventLinkPrereq>EVENTLINK_MONKEY_ASSASSIN_LEADER</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>0</iRepeatTurns>\n\t\t<bHidePrereqs>1</bHidePrereqs>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_EYES_OF_THE_MONKEY",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_EYES_OF_THE_MONKEY</zType>\n\t\t<Name>TEXT_EVENTSTORY_EYES_OF_THE_MONKEY_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_EYES_OF_THE_MONKEY</Text>\n\t\t<zBackgroundName>Death</zBackgroundName>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_DARK_REFLECTIONS</zAudioTrigger>\n\t\t<zAuthor>Andy Auseon</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_THEM</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BLADE_OF_THE_MONKEY_KILL</zValue>\n\t\t\t<zValue />\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_EYES_OF_THE_MONKEY_OPTION_0</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_PETS_AND_ODDITIES</Class>\n\t\t<EventLinkPrereq>EVENTLINK_MONKEY_ASSASSIN_BETRAYAL</EventLinkPrereq>\n\t\t<iWeight>8</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a361",
+      "apiName": "ACHIEVEMENT_COUNCIL_OF_MADNESS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_COUNCIL_OF_MADNESS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_COUNCIL_OF_MADNESS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_COUNCIL_OF_MADNESS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_COUNCIL_OF_MADNESS</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_COUNCIL_OF_MADNESS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_COUNCIL_OF_MADNESS</zType>\n\t\t<Achievement>ACHIEVEMENT_COUNCIL_OF_MADNESS</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_COUNCIL_OF_MADNESS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_COUNCIL_OF_MADNESS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_AMBASSADOR</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_CHANCELLOR</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_SPYMASTER</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_INSANE</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_INSANE</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_INSANE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_COUNCIL_OF_MADNESS</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a236",
+      "apiName": "ACHIEVEMENT_100_YEARS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_100_YEARS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_100_YEARS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_100_YEARS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_100_YEARS</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_100_YEARS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_100_YEARS</zType>\n\t\t<Achievement>ACHIEVEMENT_100_YEARS</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_100_YEARS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_100_YEARS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CENTENARIAN</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_100_YEARS</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a047",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_THATS_MY_QUEUE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_BEHIND_THE_THRONE_THATS_MY_QUEUE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_BEHIND_THE_THRONE_THATS_MY_QUEUE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_BEHIND_THE_THRONE_THATS_MY_QUEUE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_BEHIND_THE_THRONE_THATS_MY_QUEUE</HelpText>\n\t\t<IconName>ACHIEVEMENT_MISSION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-btt.xml",
+          "type": "BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_THATS_MY_QUEUE",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_THATS_MY_QUEUE</zType>\n\t\t<Achievement>ACHIEVEMENT_BEHIND_THE_THRONE_THATS_MY_QUEUE</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a153",
+      "apiName": "ACHIEVEMENT_ASSASSINATED_BY_HEIR",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_ASSASSINATED_BY_HEIR",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_ASSASSINATED_BY_HEIR</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_ASSASSINATED_BY_HEIR_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_ASSASSINATED_BY_HEIR</HelpText>\n\t\t<IconName>ACHIEVEMENT_MISSION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event.xml",
+          "type": "BONUS_SCHEMING_HEIR_DEATH",
+          "xml": "<Entry>\n\t\t<zType>BONUS_SCHEMING_HEIR_DEATH</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_ASSASSINATED_BY_HEIR_TITLE</Name>\n\t\t<Achievement>ACHIEVEMENT_ASSASSINATED_BY_HEIR</Achievement>\n\t\t<bKillCharacter>1</bKillCharacter>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventOption-wd.xml",
+          "type": "EVENTOPTION_THE_BLADE_FALLS_OPTION_0",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_THE_BLADE_FALLS_OPTION_0</zType>\n\t\t<Text>TEXT_EVENTOPTION_THE_BLADE_FALLS_OPTION_0</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_SCHEMING_HEIR_DEATH</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_SCHEMING_HEIR_CLUB_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_SCHEMING_HEIR_CLUB_DIE</zType>\n\t\t<Text>TEXT_EVENTOPTION_SCHEMING_HEIR_CLUB_DIE</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_SCHEMING_HEIR_DEATH</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_SCHEMING_HEIR_STAB_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_SCHEMING_HEIR_STAB_DIE</zType>\n\t\t<Text>TEXT_EVENTOPTION_SCHEMING_HEIR_STAB_DIE</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_SCHEMING_HEIR_DEATH</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_SCHEMING_HEIR_SHOT_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_SCHEMING_HEIR_SHOT_DIE</zType>\n\t\t<Text>TEXT_EVENTOPTION_SCHEMING_HEIR_SHOT_DIE</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_SCHEMING_HEIR_DEATH</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_SCHEMING_HEIR_POISON_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_SCHEMING_HEIR_POISON_DIE</zType>\n\t\t<Text>TEXT_EVENTOPTION_SCHEMING_HEIR_POISON_DIE</Text>\n\t\t<HelpText>TEXT_EVENTOPTION_SCHEMING_HEIR_POISON_DIE_HELP</HelpText>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_SCHEMING_HEIR_DEATH</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_SCHEMING_HEIR_SNAKES_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_SCHEMING_HEIR_SNAKES_DIE</zType>\n\t\t<Text>TEXT_EVENTOPTION_SCHEMING_HEIR_SNAKES_DIE</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_SCHEMING_HEIR_DEATH</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_SCHEMING_HEIR_STRANGLED_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_SCHEMING_HEIR_STRANGLED_DIE</zType>\n\t\t<Text>TEXT_EVENTOPTION_SCHEMING_HEIR_STRANGLED_DIE</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_SCHEMING_HEIR_DEATH</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_SCHEMING_HEIR_BALCONY_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_SCHEMING_HEIR_BALCONY_DIE</zType>\n\t\t<Text>TEXT_EVENTOPTION_SCHEMING_HEIR_BALCONY_DIE</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_SCHEMING_HEIR_DEATH</zValue>\n\t\t\t<zValue />\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_SCHEMING_HEIR_SPIKES_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_SCHEMING_HEIR_SPIKES_DIE</zType>\n\t\t<Text>TEXT_EVENTOPTION_SCHEMING_HEIR_SPIKES_DIE</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_SCHEMING_HEIR_DEATH</zValue>\n\t\t\t<zValue />\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_SCHEMING_HEIR_ROCK_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_SCHEMING_HEIR_ROCK_DIE</zType>\n\t\t<Text>TEXT_EVENTOPTION_SCHEMING_HEIR_ROCK_DIE</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_SCHEMING_HEIR_DEATH</zValue>\n\t\t\t<zValue />\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_SCHEMING_HEIR_DROWN_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_SCHEMING_HEIR_DROWN_DIE</zType>\n\t\t<Text>TEXT_EVENTOPTION_SCHEMING_HEIR_DROWN_DIE</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_SCHEMING_HEIR_DEATH</zValue>\n\t\t\t<zValue />\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_SCHEMING_HEIR_WOLVES_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_SCHEMING_HEIR_WOLVES_DIE</zType>\n\t\t<Text>TEXT_EVENTOPTION_SCHEMING_HEIR_WOLVES_DIE</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_SCHEMING_HEIR_DEATH</zValue>\n\t\t\t<zValue />\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_SCHEMING_HEIR_MOB_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_SCHEMING_HEIR_MOB_DIE</zType>\n\t\t<Text>TEXT_EVENTOPTION_SCHEMING_HEIR_MOB_DIE</Text>\n\t\t<HelpText>TEXT_EVENTOPTION_SCHEMING_HEIR_MOB_DIE_HELP</HelpText>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_SCHEMING_HEIR_DEATH</zValue>\n\t\t\t<zValue />\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_SCHEMING_HEIR_VISIT_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_SCHEMING_HEIR_VISIT_DIE</zType>\n\t\t<Text>TEXT_EVENTOPTION_SCHEMING_HEIR_VISIT_DIE</Text>\n\t\t<HelpText>TEXT_EVENTOPTION_SCHEMING_HEIR_VISIT_DIE_HELP</HelpText>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_SCHEMING_HEIR_DEATH</zValue>\n\t\t\t<zValue>BONUS_XP_CHARACTER_LARGE</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption.xml",
+          "type": "EVENTOPTION_SCHEMING_HEIR_FIRE_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_SCHEMING_HEIR_FIRE_DIE</zType>\n\t\t<Text>TEXT_EVENTOPTION_SCHEMING_HEIR_FIRE_DIE</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_SCHEMING_HEIR_DEATH</zValue>\n\t\t\t<zValue />\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-wd.xml",
+          "type": "EVENTSTORY_THE_BLADE_FALLS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_THE_BLADE_FALLS</zType>\n\t\t<GameContentRequired>WONDERS_DYNASTIES</GameContentRequired>\n\t\t<Name>TEXT_EVENTSTORY_THE_BLADE_FALLS_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_THE_BLADE_FALLS</Text>\n\t\t<zBackgroundName>Dagger_Assasin</zBackgroundName>\n\t\t<zEventURL>https://en.wikipedia.org/wiki/Agrippina_the_Younger#Death_and_aftermath</zEventURL>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_WEARY_TRAVELER</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_AGRIPPINA</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_NERO</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_SUSPICIOUS_OF_LEADER</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_THE_BLADE_FALLS_OPTION_0</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iMinTurns>15</iMinTurns>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_SCHEMING_HEIR_ONE_CLUB_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_SCHEMING_HEIR_ONE_CLUB_DIE</zType>\n\t\t<Name>TEXT_EVENTSTORY_SCHEMING_HEIR_ONE_CLUB_DIE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_SCHEMING_HEIR_ONE_CLUB_DIE</Text>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_OMINOUS_ENCOUNTER</zAudioTrigger>\n\t\t<zAuthor>David Ballantyne</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_HEIR_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRepeatTurns>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>-1</Second>\n\t\t\t</Pair>\n\t\t</SubjectRepeatTurns>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_SCHEMER</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_SCHEMING_HEIR_CLUB_DIE</zValue>\n\t\t</aeOptions>\n\t\t<iImageSubject>1</iImageSubject>\n\t\t<EventLinkPrereq>EVENTLINK_SCHEMING_HEIR_CLUB</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>40</iRepeatTurns>\n\t\t<aiMortalitySkipProb>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>MORTALITY_LONG</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t</aiMortalitySkipProb>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_SCHEMING_HEIR_ONE_STAB_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_SCHEMING_HEIR_ONE_STAB_DIE</zType>\n\t\t<Name>TEXT_EVENTSTORY_SCHEMING_HEIR_ONE_STAB_DIE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_SCHEMING_HEIR_ONE_STAB_DIE</Text>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_OMINOUS_ENCOUNTER</zAudioTrigger>\n\t\t<zAuthor>David Ballantyne</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_HEIR_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRepeatTurns>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>-1</Second>\n\t\t\t</Pair>\n\t\t</SubjectRepeatTurns>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_SCHEMER</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_SCHEMING_HEIR_STAB_DIE</zValue>\n\t\t</aeOptions>\n\t\t<iImageSubject>1</iImageSubject>\n\t\t<EventLinkPrereq>EVENTLINK_SCHEMING_HEIR_STAB</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>40</iRepeatTurns>\n\t\t<aiMortalitySkipProb>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>MORTALITY_LONG</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t</aiMortalitySkipProb>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_SCHEMING_HEIR_ONE_SHOT_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_SCHEMING_HEIR_ONE_SHOT_DIE</zType>\n\t\t<Name>TEXT_EVENTSTORY_SCHEMING_HEIR_ONE_SHOT_DIE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_SCHEMING_HEIR_ONE_SHOT_DIE</Text>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_OMINOUS_ENCOUNTER</zAudioTrigger>\n\t\t<zAuthor>David Ballantyne</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_HEIR_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRepeatTurns>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>-1</Second>\n\t\t\t</Pair>\n\t\t</SubjectRepeatTurns>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_SCHEMER</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_SCHEMING_HEIR_SHOT_DIE</zValue>\n\t\t</aeOptions>\n\t\t<iImageSubject>1</iImageSubject>\n\t\t<EventLinkPrereq>EVENTLINK_SCHEMING_HEIR_SHOT</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>40</iRepeatTurns>\n\t\t<aiMortalitySkipProb>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>MORTALITY_REALISTIC</zIndex>\n\t\t\t\t<iValue>20</iValue>\n\t\t\t</Pair>\n\t\t</aiMortalitySkipProb>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_SCHEMING_HEIR_ONE_POISON_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_SCHEMING_HEIR_ONE_POISON_DIE</zType>\n\t\t<Name>TEXT_EVENTSTORY_SCHEMING_HEIR_ONE_POISON_DIE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_SCHEMING_HEIR_ONE_POISON_DIE</Text>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_OMINOUS_ENCOUNTER</zAudioTrigger>\n\t\t<zAuthor>David Ballantyne</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_HEIR_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRepeatTurns>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>-1</Second>\n\t\t\t</Pair>\n\t\t</SubjectRepeatTurns>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_SCHEMER</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_SCHEMING_HEIR_POISON_DIE</zValue>\n\t\t</aeOptions>\n\t\t<iImageSubject>1</iImageSubject>\n\t\t<EventLinkPrereq>EVENTLINK_SCHEMING_HEIR_POISONED</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>40</iRepeatTurns>\n\t\t<aiMortalitySkipProb>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>MORTALITY_LONG</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t</aiMortalitySkipProb>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_SCHEMING_HEIR_ONE_SNAKES_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_SCHEMING_HEIR_ONE_SNAKES_DIE</zType>\n\t\t<Name>TEXT_EVENTSTORY_SCHEMING_HEIR_ONE_SNAKES_DIE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_SCHEMING_HEIR_ONE_SNAKES_DIE</Text>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_OMINOUS_ENCOUNTER</zAudioTrigger>\n\t\t<zAuthor>David Ballantyne</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_HEIR_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRepeatTurns>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>-1</Second>\n\t\t\t</Pair>\n\t\t</SubjectRepeatTurns>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_SCHEMER</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_SCHEMING_HEIR_SNAKES_DIE</zValue>\n\t\t</aeOptions>\n\t\t<iImageSubject>1</iImageSubject>\n\t\t<EventLinkPrereq>EVENTLINK_SCHEMING_HEIR_SNAKES</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>40</iRepeatTurns>\n\t\t<aiMortalitySkipProb>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>MORTALITY_LONG</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t</aiMortalitySkipProb>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_SCHEMING_HEIR_ONE_STRANGLED_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_SCHEMING_HEIR_ONE_STRANGLED_DIE</zType>\n\t\t<Name>TEXT_EVENTSTORY_SCHEMING_HEIR_ONE_STRANGLED_DIE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_SCHEMING_HEIR_ONE_STRANGLED_DIE</Text>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_OMINOUS_ENCOUNTER</zAudioTrigger>\n\t\t<zAuthor>David Ballantyne</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_HEIR_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRepeatTurns>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>-1</Second>\n\t\t\t</Pair>\n\t\t</SubjectRepeatTurns>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_SCHEMER</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_SCHEMING_HEIR_STRANGLED_DIE</zValue>\n\t\t</aeOptions>\n\t\t<iImageSubject>1</iImageSubject>\n\t\t<EventLinkPrereq>EVENTLINK_SCHEMING_HEIR_STRANGLED</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>40</iRepeatTurns>\n\t\t<aiMortalitySkipProb>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>MORTALITY_LONG</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t</aiMortalitySkipProb>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_SCHEMING_HEIR_TWO_BALCONY_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_SCHEMING_HEIR_TWO_BALCONY_DIE</zType>\n\t\t<Name>TEXT_EVENTSTORY_SCHEMING_HEIR_ONE_BALCONY_DIE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_SCHEMING_HEIR_ONE_BALCONY_DIE</Text>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_OMINOUS_ENCOUNTER</zAudioTrigger>\n\t\t<zAuthor>David Ballantyne</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_HEIR_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRepeatTurns>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>-1</Second>\n\t\t\t</Pair>\n\t\t</SubjectRepeatTurns>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_SCHEMER</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_SURVIVED_HEIR_ONE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_SCHEMING_HEIR_BALCONY_DIE</zValue>\n\t\t</aeOptions>\n\t\t<EventLinkPrereq>EVENTLINK_SCHEMING_HEIR_BALCONY</EventLinkPrereq>\n\t\t<iWeight>2</iWeight>\n\t\t<iRepeatTurns>40</iRepeatTurns>\n\t\t<aiMortalitySkipProb>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>MORTALITY_LONG</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t</aiMortalitySkipProb>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_SCHEMING_HEIR_TWO_SPIKES_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_SCHEMING_HEIR_TWO_SPIKES_DIE</zType>\n\t\t<Name>TEXT_EVENTSTORY_SCHEMING_HEIR_TWO_SPIKES_DIE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_SCHEMING_HEIR_TWO_SPIKES_DIE</Text>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_OMINOUS_ENCOUNTER</zAudioTrigger>\n\t\t<zAuthor>David Ballantyne</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_HEIR_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRepeatTurns>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>-1</Second>\n\t\t\t</Pair>\n\t\t</SubjectRepeatTurns>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_SCHEMER</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_SURVIVED_HEIR_ONE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_SCHEMING_HEIR_SPIKES_DIE</zValue>\n\t\t</aeOptions>\n\t\t<EventLinkPrereq>EVENTLINK_SCHEMING_HEIR_SPIKES</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>40</iRepeatTurns>\n\t\t<aiMortalitySkipProb>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>MORTALITY_LONG</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t</aiMortalitySkipProb>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_SCHEMING_HEIR_TWO_ROCK_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_SCHEMING_HEIR_TWO_ROCK_DIE</zType>\n\t\t<Name>TEXT_EVENTSTORY_SCHEMING_HEIR_TWO_ROCK_DIE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_SCHEMING_HEIR_TWO_ROCK_DIE</Text>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_OMINOUS_ENCOUNTER</zAudioTrigger>\n\t\t<zAuthor>David Ballantyne</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_HEIR_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRepeatTurns>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>-1</Second>\n\t\t\t</Pair>\n\t\t</SubjectRepeatTurns>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_SCHEMER</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_SURVIVED_HEIR_ONE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_SCHEMING_HEIR_ROCK_DIE</zValue>\n\t\t</aeOptions>\n\t\t<EventLinkPrereq>EVENTLINK_SCHEMING_HEIR_ROCK</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>40</iRepeatTurns>\n\t\t<aiMortalitySkipProb>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>MORTALITY_LONG</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t</aiMortalitySkipProb>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_SCHEMING_HEIR_TWO_DROWN_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_SCHEMING_HEIR_TWO_DROWN_DIE</zType>\n\t\t<Name>TEXT_EVENTSTORY_SCHEMING_HEIR_TWO_DROWN_DIE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_SCHEMING_HEIR_TWO_DROWN_DIE</Text>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_OMINOUS_ENCOUNTER</zAudioTrigger>\n\t\t<zAuthor>David Ballantyne</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_HEIR_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRepeatTurns>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>-1</Second>\n\t\t\t</Pair>\n\t\t</SubjectRepeatTurns>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_SCHEMER</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_SURVIVED_HEIR_ONE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_SCHEMING_HEIR_DROWN_DIE</zValue>\n\t\t</aeOptions>\n\t\t<EventLinkPrereq>EVENTLINK_SCHEMING_HEIR_DROWN</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>40</iRepeatTurns>\n\t\t<aiMortalitySkipProb>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>MORTALITY_LONG</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t</aiMortalitySkipProb>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_SCHEMING_HEIR_TWO_WOLVES_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_SCHEMING_HEIR_TWO_WOLVES_DIE</zType>\n\t\t<Name>TEXT_EVENTSTORY_SCHEMING_HEIR_TWO_WOLVES_DIE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_SCHEMING_HEIR_TWO_WOLVES_DIE</Text>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_OMINOUS_ENCOUNTER</zAudioTrigger>\n\t\t<zAuthor>David Ballantyne</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_HEIR_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRepeatTurns>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>-1</Second>\n\t\t\t</Pair>\n\t\t</SubjectRepeatTurns>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_SCHEMER</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_SURVIVED_HEIR_ONE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_SCHEMING_HEIR_WOLVES_DIE</zValue>\n\t\t</aeOptions>\n\t\t<EventLinkPrereq>EVENTLINK_SCHEMING_HEIR_WOLVES</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>40</iRepeatTurns>\n\t\t<aiMortalitySkipProb>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>MORTALITY_LONG</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t</aiMortalitySkipProb>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_SCHEMING_HEIR_THREE_MOB_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_SCHEMING_HEIR_THREE_MOB_DIE</zType>\n\t\t<Name>TEXT_EVENTSTORY_SCHEMING_HEIR_TWO_MOB_DIE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_SCHEMING_HEIR_TWO_MOB_DIE</Text>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_OMINOUS_ENCOUNTER</zAudioTrigger>\n\t\t<zAuthor>David Ballantyne</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_HEIR_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRepeatTurns>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>-1</Second>\n\t\t\t</Pair>\n\t\t</SubjectRepeatTurns>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_SCHEMER</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_SURVIVED_HEIR_TWO</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_SCHEMING_HEIR_MOB_DIE</zValue>\n\t\t</aeOptions>\n\t\t<EventLinkPrereq>EVENTLINK_SCHEMING_HEIR_MOB</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>40</iRepeatTurns>\n\t\t<aiMortalitySkipProb>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>MORTALITY_LONG</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t</aiMortalitySkipProb>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_SCHEMING_HEIR_FOUR_VISIT_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_SCHEMING_HEIR_FOUR_VISIT_DIE</zType>\n\t\t<Name>TEXT_EVENTSTORY_SCHEMING_HEIR_FOUR_VISIT_DIE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_SCHEMING_HEIR_FOUR_VISIT_DIE</Text>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_OMINOUS_ENCOUNTER</zAudioTrigger>\n\t\t<zAuthor>David Ballantyne</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_HEIR_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRepeatTurns>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>-1</Second>\n\t\t\t</Pair>\n\t\t</SubjectRepeatTurns>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_SCHEMER</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_SURVIVED_HEIR_THREE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectAny>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_NOT_DESCENDANT_OF_LEADER_US</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_FURIOUS</Second>\n\t\t\t</Pair>\n\t\t</SubjectAny>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_SCHEMING_HEIR_VISIT_DIE</zValue>\n\t\t</aeOptions>\n\t\t<EventLinkPrereq>EVENTLINK_SCHEMING_HEIR_VISIT</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>40</iRepeatTurns>\n\t\t<aiMortalitySkipProb>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>MORTALITY_LONG</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t</aiMortalitySkipProb>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_SCHEMING_HEIR_THREE_FIRE_DIE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_SCHEMING_HEIR_THREE_FIRE_DIE</zType>\n\t\t<Name>TEXT_EVENTSTORY_SCHEMING_HEIR_THREE_FIRE_DIE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_SCHEMING_HEIR_THREE_FIRE_DIE</Text>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_OMINOUS_ENCOUNTER</zAudioTrigger>\n\t\t<zAuthor>David Ballantyne</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_HEIR_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectRepeatTurns>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>-1</Second>\n\t\t\t</Pair>\n\t\t</SubjectRepeatTurns>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_SCHEMER</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_SURVIVED_HEIR_TWO</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_SCHEMING_HEIR_FIRE_DIE</zValue>\n\t\t</aeOptions>\n\t\t<EventLinkPrereq>EVENTLINK_SCHEMING_HEIR_FIRE</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>40</iRepeatTurns>\n\t\t<aiMortalitySkipProb>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>MORTALITY_LONG</zIndex>\n\t\t\t\t<iValue>50</iValue>\n\t\t\t</Pair>\n\t\t</aiMortalitySkipProb>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a130",
+      "apiName": "ACHIEVEMENT_FAMILY_FURIOUS",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_FAMILY_FURIOUS",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_FAMILY_FURIOUS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_FAMILY_FURIOUS_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_FAMILY_FURIOUS</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_FAMILY_FURIOUS",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_FAMILY_FURIOUS</zType>\n\t\t<Achievement>ACHIEVEMENT_FAMILY_FURIOUS</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_FAMILY_FURIOUS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_FAMILY_FURIOUS</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_FAMILY_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_FAMILY_MAX_FURIOUS</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_FAMILY_FURIOUS</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a175",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_JACKPOT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_BEHIND_THE_THRONE_JACKPOT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_BEHIND_THE_THRONE_JACKPOT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_BEHIND_THE_THRONE_JACKPOT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_BEHIND_THE_THRONE_JACKPOT</HelpText>\n\t\t<IconName>ACHIEVEMENT_MISSION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-btt.xml",
+          "type": "BONUS_GAMBLE_REWARD",
+          "xml": "<Entry>\n\t\t<zType>BONUS_GAMBLE_REWARD</zType>\n\t\t<Achievement>ACHIEVEMENT_BEHIND_THE_THRONE_JACKPOT</Achievement>\n\t\t<aiGlobalYieldsBase>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_MONEY</zIndex>\n\t\t\t\t<iValue>390</iValue>\n\t\t\t</Pair>\n\t\t</aiGlobalYieldsBase>\n\t\t<aiGlobalYieldsPer>\n\t\t\t<Pair>\n\t\t\t\t<zIndex>YIELD_MONEY</zIndex>\n\t\t\t\t<iValue>10</iValue>\n\t\t\t</Pair>\n\t\t</aiGlobalYieldsPer>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/bonus-event-btt.xml",
+          "type": "BONUS_GAMBLE_PAYOUT",
+          "xml": "<Entry>\n\t\t<zType>BONUS_GAMBLE_PAYOUT</zType>\n\t\t<Achievement>ACHIEVEMENT_BEHIND_THE_THRONE_JACKPOT</Achievement>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_MONEY_GAIN_HUGE</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/bonus-event-btt.xml",
+          "type": "BONUS_GAMBLE_ACHIEVEMENT_WIN",
+          "xml": "<Entry>\n\t\t<zType>BONUS_GAMBLE_ACHIEVEMENT_WIN</zType>\n\t\t<Achievement>ACHIEVEMENT_BEHIND_THE_THRONE_JACKPOT</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-btt.xml",
+          "type": "EVENTSTORY_WHILE_YOU_ARE_AHEAD",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_WHILE_YOU_ARE_AHEAD</zType>\n\t\t<GameContentRequired>EVENTPACK_SCANDAL</GameContentRequired>\n\t\t<Name>TEXT_EVENTSTORY_WHILE_YOU_ARE_AHEAD_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_WHILE_YOU_ARE_AHEAD</Text>\n\t\t<zBackgroundName>Greed</zBackgroundName>\n\t\t<zFrameType>FRAME_SCANDAL</zFrameType>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_ENCOURAGING_SITES</zAudioTrigger>\n\t\t<zAuthor>Jeri Roys</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_GAMBLE_PAYOUT</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_WHILE_YOU_ARE_AHEAD_YES</zValue>\n\t\t\t<zValue>EVENTOPTION_WHILE_YOU_ARE_AHEAD_NO</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_MISSION_FINISHED</Trigger>\n\t\t<TriggerData>MISSIONRESULT_GAMBLE_EVENT</TriggerData>\n\t\t<iImageSubject>0</iImageSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-btt.xml",
+          "type": "EVENTSTORY_ODDS_AND_ENDS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ODDS_AND_ENDS</zType>\n\t\t<GameContentRequired>EVENTPACK_SCANDAL</GameContentRequired>\n\t\t<Name>TEXT_EVENTSTORY_ODDS_AND_ENDS_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_ODDS_AND_ENDS</Text>\n\t\t<zFrameType>FRAME_SCANDAL</zFrameType>\n\t\t<zAuthor>Jeri Roys</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_TRIBE_PEACE_OR_TRUCE</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_THE_ORPHAN_EATER</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>3</First>\n\t\t\t\t<Second>SUBJECT_NOT_PLAYER_CHARACTER</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECTRELATION_TRIBE_SAME</Second>\n\t\t\t\t<Third>3</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_GAMBLE_ACHIEVEMENT_WIN</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ODDS_AND_ENDS_OPTION_0</zValue>\n\t\t\t<zValue>EVENTOPTION_ODDS_AND_ENDS_OPTION_1</zValue>\n\t\t\t<zValue>EVENTOPTION_ODDS_AND_ENDS_OPTION_2</zValue>\n\t\t</aeOptions>\n\t\t<iImageSubject>1</iImageSubject>\n\t\t<iImageExtra>3</iImageExtra>\n\t\t<EventLinkPrereq>EVENTLINK_UNREADABLE_ROLL</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>0</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a251",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_OPULENCE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_BEHIND_THE_THRONE_OPULENCE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_BEHIND_THE_THRONE_OPULENCE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_BEHIND_THE_THRONE_OPULENCE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_BEHIND_THE_THRONE_OPULENCE</HelpText>\n\t\t<IconName>ACHIEVEMENT_NATION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-btt.xml",
+          "type": "BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_OPULENCE",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_OPULENCE</zType>\n\t\t<Achievement>ACHIEVEMENT_BEHIND_THE_THRONE_OPULENCE</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-btt.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_BEHIND_THE_THRONE_OPULENCE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_BEHIND_THE_THRONE_OPULENCE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Jeri Roys</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>2</First>\n\t\t\t\t<Second>SUBJECT_EXTRAVAGANT</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_OPULENCE</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PRODUCTION_PROJECT</Trigger>\n\t\t<TriggerData>PROJECT_LAVISH_LIFESTYLE</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a181",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_MYTHICAL_BEAST",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_SACRED_PROFANE_MYTHICAL_BEAST",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_SACRED_PROFANE_MYTHICAL_BEAST</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_SACRED_PROFANE_MYTHICAL_BEAST_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_SACRED_PROFANE_MYTHICAL_BEAST</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-sap.xml",
+          "type": "BONUS_FELLING_A_MYTH_ACHIEVEMENT",
+          "xml": "<Entry>\n\t\t<zType>BONUS_FELLING_A_MYTH_ACHIEVEMENT</zType>\n\t\t<Achievement>ACHIEVEMENT_SACRED_PROFANE_MYTHICAL_BEAST</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-sap.xml",
+          "type": "EVENTSTORY_FELLING_A_MYTH",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_FELLING_A_MYTH</zType>\n\t\t<GameContentRequired>EVENTPACK_RELIGION</GameContentRequired>\n\t\t<Name>TEXT_EVENTSTORY_FELLING_A_MYTH_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_FELLING_A_MYTH</Text>\n\t\t<zFrameType>FRAME_RELIGION</zFrameType>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_SUDDEN_CONFRONTATION</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_UNIT_US</zValue>\n\t\t\t<zValue>SUBJECT_TILE</zValue>\n\t\t\t<zValue>SUBJECT_RESOURCE</zValue>\n\t\t\t<zValue>SUBJECT_RELIGION_PLAYER</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t</aeSubjects>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue />\n\t\t\t<zValue />\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_FELLING_A_MYTH_ACHIEVEMENT</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_FELLING_A_MYTH_OPTION_0</zValue>\n\t\t\t<zValue>EVENTOPTION_FELLING_A_MYTH_OPTION_1</zValue>\n\t\t\t<zValue>EVENTOPTION_FELLING_A_MYTH_OPTION_2</zValue>\n\t\t</aeOptions>\n\t\t<EventLinkPrereq>EVENTLINK_ELUDED_BY_THE_BEAST</EventLinkPrereq>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>0</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a186",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_DEPOSE_TRIBE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_SACRED_PROFANE_DEPOSE_TRIBE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_SACRED_PROFANE_DEPOSE_TRIBE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_SACRED_PROFANE_DEPOSE_TRIBE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_SACRED_PROFANE_DEPOSE_TRIBE</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-sap.xml",
+          "type": "BONUS_UPSTART_DRUID_ACHIEVEMENT",
+          "xml": "<Entry>\n\t\t<zType>BONUS_UPSTART_DRUID_ACHIEVEMENT</zType>\n\t\t<Achievement>ACHIEVEMENT_SACRED_PROFANE_DEPOSE_TRIBE</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventOption-sap.xml",
+          "type": "EVENTOPTION_UPSTART_DRUID_OPTION_0",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_UPSTART_DRUID_OPTION_0</zType>\n\t\t<Text>TEXT_EVENTOPTION_UPSTART_DRUID_OPTION_0</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_KILL_CHARACTER</zValue>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_EVENTOPTION_UPSTART_DRUID_OPTION_0_CHARACTER_1</zValue>\n\t\t\t<zValue>BONUS_UPSTART_DRUID_ACHIEVEMENT</zValue>\n\t\t</aeBonuses>\n\t\t<LeaderSubject>SUBJECT_SCHEMER</LeaderSubject>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption-sap.xml",
+          "type": "EVENTOPTION_UPSTART_DRUID_OPTION_1",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_UPSTART_DRUID_OPTION_1</zType>\n\t\t<Text>TEXT_EVENTOPTION_UPSTART_DRUID_OPTION_1</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_EVENTOPTION_UPSTART_DRUID_OPTION_1_TRIBE</zValue>\n\t\t\t<zValue>BONUS_GIVE_TRAIT_FUGITIVE</zValue>\n\t\t\t<zValue>BONUS_TRIBE_RAID</zValue>\n\t\t\t<zValue>BONUS_EVENTOPTION_UPSTART_DRUID_OPTION_1_CHARACTER_1</zValue>\n\t\t\t<zValue>BONUS_UPSTART_DRUID_ACHIEVEMENT</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-sap.xml",
+          "type": "EVENTSTORY_UPSTART_DRUID",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_UPSTART_DRUID</zType>\n\t\t<GameContentRequired>EVENTPACK_RELIGION</GameContentRequired>\n\t\t<Name>TEXT_EVENTSTORY_UPSTART_DRUID_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_UPSTART_DRUID</Text>\n\t\t<zBackgroundName>BarbarianTruce</zBackgroundName>\n\t\t<zFrameType>FRAME_RELIGION</zFrameType>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_WEARY_TRAVELER</zAudioTrigger>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_TRIBE_NO_RELIGION</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_TRIBE</zValue>\n\t\t\t<zValue>SUBJECT_TILE_TRIBE_IMPROVEMENT</zValue>\n\t\t\t<zValue>SUBJECT_COURTIER_MINISTER_TEMP</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_TRIBE_PEACE_OR_TRUCE</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_IMPIOUS</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECTRELATION_TRIBE_SAME</Second>\n\t\t\t\t<Third>1</Third>\n\t\t\t</Triple>\n\t\t\t<Triple>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECTRELATION_TRIBE_SAME</Second>\n\t\t\t\t<Third>2</Third>\n\t\t\t</Triple>\n\t\t\t<Triple>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECTRELATION_TRIBE_SAME</Second>\n\t\t\t\t<Third>3</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_UPSTART_DRUID_OPTION_0</zValue>\n\t\t\t<zValue>EVENTOPTION_UPSTART_DRUID_OPTION_1</zValue>\n\t\t\t<zValue>EVENTOPTION_UPSTART_DRUID_OPTION_2</zValue>\n\t\t</aeOptions>\n\t\t<Class>EVENTCLASS_EP_RELIGION</Class>\n\t\t<iImageSubject>1</iImageSubject>\n\t\t<iImageExtra>3</iImageExtra>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a221",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_PRAGMATIST",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_BEHIND_THE_THRONE_PRAGMATIST",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_BEHIND_THE_THRONE_PRAGMATIST</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_BEHIND_THE_THRONE_PRAGMATIST_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_BEHIND_THE_THRONE_PRAGMATIST</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-btt.xml",
+          "type": "BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_PRAGMATIST",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_PRAGMATIST</zType>\n\t\t<Achievement>ACHIEVEMENT_BEHIND_THE_THRONE_PRAGMATIST</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventOption-btt.xml",
+          "type": "EVENTOPTION_PLAYER_WAR_DECLARE_CLIENT_STATE_OPTION_0",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_PLAYER_WAR_DECLARE_CLIENT_STATE_OPTION_0</zType>\n\t\t<Text>TEXT_EVENTOPTION_PLAYER_WAR_DECLARE_CLIENT_STATE_OPTION_0</Text>\n\t\t<zIcon>icon(DIPLOMACY_ALLIANCE)</zIcon>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_VIZIER_ALLIANCE</zValue>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_PRAGMATIST</zValue>\n\t\t\t<zValue>BONUS_MAKE_GRAND_VIZIER</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-btt.xml",
+          "type": "EVENTSTORY_PLAYER_WAR_DECLARE_CLIENT_STATE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_PLAYER_WAR_DECLARE_CLIENT_STATE</zType>\n\t\t<GameContentRequired>EVENTPACK_SCANDAL</GameContentRequired>\n\t\t<Name>TEXT_EVENTSTORY_PLAYER_WAR_DECLARE_CLIENT_STATE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_PLAYER_WAR_DECLARE_CLIENT_STATE</Text>\n\t\t<zBackgroundName>Apadana</zBackgroundName>\n\t\t<zFrameType>FRAME_SCANDAL</zFrameType>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_TO_WAR</zAudioTrigger>\n\t\t<zAuthor>Jeri Roys</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_MAX_DISTANT</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_SPECIAL_AMBASSADOR</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_MIN_STRONGER</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectNotExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_HIGHEST_VP</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>4</First>\n\t\t\t\t<Second>SUBJECT_CITY_WITH_GOVERNOR</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>5</First>\n\t\t\t\t<Second>SUBJECT_CITY_WITH_GOVERNOR</Second>\n\t\t\t</Pair>\n\t\t</SubjectNotExtras>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECTRELATION_NATION_SAME</Second>\n\t\t\t\t<Third>2</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_PLAYER_WAR_DECLARE_CLIENT_STATE_OPTION_0</zValue>\n\t\t\t<zValue>EVENTOPTION_PLAYER_WAR_DECLARE_CLIENT_STATE_OPTION_1</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_WAR_DECLARE</Trigger>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iImageSubject>2</iImageSubject>\n\t\t<iLookAtSubject>0</iLookAtSubject>\n\t\t<iSortOrder>6</iSortOrder>\n\t\t<CouncilInvalid>COUNCIL_GRAND_VIZIER</CouncilInvalid>\n\t\t<iPriority>1</iPriority>\n\t\t<iWeight>4</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidePrereqs>1</bHidePrereqs>\n\t\t<aeGameOptionInvalid>\n\t\t\t<zValue>GAMEOPTION_COMPETITIVE_EVENTS</zValue>\n\t\t</aeGameOptionInvalid>\n\t\t<aeEventStoryRepeatTurns>\n\t\t\t<zValue>EVENTSTORY_PLAYER_WAR_DECLARE_CLIENT_STATE</zValue>\n\t\t\t<zValue>EVENTSTORY_PLAYER_WAR_OFFER_CLIENT_STATE</zValue>\n\t\t</aeEventStoryRepeatTurns>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-btt.xml",
+          "type": "EVENTSTORY_PLAYER_WAR_OFFER_CLIENT_STATE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_PLAYER_WAR_OFFER_CLIENT_STATE</zType>\n\t\t<GameContentRequired>EVENTPACK_SCANDAL</GameContentRequired>\n\t\t<Name>TEXT_EVENTSTORY_PLAYER_WAR_DECLARE_CLIENT_STATE_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_PLAYER_WAR_DECLARE_CLIENT_STATE</Text>\n\t\t<zBackgroundName>Apadana</zBackgroundName>\n\t\t<zFrameType>FRAME_SCANDAL</zFrameType>\n\t\t<zAudioTrigger>AUDIO_UI_EVENT_TO_WAR</zAudioTrigger>\n\t\t<zAuthor>Jeri Roys</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_MAX_DISTANT</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_SPECIAL_AMBASSADOR</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t\t<zValue>SUBJECT_CITY_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_MIN_STRONGER</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectNotExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_HIGHEST_VP</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>4</First>\n\t\t\t\t<Second>SUBJECT_CITY_WITH_GOVERNOR</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>5</First>\n\t\t\t\t<Second>SUBJECT_CITY_WITH_GOVERNOR</Second>\n\t\t\t</Pair>\n\t\t</SubjectNotExtras>\n\t\t<SubjectRelations>\n\t\t\t<Triple>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECTRELATION_NATION_SAME</Second>\n\t\t\t\t<Third>2</Third>\n\t\t\t</Triple>\n\t\t</SubjectRelations>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_PLAYER_WAR_DECLARE_CLIENT_STATE_OPTION_0</zValue>\n\t\t\t<zValue>EVENTOPTION_PLAYER_WAR_DECLARE_CLIENT_STATE_OPTION_1</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_PLAYER_WAR_OFFER</Trigger>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iImageSubject>2</iImageSubject>\n\t\t<iLookAtSubject>0</iLookAtSubject>\n\t\t<iSortOrder>6</iSortOrder>\n\t\t<CouncilInvalid>COUNCIL_GRAND_VIZIER</CouncilInvalid>\n\t\t<iPriority>1</iPriority>\n\t\t<iWeight>4</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidePrereqs>1</bHidePrereqs>\n\t\t<aeGameOptionInvalid>\n\t\t\t<zValue>GAMEOPTION_COMPETITIVE_EVENTS</zValue>\n\t\t</aeGameOptionInvalid>\n\t\t<aeEventStoryRepeatTurns>\n\t\t\t<zValue>EVENTSTORY_PLAYER_WAR_DECLARE_CLIENT_STATE</zValue>\n\t\t\t<zValue>EVENTSTORY_PLAYER_WAR_OFFER_CLIENT_STATE</zValue>\n\t\t</aeEventStoryRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a048",
+      "apiName": "ACHIEVEMENT_BEHIND_THE_THRONE_REFORMER",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_BEHIND_THE_THRONE_REFORMER",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_BEHIND_THE_THRONE_REFORMER</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_BEHIND_THE_THRONE_REFORMER_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_BEHIND_THE_THRONE_JACKPOT</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-btt.xml",
+          "type": "BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_REFORMER",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_REFORMER</zType>\n\t\t<Achievement>ACHIEVEMENT_BEHIND_THE_THRONE_REFORMER</Achievement>\n\t</Entry>\n"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventOption-btt.xml",
+          "type": "EVENTOPTION_REFORMS_COMPLETED_GUILDS",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_REFORMS_COMPLETED_GUILDS</zType>\n\t\t<Text>TEXT_EVENTOPTION_REFORMS_COMPLETED_GUILDS</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_REFORMER</zValue>\n\t\t\t<zValue>BONUS_FREE_LAW_GUILDS</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption-btt.xml",
+          "type": "EVENTOPTION_REFORMS_COMPLETED_AUTARKY",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_REFORMS_COMPLETED_AUTARKY</zType>\n\t\t<Text>TEXT_EVENTOPTION_REFORMS_COMPLETED_AUTARKY</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_REFORMER</zValue>\n\t\t\t<zValue>BONUS_FREE_LAW_AUTARKY</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption-btt.xml",
+          "type": "EVENTOPTION_REFORMS_COMPLETED_ELITES",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_REFORMS_COMPLETED_ELITES</zType>\n\t\t<Text>TEXT_EVENTOPTION_REFORMS_COMPLETED_ELITES</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_REFORMER</zValue>\n\t\t\t<zValue>BONUS_FREE_LAW_ELITES</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption-btt.xml",
+          "type": "EVENTOPTION_REFORMS_COMPLETED_TRADE_LEAGUE",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_REFORMS_COMPLETED_TRADE_LEAGUE</zType>\n\t\t<Text>TEXT_EVENTOPTION_REFORMS_COMPLETED_TRADE_LEAGUE</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_REFORMER</zValue>\n\t\t\t<zValue>BONUS_FREE_LAW_TRADE_LEAGUE</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption-btt.xml",
+          "type": "EVENTOPTION_REFORMS_COMPLETED_COIN_DEBASEMENT",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_REFORMS_COMPLETED_COIN_DEBASEMENT</zType>\n\t\t<Text>TEXT_EVENTOPTION_REFORMS_COMPLETED_COIN_DEBASEMENT</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_REFORMER</zValue>\n\t\t\t<zValue>BONUS_FREE_LAW_COIN_DEBASEMENT</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption-btt.xml",
+          "type": "EVENTOPTION_REFORMS_COMPLETED_MONETARY_REFORM",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_REFORMS_COMPLETED_MONETARY_REFORM</zType>\n\t\t<Text>TEXT_EVENTOPTION_REFORMS_COMPLETED_MONETARY_REFORM</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_REFORMER</zValue>\n\t\t\t<zValue>BONUS_FREE_LAW_MONETARY_REFORM</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventOption-btt.xml",
+          "type": "EVENTOPTION_RESISTANCE_TO_REFORM_YES",
+          "xml": "<Entry>\n\t\t<zType>EVENTOPTION_RESISTANCE_TO_REFORM_YES</zType>\n\t\t<Text>TEXT_EVENTOPTION_RESISTANCE_TO_REFORM_YES</Text>\n\t\t<aeBonuses>\n\t\t\t<zValue />\n\t\t\t<zValue>BONUS_ORDERS_LOSS_AVERAGE</zValue>\n\t\t\t<zValue>BONUS_CIVICS_LOSS_AVERAGE</zValue>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_BEHIND_THE_THRONE_REFORMER</zValue>\n\t\t\t<zValue>BONUS_FREE_LAW</zValue>\n\t\t</aeBonuses>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-btt.xml",
+          "type": "EVENTSTORY_RESISTANCE_TO_REFORM",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_RESISTANCE_TO_REFORM</zType>\n\t\t<GameContentRequired>EVENTPACK_SCANDAL</GameContentRequired>\n\t\t<Name>TEXT_EVENTSTORY_RESISTANCE_TO_REFORM_TITLE</Name>\n\t\t<Text>TEXT_EVENTSTORY_RESISTANCE_TO_REFORM</Text>\n\t\t<zBackgroundName>discontent</zBackgroundName>\n\t\t<zFrameType>FRAME_SCANDAL</zFrameType>\n\t\t<zAuthor>Jeri Roys</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_OCCURRENCE_ERA_OF_REFORMS</zValue>\n\t\t\t<zValue>SUBJECT_LEADER_US</zValue>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_LAW</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>3</First>\n\t\t\t\t<Second>SUBJECT_GRAND_VIZIER</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<SubjectNotExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>4</First>\n\t\t\t\t<Second>SUBJECT_LAW_PRIMOGENITURE</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>4</First>\n\t\t\t\t<Second>SUBJECT_LAW_ULTIMOGENITURE</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>4</First>\n\t\t\t\t<Second>SUBJECT_LAW_LATERAL</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>4</First>\n\t\t\t\t<Second>SUBJECT_LAW_DYNASTIC</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>4</First>\n\t\t\t\t<Second>SUBJECT_LAW_SENIORITY</Second>\n\t\t\t</Pair>\n\t\t</SubjectNotExtras>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_RESISTANCE_TO_REFORM_YES</zValue>\n\t\t\t<zValue>EVENTOPTION_RESISTANCE_TO_REFORM_NO</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_OCCURRENCE_END</Trigger>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iImageSubject>3</iImageSubject>\n\t\t<iSortOrder>4</iSortOrder>\n\t\t<EventLinkPrereq>EVENTLINK_STARTED_ERA_OF_REFORMS</EventLinkPrereq>\n\t\t<aiEventLinkSubjects>\n\t\t\t<iValue>-1</iValue>\n\t\t\t<iValue>-1</iValue>\n\t\t\t<iValue>-1</iValue>\n\t\t\t<iValue>0</iValue>\n\t\t</aiEventLinkSubjects>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>10</iRepeatTurns>\n\t\t<bHidePrereqs>1</bHidePrereqs>\n\t\t<aeEventStoryRepeatTurns>\n\t\t\t<zValue>EVENTSTORY_REFORMS_DISRUPTED</zValue>\n\t\t\t<zValue>EVENTSTORY_REFORMS_DISRUPTED_DEAD</zValue>\n\t\t</aeEventStoryRepeatTurns>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a010",
+      "apiName": "ACHIEVEMENT_JUNGLE_OUT_THERE",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_JUNGLE_OUT_THERE",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_JUNGLE_OUT_THERE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_JUNGLE_OUT_THERE_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_JUNGLE_OUT_THERE</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-eoti.xml",
+          "type": "BONUS_ACHIEVEMENT_JUNGLE_OUT_THERE",
+          "xml": "<Entry>\n        <zType>BONUS_ACHIEVEMENT_JUNGLE_OUT_THERE</zType>\n        <Achievement>ACHIEVEMENT_JUNGLE_OUT_THERE</Achievement>\n    </Entry>\n    \n    "
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-eoti.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_JUNGLE_OUT_THERE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_JUNGLE_OUT_THERE</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_TILE</Type>\n\t\t\t</Subject>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_UNIT_US</Type>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_JUNGLE_OUT_THERE</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_VEGETATION_CUT</Trigger>\n\t\t<TriggerData>VEGETATION_JUNGLE</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iTriggerExtra>1</iTriggerExtra>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a231",
+      "apiName": "ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA</HelpText>\n\t\t<IconName>ACHIEVEMENT_MISSION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-sap.xml",
+          "type": "BONUS_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA</zType>\n\t\t<Achievement>ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-sap.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA_WISDOM",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA_WISDOM</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_HYPATIA</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_MISSION_FINISHED</Trigger>\n\t\t<TriggerData>MISSIONRESULT_TUTOR_WISDOM</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iTriggerExtra>1</iTriggerExtra>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-sap.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA_CHARISMA",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA_CHARISMA</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_HYPATIA</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_MISSION_FINISHED</Trigger>\n\t\t<TriggerData>MISSIONRESULT_TUTOR_CHARISMA</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iTriggerExtra>1</iTriggerExtra>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-sap.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA_COURAGE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA_COURAGE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_HYPATIA</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_MISSION_FINISHED</Trigger>\n\t\t<TriggerData>MISSIONRESULT_TUTOR_COURAGE</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iTriggerExtra>1</iTriggerExtra>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-sap.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA_DISCIPLINE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA_DISCIPLINE</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_HYPATIA</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_MISSION_FINISHED</Trigger>\n\t\t<TriggerData>MISSIONRESULT_TUTOR_DISCIPLINE</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iTriggerExtra>1</iTriggerExtra>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-sap.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA_EVENT",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA_EVENT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t\t<zValue>SUBJECT_CHARACTER_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_CHARACTER_HYPATIA</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_SACRED_PROFANE_TUTOR_HYPATIA</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_MISSION_FINISHED</Trigger>\n\t\t<TriggerData>MISSIONRESULT_TUTOR_EVENT</TriggerData>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iTriggerExtra>1</iTriggerExtra>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a406",
+      "apiName": "ACHIEVEMENT_WRATH_OF_GODS_PLAYING_FAVORITES",
+      "achievementRecords": [],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a274",
+      "apiName": "ACHIEVEMENT_DHARMIC_HEARTLAND",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_DHARMIC_HEARTLAND",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_DHARMIC_HEARTLAND</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_DHARMIC_HEARTLAND_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_DHARMIC_HEARTLAND</HelpText>\n\t\t<IconName>ACHIEVEMENT_RELIGION</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-eoti.xml",
+          "type": "BONUS_ACHIEVEMENT_DHARMIC_HEARTLAND",
+          "xml": "<Entry>\n        <zType>BONUS_ACHIEVEMENT_DHARMIC_HEARTLAND</zType>\n        <Achievement>ACHIEVEMENT_DHARMIC_HEARTLAND</Achievement>\n    </Entry>\n    "
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-eoti.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_DHARMIC_HEARTLAND",
+          "xml": "<Entry> \n\t    <zType>EVENTSTORY_ACHIEVEMENT_DHARMIC_HEARTLAND</zType>\n\t    <GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t    <zAuthor>Josh Unsworth</zAuthor>\n\t    <Subjects>\n\t        <Subject alias=\"city1\">\n\t            <Type>SUBJECT_CITY_US</Type>\n\t        </Subject>\n\t        <Subject alias=\"religion1\">\n\t            <Type>SUBJECT_RELIGION</Type>\n\t\t\t\t<Any>SUBJECT_RELIGION_BUDDHISM</Any>\n\t\t\t\t<Any>SUBJECT_RELIGION_HINDUISM</Any>\n\t        </Subject>\n\t\t\t<Subject alias=\"religion2\">\n\t\t\t\t<Type>SUBJECT_RELIGION</Type>\n\t\t\t\t<Any>SUBJECT_RELIGION_BUDDHISM</Any>\n\t\t\t\t<Any>SUBJECT_RELIGION_HINDUISM</Any>\n\t\t\t\t<Relations>\n\t\t\t\t\t<Relation>\n\t\t\t\t\t\t<Type>SUBJECTRELATION_RELIGION_DIFF</Type>\n\t\t\t\t\t\t<Target>religion1</Target>\n\t\t\t\t\t</Relation>\n\t\t\t\t</Relations>\n\t\t\t</Subject>\n\t        <Subject alias=\"city2\">\n\t            <Type>SUBJECT_CITY_US</Type>\n\t            <Relations>\n\t                <Relation>\n\t                    <Type>SUBJECTRELATION_RELIGION_HOLY_CITY</Type>\n\t                    <Target>religion2</Target>\n\t                </Relation>\n\t            </Relations>\n\t        </Subject>\n\t    </Subjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_DHARMIC_HEARTLAND</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t    <Trigger>EVENTTRIGGER_RELIGION_FOUNDED_US</Trigger>\n\t    <iTriggerSubject>0</iTriggerSubject>\n\t    <iTriggerExtra>1</iTriggerExtra>\n\t    <iWeight>1</iWeight>\n\t    <iRepeatTurns>-1</iRepeatTurns>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-eoti.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_DHARMIC_HEARTLAND_SAME",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_DHARMIC_HEARTLAND_SAME</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject alias=\"city1\">\n\t\t\t\t<Type>SUBJECT_CITY_US</Type>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"religion1\">\n\t\t\t\t<Type>SUBJECT_RELIGION</Type>\n\t\t\t\t<Any>SUBJECT_RELIGION_BUDDHISM</Any>\n\t\t\t\t<Any>SUBJECT_RELIGION_HINDUISM</Any>\n\t\t\t</Subject>\n\t\t\t<Subject alias=\"religion2\">\n\t\t\t\t<Type>SUBJECT_RELIGION</Type>\n\t\t\t\t<Any>SUBJECT_RELIGION_BUDDHISM</Any>\n\t\t\t\t<Any>SUBJECT_RELIGION_HINDUISM</Any>\n\t\t\t\t<Relations>\n\t\t\t\t\t<Relation>\n\t\t\t\t\t\t<Type>SUBJECTRELATION_RELIGION_DIFF</Type>\n\t\t\t\t\t\t<Target>religion1</Target>\n\t\t\t\t\t</Relation>\n\t\t\t\t\t<Relation>\n\t\t\t\t\t\t<Type>SUBJECTRELATION_RELIGION_HOLY_CITY</Type>\n\t\t\t\t\t\t<Target>city1</Target>\n\t\t\t\t\t</Relation>\n\t\t\t\t</Relations>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_DHARMIC_HEARTLAND</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_RELIGION_FOUNDED_US</Trigger>\n\t\t<iTriggerSubject>0</iTriggerSubject>\n\t\t<iTriggerExtra>1</iTriggerExtra>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a404",
+      "apiName": "ACHIEVEMENT_WRATH_OF_GODS",
+      "achievementRecords": [],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a285",
+      "apiName": "ACHIEVEMENT_LAND_OF_LUXURY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_LAND_OF_LUXURY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_LAND_OF_LUXURY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_LAND_OF_LUXURY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_LAND_OF_LUXURY</HelpText>\n\t\t<IconName>ACHIEVEMENT_LEADER</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-eoti.xml",
+          "type": "BONUS_ACHIEVEMENT_LAND_OF_LUXURY",
+          "xml": "<Entry>\n        <zType>BONUS_ACHIEVEMENT_LAND_OF_LUXURY</zType>\n        <Achievement>ACHIEVEMENT_LAND_OF_LUXURY</Achievement>\n    </Entry>\n    "
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-eoti.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_LAND_OF_LUXURY",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_LAND_OF_LUXURY</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_TILE_CLAIMED_US</Type>\n\t\t\t\t<Extra>SUBJECT_TILE_JADE</Extra>\n\t\t\t</Subject>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_TILE_CLAIMED_US</Type>\n\t\t\t\t<Extra>SUBJECT_TILE_SILK</Extra>\n\t\t\t</Subject>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_TILE_CLAIMED_US</Type>\n\t\t\t\t<Extra>SUBJECT_TILE_EBONY</Extra>\n\t\t\t</Subject>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_TILE_CLAIMED_US</Type>\n\t\t\t\t<Extra>SUBJECT_TILE_SPICES</Extra>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_LAND_OF_LUXURY</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a352",
+      "apiName": "ACHIEVEMENT_WRATH_OF_GODS_PERFECT_STORM",
+      "achievementRecords": [],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a398",
+      "apiName": "ACHIEVEMENT_ONE_TRUE_KING",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_ONE_TRUE_KING",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_ONE_TRUE_KING</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_ONE_TRUE_KING_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_ONE_TRUE_KING</HelpText>\n\t\t<IconName>ACHIEVEMENT_WIN</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus-event-eoti.xml",
+          "type": "BONUS_ACHIEVEMENT_ONE_TRUE_KING",
+          "xml": "<Entry>\n        <zType>BONUS_ACHIEVEMENT_ONE_TRUE_KING</zType>\n        <Achievement>ACHIEVEMENT_ONE_TRUE_KING</Achievement>\n    </Entry>\n    "
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory-eoti.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_ONE_TRUE_KING_AMBITION",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_ONE_TRUE_KING_AMBITION</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_PLAYER_US</Type>\n\t\t\t\t<Extra>SUBJECT_PLAYER_TAMIL</Extra>\n\t\t\t\t<Extra>SUBJECT_NO_SUPREMACY_CHANGE</Extra>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ONE_TRUE_KING</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_VICTORY_COMPLETED</Trigger>\n\t\t<TriggerData>VICTORY_AMBITION</TriggerData>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-eoti.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_ONE_TRUE_KING_CONQUEST",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_ONE_TRUE_KING_CONQUEST</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_PLAYER_US</Type>\n\t\t\t\t<Extra>SUBJECT_PLAYER_TAMIL</Extra>\n\t\t\t\t<Extra>SUBJECT_NO_SUPREMACY_CHANGE</Extra>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ONE_TRUE_KING</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_VICTORY_COMPLETED</Trigger>\n\t\t<TriggerData>VICTORY_CONQUEST</TriggerData>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-eoti.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_ONE_TRUE_KING_TIME",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_ONE_TRUE_KING_TIME</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_PLAYER_US</Type>\n\t\t\t\t<Extra>SUBJECT_PLAYER_TAMIL</Extra>\n\t\t\t\t<Extra>SUBJECT_NO_SUPREMACY_CHANGE</Extra>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ONE_TRUE_KING</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_VICTORY_COMPLETED</Trigger>\n\t\t<TriggerData>VICTORY_TIME</TriggerData>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-eoti.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_ONE_TRUE_KING_POINTS",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_ONE_TRUE_KING_POINTS</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_PLAYER_US</Type>\n\t\t\t\t<Extra>SUBJECT_PLAYER_TAMIL</Extra>\n\t\t\t\t<Extra>SUBJECT_NO_SUPREMACY_CHANGE</Extra>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ONE_TRUE_KING</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_VICTORY_COMPLETED</Trigger>\n\t\t<TriggerData>VICTORY_POINTS</TriggerData>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-eoti.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_ONE_TRUE_KING_DOUBLE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_ONE_TRUE_KING_DOUBLE</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_PLAYER_US</Type>\n\t\t\t\t<Extra>SUBJECT_PLAYER_TAMIL</Extra>\n\t\t\t\t<Extra>SUBJECT_NO_SUPREMACY_CHANGE</Extra>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ONE_TRUE_KING</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_VICTORY_COMPLETED</Trigger>\n\t\t<TriggerData>VICTORY_DOUBLE</TriggerData>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        },
+        {
+          "file": "Reference/XML/Infos/eventStory-eoti.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_ONE_TRUE_KING_ALLIANCE",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_ONE_TRUE_KING_ALLIANCE</zType>\n\t\t<GameContentRequired>EMPIRES_OF_THE_INDUS</GameContentRequired>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Josh Unsworth</zAuthor>\n\t\t<Subjects>\n\t\t\t<Subject>\n\t\t\t\t<Type>SUBJECT_PLAYER_US</Type>\n\t\t\t\t<Extra>SUBJECT_PLAYER_TAMIL</Extra>\n\t\t\t\t<Extra>SUBJECT_NO_SUPREMACY_CHANGE</Extra>\n\t\t\t</Subject>\n\t\t</Subjects>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ONE_TRUE_KING</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_VICTORY_COMPLETED</Trigger>\n\t\t<TriggerData>VICTORY_ALLIANCE</TriggerData>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bIgnoreTriggerProb>1</bIgnoreTriggerProb>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a286",
+      "apiName": "ACHIEVEMENT_ROMAN_PAPACY",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_ROMAN_PAPACY",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_ROMAN_PAPACY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_ROMAN_PAPACY_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_ROMAN_PAPACY</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [
+        {
+          "file": "Reference/XML/Infos/bonus.xml",
+          "type": "BONUS_ACHIEVEMENT_ROMAN_PAPACY",
+          "xml": "<Entry>\n\t\t<zType>BONUS_ACHIEVEMENT_ROMAN_PAPACY</zType>\n\t\t<Achievement>ACHIEVEMENT_ROMAN_PAPACY</Achievement>\n\t</Entry>\n\t"
+        }
+      ],
+      "eventContexts": [
+        {
+          "file": "Reference/XML/Infos/eventStory.xml",
+          "type": "EVENTSTORY_ACHIEVEMENT_ROMAN_PAPACY",
+          "xml": "<Entry>\n\t\t<zType>EVENTSTORY_ACHIEVEMENT_ROMAN_PAPACY</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_TITLE</Name>\n\t\t<Text>TEXT_ACHIEVEMENT</Text>\n\t\t<zAuthor>Dale Kent</zAuthor>\n\t\t<aeSubjects>\n\t\t\t<zValue>SUBJECT_PLAYER_US</zValue>\n\t\t\t<zValue>SUBJECT_CAPITAL_US</zValue>\n\t\t</aeSubjects>\n\t\t<SubjectExtras>\n\t\t\t<Pair>\n\t\t\t\t<First>0</First>\n\t\t\t\t<Second>SUBJECT_PLAYER_ROME</Second>\n\t\t\t</Pair>\n\t\t\t<Pair>\n\t\t\t\t<First>1</First>\n\t\t\t\t<Second>SUBJECT_CITY_CHRISTIAN_HOLY_SITE</Second>\n\t\t\t</Pair>\n\t\t</SubjectExtras>\n\t\t<aeBonuses>\n\t\t\t<zValue>BONUS_ACHIEVEMENT_ROMAN_PAPACY</zValue>\n\t\t</aeBonuses>\n\t\t<aeOptions>\n\t\t\t<zValue>EVENTOPTION_ACHIEVEMENT</zValue>\n\t\t</aeOptions>\n\t\t<Trigger>EVENTTRIGGER_NEW_TURN</Trigger>\n\t\t<iWeight>1</iWeight>\n\t\t<iRepeatTurns>-1</iRepeatTurns>\n\t\t<bNoCharacters>1</bNoCharacters>\n\t\t<bHidden>1</bHidden>\n\t\t<bMultiples>1</bMultiples>\n\t</Entry>\n\t"
+        }
+      ],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a405",
+      "apiName": "ACHIEVEMENT_WRATH_OF_GODS_DIVINE_DEVOTEE",
+      "achievementRecords": [],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    },
+    {
+      "id": "a343",
+      "apiName": "ACHIEVEMENT_MERCHANTS_LEVANT",
+      "achievementRecords": [
+        {
+          "file": "Reference/XML/Infos/achievement.xml",
+          "type": "ACHIEVEMENT_MERCHANTS_LEVANT",
+          "xml": "<Entry>\n\t\t<zType>ACHIEVEMENT_MERCHANTS_LEVANT</zType>\n\t\t<Name>TEXT_ACHIEVEMENT_MERCHANTS_LEVANT_TITLE</Name>\n\t\t<HelpText>TEXT_ACHIEVEMENT_MERCHANTS_LEVANT</HelpText>\n\t\t<IconName>ACHIEVEMENT_EVENT</IconName>\n\t\t<FamilyClass>FAMILYCLASS_TRADERS</FamilyClass>\n\t\t<aeGameOptions>\n\t\t\t<zValue>GAMEOPTION_ONE_CITY_CHALLENGE</zValue>\n\t\t</aeGameOptions>\n\t</Entry>\n\t"
+        }
+      ],
+      "directAwardRecords": [],
+      "eventContexts": [],
+      "codeHits": [],
+      "status": "source records located; interpret filters and code before claiming verification"
+    }
+  ],
+  "note": "Automated source index; not a gameplay test or complete verification of tactics. Human findings are in the review.",
+  "sharedSourceSha256": {
+    "Reference/Source/Base/Game/GameCore/Game.cs": "6f53b000279d14a9abb58c40269880b2d6385416cf8e4915996957b4417b6367",
+    "Reference/Source/Base/Game/GameCore/Player.cs": "b163e9bab5e496ca787e40e332749e27652bd68abfb896eab6aa1b880b8d3cda",
+    "Reference/Source/Base/Game/GameCore/PlayerGoal.cs": "c54e7b03ec71f2a4d17744ba558f0dcbff51796c44a8af5dcdde6e0889dacd54",
+    "Reference/Source/Base/Game/GameCore/PlayerEvent.cs": "6be1751b6a8fb606088eb1ba812170b6522a539e062c67cbb0bc972be843e356",
+    "Reference/Source/Base/Game/GameCore/Unit.cs": "744b943df9241c05115f0d6cdd03eec7a7dd0784b0689abd85ad5480530d3ad2",
+    "Reference/Source/Base/Game/GameCore/City.cs": "7b1fb548257e66f5407d0f7cf5eb471f06a4bac64dc56d584192d230b5d7badd",
+    "Reference/Source/Base/Game/GameCore/Tile.cs": "08fd9e13065d2a3a1747e45f24d8be2268e68b0ed58ee21666162e654ad273c0",
+    "Reference/Source/Base/Game/GameCore/Character.cs": "0b7c05e8467b30b76b6cbf6ff0dd423d629d8fd75584cc678ea6b0dd1c818419"
+  },
+  "humanFindings": "characters-review.md"
+}

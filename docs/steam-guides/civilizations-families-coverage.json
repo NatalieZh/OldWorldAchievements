@@ -1,7 +1,6 @@
 {
-  "guide": "civilizations-families-draft.md",
-  "achievementCount": 23,
-  "achievementIds": [
+  "count": 23,
+  "ids": [
     "a247",
     "a185",
     "a055",
